@@ -1,0 +1,59 @@
+:root {
+  --primary: #90331C;
+  --white: #ffffff;
+}
+
+
+.custom-bg{
+  background-color:  #FFF3EA;
+
+}
+
+.cusburgericon{
+    top: 27px !important;
+  }
+  
+  a.acuspad{
+    padding: 0px 17px !important;
+  }
+
+  span.acuspad{
+    margin-top: 3px;
+    padding: 15px 41px  !important;
+    cursor: pointer;
+  }
+
+
+  .header .main-menu li a:hover {
+    color: var(--primary) !important;
+}
+
+.btn.btn-default:hover {
+    background-color: var(--primary) !important; 
+}
+
+.header .main-menu li ul {
+
+    min-width: 215px;
+}
+
+
+.banner-hero.banner-2 {
+  background-color: #f2f4f7;
+  
+}
+
+.bg-green-900 {
+  background-color:  #FFF3EA;
+  color: #E29578;
+}
+
+.btn.btn-black {
+
+  background-color:  var(--primary);
+}
+
+
+#scrollUp {
+  background-color: var(--primary);
+}
