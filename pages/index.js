@@ -78,6 +78,7 @@ function Index2() {
                                 </div>
                             </div>
                         </div>
+                        
                     </section>
                     <div className="section-box overflow-visible mt-80">
                         <div className="container">
@@ -88,7 +89,7 @@ function Index2() {
                                 <div className="col-lg-12">
                                     <ul className="list-partners">
                                         <li>
-                                            <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/sample-logo-1.svg" />
+                                            <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/app.png" />
                                             </a></Link>
                                         </li>
                                         <li>
