@@ -14,7 +14,7 @@ function About3() {
     return (
         <>
             <Layout>
-                <section className="section-box">
+                {/* <section className="section-box">
                     <div className="banner-hero bg-about-3">
                         <div className="container">
                             <div className="row">
@@ -25,8 +25,40 @@ function About3() {
                             </div>
                         </div>
                     </div>
-                </section>
-                <div className="section-box mt-40">
+                </section> */}
+                {/* <div className="section-box mt-40">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-1" />
+                            <div className="col-lg-10">
+                                <div className="box-image">
+                                    <a className="popup-youtube btn-play-video btn-play-middle" onClick={() => setOpen(true)}>  </a>
+
+                                    <img className="img-responsive bdrd-16" src="assets/imgs/page/about/3/img.png" alt="Agon" /></div>
+                            </div>
+                            <div className="col-lg-1" />
+                        </div>
+                    </div>
+                </div> */}
+
+
+                <section className="section-box mt-100">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-1 col-sm-1 col-12" />
+                            <div className="col-lg-10 col-sm-10 col-12 text-center">
+                            <div className="text-center mb-20"><span className="tag-1">Blueprint</span></div>
+                                <h2 className="text-heading-1 color-gray-900 mb-10">Blueprint
+Build and implement scalable sales processes for your organization</h2>
+                                <p className="text-body-lead-large color-gray-600 mt-20">Your organization might have several different sales processes in place—like deal closure, lead follow-up, order management, or your discount process. With Blueprints, you can capture every stage of these offline sales processes inside your CRM, and execute them in a systematic manner.</p>
+                            </div>
+                            <div className="col-lg-1 col-sm-1 col-12" />
+                        </div>
+                    </div>
+                    
+                    </section>
+
+                    <div className="section-box mt-40">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-1" />
@@ -40,7 +72,109 @@ function About3() {
                         </div>
                     </div>
                 </div>
+
                 <section className="section-box mt-100">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-1 col-sm-1 col-12" />
+                            <div className="col-lg-10 col-sm-10 col-12 text-center">
+                            <div className="text-center mb-20"><span className="tag-1">Lead Scoring</span></div>
+                                <h2 className="text-heading-1 color-gray-900 mb-10">Separate the buyers from the spyers</h2>
+                                <p className="text-body-lead-large color-gray-600 mt-20">You generate a lot of leads from various sources—social media, surveys, website visits, walk-ins, and trade shows. But, how many of them are likely to make a sale? ShadoBooks CRM's lead scoring system allows you to separate the buyers from the window shoppers by assigning a score to each of their interactions with your organization. All it takes is a glance at the list of scores to get an idea of your leads' buying intentions.</p>
+                            </div>
+                            <div className="col-lg-1 col-sm-1 col-12" />
+                        </div>
+                    </div>
+                    </section>
+
+
+                    <section className="section-box mt-100">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-1 col-sm-1 col-12" />
+                            <div className="col-lg-10 col-sm-10 col-12 text-center">
+                            <div className="text-center mb-20"><span className="tag-1">Approval Process</span></div>
+                                <h2 className="text-heading-1 color-gray-900 mb-10">Automate submission of records for approval</h2>
+                                <p className="text-body-lead-large color-gray-600 mt-20">There are several instances in your business where your sales team needs approval from their senior managers—for example, pricing discount requests, contract review requests, capital expense approvals, vacation time approvals, and document approvals. ShadoBooks CRM offers a dedicated approval management system running behind the scenes to standardize approval processes and save time by creating a dependable, repeatable system. </p>
+                            </div>
+                            <div className="col-lg-1 col-sm-1 col-12" />
+                        </div>
+                    </div>
+                    </section>
+
+
+                    <section className="section-box mt-100">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-1 col-sm-1 col-12" />
+                            <div className="col-lg-10 col-sm-10 col-12 text-center">
+                            <div className="text-center mb-20"><span className="tag-1">Escalation Rules</span></div>
+                                <h2 className="text-heading-1 color-gray-900 mb-10">Escalate cases automatically when they meet your criteria</h2>
+                                <p className="text-body-lead-large color-gray-600 mt-20">If cases aren't being solved quickly, ShadoBooks CRM automatically escalates the overdue cases to the relevant manager or sales rep. You can configure a simple set of rules based on various criteria like priority, case name, or the time at which it was created to govern these actions and manage cases more efficiently.  </p>
+                            </div>
+                            <div className="col-lg-1 col-sm-1 col-12" />
+                        </div>
+                    </div>
+                    </section>
+
+                    <section className="section-box mt-100">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-1 col-sm-1 col-12" />
+                            <div className="col-lg-10 col-sm-10 col-12 text-center">
+                            <div className="text-center mb-20"><span className="tag-1">Review process</span></div>
+                                <h2 className="text-heading-1 color-gray-900 mb-10">Verify and approve data being pushed into your CRM</h2>
+                                <p className="text-body-lead-large color-gray-600 mt-20">The impact of your sales team depends on the quality of information they get from your CRM. Inaccurate or missing information can hurt a sales rep's chances of closing a deal. ShadoBooks CRM helps your organization define a review process where a user or team of your choice can vet incoming information before approving or rejecting it. They can add comments as well as state reasons for rejection to ensure your sales team has access to information of the highest quality.   </p>
+                            </div>
+                            <div className="col-lg-1 col-sm-1 col-12" />
+                        </div>
+                    </div>
+                    </section>
+
+                    <section className="section-box mt-100">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-1 col-sm-1 col-12" />
+                            <div className="col-lg-10 col-sm-10 col-12 text-center">
+                            <div className="text-center mb-20"><span className="tag-1">Validation Rules</span></div>
+                                <h2 className="text-heading-1 color-gray-900 mb-10">Prevent inaccurate data from entering your CRM</h2>
+                                <p className="text-body-lead-large color-gray-600 mt-20">Sales data is the lifeblood of any CRM system and incomplete and inaccurate data is a common problem in most organizations. Validation rules ensure that the data entered by your sales reps meets the standards you specify—for example, you can make sure that every lead entered into your CRM has a mobile number before the sales rep can save the record.   </p>
+                            </div>
+                            <div className="col-lg-1 col-sm-1 col-12" />
+                        </div>
+                    </div>
+                    </section>
+
+                    <section className="section-box mt-100">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-1 col-sm-1 col-12" />
+                            <div className="col-lg-10 col-sm-10 col-12 text-center">
+                            <div className="text-center mb-20"><span className="tag-1">Email Parser</span></div>
+                                <h2 className="text-heading-1 color-gray-900 mb-10">Extract information from incoming emails automatically</h2>
+                                <p className="text-body-lead-large color-gray-600 mt-20">Simplify the process of lead generation by fetching lead data directly from incoming sales enquiry emails.   </p>
+                            </div>
+                            <div className="col-lg-1 col-sm-1 col-12" />
+                        </div>
+                    </div>
+                    </section>
+                    <section className="section-box mt-100">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-1 col-sm-1 col-12" />
+                            <div className="col-lg-10 col-sm-10 col-12 text-center">
+                            <div className="text-center mb-20"><span className="tag-1">Multi-page Layout</span></div>
+                                <h2 className="text-heading-1 color-gray-900 mb-10">Manage multiple sales processes within your CRM</h2>
+                                <p className="text-body-lead-large color-gray-600 mt-20">ShadoBooks CRM allows you to run a separate sales process with its own fields, records, views, workflows, reports, and dashboards. This way, multiple departments in your organization can make use of the software without the need for multiple CRM accounts.  </p>
+                            </div>
+                            <div className="col-lg-1 col-sm-1 col-12" />
+                        </div>
+                    </div>
+                    </section>
+
+
+
+                {/* <section className="section-box mt-100">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-1 col-sm-1 col-12" />
@@ -294,7 +428,7 @@ function About3() {
                     isOpen={isOpen}
                     videoId="7e90gBu4pas"
                     onClose={() => setOpen(false)}
-                />
+                /> */}
             </Layout>
 
         </>

@@ -39,16 +39,16 @@ const Header = ({ handleOpen, headerStyle }) => {
                                                     <Link href="/analytics"><a><i className="fi fi-rr-star" />Analytics</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/page-about-2"><a><i className="fi fi-rr-star" />Automated Marketing</a></Link>
+                                                    <Link href="/Automation"><a><i className="fi fi-rr-star" />Automated Marketing</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/page-about-3"><a><i className="fi fi-rr-star" />Mobile App</a></Link>
+                                                    <Link href="/#"><a><i className="fi fi-rr-star" />Mobile App</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/page-about-3"><a><i className="fi fi-rr-star" />Process Management</a></Link>
+                                                    <Link href="/process-management"><a><i className="fi fi-rr-star" />Process Management</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/page-about-3"><a><i className="fi fi-rr-star" />Customization</a></Link>
+                                                    <Link href="customization"><a><i className="fi fi-rr-star" />Customization</a></Link>
                                                 </li>
                                             </ul>
                                         </li>
@@ -73,36 +73,36 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             <Link href="#"><a className="acuspad">Resources</a></Link>
                                             <ul className="sub-menu">
                                                 <li>
-                                                    <Link href="/blog-1"><a className="closer"><i className="fi fi-rr-edit" />Videos</a></Link>
+                                                    <Link href="/#"><a className="closer"><i className="fi fi-rr-edit" />Videos</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/blog-2"><a className="closer"><i className="fi fi-rr-edit" />FAQs</a></Link>
+                                                    <Link href="/#"><a className="closer"><i className="fi fi-rr-edit" />FAQs</a></Link>
                                                 </li>
                                                 
                                                 <li>
-                                                    <Link href="/blog-single"><a><i className="fi fi-rr-document-signed" />Documentation</a></Link>
+                                                    <Link href="/#"><a><i className="fi fi-rr-document-signed" />Documentation</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/blog-single"><a><i className="fi fi-rr-document-signed" />Support Portal </a></Link>
+                                                    <Link href="/#"><a><i className="fi fi-rr-document-signed" />Support Portal </a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/blog-single"><a><i className="fi fi-rr-document-signed" />CRM Tips</a></Link>
+                                                    <Link href="/#"><a><i className="fi fi-rr-document-signed" />CRM Tips</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/blog-single"><a><i className="fi fi-rr-document-signed" />Guided Tour</a></Link>
+                                                    <Link href="/#"><a><i className="fi fi-rr-document-signed" />Guided Tour</a></Link>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li className="has-children">
                                             <a href="#" className="acuspad">Solutions</a>
                                             <ul className="sub-menu">
-                                                <li><Link href="/page-shop-grid-1"><a className="closer"><i className="fi fi-rr-edit"></i>IT & Support</a></Link></li>
-                                                <li><Link href="/page-shop-grid-2"><a className="closer"><i className="fi fi-rr-edit"></i>OIL & GAS</a></Link></li>
-                                                <li><Link href="/shop/1"><a className="closer"><i className="fi fi-rr-edit"></i>Manufacturing</a></Link></li>
-                                                <li><Link href="/shop/1"><a className="closer"><i className="fi fi-rr-edit"></i>Retail & Wholesalers</a></Link></li>
-                                                <li><Link href="/shop/1"><a className="closer"><i className="fi fi-rr-edit"></i>Hiring Agencies</a></Link></li>
-                                                <li><Link href="/shop/1"><a className="closer"><i className="fi fi-rr-edit"></i>Leads</a></Link></li>
-                                                <li><Link href="/shop/1"><a className="closer"><i className="fi fi-rr-edit"></i>Marketing</a></Link></li>
+                                                <li><Link href="/#"><a className="closer"><i className="fi fi-rr-edit"></i>IT & Support</a></Link></li>
+                                                <li><Link href="/#"><a className="closer"><i className="fi fi-rr-edit"></i>OIL & GAS</a></Link></li>
+                                                <li><Link href="/#"><a className="closer"><i className="fi fi-rr-edit"></i>Manufacturing</a></Link></li>
+                                                <li><Link href="/#"><a className="closer"><i className="fi fi-rr-edit"></i>Retail & Wholesalers</a></Link></li>
+                                                <li><Link href="/#"><a className="closer"><i className="fi fi-rr-edit"></i>Hiring Agencies</a></Link></li>
+                                                <li><Link href="/#"><a className="closer"><i className="fi fi-rr-edit"></i>Leads</a></Link></li>
+                                                <li><Link href="/#"><a className="closer"><i className="fi fi-rr-edit"></i>Marketing</a></Link></li>
                                             </ul>
                                         </li>
                                     </ul>

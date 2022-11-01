@@ -72,7 +72,7 @@ function Index2() {
                                             <div className="block-2 shape-3">
                                                 <img src="/assets/imgs/page/homepage2/payment new.png" alt="Agon" />
                                             </div>
-                                            <img className="img-responsive shape-1" alt="Agon" src="assets/imgs/page/homepage2/banner.png" />
+                                            <img className="img-responsive shape-1" alt="Agon" src="assets/imgs/page/homepage2/bannernew.png" />
                                         </div>
                                     </div>
                                 </div>
