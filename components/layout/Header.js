@@ -96,13 +96,13 @@ const Header = ({ handleOpen, headerStyle }) => {
                                         <li className="has-children">
                                             <a href="#" className="acuspad">Solutions</a>
                                             <ul className="sub-menu">
-                                                <li><Link href="/#"><a className="closer"><i className="fi fi-rr-edit"></i>IT & Support</a></Link></li>
-                                                <li><Link href="/#"><a className="closer"><i className="fi fi-rr-edit"></i>OIL & GAS</a></Link></li>
-                                                <li><Link href="/#"><a className="closer"><i className="fi fi-rr-edit"></i>Manufacturing</a></Link></li>
-                                                <li><Link href="/#"><a className="closer"><i className="fi fi-rr-edit"></i>Retail & Wholesalers</a></Link></li>
-                                                <li><Link href="/#"><a className="closer"><i className="fi fi-rr-edit"></i>Hiring Agencies</a></Link></li>
-                                                <li><Link href="/#"><a className="closer"><i className="fi fi-rr-edit"></i>Leads</a></Link></li>
-                                                <li><Link href="/#"><a className="closer"><i className="fi fi-rr-edit"></i>Marketing</a></Link></li>
+                                                <li><Link href="/itsupport"><a className="closer"><i className="fi fi-rr-edit"></i>IT & Support</a></Link></li>
+                                                <li><Link href="/index-2"><a className="closer"><i className="fi fi-rr-edit"></i>OIL & GAS</a></Link></li>
+                                                <li><Link href="/index-3"><a className="closer"><i className="fi fi-rr-edit"></i>Manufacturing</a></Link></li>
+                                                <li><Link href="/index-4"><a className="closer"><i className="fi fi-rr-edit"></i>Retail & Wholesalers</a></Link></li>
+                                                <li><Link href="/index-5"><a className="closer"><i className="fi fi-rr-edit"></i>Hiring Agencies</a></Link></li>
+                                                <li><Link href="/index-6"><a className="closer"><i className="fi fi-rr-edit"></i>Leads</a></Link></li>
+                                                <li><Link href="/index-7"><a className="closer"><i className="fi fi-rr-edit"></i>Marketing</a></Link></li>
                                             </ul>
                                         </li>
                                     </ul>

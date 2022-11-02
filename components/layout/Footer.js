@@ -25,9 +25,14 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-lg-3 width-20 mb-30">
                             <h4 className="text-heading-5">Contact</h4>
-                            <div className="mt-20 text-body-text color-gray-600 mb-20">4517 Washington Ave. Manchester, Kentucky 39495</div>
-                            <div className="mt-20 text-body-text color-gray-600">(239) 555-0108</div>
-                            <div className="text-body-text color-gray-600">contact@agon.com</div>
+                            <div className="mt-20 text-body-text color-gray-600 mb-20">Office 903, 9th floor, Damas
+Building, Al Maktoum Road, Dubai,
+UAE
+</div>
+<div className="mt-20 text-body-text color-gray-600">Kattathurai,Tamil Nadu, India</div>
+                            <div className="mt-20 text-body-text color-gray-600">+971 52 922 7590</div>
+                            <div className="text-body-text color-gray-600">steward@shadobooks.com</div>
+
                         </div>
                         <div className="col-lg-3 width-20 mb-30">
                             <h4 className="text-heading-5">About Us</h4>
@@ -108,7 +113,7 @@ const Footer = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/#">
+                                    <Link href="/page-faqs-2">
                                         <a>Editor Help</a>
                                     </Link>
                                 </li>

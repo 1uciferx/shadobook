@@ -96,3 +96,16 @@
   color: var(--Secondary) !important; 
 }
 
+.text-body-quote {
+  font-family: "Noto Sans",sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.card-grid-style-2.card-square {
+  border-radius: 0px;
+  padding: 30px;
+  
+}
+

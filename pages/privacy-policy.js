@@ -22,78 +22,35 @@ function Privacypolicy() {
                       <ul>
                         <li>
                           <Link href="#section-1">
-                            <a>Declaration</a>
+                            <a>Data Collection Sources</a>
                           </Link>
                         </li>
                         <li>
                           <Link href="#section-2">
-                            <a>Definitions</a>
+                            <a>Data Utilization Purposes</a>
                           </Link>
                         </li>
                         <li>
                           <Link href="#section-3">
-                            <a>Account creation and service description</a>
+                            <a>Data Disclosure</a>
                           </Link>
                         </li>
                         <li>
                           <Link href="#section-4">
-                            <a>Limitation of liabilities</a>
+                            <a>Data Subject’s Right</a>
                           </Link>
                         </li>
                         <li>
                           <Link href="#section-5">
-                            <a>Application ownership</a>
+                            <a>Revision rights</a>
                           </Link>
                         </li>
                         <li>
                           <Link href="#section-6">
-                            <a>Software modification restrictions</a>
+                            <a>Privacy Compliance</a>
                           </Link>
                         </li>
-                        <li>
-                          <Link href="#section-7">
-                            <a>Third-party integrated applications</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="#section-8">
-                            <a>Usage limitation & acceptable use</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="#section-9">
-                            <a>Payment terms</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="#section-10">
-                            <a>Service termination</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="#section-11">
-                            <a>Cancellation policy</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="#section-12">
-                            <a>Confidentiality</a>
-                          </Link>
-                        </li>
-
-                        <li>
-                        <Link href="#section-13">
-                            <a>Trial package terms of use</a>
-                        </Link>
-                        </li>
-
-                          <li>
-                            <Link href="#section-14">
-                              <a>
-                                Terms of service updates and modification rights
-                              </a>
-                            </Link>
-                          </li>
+                       
 
                       </ul>
                     </div>
@@ -112,33 +69,33 @@ function Privacypolicy() {
 
                       <section className="section-box mt-50 mb-50">
                         <div className="container text-center">
-                        <h1 className="text-heading-4">Data Collection Sources</h1>
+                        <h1 className="text-heading-4" id="section-1">Data Collection Sources</h1>
                          </div>
                     </section>
 
 
-                      <h6 className="mt-35 mb-25" id="section-2">
+                      <h6 className="mt-35 mb-25" >
                       1. Website cookies
                       </h6>
                       <p>
                       Through information gathering cookies, we collect your browser information including the type and the language, your IP address,  tracking URLs through which you have reached our side which might include an email, an internet ad or a referral site, your action on our website which includes the number of pages you have viewed, the links you’ve clicked and you overall session period.
                       </p>
 
-                      <h6 className="mt-35 mb-25" id="section-3">
+                      <h6 className="mt-35 mb-25" >
                         2. Form Fields for information collection
                       </h6>
                       <p>
                       When you reach to us with your information to understand more about our services, you’re likely to submit a form with your contact details. You may also give us your information through third-party sources including social media ads that are utilized for lead generation purposes or from other partner/ affiliate programs. The information that we collect through all these activity includes your first and last name, your email address, your location, your country, your phone number including the extension that applies for your country, your job title, your organization name, the number of employees that work under you, your gender and your birthday. 
                       </p>
 
-                      <h6 className="mt-35 mb-25" id="section-4">
+                      <h6 className="mt-35 mb-25" >
                         3. Subscription Information
                       </h6>
                       <p>
                       After your free trial, if you opt for purchasing our services, you’ll be subscribing to it through our website payment gateway. We’ll avail your billing details which includes credit card/ debit card numbers and their expiry dates. This also includes other third-party sites that you use for billing purposes. You’ll be reaching this page only after you manually agree to the check box of our terms and conditions.
                       </p>
 
-                      <h6 className="mt-35 mb-25" id="section-5">
+                      <h6 className="mt-35 mb-25">
                         4. Website integrated communications
                       </h6>
                       <p>
@@ -147,25 +104,25 @@ function Privacypolicy() {
 
                       <section className="section-box mt-50 mb-50">
                         <div className="container text-center">
-                        <h1 className="text-heading-4">Data Utilization Purposes</h1>
+                        <h1 className="text-heading-4"  id="section-2">Data Utilization Purposes</h1>
                          </div>
                     </section>
 
-                      <h6 className="mt-35 mb-25" id="section-6">
+                      <h6 className="mt-35 mb-25">
                        1. For marketing purposes
                       </h6>
                       <p>
                       Through the collection of your personal information and your browsing data with us, we put forth our products and services that might be of interest to you through email communications or by third-party ads. We will also provide you with an unsubscribe option for our newsletter or our promotions for you to opt out at any point.
                       </p>
 
-                      <h6 className="mt-35 mb-25" id="section-7">
+                      <h6 className="mt-35 mb-25">
                         2. For establishing communication
                       </h6>
                       <p>
                       If you have established an interest with us by submitting your information through a form, we’ll call you to proceed with the sales cycle. We’ll be responding to your comments, questions and queries that you have through these follow-up communications and provide value without spamming you. We will also be responding the requests from your end through the same channels that you originally get in touch with us.
                       </p>
 
-                      <h6 className="mt-35 mb-25" id="section-8">
+                      <h6 className="mt-35 mb-25" >
                         3. For improving our website
                       </h6>
                       <p>
@@ -174,7 +131,7 @@ function Privacypolicy() {
                         We also use the information that you provide us for testimonials and are likely to upload it on our website to improve our credibility for the new users after your consent for the same. We may also use these testimonials for promotional purposes. 
                       </p>
 
-                      <h6 className="mt-35 mb-25" id="section-9">
+                      <h6 className="mt-35 mb-25" >
                         4. For processing your payments
                       </h6>
                       <p>
@@ -184,7 +141,7 @@ function Privacypolicy() {
 
                       <section className="section-box mt-50 mb-50">
                         <div className="container text-center">
-                        <h1 className="text-heading-4">Data Disclosure</h1>
+                        <h1 className="text-heading-4" id="section-3">Data Disclosure</h1>
                          </div>
                     </section>
 
@@ -192,14 +149,14 @@ function Privacypolicy() {
 
 
 
-                      <h6 className="mt-35 mb-25" id="section-10">
+                      <h6 className="mt-35 mb-25" >
                        1. To service providers 
                       </h6>
                       <p>
                       We work with third party service providers who gave form to our website, our CRM application development, our website hosting and our domain. They might have access to a part of your information that are absolutely necessary as they perform our functions. Our contract although has them accountable for not misusing any of these disclosed data.
                       </p>
 
-                      <h6 className="mt-35 mb-25" id="section-11">
+                      <h6 className="mt-35 mb-25" >
                         2. Advertising platforms/ Analytics
                       </h6>
                       <p>
@@ -210,7 +167,7 @@ function Privacypolicy() {
 
                       <section className="section-box mt-50 mb-50">
                         <div className="container text-center">
-                        <h1 className="text-heading-4">Data Subject’s Right</h1>
+                        <h1 className="text-heading-4" id="section-4">Data Subject’s Right</h1>
                          </div>
                     </section>
                      
@@ -223,7 +180,7 @@ function Privacypolicy() {
                       
                       <section className="section-box mt-50 mb-50">
                         <div className="container text-center">
-                        <h1 className="text-heading-4">Revision rights</h1>
+                        <h1 className="text-heading-4" id="section-5">Revision rights</h1>
                          </div>
                     </section>
 
@@ -233,7 +190,7 @@ function Privacypolicy() {
 
                       <section className="section-box mt-50 mb-50">
                         <div className="container text-center">
-                        <h1 className="text-heading-4">Privacy Compliance</h1>
+                        <h1 className="text-heading-4" id="section-6">Privacy Compliance</h1>
                          </div>
                     </section>
                       <p>
