@@ -12,11 +12,11 @@ function Service1() {
           <div className="banner-hero bg-service-1">
             <div className="container">
               <div className="row">
-                <div className="col-lg-7 box-banner-left">
-                  <h1 className="text-display-3 mt-30">
+                <div className="col-lg-6 box-banner-left">
+                  <h1 className="text-display-3 mt-95">
                     Get the best CRM for IT and Support services from ShadoBook
                   </h1>
-                  <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
+                  <p className="text-body-lead-medium color-gray-500 mt-40 pr-40">
                   With the help of ShadoBook CRM's extensive analytics, you can keep track of every stage of your sales cycle,from lead analysis to deal insights, activity data, and email analysis. Create dashboards exclusively yours by utilizing analytical widgets for sales, such as charts, goal meters, KPIs, and funnels. yours by utilizing analytical widgets for sales, such as charts, goal meters, KPIs, and funnels. 
                     
                   </p>
@@ -33,52 +33,9 @@ function Service1() {
                       </a>
                     </Link>
                   </div>
-                  <div className="row mt-50">
-                    <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-                      <div className="list-icons">
-                        <div className="item-icon none-bd">
-                          <span className="icon-left">
-                            <img
-                              src="/assets/imgs/page/about/2/icon-project-done.svg"
-                              alt="Agon"
-                            />
-                          </span>
-                          <h4 className="text-heading-4">
-                            <span className="text-heading-3 color-green-900">
-                              +<span className="count">12</span>k
-                            </span>
-                          </h4>
-                          <p className="text-body-text color-gray-500">
-                            Projects done
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-                      <div className="list-icons">
-                        <div className="list-icons">
-                          <div className="item-icon none-bd">
-                            <span className="icon-left">
-                              <img
-                                src="/assets/imgs/page/about/2/icon-officer.svg"
-                                alt="Agon"
-                              />
-                            </span>
-                            <h4 className="text-heading-4">
-                              <span className="text-heading-3 color-green-900">
-                                +<span className="count">18</span>
-                              </span>
-                            </h4>
-                            <p className="text-body-text color-gray-500">
-                              Offices / Factories
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+             
                 </div>
-                <div className="col-lg-5 d-none d-lg-block">
+                <div className="col-lg-6 d-none d-lg-block">
                   <div className="banner-imgs">
                     <div className="block-1 shape-2">
                       <img
