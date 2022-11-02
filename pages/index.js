@@ -117,7 +117,7 @@ function Index2() {
                         <a className="item-logo box-hover-shadow hover-up">
                           <img
                             alt="Agon"
-                            src="assets/imgs/slider/logo/bizzmaster.png"
+                            src="assets/imgs/slider/logo/Bizzmaster.png"
                           />
                         </a>
                       </Link>
