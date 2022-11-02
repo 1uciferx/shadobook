@@ -22,20 +22,22 @@ function Customization() {
                     <div className="banner-hero banner-2 bg-about-1">
                         <div className="container">
                             <div className="row">
-                                <div className="col-lg-7"><span className="tag-1 color-orange-900">What We Do, What You Get</span>
+                                <div className="col-lg-6"><span className="tag-1 color-orange-900">What We Do, What You Get</span>
                                     <h1 className="text-display-3 mt-30">Customize ShadoBooks CRM to fit your business</h1>
-                                    <p className="text-body-lead-large color-gray-500 mt-40 pr-40">A truly customizable solution that can be modified as needed to fit your business. Use custom fields, buttons, and layouts to capture various information from your prospects, create custom views, relate information, test customization before rolling out, and even localize the language and currency to fit your users.</p>
+                                    <p className="text-body-lead-medium color-gray-500 mt-40 pr-40">A truly customizable solution that can be modified as needed to fit your business. Use custom fields, buttons, and layouts to capture various information from your prospects, create custom views, relate information, test customization before rolling out, and even localize the language and currency to fit your users.</p>
                                     <div className="mt-40">
-                                        <Link href="/page-service-1"><a className="btn btn-black shape-square icon-arrow-right-white">Join Our Team
+                                        <Link href="/page-service-1"><a className="btn btn-black shape-square icon-arrow-right-white">SIGNUP NOW
                                         </a></Link>
 
                                         <Link href="/page-contact"><a className="btn btn-link color-gray-900 icon-arrow-right text-heading-6">Contact Us
                                         </a></Link>
                                     </div>
                                 </div>
-                                <div className="col-lg-5 d-none d-lg-block">
+                                <div className="col-lg-6 d-none d-lg-block">
                                     <div className="banner-imgs">
-                                        <div className="block-1 shape-1"><img src="/assets/imgs/page/about/1/banner2.png" alt="Agon" /></div><img className="img-responsive shape-2" alt="Agon" src="assets/imgs/page/about/1/banner1.png" />
+                                        {/* <div className="block-1 shape-1"><img src="/assets/imgs/page/about/1/banner2.png" alt="Agon" />
+                                        </div> */}
+                                        <img className="img-responsive shape-2" style={{borderRadius:"30px",height:"70vh"}} alt="Agon" src="assets/imgs/page/about/1/banner9.jpg" />
                                     </div>
                                 </div>
                             </div>

@@ -390,7 +390,7 @@ function Service1() {
                 <div className="inner-image">
                   <img
                     className="bdrd-16 img-responsive"
-                    src="assets/imgs/page/homepage2/img-built.png"
+                    src="assets/imgs/page/homepage3/img-2.png"
                     alt="Agon"
                   />
                   <div className="block-image-bottom">
