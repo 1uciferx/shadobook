@@ -31,7 +31,7 @@ function Accordion() {
                   : "accordion-button text-heading-5 collapsed"
               }
             >
-             What is CRM in IT and Support?
+              What is CRM in IT and Support?
             </button>
           </h2>
           <div
@@ -42,7 +42,11 @@ function Accordion() {
             }
           >
             <div className="accordion-body">
-            A tool known as customer relationship management is used to handle all interactions and relationships between your business and its clients. The goal is straightforward to maintain business connections. CRM systems help companies maintain client contact, facilitate procedures, and increase profitability.
+              A tool known as customer relationship management is used to handle
+              all interactions and relationships between your business and its
+              clients. The goal is straightforward to maintain business
+              connections. CRM systems help companies maintain client contact,
+              facilitate procedures, and increase profitability.
             </div>
           </div>
         </div>
@@ -55,7 +59,7 @@ function Accordion() {
                   : "accordion-button text-heading-5 collapsed"
               }
             >
-             	Why CRM is important IT project?
+              Why CRM is important IT project?
             </button>
           </h2>
           <div
@@ -66,7 +70,10 @@ function Accordion() {
             }
           >
             <div className="accordion-body">
-            CRM is a business strategy, not a technological or software-based solution. CRM has more alters with customer experiences. The company provides by focusing more intently and intelligently on its customers which is more essential for IT and Support services.
+              CRM is a business strategy, not a technological or software-based
+              solution. CRM has more alters with customer experiences. The
+              company provides by focusing more intently and intelligently on
+              its customers which is more essential for IT and Support services.
             </div>
           </div>
         </div>
@@ -79,7 +86,7 @@ function Accordion() {
                   : "accordion-button text-heading-5 collapsed"
               }
             >
-              	What are the three stages of the CRM process?
+              What are the three stages of the CRM process?
             </button>
           </h2>
           <div
@@ -90,7 +97,9 @@ function Accordion() {
             }
           >
             <div className="accordion-body">
-            Three steps are involved in developing a CRM strategy: setting the destination, assessing the current condition, and planning the route to the destination.
+              Three steps are involved in developing a CRM strategy: setting the
+              destination, assessing the current condition, and planning the
+              route to the destination.
             </div>
           </div>
         </div>
@@ -103,10 +112,10 @@ function Accordion() {
                   : "accordion-button text-heading-5 collapsed"
               }
             >
-             	Why does your organization need CRM?
+              Why does your organization need CRM?
             </button>
           </h2>
-          {/* <div
+          <div
             className={
               isActive.key == 4
                 ? "accordion-collapse collapse show"
@@ -114,11 +123,15 @@ function Accordion() {
             }
           >
             <div className="accordion-body">
-            Your sales leads may be sorted, analyzed, and prioritized by a CRM so your sales staff can concentrate on opportunities. This is likely to close and give customers correct responses quickly and effectively, and your customer care team gets the data they need for cross-selling and up-selling.
+              Your sales leads may be sorted, analyzed, and prioritized by a CRM
+              so your sales staff can concentrate on opportunities. This is
+              likely to close and give customers correct responses quickly and
+              effectively, and your customer care team gets the data they need
+              for cross-selling and up-selling.
             </div>
           </div>
         </div>
-        <div className="accordion-item">
+        {/*<div className="accordion-item">
           <h2 className="accordion-header" onClick={() => handleToggle(5)}>
             <button
               className={
@@ -204,7 +217,6 @@ function Accordion() {
               quaestio mea ex. Ex illum officiis id.
             </div>
           </div>*/}
-        </div> 
       </div>
     </>
   );

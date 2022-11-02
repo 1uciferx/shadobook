@@ -202,6 +202,36 @@ function Index2() {
                         </a>
                       </Link>
                     </li>{" "}
+                    <li>
+                      <Link href="/#">
+                        <a className="item-logo box-hover-shadow hover-up">
+                          <img
+                            alt="Agon"
+                            src="assets/imgs/slider/logo/royalblue.png"
+                          />
+                        </a>
+                      </Link>
+                    </li>{" "}
+                    <li>
+                      <Link href="/#">
+                        <a className="item-logo box-hover-shadow hover-up">
+                          <img
+                            alt="Agon"
+                            src="assets/imgs/slider/logo/gold.png"
+                          />
+                        </a>
+                      </Link>
+                    </li>{" "}
+                    <li>
+                      <Link href="/#">
+                        <a className="item-logo box-hover-shadow hover-up">
+                          <img
+                            alt="Agon"
+                            src="assets/imgs/slider/logo/mercury.png"
+                          />
+                        </a>
+                      </Link>
+                    </li>{" "}
                   </ul>
                 </div>
               </div>
@@ -369,7 +399,7 @@ function Index2() {
               <div className="row">
                 <div className="col-lg-4 col-md-12 col-sm-12">
                   <div className="list-icons mt-50">
-                    <div className="item-icon">
+                    
                       <span className="icon-left">
                         <img
                           src="/assets/imgs/page/homepage2/icon-acquis.svg"
@@ -383,10 +413,10 @@ function Index2() {
                       </p>
                     </div>
                   </div>
-                </div>
+              
                 <div className="col-lg-4 col-md-12 col-sm-12">
                   <div className="list-icons mt-50">
-                    <div className="item-icon">
+                   
                       <span className="icon-left">
                         <img
                           src="/assets/imgs/page/homepage2/icon-active.svg"
@@ -402,10 +432,10 @@ function Index2() {
                       </p>
                     </div>
                   </div>
-                </div>
+               
                 <div className="col-lg-4 col-md-12 col-sm-12">
                   <div className="list-icons mt-50">
-                    <div className="item-icon">
+                   
                       <span className="icon-left">
                         <img
                           src="/assets/imgs/page/homepage2/icon-retent.svg"
@@ -420,7 +450,7 @@ function Index2() {
                       </p>
                     </div>
                   </div>
-                </div>
+                
               </div>
             </div>
           </section>

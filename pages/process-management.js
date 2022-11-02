@@ -1,505 +1,629 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
+import dynamic from "next/dynamic";
 import Link from "next/link";
+import { useState } from "react";
+import "react-modal-video/css/modal-video.css";
 import Layout from "../components/layout/Layout";
+const ModalVideo = dynamic(import("react-modal-video"), {
+  ssr: false,
+});
 
-function Process() {
+function About3() {
+  const [isOpen, setOpen] = useState(false);
   return (
     <>
       <Layout>
-        <section className="section-box mt-50 mb-50">
-          <div className="container text-center">
-            <h1 className="text-heading-1">Terms and Conditions</h1>
-          </div>
-        </section>
-        <section className="section-box mt-50">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12 mx-auto">
-                <div className="row">
-                  <div className="col-lg-2">
-                    <div className="table-of-content">
-                      <h6 className="mb-15">Table of content</h6>
-                      <ul>
-                        <li>
-                          <Link href="#section-1">
-                            <a>Declaration</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="#section-2">
-                            <a>Definitions</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="#section-3">
-                            <a>Account creation and service description</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="#section-4">
-                            <a>Limitation of liabilities</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="#section-5">
-                            <a>Application ownership</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="#section-6">
-                            <a>Software modification restrictions</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="#section-7">
-                            <a>Third-party integrated applications</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="#section-8">
-                            <a>Usage limitation & acceptable use</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="#section-9">
-                            <a>Payment terms</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="#section-10">
-                            <a>Service termination</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="#section-11">
-                            <a>Cancellation policy</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="#section-12">
-                            <a>Confidentiality</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="#section-13">
-                            <a>Trial package terms of use</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="#section-14">
-                            <a>
-                              Terms of service updates and modification rights
-                            </a>
-                          </Link>
-                        </li>
-                      </ul>
+        {/* <section className="section-box">
+                    <div className="banner-hero bg-about-3">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-12 text-center">
+                                    <h1 className="text-display-2 color-gray-900">Our Story</h1>
+                                    <p className="text-heading-4 color-gray-600 mt-40">We supply enterprises, organizations and institutes of high-<br className="d-lg-block d-none" />tech industries with modern components. We build long-<br className="d-lg-block d-none" />term trusting relationships with our customers and partnes<br className="d-lg-block d-none" />for further fruitful cooperations.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                  <div className="col-lg-8">
-                    <div className="single-detail">
-                      <img
-                        className="img-responsive bdr-16"
-                        src="assets/imgs/page/blog/single/img-1.png"
-                        alt="Agon"
-                      />
-                      <h6 className="mt-35 mb-25" id="section-1">
-                        Declaration
-                      </h6>
-                      <p>
-                        By using shadobooks ERP platform, be it the trial
-                        version or any of our listed packages, it is explicit
-                        that you are agreeing to all the terms and conditions
-                        mentioned in this document. <br></br>
-                        <br></br>
-                        By browsing, accessing, registering or by otherwise
-                        using the services offered by shadobooks, you
-                        acknowledge to have read, understood and agree to comply
-                        to the mentioned terms of service (in addition to the
-                        website's privacy statement). If you have any
-                        disagreements, refrain from using our platform or
-                        service by any available means.
-                      </p>
-                      <h6 className="mt-35 mb-25" id="section-2">
-                        Definitions
-                      </h6>
-                      <p>
-                        This agreement deals with the shadobooks erp module's
-                        terms of service (henceforth to be called as 'agreement'
-                        or 'terms' or 'conditions') provided to you or the
-                        entity you represent ('you' or 'your' or 'user' or
-                        'customer' hereinafter) by shadobooks (to be referred as
-                        'we' or 'us' or 'our'). Both of the involved members in
-                        question will also be referred to as 'party' hereon.
-                      </p>
+                </section> */}
+        {/* <div className="section-box mt-40">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-1" />
+                            <div className="col-lg-10">
+                                <div className="box-image">
+                                    <a className="popup-youtube btn-play-video btn-play-middle" onClick={() => setOpen(true)}>  </a>
 
-                      <h6 className="mt-35 mb-25" id="section-3">
-                        Account creation and service description
-                      </h6>
-                      <p>
-                        The below-mentioned terms apply to all the services that
-                        are offered by/through the website of shadobooks at
-                        www.shadobooks.com. We also hereby reserve the right to
-                        expand our core business to adjacent ventures and this
-                        agreement will be applicable to even those additional
-                        modules in the future.<br></br>
-                        <br></br>
-                        You may use all our services for either personal or
-                        professional use after you create your account with us.
-                        You can create, edit, or delete content within your
-                        authorized account or personal profile space and we
-                        reserve the right to do the same on all other segments
-                        of our website at any point in time.<br></br>
-                        <br></br>
-                        While creating your account with us, you check off the
-                        mandatory box that states that you agree to the terms of
-                        service we offer and you acknowledge the same all
-                        through your usage with our application.
-                      </p>
-
-                      <h6 className="mt-35 mb-25" id="section-4">
-                        Limitation of liabilities
-                      </h6>
-                      <p>
-                        By usage of our services, you agree that shadobooks
-                        shall not be held liable for any of your business losses
-                        or interruptions directly or indirectly. We shall also
-                        not be responsible for any losses that you incur due to
-                        the non-availability of our services due to any reason
-                        including failure of payment from the customer. We will
-                        only be accountable to provide you continuous support as
-                        per the contract we sign before you start our paid
-                        packages.{" "}
-                      </p>
-
-                      <h6 className="mt-35 mb-25" id="section-5">
-                        Application ownership
-                      </h6>
-                      <p>
-                        The copyright, software, code frameworks, intellectual
-                        property rights, and the title of application ownership
-                        is solely owned by shadobooks or specific segments by
-                        third parties. All the source codes, content, or any
-                        supporting documents that concern the service we offer
-                        must not be reproduced or copied without any warning or
-                        before availing permission from the original supplier.{" "}
-                      </p>
-
-                      <h6 className="mt-35 mb-25" id="section-6">
-                        Software modification restrictions
-                      </h6>
-                      <p>
-                        Shadobooks believes that the system we have furnished
-                        and put to practice is accurate and performs to the best
-                        of its abilities. We thus forbid any alterations made to
-                        our core software on any terms without our written
-                        consent. <br></br>
-                        <br></br>
-                        By choosing to use our service, you comply with the
-                        terms of not copying, modifying, extracting codes,
-                        reverse engineering, or creating a derivative of what we
-                        originally own. You also hereby agree that you will not
-                        sublease, sublicense, or transfer the original ownership
-                        that we have provided you with. You also vouch to not
-                        engage in any activity that is of fraudulent nature.
-                      </p>
-
-                      <h6 className="mt-35 mb-25" id="section-7">
-                        Third-party integrated applications
-                      </h6>
-                      <p>
-                        Shadobooks erp may utilize certain third-part software
-                        for added process flow and efficiency. We only use these
-                        added plugins according to the third-party provider’s
-                        terms of service and the end-user is also bound to not
-                        act in violation of this.
-                      </p>
-
-                      <h6 className="mt-35 mb-25" id="section-8">
-                        Usage limitation & acceptable use
-                      </h6>
-                      <p>
-                        The user upon using our services, be it on the trial
-                        period or during their subscription with us agrees to
-                        use the application in its entirety only for fair
-                        purposes of personal and professional use. You shall not
-                        link any third party websites or any apis that are in
-                        violation of our terms of service. <br></br>
-                        <br></br>
-                        You're also solely responsible for all content that you
-                        upload, access, create, or edit inside our application
-                        infrastructure. You agree to not violate the
-                        intellectual property rights possessed by another user.
-                        You shall also not indulge in any spamming activities.{" "}
-                        <br></br>
-                        <br></br>
-                        The user will also be entitled only to use the features
-                        that are within the scope of their purchased package.
-                        They are free to upgrade or downgrade their package and
-                        switch to something else we offer at any point in time.
-                        But the user should clear their invoice for the existing
-                        billing cycle before entering into a new agreement with
-                        us.<br></br>
-                        <br></br>
-                        We do not support any hardware or software providers who
-                        do not own a valid license. The user is also to function
-                        with complete compliance from their side.
-                      </p>
-
-                      <h6 className="mt-35 mb-25" id="section-9">
-                        Payment terms
-                      </h6>
-                      <p>
-                        The customer can either subscribe to our package on a
-                        monthly or yearly basis. The subscription would follow a
-                        pay-as-you-go and use module. By registering your
-                        package with us, you agree to pay the price that will be
-                        included on our sow with you. The customer will be
-                        provided with a billing invoice for the transaction.{" "}
-                        <br></br>
-                        <br></br>
-                        Our pre-paid subscription plans are entirely based on
-                        the complete service package you opt for, no hourly
-                        billing rates or any others like that will be
-                        applicable. Our originally signed rates as per agreement
-                        will not be further negotiable or changeable unless and
-                        until there is a change of plan. In that case, a new sow
-                        shall be signed for the coming months but the existing
-                        payments should be cleared as per our initial agreement.
-                        <br></br>
-                        <br></br>
-                        You also hereby agree to clear all your invoices within
-                        the stipulated time period mentioned in the invoice as
-                        per this agreement and our contract with you.<br></br>
-                        <br></br>
-                        The payment cost mentioned in the website will be
-                        standard, but it excludes taxes and other government
-                        charges that are required by law for which the customer
-                        will be liable to comply and pay along. <br></br>
-                        <br></br>
-                        All the transactions made between both our parties are
-                        non-refundable at any cause as per this agreement.
-                        <br></br>
-                        <br></br>
-                        If there's going to be a change in pricing in the
-                        future, the payment proposed during the original period
-                        shall remain the same. After written notice of the date
-                        of entry into the new billing cost, the customer is
-                        required to comply with the same immediately.{" "}
-                      </p>
-
-                      <h6 className="mt-35 mb-25" id="section-10">
-                        Service termination
-                      </h6>
-                      <p>
-                        Failure to pay for more than 60 days after our invoice
-                        due date will be considered a breach of this agreement,
-                        which then we'd be authorized to disclose payment issues
-                        to a third-party if we are to take a legal route. You'd
-                        also be held liable to pay any jurisdiction or legal
-                        fees during the tenure along with our original payment.{" "}
-                        <br></br>
-                        <br></br>
-                        Upon the 60th day of failure to clear the invoice,
-                        shadobooks also declares complete ownership to all your
-                        intellectual property and full ownership of your account
-                        created with our erp. The service will also be withheld
-                        upon failure to pay any non-disputed invoices within the
-                        stated dates. We also reserve the right to may or may
-                        not charge a late payment fee for these uncleared
-                        invoices. <br></br>
-                        <br></br>
-                        We also reserve the right to terminate our contract in
-                        writing to the client if their usage of our application
-                        is in violation of any of the terms enlisted here in
-                        this document.
-                      </p>
-
-                      <h6 className="mt-35 mb-25" id="section-11">
-                        Cancellation policy
-                      </h6>
-                      <p>
-                        All your transactions are final and there will not be
-                        any refund after you have processed your payments with
-                        us. You can choose to cancel our services at any time
-                        but you will be held responsible to clear the invoices
-                        that are due for your last billing cycle.<br></br>
-                        <br></br>
-                        Upon the finalization of canceling, your account will be
-                        terminated immediately. Shadobooks will not be liable to
-                        retract any pending information that you did not back
-                        up. Your access to all your dashboards, data, and
-                        information will be immediately stopped upon
-                        confirmation.
-                      </p>
-                      <h6 className="mt-35 mb-25" id="section-12">
-                        Confidentiality
-                      </h6>
-                      <p>
-                        By the terms of the agreement stated hereof, both the
-                        parties involved agree not to share any confidential
-                        information involved to any parties without the consent
-                        of the other. Both the supplier and the buyer are also
-                        to ensure that all their employees, representatives, or
-                        any associated personnel complies with this
-                        confidentiality obligation under all conditions.
-                        <br></br>
-                        <br></br>
-                        In any event, where either of the parties is to disclose
-                        confidential information persuaded by order of
-                        jurisdiction, the party in question also agrees to
-                        notify the other to the legally allowed extent.<br></br>
-                        <br></br>
-                        In no event, shall the customer disclose the application
-                        functionalities to a developer that might be a potential
-                        competitor in the near future. <br></br>
-                        <br></br>
-                        To further understand our confidentiality scope, please
-                        read our privacy document which is an extended brand of
-                        this original document.
-                      </p>
-
-                      <h6 className="mt-35 mb-25" id="section-13">
-                        Trial package terms of use
-                      </h6>
-                      <p>
-                        All these terms of service whichever are valid and
-                        necessary are applicable even if a user signs up only
-                        for the 14-day free trial period. <br></br>
-                        <br></br>
-                        The customer also understands that any data they enter
-                        into our applications or any customization they make
-                        will only be available to them for 14 days, post which
-                        they would have to pay to retrieve or continue using any
-                        of what we offer. <br></br>
-                        <br></br>
-                        We also hereby vouch that the customer's usage with our
-                        application will not be interrupted at any point in time
-                        during the trial period, but at the same time, any
-                        upgradation between the packages will also not be
-                        entertained or given approval for. Our executives can
-                        guide you before you choose the package that you'd want
-                        to give a try.
-                      </p>
-
-                      <h6 className="mt-35 mb-25" id="section-14">
-                        Terms of service updates and modification rights
-                      </h6>
-                      <p>
-                        {" "}
-                        Shadobooks hereby entitles the rights to modify, change,
-                        or revamp the entire framework of this terms of service
-                        agreement unilaterally with or without prior notice. It
-                        thus rests on the user to constantly monitor this space
-                        for any additional information.<br></br>
-                        <br></br>
-                        If these modifications happen as a result that is not
-                        attributed to legislation or authoritative decisions,
-                        the customer will be notified over an email of the same.{" "}
-                        <br></br>
-                        <br></br>
-                        Every part of this agreement will hold valid to any day
-                        unless or otherwise compromised or intimated by
-                        shadobooks's authoritative personnel in writing.{" "}
-                        <br></br>
-                        <br></br>
-                        The terms of agreement always include a last modified
-                        date in the below and the user can monitor the same.{" "}
-                        <br></br>
-                        <br></br>
-                        You may choose to discontinue our services if any of
-                        these are not agreeable to you. By continuing, it is of
-                        explicit agreement that you are in complete agreement
-                        with all of these. <br></br>
-                        <br></br>
-                        For any further clarifications, write to us at
-                        support@shadobooks.com.
-                      </p>
-
-                      <h6 className="mt-50">- Shadobooks Team -</h6>
+                                    <img className="img-responsive bdrd-16" src="assets/imgs/page/about/3/img.png" alt="Agon" /></div>
+                            </div>
+                            <div className="col-lg-1" />
+                        </div>
                     </div>
+                </div> */}
+
+         <div>
+         {/* <div className="">
+            <div className="col-lg-2">
+              <div className="table-of-content">
+                <h6 className="mb-15">Table of content</h6>
+                <ul>
+                  <li>
+                    <Link href="#section-1">
+                      <a>Declaration</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#section-2">
+                      <a>Definitions</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#section-3">
+                      <a>Account creation and service description</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#section-4">
+                      <a>Limitation of liabilities</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#section-5">
+                      <a>Application ownership</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#section-6">
+                      <a>Software modification restrictions</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#section-7">
+                      <a>Third-party integrated applications</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#section-8">
+                      <a>Usage limitation & acceptable use</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#section-9">
+                      <a>Payment terms</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#section-10">
+                      <a>Service termination</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#section-11">
+                      <a>Cancellation policy</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#section-12">
+                      <a>Confidentiality</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#section-13">
+                      <a>Trial package terms of use</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#section-14">
+                      <a>Terms of service updates and modification rights</a>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div> */}
+
+          <section className="section-box mt-100">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-1 col-sm-1 col-12" />
+                <div className="col-lg-10 col-sm-10 col-12 text-center">
+                  <div className="text-center mb-20">
+                    <span className="tag-1" id="section-1">
+                      Blueprint
+                    </span>
                   </div>
-                  <div className="col-lg-2">
-                    <h3 className="text-heading-6 color-gray-400 mb-20 mt-150">
-                      Share
-                    </h3>
-                    <Link href="https://facebook.com">
-                      <a
-                        className="share-social share-fb"
-                        target="_blank"
-                        rel="noreferrer"
-                      ></a>
-                    </Link>
-                    <br />
-                    <Link href="https://twitter.com">
-                      <a
-                        className="share-social share-tw"
-                        target="_blank"
-                        rel="noreferrer"
-                      ></a>
-                    </Link>
-                    <br />
-                    <Link href="https://www.pinterest.com">
-                      <a
-                        className="share-social share-pi"
-                        target="_blank"
-                        rel="noreferrer"
-                      ></a>
-                    </Link>
+                  <h2 className="text-heading-1 color-gray-900 mb-10">
+                    Blueprint Build and implement scalable sales processes for
+                    your organization
+                  </h2>
+                  <p className="text-body-lead-large color-gray-600 mt-20">
+                    Your organization might have several different sales
+                    processes in place—like deal closure, lead follow-up, order
+                    management, or your discount process. With Blueprints, you
+                    can capture every stage of these offline sales processes
+                    inside your CRM, and execute them in a systematic manner.
+                  </p>
+                </div>
+                <div className="col-lg-1 col-sm-1 col-12" />
+              </div>
+            </div>
+          </section>
+
+          <div className="section-box mt-40">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-1" />
+                <div className="col-lg-10">
+                  <div className="box-image">
+                    <a
+                      className="popup-youtube btn-play-video btn-play-middle"
+                      onClick={() => setOpen(true)}
+                    >
+                      {" "}
+                    </a>
+
+                    <img
+                      className="img-responsive bdrd-16"
+                      src="assets/imgs/page/about/3/img.png"
+                      alt="Agon"
+                    />
                   </div>
                 </div>
+                <div className="col-lg-1" />
               </div>
             </div>
           </div>
-        </section>
-        <section className="section-box overflow-visible mb-100">
-          <div className="container mt-100">
-            <div className="row">
-              <div className="col-lg-10 mx-auto">
-                <div className="bg-6 box-newsletter position-relative">
-                  <div className="row">
-                    <div className="col-lg-5 col-md-7">
-                      <span className="text-body-capitalized color-gray-500 text-uppercase">
-                        newsletter
-                      </span>
-                      <h4 className="text-heading-2 mb-10 mt-10">
-                        Subscribe our newsletter
-                      </h4>
-                      <p className="text-body-text color-gray-500">
-                        By clicking the button, you are agreeing with our
-                      </p>
-                      <Link href="/page-terms">
-                        <a>Term &amp; Conditions</a>
-                      </Link>
 
-                      <div className="box-form-newsletter mt-30">
-                        <form className="form-newsletter">
-                          <input
-                            className="input-newsletter"
-                            placeholder="Enter you mail .."
-                          />
-                          <button className="btn btn-send" />
-                        </form>
-                      </div>
-                    </div>
-                    <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
-                      <div className="block-chart shape-1">
-                        <img src="/assets/imgs/template/chart.png" alt="Agon" />
-                      </div>
-                      <img
-                        className="img-responsive img-newsletter"
-                        src="assets/imgs/template/img-newsletter.png"
-                        alt="Agon"
-                      />
-                    </div>
+          <section className="section-box mt-100">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-1 col-sm-1 col-12" />
+                <div className="col-lg-10 col-sm-10 col-12 text-center">
+                  <div className="text-center mb-20">
+                    <span className="tag-1" id="section-2">
+                      Lead Scoring
+                    </span>
                   </div>
+                  <h2 className="text-heading-1 color-gray-900 mb-10">
+                    Separate the buyers from the spyers
+                  </h2>
+                  <p className="text-body-lead-large color-gray-600 mt-20">
+                    You generate a lot of leads from various sources—social
+                    media, surveys, website visits, walk-ins, and trade shows.
+                    But, how many of them are likely to make a sale? ShadoBooks
+                    CRM's lead scoring system allows you to separate the buyers
+                    from the window shoppers by assigning a score to each of
+                    their interactions with your organization. All it takes is a
+                    glance at the list of scores to get an idea of your leads'
+                    buying intentions.
+                  </p>
                 </div>
+                <div className="col-lg-1 col-sm-1 col-12" />
               </div>
             </div>
-          </div>
-        </section>
+          </section>
+
+          <section className="section-box mt-100">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-1 col-sm-1 col-12" />
+                <div className="col-lg-10 col-sm-10 col-12 text-center">
+                  <div className="text-center mb-20">
+                    <span className="tag-1" id="section-3">
+                      Approval Process
+                    </span>
+                  </div>
+                  <h2 className="text-heading-1 color-gray-900 mb-10">
+                    Automate submission of records for approval
+                  </h2>
+                  <p className="text-body-lead-large color-gray-600 mt-20">
+                    There are several instances in your business where your
+                    sales team needs approval from their senior managers—for
+                    example, pricing discount requests, contract review
+                    requests, capital expense approvals, vacation time
+                    approvals, and document approvals. ShadoBooks CRM offers a
+                    dedicated approval management system running behind the
+                    scenes to standardize approval processes and save time by
+                    creating a dependable, repeatable system.{" "}
+                  </p>
+                </div>
+                <div className="col-lg-1 col-sm-1 col-12" />
+              </div>
+            </div>
+          </section>
+
+          <section className="section-box mt-100">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-1 col-sm-1 col-12" />
+                <div className="col-lg-10 col-sm-10 col-12 text-center">
+                  <div className="text-center mb-20">
+                    <span className="tag-1" id="section-4">
+                      Escalation Rules
+                    </span>
+                  </div>
+                  <h2 className="text-heading-1 color-gray-900 mb-10">
+                    Escalate cases automatically when they meet your criteria
+                  </h2>
+                  <p className="text-body-lead-large color-gray-600 mt-20">
+                    If cases aren't being solved quickly, ShadoBooks CRM
+                    automatically escalates the overdue cases to the relevant
+                    manager or sales rep. You can configure a simple set of
+                    rules based on various criteria like priority, case name, or
+                    the time at which it was created to govern these actions and
+                    manage cases more efficiently.{" "}
+                  </p>
+                </div>
+                <div className="col-lg-1 col-sm-1 col-12" />
+              </div>
+            </div>
+          </section>
+
+          <section className="section-box mt-100">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-1 col-sm-1 col-12" />
+                <div className="col-lg-10 col-sm-10 col-12 text-center">
+                  <div className="text-center mb-20">
+                    <span className="tag-1" id="section-5">
+                      Review process
+                    </span>
+                  </div>
+                  <h2 className="text-heading-1 color-gray-900 mb-10">
+                    Verify and approve data being pushed into your CRM
+                  </h2>
+                  <p className="text-body-lead-large color-gray-600 mt-20">
+                    The impact of your sales team depends on the quality of
+                    information they get from your CRM. Inaccurate or missing
+                    information can hurt a sales rep's chances of closing a
+                    deal. ShadoBooks CRM helps your organization define a review
+                    process where a user or team of your choice can vet incoming
+                    information before approving or rejecting it. They can add
+                    comments as well as state reasons for rejection to ensure
+                    your sales team has access to information of the highest
+                    quality.{" "}
+                  </p>
+                </div>
+                <div className="col-lg-1 col-sm-1 col-12" />
+              </div>
+            </div>
+          </section>
+
+          <section className="section-box mt-100">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-1 col-sm-1 col-12" />
+                <div className="col-lg-10 col-sm-10 col-12 text-center">
+                  <div className="text-center mb-20">
+                    <span className="tag-1" id="section-6">
+                      Validation Rules
+                    </span>
+                  </div>
+                  <h2 className="text-heading-1 color-gray-900 mb-10">
+                    Prevent inaccurate data from entering your CRM
+                  </h2>
+                  <p className="text-body-lead-large color-gray-600 mt-20">
+                    Sales data is the lifeblood of any CRM system and incomplete
+                    and inaccurate data is a common problem in most
+                    organizations. Validation rules ensure that the data entered
+                    by your sales reps meets the standards you specify—for
+                    example, you can make sure that every lead entered into your
+                    CRM has a mobile number before the sales rep can save the
+                    record.{" "}
+                  </p>
+                </div>
+                <div className="col-lg-1 col-sm-1 col-12" />
+              </div>
+            </div>
+          </section>
+
+          <section className="section-box mt-100">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-1 col-sm-1 col-12" />
+                <div className="col-lg-10 col-sm-10 col-12 text-center">
+                  <div className="text-center mb-20">
+                    <span className="tag-1" id="section-7">
+                      Email Parser
+                    </span>
+                  </div>
+                  <h2 className="text-heading-1 color-gray-900 mb-10">
+                    Extract information from incoming emails automatically
+                  </h2>
+                  <p className="text-body-lead-large color-gray-600 mt-20">
+                    Simplify the process of lead generation by fetching lead
+                    data directly from incoming sales enquiry emails.{" "}
+                  </p>
+                </div>
+                <div className="col-lg-1 col-sm-1 col-12" />
+              </div>
+            </div>
+          </section>
+          <section className="section-box mt-100">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-1 col-sm-1 col-12" />
+                <div className="col-lg-10 col-sm-10 col-12 text-center">
+                  <div className="text-center mb-20">
+                    <span className="tag-1" id="section-8">
+                      Multi-page Layout
+                    </span>
+                  </div>
+                  <h2 className="text-heading-1 color-gray-900 mb-10">
+                    Manage multiple sales processes within your CRM
+                  </h2>
+                  <p className="text-body-lead-large color-gray-600 mt-20">
+                    ShadoBooks CRM allows you to run a separate sales process
+                    with its own fields, records, views, workflows, reports, and
+                    dashboards. This way, multiple departments in your
+                    organization can make use of the software without the need
+                    for multiple CRM accounts.{" "}
+                  </p>
+                </div>
+                <div className="col-lg-1 col-sm-1 col-12" />
+              </div>
+            </div>
+          </section>
+        </div>
+
+        {/* <section className="section-box mt-100">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-1 col-sm-1 col-12" />
+                            <div className="col-lg-10 col-sm-10 col-12 text-center">
+                                <h2 className="text-heading-1 color-gray-900 mb-10">Providing solutions of every kind</h2>
+                                <p className="text-body-lead-large color-gray-600 mt-20">In a professional context it often happens that private or<br className="d-lg-block d-none" />corporate clients order a publication to publish news.</p>
+                            </div>
+                            <div className="col-lg-1 col-sm-1 col-12" />
+                        </div>
+                    </div>
+                    <div className="container mt-40">
+                        <div className="row">
+                            <div className="col-lg-4 col-md-12 col-sm-12">
+                                <div className="list-icons mt-50">
+                                    <div className="item-icon none-bd"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" /></span>
+                                        <h4 className="text-heading-4">1. Acquisition</h4>
+                                        <p className="text-body-text color-gray-600 mt-15">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-12 col-sm-12">
+                                <div className="list-icons mt-50">
+                                    <div className="item-icon none-bd"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-active.svg" alt="Agon" /></span>
+                                        <h4 className="text-heading-4">2. Activation</h4>
+                                        <p className="text-body-text color-gray-600 mt-15">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-12 col-sm-12">
+                                <div className="list-icons mt-50">
+                                    <div className="item-icon none-bd"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-retent.svg" alt="Agon" /></span>
+                                        <h4 className="text-heading-4">3. Retention</h4>
+                                        <p className="text-body-text color-gray-600 mt-15">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="section-box pt-100 pb-100 mt-100 bg-6">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-5 mb-30"><span className="tag-1 color-gray-900">Built Exclusively For You</span>
+                                <h3 className="text-heading-1 mt-30">Don’t take our word for it. See what our clients say.</h3>
+                                <p className="text-body-lead-large color-gray-600 mt-30">Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit</p>
+                                <div className="mt-40">
+                                    <Link href="/page-service-2"><a className="btn btn-default btn-white icon-arrow-right">Learn More</a></Link>
+                                </div>
+                            </div>
+                            <div className="col-lg-7">
+                                <div className="row" data-masonry="{&quot;percentPosition&quot;: true }">
+                                    <div className="col-lg-6 col-md-12 col-sm-12">
+                                        <div className="card-grid-style-2 card-square hover-up mb-20">
+                                            <p className="text-body-text color-gray-600 text-comment">"No matter where you go, It's is the coolest, most happening thing around! Not able to tell you how happy I am with it. "</p>
+                                            <div className="box-img-user">
+                                                <div className="img-user img-user-round"><img src="/assets/imgs/page/homepage2/user-1.png" alt="Agon" /></div>
+                                                <h4 className="text-body-lead color-gray-900 mb-5">Jane Cooper</h4>
+                                                <p className="text-body-text-md">Biffco Enterprises Ltd.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-12 col-sm-12">
+                                        <div className="card-grid-style-2 card-square hover-up mb-20">
+                                            <p className="text-body-text color-gray-600 text-comment">"Wow what great service, I love it! It's is the most valuable business resource we have EVER purchased. We can't understand how we've been living without it. I couldn't have asked for more than this."</p>
+                                            <div className="box-img-user">
+                                                <div className="img-user img-user-round"><img src="/assets/imgs/page/homepage2/user-2.png" alt="Agon" /></div>
+                                                <h4 className="text-body-lead color-gray-900 mb-5">Wade Warren</h4>
+                                                <p className="text-body-text-md">Krusty Krab</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-12 col-sm-12">
+                                        <div className="card-grid-style-2 card-square hover-up mb-20">
+                                            <p className="text-body-text color-gray-600 text-comment">"Your company is truly upstanding and is behind its product 100%. It's the perfect solution for our business. It has really helped our business. Needless to say we are extremely satisfied with the results. "</p>
+                                            <div className="box-img-user">
+                                                <div className="img-user img-user-round"><img src="/assets/imgs/page/homepage2/user-3.png" alt="Agon" /></div>
+                                                <h4 className="text-body-lead color-gray-900 mb-5">Leslie Alexander</h4>
+                                                <p className="text-body-text-md">Biffco Enterprises Ltd.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-12 col-sm-12">
+                                        <div className="card-grid-style-2 card-square hover-up mb-20">
+                                            <p className="text-body-text color-gray-600 text-comment">"It's is both attractive and highly adaptable. It's exactly what I've been looking for. Definitely worth the investment."</p>
+                                            <div className="box-img-user">
+                                                <div className="img-user img-user-round"><img src="/assets/imgs/page/homepage2/user-4.png" alt="Agon" /></div>
+                                                <h4 className="text-body-lead color-gray-900 mb-5">Jenny Wilson</h4>
+                                                <p className="text-body-text-md">Soylent Corp</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="section-box">
+                    <div className="container mt-120">
+                        <div className="row">
+                            <div className="col-lg-6 col-sm-12 block-img-we-do"><img className="bdrd-16 img-responsive" src="assets/imgs/page/about/3/img-2.png" alt="Agon" /></div>
+                            <div className="col-lg-6 col-sm-12 block-we-do"><span className="tag-1 bg-6 color-green-900">What We Do, What You Get</span>
+                                <h3 className="text-heading-1 mt-30">An Exceptionally unique experience Tailored to you</h3>
+                                <p className="text-body-lead-large color-gray-600 mt-30">In a professional context it often happens that private or corporate clients order a publication news while still not being ready. Business advisory service advises current and future businesses prospects of a client</p>
+                                <div className="line-bd-green mt-50" />
+                                <div className="row">
+                                    <div className="col-lg-6 col-sm-6 col-12 mt-50">
+                                        <h4 className="text-heading-6 icon-leaf">Boost your sale</h4>
+                                        <p className="text-body-excerpt color-gray-600 mt-15">The latest design trends meet hand-crafted templates.</p>
+                                    </div>
+                                    <div className="col-lg-6 col-sm-6 col-12 mt-50">
+                                        <h4 className="text-heading-6 icon-leaf">Smart Installation Tools</h4>
+                                        <p className="text-body-excerpt color-gray-600 mt-15">The latest design trends meet hand-crafted templates.</p>
+                                    </div>
+                                    <div className="col-lg-6 col-sm-6 col-12 mt-50">
+                                        <h4 className="text-heading-6 icon-leaf">Introducing New Features</h4>
+                                        <p className="text-body-excerpt color-gray-600 mt-15">The latest design trends meet hand-crafted templates.</p>
+                                    </div>
+                                    <div className="col-lg-6 col-sm-6 col-12 mt-50">
+                                        <h4 className="text-heading-6 icon-leaf">Dynamic Boosting</h4>
+                                        <p className="text-body-excerpt color-gray-600 mt-15">The latest design trends meet hand-crafted templates.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div className="section-box mt-100">
+                    <div className="container">
+                        <div className="bd-bottom pb-70">
+                            <ul className="list-5-col">
+                                <li><span className="text-display-3 color-green-900">+<span className="count">6</span>k</span>
+                                    <p className="text-body-text color-gray-500 pl-40">Years in<br />Business</p>
+                                </li>
+                                <li><span className="text-display-3 color-green-900">+<span className="count">12</span>k</span>
+                                    <p className="text-body-text color-gray-500 pl-40">Projects<br />Done</p>
+                                </li>
+                                <li><span className="text-display-3 color-green-900">+<span className="count">14</span>k</span>
+                                    <p className="text-body-text color-gray-500 pl-40">Countries<br />/ Offices</p>
+                                </li>
+                                <li><span className="text-display-3 color-green-900">+<span className="count">16</span>k</span>
+                                    <p className="text-body-text color-gray-500 pl-40">Constant<br />Clients</p>
+                                </li>
+                                <li><span className="text-display-3 color-green-900">+<span className="count">27</span>k</span>
+                                    <p className="text-body-text color-gray-500 pl-40">Paid Customers</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <section className="section-box mt-90 mb-mobile mb-150">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-2 col-sm-1 col-12" />
+                            <div className="col-lg-8 col-sm-10 col-12 text-center mt-40">
+                                <h2 className="text-heading-1 color-gray-900 mb-10">Building the<br className="d-lg-block d-none" />Work Ecosystem</h2>
+                                <p className="text-body-lead-large color-gray-600 mt-20">From year to year we strive to invent the most innovative<br className="d-lg-block d-none" />technology that is used by both small and big enterprises</p>
+                            </div>
+                            <div className="col-lg-2 col-sm-1 col-12" />
+                        </div>
+                    </div>
+                    <div className="container mt-90 mb-100">
+                        <div className="row">
+                            <div className="col-lg-6 col-sm-12">
+                                <div className="bg-2 box-square hover-up">
+                                    <h4 className="text-heading-4 color-gray-900 mb-15">Cross-Platform</h4>
+                                    <p className="text-body-text-md color-gray-600">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                    <div className="box-image-inner bg-color-1"><img src="/assets/imgs/page/homepage2/temp-1.png" alt="Agon" /></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-6 col-sm-12">
+                                <div className="bg-6 box-square hover-up">
+                                    <h4 className="text-heading-4 color-gray-900 mb-15">Extremely Flexible</h4>
+                                    <p className="text-body-text-md color-gray-600">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                    <div className="box-image-inner bg-color-2"><img src="/assets/imgs/page/homepage2/temp-2.png" alt="Agon" /></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="section-box">
+                    <div className="container mt-30">
+                        <div className="row">
+                            <div className="col-lg-8">
+                                <h3 className="text-heading-1 mb-10">From Our Blog</h3>
+                                <p className="text-body-lead-large color-gray-600">From Our blog and Event fanpage</p>
+                            </div>
+                            <div className="col-lg-4 text-lg-end text-start pt-30">
+                                <Link href="/blog-2"><a className="btn btn-black icon-arrow-right-white">View More</a></Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container mt-90">
+                        <div className="row">
+                            <div className="col-lg-4 col-sm-12 pr-30">
+                                <div className="card-grid-style-4"><span className="tag-dot">Company</span>
+                                    <Link href="/blog-single"><a className="text-heading-4">We can blend colors multiple ways, the most common</a></Link>
+
+                                    <div className="grid-4-img">
+                                        <Link href="/blog-single"><a><img src="/assets/imgs/page/homepage1/img-news-1.png" alt="Agon" /></a></Link>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-sm-12 pr-30">
+                                <div className="card-grid-style-4"><span className="tag-dot">Marketing Event</span>
+                                    <Link href="/blog-single"><a className="text-heading-4">How To Blow Through Capital At An Incredible Rate</a></Link>
+
+                                    <div className="grid-4-img">
+                                        <Link href="/blog-single"><a><img src="/assets/imgs/page/homepage1/img-news-2.png" alt="Agon" /></a></Link>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-sm-12 pr-30">
+                                <div className="card-grid-style-4"><span className="tag-dot">Customer Services</span>
+                                    <Link href="/blog-single"><a className="text-heading-4">Design Studios That Everyone Should Know About?</a></Link>
+
+                                    <div className="grid-4-img color-bg-4">
+                                        <Link href="/blog-single"><a><img src="/assets/imgs/page/homepage1/img-news-3.png" alt="Agon" /></a></Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="section-box overflow-visible mb-100">
+                    <div className="container mt-100">
+                        <div className="row">
+                            <div className="col-lg-10 mx-auto">
+                                <div className="bg-2 box-newsletter position-relative">
+                                    <div className="row">
+                                        <div className="col-lg-5 col-md-7"><span className="text-body-capitalized color-gray-500 text-uppercase">newsletter</span>
+                                            <h4 className="text-heading-2 mb-10 mt-10">Subscribe our newsletter</h4>
+                                            <p className="text-body-text color-gray-500">By clicking the button, you are agreeing with our</p>
+                                            <Link href="/page-terms"><a>Term &amp; Conditions</a></Link>
+
+                                            <div className="box-form-newsletter mt-30">
+                                                <form className="form-newsletter"><input className="input-newsletter" placeholder="Enter you mail .." /><button className="btn btn-send" /></form>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
+                                            <div className="block-chart shape-1"><img src="/assets/imgs/template/chart.png" alt="Agon" /></div><img className="img-responsive img-newsletter" src="assets/imgs/template/img-newsletter.png" alt="Agon" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <ModalVideo
+                    channel="youtube"
+                    autoplay
+                    isOpen={isOpen}
+                    videoId="7e90gBu4pas"
+                    onClose={() => setOpen(false)}
+                /> */}
       </Layout>
     </>
   );
 }
 
-export default Process;
+export default About3;
