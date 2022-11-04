@@ -40,35 +40,9 @@ function Index2() {
                         </a>
                       </Link>
                     </div>
-                    {/* <div className="mt-50">
-                                            <div className="row">
-                                                <div className="col-lg-3 col-sm-4 col-4">
-                                                    <h3 className="text-heading-4 color-gray-900 mb-15">
-                                                        +<span className="count">38</span>k
-                                                    </h3>
-                                                    <p className="text-body-text-md color-gray-500">
-                                                        Happy Clients
-                                                    </p>
-                                                </div>
-                                                <div className="col-lg-3 col-sm-4 col-4">
-                                                    <h3 className="text-heading-4 color-gray-900 mb-15">
-                                                        +<span className="count">45</span>k
-                                                    </h3>
-                                                    <p className="text-body-text-md color-gray-500">
-                                                        Project Done
-                                                    </p>
-                                                </div>
-                                                <div className="col-lg-3 col-sm-4 col-4">
-                                                    <h3 className="text-heading-4 color-gray-900 mb-15">
-                                                        <span className="count">100</span>%
-                                                    </h3>
-                                                    <p className="text-body-text-md color-gray-500">
-                                                        Client Satisfaction
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div> */}
                   </div>
+
+                  
                   <div className="col-lg-5 d-none d-lg-block">
                     <div className="banner-imgs">
                       <div className="block-1 shape-2">
@@ -259,15 +233,17 @@ function Index2() {
                   <span className="tag-1 bg-green-900">
                     What We Do, What You Get
                   </span>
-                  <h3 className="text-heading-2 mt-30">
-                    Fresh Business. Thoughtful Our Service.
-                  </h3>
-                  <p className="text-heading-7 color-gray-600 mt-30">
-                    Shadobooks presents businesses with the Myoxygen Dashboard
-                    which presents all the financial data in a dynamically
-                    interactive format while also opening new doors to a wealth
-                    of insights that can help you with informed decision-making
-                    and improve your customer-facing strategies.
+
+                  <h3 className="text-heading-4 mt-30">
+                      Shadobooks presents businesses
+                    </h3>
+                  <p className="text-heading-7 color-gray-600 ">
+                   
+                    with the Myoxygen Dashboard which presents all the financial
+                    data in a dynamically interactive format while also opening
+                    new doors to a wealth of insights that can help you with
+                    informed decision-making and improve your customer-facing
+                    strategies.
                   </p>
                   <div className="list-icons mt-50">
                     <div className="item-icon none-bd">
@@ -325,6 +301,8 @@ function Index2() {
               </div>
             </div>
           </section>
+
+          
           <section className="section-box">
             <div className="container">
               <div className="row">
@@ -342,115 +320,64 @@ function Index2() {
                 </div>
                 <div className="col-lg-2 col-sm-1 col-12" />
               </div>
-            </div>
-            {/* <div className="container mt-90 mb-lg-100">
-                            <div className="row">
-                                <div className="col-lg-6 col-sm-12">
-                                    <div className="bg-2 box-square hover-up wow animate__animated animate__fadeIn" data-wow-delay=".1s">
-                                        <h4 className="text-heading-4 color-gray-900 mb-15">
-                                            Cross-Platform
-                                        </h4>
-                                        <p className="text-body-text-md color-gray-600">
-                                            Your site is not complete with only
-                                            landings. Get essential inner pages using
-                                            our ready demos.
-                                        </p>
-                                        <div className="box-image-inner bg-color-1">
-                                            <img src="/assets/imgs/page/homepage2/temp-1.png" alt="Agon" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-6 col-sm-12">
-                                    <div className="bg-6 box-square hover-up wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                        <h4 className="text-heading-4 color-gray-900 mb-15">
-                                            Extremely Flexible
-                                        </h4>
-                                        <p className="text-body-text-md color-gray-600">
-                                            Your site is not complete with only
-                                            landings. Get essential inner pages using
-                                            our ready demos.
-                                        </p>
-                                        <div className="box-image-inner bg-color-2">
-                                            <img src="/assets/imgs/page/homepage2/temp-2.png" alt="Agon" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> */}
+            </div>           
           </section>
+
+
+          
           <section className="section-box mt-lg-100">
-            {/* <div className="container">
-                            <div className="row">
-                                <div className="col-lg-2 col-sm-1 col-12" />
-                                <div className="col-lg-8 col-sm-10 col-12 text-center mt-40">
-                                    <h2 className="text-heading-1 color-gray-900 mb-10">
-                                        Built exclusively for you
-                                    </h2>
-                                    <p className="text-body-lead-large color-gray-600 mt-20">
-                                        Excepteur sint occaecat cupidatat non proident,
-                                        sunt in culpa qui officia deserunt mollit
-                                        laborum — semper quis lectus nulla.
-                                    </p>
-                                </div>
-                                <div className="col-lg-2 col-sm-1 col-12" />
-                            </div>
-                        </div> */}
+            
             <div className="container mt-70">
               <div className="row">
                 <div className="col-lg-4 col-md-12 col-sm-12">
                   <div className="list-icons mt-50">
-                    
-                      <span className="icon-left">
-                        <img
-                          src="/assets/imgs/page/homepage2/icon-acquis.svg"
-                          alt="Agon"
-                        />
-                      </span>
-                      <h4 className="text-heading-4">1. Acquisition</h4>
-                      <p className="text-body-text color-gray-600 mt-15">
-                        The customer center segment of Shadobooks is where you
-                        can import all your client-facing data under one roof.
-                      </p>
-                    </div>
+                    <span className="icon-left">
+                      <img
+                        src="/assets/imgs/page/homepage2/icon-acquis.svg"
+                        alt="Agon"
+                      />
+                    </span>
+                    <h4 className="text-heading-4">1. Acquisition</h4>
+                    <p className="text-body-text color-gray-600 mt-15">
+                      The customer center segment of Shadobooks is where you can
+                      import all your client-facing data under one roof.
+                    </p>
                   </div>
-              
+                </div>
+
                 <div className="col-lg-4 col-md-12 col-sm-12">
                   <div className="list-icons mt-50">
-                   
-                      <span className="icon-left">
-                        <img
-                          src="/assets/imgs/page/homepage2/icon-active.svg"
-                          alt="Agon"
-                        />
-                      </span>
-                      <h4 className="text-heading-4">2. Activation</h4>
-                      <p className="text-body-text color-gray-600 mt-15">
-                        Be it your partners from past projects or potential
-                        leads, you can integrate all their data here for a
-                        single panel source of view that will help in data
-                        decluttering.
-                      </p>
-                    </div>
+                    <span className="icon-left">
+                      <img
+                        src="/assets/imgs/page/homepage2/icon-active.svg"
+                        alt="Agon"
+                      />
+                    </span>
+                    <h4 className="text-heading-4">2. Activation</h4>
+                    <p className="text-body-text color-gray-600 mt-15">
+                      Be it your partners from past projects or potential leads,
+                      you can integrate all their data here for a single panel
+                      source of view that will help in data decluttering.
+                    </p>
                   </div>
-               
+                </div>
+
                 <div className="col-lg-4 col-md-12 col-sm-12">
                   <div className="list-icons mt-50">
-                   
-                      <span className="icon-left">
-                        <img
-                          src="/assets/imgs/page/homepage2/icon-retent.svg"
-                          alt="Agon"
-                        />
-                      </span>
-                      <h4 className="text-heading-4">3. Retention</h4>
-                      <p className="text-body-text color-gray-600 mt-15">
-                        You can update all their contact information,
-                        communication pathways and all the courses of actions
-                        you have in mind for the leads down the pipeline here.
-                      </p>
-                    </div>
+                    <span className="icon-left">
+                      <img
+                        src="/assets/imgs/page/homepage2/icon-retent.svg"
+                        alt="Agon"
+                      />
+                    </span>
+                    <h4 className="text-heading-4">3. Retention</h4>
+                    <p className="text-body-text color-gray-600 mt-15">
+                      You can update all their contact information,
+                      communication pathways and all the courses of actions you
+                      have in mind for the leads down the pipeline here.
+                    </p>
                   </div>
-                
+                </div>
               </div>
             </div>
           </section>
@@ -650,14 +577,7 @@ function Index2() {
               </div>
             </div>
           </section>
-          {/* <section className="section-box mt-70">
-                        <div className="container mt-50">
-                            <h3 className="text-heading-1 text-center mb-10">
-                                Choose The Best Plan<br className="d-lg-block d-none" />That’s For You
-                            </h3>
-                        </div>
-                        <PriceTable />
-                    </section> */}
+
           <section className="section-box overflow-visible mb-100">
             <div className="container mt-100">
               <div className="row">

@@ -41,9 +41,9 @@ const Header = ({ handleOpen, headerStyle }) => {
                                                 <li>
                                                     <Link href="/Automation"><a><i className="fi fi-rr-star" />Automated Marketing</a></Link>
                                                 </li>
-                                                <li>
+                                                {/* <li>
                                                     <Link href="/#"><a><i className="fi fi-rr-star" />Mobile App</a></Link>
-                                                </li>
+                                                </li> */}
                                                 <li>
                                                     <Link href="/process-management"><a><i className="fi fi-rr-star" />Process Management</a></Link>
                                                 </li>
@@ -57,7 +57,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                         </li> */}
 
 
-                                        <li className="has-children">
+                                        {/* <li className="has-children">
                                             <Link href="#"><a className="acuspad">Support</a></Link>
                                             <ul className="sub-menu">
                                                 <li>
@@ -68,19 +68,19 @@ const Header = ({ handleOpen, headerStyle }) => {
                                                 </li>
                                                 
                                             </ul>
-                                        </li>
+                                        </li> */}
                                         <li className="has-children">
                                             <Link href="#"><a className="acuspad">Resources</a></Link>
                                             <ul className="sub-menu">
                                                 <li>
-                                                    <Link href="/#"><a className="closer"><i className="fi fi-rr-edit" />Videos</a></Link>
+                                                    <Link href="/index-8"><a className="closer"><i className="fi fi-rr-edit" />Videos</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/#"><a className="closer"><i className="fi fi-rr-edit" />FAQs</a></Link>
+                                                    <Link href="/page-pricing-2"><a className="closer"><i className="fi fi-rr-edit" />FAQs</a></Link>
                                                 </li>
                                                 
                                                 <li>
-                                                    <Link href="/#"><a><i className="fi fi-rr-document-signed" />Documentation</a></Link>
+                                                    <Link href="/page-service-2"><a><i className="fi fi-rr-document-signed" />Documentation</a></Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/#"><a><i className="fi fi-rr-document-signed" />Support Portal </a></Link>
@@ -97,7 +97,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             <a href="#" className="acuspad">Solutions</a>
                                             <ul className="sub-menu">
                                                 <li><Link href="/itsupport"><a className="closer"><i className="fi fi-rr-edit"></i>IT & Support</a></Link></li>
-                                                <li><Link href="/index-2"><a className="closer"><i className="fi fi-rr-edit"></i>OIL & GAS</a></Link></li>
+                                                <li><Link href="/page-service-2"><a className="closer"><i className="fi fi-rr-edit"></i>OIL & GAS</a></Link></li>
                                                 <li><Link href="/index-3"><a className="closer"><i className="fi fi-rr-edit"></i>Manufacturing</a></Link></li>
                                                 <li><Link href="/index-4"><a className="closer"><i className="fi fi-rr-edit"></i>Retail & Wholesalers</a></Link></li>
                                                 <li><Link href="/index-5"><a className="closer"><i className="fi fi-rr-edit"></i>Hiring Agencies</a></Link></li>

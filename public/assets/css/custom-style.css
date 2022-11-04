@@ -109,3 +109,30 @@
   
 }
 
+.second-stick{
+  -webkit-animation: 700ms ease-in-out 0s normal none 1 running fadeInDown;
+  animation: 700ms ease-in-out 0s normal none 1 running fadeInDown;
+  box-shadow: 0 8px 20px 0 rgb(0 0 0 / 5%);
+  position: fixed;
+  top: 77px;
+  width: 100%;
+  z-index: 9999999;
+  left: 0;
+  transition: all 0.3s ease 0s;
+  border-bottom: 1px solid #F2F4F7;
+  background: #fff;
+ 
+}
+
+.bg-light {
+  font-size: 15px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.bg-light a {
+  padding:30px;
+  color: black;
+
+}
+

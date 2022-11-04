@@ -29,9 +29,9 @@ const Footer = () => {
 Building, Al Maktoum Road, Dubai,
 UAE
 </div>
-<div className="mt-20 text-body-text color-gray-600">Kattathurai,Tamil Nadu, India</div>
+
                             <div className="mt-20 text-body-text color-gray-600">+971 52 922 7590</div>
-                            <div className="text-body-text color-gray-600">steward@shadobooks.com</div>
+                            <div className="text-body-text color-gray-600">info@shadobooks.com</div>
 
                         </div>
                         <div className="col-lg-3 width-20 mb-30">

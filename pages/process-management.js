@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "react-modal-video/css/modal-video.css";
 import Layout from "../components/layout/Layout";
 const ModalVideo = dynamic(import("react-modal-video"), {
@@ -11,124 +11,153 @@ const ModalVideo = dynamic(import("react-modal-video"), {
 
 function About3() {
   const [isOpen, setOpen] = useState(false);
+  const [scroll, setScroll] = useState(0)
+    useEffect(() => {
+        document.addEventListener("scroll", () => {
+            const scrollCheck = window.scrollY > 100
+            if (scrollCheck !== scroll) {
+                setScroll(scrollCheck)
+            }
+        })
+    })
   return (
     <>
       <Layout>
-        {/* <section className="section-box">
-                    <div className="banner-hero bg-about-3">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-lg-12 text-center">
-                                    <h1 className="text-display-2 color-gray-900">Our Story</h1>
-                                    <p className="text-heading-4 color-gray-600 mt-40">We supply enterprises, organizations and institutes of high-<br className="d-lg-block d-none" />tech industries with modern components. We build long-<br className="d-lg-block d-none" />term trusting relationships with our customers and partnes<br className="d-lg-block d-none" />for further fruitful cooperations.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
-        {/* <div className="section-box mt-40">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-1" />
-                            <div className="col-lg-10">
-                                <div className="box-image">
-                                    <a className="popup-youtube btn-play-video btn-play-middle" onClick={() => setOpen(true)}>  </a>
+        {/* Nav Tabs */}
 
-                                    <img className="img-responsive bdrd-16" src="assets/imgs/page/about/3/img.png" alt="Agon" /></div>
-                            </div>
-                            <div className="col-lg-1" />
-                        </div>
-                    </div>
-                </div> */}
+        <nav className={scroll ? `navbar navbar-expand-lg navbar-light bg-light second-stick ` : `navbar navbar-expand-lg navbar-light bg-light`}>
+          <ul className="nav nav-pills">
+            <li class="nav-item">
+              <Link class="navbar-brand" href="#blueprint">
+                <a>Blueprint</a>
+              </Link>
+            </li>
 
-         <div>
-         {/* <div className="">
-            <div className="col-lg-2">
-              <div className="table-of-content">
-                <h6 className="mb-15">Table of content</h6>
-                <ul>
-                  <li>
-                    <Link href="#section-1">
-                      <a>Declaration</a>
+            <li className="nav-item">
+              <Link class="navbar-brand" href="#lead">
+                Lead scoring
+              </Link>
+            </li>
+
+            <li class="nav-item">
+              <Link class="navbar-brand" href="#Approval-Process">
+                <a>Approval Process</a>
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="navbar-brand" href="#Escalation-Rules">
+                <a>Escalation Rules</a>
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="navbar-brand" href="#Review-process">
+                <a>Review process</a>
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="navbar-brand" href="#Validation-Rules">
+                <a>Validation Rules</a>
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="navbar-brand" href="#Email-Parser">
+                <a>Email Parser</a>
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="navbar-brand" href="#Multi-page-Layout">
+                <a>Multi-page Layout</a>
+              </Link>
+            </li>
+          </ul>
+        </nav>
+
+        {/* innerheader */}
+
+        <section className="section-box">
+          <div
+            className="banner-hero banner-4"
+            style={{ backgroundColor: "#ffded3" }}
+          >
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-7">
+                  <h1 className="text-display-2 color-gray-900">
+                  Adapt ShadoBooks CRM to your business
+                  </h1>
+                  <p className="text-body-lead-medium color-gray-900 mt-30 pr-40">
+                  A truly customizable solution that can be modified as needed to fit your business. Use custom fields, buttons, and layouts to capture various information from your prospects, create custom views, associate information, test personalization before deployment, and even localize language and currency to suit your users.
+                  </p>
+                  <div className="mt-40">
+                    <Link href="/page-about-1">
+                      <a className="btn btn-black shape-square icon-arrow-right-white">
+                        Get Start
+                      </a>
                     </Link>
-                  </li>
-                  <li>
-                    <Link href="#section-2">
-                      <a>Definitions</a>
+                    <Link href="/page-contact">
+                      <a className="btn btn-link color-gray-900 text-heading-6 btn-link-inter">
+                        Learn More
+                      </a>
                     </Link>
-                  </li>
-                  <li>
-                    <Link href="#section-3">
-                      <a>Account creation and service description</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#section-4">
-                      <a>Limitation of liabilities</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#section-5">
-                      <a>Application ownership</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#section-6">
-                      <a>Software modification restrictions</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#section-7">
-                      <a>Third-party integrated applications</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#section-8">
-                      <a>Usage limitation & acceptable use</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#section-9">
-                      <a>Payment terms</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#section-10">
-                      <a>Service termination</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#section-11">
-                      <a>Cancellation policy</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#section-12">
-                      <a>Confidentiality</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#section-13">
-                      <a>Trial package terms of use</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#section-14">
-                      <a>Terms of service updates and modification rights</a>
-                    </Link>
-                  </li>
-                </ul>
+                  </div>
+                  <div className="mt-60">
+                    <div className="row">
+                      <div className="col-lg-3 col-sm-4 col-4">
+                        <h3 className="text-heading-2 color-gray-900 mb-15">
+                          5000+
+                        </h3>
+                        <p className="text-body-normal color-gray-600">
+                          Happy Clients
+                        </p>
+                      </div>
+                      <div className="col-lg-3 col-sm-4 col-4">
+                        <h3 className="text-heading-2 color-gray-900 mb-15">
+                          756+
+                        </h3>
+                        <p className="text-body-normal color-gray-600">
+                          Project Done
+                        </p>
+                      </div>
+                      <div className="col-lg-3 col-sm-4 col-4">
+                        <h3 className="text-heading-2 color-gray-900 mb-15">
+                          100%
+                        </h3>
+                        <p className="text-body-normal color-gray-600">
+                          Client Satisfaction
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-5 d-none d-lg-block">
+                  <div className="banner-imgs">
+                    <a
+                      className="popup-youtube btn-play-video-2"
+                      onClick={() => setOpen(true)}
+                    ></a>
+
+                    <img
+                      className="img-responsive shape-2"
+                      alt="Agon"
+                      src="assets/imgs/page/homepage4/banner1.png"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
-          </div> */}
+          </div>
+        </section>
 
+        {/* content */}
+
+        <div>
           <section className="section-box mt-100">
             <div className="container">
               <div className="row">
                 <div className="col-lg-1 col-sm-1 col-12" />
                 <div className="col-lg-10 col-sm-10 col-12 text-center">
                   <div className="text-center mb-20">
-                    <span className="tag-1" id="section-1">
+                    <span className="tag-1" id="blueprint">
                       Blueprint
                     </span>
                   </div>
@@ -180,7 +209,7 @@ function About3() {
                 <div className="col-lg-1 col-sm-1 col-12" />
                 <div className="col-lg-10 col-sm-10 col-12 text-center">
                   <div className="text-center mb-20">
-                    <span className="tag-1" id="section-2">
+                    <span className="tag-1" id="lead">
                       Lead Scoring
                     </span>
                   </div>
@@ -209,7 +238,7 @@ function About3() {
                 <div className="col-lg-1 col-sm-1 col-12" />
                 <div className="col-lg-10 col-sm-10 col-12 text-center">
                   <div className="text-center mb-20">
-                    <span className="tag-1" id="section-3">
+                    <span className="tag-1" id="Approval-Process">
                       Approval Process
                     </span>
                   </div>
@@ -238,7 +267,7 @@ function About3() {
                 <div className="col-lg-1 col-sm-1 col-12" />
                 <div className="col-lg-10 col-sm-10 col-12 text-center">
                   <div className="text-center mb-20">
-                    <span className="tag-1" id="section-4">
+                    <span className="tag-1" id="Escalation-Rules">
                       Escalation Rules
                     </span>
                   </div>
@@ -265,7 +294,7 @@ function About3() {
                 <div className="col-lg-1 col-sm-1 col-12" />
                 <div className="col-lg-10 col-sm-10 col-12 text-center">
                   <div className="text-center mb-20">
-                    <span className="tag-1" id="section-5">
+                    <span className="tag-1" id="Review-process">
                       Review process
                     </span>
                   </div>
@@ -295,7 +324,7 @@ function About3() {
                 <div className="col-lg-1 col-sm-1 col-12" />
                 <div className="col-lg-10 col-sm-10 col-12 text-center">
                   <div className="text-center mb-20">
-                    <span className="tag-1" id="section-6">
+                    <span className="tag-1" id="Validation-Rules">
                       Validation Rules
                     </span>
                   </div>
@@ -323,7 +352,7 @@ function About3() {
                 <div className="col-lg-1 col-sm-1 col-12" />
                 <div className="col-lg-10 col-sm-10 col-12 text-center">
                   <div className="text-center mb-20">
-                    <span className="tag-1" id="section-7">
+                    <span className="tag-1" id="Email-Parser">
                       Email Parser
                     </span>
                   </div>
@@ -345,7 +374,7 @@ function About3() {
                 <div className="col-lg-1 col-sm-1 col-12" />
                 <div className="col-lg-10 col-sm-10 col-12 text-center">
                   <div className="text-center mb-20">
-                    <span className="tag-1" id="section-8">
+                    <span className="tag-1" id="Multi-page-Layout">
                       Multi-page Layout
                     </span>
                   </div>

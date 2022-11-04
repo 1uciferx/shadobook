@@ -73,7 +73,7 @@ function Service1() {
                   <div className="item-icon none-bd">
                     <span className="icon-left">
                       <img
-                        src="/assets/imgs/page/services/1/icon-support.svg"
+                        src="/assets/imgs/page/services/1/hr.png"
                         alt="Agon"
                       />
                     </span>
