@@ -30,7 +30,8 @@ Building, Al Maktoum Road, Dubai,
 UAE
 </div>
 
-                            <div className="mt-20 text-body-text color-gray-600">+971 52 922 7590</div>
+                            <div className="mt-20 text-body-text color-gray-600">+971 52 872 2900</div>
+                            <div className="mt-20 text-body-text color-gray-600">+971 42 253 534</div>
                             <div className="text-body-text color-gray-600">info@shadobooks.com</div>
 
                         </div>

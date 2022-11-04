@@ -13,9 +13,9 @@ function Index2() {
               <div className="container">
                 <div className="row">
                   <div className="col-lg-7 mt-50">
-                    <span className="tag-1 bg-green-900">
+                    {/* <span className="tag-1 bg-green-900">
                       Digital Marketing Agency
-                    </span>
+                    </span> */}
                     <h1 className="text-display-3 mt-30">
                       Accounting Headache? SAY{" "}
                       <span style={{ color: "#90331C" }}>GOODBYE</span>

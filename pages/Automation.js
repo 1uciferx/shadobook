@@ -42,7 +42,7 @@ function About1() {
                         </div>
                     </div>
                 </section>
-                <div className="section-box mt-100">
+                {/* <div className="section-box mt-100">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-1" />
@@ -67,7 +67,7 @@ function About1() {
                             <div className="col-lg-1" />
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <section className="section-box mt-70">
                     <div className="container">
                         <div className="row">
@@ -82,7 +82,7 @@ function About1() {
                     </div>
                     <br></br><br></br>
 
-                    <div className="container">
+                    {/* <div className="container">
                         <div className="row">
                             <div className="col-lg-1" />
                             <div className="col-lg-10">
@@ -92,7 +92,7 @@ function About1() {
                             </div>
                                 <div className="col-lg-1" />
                             </div>
-                    </div>
+                    </div> */}
                 </section>
 
                 <section className="section-box mt-70">

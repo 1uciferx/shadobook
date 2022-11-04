@@ -30,26 +30,192 @@ const Header = ({ handleOpen, headerStyle }) => {
                                     <ul className="main-menu">
                                         <li className="">
                                             <Link href="/"><a className="active acuspad">Home</a></Link>
-                                            
+
                                         </li>
                                         <li className="has-children">
                                             <Link href="#"><a className="acuspad">Features</a></Link>
-                                            <ul className="sub-menu">
-                                                <li>
-                                                    <Link href="/analytics"><a><i className="fi fi-rr-star" />Analytics</a></Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/Automation"><a><i className="fi fi-rr-star" />Automated Marketing</a></Link>
-                                                </li>
-                                                {/* <li>
-                                                    <Link href="/#"><a><i className="fi fi-rr-star" />Mobile App</a></Link>
-                                                </li> */}
-                                                <li>
-                                                    <Link href="/process-management"><a><i className="fi fi-rr-star" />Process Management</a></Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="customization"><a><i className="fi fi-rr-star" />Customization</a></Link>
-                                                </li>
+                                            <ul className="sub-menu" style={{ width: "900px" }}>
+                                                <div style={{ display: "flex", justifyContent: "" }}>
+                                                    <div>
+                                                        <li>
+                                                            <Link href="/analytics"><a><i className="fi fi-rr-star" />Sales</a></Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="/Automation"><a><i className="fi fi-rr-star" />Purchase</a></Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="/#"><a><i className="fi fi-rr-star" />Expenses</a></Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="/process-management"><a><i className="fi fi-rr-star" />Accounting</a></Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="customization"><a><i className="fi fi-rr-star" />Reports</a></Link>
+                                                        </li>
+
+                                                        <li>
+                                                            <Link href="/analytics"><a><i className="fi fi-rr-star" />Leads
+                                                            </a></Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="/Automation"><a><i className="fi fi-rr-star" />Lead Management</a></Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="/#"><a><i className="fi fi-rr-star" />Fixed asset</a></Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="/process-management"><a><i className="fi fi-rr-star" />Customer center</a></Link>
+                                                        </li>
+
+                                                        <li>
+                                                            <Link href="/#"><a><i className="fi fi-rr-star" />Fixed asset</a></Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="/process-management"><a><i className="fi fi-rr-star" />Customer center</a></Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="customization"><a><i className="fi fi-rr-star" />Loyality</a></Link>
+                                                        </li>
+
+
+                                                    </div>
+
+                                                    <div>
+
+
+
+
+
+
+                                                        <li>
+                                                            <Link href="/Automation"><a><i className="fi fi-rr-star" />Appoinments</a></Link>
+                                                        </li>
+
+                                                        <li>
+                                                            <Link href="/#"><a><i className="fi fi-rr-star" />Suppliers</a></Link>
+                                                        </li>
+
+                                                        <li>
+                                                            <Link href="/process-management"><a><i className="fi fi-rr-star" />Expenses</a></Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="customization"><a><i className="fi fi-rr-star" />Commissions</a></Link>
+                                                        </li>
+
+
+
+                                                        <li>
+                                                            <Link href="/Automation"><a><i className="fi fi-rr-star" />Contracts</a></Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="/#"><a><i className="fi fi-rr-star" />Projects</a></Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="/process-management"><a><i className="fi fi-rr-star" />Account planning</a></Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="customization"><a><i className="fi fi-rr-star" />Task</a></Link>
+                                                        </li>
+
+                                                        <li>
+                                                            <Link href="customization"><a><i className="fi fi-rr-star" />Task Bookmarks
+                                                            </a></Link>
+                                                        </li>
+
+                                                        <li>
+                                                            <Link href="/process-management"><a><i className="fi fi-rr-star" />Estimates Request</a></Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="customization"><a><i className="fi fi-rr-star" />Accounting</a></Link>
+                                                        </li>
+
+
+
+                                                        <li>
+                                                            <Link href="/Automation"><a><i className="fi fi-rr-star" />Reports</a></Link>
+                                                        </li>
+
+
+
+                                                    </div>
+
+
+
+
+                                                    <div>
+
+                                                        <li>
+                                                            <Link href="/#"><a><i className="fi fi-rr-star" />HR Payroll</a></Link>
+                                                        </li>
+
+                                                        <li>
+                                                            <Link href="/process-management"><a><i className="fi fi-rr-star" />Project Roadmap</a></Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="customization"><a><i className="fi fi-rr-star" />Mindmap</a></Link>
+                                                        </li>
+
+                                                        <li>
+                                                            <Link href="customization"><a><i className="fi fi-rr-star" />Reminder
+                                                            </a></Link>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <Link href="/#"><a><i className="fi fi-rr-star" />Staff Booking
+                                                            </a></Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="/process-management"><a><i className="fi fi-rr-star" />Staff Workload</a></Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="customization"><a><i className="fi fi-rr-star" />Hr Records</a></Link>
+                                                        </li>
+
+
+
+                                                        <li>
+                                                            <Link href="/Automation"><a><i className="fi fi-rr-star" />Team passwords
+                                                            </a></Link>
+                                                        </li>
+
+                                                        <li>
+                                                            <Link href="/#"><a><i className="fi fi-rr-star" />Spreadsheet Online</a></Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="/process-management"><a><i className="fi fi-rr-star" />Setup</a></Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="customization"><a><i className="fi fi-rr-star" />Video Library</a></Link>
+                                                        </li>
+
+                                                        <li>
+                                                            <Link href="customization"><a><i className="fi fi-rr-star" />Web Hooks
+                                                            </a></Link>
+                                                        </li>
+
+                                                    </div>
+
+
+
+
+                                                    <div>
+                                                        <li>
+                                                            <Link href="/#"><a><i className="fi fi-rr-star" />wiki Books
+                                                            </a></Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="/process-management"><a><i className="fi fi-rr-star" />Manufacturing</a></Link>
+                                                        </li>
+
+
+                                                    </div>
+
+
+                                                </div>
+
+
+
                                             </ul>
                                         </li>
                                         {/* <li className="">
@@ -78,7 +244,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                                 <li>
                                                     <Link href="/page-pricing-2"><a className="closer"><i className="fi fi-rr-edit" />FAQs</a></Link>
                                                 </li>
-                                                
+
                                                 <li>
                                                     <Link href="/page-service-2"><a><i className="fi fi-rr-document-signed" />Documentation</a></Link>
                                                 </li>
