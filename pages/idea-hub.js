@@ -19,18 +19,18 @@ function Fixed() {
         <section className="section-box">
           <div
             className="banner-hero banner-4"
-            style={{ backgroundColor: "#ffded3" }}
+            style={{ backgroundColor: "rgb(255 255 211 / 41%)" }}
           >
             <div className="container">
               <div className="row">
                 <div className="col-lg-7">
                   <h1 className="text-display-2 color-gray-900">
-                    Fixed Assets
+                    Idea Hub
+
                   </h1>
                   <p className="text-body-lead-large color-gray-900 mt-30 pr-40">
-                    The fixed asset section of the platform enables end-to-end visibility of the management process starting from acquisition to disposition. Shadobook offers an elaborate portal for complete tracking of asset movements across your enterprise, request management and also ensure compliance through periodical audits. You can easily maintain, monitor, and manage business assets along with maintenance reporting, audit compliance, licenses management and also asserting depreciation values. <br></br>
-                    <br></br>
-                    By integrating all your crucial data under one platform, you can also hugely prevent any losses and damages
+                    The idea hub section enables you with an out-of-the-box approach to focus on new opportunities. Be it any business challenge or issue resolution, you can jot down all your ideas here collectively and figure out the best approach from the options you have. <br></br><br></br>
+                    They help in the collaborative development of teams and overcoming crucial tasks by engaging in collective ideas. This section of the portal gives the employees a space to identify new challenges, come up with ideas driven by innovation and convert them to actual solutions.
 
 
                   </p>

@@ -19,20 +19,18 @@ function Fixed() {
         <section className="section-box">
           <div
             className="banner-hero banner-4"
-            style={{ backgroundColor: "#ffded3" }}
+            style={{ backgroundColor: "rgb(211 255 224)" }}
           >
             <div className="container">
               <div className="row">
                 <div className="col-lg-7">
                   <h1 className="text-display-2 color-gray-900">
-                    Fixed Assets
+                    File Sharing
+
                   </h1>
                   <p className="text-body-lead-large color-gray-900 mt-30 pr-40">
-                    The fixed asset section of the platform enables end-to-end visibility of the management process starting from acquisition to disposition. Shadobook offers an elaborate portal for complete tracking of asset movements across your enterprise, request management and also ensure compliance through periodical audits. You can easily maintain, monitor, and manage business assets along with maintenance reporting, audit compliance, licenses management and also asserting depreciation values. <br></br>
-                    <br></br>
-                    By integrating all your crucial data under one platform, you can also hugely prevent any losses and damages
-
-
+                    Shadobooks CRM offers a centralized platform to share and receive files as necessary with the clients or for internal sharing purposes. In order to prevent unauthorized access to specific crucial documents, the portal offers options to manage file sharing with permissible access and download restrictions.<br></br>
+                    The section also comes with a reporting option that can help you visualize the shared files and their respective download statistics. The file sharing option in the CRM can simply improve collaborative working between the team while also establishing a transparent process flow.
                   </p>
 
                 </div>

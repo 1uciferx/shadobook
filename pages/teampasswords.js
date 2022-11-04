@@ -19,20 +19,19 @@ function Fixed() {
         <section className="section-box">
           <div
             className="banner-hero banner-4"
-            style={{ backgroundColor: "#ffded3" }}
+            style={{ backgroundColor: "rgb(255 211 211 / 43%)" }}
           >
             <div className="container">
               <div className="row">
                 <div className="col-lg-7">
                   <h1 className="text-display-2 color-gray-900">
-                    Fixed Assets
+                    Team Passwords
+
+
                   </h1>
                   <p className="text-body-lead-large color-gray-900 mt-30 pr-40">
-                    The fixed asset section of the platform enables end-to-end visibility of the management process starting from acquisition to disposition. Shadobook offers an elaborate portal for complete tracking of asset movements across your enterprise, request management and also ensure compliance through periodical audits. You can easily maintain, monitor, and manage business assets along with maintenance reporting, audit compliance, licenses management and also asserting depreciation values. <br></br>
-                    <br></br>
-                    By integrating all your crucial data under one platform, you can also hugely prevent any losses and damages
-
-
+                    The team passwords help you store all your passwords safely and securely. You can categorically store your crucial passwords for everything from credit cards, bank details, software licenses, email passwords and server credentials.<br></br>
+                    This section also offers an option to hide these from the client-facing end of the CRM. You can also manage the permissions to this section internally between teams to authorize access only to the ones you deem fit thus protecting this data even more so.
                   </p>
 
                 </div>

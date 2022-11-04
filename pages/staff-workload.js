@@ -19,20 +19,18 @@ function Fixed() {
         <section className="section-box">
           <div
             className="banner-hero banner-4"
-            style={{ backgroundColor: "#ffded3" }}
+            style={{ backgroundColor: "rgb(211 255 252 / 46%)" }}
           >
             <div className="container">
               <div className="row">
                 <div className="col-lg-7">
                   <h1 className="text-display-2 color-gray-900">
-                    Fixed Assets
+                    Staff Workload
                   </h1>
                   <p className="text-body-lead-large color-gray-900 mt-30 pr-40">
-                    The fixed asset section of the platform enables end-to-end visibility of the management process starting from acquisition to disposition. Shadobook offers an elaborate portal for complete tracking of asset movements across your enterprise, request management and also ensure compliance through periodical audits. You can easily maintain, monitor, and manage business assets along with maintenance reporting, audit compliance, licenses management and also asserting depreciation values. <br></br>
-                    <br></br>
-                    By integrating all your crucial data under one platform, you can also hugely prevent any losses and damages
+                    Monitoring and overseeing staff workload will help you utilize your resources efficiently and improve overall productivity. Shadobook interface offers charts and graphs for visualizing your workflow, timelines, estimated hours, hours spent on particular work, department-wise workflow, etc.<br></br><br></br>
 
-
+                    The CRM also offer Kanban Charts for easy project management and workflow monitoring. This tool also helps in understanding the efficiency of your resources.
                   </p>
 
                 </div>

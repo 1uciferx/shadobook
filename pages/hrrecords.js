@@ -19,20 +19,19 @@ function Fixed() {
         <section className="section-box">
           <div
             className="banner-hero banner-4"
-            style={{ backgroundColor: "#ffded3" }}
+            style={{ backgroundColor: "rgb(211 255 252 / 46%)" }}
           >
             <div className="container">
               <div className="row">
                 <div className="col-lg-7">
                   <h1 className="text-display-2 color-gray-900">
-                    Fixed Assets
+                    Hr Records
                   </h1>
                   <p className="text-body-lead-large color-gray-900 mt-30 pr-40">
-                    The fixed asset section of the platform enables end-to-end visibility of the management process starting from acquisition to disposition. Shadobook offers an elaborate portal for complete tracking of asset movements across your enterprise, request management and also ensure compliance through periodical audits. You can easily maintain, monitor, and manage business assets along with maintenance reporting, audit compliance, licenses management and also asserting depreciation values. <br></br>
-                    <br></br>
-                    By integrating all your crucial data under one platform, you can also hugely prevent any losses and damages
+                    Manage all your human resources and other related documents in a centralized database with the HR Records section of the Shadobooks CRM. The interface offers options for data management with respect to payrolls, onboarding processes, employee management, training modules, etc.<br></br><br></br>
 
-
+                    The interface is designed to offer statistical charts of the staff ratio by departments, age groups or job profile. In addition to employee management, they’ll also help you understand your resources better.<br></br><br></br>
+                    There are options for keeping track of HR records, birthdays, contracts, layoff checklists, organization charts and overall HR reports. All of these help in coordinating your HR efforts in a more orderly fashion.
                   </p>
 
                 </div>

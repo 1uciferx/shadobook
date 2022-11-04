@@ -135,7 +135,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                                             <Link href="/Automation"><a><i className="fi fi-rr-star" />Reports</a></Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="customization"><a><i className="fi fi-rr-star" />Hr Records</a></Link>
+                                                            <Link href="hrrecords"><a><i className="fi fi-rr-star" />Hr Records</a></Link>
                                                         </li>
 
                                                         <li>
@@ -160,48 +160,59 @@ const Header = ({ handleOpen, headerStyle }) => {
                                                         </li>
 
                                                         <li>
-                                                            <Link href="customization"><a><i className="fi fi-rr-star" />Reminder
+                                                            <Link href="idea-hub"><a><i className="fi fi-rr-star" />Idea Hub
+                                                            </a></Link>
+                                                        </li>
+
+                                                        <li>
+                                                            <Link href="reminder"><a><i className="fi fi-rr-star" />Reminder
                                                             </a></Link>
                                                         </li>
 
 
                                                         <li>
-                                                            <Link href="/#"><a><i className="fi fi-rr-star" />Staff Booking
+                                                            <Link href="/staff-booking"><a><i className="fi fi-rr-star" />Staff Booking
                                                             </a></Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="/process-management"><a><i className="fi fi-rr-star" />Staff Workload</a></Link>
+                                                            <Link href="/staff-workload"><a><i className="fi fi-rr-star" />Staff Workload</a></Link>
                                                         </li>
                                                      
 
 
 
                                                         <li>
-                                                            <Link href="/Automation"><a><i className="fi fi-rr-star" />Team passwords
+                                                            <Link href="/teampasswords"><a><i className="fi fi-rr-star" />Team passwords
                                                             </a></Link>
                                                         </li>
 
                                                         <li>
-                                                            <Link href="/#"><a><i className="fi fi-rr-star" />Spreadsheet Online</a></Link>
+                                                            <Link href="/filesharing"><a><i className="fi fi-rr-star" />File Sharing
+                                                            </a></Link>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <Link href="/spreadsheet"><a><i className="fi fi-rr-star" />Spreadsheet Online</a></Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="/process-management"><a><i className="fi fi-rr-star" />Setup</a></Link>
+                                                            <Link href="/setup"><a><i className="fi fi-rr-star" />Setup</a></Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="customization"><a><i className="fi fi-rr-star" />Video Library</a></Link>
+                                                            <Link href="videolibrary"><a><i className="fi fi-rr-star" />Video Library</a></Link>
                                                         </li>
 
                                                         <li>
-                                                            <Link href="customization"><a><i className="fi fi-rr-star" />Web Hooks
+                                                            <Link href="webhooks"><a><i className="fi fi-rr-star" />Web Hooks
                                                             </a></Link>
                                                         </li>
 
                                                         <li>
-                                                            <Link href="/process-management"><a><i className="fi fi-rr-star" />Manufacturing</a></Link>
+                                                            <Link href="/manufacturing"><a><i className="fi fi-rr-star" />Manufacturing</a></Link>
                                                         </li>
 
                                                         <li>
-                                                            <Link href="/#"><a><i className="fi fi-rr-star" />wiki Books
+                                                            <Link href="/wikibooks"><a><i className="fi fi-rr-star" />wiki Books
                                                             </a></Link>
                                                         </li>
 

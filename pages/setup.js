@@ -19,21 +19,32 @@ function Fixed() {
         <section className="section-box">
           <div
             className="banner-hero banner-4"
-            style={{ backgroundColor: "#ffded3" }}
+            style={{ backgroundColor: "rgb(255 211 255 / 27%)" }}
           >
             <div className="container">
               <div className="row">
                 <div className="col-lg-7">
                   <h1 className="text-display-2 color-gray-900">
-                    Fixed Assets
+                    Setup
+
                   </h1>
                   <p className="text-body-lead-large color-gray-900 mt-30 pr-40">
-                    The fixed asset section of the platform enables end-to-end visibility of the management process starting from acquisition to disposition. Shadobook offers an elaborate portal for complete tracking of asset movements across your enterprise, request management and also ensure compliance through periodical audits. You can easily maintain, monitor, and manage business assets along with maintenance reporting, audit compliance, licenses management and also asserting depreciation values. <br></br>
-                    <br></br>
-                    By integrating all your crucial data under one platform, you can also hugely prevent any losses and damages
+                    The setup section helps you customize and configure the entire scope of the Shadobooks CRM. There are diverse operations here that you are enabled to do including:<br></br>
+                    doing new staff members,<br></br><br></br> </p>
 
+                    <span className="text-body-lead-medium">
+                      ·       Creating client profiles<br></br>
+                      ·       Importing leads from sources<br></br>
+                      ·       Email, SMS or WhatsApp chat integrations<br></br>
+                      ·       Creating new roles<br></br>
+                      ·       Configuring theme styles and creating new templates<br></br>
+                      ·       Finance settings like tax rates, mode of payments and currencies<br></br>
+                      ·       Adding pre-defined responses, ticket management strategies and spam filters for support services<br></br>
+                      ·       Creating new custom fields<br></br>
+                    </span>
 
-                  </p>
+                    <p className="text-body-lead-large color-gray-900 mt-30 pr-40">The setup section focuses on helping you manage the CRM your way.</p>  
+                 
 
                 </div>
                 <div className="col-lg-5 d-none d-lg-block">
