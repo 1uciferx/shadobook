@@ -34,7 +34,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                         </li>
                                         <li className="has-children">
                                             <Link href="#"><a className="acuspad">Features</a></Link>
-                                            <ul className="sub-menu" style={{ width: "900px" }}>
+                                            <ul className="sub-menu" style={{ width: "750px" }}>
                                                 <div style={{ display: "flex", justifyContent: "" }}>
                                                     <div>
                                                         <li>
@@ -77,6 +77,10 @@ const Header = ({ handleOpen, headerStyle }) => {
                                                             <Link href="customization"><a><i className="fi fi-rr-star" />Loyality</a></Link>
                                                         </li>
 
+                                                        <li>
+                                                            <Link href="/Automation"><a><i className="fi fi-rr-star" />Appoinments</a></Link>
+                                                        </li>
+
 
                                                     </div>
 
@@ -87,17 +91,13 @@ const Header = ({ handleOpen, headerStyle }) => {
 
 
 
-                                                        <li>
-                                                            <Link href="/Automation"><a><i className="fi fi-rr-star" />Appoinments</a></Link>
-                                                        </li>
+                                                     
 
                                                         <li>
                                                             <Link href="/#"><a><i className="fi fi-rr-star" />Suppliers</a></Link>
                                                         </li>
 
-                                                        <li>
-                                                            <Link href="/process-management"><a><i className="fi fi-rr-star" />Expenses</a></Link>
-                                                        </li>
+                    
                                                         <li>
                                                             <Link href="customization"><a><i className="fi fi-rr-star" />Commissions</a></Link>
                                                         </li>
@@ -134,7 +134,17 @@ const Header = ({ handleOpen, headerStyle }) => {
                                                         <li>
                                                             <Link href="/Automation"><a><i className="fi fi-rr-star" />Reports</a></Link>
                                                         </li>
+                                                        <li>
+                                                            <Link href="customization"><a><i className="fi fi-rr-star" />Hr Records</a></Link>
+                                                        </li>
 
+                                                        <li>
+                                                            <Link href="/#"><a><i className="fi fi-rr-star" />HR Payroll</a></Link>
+                                                        </li>
+
+                                                        <li>
+                                                            <Link href="/process-management"><a><i className="fi fi-rr-star" />Project Roadmap</a></Link>
+                                                        </li>
 
 
                                                     </div>
@@ -144,13 +154,7 @@ const Header = ({ handleOpen, headerStyle }) => {
 
                                                     <div>
 
-                                                        <li>
-                                                            <Link href="/#"><a><i className="fi fi-rr-star" />HR Payroll</a></Link>
-                                                        </li>
-
-                                                        <li>
-                                                            <Link href="/process-management"><a><i className="fi fi-rr-star" />Project Roadmap</a></Link>
-                                                        </li>
+                                                        
                                                         <li>
                                                             <Link href="customization"><a><i className="fi fi-rr-star" />Mindmap</a></Link>
                                                         </li>
@@ -168,9 +172,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                                         <li>
                                                             <Link href="/process-management"><a><i className="fi fi-rr-star" />Staff Workload</a></Link>
                                                         </li>
-                                                        <li>
-                                                            <Link href="customization"><a><i className="fi fi-rr-star" />Hr Records</a></Link>
-                                                        </li>
+                                                     
 
 
 
@@ -194,22 +196,21 @@ const Header = ({ handleOpen, headerStyle }) => {
                                                             </a></Link>
                                                         </li>
 
-                                                    </div>
-
-
-
-
-                                                    <div>
-                                                        <li>
-                                                            <Link href="/#"><a><i className="fi fi-rr-star" />wiki Books
-                                                            </a></Link>
-                                                        </li>
                                                         <li>
                                                             <Link href="/process-management"><a><i className="fi fi-rr-star" />Manufacturing</a></Link>
                                                         </li>
 
+                                                        <li>
+                                                            <Link href="/#"><a><i className="fi fi-rr-star" />wiki Books
+                                                            </a></Link>
+                                                        </li>
 
                                                     </div>
+
+
+
+
+                                                   
 
 
                                                 </div>
