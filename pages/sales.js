@@ -19,7 +19,7 @@ function About1() {
         <>
             <Layout>
                 <section className="section-box">
-                    <div className="banner-hero banner-2 bg-about-1">
+                    <div className="banner-hero banner-2 bg-2">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-7">

@@ -5,8 +5,8 @@ const Footer = () => {
         <>
             <footer className="footer mt-50">
                 <div className="container">
-                    <div className="footer-top">
-                        <div className="row">
+                    {/*  <div className="footer-top">
+                       <div className="row">
                             <div className="col-md-4 col-sm-6 text-center text-md-start">
                                 <Link href="/">
                                     <a className="d-flex">
@@ -21,18 +21,17 @@ const Footer = () => {
                                 </Link>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="row">
                         <div className="col-lg-3 width-20 mb-30">
                             <h4 className="text-heading-5">Contact</h4>
                             <div className="mt-20 text-body-text color-gray-600 mb-20">Office 903, 9th floor, Damas
-Building, Al Maktoum Road, Dubai,
-UAE
-</div>
+                                Building, Al Maktoum Road, Dubai, UAE
+                            </div>
 
                             <div className="mt-20 text-body-text color-gray-600">+971 52 872 2900</div>
-                            <div className="mt-20 text-body-text color-gray-600">+971 42 253 534</div>
-                            <div className="text-body-text color-gray-600">info@shadobooks.com</div>
+                            <div className="text-body-text color-gray-600">+971 42 253 534</div>
+                            <div className="mt-20 text-body-text color-gray-600">info@shadobooks.com</div>
 
                         </div>
                         <div className="col-lg-3 width-20 mb-30">
@@ -170,7 +169,7 @@ UAE
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div> 
                     <div className="footer-bottom mt-20">
                         <div className="row">
                             <div className="col-md-8">
@@ -187,7 +186,7 @@ UAE
                             </div>
                             <div className="col-md-4 text-center text-lg-end text-md-end">
                                 <div className="footer-social">
-                                    <Link href="https://facebook.com">
+                                    <Link href="https://www.facebook.com/profile.php?id=100087261437080&is_tour_dismissed=true">
                                         <a className="icon-socials icon-facebook"></a>
                                     </Link>
                                     <Link href="https://twitter.com">

@@ -239,7 +239,7 @@ function Index2() {
                     </h3>
                   <p className="text-heading-7 color-gray-600 ">
                    
-                    with the Myoxygen Dashboard which presents all the financial
+                    with the Dashboard which presents all the financial
                     data in a dynamically interactive format while also opening
                     new doors to a wealth of insights that can help you with
                     informed decision-making and improve your customer-facing
@@ -454,7 +454,10 @@ function Index2() {
               </div>
             </div>
           </section>
-          <section className="section-box">
+
+
+        {/* happy customers */}
+          {/* <section className="section-box">
             <div className="container mt-120">
               <div className="bdrd-58 box-gray-100">
                 <div className="row">
@@ -576,7 +579,7 @@ function Index2() {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
 
           <section className="section-box overflow-visible mb-100">
             <div className="container mt-100">

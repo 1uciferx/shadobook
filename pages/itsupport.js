@@ -16,11 +16,11 @@ function Service1() {
                   <h1 className="text-display-3 mt-95">
                     Get the best CRM for IT and Support services from ShadoBook
                   </h1>
-                  <p className="text-body-lead-medium color-gray-500 mt-40 pr-40">
+                  <p className="text-body-lead-large color-gray-500 mt-40 pr-40" style={{fontSize:"20px"}}>
                   With the help of ShadoBook CRM's extensive analytics, you can keep track of every stage of your sales cycle,from lead analysis to deal insights, activity data, and email analysis. Create dashboards exclusively yours by utilizing analytical widgets for sales, such as charts, goal meters, KPIs, and funnels. yours by utilizing analytical widgets for sales, such as charts, goal meters, KPIs, and funnels. 
                     
                   </p>
-                  <div className="mt-40">
+                  {/* <div className="mt-40">
                     <Link href="/page-about-1">
                       <a className="btn btn-black shape-square icon-arrow-right-white">
                         Get Started
@@ -32,7 +32,7 @@ function Service1() {
                         How it works
                       </a>
                     </Link>
-                  </div>
+                  </div> */}
              
                 </div>
                 <div className="col-lg-6 d-none d-lg-block">
@@ -40,12 +40,12 @@ function Service1() {
                     <div className="block-1 shape-2">
                       <img
                         src="/assets/imgs/page/services/1/banner-2.png"
-                        alt="Agon"
+                        alt="ShadoBooks"
                       />
                     </div>
                     <img
                       src="/assets/imgs/page/services/1/banner.png"
-                      alt="Agon"
+                      alt="ShadoBooks"
                     />
                   </div>
                 </div>
@@ -74,7 +74,7 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/hr.png"
-                        alt="Agon"
+                        alt="ShadoBooks"
                       />
                     </span>
                     <h4 className="text-heading-6">HR Management</h4>
@@ -90,7 +90,7 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/icon-web.svg"
-                        alt="Agon"
+                        alt="ShadoBooks"
                       />
                     </span>
                     <h4 className="text-heading-6">HR Payroll</h4>
@@ -106,7 +106,7 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/icon-business.svg"
-                        alt="Agon"
+                        alt="ShadoBooks"
                       />
                     </span>
                     <h4 className="text-heading-6">Accounting</h4>
@@ -122,7 +122,7 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/icon-product.svg"
-                        alt="Agon"
+                        alt="ShadoBooks"
                       />
                     </span>
                     <h4 className="text-heading-6">Customers</h4>
@@ -138,7 +138,7 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/icon-share.svg"
-                        alt="Agon"
+                        alt="ShadoBooks"
                       />
                     </span>
                     <h4 className="text-heading-6">Sales</h4>
@@ -154,7 +154,7 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/icon-build.svg"
-                        alt="Agon"
+                        alt="ShadoBooks"
                       />
                     </span>
                     <h4 className="text-heading-6">Reminder</h4>
@@ -170,7 +170,7 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/icon-team.svg"
-                        alt="Agon"
+                        alt="ShadoBooks"
                       />
                     </span>
                     <h4 className="text-heading-6">Chat</h4>
@@ -186,7 +186,7 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/icon-web.svg"
-                        alt="Agon"
+                        alt="ShadoBooks"
                       />
                     </span>
                     <h4 className="text-heading-6">Flowchart</h4>
@@ -203,7 +203,7 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/icon-web.svg"
-                        alt="Agon"
+                        alt="ShadoBooks"
                       />
                     </span>
                     <h4 className="text-heading-6">Lead</h4>
@@ -220,7 +220,7 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/icon-web.svg"
-                        alt="Agon"
+                        alt="ShadoBooks"
                       />
                     </span>
                     <h4 className="text-heading-6">Timesheet</h4>
@@ -237,7 +237,7 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/icon-web.svg"
-                        alt="Agon"
+                        alt="ShadoBooks"
                       />
                     </span>
                     <h4 className="text-heading-6">Staff Workload</h4>
@@ -253,7 +253,7 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/icon-web.svg"
-                        alt="Agon"
+                        alt="ShadoBooks"
                       />
                     </span>
                     <h4 className="text-heading-6">Expenses</h4>
@@ -270,7 +270,7 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/icon-web.svg"
-                        alt="Agon"
+                        alt="ShadoBooks"
                       />
                     </span>
                     <h4 className="text-heading-6">Project</h4>
@@ -287,7 +287,7 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/icon-web.svg"
-                        alt="Agon"
+                        alt="ShadoBooks"
                       />
                     </span>
                     <h4 className="text-heading-6">Recruitment</h4>
@@ -304,7 +304,7 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/icon-web.svg"
-                        alt="Agon"
+                        alt="ShadoBooks"
                       />
                     </span>
                     <h4 className="text-heading-6">Task</h4>
@@ -321,7 +321,7 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/icon-web.svg"
-                        alt="Agon"
+                        alt="ShadoBooks"
                       />
                     </span>
                     <h4 className="text-heading-6">Utilities</h4>
@@ -391,13 +391,13 @@ function Service1() {
                   <img
                     className="bdrd-16 img-responsive"
                     src="assets/imgs/page/homepage3/img-2.png"
-                    alt="Agon"
+                    alt="ShadoBooks"
                   />
                   <div className="block-image-bottom">
                     <img
                       className="bdrd-16 img-responsive"
                       src="assets/imgs/page/homepage2/img-built-2.png"
-                      alt="Agon"
+                      alt="ShadoBooks"
                     />
                   </div>
                 </div>
@@ -631,12 +631,12 @@ function Service1() {
                     </div>
                     <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
                       <div className="block-chart shape-1">
-                        <img src="/assets/imgs/template/chart.png" alt="Agon" />
+                        <img src="/assets/imgs/template/chart.png" alt="ShadoBooks" />
                       </div>
                       <img
                         className="img-responsive img-newsletter"
                         src="assets/imgs/template/img-newsletter.png"
-                        alt="Agon"
+                        alt="ShadoBooks"
                       />
                     </div>
                   </div>
