@@ -49,7 +49,7 @@ Improve your strategies with more insights about your recruitment channels and p
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/banner1.png"
+                      src="assets/imgs/page/homepage4/recuritment.jpg " style={{borderRadius:"30px",height:"610px",width:"700px"}}
                     />
                   </div>
                 </div>

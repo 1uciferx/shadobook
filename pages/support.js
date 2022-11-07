@@ -46,7 +46,7 @@ This section provides a single panel view for all your support requirements and 
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/banner1.png"
+                      src="assets/imgs/page/homepage4/support.jpg " style={{borderRadius:"30px",height:"610px",width:"700px"}}
                     />
                   </div>
                 </div>

@@ -42,9 +42,9 @@ function Fixed() {
                     ></a> */}
 
                     <img
-                      className="img-responsive shape-2"
+                      className="img-responsive shape-1"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/banner1.png"
+                      src="assets/imgs/page/homepage4/vl1.png " 
                     />
                   </div>
                 </div>

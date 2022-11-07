@@ -19,15 +19,15 @@ function Fixed() {
         <section className="section-box">
           <div
             className="banner-hero banner-4"
-            style={{ backgroundColor: "rgb(211 252 255)" }}
+            style={{ backgroundColor: "#28506f" }}
           >
             <div className="container">
               <div className="row">
                 <div className="col-lg-7">
-                  <h1 className="text-display-2 color-gray-900">
+                  <h1 className="text-display-2 " style={{ color: "#00b3fd" }}>
                     Webhooks
                   </h1>
-                  <p className="text-body-lead-large color-gray-900 mt-30 pr-40">
+                  <p className="text-body-lead-large  mt-30 pr-40"  style={{ color: "#acdced" }}>
                     Shadobooks CRM offers webhooks services that will allow HTTP requests for connecting web APIs and services with a subscribe or publish model. They are user-defined HTTP callbacks that are activated by a trigger to make a request.<br></br>
                     A real-world example would be to set an automatic email reminder first thing each morning for your day-to-day task lists.
 
@@ -45,7 +45,7 @@ function Fixed() {
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/banner1.png"
+                      src="assets/imgs/page/homepage4/webhooks.jpg " style={{borderRadius:"30px",height:"610px",width:"700px"}}
                     />
                   </div>
                 </div>
