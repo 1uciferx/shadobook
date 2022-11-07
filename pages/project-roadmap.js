@@ -47,7 +47,7 @@ This section is also aimed at promoting collaborative team effort and has a tab 
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/banner1.png"
+                      src="assets/imgs/page/homepage4/pr.jpg " style={{borderRadius:"30px",height:"600px",width:"500px"}}
                     />
                   </div>
                 </div>

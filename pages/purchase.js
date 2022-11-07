@@ -33,7 +33,7 @@ The platform also offers options for thorough inventory management, developing e
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-block">
                                     <div className="banner-imgs">
-                                        <div className="block-1 shape-1"></div><img className="img-responsive shape-2" alt="Agon" src="assets/imgs/page/about/1/banner shadobook.jpg" />
+                                        <div className="block-1 shape-1"></div><img className="img-responsive shape-1" alt="Agon" src="assets/imgs/page/homepage4/purchase.jpg "  style={{borderRadius:"30px",height:"500px"}} />
 
                                         {/* <img src="/assets/imgs/page/about/1/banner2.png" alt="Agon" /> */}
                                     </div>

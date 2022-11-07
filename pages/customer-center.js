@@ -33,7 +33,7 @@ You can update all their contact information, communication pathways and all the
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-block">
                                     <div className="banner-imgs">
-                                        <div className="block-1 shape-1"></div><img className="img-responsive shape-2" alt="Agon" src="assets/imgs/page/about/1/banner shadobook.jpg" />
+                                        <div className="block-1 shape-1"></div><img className="img-responsive shape-2" alt="Agon" src="assets/imgs/page/homepage4/cs.png" style={{borderRadius:"30px"}} />
 
                                         {/* <img src="/assets/imgs/page/about/1/banner2.png" alt="Agon" /> */}
                                     </div>

@@ -18,7 +18,7 @@ function Contracts() {
 
         <section className="section-box">
           <div
-            className="banner-hero banner-4"
+            className="banner-hero banner-4 bg-9"
             style={{ backgroundColor: "#ffded3" }}
           >
             <div className="container">
@@ -46,7 +46,7 @@ The portal also offers options for obligation management, revisions and amendmen
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/banner1.png"
+                      src="assets/imgs/page/homepage4/contracts.jpg " style={{borderRadius:"30px",height:"500px",width:"400px"}}
                     />
                   </div>
                 </div>

@@ -43,7 +43,7 @@ The estimate feature will give you the option to customize the form that is tail
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/banner1.png"
+                      src="assets/imgs/page/homepage4/estimates.png " style={{borderRadius:"30px"}}
                     />
                   </div>
                 </div>

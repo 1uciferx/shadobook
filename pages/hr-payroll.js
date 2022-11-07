@@ -45,7 +45,7 @@ Keep a track of all your payslips, onboarding documents, income tax filing and a
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/banner1.png"
+                      src="assets/imgs/page/homepage4/hrpay.jpg " style={{borderRadius:"30px",height:"600px"}}
                     />
                   </div>
                 </div>

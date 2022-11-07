@@ -102,7 +102,7 @@ With options to calculate loss and adjustments, check the inventory history and 
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/banner1.png"
+                      src="assets/imgs/page/homepage4/inventory.jpg " style={{borderRadius:"30px",height:"600px",width:"500px"}}
                     />
                   </div>
                 </div>

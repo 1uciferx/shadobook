@@ -18,7 +18,7 @@ function Projects() {
 
         <section className="section-box">
           <div
-            className="banner-hero banner-4"
+            className="banner-hero banner-4 bg-10"
             style={{ backgroundColor: "#ffded3" }}
           >
             <div className="container">
@@ -42,9 +42,9 @@ You can also integrate all your crucial documents under the attachment section. 
                     ></a> */}
 
                     <img
-                      className="img-responsive shape-2"
+                      className="img-responsive shape-1"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/banner1.png"
+                      src="assets/imgs/page/homepage4/projects.jpg " style={{borderRadius:"30px",height:"500px",width:"500px"}}
                     />
                   </div>
                 </div>

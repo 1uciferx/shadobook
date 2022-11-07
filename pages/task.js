@@ -18,7 +18,7 @@ function Task() {
 
         <section className="section-box">
           <div
-            className="banner-hero banner-4"
+            className="banner-hero banner-4 bg-about-1 bg-5"
             style={{ backgroundColor: "#ffded3" }}
           >
             <div className="container">
@@ -47,7 +47,7 @@ Manage, prioritize, access and oversee all your tasks on the go. Enhance your pr
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/banner1.png"
+                      src="assets/imgs/page/homepage4/tasks.jpg " style={{borderRadius:"30px",height:"610px",width:"700px"}}
                     />
                   </div>
                 </div>

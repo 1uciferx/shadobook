@@ -19,7 +19,7 @@ function Leads() {
         <>
             <Layout>
                 <section className="section-box">
-                    <div className="banner-hero banner-2 bg-about-1">
+                    <div className="banner-hero banner-2 bg-about-1 bg-10">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-7">
@@ -32,7 +32,7 @@ You can even note down the meeting minutes during your field visits so as to not
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-block">
                                     <div className="banner-imgs">
-                                        <div className="block-1 shape-1"></div><img className="img-responsive shape-2" alt="Agon" src="assets/imgs/page/about/1/banner shadobook.jpg" />
+                                        <div className="block-1 shape-1"></div><img className="img-responsive shape-2" alt="Agon"  src="assets/imgs/page/homepage4/leads.jpg " style={{borderRadius:"30px",height:"610px",width:"500px"}} />
 
                                         {/* <img src="/assets/imgs/page/about/1/banner2.png" alt="Agon" /> */}
                                     </div>

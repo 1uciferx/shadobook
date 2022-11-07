@@ -48,7 +48,7 @@ With a flexible interface that is also accessible on the go, you can make your w
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/banner1.png"
+                      src="assets/imgs/page/homepage4/expenses.jpg "style={{borderRadius:"30px",height:"500px"}}
                     />
                   </div>
                 </div>

@@ -47,7 +47,7 @@ Manual processing can result in errors and also cost you a lot of time and resou
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/banner1.png"
+                      src="assets/imgs/page/homepage4/commissions.jpg " style={{borderRadius:"30px",height:"610px",width:"500px"}}
                     />
                   </div>
                 </div>

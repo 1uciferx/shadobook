@@ -18,8 +18,8 @@ function Mindmap() {
 
         <section className="section-box">
           <div
-            className="banner-hero banner-4"
-            style={{ backgroundColor: "#ffded3" }}
+            className="banner-hero banner-4 bg-about-1"
+            style={{ backgroundColor: "#ffd960" }}
           >
             <div className="container">
               <div className="row">
@@ -44,7 +44,7 @@ Be it exploring different perspectives in any areas like clients, servicing, dea
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/banner1.png"
+                      src="assets/imgs/page/homepage4/mm.jpg " style={{borderRadius:"30px",height:"610px",width:"800px"}}
                     />
                   </div>
                 </div>

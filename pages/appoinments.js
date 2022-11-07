@@ -18,7 +18,7 @@ function Appoinments() {
 
         <section className="section-box">
           <div
-            className="banner-hero banner-4"
+            className="banner-hero banner-2 bg-3"
             style={{ backgroundColor: "#ffded3" }}
           >
             <div className="container">
@@ -48,7 +48,7 @@ This feature thus eliminates the chances of missing out on details, redundancy i
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/banner1.png"
+                      src="assets/imgs/page/homepage4/appoinments.jpg " style={{borderRadius:"30px",height:"610px",width:"800px"}}
                     />
                   </div>
                 </div>

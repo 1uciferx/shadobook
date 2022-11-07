@@ -32,7 +32,7 @@ Shadobooks also offer complete flexibility in organizing your sales touch points
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-block">
                                     <div className="banner-imgs">
-                                        <div className="block-1 shape-1"></div><img className="img-responsive shape-2" alt="Agon" src="assets/imgs/page/about/1/banner1.png" />
+                                        <div className="block-1 shape-1"></div><img className="img-responsive shape-2" alt="Agon" src="assets/imgs/page/homepage4/sales.png" style={{borderRadius:"30px"}} />
 
                                         {/* <img src="/assets/imgs/page/about/1/banner2.png" alt="Agon" /> */}
                                     </div>

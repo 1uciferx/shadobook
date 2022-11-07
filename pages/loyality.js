@@ -48,7 +48,7 @@ By keeping a thorough track of your interactions, you will also be maintaining a
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/banner1.png"
+                      src="assets/imgs/page/homepage4/loyality.jpg " style={{borderRadius:"30px",height:"610px",width:"700px"}}
                     />
                   </div>
                 </div>
