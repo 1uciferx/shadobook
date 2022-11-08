@@ -142,7 +142,7 @@ function Contact() {
                                     <br />+971 42 253 534</p>
                                     <br />
                                     <h4 className="text-heading-6 color-gray-900 mb-10 mt-10">Mail</h4>
-                                    <p className="text-body-text color-gray-600">contact@agon.com</p>
+                                    <p className="text-body-text color-gray-600"> info@shadobooks.com</p>
                                 </div>
                 <div className="col-lg-8">
                   <div className="row">

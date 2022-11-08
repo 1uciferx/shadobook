@@ -150,6 +150,10 @@
   color: #000000 !important;
 }
 
-
-
+.custom-footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
 

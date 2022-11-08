@@ -4,6 +4,8 @@ import { useState } from "react";
 import PerfectScrollbar from "react-perfect-scrollbar";
 import "react-perfect-scrollbar/dist/css/styles.css";
 
+
+
 const Sidebar = ({ openClass }) => {
   const [isActive, setIsActive] = useState({
     status: false,
@@ -22,10 +24,15 @@ const Sidebar = ({ openClass }) => {
       });
     }
   };
+
+  
+
+
+  
   return (
     <>
       <div
-        className={`mobile-header-active mobile-header-wrapper-style perfect-scrollbar ${openClass}`}
+        className={`mobile-header-active mobile-header-wrapper-style ${openClass}`}
       >
         <PerfectScrollbar className="mobile-header-wrapper-inner">
           <div className="mobile-header-top">
@@ -40,7 +47,7 @@ const Sidebar = ({ openClass }) => {
             </div> */}
           </div>
           <div className="mobile-header-content-area">
-            <div className="perfect-scroll">
+            <div className="">
               <div className="mobile-menu-wrap mobile-header-border">
                 <nav>
                   <ul className="mobile-menu font-heading">
@@ -703,16 +710,14 @@ const Sidebar = ({ openClass }) => {
               </div>        */}
             </div>
           </div>
-          <div className="footer-bottom mt-20">
-                        <div className="row">
-                        <hr  className=" color-gray-400"></hr>
-                            <div className="col-md-8">
+          
+          <div className="mt-20 custom-footer">
                             
-                                <span className="site-copyright color-gray-400" style={{marginLeft:"100px"}}> © ShadoBooks Pvt.Ltd</span>
-                            </div>
+                            <hr className=" color-gray-400" />
+<span className="site-copyright color-gray-400" style={{marginLeft:"100px", position:"flex"}}> © ShadoBooks Pvt.Ltd</span>
                             
-                        </div>
                     </div>
+                  
         </PerfectScrollbar>
       </div>
     </>
