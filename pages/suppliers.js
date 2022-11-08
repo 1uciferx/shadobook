@@ -47,7 +47,7 @@ function Suppliers() {
                     <img
                       className="img-responsive shape-1"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/suppliers.jpg " style={{borderRadius:"30px",height:"500px"}}
+                      src="assets/imgs/page/homepage4/suppliers1.png " style={{borderRadius:"30px",height:"500px"}}
                     />
                   </div>
                 </div>

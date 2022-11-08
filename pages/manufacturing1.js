@@ -16,10 +16,10 @@ function Manu() {
     <>
       <Layout>
         <section className="section-box">
-          <div className="banner-hero banner-3 bg-3">
+          <div className="banner-hero banner-3 " style={{backgroundColor:"#F1F3F3"}}>
             <div className="container">
               <div className="text-center">
-                <h1 className="text-display-2 color-gray-900 mt-40">
+                <h1 className="text-display-2 color-gray-900 mt-40 ">
                   Get the best CRM for the manufacturing
                   <br className="d-lg-block d-none" />
                   industry from ShadoBook
@@ -47,13 +47,13 @@ function Manu() {
               <div className="col-lg-1" />
               <div className="col-lg-10">
                 <div className="box-image">
-                  <a
+                  {/* <a
                     className="popup-youtube btn-play-video btn-play-middle"
                     onClick={() => setOpen(true)}
-                  ></a>
+                  ></a> */}
                   <img
-                    className="img-responsive bdrd-16"
-                    src="assets/imgs/page/homepage3/img-banner-video.png"
+                    className="img-responsive shape-2 square border border-primary"
+                    src="assets/imgs/page/homepage4/manu.jpg " style={{borderRadius:"30px",width:"100%"}}
                     alt="ShadoBooks"
                   />
                 </div>
@@ -62,7 +62,7 @@ function Manu() {
             </div>
           </div>
         </div>
-        <div className="banner-hero banner-4 mt-100 bg-2">
+        <div className="banner-hero banner-4 mt-100 " style={{backgroundColor:"#F1F3F3"}}>
           <div className="container">
             <div className="row">
               <div className="col-lg-1 col-sm-1 col-12" />
@@ -210,7 +210,7 @@ function Manu() {
           <div className="col-lg-1 col-sm-1 col-12" />
         </div>
 
-        <div className="banner-hero banner-4 mt-100 bg-2">
+        <div className="banner-hero banner-4 mt-100"  style={{backgroundColor:"#F1F3F3"}}>
           <div className="container mt-50">
             <div className="row">
               <div className="col-lg-10 col-sm-10 col-12 text-center">
@@ -218,10 +218,10 @@ function Manu() {
                   Why choose our ShadoBook?
                 </h2>
               </div>
-              <div className="col-lg-4 col-md-12 col-sm-12">
+              <div className="col-lg-4 col-md-12 col-sm-12 hover-up mt-3 square border border-primary" style={{backgroundColor:"#AEBBBA", borderRadius:"30px",marginLeft:"120px"}}>
                 <div className=" mt-50">
-                  <div className="item-icon" style={{textAlign:"center"}}>
-                    <span className="icon-left">
+                  <div className="item-icon" style={{textAlign:"center", marginBottom:"50px"}}>
+                    <span className="icon-left ">
                       <img
                         src="/assets/imgs/page/homepage2/term.png"
                         alt="ShadoBooks" style={{height:"75px"}}
@@ -244,9 +244,9 @@ function Manu() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-12 col-sm-12">
+              <div className="col-lg-4 col-md-12 col-sm-12  hover-up mt-3 square border border-primary" style={{backgroundColor:"#AEBBBA", borderRadius:"30px", marginLeft:"200px"}}>
                 <div className=" mt-50">
-                  <div className="item-icon" style={{textAlign:"center"}}>
+                  <div className="item-icon" style={{textAlign:"center", marginBottom:"50px"}}>
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/homepage2/decission.png"
@@ -268,9 +268,9 @@ function Manu() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-12 col-sm-12">
+              <div className="col-lg-4 col-md-12 col-sm-12  hover-up square border border-primary " style={{backgroundColor:"#AEBBBA", borderRadius:"30px",marginTop:"60px",marginLeft:"120px" }}>
                 <div className=" mt-50">
-                  <div className="item-icon" style={{textAlign:"center"}} >
+                <div className="item-icon" style={{textAlign:"center", marginBottom:"50px"}}>
                     <span className="icon-left" >
                       <img
                         src="/assets/imgs/page/homepage2/boost.png"
@@ -295,9 +295,9 @@ function Manu() {
                 </div>
               </div>
 
-              <div className="col-lg-4 col-md-12 col-sm-12">
+              <div className="col-lg-4 col-md-12 col-sm-12  hover-up square border border-primary " style={{backgroundColor:"#AEBBBA", borderRadius:"30px",marginLeft:"200px",marginTop:"60px"}}>
                 <div className="mt-100">
-                  <div className="item-icon" style={{textAlign:"center"}}>
+                <div className="item-icon" style={{textAlign:"center", marginBottom:"50px"}}>
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/homepage2/profit.png"
@@ -322,7 +322,7 @@ function Manu() {
           </div>
         </div>
 
-        <section className="section-box mt-100 banner-hero banner-4 bg-1">
+        <section className="section-box mt-100 banner-hero banner-4  "  style={{backgroundColor:"#F1F3F3"}}>
           <div className="container">
             <div className="row">
               <div className="col-lg-12 col-sm-12 col-12 text-center">

@@ -80,10 +80,10 @@ function Raw() {
                 </div>
                 <div className="col-lg-5 d-none d-lg-block">
                   <div className="banner-imgs">
-                    <a
+                    {/* <a
                       className="popup-youtube btn-play-video-2"
                       onClick={() => setOpen(true)}
-                    ></a>
+                    ></a> */}
 
                     <img
                       className="img-responsive shape-2"
