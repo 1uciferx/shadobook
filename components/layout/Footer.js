@@ -173,7 +173,7 @@ const Footer = () => {
                     <div className="footer-bottom mt-20">
                         <div className="row">
                             <div className="col-md-8">
-                                <span className="color-gray-400 text-body-lead">© ShadoBooks Official 2022</span>
+                                <span className="color-gray-400 text-body-lead"> © ShadoBooks Pvt.Ltd</span>
                                 <Link href="/privacy-policy">
                                     <a className="text-body-text color-gray-400 ml-50">Privacy policy</a>
                                 </Link>

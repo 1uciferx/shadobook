@@ -29,15 +29,15 @@ const Sidebar = ({ openClass }) => {
       >
         <PerfectScrollbar className="mobile-header-wrapper-inner">
           <div className="mobile-header-top">
-            <div className="user-account">
+            {/* <div className="user-account">
               <img src="/assets/imgs/template/ava_1.png" alt="Agon" />
-              <div className="content">
+               <div className="content">
                 <h6 className="user-name">
                   Hi <span className="text-brand">Steven !</span>
                 </h6>
                 <p className="font-xs text-muted">You have 5 new messages</p>
-              </div>
-            </div>
+              </div> 
+            </div> */}
           </div>
           <div className="mobile-header-content-area">
             <div className="perfect-scroll">
@@ -58,7 +58,7 @@ const Sidebar = ({ openClass }) => {
                         {/* <i className="fi-rr-angle-small-down"></i> */}
                       </span>
                       <Link href="/">
-                        <a className="active">Home</a>
+                        <a className="active" style={{fontSize:"20px"}}>Home</a>
                       </Link>
                       {/* <ul
                         className={
@@ -103,7 +103,7 @@ const Sidebar = ({ openClass }) => {
                       </span>
 
                      
-                        <a>Features</a>
+                        <a style={{fontSize:"20px"}}>Features</a>
                       
                       <ul
                         className={
@@ -599,7 +599,7 @@ const Sidebar = ({ openClass }) => {
                       </span>
 
                       
-                        <a>Solution</a>
+                        <a style={{fontSize:"20px"}}>Solution</a>
                       
                       <ul
                         className={
@@ -691,14 +691,28 @@ const Sidebar = ({ openClass }) => {
                     </Link>
                   </li>
                 </ul>
-              </div> */}
-              <div className="site-copyright color-gray-400">
-                Copyright 2022 © ShadoBooks
-               
-            
-              </div>
+              </div> 
+              
+
+              // copyright
+              
+              <hr  className=" color-gray-400 mt-200"></hr>
+              <div className="site-copyright color-gray-400 " style={{marginTop:"20px",}}>
+                 © ShadoBooks Pvt.Ltd
+   
+              </div>        */}
             </div>
           </div>
+          <div className="footer-bottom mt-20">
+                        <div className="row">
+                        <hr  className=" color-gray-400"></hr>
+                            <div className="col-md-8">
+                            
+                                <span className="site-copyright color-gray-400" style={{marginLeft:"100px"}}> © ShadoBooks Pvt.Ltd</span>
+                            </div>
+                            
+                        </div>
+                    </div>
         </PerfectScrollbar>
       </div>
     </>

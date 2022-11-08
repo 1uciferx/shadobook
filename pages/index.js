@@ -29,16 +29,16 @@ function Index2() {
                       operations with an all-in-on accounting platform.
                     </p>
                     <div className="mt-40">
-                      <Link href="/page-about-1">
+                      <Link href="/page-contact">
                         <a className="btn btn-black shape-square icon-arrow-right-white">
                           Get Start
                         </a>
                       </Link>
-                      <Link href="/page-about-2">
+                      {/* <Link href="/page-about-2">
                         <a className="btn btn-link icon-triangle color-gray-900 ml-40">
                           How it works
                         </a>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
 
@@ -48,18 +48,18 @@ function Index2() {
                       <div className="block-1 shape-2">
                         <img
                           src="/assets/imgs/page/homepage2/balance new.png"
-                          alt="Agon"
+                          alt="ShadoBooks"
                         />
                       </div>
                       <div className="block-2 shape-3">
                         <img
                           src="/assets/imgs/page/homepage2/payment new.png"
-                          alt="Agon"
+                          alt="ShadoBooks"
                         />
                       </div>
                       <img
                         className="img-responsive shape-1"
-                        alt="Agon"
+                        alt="ShadoBooks"
                         src="assets/imgs/page/homepage2/bannernew.png"
                       />
                     </div>
@@ -80,7 +80,7 @@ function Index2() {
                       <Link href="/#">
                         <a className="item-logo box-hover-shadow hover-up">
                           <img
-                            alt="Agon"
+                            alt="ShadoBooks"
                             src="assets/imgs/slider/logo/AGS.png"
                           />
                         </a>
@@ -90,7 +90,7 @@ function Index2() {
                       <Link href="/#">
                         <a className="item-logo box-hover-shadow hover-up">
                           <img
-                            alt="Agon"
+                            alt="ShadoBooks"
                             src="assets/imgs/slider/logo/Bizzmaster.png"
                           />
                         </a>
@@ -100,7 +100,7 @@ function Index2() {
                       <Link href="/#">
                         <a className="item-logo box-hover-shadow hover-up">
                           <img
-                            alt="Agon"
+                            alt="ShadoBooks"
                             src="assets/imgs/slider/logo/lubechem1.png"
                           />
                         </a>
@@ -110,7 +110,7 @@ function Index2() {
                       <Link href="/#">
                         <a className="item-logo box-hover-shadow hover-up">
                           <img
-                            alt="Agon"
+                            alt="ShadoBooks"
                             src="assets/imgs/slider/logo/rulexx.png"
                           />
                         </a>
@@ -120,7 +120,7 @@ function Index2() {
                       <Link href="/#">
                         <a className="item-logo box-hover-shadow hover-up">
                           <img
-                            alt="Agon"
+                            alt="ShadoBooks"
                             src="assets/imgs/slider/logo/fracht.png"
                           />
                         </a>
@@ -130,7 +130,7 @@ function Index2() {
                       <Link href="/#">
                         <a className="item-logo box-hover-shadow hover-up">
                           <img
-                            alt="Agon"
+                            alt="ShadoBooks"
                             src="assets/imgs/slider/logo/imagineering.png"
                           />
                         </a>
@@ -140,7 +140,7 @@ function Index2() {
                       <Link href="/#">
                         <a className="item-logo box-hover-shadow hover-up">
                           <img
-                            alt="Agon"
+                            alt="ShadoBooks"
                             src="assets/imgs/slider/logo/CBC.png"
                           />
                         </a>
@@ -150,7 +150,7 @@ function Index2() {
                       <Link href="/#">
                         <a className="item-logo box-hover-shadow hover-up">
                           <img
-                            alt="Agon"
+                            alt="ShadoBooks"
                             src="assets/imgs/slider/logo/BMC.png"
                           />
                         </a>
@@ -160,7 +160,7 @@ function Index2() {
                       <Link href="/#">
                         <a className="item-logo box-hover-shadow hover-up">
                           <img
-                            alt="Agon"
+                            alt="ShadoBooks"
                             src="assets/imgs/slider/logo/carlisle.png"
                           />
                         </a>
@@ -170,7 +170,7 @@ function Index2() {
                       <Link href="/#">
                         <a className="item-logo box-hover-shadow hover-up">
                           <img
-                            alt="Agon"
+                            alt="ShadoBooks"
                             src="assets/imgs/slider/logo/reign.png"
                           />
                         </a>
@@ -180,7 +180,7 @@ function Index2() {
                       <Link href="/#">
                         <a className="item-logo box-hover-shadow hover-up">
                           <img
-                            alt="Agon"
+                            alt="ShadoBooks"
                             src="assets/imgs/slider/logo/royalblue.png"
                           />
                         </a>
@@ -190,7 +190,7 @@ function Index2() {
                       <Link href="/#">
                         <a className="item-logo box-hover-shadow hover-up">
                           <img
-                            alt="Agon"
+                            alt="ShadoBooks"
                             src="assets/imgs/slider/logo/gold.png"
                           />
                         </a>
@@ -200,7 +200,7 @@ function Index2() {
                       <Link href="/#">
                         <a className="item-logo box-hover-shadow hover-up">
                           <img
-                            alt="Agon"
+                            alt="ShadoBooks"
                             src="assets/imgs/slider/logo/Mercury.png"
                           />
                         </a>
@@ -219,7 +219,7 @@ function Index2() {
                     <img
                       className="bdrd-16 img-responsive"
                       src="assets/imgs/page/homepage2/img-2.png"
-                      alt="Agon"
+                      alt="ShadoBooks"
                     />
                     <div className="block-chart">
                       <img
@@ -250,7 +250,7 @@ function Index2() {
                       <span className="icon-left">
                         <img
                           src="/assets/imgs/page/homepage2/icon-work.svg"
-                          alt="Agon"
+                          alt="ShadoBooks"
                         />
                       </span>
                       <h4 className="text-heading-4">
@@ -267,7 +267,7 @@ function Index2() {
                       <span className="icon-left">
                         <img
                           src="/assets/imgs/page/homepage2/icon-design.svg"
-                          alt="Agon"
+                          alt="ShadoBooks"
                         />
                       </span>
                       <h4 className="text-heading-4">
@@ -283,7 +283,7 @@ function Index2() {
                       <span className="icon-left">
                         <img
                           src="/assets/imgs/page/homepage2/icon-advance.svg"
-                          alt="Agon"
+                          alt="ShadoBooks"
                         />
                       </span>
                       <h4 className="text-heading-4">
@@ -334,7 +334,7 @@ function Index2() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/homepage2/icon-acquis.svg"
-                        alt="Agon"
+                        alt="ShadoBooks"
                       />
                     </span>
                     <h4 className="text-heading-4">1. Acquisition</h4>
@@ -350,7 +350,7 @@ function Index2() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/homepage2/icon-active.svg"
-                        alt="Agon"
+                        alt="ShadoBooks"
                       />
                     </span>
                     <h4 className="text-heading-4">2. Activation</h4>
@@ -367,7 +367,7 @@ function Index2() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/homepage2/icon-retent.svg"
-                        alt="Agon"
+                        alt="ShadoBooks"
                       />
                     </span>
                     <h4 className="text-heading-4">3. Retention</h4>
@@ -440,13 +440,13 @@ function Index2() {
                     <img
                       className="bdrd-16 img-responsive"
                       src="assets/imgs/page/homepage2/img-built.png"
-                      alt="Agon"
+                      alt="ShadoBooks"
                     />
                     <div className="block-image-bottom">
                       <img
                         className="bdrd-16 img-responsive"
                         src="assets/imgs/page/homepage2/img-built-2.png"
-                        alt="Agon"
+                        alt="ShadoBooks"
                       />
                     </div>
                   </div>
@@ -488,7 +488,7 @@ function Index2() {
                           <div className="img-user">
                             <img
                               src="/assets/imgs/page/homepage2/user-1.png"
-                              alt="Agon"
+                              alt="ShadoBooks"
                             />
                           </div>
                           <h4 className="text-body-lead color-gray-900 mb-5">
@@ -514,7 +514,7 @@ function Index2() {
                           <div className="img-user">
                             <img
                               src="/assets/imgs/page/homepage2/user-2.png"
-                              alt="Agon"
+                              alt="ShadoBooks"
                             />
                           </div>
                           <h4 className="text-body-lead color-gray-900 mb-5">
@@ -539,7 +539,7 @@ function Index2() {
                           <div className="img-user">
                             <img
                               src="/assets/imgs/page/homepage2/user-3.png"
-                              alt="Agon"
+                              alt="ShadoBooks"
                             />
                           </div>
                           <h4 className="text-body-lead color-gray-900 mb-5">
@@ -565,7 +565,7 @@ function Index2() {
                           <div className="img-user">
                             <img
                               src="/assets/imgs/page/homepage2/user-4.png"
-                              alt="Agon"
+                              alt="ShadoBooks"
                             />
                           </div>
                           <h4 className="text-body-lead color-gray-900 mb-5">
@@ -622,7 +622,7 @@ function Index2() {
                         <img
                           className="img-responsive img-newsletter"
                           src="assets/imgs/template/img-newsletter.png"
-                          alt="Agon"
+                          alt="ShadoBooks"
                         />
                       </div>
                     </div>
