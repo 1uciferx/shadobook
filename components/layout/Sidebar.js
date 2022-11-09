@@ -627,7 +627,7 @@ const Sidebar = ({ openClass }) => {
                         </li>
 
                         <li>
-                          <Link href="/manufacturing">
+                          <Link href="/manufacturing1">
                             <a>Manufacturing</a>
                           </Link>
                         </li>

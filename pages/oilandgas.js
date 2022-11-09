@@ -9,7 +9,7 @@ function Oilandgas() {
     <>
       <Layout>
         <section className="section-box">
-          <div className="banner-hero bg-service-2">
+          <div className="banner-hero bg-service-2"  style={{backgroundColor:"#FFF6E5"}}>
             <div className="container">
               <div className="row">
                 <div className="col-lg-12 text-center">
@@ -83,20 +83,20 @@ function Oilandgas() {
           </div>
         </section>
        
-        <section className="section-box mt-90">
-          <div className="container">
+        <section className="section-box mt-90" >
+          <div className="container" >
             <div className="row">
               <div className="col-lg-2 col-sm-1 col-12" />
 
               <div className="col-lg-8 col-sm-10 col-12 text-center mt-40">
-                <h2 className="text-heading-1 color-gray-900 mb-10">
+                <h2 className="text-heading-1 color-gray-900 mb-70">
                   Our features
                 </h2>
               </div>
               <div className="col-lg-12 col-sm-12 col-12">
-                <h2 className="text-heading-3 color-gray-900 mb-50">Asset</h2>
+                <h2 className="text-heading-3 color-gray-900 mb-20">Asset</h2>
               </div>
-              <p className="text-body-lead-large color-gray-600 mt-20">
+              <p className="text-body-lead-large color-gray-600 ">
                 In order to achieve operational efficiency, asset management is
                 essential. We comprehend the necessity for efficient asset
                 management to lower downtime, abide by legal and regulatory
@@ -107,14 +107,14 @@ function Oilandgas() {
 
               <div className="col-lg-2 col-sm-1 col-12" />
 
-              <div className="col-lg-8 col-sm-10 col-12 text-center mt-40"></div>
+              <div className="col-lg-8 col-sm-10 col-12 text-center mt-60"></div>
 
               <div className="col-lg-12 col-sm-12 col-12">
-                <h2 className="text-heading-3 color-gray-900 mb-50">
+                <h2 className="text-heading-3 color-gray-900 mb-20">
                   Inventory
                 </h2>
               </div>
-              <p className="text-body-lead-large color-gray-600 mt-20">
+              <p className="text-body-lead-large color-gray-600 ">
                 Our ShadoBook inventory management includes all procedures, from
                 handling your sales leads to maximizing your accounts
                 receivable. Our basic functionality includes various sales and
@@ -126,14 +126,14 @@ function Oilandgas() {
 
               <div className="col-lg-2 col-sm-1 col-12" />
 
-              <div className="col-lg-8 col-sm-10 col-12 text-center mt-40"></div>
+              <div className="col-lg-8 col-sm-10 col-12 text-center mt-60"></div>
 
               <div className="col-lg-12 col-sm-12 col-12">
-                <h2 className="text-heading-3 color-gray-900 mb-50">
+                <h2 className="text-heading-3 color-gray-900 mb-20">
                   Customers
                 </h2>
               </div>
-              <p className="text-body-lead-large color-gray-600 mt-20">
+              <p className="text-body-lead-large color-gray-600 ">
                 Our customer relationship management solution provided by the
                 customer management module automates your sales operations,
                 enabling you to respond to clients more quickly. Our CRM tool
@@ -145,14 +145,14 @@ function Oilandgas() {
 
               <div className="col-lg-2 col-sm-1 col-12" />
 
-              <div className="col-lg-8 col-sm-10 col-12 text-center mt-40"></div>
+              <div className="col-lg-8 col-sm-10 col-12 text-center mt-60"></div>
 
               <div className="col-lg-12 col-sm-12 col-12">
-                <h2 className="text-heading-3 color-gray-900 mb-50">
+                <h2 className="text-heading-3 color-gray-900 mb-20">
                   Purchase and Sales
                 </h2>
               </div>
-              <p className="text-body-lead-large color-gray-600 mt-20">
+              <p className="text-body-lead-large color-gray-600 ">
                 Our CRM software helps businesses manage their logistics and
                 supply chain processes, such as sales and purchase orders,
                 inventory management, and warehouse management, and integrate
@@ -164,16 +164,17 @@ function Oilandgas() {
 
               <div className="col-lg-2 col-sm-1 col-12" />
             </div>
-          </div>
-
-         
+          </div>  
         </section>
-        <section className="section-box">
-          <div className="container mt-120">
-            <div className="bg-2 bdrd-58 pattern-white none-pattern pb-60">
+
+
+
+        <section className="section-box mt-100"  style={{backgroundColor:"#FFF6E5"}}>
+          <div className="container mt-120"  style={{backgroundColor:"#FEA500",borderRadius:"50px"}} >
+            <div className="bg-2 bdrd-58 pattern-white none-pattern pb-60" >
               <div className="row">
                 <div className="col-lg-2 col-sm-1 col-12" />
-                <div className="col-lg-8 col-sm-10 col-12 text-center mt-70">
+                <div className="col-lg-8 col-sm-10 col-12 text-center mt-70" >
                   <h2 className="text-heading-1 color-gray-900">
                     Why choose ShadoBook to increase your sales?
                   </h2>
