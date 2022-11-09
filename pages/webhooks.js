@@ -45,7 +45,7 @@ function Fixed() {
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/webhooks.jpg " style={{borderRadius:"30px",height:"610px",width:"700px"}}
+                      src="assets/imgs/page/homepage4/webhooks.jpg " style={{borderRadius:"30px",height:"610px",maxWidth:"130%"}}
                     />
                   </div>
                 </div>

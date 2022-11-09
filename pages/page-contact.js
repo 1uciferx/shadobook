@@ -11,8 +11,8 @@ function Contact() {
                     Welcome to ShadoBooks! <br></br> We are here to help you.</h1>
                    
                         
-        <section className="section-box mt-100 bg-3 img-responsive shape-1" style={{borderRadius:"80px", }}>         
-          <div className="container">
+        <section className="section-box mt-100  mb-80 bg-3 img-responsive shape-1" style={{borderRadius:"80px", }}>         
+          <div className="container ">
             <div className="row ">
               <div className="col-lg-12 col-sm-10 col-12 text-center mt-40">
                 <h2 className="text-heading-1 color-gray-900 mb-20">
@@ -116,7 +116,7 @@ function Contact() {
           </div>
         </section> 
         <section className="section-box bg-4 mt-200">
-          <div className="container mb-20 mt-140 ">
+          <div className="container mb-80 mt-80 ">
             <div className="bdrd-58 box-gray-100 icon-wave">
               <div className="row">
                 <div className="col-lg-12 mb-60">

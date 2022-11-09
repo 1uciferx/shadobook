@@ -1,47 +1,62 @@
-
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useState } from "react";
-import 'react-modal-video/css/modal-video.css';
+import "react-modal-video/css/modal-video.css";
 import CounterUp from "../components/elements/CounterUp";
 import Layout from "../components/layout/Layout";
 import TeamSlider from "../components/slider/Team";
 import TestimonialSlider from "../components/slider/Testimonial";
 const ModalVideo = dynamic(import("react-modal-video"), {
-    ssr: false,
+  ssr: false,
 });
 
 function About1() {
-    const [isOpen, setOpen] = useState(false);
-    return (
-        <>
-            <Layout>
-                <section className="section-box">
-                    <div className="banner-hero banner-2 bg-2">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-lg-7">
-                                    <h1 className="text-display-3 mt-30">Sales</h1>
-                                    <p className="text-body-lead-large color-gray-500 mt-40 pr-40">Help your customer-facing teams with sales solutions that can potentially accelerate their overall process efficiency in no time with Shadobooks. The sales interface enables hyper management of all your prospects, proposals, estimations, quotations, payments, invoices, credit notes and inventory management on the go. <br></br> <br></br>
+  const [isOpen, setOpen] = useState(false);
+  return (
+    <>
+      <Layout>
+        <section className="section-box">
+          <div className="banner-hero banner-2 bg-2">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-7">
+                  <h1 className="text-display-3 mt-30">Sales</h1>
+                  <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
+                    Help your customer-facing teams with sales solutions that
+                    can potentially accelerate their overall process efficiency
+                    in no time with Shadobooks. The sales interface enables
+                    hyper management of all your prospects, proposals,
+                    estimations, quotations, payments, invoices, credit notes
+                    and inventory management on the go. <br></br> <br></br>
+                    Shadobooks also offer complete flexibility in organizing
+                    your sales touch points starting from lead capture to final
+                    conversion. The effective sales structure that the platform
+                    offers can help you scale your business towards better
+                    growth by streamlining your processes, preventing loss of
+                    data and offering you valuable insights along with
+                    end-to-end reporting of crucial metrics.
+                  </p>
+                </div>
+                <div className="col-lg-5 d-none d-lg-block">
+                  <div className="banner-imgs">
+                    <div className="block-1 shape-1"></div>
+                    <img
+                      className="img-responsive shape-2"
+                      alt="Agon"
+                      src="assets/imgs/page/homepage4/sales.png"
+                      style={{ borderRadius: "30px",maxWidth:"100%" }}
+                    />
 
-                                 
-Shadobooks also offer complete flexibility in organizing your sales touch points starting from lead capture to final conversion. The effective sales structure that the platform offers can help you scale your business towards better growth by streamlining your processes, preventing loss of data and offering you valuable insights along with end-to-end reporting of crucial metrics.</p>
-                                    
-                                </div>
-                                <div className="col-lg-5 d-none d-lg-block">
-                                    <div className="banner-imgs">
-                                        <div className="block-1 shape-1"></div><img className="img-responsive shape-2" alt="Agon" src="assets/imgs/page/homepage4/sales.png" style={{borderRadius:"30px"}} />
-
-                                        {/* <img src="/assets/imgs/page/about/1/banner2.png" alt="Agon" /> */}
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                {/* <div className="section-box mt-100">
+                    {/* <img src="/assets/imgs/page/about/1/banner2.png" alt="Agon" /> */}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* <div className="section-box mt-100">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-1" />
@@ -67,9 +82,8 @@ Shadobooks also offer complete flexibility in organizing your sales touch points
                         </div>
                     </div>
                 </div> */}
-                
 
-                {/* <section className="section-box mt-70">
+        {/* <section className="section-box mt-70">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-1 col-sm-1 col-12" />
@@ -84,7 +98,7 @@ Shadobooks also offer complete flexibility in organizing your sales touch points
                     <br></br><br></br>
                 </section> */}
 
-                {/* <section className="section-box mt-70">
+        {/* <section className="section-box mt-70">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-1 col-sm-1 col-12" />
@@ -99,7 +113,7 @@ Shadobooks also offer complete flexibility in organizing your sales touch points
                     <br></br><br></br>
                 </section> */}
 
-                {/* <section className="section-box mt-70">
+        {/* <section className="section-box mt-70">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-1 col-sm-1 col-12" />
@@ -114,7 +128,7 @@ Shadobooks also offer complete flexibility in organizing your sales touch points
                     <br></br><br></br>
                 </section> */}
 
-                {/* <section className="section-box mt-70">
+        {/* <section className="section-box mt-70">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-1 col-sm-1 col-12" />
@@ -129,10 +143,7 @@ Shadobooks also offer complete flexibility in organizing your sales touch points
                     <br></br><br></br>
                 </section> */}
 
-               
-
-
-                {/* <section className="section-box mt-100">
+        {/* <section className="section-box mt-100">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-1 col-sm-1 col-12" />
@@ -306,10 +317,9 @@ Shadobooks also offer complete flexibility in organizing your sales touch points
                     videoId="cJVpXPSXGtk"
                     onClose={() => setOpen(false)}
                 /> */}
-            </Layout>
-
-        </>
-    )
+      </Layout>
+    </>
+  );
 }
 
 export default About1;

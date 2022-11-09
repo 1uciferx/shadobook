@@ -48,7 +48,7 @@ This feature thus eliminates the chances of missing out on details, redundancy i
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/appoinments.jpg " style={{borderRadius:"30px",height:"610px",width:"800px"}}
+                      src="assets/imgs/page/homepage4/appoinments.jpg " style={{borderRadius:"30px",height:"610px",maxWidth:"130%"}}
                     />
                   </div>
                 </div>

@@ -62,7 +62,7 @@ function Manu() {
             </div>
           </div>
         </div>
-        <div className="banner-hero banner-1 mt-100 " style={{backgroundColor:"#F1F3F3"}}>
+        <div className="banner-hero banner-1 mt-20 " style={{backgroundColor:"#F1F3F3"}}>
           <div className="container">
             <div className="row">
               <div className="col-lg-1 col-sm-1 col-12" />
@@ -214,7 +214,7 @@ function Manu() {
           <div className="container mt-50">
             <div className="row">
               <div className="col-lg-10 col-sm-10 col-12 text-center">
-                <h2 className="text-heading-1 color-gray-900 mb-50">
+                <h2 className="text-heading-1 color-gray-900 mb-50" style={{marginLeft:"150px"}}>
                   Why choose our ShadoBook?
                 </h2>
               </div>

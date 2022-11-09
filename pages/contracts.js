@@ -46,7 +46,7 @@ The portal also offers options for obligation management, revisions and amendmen
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/contracts.jpg " style={{borderRadius:"30px",height:"500px",width:"400px"}}
+                      src="assets/imgs/page/homepage4/contracts.jpg " style={{borderRadius:"30px",height:"550px",maxWidth:"120%"}}
                     />
                   </div>
                 </div>

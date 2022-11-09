@@ -45,7 +45,7 @@ With automated billing processes, flexible general ledger, integrated managing i
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/acc12.png" style={{borderRadius:"30px"}}
+                      src="assets/imgs/page/homepage4/acc12.png" style={{borderRadius:"30px",maxWidth:"100%"}}
                     />
                   </div>
                 </div>

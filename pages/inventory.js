@@ -76,7 +76,7 @@ function Process() {
 
         <section className="section-box">
           <div
-            className="banner-hero banner-4"
+            className="banner-hero banner-2 bg-6"
             style={{ backgroundColor: "#ffded3" }}
           >
             <div className="container">
@@ -102,7 +102,7 @@ With options to calculate loss and adjustments, check the inventory history and 
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/inventory.jpg " style={{borderRadius:"30px",height:"600px",width:"500px"}}
+                      src="assets/imgs/page/homepage4/inventory.jpg " style={{borderRadius:"30px",height:"600px",maxWidth:"130%"}}
                     />
                   </div>
                 </div>

@@ -111,9 +111,9 @@ function Raw() {
           </div>
           <div className="container mt-90 mb-lg-100">
             <div className="row">
-              <div className="col-lg-6 col-sm-12">
+              <div className="col-lg-6 col-sm-12 ">
                 <div
-                  className="bg-1 box-square hover-up wow animate__animated animate__fadeIn"
+                  className="bg-1 box-square hover-up wow animate__animated animate__fadeIn square"
                   data-wow-delay=".1s"
                 >
                   <h4 className="text-heading-4 color-gray-900 mb-15">
@@ -162,7 +162,7 @@ function Raw() {
             <div className="row mt-30">
               <div className="col-lg-6 col-sm-12">
                 <div
-                  className="bg-4 box-square hover-up wow animate__animated animate__fadeIn"
+                  className="bg-4 box-square hover-up wow animate__animated animate__fadeIn "
                   data-wow-delay=".1s"
                 >
                   <h4 className="text-heading-4 color-gray-900 mb-15">
@@ -184,7 +184,7 @@ function Raw() {
               </div>
               <div className="col-lg-6 col-sm-12">
                 <div
-                  className="bg-2 box-square hover-up wow animate__animated animate__fadeIn"
+                  className="bg-2 box-square hover-up wow animate__animated animate__fadeIn "
                   data-wow-delay=".2s"
                 >
                   <h4 className="text-heading-4 color-gray-900 mb-15">
@@ -207,7 +207,7 @@ function Raw() {
             <div className="row mt-30">
               <div className="col-lg-6 col-sm-12">
                 <div
-                  className="bg-3 box-square hover-up wow animate__animated animate__fadeIn"
+                  className="bg-3 box-square hover-up wow animate__animated animate__fadeIn "
                   data-wow-delay=".1s"
                 >
                   <h4 className="text-heading-4 color-gray-900 mb-15">
@@ -229,7 +229,7 @@ function Raw() {
               </div>
               <div className="col-lg-6 col-sm-12">
                 <div
-                  className="bg-10 box-square hover-up wow animate__animated animate__fadeIn"
+                  className="bg-10 box-square hover-up wow animate__animated animate__fadeIn "
                   data-wow-delay=".2s"
                 >
                   <h4 className="text-heading-4 color-gray-900 mb-15">
@@ -255,7 +255,7 @@ function Raw() {
             <div className="row mt-30">
               <div className="col-lg-6 col-sm-12">
                 <div
-                  className="bg-9 box-square hover-up wow animate__animated animate__fadeIn"
+                  className="bg-9 box-square hover-up wow animate__animated animate__fadeIn "
                   data-wow-delay=".1s"
                 >
                   <h4 className="text-heading-4 color-gray-900 mb-15">
@@ -315,8 +315,8 @@ function Raw() {
               </div>
               <div className="col-lg-7">
                 <div className="row" data-masonry='{"percentPosition": true }'>
-                  <div className="col-lg-6 col-md-12 col-sm-12">
-                    <div className="card-grid-style-2 card-square hover-up mb-20">
+                  <div className="col-lg-6 col-md-12 col-sm-12" >
+                    <div className="card-grid-style-2 card-square hover-up mb-20 border border-info" style={{borderRadius:"20px"}}>
                       <h4 className="text-heading-4 color-gray-900 mb-5">
                         An adaptable system
                       </h4>
@@ -345,7 +345,7 @@ function Raw() {
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12">
-                    <div className="card-grid-style-2 card-square hover-up mb-20">
+                    <div className="card-grid-style-2 card-square hover-up mb-20 border border-info" style={{borderRadius:"20px"}}>
                       <h4 className="text-heading-4 color-gray-900 mb-5">
                         System support
                       </h4>
@@ -374,7 +374,7 @@ function Raw() {
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12">
-                    <div className="card-grid-style-2 card-square hover-up mb-20">
+                    <div className="card-grid-style-2 card-square hover-up mb-20 border border-info" style={{borderRadius:"20px"}}>
                       <h4 className="text-heading-4 color-gray-900 mb-5">
                         Interaction with customers
                       </h4>
@@ -404,7 +404,7 @@ function Raw() {
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12">
-                    <div className="card-grid-style-2 card-square hover-up mb-20">
+                    <div className="card-grid-style-2 card-square hover-up mb-20 border border-info" style={{borderRadius:"20px"}}>
                       <h4 className="text-heading-4 color-gray-900 mb-5">
                         Individual Productivity
                       </h4>
@@ -426,21 +426,21 @@ function Raw() {
           </div>
         </section>
 
-        <section className="section-box">
+        <section className="section-box bg-10 mt-">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6  col-sm-12 block-img-we-do">
+              <div className="col-lg-6  col-sm-12 mt-90 block-img-we-do">
                 <div className="inner-image">
                   <img
-                    className="bdrd-16 img-responsive"
-                    src="assets/imgs/page/homepage2/img-2.png"
+                    className=" img-responsive shape-2"
+                    src="assets/imgs/page/homepage4/faq.jpg " style={{borderRadius:"30px",height:"800px"}}
                     alt="ShadoBooks"
                   />
                 </div>
               </div>
 
               <div className="col-lg-6 col-md-12 col-sm-12">
-                <h3 className="text-heading-1 mt-30">FAQ'S</h3>
+                <h3 className="text-heading-1 mt-90">FAQ'S</h3>
                 <div className="list-icons mt-50">
                   <div className="item-icon none-bd hover-up">
                     <span className="icon-left">

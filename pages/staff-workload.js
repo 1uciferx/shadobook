@@ -10,16 +10,13 @@ const ModalVideo = dynamic(import("react-modal-video"), {
 });
 
 function Fixed() {
-
   return (
     <>
       <Layout>
-
-
         <section className="section-box">
           <div
             className="banner-hero banner-4"
-            style={{ backgroundColor: "rgb(211 255 252 / 46%)" }}
+            style={{ backgroundColor: "#FEE7E8" }}
           >
             <div className="container">
               <div className="row">
@@ -28,11 +25,17 @@ function Fixed() {
                     Staff Workload
                   </h1>
                   <p className="text-body-lead-large color-gray-900 mt-30 pr-40">
-                    Monitoring and overseeing staff workload will help you utilize your resources efficiently and improve overall productivity. Shadobook interface offers charts and graphs for visualizing your workflow, timelines, estimated hours, hours spent on particular work, department-wise workflow, etc.<br></br><br></br>
-
-                    The CRM also offer Kanban Charts for easy project management and workflow monitoring. This tool also helps in understanding the efficiency of your resources.
+                    Monitoring and overseeing staff workload will help you
+                    utilize your resources efficiently and improve overall
+                    productivity. Shadobook interface offers charts and graphs
+                    for visualizing your workflow, timelines, estimated hours,
+                    hours spent on particular work, department-wise workflow,
+                    etc.<br></br>
+                    <br></br>
+                    The CRM also offer Kanban Charts for easy project management
+                    and workflow monitoring. This tool also helps in
+                    understanding the efficiency of your resources.
                   </p>
-
                 </div>
                 <div className="col-lg-5 d-none d-lg-block">
                   <div className="banner-imgs">
@@ -44,7 +47,11 @@ function Fixed() {
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/sw.jpg " style={{borderRadius:"30px",height:"610px",width:"700px"}}
+                      src="assets/imgs/page/homepage4/sw.jpg "
+                      style={{
+                        borderRadius: "30px",
+                        height: "610px",maxWidth:"130%"
+                      }}
                     />
                   </div>
                 </div>
@@ -52,7 +59,6 @@ function Fixed() {
             </div>
           </div>
         </section>
-
       </Layout>
     </>
   );

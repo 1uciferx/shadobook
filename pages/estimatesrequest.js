@@ -19,7 +19,7 @@ function Estimatesrequest() {
         <section className="section-box">
           <div
             className="banner-hero banner-4"
-            style={{ backgroundColor: "#ffded3" }}
+            style={{ backgroundColor: "#83F0E0" }}
           >
             <div className="container">
               <div className="row">
@@ -43,7 +43,7 @@ The estimate feature will give you the option to customize the form that is tail
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/estimates.png " style={{borderRadius:"30px"}}
+                      src="assets/imgs/page/homepage4/estimates.png " style={{borderRadius:"30px",maxWidth:"110%"}}
                     />
                   </div>
                 </div>

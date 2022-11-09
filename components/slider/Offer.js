@@ -31,8 +31,8 @@ const OfferSlider = () => {
 
   return (
     <>
-      <div className="box-swiper" >
-        <div className="swiper-container swiper-group-4" >
+      <div className="box-swiper">
+        <div className="swiper-container swiper-group-4">
           <Swiper
             slidesPerView={3}
             spaceBetween={30}
@@ -45,16 +45,16 @@ const OfferSlider = () => {
               prevEl: ".swiper-button-prev-5",
               nextEl: ".swiper-button-next-5",
             }}
-            className="swiper-wrapper pb-70 pt-5 " 
+            className="swiper-wrapper pb-70 pt-5"
           >
             {data.map((item, i) => (
               <SwiperSlide>
-                <div className="swiper-slide"  style={{backgroundColor:"#FFA824"}}>
-                  <div className="card-grid-style-2 hover-up"  style={{backgroundColor:"#FFEBCD"}}>
-                    <div className="grid-2-img" >
+                <div className="swiper-slide">
+                  <div className="card-grid-style-2 hover-up">
+                    <div className="grid-2-img">
                       <img
                         src={`assets/imgs/page/homepage1/${item.img}`}
-                        alt="Agon" 
+                        alt="Agon"
                       />
                     </div>
                     <h3 className="text-heading-5 mt-20">{item.title}</h3>

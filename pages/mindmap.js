@@ -44,7 +44,7 @@ Be it exploring different perspectives in any areas like clients, servicing, dea
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/mm.jpg " style={{borderRadius:"30px",height:"610px",width:"800px"}}
+                      src="assets/imgs/page/homepage4/mm.jpg " style={{borderRadius:"30px",height:"610px",maxWidth:"120%"}}
                     />
                   </div>
                 </div>

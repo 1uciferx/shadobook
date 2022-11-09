@@ -48,7 +48,7 @@ const Footer = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/page-career">
+                                    <Link href="/#">
                                         <a>Careers</a>
                                     </Link>
                                 </li>
@@ -73,12 +73,12 @@ const Footer = () => {
                             <h4 className="text-heading-5">Discover</h4>
                             <ul className="menu-footer mt-20">
                                 <li>
-                                    <Link href="/blog-2">
+                                    <Link href="/#">
                                         <a>Our Blog</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/page-pricing-1">
+                                    <Link href="/#">
                                         <a>Plans &amp; Pricing</a>
                                     </Link>
                                 </li>
@@ -98,7 +98,7 @@ const Footer = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/blog-1">
+                                    <Link href="/#">
                                         <a>News &amp; Events</a>
                                     </Link>
                                 </li>
@@ -108,12 +108,12 @@ const Footer = () => {
                             <h4 className="text-heading-5">Support</h4>
                             <ul className="menu-footer mt-20">
                                 <li>
-                                    <Link href="/page-faqs-1">
+                                    <Link href="/#">
                                         <a>FAQs</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/page-faqs-2">
+                                    <Link href="/#">
                                         <a>Editor Help</a>
                                     </Link>
                                 </li>
@@ -153,7 +153,7 @@ const Footer = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/page-pricing-2">
+                                    <Link href="/#">
                                         <a>Pricing</a>
                                     </Link>
                                 </li>
@@ -189,10 +189,10 @@ const Footer = () => {
                                     <Link href="https://www.facebook.com/profile.php?id=100087261437080&is_tour_dismissed=true">
                                         <a className="icon-socials icon-facebook"></a>
                                     </Link>
-                                    <Link href="https://twitter.com">
+                                    <Link href="https://twitter.com/shadobooks">
                                         <a className="icon-socials icon-twitter"></a>
                                     </Link>
-                                    <Link href="https://www.instagram.com">
+                                    <Link href="https://www.instagram.com/shadobooks1/">
                                         <a className="icon-socials icon-instagram"></a>
                                     </Link>
                                     <Link href="https://www.linkedin.com/company/shadobooks/">

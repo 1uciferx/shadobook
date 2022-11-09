@@ -46,7 +46,7 @@ It improves collaboration between teams and also helps them stay informed on wha
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/taskbookmark1.png " style={{borderRadius:"30px",height:"610px",width:"800px"}}
+                      src="assets/imgs/page/homepage4/taskbookmark1.png " style={{borderRadius:"30px",height:"610px",maxWidth:"150%"}}
                     />
                   </div>
                 </div>

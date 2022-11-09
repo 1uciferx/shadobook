@@ -44,7 +44,7 @@ You can also integrate all your crucial documents under the attachment section. 
                     <img
                       className="img-responsive shape-1"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/projects.jpg " style={{borderRadius:"30px",height:"500px",width:"500px"}}
+                      src="assets/imgs/page/homepage4/projects.jpg " style={{borderRadius:"30px",height:"500px",maxWidth:"130%"}}
                     />
                   </div>
                 </div>

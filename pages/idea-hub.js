@@ -18,7 +18,7 @@ function Fixed() {
 
         <section className="section-box">
           <div
-            className="banner-hero banner-4"
+            className="banner-hero banner-4 bg-about-1"
             style={{ backgroundColor: "rgb(255 255 211 / 41%)" }}
           >
             <div className="container">
@@ -46,7 +46,7 @@ function Fixed() {
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/ideahub.jpg " style={{borderRadius:"30px",height:"610px",width:"700px"}}
+                      src="assets/imgs/page/homepage4/ideahub.jpg " style={{borderRadius:"30px",height:"600px",maxWidth:"150%"}}
                     />
                   </div>
                 </div>

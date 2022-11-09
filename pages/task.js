@@ -10,12 +10,9 @@ const ModalVideo = dynamic(import("react-modal-video"), {
 });
 
 function Task() {
-  
   return (
     <>
       <Layout>
-       
-
         <section className="section-box">
           <div
             className="banner-hero banner-4 bg-about-1 bg-5"
@@ -24,18 +21,18 @@ function Task() {
             <div className="container">
               <div className="row">
                 <div className="col-lg-7">
-                  <h1 className="text-display-2 color-gray-900">
-                  Tasks
-                  </h1>
+                  <h1 className="text-display-2 color-gray-900">Tasks</h1>
                   <p className="text-body-lead-large color-gray-900 mt-30 pr-40">
-                  Organize, build, collaborate and manage all your work under one place with the tasks section of the Shadobooks CRM. The solution it offers is a quick-to-implement and easy-to-use interface.<br></br><br></br>
-Manage, prioritize, access and oversee all your tasks on the go. Enhance your productivity levels with a well-suited tool that helps in complete project management from the start to finish. 
-
-
-
-
+                    Organize, build, collaborate and manage all your work under
+                    one place with the tasks section of the Shadobooks CRM. The
+                    solution it offers is a quick-to-implement and easy-to-use
+                    interface.<br></br>
+                    <br></br>
+                    Manage, prioritize, access and oversee all your tasks on the
+                    go. Enhance your productivity levels with a well-suited tool
+                    that helps in complete project management from the start to
+                    finish.
                   </p>
-                 
                 </div>
                 <div className="col-lg-5 d-none d-lg-block">
                   <div className="banner-imgs">
@@ -47,7 +44,11 @@ Manage, prioritize, access and oversee all your tasks on the go. Enhance your pr
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/tasks.jpg " style={{borderRadius:"30px",height:"610px",width:"700px"}}
+                      src="assets/imgs/page/homepage4/tasks.jpg "
+                      style={{
+                        borderRadius: "30px",
+                        height: "610px",maxWidth:"130%"
+                      }}
                     />
                   </div>
                 </div>
@@ -55,7 +56,6 @@ Manage, prioritize, access and oversee all your tasks on the go. Enhance your pr
             </div>
           </div>
         </section>
-
       </Layout>
     </>
   );

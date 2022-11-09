@@ -18,7 +18,7 @@ function Projectroadmap() {
 
         <section className="section-box">
           <div
-            className="banner-hero banner-4"
+            className="banner-hero banner-1 bg-10"
             style={{ backgroundColor: "#ffded3" }}
           >
             <div className="container">
@@ -47,7 +47,7 @@ This section is also aimed at promoting collaborative team effort and has a tab 
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/pr.jpg " style={{borderRadius:"30px",height:"600px",width:"500px"}}
+                      src="assets/imgs/page/homepage4/pr.jpg " style={{borderRadius:"30px",height:"600px",maxWidth:"130%"}}
                     />
                   </div>
                 </div>
