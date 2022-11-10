@@ -186,7 +186,7 @@ const Footer = () => {
                             </div>
                             <div className="col-md-4 text-center text-lg-end text-md-end">
                                 <div className="footer-social">
-                                    <Link href="https://www.facebook.com/profile.php?id=100087261437080&is_tour_dismissed=true">
+                                    <Link href="https://www.facebook.com/shadobookscrm">
                                         <a className="icon-socials icon-facebook"></a>
                                     </Link>
                                     <Link href="https://twitter.com/shadobooks">
@@ -198,6 +198,12 @@ const Footer = () => {
                                     <Link href="https://www.linkedin.com/company/shadobooks/">
                                         <a className="icon-socials icon-linkedin"></a>
                                     </Link>
+                                     <Link href="https://www.linkedin.com/company/shadobooks/">
+                                        
+                                        <a className="icon-socials icon-whatsapp"></a>
+                                    </Link>
+                                    
+                                    
                                 </div>
                             </div>
                         </div>
