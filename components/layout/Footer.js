@@ -198,7 +198,7 @@ const Footer = () => {
                                     <Link href="https://www.linkedin.com/company/shadobooks/">
                                         <a className="icon-socials icon-linkedin"></a>
                                     </Link>
-                                     <Link href="https://www.linkedin.com/company/shadobooks/">
+                                     <Link href="https://wa.me/00971528722900">
                                         
                                         <a className="icon-socials icon-whatsapp"></a>
                                     </Link>
