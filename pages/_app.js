@@ -5,6 +5,8 @@ import React, { useEffect, useState } from "react";
 import Preloader from '../components/elements/Preloader';
 import 'react-modal-video/css/modal-video.css';
 import TawkTo from 'tawkto-react'
+import 'antd/dist/reset.css';
+
 
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);
