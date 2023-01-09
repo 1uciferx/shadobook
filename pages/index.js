@@ -9,7 +9,7 @@ function Index2() {
       <Layout>
         <div>
           <section className="section-box">
-            <div className="banner-hero banner-2">
+            <div className="banner-hero banner-2" >
               <div className="container">
                 <div className="row">
                   <div className="col-lg-7 mt-50">
@@ -33,12 +33,12 @@ function Index2() {
                         <a className="btn btn-black shape-square icon-arrow-right-white">
                           Get Start
                         </a>
-                      </Link>
-                      {/* <Link href="/page-about-2">
+                      </Link> 
+                      <Link href="/page-about-2">
                         <a className="btn btn-link icon-triangle color-gray-900 ml-40">
                           How it works
                         </a>
-                      </Link> */}
+                      </Link>
                     </div>
                   </div>
 
@@ -68,6 +68,8 @@ function Index2() {
               </div>
             </div>
           </section>
+          
+
           <div className="section-box overflow-visible mt-80">
             <div className="container">
               <h2 className="text-heading-3 text-center color-gray-900 mb-60">
@@ -117,11 +119,16 @@ function Index2() {
                       </Link>
                     </li>{" "}
                     <li>
-                      <Link href="/#">
-                        <a className="item-logo box-hover-shadow hover-up">
+                      <Link href="/#" legacyBehavior>
+                        <a className="clients">
                           <img
                             alt="ShadoBooks"
-                            src="assets/imgs/slider/logo/fracht.png"
+                            src="assets/imgs/slider/logo/app.png"
+                            style={{filter: "grayscale(100)",
+                            maxWidth: "45%",
+                            transition: "all 0.4s ease-in-out",
+                            display: "inline-block",
+                            padding: "15px 0"}}
                           />
                         </a>
                       </Link>
@@ -211,6 +218,8 @@ function Index2() {
               </div>
             </div>
           </div>
+
+          
           <section className="section-box">
             <div className="container mt-120">
               <div className="row">
@@ -325,9 +334,9 @@ function Index2() {
 
 
           
-          <section className="section-box mt-lg-100">
+          <section className="section-box mt-lg-50">
             
-            <div className="container mt-70">
+            <div className="container mt-50">
               <div className="row">
                 <div className="col-lg-4 col-md-12 col-sm-12">
                   <div className="list-icons mt-50">
@@ -382,7 +391,7 @@ function Index2() {
             </div>
           </section>
           <section className="section-box">
-            <div className="container mt-80">
+            <div className="container mt-150">
               <div className="row">
                 <div className="col-lg-6 col-sm-12 mb-30">
                   <span className="tag-1 bg-green-900 ">

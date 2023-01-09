@@ -67,7 +67,7 @@ function Manu() {
             <div className="row">
               <div className="col-lg-1 col-sm-1 col-12" />
               <div className="col-lg-10 col-sm-10 col-12 mt-10 text-center">
-                <h2 className="text-heading-1 color-gray-900 mb-50">
+                <h2 className="text-heading-1 color-gray-900 mb-50 ">
                   Our Features
                 </h2>
               </div>
@@ -214,7 +214,7 @@ function Manu() {
           <div className="container mt-50">
             <div className="row">
               <div className="col-lg-10 col-sm-10 col-12 text-center">
-                <h2 className="text-heading-1 color-gray-900 mb-50" style={{marginLeft:"150px"}}>
+                <h2 className="text-heading-1 color-gray-900 mb-50 " style={{marginLeft:"150px"}}>
                   Why choose our ShadoBook?
                 </h2>
               </div>
@@ -277,7 +277,7 @@ function Manu() {
                         alt="ShadoBooks"  style={{height:"75px"}}
                       />
                     </span>
-                    <h4 className="text-heading-4">
+                    <h4 className="text-heading-4" >
                       Boosting the value of your company
                     </h4>
                     <p
@@ -296,7 +296,7 @@ function Manu() {
               </div>
 
               <div className="col-lg-4 col-md-12 col-sm-12  hover-up square border border-primary " style={{backgroundColor:"#AEBBBA", borderRadius:"30px",marginLeft:"200px",marginTop:"60px"}}>
-                <div className="mt-100">
+                <div className="mt-50">
                 <div className="item-icon" style={{textAlign:"center", marginBottom:"50px"}}>
                     <span className="icon-left">
                       <img
@@ -326,7 +326,7 @@ function Manu() {
           <div className="container">
             <div className="row">
               <div className="col-lg-12 col-sm-12 col-12 text-center">
-                <h3 className="text-heading-1">Frequently asked questions</h3>
+                <h3 className="text-heading-1 ">Frequently asked questions</h3>
 
                 <div className="row">
                   <div className="col-lg-12 mt-50">

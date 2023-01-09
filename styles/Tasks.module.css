@@ -1,0 +1,453 @@
+.parahead {
+   
+ 
+    font-family:Segoe UI;
+    font-size: 18px;
+    line-height: 23px;
+    color:black;
+    font-weight: 400;
+    text-decoration: none solid rgb(0, 0, 0);
+    margin-top: 30px;
+    text-align: center;
+  
+  
+  
+  }
+
+  .paraheadalign{
+    width: 60%;
+    margin: auto;
+  }
+
+  .imgalign{
+    width: 80%;
+    margin: auto;
+  }
+
+  
+  .conalign{
+    width: 80%;
+    margin: auto;
+  }
+  
+  .bc{
+    padding: 10px;
+}
+
+  .modimg{
+    border-radius: 500px;
+     height: 300px;
+  }
+  .paracon {
+   
+ 
+    font-family:Segoe UI;
+    font-size: 18px;
+    line-height: 23px;
+    color:black;
+    font-weight: 400;
+    text-decoration: none solid rgb(0, 0, 0);
+    width: 90%;
+    margin-top: 30px;
+  
+  
+  }
+
+  .para {
+   
+ 
+    font-family:Segoe UI;
+    font-size: 18px;
+    line-height: 23px;
+    color:black;
+    font-weight: 400;
+    text-decoration: none solid rgb(0, 0, 0);
+    
+  
+  
+  }
+  
+  .headings{
+   text-align: center;
+   font-size: 46px;
+   line-height: 56px;
+   font-family: Segoe UI;
+   font-weight: 600;
+   font-style: normal;
+   margin-top: 200px;
+   
+  }
+  
+  .subhead {
+   font-weight:bold;
+   font-size: 25px;
+   line-height: 40px;
+   color: #90331c;
+  }
+  
+  .subhead2 {
+   font-weight:bold;
+   font-size: 25px;
+   line-height: 40px;
+   color: #90331c;
+   margin-top: 200px;
+  }
+  
+  .headings2{
+  text-align: center;
+   font-size: 46px;
+   line-height: 56px;
+   font-family: Segoe UI;
+   font-weight: 600;
+   font-style: normal;
+   margin-top: 100px;
+   
+  }
+  
+  .paracenter {
+  
+  text-align: center;
+  font-family:Segoe UI;
+  font-size: 18px;
+  line-height: 23px;
+  color:black;
+  font-weight: 400;
+  text-decoration: none solid rgb(0, 0, 0);
+  
+  
+  }
+  
+  .headings3{
+  font-weight:bold;
+  font-size: 40px;
+  line-height: 30px;
+  color: #90331c;
+  text-align: center;
+  }
+  
+  
+  .para2 {
+  margin-top: 20px;
+  width: 100%;
+  font-family:Segoe UI;
+  font-size: 18px;
+  line-height: 23px;
+  color:black;
+  font-weight: 400;
+  text-decoration: none solid rgb(0, 0, 0);
+  text-align: center;
+  
+  
+  }
+
+  .conimg3{
+    margin-top: 100px;
+  }
+  
+  .conimg{
+    border-radius: 10px;
+    height: 500px;
+    margin-top:30px;
+  }
+
+
+  @media screen and (max-width: 576px) {
+
+    .headings{
+      text-align: center;
+      font-size: 36px;
+      line-height: 56px;
+      font-family: Segoe UI;
+      font-weight: 600;
+      font-style: normal;
+      margin-top: 100px;
+      
+     }
+
+     .conimg{
+      border-radius: 10px;
+      height: 300px;
+      margin-top:30px;
+    }
+
+    .modimg{
+     display: none;
+    }
+
+    .headings2{
+      text-align: center;
+      font-size: 30px;
+      line-height: 56px;
+      font-family: Segoe UI;
+      font-weight: 600;
+      font-style: normal;
+      margin-top: 20px;
+      
+     }
+  
+     .paracon {
+   
+ 
+      font-family:Segoe UI;
+      font-size: 18px;
+      line-height: 23px;
+      color:black;
+      font-weight: 400;
+      text-decoration: none solid rgb(0, 0, 0);
+      width: 90%;
+      margin-bottom: 40px;
+     
+    
+    
+    }
+
+    .subhead2 {
+      font-weight:bold;
+      font-size: 25px;
+      line-height: 40px;
+      color: #90331c;
+      margin-top: 20px;
+     }
+     
+     .conimg3{
+      margin-top: 60px;
+    }
+
+    .parahead {
+   
+ 
+     display: none;
+    
+    
+    
+    }
+    
+
+  }
+
+
+  @media screen and (max-width: 991px) {
+
+    .headings{
+      text-align: center;
+      font-size: 36px;
+      line-height: 56px;
+      font-family: Segoe UI;
+      font-weight: 600;
+      font-style: normal;
+      margin-top: 100px;
+      
+     }
+
+     .conimg{
+      border-radius: 10px;
+      height: 300px;
+      margin-top:30px;
+    }
+
+    .headings2{
+      text-align: center;
+      font-size: 30px;
+      line-height: 56px;
+      font-family: Segoe UI;
+      font-weight: 600;
+      font-style: normal;
+      margin-top: 20px;
+      
+     }
+  
+     .paracon {
+   
+ 
+      font-family:Segoe UI;
+      font-size: 18px;
+      line-height: 23px;
+      color:black;
+      font-weight: 400;
+      text-decoration: none solid rgb(0, 0, 0);
+      width: 100%;
+      margin-bottom: 40px;
+     
+    
+    
+    }
+
+    .subhead2 {
+      font-weight:bold;
+      font-size: 25px;
+      line-height: 40px;
+      color: #90331c;
+      margin-top: 20px;
+     }
+     
+     .conimg3{
+      margin-top: 60px;
+    }
+
+    .modimg{
+      height:80px
+     }
+    
+
+   
+
+  }
+
+  @media screen and (max-width: 280px) {
+
+    .headings{
+      text-align: center;
+      font-size: 30px;
+      line-height: 56px;
+      font-family: Segoe UI;
+      font-weight: 600;
+      font-style: normal;
+      margin-top: 70px;
+      
+     }
+  }
+  
+
+
+  @media screen and (max-width:1024px ){
+
+
+    .subhead2 {
+      font-weight:bold;
+      font-size: 25px;
+      line-height: 40px;
+      color: #90331c;
+      margin-top: 160px;
+     }
+
+     .modimg{
+      height:100px
+     }
+     
+     .headings{
+      text-align: center;
+      font-size: 36px;
+      line-height: 56px;
+      font-family: Segoe UI;
+      font-weight: 600;
+      font-style: normal;
+      margin-top: 90px;
+      
+     }
+
+  }
+
+
+  @media screen and (max-width:1280px ){
+
+
+    .subhead2 {
+      font-weight:bold;
+      font-size: 25px;
+      line-height: 40px;
+      color: #90331c;
+      margin-top: 160px;
+     }
+
+     .modimg{
+      height:100px
+     }
+     
+     .headings{
+      text-align: center;
+      font-size: 36px;
+      line-height: 56px;
+      font-family: Segoe UI;
+      font-weight: 600;
+      font-style: normal;
+      margin-top: 150px;
+      
+     }
+
+  }
+
+  @media screen and (max-width: 768px) {
+
+     .subhead2 {
+      font-weight:bold;
+      font-size: 25px;
+      line-height: 40px;
+      color: #90331c;
+      margin-top: 10px;
+     }
+
+    
+     .modimg{
+      display: none;
+     }
+ 
+     .headings{
+      text-align: center;
+      font-size: 36px;
+      line-height: 56px;
+      font-family: Segoe UI;
+      font-weight: 600;
+      font-style: normal;
+      margin-top: 100px;
+      
+     }
+
+  
+  }
+
+  @media screen and (max-width: 820px) {
+
+    .subhead2 {
+     font-weight:bold;
+     font-size: 25px;
+     line-height: 40px;
+     color: #90331c;
+     margin-top: 10px;
+    }
+
+   
+    .modimg{
+     height: 100px;
+    }
+
+    .headings{
+     text-align: center;
+     font-size: 36px;
+     line-height: 56px;
+     font-family: Segoe UI;
+     font-weight: 600;
+     font-style: normal;
+     margin-top: 50px;
+     
+    }
+
+ 
+ }
+
+ @media screen and (max-width: 837px) {
+  .headings{
+    text-align: center;
+    font-size: 36px;
+    line-height: 56px;
+    font-family: Segoe UI;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 30px;
+    
+   }
+   
+    
+   .modimg{
+    height: 100px;
+   }
+ }
+
+ 
+
+
+  
+  
+  
+  
+  
+  

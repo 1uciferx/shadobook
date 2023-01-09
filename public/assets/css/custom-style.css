@@ -165,3 +165,27 @@
 
 }
 
+/* accounting animation */
+@keyframes animtext { 
+  from {
+     width: 0;
+    transition: all 2s ease-in-out;
+  } 
+}
+
+
+
+@keyframes gradient-animation {
+  0%{background-position:86% 0%}
+    50%{background-position:15% 100%}
+    100%{background-position:86% 0%}
+}
+
+.clients img:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}

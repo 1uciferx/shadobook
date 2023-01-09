@@ -61,7 +61,7 @@ function Faq1() {
                     <div className="grid-6-img">
                       <img
                         src="/assets/imgs/page/homepage1/market.svg"
-                        alt="Agon"
+                        alt="Shado Books"
                       />
                     </div>
                     <h3 className="text-heading-5 mt-20">Market research</h3>
@@ -78,7 +78,7 @@ function Faq1() {
                     <div className="grid-6-img">
                       <img
                         src="/assets/imgs/page/homepage1/consulting.svg"
-                        alt="Agon"
+                        alt="Shado Books"
                       />
                     </div>
                     <h3 className="text-heading-5 mt-20">
@@ -97,7 +97,7 @@ function Faq1() {
                     <div className="grid-6-img">
                       <img
                         src="/assets/imgs/page/homepage1/cognity.svg"
-                        alt="Agon"
+                        alt="Shado Books"
                       />
                     </div>
                     <h3 className="text-heading-5 mt-20">Cognitive Solution</h3>
@@ -369,7 +369,7 @@ function Faq1() {
                     <div className="grid-3-img">
                       <img
                         src="/assets/imgs/page/homepage1/user-1.png"
-                        alt="Agon"
+                        alt="Shado Books"
                       />
                     </div>
                     <h3 className="text-heading-6 mb-5 mt-20">Wade Warren</h3>
@@ -390,7 +390,7 @@ function Faq1() {
                     <div className="grid-3-img">
                       <img
                         src="/assets/imgs/page/homepage1/user-2.png"
-                        alt="Agon"
+                        alt="Shado Books"
                       />
                     </div>
                     <h3 className="text-heading-5 mt-20">Brooklyn Simmons</h3>
@@ -410,7 +410,7 @@ function Faq1() {
                     <div className="grid-3-img">
                       <img
                         src="/assets/imgs/page/homepage1/user-3.png"
-                        alt="Agon"
+                        alt="Shado Books"
                       />
                     </div>
                     <h3 className="text-heading-6 mb-5 mt-20">Jenny Wilson</h3>
@@ -429,7 +429,7 @@ function Faq1() {
                     <div className="grid-3-img">
                       <img
                         src="/assets/imgs/page/homepage1/user-4.png"
-                        alt="Agon"
+                        alt="Shado Books"
                       />
                     </div>
                     <h3 className="text-heading-5 mt-20">Albert Flores</h3>

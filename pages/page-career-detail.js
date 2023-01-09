@@ -49,7 +49,7 @@ function CareerDetails() {
                                 <div className="col-lg-10">
                                     <div className="box-image mt-30 mb-30">
                                         <a className="popup-youtube btn-play-video btn-play-middle" onClick={() => setOpen(true)}></a>
-                                        <img className="img-responsive bdrd-16" src="assets/imgs/page/career/img.png" alt="Agon" /></div>
+                                        <img className="img-responsive bdrd-16" src="assets/imgs/page/career/img.png" alt="Shado Books" /></div>
                                 </div>
                             </div>
                             <div className="row">
@@ -87,11 +87,11 @@ function CareerDetails() {
                                         <Link href="/page-contact"><a className="btn btn-default icon-arrow-right">Contact Us</a></Link>
 
                                         <div className="float-start float-lg-end mt-30">
-                                            <Link href="/#"><a className="btn btn-media mr-10"><img src="/assets/imgs/template/icons/facebook-share.svg" alt="Agon" /> Share</a></Link>
+                                            <Link href="/#"><a className="btn btn-media mr-10"><img src="/assets/imgs/template/icons/facebook-share.svg" alt="Shado Books" /> Share</a></Link>
 
-                                            <Link href="/#"><a className="btn btn-media mr-10"><img src="/assets/imgs/template/icons/twitter-share.svg" alt="Agon" /> Tweet</a></Link>
+                                            <Link href="/#"><a className="btn btn-media mr-10"><img src="/assets/imgs/template/icons/twitter-share.svg" alt="Shado Books" /> Tweet</a></Link>
 
-                                            <Link href="/#"><a className="btn btn-media"><img src="/assets/imgs/template/icons/pinterest-share.svg" alt="Agon" /> Pin</a></Link>
+                                            <Link href="/#"><a className="btn btn-media"><img src="/assets/imgs/template/icons/pinterest-share.svg" alt="Shado Books" /> Pin</a></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -115,7 +115,7 @@ function CareerDetails() {
                                             </div>
                                         </div>
                                         <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
-                                            <div className="block-chart shape-1"><img src="/assets/imgs/template/chart.png" alt="Agon" /></div><img className="img-responsive img-newsletter" src="assets/imgs/template/img-newsletter.png" alt="Agon" />
+                                            <div className="block-chart shape-1"><img src="/assets/imgs/template/chart.png" alt="Shado Books" /></div><img className="img-responsive img-newsletter" src="assets/imgs/template/img-newsletter.png" alt="Shado Books" />
                                         </div>
                                     </div>
                                 </div>

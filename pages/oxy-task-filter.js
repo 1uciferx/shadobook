@@ -46,7 +46,7 @@ This can help you filter tasks related to invoices, projects, contracts, estimat
 
                     <img
                       className="img-responsive shape-2"
-                      alt="Agon"
+                      alt="Shado Books"
                       src="assets/imgs/page/homepage4/banner1.png"
                     />
                   </div>

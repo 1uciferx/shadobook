@@ -30,16 +30,16 @@ const Header = ({ handleOpen, headerStyle }) => {
                       <img
                         width={150}
                         alt="Shadobooks"
-                        src="/assets/logo/logo.png"
+                        src="/assets/logo/Logo.png"
                       />
                     ) : (
-                      <img width={150} alt="Agon" src="/assets/logo/logo.png" />
+                      <img width={150} alt="ShadoBooks" src="/assets/logo/logo.png" />
                     )}
                   </a>
                 </Link>
               </div>
               <div className="header-nav">
-                <nav className="nav-main-menu d-none d-xl-block">
+                <nav className="nav-main-menu d-none d-xl-block" style={{marginLeft:"100px"}}>
                   <ul className="main-menu">
                     <li className="">
                       <Link href="/">
@@ -51,7 +51,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                         <a className="acuspad">Features</a>
                       </Link>
                       <ul className="sub-menu" style={{ width: "750px" }}>
-                        <div style={{ display: "flex", justifyContent: "" }}>
+                        <div style={{ display: "flex" }}>
                           <div>
                             <li>
                               <Link href="/accounting">
@@ -62,13 +62,15 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li>
                             <li>
-                              <Link href="/account-planning">
+                              <Link href="/Utilities">
                                 <a>
                                   <i className="fi fi-rr-star" />
-                                  Account planning
+                                 Utilities
                                 </a>
                               </Link>
                             </li>
+
+                            
                             <li>
                               <Link href="/reports">
                                 <a>
@@ -190,10 +192,10 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li>
                             <li>
-                              <Link href="/lead-management">
+                              <Link href="/lead-manager">
                                 <a>
                                   <i className="fi fi-rr-star" />
-                                  Lead Management
+                                  Lead Manager
                                 </a>
                               </Link>
                             </li>
@@ -252,7 +254,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                               <Link href="hrrecords">
                                 <a>
                                   <i className="fi fi-rr-star" />
-                                  Hr Records
+                                  HR Records
                                 </a>
                               </Link>
                             </li>
@@ -275,7 +277,6 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li>
                           </div>
-                          
 
                           <div>
                             {/* <li>
@@ -384,6 +385,15 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li>
 
                             <li>
+                              <Link href="/POS">
+                                <a>
+                                  <i className="fi fi-rr-star" />
+                                 Point Of Sales
+                                </a>
+                              </Link>
+                            </li>
+
+                            <li>
                               <Link href="/recruitment">
                                 <a>
                                   <i className="fi fi-rr-star" />
@@ -400,9 +410,9 @@ const Header = ({ handleOpen, headerStyle }) => {
                                 </a>
                               </Link>
                             </li>
-                        </div>
+                          </div>
 
-                            <div>
+                          <div>
                             <li>
                               <Link href="/support">
                                 <a>
@@ -412,9 +422,8 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li>
                           </div>
-                           
-                            
-                        
+
+                          
                         </div>
                       </ul>
                     </li>
@@ -540,23 +549,36 @@ const Header = ({ handleOpen, headerStyle }) => {
                           </Link>
                         </li> */}
                       </ul>
-                      
                     </li>
-                    <a href="#" style={{fontSize:"18px",  padding:"0px 80px",position:"fixed",color:"black"}}>
-                    
-                    {/* 📞 */}
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" style={{height:"20px" ,width:"20px"}}>
-  <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-</svg>
+                    <a
+                      href="#"
+                      style={{
+                        fontSize: "18px",
+                        padding: "0px 80px",
+                        
+                        color: "black",
+                      }}
+                    >
+                      {/* 📞 */}
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={2}
+                        stroke="currentColor"
+                        style={{ height: "20px", width: "20px" }}
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                        />
+                      </svg>
 
-                    <span> +971 52 872 2900</span>
-                      </a>
+                      <span style={{diplay:"block"}}> +971 52 872 2900</span>
+                    </a>
                   </ul>
-                  
                 </nav>
-
-               
-                       
 
                 <div
                   className="burger-icon burger-icon-white cusburgericon"
@@ -570,7 +592,6 @@ const Header = ({ handleOpen, headerStyle }) => {
             </div>
             <div className="header-right">
               <div className="block-signin">
-                
                 <Link href="/page-signup">
                   <span className="btn btn-default hover-up icon-arrow-right acuspad">
                     Get Started

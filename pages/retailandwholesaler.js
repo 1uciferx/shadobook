@@ -315,8 +315,11 @@ function Raw() {
               </div>
               <div className="col-lg-7">
                 <div className="row" data-masonry='{"percentPosition": true }'>
-                  <div className="col-lg-6 col-md-12 col-sm-12" >
-                    <div className="card-grid-style-2 card-square hover-up mb-20 border border-info" style={{borderRadius:"20px"}}>
+                  <div className="col-lg-6 col-md-12 col-sm-12">
+                    <div
+                      className="card-grid-style-2 card-square hover-up mb-20 border border-info"
+                      style={{ borderRadius: "20px" }}
+                    >
                       <h4 className="text-heading-4 color-gray-900 mb-5">
                         An adaptable system
                       </h4>
@@ -345,7 +348,10 @@ function Raw() {
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12">
-                    <div className="card-grid-style-2 card-square hover-up mb-20 border border-info" style={{borderRadius:"20px"}}>
+                    <div
+                      className="card-grid-style-2 card-square hover-up mb-20 border border-info"
+                      style={{ borderRadius: "20px" }}
+                    >
                       <h4 className="text-heading-4 color-gray-900 mb-5">
                         System support
                       </h4>
@@ -374,7 +380,10 @@ function Raw() {
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12">
-                    <div className="card-grid-style-2 card-square hover-up mb-20 border border-info" style={{borderRadius:"20px"}}>
+                    <div
+                      className="card-grid-style-2 card-square hover-up mb-20 border border-info"
+                      style={{ borderRadius: "20px" }}
+                    >
                       <h4 className="text-heading-4 color-gray-900 mb-5">
                         Interaction with customers
                       </h4>
@@ -404,7 +413,10 @@ function Raw() {
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12">
-                    <div className="card-grid-style-2 card-square hover-up mb-20 border border-info" style={{borderRadius:"20px"}}>
+                    <div
+                      className="card-grid-style-2 card-square hover-up mb-20 border border-info"
+                      style={{ borderRadius: "20px" }}
+                    >
                       <h4 className="text-heading-4 color-gray-900 mb-5">
                         Individual Productivity
                       </h4>
@@ -433,7 +445,8 @@ function Raw() {
                 <div className="inner-image">
                   <img
                     className=" img-responsive shape-2"
-                    src="assets/imgs/page/homepage4/faq.jpg " style={{borderRadius:"30px",height:"800px"}}
+                    src="assets/imgs/page/homepage4/faq.jpg "
+                    style={{ borderRadius: "30px", height: "800px" }}
                     alt="ShadoBooks"
                   />
                 </div>

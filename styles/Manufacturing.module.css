@@ -1,0 +1,242 @@
+
+
+  .heroimg {
+    height: 500px;
+    margin-top: 100px;
+  }
+  
+  .para {
+   
+ 
+     font-family:Segoe UI;
+     font-size: 18px;
+     line-height: 23px;
+     color:black;
+     font-weight: 400;
+     text-decoration: none solid rgb(0, 0, 0);
+     width: 80%;
+  
+
+}
+
+.headings{
+    text-align: center;
+    font-size: 46px;
+    line-height: 56px;
+    font-family: Segoe UI;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 50px;
+    
+}
+
+.subhead {
+    font-weight:bold;
+    font-size: 25px;
+    line-height: 40px;
+    color: #90331c;
+    margin-top: 250px;
+ 
+  }
+
+  .subhead2 {
+    font-weight:bold;
+    font-size: 25px;
+    line-height: 40px;
+    color: #90331c;
+    margin-top: 150px;
+  }
+
+  .headings2{
+  
+    font-size: 46px;
+    line-height: 56px;
+    font-family: Segoe UI;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 120px;
+    
+}
+
+.paracenter {
+   
+ text-align: center;
+  font-family:Segoe UI;
+  font-size: 18px;
+  line-height: 23px;
+  color:black;
+  font-weight: 400;
+  text-decoration: none solid rgb(0, 0, 0);
+
+
+}
+
+.headings3{
+  font-weight:bold;
+  font-size: 40px;
+  line-height: 30px;
+  color: #90331c;
+  text-align: center;
+  margin-top: 60px;
+}
+
+
+.para2 {
+ margin-top: 20px;
+ width: 80%;
+  font-family:Segoe UI;
+  font-size: 18px;
+  line-height: 23px;
+  color:black;
+  font-weight: 400;
+  text-decoration: none solid rgb(0, 0, 0);
+  text-align: center;
+
+
+}
+
+.para3 {
+  margin-top: 20px;
+  width: 80%;
+   font-family:Segoe UI;
+   font-size: 18px;
+   line-height: 23px;
+   color:black;
+   font-weight: 400;
+   text-decoration: none solid rgb(0, 0, 0);
+   text-align: center;
+   margin-left: 30px;
+ 
+ 
+ }
+
+.imgcon {
+  height: 500px;
+  margin-top: 100px;
+}
+
+.conimgone {
+  height: 400px;
+  margin-top: 80px;
+}
+
+.conimgtwo {
+  height: 400px;
+  margin-top: 80px;
+}
+
+
+.tabimg {
+  height: 380px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.mobiletab{
+  display: none;
+}
+
+
+
+@media screen and (min-width: 992px){
+
+  .mobiletab{
+    display: none;
+  }
+
+  .imgcon {
+    height: 400px;
+    margin-top: 50px;
+  }
+
+  .para {
+   
+ 
+    font-family:Segoe UI;
+    font-size: 18px;
+    line-height: 23px;
+    color:black;
+    font-weight: 400;
+    text-decoration: none solid rgb(0, 0, 0);
+    width: 80%;
+ 
+
+}
+
+.subhead {
+  font-weight:bold;
+  font-size: 25px;
+  line-height: 40px;
+  color: #90331c;
+  margin-top: 150px;
+
+}
+
+.tabs{
+  margin-top: 50px;
+}
+
+.tabimg {
+  height: 350px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 576px){
+  .subhead {
+    font-weight:bold;
+    font-size: 25px;
+    line-height: 40px;
+    color: #90331c;
+    margin-top: 30px;
+  
+  }
+
+
+  .headings3{
+    font-weight:bold;
+    font-size: 40px;
+    line-height: 35px;
+    color: #90331c;
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+.conimgone {
+  height: 400px;
+  margin-top: 20px;
+}
+.conimgtwo {
+  height: 400px;
+  margin-top: 50px;
+}
+
+.tabs{
+  display: none;
+}
+}
+
+
+@media screen and (min-width: 576px){
+  .subhead {
+    font-weight:bold;
+    font-size: 25px;
+    line-height: 40px;
+    color: #90331c;
+    margin-top: 200px;
+  
+  }
+  .mobiletab{
+    display: none;
+  }
+}
+
+
+
+

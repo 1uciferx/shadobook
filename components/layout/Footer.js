@@ -3,7 +3,7 @@ import Link from "next/link";
 const Footer = () => {
     return (
         <>
-            <footer className="footer mt-50">
+            <footer className="footer mt-50" style={{zIndex:"9999"}}>
                 <div className="container">
                     {/*  <div className="footer-top">
                        <div className="row">
@@ -184,7 +184,7 @@ const Footer = () => {
                                     <a className="text-body-text color-gray-400 ml-50">Terms of service</a>
                                 </Link>
                             </div>
-                            <div className="col-md-4 text-center text-lg-end text-md-end">
+                            <div className="col-md-3 text-center text-lg-end text-md-end">
                                 <div className="footer-social">
                                     <Link href="https://www.facebook.com/shadobookscrm">
                                         <a className="icon-socials icon-facebook"></a>

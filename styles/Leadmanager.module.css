@@ -1,0 +1,426 @@
+.para {
+   
+ 
+    font-family:Segoe UI;
+    font-size: 18px;
+    line-height: 23px;
+    color:black;
+    font-weight: 400;
+    text-decoration: none solid rgb(0, 0, 0);
+    margin-top: 200px;
+    
+ 
+
+}
+
+.parahero {
+
+    font-family:Segoe UI;
+    font-size: 18px;
+    line-height: 23px;
+    color: #797979;
+    font-weight: 600;
+    text-decoration: none solid rgb(0, 0, 0);
+    width: 60%;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: -60px;
+
+}
+
+.headings{
+   text-align: center;
+   font-size: 46px;
+   line-height: 56px;
+   font-family: Segoe UI;
+   font-weight: 600;
+   font-style: normal;
+   margin-top: 100px;
+   
+}
+
+.subhead {
+   font-weight:bold;
+   font-size: 25px;
+   line-height: 40px;
+   color: #90331c;
+ }
+
+ .subhead2 {
+   font-weight:bold;
+   font-size: 25px;
+   line-height: 40px;
+   color: #90331c;
+ }
+
+ .headings2{
+   margin-left:100px;
+   font-size: 46px;
+   line-height: 56px;
+   font-family: Segoe UI;
+   font-weight: 600;
+   font-style: normal;
+   
+}
+
+.paracenter {
+  
+text-align: center;
+ font-family:Segoe UI;
+ font-size: 18px;
+ line-height: 23px;
+ color:black;
+ font-weight: 400;
+ text-decoration: none solid rgb(0, 0, 0);
+
+
+}
+
+.headings3 {
+ font-weight:bold;
+ font-size: 40px;
+ line-height: 30px;
+ color: #90331c;
+ text-align: center;
+ margin-top: 40px;
+}
+
+
+.para2 {
+margin-top: 20px;
+width: 100%;
+ font-family:Segoe UI;
+ font-size: 18px;
+ line-height: 23px;
+ color:black;
+ font-weight: 400;
+ text-decoration: none solid rgb(0, 0, 0);
+ text-align: center;
+
+
+}
+
+
+
+
+.headButton{
+    background-color:#90331c;
+    color:white;
+    margin-top: 30px;
+    font-family:Segoe UI;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+   
+   
+
+   
+}
+
+.image1{
+    width:90%;
+    border-radius: 10px;
+    margin-top: 100PX;
+    height: 600px;
+    margin-left: -90px;
+  
+}
+
+
+
+.play {
+   height: 50px;
+  margin-top: 10px;
+}
+
+.parasmall{
+    text-align: center;
+}
+
+
+.scrollcon{
+    position: relative;
+    display: block;
+    overflow: visible;
+    top: 5%;
+  }
+
+
+  .panel {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    overflow: hidden;
+    margin-right: 100px;
+    background-color:white;
+  }
+
+  .scrollimg {
+   margin-top: 100px;
+   border-radius: 10px;
+  }
+
+
+  .concontainer{
+    margin-left: 0px;
+   
+  }
+
+  .footer{
+    position: relative;
+    top: 30%;
+}
+
+
+
+  @media screen and (max-width: 576px){
+
+    .parahero {
+
+        font-family:Segoe UI;
+        font-size: 18px;
+        line-height: 23px;
+        color: #797979;
+        font-weight: 600;
+        text-decoration: none solid rgb(0, 0, 0);
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+       
+      
+     
+    
+    }
+
+    .headings{
+        text-align: center;
+        font-size: 36px;
+        line-height: 56px;
+        font-family: Segoe UI;
+        font-weight: 600;
+        font-style: normal;
+        margin-top: 30px;
+        
+     }
+     
+     .image1{
+        width:90%;
+        border-radius: 10px;
+        margin-top: 100PX;
+        height: 400px;
+        margin-left: 0px;
+      
+    }
+    
+    
+    
+    .play {
+       height: 30px;
+      margin-top: 10px;
+    }
+
+    .headings3 {
+        font-weight:bold;
+        font-size: 40px;
+        line-height: 30px;
+        color: #90331c;
+        text-align: center;
+        margin-top: 20px;
+       }
+
+       .scrollimg {
+        margin-top: 50px;
+        border-radius: 10px;
+       }
+
+       .para {
+   
+ 
+        font-family:Segoe UI;
+        font-size: 18px;
+        line-height: 23px;
+        color:black;
+        font-weight: 400;
+        text-decoration: none solid rgb(0, 0, 0);
+        margin-top: 60px;
+        
+     
+    
+    }
+
+
+    .footer{
+        position: relative;
+        top: 10%;
+    }
+     
+    
+  }
+
+
+
+
+  @media screen and (min-width: 576px){
+    .parahero {
+
+        font-family:Segoe UI;
+        font-size: 15px;
+        line-height: 23px;
+        color: #797979;
+        font-weight: 600;
+        text-decoration: none solid rgb(0, 0, 0);
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+       
+      
+     
+    
+    }
+
+    .scrollcon{
+        position: relative;
+        display: block;
+        overflow: visible;
+        top: 8%;
+      }
+
+    .headings{
+        text-align: center;
+        font-size: 36px;
+        line-height: 56px;
+        font-family: Segoe UI;
+        font-weight: 600;
+        font-style: normal;
+        margin-top: 30px;
+        
+     }
+     
+     .image1{
+        width:90%;
+        border-radius: 10px;
+        margin-top: 100PX;
+        height: 400px;
+        margin-left: 0px;
+      
+    }
+    
+    
+    
+    .play {
+       height: 30px;
+      margin-top: 10px;
+    }
+
+    .headings3 {
+        font-weight:bold;
+        font-size: 40px;
+        line-height: 30px;
+        color: #90331c;
+        text-align: center;
+        margin-top: 20px;
+       }
+
+       .scrollimg {
+        margin-top: 150px;
+        border-radius: 10px;
+       }
+
+       .para {
+   
+ 
+        font-family:Segoe UI;
+        font-size: 18px;
+        line-height: 23px;
+        color:black;
+        font-weight: 400;
+        text-decoration: none solid rgb(0, 0, 0);
+        margin-top: 150px;
+        
+     
+    
+    }
+
+    
+
+
+    .footer{
+        position: relative;
+        top: 10%;
+    }
+  }
+
+  @media screen and (min-width: 992px){
+    .para {
+   
+ 
+        font-family:Segoe UI;
+        font-size: 18px;
+        line-height: 23px;
+        color:black;
+        font-weight: 400;
+        text-decoration: none solid rgb(0, 0, 0);
+        margin-top: 200px;
+        
+     
+    
+    }
+
+    .scrollcon{
+        position: relative;
+        display: block;
+        overflow: visible;
+        top: 13%;
+      }
+    
+  }
+
+
+  @media screen and (min-width: 1200px){
+
+
+    .image1{
+        width:90%;
+        border-radius: 10px;
+        margin-top: 100PX;
+        height: 550px;
+        margin-left: 0px;
+      
+    }
+
+    .scrollimg {
+        margin-top: 150px;
+        border-radius: 10px;
+       }
+
+       .para {
+   
+ 
+        font-family:Segoe UI;
+        font-size: 18px;
+        line-height: 23px;
+        color:black;
+        font-weight: 400;
+        text-decoration: none solid rgb(0, 0, 0);
+        margin-top: 250px;
+        
+     
+    
+    }
+
+    .footer{
+        position: relative;
+        top: 20%;
+    }
+  }
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,103 @@
+.body{
+    background-image: url("/assets/imgs/page/homepage4/webhooks.jpg");
+  background-size: cover;
+  border-radius: 5px;
+  height: 600px;
+ 
+   
+}
+
+
+.parahead{
+    font-family:Segoe UI;
+    font-size: 46px;
+    line-height: 46px;
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+    text-decoration: none solid rgb(0, 0, 0);
+    width: 70%;
+    text-align: center;
+ 
+   
+}
+.paraheadcontainer{
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    position: relative;
+}
+
+.bodycontainer{
+    margin: auto;
+    width: 90%;
+    
+
+  
+  
+}
+
+.msggif{
+    margin: auto;
+    width: 90%;
+    height: 100px;
+  
+  
+}
+
+
+.formcontainer{
+    margin-top: 15%;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: saturate(180%) blur(10px);
+    padding: 30px 30px;
+    border-radius: 5px;
+
+
+   
+}
+
+
+@media screen and (max-width: 576px){
+
+
+.parahead{
+    font-family:Segoe UI;
+    font-size: 24px;
+    line-height: 26px;
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+    text-decoration: none solid rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+ 
+   
+}
+.paraheadcontainer{
+    margin: auto;
+    text-align: center;
+    margin-top: 20%;
+    position: relative;
+}
+
+.formcontainer{
+    margin-top: 30%;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: saturate(180%) blur(10px);
+    padding: 30px 30px;
+    border-radius: 5px;
+
+
+   
+}
+
+.body{
+ background-image: url("/assets/imgs/page/homepage4/webhooks.jpg");
+  background-size: cover;
+  border-radius: 5px;
+  height: 25vh;
+  
+}
+
+
+
+}

@@ -42,21 +42,21 @@ function Faq2() {
                             <div className="row">
                                 <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                                     <div className="card-grid-style-6 hover-up wow animate__animated animate__fadeIn" data-wow-delay=".1s">
-                                        <div className="grid-6-img"><img src="/assets/imgs/page/homepage1/market.svg" alt="Agon" /></div>
+                                        <div className="grid-6-img"><img src="/assets/imgs/page/homepage1/market.svg" alt="Shado Books" /></div>
                                         <h3 className="text-heading-5 mt-20">Market research</h3>
                                         <p className="text-body-text color-gray-600 mt-20">One make creepeth, man bearing theira firmament.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                                     <div className="card-grid-style-6 hover-up wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                        <div className="grid-6-img"><img src="/assets/imgs/page/homepage1/consulting.svg" alt="Agon" /></div>
+                                        <div className="grid-6-img"><img src="/assets/imgs/page/homepage1/consulting.svg" alt="Shado Books" /></div>
                                         <h3 className="text-heading-5 mt-20">Strategic Consulting</h3>
                                         <p className="text-body-text color-gray-600 mt-20">One make creepeth, man bearing theira firmament.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                                     <div className="card-grid-style-6 hover-up wow animate__animated animate__fadeIn" data-wow-delay=".5s">
-                                        <div className="grid-6-img"><img src="/assets/imgs/page/homepage1/cognity.svg" alt="Agon" /></div>
+                                        <div className="grid-6-img"><img src="/assets/imgs/page/homepage1/cognity.svg" alt="Shado Books" /></div>
                                         <h3 className="text-heading-5 mt-20">Cognitive Solution</h3>
                                         <p className="text-body-text color-gray-600 mt-20">One make creepeth, man bearing theira firmament.</p>
                                     </div>
@@ -138,28 +138,28 @@ function Faq2() {
                             <div className="row">
                                 <div className="col-lg-3 col-md-6 col-12">
                                     <div className="card-grid-style-3 hover-up wow animate__animated animate__fadeIn" data-wow-delay=".1s">
-                                        <div className="grid-3-img"><img src="/assets/imgs/page/homepage1/user-1.png" alt="Agon" /></div>
+                                        <div className="grid-3-img"><img src="/assets/imgs/page/homepage1/user-1.png" alt="Shado Books" /></div>
                                         <h3 className="text-heading-6 mb-5 mt-20">Wade Warren</h3><span className="text-body-small d-block">Louis Vuitton</span>
                                         <p className="text-body-text text-desc color-gray-500 mt-20">Even factoring differences in body weight between children and adults into account.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 col-md-6 col-12">
                                     <div className="card-grid-style-3 bd-bg-6 hover-up wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                        <div className="grid-3-img"><img src="/assets/imgs/page/homepage1/user-2.png" alt="Agon" /></div>
+                                        <div className="grid-3-img"><img src="/assets/imgs/page/homepage1/user-2.png" alt="Shado Books" /></div>
                                         <h3 className="text-heading-5 mt-20">Brooklyn Simmons</h3><span className="text-body-small d-block">Nintendo</span>
                                         <p className="text-body-text text-desc color-gray-500 mt-20">So yes, the alcohol (ethanol) in hand sanitizers can be absorbed through the skin, but no, it would not cause intoxication.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 col-md-6 col-12">
                                     <div className="card-grid-style-3 bd-bg-10 hover-up wow animate__animated animate__fadeIn" data-wow-delay=".5s">
-                                        <div className="grid-3-img"><img src="/assets/imgs/page/homepage1/user-3.png" alt="Agon" /></div>
+                                        <div className="grid-3-img"><img src="/assets/imgs/page/homepage1/user-3.png" alt="Shado Books" /></div>
                                         <h3 className="text-heading-6 mb-5 mt-20">Jenny Wilson</h3><span className="text-body-small d-block">Starbucks</span>
                                         <p className="text-body-text text-desc color-gray-500 mt-20">Their blood alcohol levels rose to 0.007 to 0.02 o/oo (parts per thousand), or 0.7 to 2.0 mg/L.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 col-md-6 col-12">
                                     <div className="card-grid-style-3 bd-bg-9 hover-up wow animate__animated animate__fadeIn" data-wow-delay=".7s">
-                                        <div className="grid-3-img"><img src="/assets/imgs/page/homepage1/user-4.png" alt="Agon" /></div>
+                                        <div className="grid-3-img"><img src="/assets/imgs/page/homepage1/user-4.png" alt="Shado Books" /></div>
                                         <h3 className="text-heading-5 mt-20">Albert Flores</h3><span className="text-body-small d-block">Bank of America</span>
                                         <p className="text-body-text text-desc color-gray-500 mt-20">So yes, the alcohol (ethanol) in hand sanitizers can be absorbed through the skin, but no, it would not cause intoxication.</p>
                                     </div>

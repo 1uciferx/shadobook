@@ -1,322 +1,433 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import dynamic from "next/dynamic";
+import Footer from "../components/layout/Footer";
 import Link from "next/link";
 import { useState } from "react";
 import "react-modal-video/css/modal-video.css";
 import CounterUp from "../components/elements/CounterUp";
 import Layout from "../components/layout/Layout";
+import styles from "../styles/Sales.module.css";
 import TeamSlider from "../components/slider/Team";
 import TestimonialSlider from "../components/slider/Testimonial";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Autoplay, Navigation } from "swiper";
+import { Affix, Button } from "antd";
+import { Col, Row } from "antd";
+import { Divider } from "antd";
+import { Layout as L } from "antd";
+import { Breadcrumb, Menu, theme } from "antd";
+const { Content } = L;
+import { BackTop } from "antd";
+import { Carousel } from "antd";
+import { render } from "react-dom";
+import { Tabs } from "antd";
+
+
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
-
+SwiperCore.use([Autoplay, Navigation]);
 function About1() {
-  const [isOpen, setOpen] = useState(false);
+  
+
+  const [top, setTop] = useState(75);
+
   return (
     <>
       <Layout>
-        <section className="section-box">
-          <div className="banner-hero banner-2 bg-2">
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-7">
-                  <h1 className="text-display-3 mt-30">Sales</h1>
-                  <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
-                    Help your customer-facing teams with sales solutions that
-                    can potentially accelerate their overall process efficiency
-                    in no time with Shadobooks. The sales interface enables
-                    hyper management of all your prospects, proposals,
-                    estimations, quotations, payments, invoices, credit notes
-                    and inventory management on the go. <br></br> <br></br>
-                    Shadobooks also offer complete flexibility in organizing
-                    your sales touch points starting from lead capture to final
-                    conversion. The effective sales structure that the platform
-                    offers can help you scale your business towards better
-                    growth by streamlining your processes, preventing loss of
-                    data and offering you valuable insights along with
-                    end-to-end reporting of crucial metrics.
-                  </p>
-                </div>
-                <div className="col-lg-5 d-none d-lg-block">
-                  <div className="banner-imgs">
-                    <div className="block-1 shape-1"></div>
-                    <img
-                      className="img-responsive shape-2"
-                      alt="Agon"
-                      src="assets/imgs/page/homepage4/sales.png"
-                      style={{ borderRadius: "30px",maxWidth:"100%" }}
-                    />
+        <Content className="site-layout" style={{ padding: "10px 100px" }}>
+          <Breadcrumb style={{ margin: "16px 0", fontWeight: "bold" }}>
+            <Breadcrumb.Item>Home</Breadcrumb.Item>
+            <Breadcrumb.Item>Features</Breadcrumb.Item>
+            <Breadcrumb.Item>Sales</Breadcrumb.Item>
+          </Breadcrumb>
 
-                    {/* <img src="/assets/imgs/page/about/1/banner2.png" alt="Agon" /> */}
-                  </div>
-                </div>
+          <Row>
+            <Col span={10} style={{marginTop:"100px"}}>
+              <h1
+                className={styles.headings}
+              >
+                Sales
+              </h1>
+              <h4
+                className={styles.para}
+              >
+                Driving enterprise operations towards better ease of operations
+                with an all-in-on accounting platform.
+              </h4>
+              <div style={{marginTop:"50px"}}>
+              <Link href="/page-contact">
+                <a className="btn btn-black shape-square icon-arrow-right-white ">
+                  Get Start
+                </a>
+              </Link>
+              <Link href="/page-about-2">
+                <a
+                  className="btn btn-link icon-triangle color-gray-900 ml-40 "
+                  style={{ fontWeight: "bold" }}
+                >
+                  How it works
+                </a>
+              </Link>
               </div>
-            </div>
-          </div>
-        </section>
-        {/* <div className="section-box mt-100">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-1" />
-                            <div className="col-lg-10">
-                                <div className="bd-bottom pb-20 mb-40 text-mb-center">
-                                    <div className="row">
-                                        <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30"><span className="text-display-3 color-green-900">+<CounterUp count={6} time={3}/></span>
-                                            <p className="text-body-text color-gray-500 pl-40t">Years in Business</p>
-                                        </div>
-                                        <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30"><span className="text-display-3 color-green-900">+<CounterUp count={14} time={3}/>k</span>
-                                            <p className="text-body-text color-gray-500 pl-40">Projects Done</p>
-                                        </div>
-                                        <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30"><span className="text-display-3 color-green-900">+<CounterUp count={26} time={3}/></span>
-                                            <p className="text-body-text color-gray-500 pl-40">Countries / Offices</p>
-                                        </div>
-                                        <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30"><span className="text-display-3 color-green-900">+<CounterUp count={24} time={3}/>k</span>
-                                            <p className="text-body-text color-gray-500 pl-40">Constant Clients</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-1" />
-                        </div>
-                    </div>
-                </div> */}
+            </Col>
 
-        {/* <section className="section-box mt-70">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-1 col-sm-1 col-12" />
-                            <div className="col-lg-10 col-sm-10 col-12 text-center">
-                                <div className="text-center mb-20"><span className="tag-1">Lead Nurturing</span></div>
-                                <h2 className="text-display-3 color-gray-900 mb-60">Everything you need to<br className="d-lg-block d-none" />convert leads to deals</h2>
-                                
-                                 <p className="text-body-lead-large color-gray-600 mt-20">Your leads are almost never ready to buy immediately—it’s up to a sales rep to build a lead’s interest so that they can make a purchase. You have to stick with your lead at every stage of their journey and provide the right information to nurture them towards making an informed decision. ShadoBooks CRM makes sure you stay up-to-date with every lead interaction, and automates your sales process so you can build lasting relationships.</p>                              
-                            </div>                       
-                        </div>
-                    </div>
-                    <br></br><br></br>
-                </section> */}
+            <Col span={14}>
+              {/* <a
+                      className="popup-youtube btn-play-video-2"
+                      onClick={() => setOpen(true)}
+                    ></a> */}
 
-        {/* <section className="section-box mt-70">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-1 col-sm-1 col-12" />
-                            <div className="col-lg-10 col-sm-10 col-12 text-center">
-                                <div className="text-center mb-20"><span className="tag-1">Webforms</span></div>
-                                <h2 className="text-display-3 color-gray-900 mb-60">Capture customer information<br className="d-lg-block d-none" />from website promotions</h2>
-                                
-                                 <p className="text-body-lead-large color-gray-600 mt-20">Build web-to-lead forms for your landing pages using a simple drag-and-drop interface. Capture information about your visitors and push the information directly into ShadoBooks CRM without writing a single line of code. </p>                              
-                            </div>                       
-                        </div>
-                    </div>
-                    <br></br><br></br>
-                </section> */}
+              <img
+                className="img "
+                alt="Agon"
+                src="assets/imgs/page/homepage4/LM.jpg "
+                style={{
+                  borderRadius: "30px",
+                  height: "400px",
+                  maxWidth: "130%",
+                  marginLeft: "200px",
+                  marginTop: "30px",
+                }}
+              />
+            </Col>
+          </Row>
+        </Content>
 
-        {/* <section className="section-box mt-70">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-1 col-sm-1 col-12" />
-                            <div className="col-lg-10 col-sm-10 col-12 text-center">
-                                <div className="text-center mb-20"><span className="tag-1">Card Scanner</span></div>
-                                <h2 className="text-display-3 color-gray-900 mb-60">Never lose a business<br className="d-lg-block d-none" />card again</h2>
-                                
-                                 <p className="text-body-lead-large color-gray-600 mt-20">The Leads app lets you scan business cards with your smartphone and automatically import them into CRM. Before a lead even leaves your booth, you can send them an automated email thanking them for their time. </p>                              
-                            </div>                       
-                        </div>
-                    </div>
-                    <br></br><br></br>
-                </section> */}
+        {/* <Content
+          className="site-layout"
+          style={{ padding: "0 100px", marginTop: "50px" }}
+        >
+          <h3 className="text-heading-3 mb-10">Our Modules</h3>
+          <p
+            className="text-body-lead-large color-gray-600"
+            style={{ fontSize: "20px" }}
+          >
+            Know about our clients, we are a woldwide corporate brand
+          </p>
 
-        {/* <section className="section-box mt-70">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-1 col-sm-1 col-12" />
-                            <div className="col-lg-10 col-sm-10 col-12 text-center">
-                                <div className="text-center mb-20"><span className="tag-1">Marketing Attribution</span></div>
-                                <h2 className="text-display-3 color-gray-900 mb-60">Measure the real ROI<br className="d-lg-block d-none" />of your campaigns</h2>
-                                
-                                 <p className="text-body-lead-large color-gray-600 mt-20">As a business, you run different campaigns for your prospects at different points in their journey. When you invest a lot of time, money, and effort in these campaigns, it's important to know what works and what doesn't work with your prospects. ShadoBooks CRM's marketing attribution helps you measure ROI and understand which campaigns are most effective in pushing prospects towards making purchasing decisions. </p>                              
-                            </div>                       
+          <Content className="site-layout" style={{ padding: "0 50px" }}>
+            <>
+              <div className="box-swiper">
+                <div className="swiper-container swiper-group-4">
+                  <Swiper
+                    slidesPerView={4}
+                    spaceBetween={30}
+                    loop={true}
+                    autoplay={{
+                      delay: 2500,
+                      disableOnInteraction: false,
+                    }}
+                    navigation={{
+                      prevEl: ".swiper-button-prev-4",
+                      nextEl: ".swiper-button-next-4",
+                    }}
+                    className="swiper-wrapper pb-70 pt-5"
+                  >
+                    {data.map((item, i) => (
+                      // eslint-disable-next-line react/jsx-key
+                      <SwiperSlide>
+                        <div className="swiper-slide active">
+                          <div
+                            className={`card-grid-style-3 hover-up ${item.bg}`}
+                          >
+                            <div className="grid-3-img">
+                              <img
+                                src={`assets/imgs/page/homepage1/user-${item.avatar}`}
+                                alt="Agon"
+                              />
+                            </div>
+                            <h3 className="text-heading-6 mb-5 mt-20">
+                              {item.name}
+                            </h3>
+                            <span className="text-body-small d-block">
+                              {item.company}
+                            </span>
+                            <p className="text-body-text text-desc color-gray-500 mt-20">
+                              {item.quote}
+                            </p>
+                          </div>
                         </div>
-                    </div>
-                    <br></br><br></br>
-                </section> */}
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
+                </div>
+                <div className="swiper-button-next swiper-button-next-4" />
+                <div className="swiper-button-prev swiper-button-prev-4" />
+              </div>
+            </>
+          </Content>
+        </Content> */}
 
-        {/* <section className="section-box mt-100">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-1 col-sm-1 col-12" />
-                            <div className="col-lg-10 col-sm-10 col-12 text-center">
-                                <h2 className="text-heading-1 color-gray-900 mb-10">Providing solutions of every kind</h2>
-                                <p className="text-body-lead-large color-gray-600 mt-20">In a professional context it often happens that private or<br className="d-lg-block d-none" />corporate clients order a publication to publish news.</p>
-                            </div>
-                            <div className="col-lg-1 col-sm-1 col-12" />
-                        </div>
-                    </div>
-                    <div className="container mt-40">
-                        <div className="row">
-                            <div className="col-lg-4 col-md-12 col-sm-12">
-                                <div className="list-icons mt-50">
-                                    <div className="item-icon"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" /></span>
-                                        <h4 className="text-heading-4">1. Acquisition</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-12 col-sm-12">
-                                <div className="list-icons mt-50">
-                                    <div className="item-icon"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-active.svg" alt="Agon" /></span>
-                                        <h4 className="text-heading-4">2. Activation</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-12 col-sm-12">
-                                <div className="list-icons mt-50">
-                                    <div className="item-icon"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-retent.svg" alt="Agon" /></span>
-                                        <h4 className="text-heading-4">3. Retention</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section className="section-box mt-100">
-                    <div className="container">
-                        <div className="text-center mb-20"><span className="tag-1 bg-6 color-green-900">What We Do, What You Get</span></div>
-                        <div className="row">
-                            <div className="col-lg-2 col-sm-1 col-12" />
-                            <div className="col-lg-8 col-sm-10 col-12 text-center">
-                                <h2 className="text-heading-1 color-gray-900">Bringing the world's<br className="d-lg-block d-none" />ideas to life</h2>
-                                <p className="text-body-lead-large color-gray-600 mt-20">Developers are trusted to create an engaging experience for their companies, so we build tools to help them.</p>
-                            </div>
-                            <div className="col-lg-2 col-sm-1 col-12" />
-                        </div>
-                    </div>
-                    <div className="container mt-70">
-                        <div className="row">
-                            <div className="col-lg-4 col-sm-12">
-                                <div className="card-grid-style-3 pb-40 bg-5 mb-30">
-                                    <div className="grid-1-img"><img src="/assets/imgs/page/homepage1/business-strategy.svg" alt="Agon" /></div>
-                                    <h3 className="text-heading-3 mt-20">Business Strategy</h3>
-                                    <p className="text-body-excerpt mt-20">You are always welcome to visit our little den. Professional in teir craft! All products were super amazing with strong attension to details, comps and overall vibe.</p>
-                                    <div className="mt-30">
-                                        <Link href="/page-service-1"><a className="btn btn-default icon-arrow-right">Learn more
-                                        </a></Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-sm-12">
-                                <div className="card-grid-style-3 bd-bg-6 pb-40 mb-30">
-                                    <div className="grid-1-img"><img src="/assets/imgs/page/homepage1/local.svg" alt="Agon" /></div>
-                                    <h3 className="text-heading-3 mt-20">Local Marketing</h3>
-                                    <p className="text-body-excerpt mt-20">You are always welcome to visit our little den. Professional in teir craft! All products were super amazing with strong attension to details, comps and overall vibe.</p>
-                                    <div className="mt-30">
-                                        <Link href="/page-service-1"><a className="btn btn-default icon-arrow-right">Learn more
-                                        </a></Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-sm-12">
-                                <div className="card-grid-style-3 bg-2 pb-40 mb-30">
-                                    <div className="grid-1-img"><img src="/assets/imgs/page/homepage1/social.svg" alt="Agon" /></div>
-                                    <h3 className="text-heading-3 mt-20">Social media</h3>
-                                    <p className="text-body-excerpt mt-20">You are always welcome to visit our little den. Professional in teir craft! All products were super amazing with strong attension to details, comps and overall vibe.</p>
-                                    <div className="mt-30">
-                                        <Link href="/page-service-1"><a className="btn btn-default icon-arrow-right">Learn more
-                                        </a></Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section className="section-box">
-                    <div className="container mt-110">
-                        <div className="row">
-                            <div className="col-lg-9 col-sm-8">
-                                <h3 className="text-heading-1 mb-10">Our Team</h3>
-                                <p className="text-body-lead-large color-gray-600">Decades of experience in design and development</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container mt-80">
-                        <TeamSlider/>
-                    </div>
-                </section>
-                <section className="section-box">
-                    <div className="container mt-10">
-                        <div className="row">
-                            <div className="col-lg-9 col-sm-8">
-                                <h3 className="text-heading-1 mb-10">Our Happy Customers</h3>
-                                <p className="text-body-lead-large color-gray-600">Know about our clients, we are a woldwide corporate brand</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container mt-80">
-                        <TestimonialSlider />
-                    </div>
-                </section>
-                <section className="section-box">
-                    <div className="container mt-30">
-                        <div className="row">
-                            <div className="col-lg-8">
-                                <h3 className="text-heading-1 mb-10">Latest News</h3>
-                                <p className="text-body-lead-large color-gray-600">From Our blog and Event fanpage</p>
-                            </div>
-                            <div className="col-lg-4 text-lg-end text-start pt-30">
-                                <Link href="/blog-1"><a className="btn btn-black icon-arrow-right-white">View More
-                                </a></Link>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container mt-90">
-                        <div className="row">
-                            <div className="col-lg-4 col-sm-12 pr-30">
-                                <div className="card-grid-style-4"><span className="tag-dot">Company</span>
-                                    <Link href="/blog-single"><a className="text-heading-4">We can blend colors multiple ways, the most common
-                                    </a></Link>
+        <Content className="site-layout" style={{marginTop:"30px"}}>
+          <Row>
+            <Col span={24}>
+              <Affix offsetTop={top} >
+                <div
+                  style={{
+                    backgroundColor: "white",
+                    padding: "10px 0",
+                    marginLeft: "100px",
+                  }}
+                >
+                  <ul class="nav nav-tabs">
+                    <Col span={4}>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link"
+                          href="#1"
+                          style={{
+                            color: "#90331c",
+                            backgroundColor: "white",
+                            fontWeight: "bold",
+                            fontSize: "15px",
+                          }}
+                        >
+                          Proposal
+                        </a>
+                      </li>
+                    </Col>
+                    <Col span={4}>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link"
+                          href="#2"
+                          style={{
+                            color: "#90331c",
+                            backgroundColor: "white",
+                            fontWeight: "bold",
+                            fontSize: "15px",
+                          }}
+                        >
+                          Estimate
+                        </a>
+                      </li>
+                    </Col>
+                    <Col span={4}>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link"
+                          href="#3"
+                          style={{
+                            color: "#90331c",
+                            backgroundColor: "white",
+                            fontWeight: "bold",
+                            fontSize: "15px",
+                          }}
+                        >
+                          Invoice
+                        </a>
+                      </li>
+                    </Col>
+                    <Col span={4}>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link "
+                          href="#4"
+                          style={{
+                            color: "#90331c",
+                            backgroundColor: "white",
+                            fontWeight: "bold",
+                            fontSize: "15px",
+                          }}
+                        >
+                          Receipt
+                        </a>
+                      </li>
+                    </Col>
+                    <Col span={4}>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link "
+                          href="#5"
+                          style={{
+                            color: "#90331c",
+                            backgroundColor: "white",
+                            fontWeight: "bold",
+                            fontSize: "15px",
+                          }}
+                        >
+                          Credit Notes
+                        </a>
+                      </li>
+                    </Col>
+                    <Col span={4}>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link "
+                          href="#4"
+                          style={{
+                            color: "#90331c",
+                            backgroundColor: "white",
+                            fontWeight: "bold",
+                            fontSize: "15px",
+                          }}
+                        >
+                          Items
+                        </a>
+                      </li>
+                    </Col>
+                  </ul>
+                </div>
+              </Affix>
+            </Col>
+          </Row>
+        </Content>
 
-                                    <div className="grid-4-img">
-                                        <Link href="/blog-single"><a><img src="/assets/imgs/page/homepage1/img-news-1.png" alt="Agon" />
-                                        </a></Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-sm-12 pr-30">
-                                <div className="card-grid-style-4"><span className="tag-dot">Marketing Event</span>
-                                    <Link href="/blog-single"><a className="text-heading-4">How To Blow Through Capital At An Incredible Rate
-                                    </a></Link>
+        <Content className="site-layout" style={{ padding: "0 100px" }}>
+          <Row style={{marginTop:"50px"}}>
+            <Col span={12}   id="1" >
+          
+                <img
+                  className="img-freeze"
+                  alt="Agon"
+                  src="assets/imgs/page/homepage4/projects.jpg "
+                  style={{
+                    borderRadius: "30px",
+                    height: "400px",
+                    maxWidth: "130%",
+                  }}
+                />
+           
+            </Col>
 
-                                    <div className="grid-4-img">
-                                        <Link href="/blog-single"><a><img src="/assets/imgs/page/homepage1/img-news-2.png" alt="Agon" />
-                                        </a></Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-sm-12 pr-30">
-                                <div className="card-grid-style-4"><span className="tag-dot">Customer Services</span>
-                                    <Link href="/blog-single"><a className="text-heading-4">Design Studios That Everyone Should Know About?
-                                    </a></Link>
+            <Col span={12} style={{marginTop:"100px"}}>
+              <h4 className={styles.headings2}>
+                Proposal
+              </h4>
+              <p className={styles.para} >
+              Bring the very best out of your customer-facing teams with robust automation, comprehensive analytics, personalized solutions, and more. Sign up and get started in no time—the fastest implementation in the enterprise CRM market.
+              </p>
+            </Col>
+          </Row>
+        </Content>
 
-                                    <div className="grid-4-img color-bg-4">
-                                        <Link href="/blog-single"><a><img src="/assets/imgs/page/homepage1/img-news-3.png" alt="Agon" />
-                                        </a></Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <ModalVideo
-                    channel="youtube"
-                    autoplay
-                    isOpen={isOpen}
-                    videoId="cJVpXPSXGtk"
-                    onClose={() => setOpen(false)}
-                /> */}
+        <Content  className="site-layout" style={{ padding: "0 100px" }}>
+          <Row style={{marginTop:"100px"}}>
+           
+               
+
+          
+              <Col span={12} style={{marginTop:"100px"}} id="2">
+              <h4  className={styles.headings2}>
+                Estimate
+              </h4>
+              <p className={styles.para} >
+              Bring the very best out of your customer-facing teams with robust automation, comprehensive analytics, personalized solutions, and more. Sign up and get started in no time—the fastest implementation in the enterprise CRM market.
+              </p>
+            </Col>
+       
+       
+          <Col span={12} >
+             
+                  <img
+                    className="img-freeze"
+                    alt="Agon"
+                    src="assets/imgs/page/homepage4/projects.jpg "
+                    style={{
+                      borderRadius: "30px",
+                      height: "400px",
+                      maxWidth: "130%",
+                    }}
+                  />
+              </Col>
+            </Row>
+     
+        </Content>
+
+        <Content className="site-layout" style={{ padding: "0 100px" }}>
+          <Row  style={{marginTop:"100px"}}>
+
+          <Col span={12} id="3">
+             
+                  <img
+                    className="img-freeze"
+                    alt="Agon"
+                    src="assets/imgs/page/homepage4/projects.jpg "
+                    style={{
+                      borderRadius: "30px",
+                      height: "400px",
+                      maxWidth: "130%",
+                    }}
+                  />
+              </Col>
+              
+              <Col span={12} style={{marginTop:"100px"}}>
+              <h4  className={styles.headings2}>
+                Invoice
+              </h4>
+              <p className={styles.para} >
+              Bring the very best out of your customer-facing teams with robust automation, comprehensive analytics, personalized solutions, and more. Sign up and get started in no time—the fastest implementation in the enterprise CRM market.
+              </p>
+            </Col>
+            </Row>
+     
+        </Content>
+
+        <Content id="4" className="site-layout" style={{ padding: "0 100px" }}>
+          <Row  style={{marginTop:"100px"}}>
+           
+               
+
+          
+              <Col span={12} style={{marginTop:"100px"}}>
+              <h4  className={styles.headings2}>
+                Receipt
+              </h4>
+              <p className={styles.para} >
+              Bring the very best out of your customer-facing teams with robust automation, comprehensive analytics, personalized solutions, and more. Sign up and get started in no time—the fastest implementation in the enterprise CRM market.
+              </p>
+            </Col>
+       
+       
+          <Col span={12} >
+             
+                  <img
+                    className="img-freeze"
+                    alt="Agon"
+                    src="assets/imgs/page/homepage4/projects.jpg "
+                    style={{
+                      borderRadius: "30px",
+                      height: "400px",
+                      maxWidth: "130%",
+                    }}
+                  />
+              </Col>
+            </Row>
+     
+        </Content>
+
+        <Content className="site-layout" style={{ padding: "0 100px" }}>
+          <Row id="5" style={{marginTop:"100px"}}>
+
+          <Col span={12} >
+             
+                  <img
+                    className="img-freeze"
+                    alt="Agon"
+                    src="assets/imgs/page/homepage4/projects.jpg "
+                    style={{
+                      borderRadius: "30px",
+                      height: "400px",
+                      maxWidth: "130%",
+                    }}
+                  />
+              </Col>
+              
+              <Col span={12} style={{marginTop:"100px"}}>
+              <h4  className={styles.headings2}>
+              Credit Notes
+              </h4>
+              <p className={styles.para} >
+              Bring the very best out of your customer-facing teams with robust automation, comprehensive analytics, personalized solutions, and more. Sign up and get started in no time—the fastest implementation in the enterprise CRM market.
+              </p>
+            </Col>
+            </Row>
+     
+        </Content>
+     
+     
       </Layout>
     </>
   );

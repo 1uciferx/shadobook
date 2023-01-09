@@ -1,0 +1,324 @@
+.para {
+   margin-bottom: 200px;
+    margin-top: 140px;
+    font-family:Segoe UI;
+    font-size: 18px;
+    line-height: 23px;
+    color:black;
+    font-weight: 400;
+    text-decoration: none solid rgb(0, 0, 0);
+
+  
+  
+  }
+
+  .parahead {
+    text-align: center;
+    font-family:Segoe UI;
+    font-size: 18px;
+    line-height: 23px;
+    color:black;
+    font-weight: 400;
+    text-decoration: none solid rgb(0, 0, 0);
+
+  
+  
+  }
+  
+  .headings{
+  
+   font-size: 66px;
+   line-height: 56px;
+   font-family: Segoe UI;
+   font-weight: 600;
+   font-style: normal;
+   text-align: center;
+   margin-top: 300px;
+  
+   
+  }
+  
+  .subhead {
+   font-weight:bold;
+   font-size: 25px;
+   line-height: 40px;
+   color: #90331c;
+  }
+  
+  .subhead2 {
+   font-weight:bold;
+   font-size: 25px;
+   line-height: 40px;
+   color: #90331c;
+  }
+  
+  .headings2{
+  
+   font-size: 40px;
+   line-height: 46px;
+   font-family: Segoe UI;
+   font-weight: 400px;
+   font-style: normal;
+   text-align: center;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   
+  }
+  
+  .paracenter {
+  
+  text-align: center;
+  font-family:Segoe UI;
+  font-size: 18px;
+  line-height: 23px;
+  color:black;
+  font-weight: 400;
+  text-decoration: none solid rgb(0, 0, 0);
+  
+  
+  }
+  
+  .headings3{
+  font-weight:bold;
+  font-size: 40px;
+  line-height: 30px;
+  color: #90331c;
+  text-align: center;
+  }
+  
+  
+  .para2 {
+  margin-top: 200px;
+  width: 100%;
+  font-family:Segoe UI;
+  font-size: 18px;
+  line-height: 23px;
+  color:black;
+  font-weight: 400;
+  text-decoration: none solid rgb(0, 0, 0);
+  text-align: center;
+  
+  
+  }
+
+ 
+
+
+
+
+
+
+
+   /* media quries  */
+
+  @media screen and (max-width: 576px) {
+
+    .headings2{
+      font-size: 36px;
+      line-height: 46px;
+      font-family: Segoe UI;
+      font-weight: 400px;
+      font-style: normal;
+      text-align: center;
+    
+      margin: 20px;
+    
+  
+      
+     }
+     .para {
+    
+       margin: 20px;
+       font-family:Segoe UI;
+       font-size: 18px;
+       line-height: 23px;
+       color:black;
+       font-weight: 400;
+       text-decoration: none solid rgb(0, 0, 0);
+   
+     
+     
+     }
+
+     .conimg{
+      margin-bottom: 50px;
+    }
+
+     
+  .conimg2{
+    margin-bottom: 20px;
+  }
+
+  .parahead {
+    text-align: center;
+    font-family:Segoe UI;
+    font-size: 18px;
+    line-height: 23px;
+    color:black;
+    font-weight: 400;
+    text-decoration: none solid rgb(0, 0, 0);
+    display: none;
+
+
+  
+  
+  }
+  
+  .headings{
+  
+   font-size: 56px;
+   line-height: 56px;
+   font-family: Segoe UI;
+   font-weight: 600;
+   font-style: normal;
+   text-align: center;
+   margin-top: 10px;
+  
+   
+  }
+
+  .para2 {
+    margin: 0px;
+    width: 100%;
+    font-family:Segoe UI;
+    font-size: 18px;
+    line-height: 23px;
+    color:black;
+    font-weight: 400;
+    text-decoration: none solid rgb(0, 0, 0);
+    text-align: center;
+    
+    
+    }
+   
+  }
+
+
+
+
+
+/* 1024 */
+
+  @media screen and (max-width: 1024px){
+
+    .headings2{
+  
+      font-size: 46px;
+      line-height: 46px;
+      font-family: Segoe UI;
+      font-weight: 400px;
+      font-style: normal;
+      text-align: center;
+    
+  
+      
+     }
+
+     .headings{
+  
+      font-size: 56px;
+      line-height: 56px;
+      font-family: Segoe UI;
+      font-weight: 600;
+      font-style: normal;
+      text-align: center;
+      margin: 100px;
+     
+     
+      
+     }
+  } 
+
+
+
+
+
+
+
+
+
+  /* 991 */
+  @media screen and (max-width:991px ){
+    .headings2{
+  
+      font-size: 36px;
+      line-height: 46px;
+      font-family: Segoe UI;
+      font-weight: 400px;
+      font-style: normal;
+      text-align: center;
+      margin: 50px;
+    
+  
+      
+     }
+
+     .headings{
+  
+      font-size: 56px;
+      line-height: 56px;
+      font-family: Segoe UI;
+      font-weight: 600;
+      font-style: normal;
+      text-align: center;
+      margin: 100px;
+     
+      
+     }
+
+     
+  .parahead {
+    text-align: center;
+    font-family:Segoe UI;
+    font-size: 18px;
+    line-height: 23px;
+    color:black;
+    font-weight: 400;
+    text-decoration: none solid rgb(0, 0, 0);
+
+
+  
+  
+  }
+
+  .para {
+    
+    margin: 20px;
+    font-family:Segoe UI;
+    font-size: 18px;
+    line-height: 23px;
+    color:black;
+    font-weight: 400;
+    text-decoration: none solid rgb(0, 0, 0);
+
+  
+  
+  }
+
+  
+  .conimg{
+    margin-bottom: 50px;
+  }
+
+  
+  .conimg2{
+    margin-bottom: 50px;
+  }
+
+  .para2 {
+    margin: 0px;
+    width: 100%;
+    font-family:Segoe UI;
+    font-size: 18px;
+    line-height: 23px;
+    color:black;
+    font-weight: 400;
+    text-decoration: none solid rgb(0, 0, 0);
+    text-align: center;
+    
+    
+    }
+  
+   
+
+  }

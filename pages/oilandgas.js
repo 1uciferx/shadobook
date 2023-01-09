@@ -94,7 +94,7 @@ function Oilandgas() {
                 </h2>
               </div>
               <div className="col-lg-12 col-sm-12 col-12">
-                <h2 className="text-heading-3 color-gray-900 mb-20">Asset</h2>
+                <h2 className="text-heading-4 color-gray-900 mb-20">Asset</h2>
               </div>
               <p className="text-body-lead-large color-gray-600 ">
                 In order to achieve operational efficiency, asset management is
@@ -110,7 +110,7 @@ function Oilandgas() {
               <div className="col-lg-8 col-sm-10 col-12 text-center mt-60"></div>
 
               <div className="col-lg-12 col-sm-12 col-12">
-                <h2 className="text-heading-3 color-gray-900 mb-20">
+                <h2 className="text-heading-4 color-gray-900 mb-20">
                   Inventory
                 </h2>
               </div>
@@ -129,7 +129,7 @@ function Oilandgas() {
               <div className="col-lg-8 col-sm-10 col-12 text-center mt-60"></div>
 
               <div className="col-lg-12 col-sm-12 col-12">
-                <h2 className="text-heading-3 color-gray-900 mb-20">
+                <h2 className="text-heading-4 color-gray-900 mb-20">
                   Customers
                 </h2>
               </div>
@@ -148,7 +148,7 @@ function Oilandgas() {
               <div className="col-lg-8 col-sm-10 col-12 text-center mt-60"></div>
 
               <div className="col-lg-12 col-sm-12 col-12">
-                <h2 className="text-heading-3 color-gray-900 mb-20">
+                <h2 className="text-heading-4 color-gray-900 mb-20">
                   Purchase and Sales
                 </h2>
               </div>

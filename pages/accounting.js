@@ -68,7 +68,7 @@ function Accounting() {
           </div>
         </section>
 
-      </Layout>
+        </Layout>
     </>
   );
 }

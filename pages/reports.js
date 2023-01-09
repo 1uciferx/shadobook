@@ -10,12 +10,9 @@ const ModalVideo = dynamic(import("react-modal-video"), {
 });
 
 function Reports() {
-  
   return (
     <>
       <Layout>
-       
-
         <section className="section-box">
           <div
             className="banner-hero banner-1 bg-5"
@@ -24,16 +21,23 @@ function Reports() {
             <div className="container">
               <div className="row">
                 <div className="col-lg-7">
-                  <h1 className="text-display-2 color-gray-900">
-                  Reports
-
-                  </h1>
+                  <h1 className="text-display-2 color-gray-900">Reports</h1>
                   <p className="text-body-lead-large color-gray-900 mt-30 pr-40">
-                  Shadobook CRM helps you with a thorough platform which enables you to generate extensive reports according to your requirements. The interface offers detailed report generation pertaining to the areas of sales, invoices, items, payments, credit notes, proposals, estimates, and HR payroll reports.<br></br><br></br>
-There are also charts that are generated with the data inputs for aiding better visualization of all your crucial metrics like income, revenues, payment and customer-related analysis. All this detailed record keeping will help you with simpler organization and in deriving insightful understanding that can help you drive towards better business goals.
-
-</p>
-                 
+                    Shadobook CRM helps you with a thorough platform which
+                    enables you to generate extensive reports according to your
+                    requirements. The interface offers detailed report
+                    generation pertaining to the areas of sales, invoices,
+                    items, payments, credit notes, proposals, estimates, and HR
+                    payroll reports.<br></br>
+                    <br></br>
+                    There are also charts that are generated with the data
+                    inputs for aiding better visualization of all your crucial
+                    metrics like income, revenues, payment and customer-related
+                    analysis. All this detailed record keeping will help you
+                    with simpler organization and in deriving insightful
+                    understanding that can help you drive towards better
+                    business goals.
+                  </p>
                 </div>
                 <div className="col-lg-5 d-none d-lg-block">
                   <div className="banner-imgs">
@@ -53,7 +57,6 @@ There are also charts that are generated with the data inputs for aiding better 
             </div>
           </div>
         </section>
-
       </Layout>
     </>
   );
