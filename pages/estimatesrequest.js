@@ -3,55 +3,408 @@
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import { Col, Row } from "antd";
+import { Breadcrumb, Layout as L } from 'antd';
+import styles from '../styles/Estimatesrequest.module.css'
+const { Content } = L;
 import "react-modal-video/css/modal-video.css";
 import Layout from "../components/layout/Layout";
+import Contactmanager from "../components/contactmanager";
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
 
 function Estimatesrequest() {
-  
+
+  const [isOpen, setOpen] = useState(false);
+  const [activeIndex, setActiveIndex] = useState(1);
+  const handleOnClick = (index) => {
+    setActiveIndex(index); // remove the curly braces
+  };
+
   return (
     <>
       <Layout>
-       
 
-        <section className="section-box">
-          <div
-            className="banner-hero banner-4"
-            style={{ backgroundColor: "#83F0E0" }}
-          >
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-7">
-                  <h1 className="text-display-2 color-gray-900">
-                  Estimates Request
-                  </h1>
-                  <p className="text-body-lead-large color-gray-900 mt-30 pr-40">
-                  This section of the CRM helps you create forms that can be integrated into your website. These forms enable the user to get in touch with you and request an estimate about your services of yours that they’re looking to avail of.<br></br><br></br>
-The estimate feature will give you the option to customize the form that is tailored to give you a better understanding of the customer intent. The CRM will enable assigning this influx of requests to specific teams and employees. The estimated requests can then be created here according to the details you have received and later send it to the respective clientele while also keeping a track of all your touch points.
-</p>
-                 
-                </div>
-                <div className="col-lg-5 d-none d-lg-block">
-                  <div className="banner-imgs">
-                    {/* <a
-                      className="popup-youtube btn-play-video-2"
-                      onClick={() => setOpen(true)}
-                    ></a> */}
+        <Row>
+          <Col span={24}>
 
-                    <img
-                      className="img-responsive shape-2"
-                      alt="Agon"
-                      src="assets/imgs/page/homepage4/estimates.png " style={{borderRadius:"30px",maxWidth:"110%"}}
-                    />
-                  </div>
-                </div>
-              </div>
+            {/* background  image had called from the style */}
+            <div className={styles.bgimg} >
+
+
+
+              {/* Breadcrumb code */}
+
+              <Content className="site-layout" style={{ padding: "10px 10px" }}>
+                <Breadcrumb style={{ margin: "16px 0", fontWeight: "bold" }}>
+                  <Breadcrumb>
+                    <Breadcrumb.Item style={{ color: "white" }}>Home</Breadcrumb.Item>
+                    <Breadcrumb.Item>
+                      <a style={{ color: "white" }} href="/#">Features</a>
+                    </Breadcrumb.Item>
+                    <Breadcrumb.Item>
+                      <a style={{ color: "white" }} href=" #">Estimate Request</a>
+                    </Breadcrumb.Item>
+                  </Breadcrumb>
+                </Breadcrumb>
+              </Content>
+
+              {/* heading or title which is located on the gif */}
+              <Col xs={{
+                span: 20,
+                offset: 0,
+              }}
+                lg={{
+                  span: 20,
+                  offset: 2,
+                }}
+                sm={{
+                  span: 20,
+                  offset: 0,
+                }}
+                md={{
+                  span: 20,
+                  offset: 0,
+                }}
+                xl={{
+                  span: 20,
+                  offset: 0,
+                }}
+                xxl={{
+                  span: 20,
+                  offset: 2,
+                }} >
+                <h1 className={styles.headings}>Estimates Request</h1>
+              </Col>
+
             </div>
-          </div>
-        </section>
+          </Col>
 
+        </Row>
+
+        <Row>
+
+
+          {/* side heading  */}
+
+          <Col xs={{
+            span: 20,
+            offset: 2,
+          }}
+            lg={{
+              span: 20,
+              offset: 2,
+            }}
+            sm={{
+              span: 12,
+              offset: 1,
+            }}
+            md={{
+              span: 10,
+              offset: 0,
+            }}
+            xl={{
+              span: 20,
+              offset: 7,
+            }}
+            xxl={{
+              span: 20,
+              offset: 7,
+            }} >
+            <h1 className={styles.para}>What is an estimate request?</h1>
+
+
+          </Col>
+
+
+
+          <Col xs={{
+            span: 20,
+            offset: 0,
+          }}
+            lg={{
+              span: 20,
+              offset: 2,
+            }}
+            sm={{
+              span: 20,
+              offset: 1,
+            }}
+            md={{
+              span: 16,
+              offset: 0,
+            }}
+            xl={{
+              span: 20,
+              offset: 2,
+            }}
+            xxl={{
+              span: 20,
+              offset: 2,
+            }} >
+            <p className={styles.subhead}> The estimate request function in Shadobooks CRM allows you to develop forms that your customers can use to get a pricing estimate for services or items from your business. The estimates request feature allows you to add several types of fields that may be adapted to your company's needs.</p>
+
+
+          </Col>
+          {/* video play button */}
+
+
+          {/* <Col push="3" span={20} >
+            {" "} */}
+          {/* <a className="popup-youtube btn-play-video" onClick={() => setOpen(true)}></a> */}
+          {/* <a href="http://www.vanakkammachi.xyz">
+              {" "}
+      
+              <img src="assets/imgs/page/homepage1/play-button.png" alt="img" style={{ height: "32px", marginTop: '-70px', marginLeft: '180px' }} />
+              
+            </a>
+          </Col> */}
+
+
+          <Col xs={{
+            span: 20,
+            offset: 2,
+          }}
+            lg={{
+              span: 20,
+              offset: 2,
+            }}
+            sm={{
+              span: 12,
+              offset: 1,
+            }}
+            md={{
+              span: 10,
+              offset: 0,
+            }}
+            xl={{
+              span: 20,
+              offset: 7,
+            }}
+            xxl={{
+              span: 20,
+              offset: 7,
+            }} >
+            <h1 className={styles.para}>Create estimate request form</h1>
+
+
+          </Col>
+
+
+          <Col xs={{
+            span: 20,
+            offset: 2,
+          }}
+            lg={{
+              span: 20,
+              offset: 2,
+            }}
+            sm={{
+              span: 20,
+              offset: 2,
+            }}
+            md={{
+              span: 20,
+              offset: 0,
+            }}
+            xl={{
+              span: 16,
+              offset: 4,
+            }}
+            xxl={{
+              span: 16,
+              offset: 4,
+            }} >
+            <img src="/assets/imgs/page/homepage1/qq1.png" alt="loading.." />
+          </Col>
+
+
+
+
+
+
+          <Col xs={{
+            span: 20,
+            offset: 0,
+          }}
+            lg={{
+              span: 20,
+              offset: 2,
+            }}
+            sm={{
+              span: 20,
+              offset: 1,
+            }}
+            md={{
+              span: 16,
+              offset: 0,
+            }}
+            xl={{
+              span: 16,
+              offset: 2,
+            }}
+            xxl={{
+              span: 16,
+              offset: 0,
+            }} >
+            <p className={styles.subhead}>The first step is to create an estimate request form; you may create an unlimited number of estimate request forms in Shadobooks CRM. To do so, navigate to Setup-Estimate requestForms - New form. Fill out the form with your information and save it.</p>
+
+          </Col>
+
+
+          {/* Image code which is located on the right side which represents the dashboard of the estimate request */}
+          <Col xs={{
+            span: 20,
+            offset: 2,
+          }}
+            lg={{
+              span: 20,
+              offset: 2,
+            }}
+            sm={{
+              span: 20,
+              offset: 2,
+            }}
+            md={{
+              span: 16,
+              offset: 3,
+            }}
+            xl={{
+              span: 20,
+              offset: 0,
+            }}
+            xxl={{
+              span: 20,
+              offset: 0,
+            }} >
+
+            <h1 className={styles.para5}>Set status to form</h1>
+          </Col>
+
+
+
+          <Col xs={{
+            span: 20,
+            offset: 0,
+          }}
+            lg={{
+              span: 20,
+              offset: 2,
+            }}
+            sm={{
+              span: 20,
+              offset: 1,
+            }}
+            md={{
+              span: 16,
+              offset: 0,
+            }}
+            xl={{
+              span: 16,
+              offset: 2,
+            }}
+            xxl={{
+              span: 16,
+              offset: 0,
+            }} >
+            <p className={styles.subhead}>After successfully entering the Shadobooks CRM database, the estimate request must be in status. To change a form's state, navigate to Setup-Estimate request-Statuses-New status. Save the status by entering its name and colour.</p>
+
+          </Col>
+
+
+          <Col xs={{
+            span: 20,
+            offset: 2,
+          }}
+            lg={{
+              span: 20,
+              offset: 2,
+            }}
+            sm={{
+              span: 20,
+              offset: 2,
+            }}
+            md={{
+              span: 16,
+              offset: 3,
+            }}
+            xl={{
+              span: 20,
+              offset: 0,
+            }}
+            xxl={{
+              span: 20,
+              offset: 0,
+            }} >
+
+            <h1 className={styles.para5}>Estimate request Report:</h1>
+          </Col>
+
+          <Col xs={{
+            span: 20,
+            offset: 2,
+          }}
+            lg={{
+              span: 20,
+              offset: 2,
+            }}
+            sm={{
+              span: 20,
+              offset: 2,
+            }}
+            md={{
+              span: 16,
+              offset: 2,
+            }}
+            xl={{
+              span: 20,
+              offset: 0,
+            }}
+            xxl={{
+              span: 20,
+              offset: 0,
+            }}
+
+
+
+            className={styles.moduleimg}>
+
+
+          </Col>
+        </Row>
+
+        <Col xs={{
+          span: 20,
+          offset: 0,
+        }}
+          lg={{
+            span: 20,
+            offset: 2,
+          }}
+          sm={{
+            span: 20,
+            offset: 1,
+          }}
+          md={{
+            span: 16,
+            offset: 0,
+          }}
+          xl={{
+            span: 16,
+            offset: 2,
+          }}
+          xxl={{
+            span: 16,
+            offset: 0,
+          }} >
+          <p className={styles.subhead}>Estimate request reports are used to track estimate forms and provide an overview of all estimate’s forms created in a specific time period. The way to get the overall Estimate request reports by, go to Addon management-Estimate request. On the estimate request page, you may find a list of forms.</p>
+        </Col>
+
+
+        <div >
+          <Contactmanager />
+        </div>
       </Layout>
     </>
   );

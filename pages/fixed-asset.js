@@ -52,7 +52,7 @@ function Fixed() {
                       src="assets/imgs/page/homepage4/fa.jpg "
                       style={{
                         borderRadius: "30px",
-                        height: "500px",maxWidth:"130%"
+                        height: "500px", maxWidth: "130%"
                       }}
                     />
                   </div>

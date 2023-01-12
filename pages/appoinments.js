@@ -1,61 +1,413 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import dynamic from "next/dynamic";
+import { Breadcrumb, Layout as L } from 'antd';
+const { Content } = L;
 import Link from "next/link";
+import Fade from 'react-reveal/Fade';
+import Accordion12 from "../components/elements/accordion12";
 import { useState, useEffect } from "react";
 import "react-modal-video/css/modal-video.css";
+import styles from "../styles/Appointments.module.css";
 import Layout from "../components/layout/Layout";
+import Flip from 'react-reveal/Flip';
+import HeadShake from 'react-reveal/HeadShake';
+import { Col, Row } from "antd";
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
 
 function Appoinments() {
-  
+
   return (
     <>
       <Layout>
-       
-
-        <section className="section-box">
-          <div
-            className="banner-hero banner-2 bg-3"
-            style={{ backgroundColor: "#ffded3" }}
-          >
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-7">
-                  <h1 className="text-display-2 color-gray-900">
-                  Appoinments
-                  </h1>
-                  <p className="text-body-lead-large color-gray-900 mt-30 pr-40">
-                  The appointments management section of the dashboard is a key highlight of the dashboard where you can visualize all your upcoming events in the order of priority and timelines.<br></br><br></br> 
-This will help you maintain a coherent and well-informed customer management strategy. The meeting minutes can also be seamlessly added to the description column which will enable all the sales touchpoints to work in perfect sync with each other.<br></br><br></br> 
-This feature thus eliminates the chances of missing out on details, redundancy in communication, exhaustive paperwork or the need to operate with multiple applications.
 
 
+        {/* heading background image */}
+
+        <div style={{
+          backgroundImage: `url(/assets/imgs/page/homepage1/ac4.jpg)`,
+          backgroundSize: "cover",
+        }}>
 
 
-                  </p>
-                 
-                </div>
-                <div className="col-lg-5 d-none d-lg-block">
-                  <div className="banner-imgs">
-                    {/* <a
-                      className="popup-youtube btn-play-video-2"
-                      onClick={() => setOpen(true)}
-                    ></a> */}
+          {/* Breadcrumb code */}
 
-                    <img
-                      className="img-responsive shape-2"
-                      alt="Agon"
-                      src="assets/imgs/page/homepage4/appoinments.jpg " style={{borderRadius:"30px",height:"610px",maxWidth:"130%"}}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+          <Content className="site-layout" style={{ padding: "10px 10px" }}>
+            <Breadcrumb style={{ margin: "16px 0", fontWeight: "bold" }}>
+              <Breadcrumb>
+                <Breadcrumb.Item style={{ color: "white" }}>Index</Breadcrumb.Item>
+                <Breadcrumb.Item>
+                  <a href=" " style={{ color: "white" }}>Features</a>
+                </Breadcrumb.Item>
+                <Breadcrumb.Item>
+                  <a href=" " style={{ color: "white" }}>Appointments</a>
+                </Breadcrumb.Item>
+              </Breadcrumb>
+            </Breadcrumb>
+          </Content>
+
+          {/* headings code */}
+
+          <HeadShake>
+          <Col xs={{
+            span: 8,
+            offset: 0,
+          }}
+            lg={{
+              span: 6,
+              offset: 2,
+            }}
+            sm={{
+              span: 5,
+              offset: 1,
+            }}
+            md={{
+              span: 8,
+              offset: 0,
+            }}
+            xl={{
+              span: 12,
+              offset: 0,
+            }}
+            xxl={{
+              span: 24,
+              offset: 8,
+            }} >
+            
+            
+            
+              <h1 className={styles.headings}> Appointments </h1>
+              <p className={styles.para}>A fixed mutual agreement for a meeting</p>
+            </Col>
+            </HeadShake>
+
+            
+        </div>
+
+
+        {/* header for the container 1 */}
+
+
+        <Row>
+        <Col xs={{
+            span: 8,
+            offset: 0,
+          }}
+            lg={{
+              span: 6,
+              offset: 2,
+            }}
+            sm={{
+              span: 5,
+              offset: 1,
+            }}
+            md={{
+              span: 8,
+              offset: 0,
+            }}
+            xl={{
+              span: 12,
+              offset: 0,
+            }}
+            xxl={{
+              span: 20,
+              offset: 0,
+            }} >
+            <h2 className={styles.para5}>Our Modules on Appoinments</h2>
+          </Col>
+        </Row>
+
+
+
+        {/* container 1 image */}
+
+
+        <Row>
+
+        <Col xs={{
+            span: 8,
+            offset: 0,
+          }}
+            lg={{
+              span: 6,
+              offset: 2,
+            }}
+            sm={{
+              span: 5,
+              offset: 1,
+            }}
+            md={{
+              span: 8,
+              offset: 0,
+            }}
+            xl={{
+              span: 12,
+              offset: 0,
+            }}
+            xxl={{
+              span: 10,
+              offset: 0,
+            }} >
+            <img src="assets/imgs/page/homepage1/w1.jpg" alt="past meetings" />
+          </Col>
+
+          {/* container 1 subject */}
+
+
+          <Col xs={{
+            span: 8,
+            offset: 0,
+          }}
+            lg={{
+              span: 6,
+              offset: 2,
+            }}
+            sm={{
+              span: 5,
+              offset: 1,
+            }}
+            md={{
+              span: 8,
+              offset: 0,
+            }}
+            xl={{
+              span: 12,
+              offset: 0,
+            }}
+            xxl={{
+              span: 10,
+              offset: 1,
+            }} >
+            <h3 className={styles.subhead5} >Past Meetings</h3>
+            <br />
+            <p className={styles.subhead4}>Hello, my name is [say your first name]. I'm calling to book an appointment with Dr [name of GP] on [day you're available]. I'm calling to book an appointment with Dr [name of GP] as soon as possible please.</p>
+            <p className={styles.subhead4}>Temporary appointment is a time-limited appointment of less than one year to meet short-term needs, such as peak workloads and other specific time-limited requirements.</p>
+          </Col>
+
+        </Row>
+
+
+        {/* container 2 subject */}
+
+        <Row>
+
+
+
+        <Col xs={{
+            span: 8,
+            offset: 0,
+          }}
+            lg={{
+              span: 6,
+              offset: 2,
+            }}
+            sm={{
+              span: 5,
+              offset: 1,
+            }}
+            md={{
+              span: 8,
+              offset: 0,
+            }}
+            xl={{
+              span: 12,
+              offset: 0,
+            }}
+            xxl={{
+              span: 8,
+              offset: 0,
+            }} >
+            <h3 className={styles.subhead7} >Call Backs</h3>
+            <br />
+            <p className={styles.subhead6}>Hello, my name is [say your first name]. I'm calling to book an appointment with Dr [name of GP] on [day you're available]. I'm calling to book an appointment with Dr [name of GP] as soon as possible please.</p>
+            <p className={styles.subhead6}>Temporary appointment is a time-limited appointment of less than one year to meet short-term needs, such as peak workloads and other specific time-limited requirements.</p>
+          </Col>
+
+
+
+
+          <Col xs={{
+            span: 8,
+            offset: 0,
+          }}
+            lg={{
+              span: 6,
+              offset: 2,
+            }}
+            sm={{
+              span: 5,
+              offset: 1,
+            }}
+            md={{
+              span: 8,
+              offset: 0,
+            }}
+            xl={{
+              span: 12,
+              offset: 0,
+            }}
+            xxl={{
+              span: 10,
+              offset: 0,
+            }} >
+            <img src="assets/imgs/page/homepage1/w2.jpg" alt="shado books" />
+          </Col>
+
+
+
+
+
+
+        </Row>
+
+
+
+
+        {/* container 3 image */}
+
+
+        <Row>
+
+        <Col xs={{
+            span: 8,
+            offset: 0,
+          }}
+            lg={{
+              span: 6,
+              offset: 2,
+            }}
+            sm={{
+              span: 5,
+              offset: 1,
+            }}
+            md={{
+              span: 8,
+              offset: 0,
+            }}
+            xl={{
+              span: 12,
+              offset: 0,
+            }}
+            xxl={{
+              span: 20,
+              offset: 0,
+            }} >
+            <img src="assets/imgs/page/homepage1/w3.jpg" alt="shado books" />
+          </Col>
+
+          {/* container 3 subject */}
+
+
+          <Col xs={{
+            span: 8,
+            offset: 0,
+          }}
+            lg={{
+              span: 6,
+              offset: 2,
+            }}
+            sm={{
+              span: 5,
+              offset: 1,
+            }}
+            md={{
+              span: 8,
+              offset: 0,
+            }}
+            xl={{
+              span: 12,
+              offset: 0,
+            }}
+            xxl={{
+              span: 20,
+              offset: 0,
+            }} >
+            <h3 className={styles.subhead5} >Own Settings</h3>
+            <br />
+            <p className={styles.subhead4}>Hello, my name is [say your first name]. I'm calling to book an appointment with Dr [name of GP] on [day you're available]. I'm calling to book an appointment with Dr [name of GP] as soon as possible please.</p>
+            <p className={styles.subhead4}>Temporary appointment is a time-limited appointment of less than one year to meet short-term needs, such as peak workloads and other specific time-limited requirements.</p>
+          </Col>
+
+        </Row>
+
+
+
+
+
+        {/* container 4 subject */}
+
+        <Row>
+
+
+
+        <Col xs={{
+            span: 8,
+            offset: 0,
+          }}
+            lg={{
+              span: 6,
+              offset: 2,
+            }}
+            sm={{
+              span: 5,
+              offset: 1,
+            }}
+            md={{
+              span: 8,
+              offset: 0,
+            }}
+            xl={{
+              span: 12,
+              offset: 0,
+            }}
+            xxl={{
+              span: 20,
+              offset: 0,
+            }} >
+            <h3 className={styles.subhead7} >Form Info</h3>
+            <br />
+            <p className={styles.subhead6}>Hello, my name is [say your first name]. I'm calling to book an appointment with Dr [name of GP] on [day you're available]. I'm calling to book an appointment with Dr [name of GP] as soon as possible please.</p>
+            <p className={styles.subhead6}>Temporary appointment is a time-limited appointment of less than one year to meet short-term needs, such as peak workloads and other specific time-limited requirements.</p>
+          </Col>
+
+
+        {/* container 4 image */}
+
+        <Col xs={{
+            span: 8,
+            offset: 0,
+          }}
+            lg={{
+              span: 6,
+              offset: 2,
+            }}
+            sm={{
+              span: 5,
+              offset: 1,
+            }}
+            md={{
+              span: 8,
+              offset: 0,
+            }}
+            xl={{
+              span: 12,
+              offset: 0,
+            }}
+            xxl={{
+              span: 20,
+              offset: 0,
+            }} >
+            <img src="assets/imgs/page/homepage1/w4.jpg" alt="shado books" />
+          </Col>
+
+
+
+
+        </Row>
+
+
 
       </Layout>
     </>

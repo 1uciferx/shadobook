@@ -1,0 +1,414 @@
+/* styles for the estimate req has initiated from here */
+
+
+.headings {
+
+
+    text-align: center;
+    font-size: 76px;
+    margin-top: 30px;
+    line-height: 30px;
+    margin-left: 10%;
+    width: 25%;
+    font-family: Segoe UI;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+.para {
+    font-family: Segoe UI;
+    text-align: start;
+    margin-left: 30px;
+    margin-top: 160px;
+    font-size: 28px;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-decoration: none solid rgb(0, 0, 0);
+}
+
+
+
+.para5 {
+    font-family: Segoe UI;
+    text-align: center;
+
+    margin-top: 5%;
+    font-size: 24px;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-decoration: none solid rgb(0, 0, 0);
+}
+
+
+
+.subhead {
+    font-family: Segoe UI;
+    text-align: start;
+    margin-left: 30px;
+    width: 400px;
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.subhead2 {
+    font-family: Segoe UI;
+    text-align: center;
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 20px;
+    color: #181818e0;
+}
+
+.bgimg {
+    background-image: url("/assets/imgs/page/homepage1/sate.gif");
+    background-size: cover;
+    height: '400px';
+    width: '100%';
+}
+
+
+
+.page {
+
+
+
+    height: '20px';
+    width: '20%';
+}
+
+
+.moduleimg {
+    background-image: url("/assets/imgs/page/homepage1/qq2.png");
+    background-image: cover;
+    margin-top: '30px';
+    margin-right: '10px';
+    margin-bottom: '20px';
+    height: 700px;
+    width: 200px;
+}
+
+
+
+
+/* media queries has initiated from here */
+
+
+/* media query for the smart phones */
+
+@media screen and (max-width: 768px) {
+
+    .headings {
+
+        text-align: center;
+        font-size: 26px;
+        line-height: 200px;
+        width: 100%;
+        font-family: Segoe UI;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 4px #000000;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    /* background image which is in banner */
+
+    .bgimg {
+        background-image: url("/assets/imgs/page/homepage1/sate.gif");
+        height: '400px';
+        width: '100%';
+    }
+
+
+    .para {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-left: 10px;
+        margin-top: 5%;
+        font-size: 20px;
+        line-height: 25px;
+        color: rgb(0, 0, 0);
+        width: 165px;
+        text-decoration: none solid rgb(0, 0, 0);
+    }
+
+    .para5 {
+        font-family: Segoe UI;
+        text-align: center;
+
+        margin-top: 5%;
+        font-size: 24px;
+        line-height: 20px;
+        color: rgb(0, 0, 0);
+        width: 100%;
+        text-decoration: none solid rgb(0, 0, 0);
+    }
+
+
+    .subhead {
+        font-family: Segoe UI;
+        text-align: start;
+
+        width: 100%;
+        margin-top: 5%;
+        font-size: 15px;
+        line-height: 20px;
+        color: #000000;
+    }
+
+
+    .subhead2 {
+        font-family: Segoe UI;
+        text-align: center;
+
+        width: 100%;
+        margin-top: 5%;
+        font-size: 15px;
+        line-height: 20px;
+        color: #000000;
+    }
+
+
+    .moduleimg {
+        background-image: url("/assets/imgs/page/homepage1/qq2.png");
+        background-size: cover;
+        height: 200px;
+        width: 50%;
+        /* margin-left: 60px; */
+
+    }
+
+
+
+}
+
+
+/* media query for the tablets and ipads */
+
+@media screen and (min-width: 768px) {
+
+
+    .headings {
+
+        text-align: center;
+        font-size: 36px;
+        line-height: 200px;
+        width: 100%;
+        font-family: Segoe UI;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 4px #000000;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .para {
+        font-family: Segoe UI;
+        text-align: center;
+        margin-left: 5px;
+        margin-top: 22px;
+        font-size: 23px;
+        width: 100%;
+        line-height: 20px;
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+        text-decoration: none solid rgb(0, 0, 0);
+    }
+
+
+
+    .para5 {
+        font-family: Segoe UI;
+        text-align: center;
+
+        margin-top: 5%;
+        font-size: 24px;
+        line-height: 20px;
+        color: rgb(0, 0, 0);
+        width: 100%;
+        text-decoration: none solid rgb(0, 0, 0);
+    }
+
+
+
+    .subhead {
+        font-family: Segoe UI;
+        text-align: start;
+
+        width: 100%;
+        margin-top: 30px;
+        font-size: 15px;
+        line-height: 20px;
+        color: #000000;
+    }
+
+
+    .moduleimg {
+        background-image: url("/assets/imgs/page/homepage1/qq2.png");
+        background-image: cover;
+        height: 400px;
+        margin-left: 125px;
+
+    }
+
+
+
+
+}
+
+
+
+
+/* media query for the monitor view */
+
+
+@media screen and (min-width: 1200px) {
+
+
+
+    .headings {
+
+        text-align: center;
+        font-size: 46px;
+        width: 100%;
+        line-height: 200px;
+        font-family: Segoe UI;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 4px #000000;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+
+
+    .para {
+        font-family: Segoe UI;
+        text-align: center;
+
+        margin-top: 0px;
+        font-size: 24px;
+        line-height: 20px;
+        color: rgb(0, 0, 0);
+        width: 100%;
+        text-decoration: none solid rgb(0, 0, 0);
+    }
+
+
+    .para5 {
+        font-family: Segoe UI;
+        text-align: center;
+
+        margin-top: 5%;
+        font-size: 24px;
+        line-height: 20px;
+        color: rgb(0, 0, 0);
+        width: 100%;
+        text-decoration: none solid rgb(0, 0, 0);
+    }
+
+
+    .subhead {
+        font-family: Segoe UI;
+        text-align: start;
+
+        width: 100%;
+        margin-top: 5%;
+        font-size: 18px;
+        line-height: 26px;
+        color: #000000;
+    }
+
+
+    .moduleimg {
+        background-image: url("/assets/imgs/page/homepage1/qq2.png");
+        background-image: fill;
+        height: 600px;
+
+        margin-left: 10%;
+
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 993px) {
+
+
+    .headings {
+
+        text-align: center;
+        font-size: 56px;
+        line-height: 200px;
+        width: 80%;
+        font-family: Segoe UI;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 4px #000000;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .para {
+        font-family: Segoe UI;
+        text-align: center;
+
+        margin-top: 22px;
+        font-size: 28px;
+        width: 50%;
+        line-height: 20px;
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+        text-decoration: none solid rgb(0, 0, 0);
+    }
+
+
+
+    .para5 {
+        font-family: Segoe UI;
+        text-align: center;
+
+        margin-top: 5%;
+        font-size: 24px;
+        line-height: 20px;
+        color: rgb(0, 0, 0);
+        width: 100%;
+        text-decoration: none solid rgb(0, 0, 0);
+    }
+
+
+
+    .subhead {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-left: 145px;
+        width: 90%;
+        margin-top: 30px;
+        font-size: 15px;
+        line-height: 20px;
+        color: #000000;
+    }
+
+
+    .moduleimg {
+        background-image: url("/assets/imgs/page/homepage1/qq2.png");
+        background-size: cover;
+        height: 600px;
+        width: 25%;
+
+    }
+
+
+
+
+}
+
+
+/* end of the media query */

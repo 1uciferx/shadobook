@@ -1,0 +1,868 @@
+
+
+.headings {
+
+
+   font-size: 76px;
+   text-align: center;
+
+   font-family: Segoe UI;
+   color: rgb(253, 251, 251);
+   margin-top: 50px;
+   font-weight: 600;
+   margin-bottom: 100px;
+   font-style: normal;
+}
+
+
+.para {
+   font-family: Segoe UI;
+   text-align: center;
+   font-size: 18px;
+   line-height: 58px;
+   color: rgb(255, 255, 255);
+   font-weight: 500;
+
+}
+
+.subhead {
+   font-family: Segoe UI;
+   margin-top: 50px;
+   margin-bottom: 7%;
+   width: 80%;
+   text-align: center;
+   font-size: 18px;
+   line-height: 27px;
+   color: #2c2c2c;
+}
+
+.subhead2 {
+   font-family: Segoe UI;
+   font-weight: normal;
+   margin-top: 100px;
+   font-size: 28px;
+   font-weight: 500;
+   width: 50%;
+  text-align: center;
+   line-height: 20px;
+   color: #000000e0;
+}
+
+.gift {
+   margin-left: 20%;
+}
+
+/* style for the odd container subject */
+.subhead4 {
+   font-family: Segoe UI;
+   font-weight: normal;
+   width: 80%;
+   text-align: start;
+   font-size: 15px;
+   margin-top: 100px;
+   line-height: 20px;
+   
+   color: #181818e0;
+}
+
+/* style for the odd container heading */
+
+.subhead5 {
+   font-family: Segoe UI;
+   font-weight: normal;
+   width: 400px;
+   text-align: start;
+   font-size: 15px;
+   margin-top: 100px;
+   line-height: 20px;
+   margin-left: 70px;
+   color: #181818e0;
+}
+
+.subhead55 {
+   font-family: Segoe UI;
+   font-weight: normal;
+   width: 100%;
+   text-align: center;
+   font-size: 28px;
+   margin-top: 100px;
+   margin-bottom: 7%;
+   line-height: 20px;
+   
+   color: #181818e0;
+}
+
+.subhead56 {
+   font-family: Segoe UI;
+   font-weight: normal;
+   width: 70%;
+   text-align: start;
+   font-size: 16px;
+   margin-top: 100px;
+   margin-bottom: 7%;
+   line-height: 20px;
+   
+   color: #181818e0;
+}
+
+
+/* style for the even container subject */
+
+.subhead6 {
+   font-family: Segoe UI;
+   font-weight: normal;
+   width: 700px;
+   margin-left: 30px;
+   font-size: 15px;
+   line-height: 20px;
+   color: #181818e0;
+}
+
+
+/* style for the container even heading */
+
+.subhead7 {
+   font-family: Segoe UI;
+   font-weight: bold;
+   margin-left: 30px;
+   font-size: 35px;
+   line-height: 40px;
+   color: #8e341e;
+}
+
+
+
+.para5 {
+   font-family: Segoe UI;
+   margin-left: 0px;
+   margin-bottom: 10px;
+   font-size: 48px;
+   line-height: 20px;
+   color: rgb(0, 0, 0);
+   font-weight: 600;
+   text-decoration: none solid rgb(0, 0, 0);
+}
+
+
+.banimg {
+   background-image: url("/assets/imgs/page/homepage1/32.jpg");
+   height: '600px';
+   background-size: cover;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* media queries section has been initiated from here */
+
+
+
+
+
+.headings {
+
+
+   font-size: 76px;
+   text-align: center;
+
+   font-family: Segoe UI;
+   color: rgb(253, 251, 251);
+   margin-top: 50px;
+   font-weight: 600;
+   margin-bottom: 100px;
+   font-style: normal;
+}
+
+
+.para {
+   font-family: Segoe UI;
+   text-align: center;
+   width: 100%;
+   font-size: 18px;
+   line-height: 58px;
+   color: rgb(255, 255, 255);
+   font-weight: 500;
+
+}
+
+.subhead {
+   font-family: Segoe UI;
+   margin-top: 50px;
+   margin-left: 100px;
+   width: 100%;
+   margin-right: 100px;
+   text-align: center;
+   font-size: 18px;
+   line-height: 27px;
+   color: #2c2c2c;
+}
+
+.subhead2 {
+   font-family: Segoe UI;
+   font-weight: normal;
+   margin-top: 100px;
+   font-size: 28px;
+   font-weight: 500;
+   width: 60%;
+  text-align: center;
+   line-height: 20px;
+   color: #000000e0;
+}
+
+.gift {
+   margin-left: 20%;
+}
+
+/* style for the odd container subject */
+.subhead4 {
+   font-family: Segoe UI;
+   font-weight: normal;
+   width: 60%;
+   text-align: start;
+   font-size: 15px;
+   margin-top: 100px;
+   line-height: 20px;
+   
+   color: #181818e0;
+}
+
+/* style for the odd container heading */
+
+.subhead5 {
+   font-family: Segoe UI;
+   font-weight: normal;
+   width: 400px;
+   text-align: start;
+   font-size: 15px;
+   margin-top: 100px;
+   line-height: 20px;
+   margin-left: 70px;
+   color: #181818e0;
+}
+
+.subhead55 {
+   font-family: Segoe UI;
+   font-weight: normal;
+   width: 100%;
+   text-align: center;
+   font-size: 28px;
+   margin-top: 100px;
+   margin-bottom: 7%;
+   line-height: 20px;
+   
+   color: #181818e0;
+}
+
+.subhead56 {
+   font-family: Segoe UI;
+   font-weight: normal;
+   width: 70%;
+   text-align: start;
+   font-size: 16px;
+   margin-top: 100px;
+   margin-bottom: 7%;
+   line-height: 20px;
+   
+   color: #181818e0;
+}
+
+
+/* style for the even container subject */
+
+.subhead6 {
+   font-family: Segoe UI;
+   font-weight: normal;
+   width: 700px;
+   margin-left: 30px;
+   font-size: 15px;
+   line-height: 20px;
+   color: #181818e0;
+}
+
+
+/* style for the container even heading */
+
+.subhead7 {
+   font-family: Segoe UI;
+   font-weight: bold;
+   margin-left: 30px;
+   font-size: 35px;
+   line-height: 40px;
+   color: #8e341e;
+}
+
+
+
+.para5 {
+   font-family: Segoe UI;
+   margin-left: 0px;
+   margin-bottom: 10px;
+   font-size: 48px;
+   line-height: 20px;
+   color: rgb(0, 0, 0);
+   font-weight: 600;
+   text-decoration: none solid rgb(0, 0, 0);
+}
+
+
+.banimg {
+   background-image: url("/assets/imgs/page/homepage1/32.jpg");
+   height: '600px';
+   background-size: cover;
+
+}
+
+
+
+
+
+
+
+/* media queries for the ipad view */
+
+@media screen and (max-width: 991px)  {
+
+   .headings {
+
+
+      font-size: 76px;
+      text-align: center;
+
+      font-family: Segoe UI;
+      color: rgb(253, 251, 251);
+      margin-top: 50px;
+      font-weight: 600;
+      margin-bottom: 100px;
+      font-style: normal;
+   }
+
+   .para {
+      font-family: Segoe UI;
+
+
+
+      text-align: center;
+      font-size: 18px;
+      line-height: 58px;
+      color: rgb(255, 255, 255);
+      font-weight: 500;
+
+   }
+
+   .subhead {
+      font-family: Segoe UI;
+      margin-top: 50px;
+      margin-left: 100px;
+      margin-right: 100px;
+      text-align: left;
+      font-size: 15px;
+      line-height: 27px;
+      color: #2c2c2c;
+   }
+
+   .subhead2 {
+      font-family: Segoe UI;
+      font-weight: normal;
+      margin-top: 100px;
+      font-size: 24px;
+      font-weight: 500;
+      margin-left: 70px;
+      line-height: 20px;
+      color: #000000e0;
+   }
+
+
+
+   /* style for the odd container subject */
+   .subhead4 {
+      font-family: Segoe UI;
+      font-weight: normal;
+      width: 80%;
+      text-align: start;
+      font-size: 15px;
+      margin-top: 64px;
+      line-height: 20px;
+     
+      color: #181818e0;
+   }
+
+   /* style for the odd container heading */
+
+   .subhead5 {
+      font-family: Segoe UI;
+      font-weight: normal;
+      width: 80%;
+      text-align: start;
+      font-size: 16px;
+      margin-top: 62px;
+      line-height: 20px;
+      
+      color: #181818e0;
+   }
+
+ 
+   .subhead55 {
+      font-family: Segoe UI;
+      font-weight: normal;
+      width: 100%;
+      text-align: center;
+      font-size: 28px;
+      margin-top: 100px;
+      margin-bottom: 7%;
+      line-height: 20px;
+      
+      color: #181818e0;
+   }
+   
+   .subhead56 {
+      font-family: Segoe UI;
+      font-weight: normal;
+      width: 70%;
+      text-align: start;
+      font-size: 16px;
+      margin-top: 100px;
+      margin-bottom: 7%;
+      line-height: 20px;
+      
+      color: #181818e0;
+   }
+
+   .banimg {
+      background-image: url("/assets/imgs/page/homepage1/32.jpg");
+      height: '600px';
+      background-size: cover;
+
+   }
+
+
+
+
+}
+
+
+
+
+
+/* media queries for ipad mini screen views */
+
+@media screen and (max-width: 769px) {
+
+
+   .headings {
+
+
+      font-size: 56px;
+      text-align: center;
+      width: 100%;
+      font-family: Segoe UI;
+      color: rgb(253, 251, 251);
+      margin-top: 50px;
+      font-weight: 600;
+      margin-bottom: 100px;
+      font-style: normal;
+   }
+
+   .para {
+      font-family: Segoe UI;
+      text-align: center;
+      font-size: 17px;
+      line-height: 58px;
+      color: rgb(255, 255, 255);
+      font-weight: 500;
+
+   }
+
+   .subhead {
+      font-family: Segoe UI;
+      margin-top: 80px;
+   
+      text-align: start;
+      font-size: 16px;
+      line-height: 25px;
+      color: #2c2c2c;
+   }
+
+   .subhead2 {
+      font-family: Segoe UI;
+      font-weight: normal;
+      text-align: center;
+      width: 80%;
+      margin-top: 100px;
+      font-size: 24px;
+      font-weight: 500;
+   
+      line-height: 28px;
+      color: #000000e0;
+   }
+
+
+
+   /* style for the odd container subject */
+   .subhead4 {
+      font-family: Segoe UI;
+      font-weight: normal;
+      width: 280px;
+      text-align: start;
+      font-size: 15px;
+      margin-top: 64px;
+      line-height: 20px;
+      margin-left: 0px;
+      color: #181818e0;
+   }
+
+   /* style for the odd container heading */
+
+   .subhead5 {
+      font-family: Segoe UI;
+      font-weight: normal;
+      width: 100%;
+      text-align: start;
+      font-size: 15px;
+     
+      line-height: 20px;
+      
+      color: #181818e0;
+   }
+
+
+   .subhead55 {
+      font-family: Segoe UI;
+      font-weight: normal;
+      width: 100%;
+      text-align: center;
+      font-size: 28px;
+      margin-top: 100px;
+      margin-bottom: 7%;
+      line-height: 20px;
+      
+      color: #181818e0;
+   }
+   
+   .subhead56 {
+      font-family: Segoe UI;
+      font-weight: normal;
+      width: 70%;
+      text-align: start;
+      font-size: 16px;
+      margin-top: 100px;
+      margin-bottom: 7%;
+      line-height: 20px;
+      
+      color: #181818e0;
+   }
+
+   .banimg {
+      background-image: url("/assets/imgs/page/homepage1/32.jpg");
+      height: '600px';
+      background-size: cover;
+
+   }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* media query for the smartphones */
+
+@media screen and (max-width: 576px)  {
+
+
+   .headings {
+
+
+      font-size: 56px;
+      text-align: center;     
+      font-family: Segoe UI;
+      color: rgb(253, 251, 251);
+      margin-top: 50px;
+      font-weight: 600;
+      margin-bottom: 100px;
+      font-style: normal;
+   }
+
+   .para {
+      font-family: Segoe UI;
+      margin-bottom: 52px;
+      width: 100%;
+      margin-left: 0px;
+      text-align: center;
+      font-size: 14px;
+      line-height: 14px;
+      color: rgb(255, 255, 255);
+      font-weight: 400;
+
+   }
+
+   .subhead {
+      font-family: Segoe UI;
+      margin-top: 50px;
+      width: 100%;
+      text-align: start;
+      font-size: 12px;
+      line-height: 18px;
+      color: #2c2c2c;
+   }
+
+   .subhead2 {
+      font-family: Segoe UI;
+      font-weight: normal;
+      margin-top: 100px;
+      font-size: 10px;
+      width: 100%;
+      font-weight: 500;
+     
+      line-height: 0px;
+      color: #000000e0;
+   }
+
+
+
+   /* style for the odd container subject */
+   .subhead4 {
+      font-family: Segoe UI;
+      font-weight: normal;
+      width: 90%;
+      margin-left: 8%;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 52px;
+      line-height: 20px;
+      
+      color: #181818e0;
+   }
+
+   /* style for the odd container heading */
+
+   .subhead5 {
+      font-family: Segoe UI;
+      font-weight: normal;
+      width: 80%;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 0px;
+      line-height: 20px;
+      
+      color: #181818e0;
+   }
+
+   .subhead55 {
+      font-family: Segoe UI;
+      font-weight: normal;
+      width: 90%;
+      text-align: center;
+      font-size: 20px;
+      margin-top: 100px;
+      margin-bottom: 7%;
+      line-height: 20px;
+      
+      color: #181818e0;
+   }
+   
+   .subhead56 {
+      font-family: Segoe UI;
+      font-weight: normal;
+      width: 70%;
+      text-align: start;
+      font-size: 16px;
+      margin-top: 100px;
+      margin-bottom: 7%;
+      line-height: 20px;
+      
+      color: #181818e0;
+   }
+
+   .banimg {
+      background-image: url("/assets/imgs/page/homepage1/32.jpg");
+      height: '600px';
+      background-size: cover;
+
+   }
+
+
+
+}
+
+
+@media screen and (min-width: 1200px)  {
+
+.headings {
+
+
+   font-size: 76px;
+   text-align: center;
+
+   font-family: Segoe UI;
+   color: rgb(253, 251, 251);
+   margin-top: 50px;
+   font-weight: 600;
+   margin-bottom: 100px;
+   font-style: normal;
+}
+
+
+.para {
+   font-family: Segoe UI;
+   text-align: center;
+   font-size: 18px;
+   line-height: 58px;
+   color: rgb(255, 255, 255);
+   font-weight: 500;
+
+}
+
+.subhead {
+   font-family: Segoe UI;
+   margin-top: 50px;
+   margin-bottom: 7%;
+   width: 80%;
+   text-align: center;
+   font-size: 18px;
+   line-height: 27px;
+   color: #2c2c2c;
+}
+
+.subhead2 {
+   font-family: Segoe UI;
+   font-weight: normal;
+   margin-top: 100px;
+   font-size: 28px;
+   font-weight: 500;
+   width: 50%;
+  text-align: center;
+   line-height: 20px;
+   color: #000000e0;
+}
+
+.gift {
+   margin-left: 20%;
+}
+
+/* style for the odd container subject */
+.subhead4 {
+   font-family: Segoe UI;
+   font-weight: normal;
+   width: 80%;
+   text-align: start;
+   font-size: 15px;
+   margin-top: 70px;
+   line-height: 20px;
+   
+   color: #181818e0;
+}
+
+/* style for the odd container heading */
+
+.subhead5 {
+   font-family: Segoe UI;
+   font-weight: normal;
+   width: 90%;
+   text-align: start;
+   font-size: 15px;
+   margin-top: 10%;
+   line-height: 20px;
+   margin-left: 70px;
+   color: #181818e0;
+}
+
+.subhead55 {
+   font-family: Segoe UI;
+   font-weight: normal;
+   width: 100%;
+   text-align: center;
+   font-size: 28px;
+   margin-top: 100px;
+   margin-bottom: 7%;
+   line-height: 40px;
+   
+   color: #181818e0;
+}
+
+.subhead56 {
+   font-family: Segoe UI;
+   font-weight: normal;
+   width: 70%;
+   text-align: start;
+   font-size: 16px;
+   margin-top: 100px;
+   margin-bottom: 7%;
+   line-height: 20px;
+   
+   color: #181818e0;
+}
+
+
+/* style for the even container subject */
+
+.subhead6 {
+   font-family: Segoe UI;
+   font-weight: normal;
+   width: 700px;
+   margin-left: 30px;
+   font-size: 15px;
+   line-height: 20px;
+   color: #181818e0;
+}
+
+
+/* style for the container even heading */
+
+.subhead7 {
+   font-family: Segoe UI;
+   font-weight: bold;
+   margin-left: 30px;
+   font-size: 35px;
+   line-height: 40px;
+   color: #8e341e;
+}
+
+
+
+.para5 {
+   font-family: Segoe UI;
+   margin-left: 0px;
+   margin-bottom: 10px;
+   font-size: 48px;
+   line-height: 20px;
+   color: rgb(0, 0, 0);
+   font-weight: 600;
+   text-decoration: none solid rgb(0, 0, 0);
+}
+
+
+.banimg {
+   background-image: url("/assets/imgs/page/homepage1/32.jpg");
+   height: '600px';
+   background-size: cover;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* end of using the media queries in style */

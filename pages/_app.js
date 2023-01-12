@@ -6,6 +6,7 @@ import Preloader from '../components/elements/Preloader';
 import 'react-modal-video/css/modal-video.css';
 import TawkTo from 'tawkto-react'
 import 'antd/dist/reset.css';
+import Head from "next/head"
 
 
 function MyApp({ Component, pageProps }) {
@@ -35,6 +36,16 @@ function MyApp({ Component, pageProps }) {
   }, []);
   return (
     <>
+    <Head>
+    <title>Shadobooks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+     href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&family=Poppins:wght@200&display=swap" rel="stylesheet"/>
+     <link
+     rel="stylesheet"
+     href="https://www.w3schools.com/w3css/4/w3.css"/>
+    </Head>
       {!loading ? (
         <Component {...pageProps} />
       ) : (

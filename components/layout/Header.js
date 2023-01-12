@@ -332,10 +332,19 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li>
 
                             <li>
-                              <Link href="/filesharing">
+                              <Link href="/filemanager">
                                 <a>
                                   <i className="fi fi-rr-star" />
-                                  File Sharing
+                                  File Manager
+                                </a>
+                              </Link>
+                            </li>
+
+                            <li>
+                              <Link href="/companyassets">
+                                <a>
+                                  <i className="fi fi-rr-star" />
+                                  Company Assets
                                 </a>
                               </Link>
                             </li>

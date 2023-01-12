@@ -1,0 +1,64 @@
+.headings {
+
+
+    font-size: 76px;
+    text-align: center;
+    margin-left: 600px;
+    font-family: Segoe UI;
+    color: rgb(255, 255, 255);
+    margin-top: 60px;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.para {
+    font-family: Segoe UI;
+
+
+    margin-top: 80px;
+    text-align: start;
+    margin-left: 80px;
+    font-size: 28px;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+
+}
+
+.subhead {
+    font-family: Segoe UI;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+    text-align: start;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.subhead2 {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+
+
+/* style for the odd container subject */
+.subhead4 {
+    font-family: Segoe UI;
+    font-weight: normal;
+    width: 1200px;
+    margin-left: 180px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+
+    line-height: 20px;
+
+    color: #000000e0;
+}
