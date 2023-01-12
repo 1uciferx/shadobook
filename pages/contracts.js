@@ -19,6 +19,7 @@ import LightSpeed from "react-reveal/LightSpeed";
 import Fade from "react-reveal/Fade";
 import Pulse from "react-reveal/Pulse";
 import { Breadcrumb, Layout as L } from "antd";
+import Contactmanager from "../components/contactmanager";
 const { Content } = L;
 
 function Contracts() {
@@ -75,41 +76,21 @@ function Contracts() {
               </Col>
 
               <h1 className={styles.headings}>Contracts</h1>
-              <Col
-                xs={{
-                  span: 22,
-                  offset: 1,
-                }}
-                lg={{
-                  span: 22,
-                  offset: 8,
-                }}
-                md={{
-                  span: 22,
-                  offset: 8,
-                }}
-                sm={{
-                  span: 22,
-                  offset: 8,
-                }}
-                xl={{
-                  span: 22,
-                  offset: 8,
-                }}
-                xxl={{
-                  span: 22,
-                  offset: 8,
-                }}
-              >
-                <p className={styles.parahead}>
-                  <Zoom>
-                    Shadobooks focuses on making your procurement process happen
-                    seamlessly and also easily identify the value of each
-                    vendor.
-                  </Zoom>
-                </p>
-              </Col>
-              <Pulse>
+             
+                <div className={styles.paraheadcenter}>
+                  <p className={styles.parahead}>
+                    <Zoom>
+                      Shadobooks CRM offers a curated section that is dedicated
+                      to maintaining and keeping track of all the agreements.
+                      Everything from the creation of contracts, overlooking
+                      business collaboration, managing documentation between the
+                      signed parties, and tracking policies and renewal are some
+                      of the features that the interface offers.
+                    </Zoom>
+                  </p>
+                </div>
+             
+              {/* <Pulse>
                 <Col
                   xs={{
                     span: 20,
@@ -142,7 +123,7 @@ function Contracts() {
                     className={styles.modimg}
                   />
                 </Col>
-              </Pulse>
+              </Pulse> */}
             </ParallaxBannerLayer>
           </ParallaxBanner>
         </ParallaxProvider>
@@ -151,76 +132,22 @@ function Contracts() {
           <h1 className={styles.headings1}>Contract Summary</h1>
         </Zoom>
         <Pulse>
-          <Col
-            xs={{
-              span: 22,
-              offset: 1,
-            }}
-            lg={{
-              span: 22,
-              offset: 4,
-            }}
-            md={{
-              span: 22,
-              offset: 3,
-            }}
-            sm={{
-              span: 22,
-              offset: 1,
-            }}
-            xl={{
-              span: 22,
-              offset: 5,
-            }}
-            xxl={{
-              span: 22,
-              offset: 7,
-            }}
-          >
+          <div className={styles.centeralign}>
             <img
               className={styles.center}
               alt="Agon"
-              src="assets/imgs/page/homepage4/tp.jpg "
+              src="assets/imgs/page/about/7/Contractssum.png"
             />
-          </Col>
+          </div>
         </Pulse>
-        <Col
-          xs={{
-            span: 24,
-            offset: 1,
-          }}
-          lg={{
-            span: 22,
-            offset: 1,
-          }}
-          md={{
-            span: 22,
-            offset: 1,
-          }}
-          sm={{
-            span: 22,
-            offset: 2,
-          }}
-          xl={{
-            span: 22,
-            offset: 1,
-          }}
-          xxl={{
-            span: 20,
-            offset: 0,
-          }}
-        >
-          <Zoom top>
+
+        <Zoom top>
+          <div className={styles.paraconcenter}>
             <p className={styles.paracon}>
-              Shadobooks focuses on making your procurement process happen
-              seamlessly and also easily identify the value of each vendor. This
-              section of the CRM helps you create forms that can be integrated
-              into your website. These forms enable the user to get in touch
-              with you and request an estimate about your services of yours that
-              they’re looking to avail of.
+            In Shadobook  ERP, when clicking the contract module, the page shows the add new contract option, a contract summary, a contract by type, a contract value by type, and a list of generated contracts.
             </p>
-          </Zoom>
-        </Col>
+          </div>
+        </Zoom>
 
         <Row>
           <Col
@@ -252,13 +179,10 @@ function Contracts() {
             <div>
               <LightSpeed right>
                 <p className={styles.para}>
-                  All your vendor list is updated here along with all the
-                  associated details like your purchases, pricing, overdue,
-                  invoice details, profile summary and their contact list.
+                CRM contracts are digital documents that formalise relationships between businesses and their customers.
                 </p>
               </LightSpeed>
             </div>
-          
           </Col>
 
           <Col
@@ -299,83 +223,27 @@ function Contracts() {
           </Col>
         </Row>
 
- 
-           
         <Zoom top>
           <h1 className={styles.headings2}>New Contract</h1>
         </Zoom>
         <Pulse>
-          <Col
-            xs={{
-              span: 22,
-              offset: 1,
-            }}
-            lg={{
-              span: 22,
-              offset: 4,
-            }}
-            md={{
-              span: 22,
-              offset: 3,
-            }}
-            sm={{
-              span: 22,
-              offset: 1,
-            }}
-            xl={{
-              span: 22,
-              offset: 5,
-            }}
-            xxl={{
-              span: 22,
-              offset: 7,
-            }}
-          >
+          <div className={styles.centeralign}>
             <img
               className={styles.center}
               alt="Agon"
-              src="assets/imgs/page/homepage4/tp.jpg "
+              src="assets/imgs/page/about/7/addcontract.png"
             />
-          </Col>
+          </div>
         </Pulse>
-        <Col
-          xs={{
-            span: 22,
-            offset: 1,
-          }}
-          lg={{
-            span: 22,
-            offset: 1,
-          }}
-          md={{
-            span: 22,
-            offset: 1,
-          }}
-          sm={{
-            span: 22,
-            offset: 2,
-          }}
-          xl={{
-            span: 22,
-            offset: 1,
-          }}
-          xxl={{
-            span: 20,
-            offset: 0,
-          }}
-        >
+    
           <Zoom top>
+          <div className={styles.paraconcenter}>
             <p className={styles.paracon}>
-              Shadobooks focuses on making your procurement process happen
-              seamlessly and also easily identify the value of each vendor. This
-              section of the CRM helps you create forms that can be integrated
-              into your website. These forms enable the user to get in touch
-              with you and request an estimate about your services of yours that
-              they’re looking to avail of.
+            On this page, enter all the contract information details, such as customer, subject, contract value, contract type, start date, end date, and contract description, and then click the save button. The new contract has now been created in our shadobook ERP system.
             </p>
+            </div>
           </Zoom>
-        </Col>
-
+     
 
         <Row>
           <Col
@@ -413,7 +281,6 @@ function Contracts() {
                 </p>
               </LightSpeed>
             </div>
-          
           </Col>
 
           <Col
@@ -453,6 +320,10 @@ function Contracts() {
             </div>
           </Col>
         </Row>
+
+        <div>
+          <Contactmanager/>
+        </div>
       </Layout>
     </>
   );

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import dynamic from "next/dynamic";
@@ -14,9 +15,9 @@ const { Link } = Anchor;
 import { Layout as L } from "antd";
 import { Breadcrumb } from "antd";
 import { Tabs } from "antd";
+import Contactmanager from "../components/contactmanager";
 const { Content } = L;
 const { TabPane } = Tabs;
-
 
 function Fixed() {
   const topRef = React.useRef(null);
@@ -56,14 +57,17 @@ function Fixed() {
           }}
         >
           <Content className={styles.bc}>
-            <Breadcrumb style={{ fontWeight: "bold" }}>
+            <Breadcrumb>
               <Breadcrumb>
-                <Breadcrumb.Item>Index</Breadcrumb.Item>
                 <Breadcrumb.Item>
-                  <a href="">Features</a>
+                  {" "}
+                  <a href="/#">Home</a>
                 </Breadcrumb.Item>
                 <Breadcrumb.Item>
-                  <a href="">Manufacturing</a>
+                  <a href="/#">Features</a>
+                </Breadcrumb.Item>
+                <Breadcrumb.Item>
+                  <a href="/manufacturing">Manufacturing</a>
                 </Breadcrumb.Item>
               </Breadcrumb>
             </Breadcrumb>
@@ -77,7 +81,7 @@ function Fixed() {
         <Row>
           <Col
             xs={{
-              span: 22,
+              span: 24,
               offset: 2,
             }}
             lg={{
@@ -102,19 +106,21 @@ function Fixed() {
             }}
           >
             <h6 className={styles.subhead}>
-              we are a woldwide corporate brand
+              "Connecting Your Manufacturing <br></br>Bussiness to Success"
             </h6>
             <p className={styles.para}>
               The manufacturing section comes with a statistical dashboard that
               offers a graphical representation of your manufacturing orders in
-              terms of the measures and period.
+              terms of the measures and period. This also comes with
+              feature-rich options like product management, product variants,
+              bills of materials and routing.
             </p>
           </Col>
 
           <Col
             xs={{
-              span: 22,
-              offset: 1,
+              span: 24,
+              offset: 2,
             }}
             lg={{
               span: 12,
@@ -178,7 +184,7 @@ function Fixed() {
         <Col
           xs={{
             span: 22,
-            offset: 1,
+            offset: 2,
           }}
           lg={{
             span: 22,
@@ -202,176 +208,182 @@ function Fixed() {
           }}
         >
           <p className={styles.paracenter}>
-            The manufacturing section comes with a statistical dashboard that
-            offers a graphical representation of your manufacturing orders in
-            terms of the measures and period.
-            Bring the very best out of your teams with robust automation,
-            comprehensive analytics, personalized solutions, and more. Sign up
-            and get started in no time—the fastest implementation in the
-            enterprise CRM market.
+            In shadobook ERP, when clicking the manufacturing module, select the
+            dashboard. Here we can see the graphical representation of data such
+            as manufacturing orders, work orders, and work centers.
           </p>
         </Col>
 
-      
-          <Row >
-            <Col  xs={{
-                    span: 22,
-                    offset: 1,
-                  }}
-                  lg={{
-                    span: 10,
-                    offset: 1,
-                  }}
-                  md={{
-                    span: 22,
-                    offset: 2,
-                  }}
-                  sm={{
-                    span: 22,
-                    offset: 1,
-                  }}
-                  xl={{
-                    span: 10,
-                    offset: 1,
-                  }}
-                  xxl={{
-                    span: 12,
-                    offset: 1,
-                  }}>
-           
-                <img
-                  alt="Agon"
-                  src="assets/imgs/page/homepage4/objective1.png "
-                 className={styles.imgcon}
-                />
-          
-            </Col>
+        <Row>
+          <Col
+            xs={{
+              span: 22,
+              offset: 2,
+            }}
+            lg={{
+              span: 10,
+              offset: 1,
+            }}
+            md={{
+              span: 22,
+              offset: 2,
+            }}
+            sm={{
+              span: 22,
+              offset: 1,
+            }}
+            xl={{
+              span: 10,
+              offset: 1,
+            }}
+            xxl={{
+              span: 11,
+              offset: 0,
+            }}
+          >
+            <img
+              alt="Agon"
+              src="assets/imgs/page/about/6/ManuDB.png"
+              className={styles.imgcon}
+            />
+          </Col>
 
-            <Col xs={{
-                    span: 22,
-                    offset: 1,
-                  }}
-                  lg={{
-                    span: 10,
-                    offset: 2,
-                  }}
-                  md={{
-                    span: 20,
-                    offset: 2,
-                  }}
-                  sm={{
-                    span: 22,
-                    offset: 1,
-                  }}
-                  xl={{
-                    span: 10,
-                    offset: 2,
-                  }}
-                  xxl={{
-                    span: 7,
-                    offset: 0,
-                  }}>
-          
-                <h6 className={styles.subhead}>
-                  The manufacturing section comes with a statistical dashboard
-                </h6>
-                <p className={styles.para}>
-                  The manufacturing section comes with a statistical dashboard
-                  that offers a graphical representation of your manufacturing
-                  orders in terms of the measures and period.
-                </p>
-          
-            </Col>
-          </Row>
-  
+          <Col
+            xs={{
+              span: 22,
+              offset: 2,
+            }}
+            lg={{
+              span: 10,
+              offset: 3,
+            }}
+            md={{
+              span: 22,
+              offset: 2,
+            }}
+            sm={{
+              span: 22,
+              offset: 1,
+            }}
+            xl={{
+              span: 10,
+              offset: 3,
+            }}
+            xxl={{
+              span: 9,
+              offset: 0,
+            }}
+          >
+            <h6 className={styles.subhead}>
+              "Bringing Efficiency to Manufacturing - The Power of CRM!"
+            </h6>
+            <p className={styles.para}>
+              A manufacturing dashboard  can provide valuable insights into
+              production processes and product sales. It can help manufacturers
+              optimize their processes, track product performance and customer
+              satisfaction, and identify areas for improvement.
+            </p>
+          </Col>
+        </Row>
 
         {/* dashboard heading */}
 
-   
-            <h1 className={styles.headings3}>Dashboard Benefits</h1>
-        
-          <Row >
-            <Col xs={{
-                    span: 24,
-                    offset: 0,
-                  }}
-                  lg={{
-                    span: 10,
-                    offset: 1,
-                  }}
-                  md={{
-                    span: 22,
-                    offset: 2,
-                  }}
-                  sm={{
-                    span: 22,
-                    offset: 1,
-                  }}
-                  xl={{
-                    span: 10,
-                    offset: 1,
-                  }}
-                  xxl={{
-                    span: 10,
-                    offset: 1,
-                  }}>
-              <img
-                alt="Agon"
-                src="assets/imgs/page/homepage4/manufacturing.jpg "
-               className={styles.conimgone}
-              />
-              <p className={styles.para2}>
-                The manufacturing section comes with a statistical dashboard
-                that offers a graphical of your manufacturing orders in terms of
-                the measures and period. The manufacturing section comes with a
-                statistical dashboard that offers a graphical of your
-                manufacturing orders in terms of the measures and period.
-              </p>
-            </Col>
+        <h1 className={styles.headings3}>Manufacturing Benefits</h1>
 
-            <Col xs={{
-                    span: 24,
-                    offset: 0,
-                  }}
-                  lg={{
-                    span: 10,
-                    offset: 2,
-                  }}
-                  md={{
-                    span: 22,
-                    offset: 2,
-                  }}
-                  sm={{
-                    span: 22,
-                    offset: 1,
-                  }}
-                  xl={{
-                    span: 10,
-                    offset: 2,
-                  }}
-                  xxl={{
-                    span: 10,
-                    offset: 2,
-                  }}>
-            
-                <img
-                  alt="Agon"
-                  src="assets/imgs/page/homepage4/manufacturing.jpg "
-                  className={styles.conimgtwo}
-                />
+        <Row>
+          <Col
+            xs={{
+              span: 22,
+              offset: 2,
+            }}
+            lg={{
+              span: 10,
+              offset: 1,
+            }}
+            md={{
+              span: 22,
+              offset: 2,
+            }}
+            sm={{
+              span: 22,
+              offset: 1,
+            }}
+            xl={{
+              span: 10,
+              offset: 1,
+            }}
+            xxl={{
+              span: 10,
+              offset: 0,
+            }}
+          >
+            <img
+              alt="Agon"
+              src="assets/imgs/page/homepage4/manubenevec.jpg "
+              className={styles.conimgone}
+            />
+            <p className={styles.para2}>
+              1. Increased customer satisfaction : CRM helps to improve customer
+              service by providing a 360-degree view of customer data and making
+              it easier to respond quickly to customer inquiries.<br></br>
+              <br></br>
+              2. Improved customer loyalty : By knowing customers better, CRM
+              helps companies to improve customer loyalty by tailoring products
+              and services to meet customer needs.<br></br>
+              <br></br>
+              3. Improved customer acquisition: CRM helps to capture leads and
+              opportunities more quickly and efficiently, allowing companies to
+              respond faster to customer inquiries.
+            </p>
+          </Col>
 
-                <p className={styles.para3}>
-                  The manufacturing section comes with a statistical dashboard
-                  that offers a graphical representation of your
-                  manufacturing orders in terms of the measures and period.
-                  The manufacturing section comes with a statistical
-                  dashboard that offers a graphical of your
-                  manufacturing orders in terms of the measures and period.
-                </p>
-           
-            </Col>
-          </Row>
-  
+          <Col
+            xs={{
+              span: 22,
+              offset: 2,
+            }}
+            lg={{
+              span: 10,
+              offset: 2,
+            }}
+            md={{
+              span: 22,
+              offset: 2,
+            }}
+            sm={{
+              span: 22,
+              offset: 1,
+            }}
+            xl={{
+              span: 10,
+              offset: 3,
+            }}
+            xxl={{
+              span: 10,
+              offset: 0,
+            }}
+          >
+            <img
+              alt="Agon"
+              src="assets/imgs/page/homepage4/manubenevec2.jpg "
+              className={styles.conimgtwo}
+            />
+
+            <p className={styles.para3}>
+              4. Streamlined processes: CRM helps to streamline many processes
+              such as order management, inventory management, and customer
+              service.<br></br>
+              <br></br>
+              5. Increased efficiency in customer communications: CRM makes it
+              easier to stay in touch with customers by automating emails,
+              notifications, and other communications.<br></br>
+              <br></br>
+              6. Improved customer insights: CRM helps to capture customer data
+              and insights that can be used to create better customer
+              experiences and improve marketing campaigns.
+            </p>
+          </Col>
+        </Row>
 
         {/* modules side bar */}
 
@@ -379,7 +391,8 @@ function Fixed() {
           <Tabs tabPosition="right">
             <TabPane tab="Products" key="1">
               <Row>
-                <Col xs={{
+                <Col
+                  xs={{
                     span: 22,
                     offset: 2,
                   }}
@@ -402,12 +415,12 @@ function Fixed() {
                   xxl={{
                     span: 11,
                     offset: 0,
-                  }}>
+                  }}
+                >
                   <img
                     className={styles.tabimg}
                     alt="Agon"
-                    src="assets/imgs/page/homepage4/ban5.jpg "
-                  
+                    src="assets/imgs/page/about/6/ManuPM.png"
                   />
                 </Col>
 
@@ -439,10 +452,12 @@ function Fixed() {
                 >
                   <h4 className={styles.subhead2}>Products</h4>
                   <p className={styles.para}>
-                    This section of the CRM helps you create forms that can be
-                    integrated into your website. These forms enable the user to
-                    get in touch with you and request an estimate about your
-                    services of yours that they’re looking to avail of.
+                    To add products, click the manufacturing module, then select
+                    products. Here, we can add a new product by entering the
+                    details such as its name, image, sale price, cost, product
+                    category, product type, quantity, unit name, etc., and
+                    clicking the save button. In shadobook ERP, all of the
+                    generated products appear in a list view.
                   </p>
                 </Col>
               </Row>
@@ -450,7 +465,8 @@ function Fixed() {
 
             <TabPane tab="Products Varients" key="2">
               <Row>
-                <Col  xs={{
+                <Col
+                  xs={{
                     span: 22,
                     offset: 2,
                   }}
@@ -473,12 +489,12 @@ function Fixed() {
                   xxl={{
                     span: 11,
                     offset: 0,
-                  }}>
+                  }}
+                >
                   <img
-                     className={styles.tabimg}
+                    className={styles.tabimg}
                     alt="Agon"
-                    src="assets/imgs/page/homepage4/ban1.jpg "
-                   
+                    src="assets/imgs/page/about/6/ManuPVM.png"
                   />
                 </Col>
 
@@ -510,10 +526,7 @@ function Fixed() {
                 >
                   <h4 className={styles.subhead2}>Products Varients</h4>
                   <p className={styles.para}>
-                    The estimate feature will give you the option to customize
-                    the form that is tailored to give you a better understanding
-                    of the customer intent. The CRM will enable assigning this
-                    influx of requests to specific teams and employees.
+                  In Shado Book ERP, the product variant management has the option to filter the data by selecting the product, product type, and product category, and it is displayed in the form of a list.
                   </p>
                 </Col>
               </Row>
@@ -521,7 +534,8 @@ function Fixed() {
 
             <TabPane tab="Bills of Materials" key="3">
               <Row>
-                <Col xs={{
+                <Col
+                  xs={{
                     span: 22,
                     offset: 2,
                   }}
@@ -544,47 +558,44 @@ function Fixed() {
                   xxl={{
                     span: 11,
                     offset: 0,
-                  }}>
+                  }}
+                >
                   <img
                     className={styles.tabimg}
                     alt="Agon"
-                    src="assets/imgs/page/homepage4/mm.jpg "
-                  
+                    src="assets/imgs/page/about/6/ManuBOM.png"
                   />
                 </Col>
 
                 <Col
-                 xs={{
-                  span: 22,
-                  offset: 2,
-                }}
-                lg={{
-                  span: 10,
-                  offset: 3,
-                }}
-                md={{
-                  span: 22,
-                  offset: 2,
-                }}
-                sm={{
-                  span: 22,
-                  offset: 1,
-                }}
-                xl={{
-                  span: 10,
-                  offset: 3,
-                }}
-                xxl={{
-                  span: 9,
-                  offset: 0,
-                }}
+                  xs={{
+                    span: 22,
+                    offset: 2,
+                  }}
+                  lg={{
+                    span: 10,
+                    offset: 3,
+                  }}
+                  md={{
+                    span: 22,
+                    offset: 2,
+                  }}
+                  sm={{
+                    span: 22,
+                    offset: 1,
+                  }}
+                  xl={{
+                    span: 10,
+                    offset: 3,
+                  }}
+                  xxl={{
+                    span: 9,
+                    offset: 0,
+                  }}
                 >
                   <h4 className={styles.subhead2}>Bills of Materials</h4>
                   <p className={styles.para}>
-                    The estimated requests can then be created here according to
-                    the details you have received and later send it to the
-                    respective clientele while also keeping a track of all your
-                    touch points.
+                  On the Bills of Material page, we have the option to add a new bill by entering the details such as product, BOM code, BOM type, product variant, quantity, unit,routing and clicking the save button. Here, bills are displayed in list form in the shadobook ERP.
                   </p>
                 </Col>
               </Row>
@@ -592,7 +603,8 @@ function Fixed() {
 
             <TabPane tab="Routings" key="4">
               <Row>
-                <Col xs={{
+                <Col
+                  xs={{
                     span: 22,
                     offset: 2,
                   }}
@@ -615,46 +627,44 @@ function Fixed() {
                   xxl={{
                     span: 11,
                     offset: 0,
-                  }}>
+                  }}
+                >
                   <img
                     className={styles.tabimg}
                     alt="Agon"
-                    src="assets/imgs/page/homepage4/suppliers1.png "
-                   
+                    src="assets/imgs/page/about/6/ManuRoutings.png"
                   />
                 </Col>
 
                 <Col
-                 xs={{
-                  span: 22,
-                  offset: 2,
-                }}
-                lg={{
-                  span: 10,
-                  offset: 3,
-                }}
-                md={{
-                  span: 22,
-                  offset: 2,
-                }}
-                sm={{
-                  span: 22,
-                  offset: 1,
-                }}
-                xl={{
-                  span: 10,
-                  offset: 3,
-                }}
-                xxl={{
-                  span: 9,
-                  offset: 0,
-                }}
+                  xs={{
+                    span: 22,
+                    offset: 2,
+                  }}
+                  lg={{
+                    span: 10,
+                    offset: 3,
+                  }}
+                  md={{
+                    span: 22,
+                    offset: 2,
+                  }}
+                  sm={{
+                    span: 22,
+                    offset: 1,
+                  }}
+                  xl={{
+                    span: 10,
+                    offset: 3,
+                  }}
+                  xxl={{
+                    span: 9,
+                    offset: 0,
+                  }}
                 >
                   <h4 className={styles.subhead2}>Routings</h4>
                   <p className={styles.para}>
-                    Shadobook CRM helps you with a thorough platform which
-                    enables you to generate extensive reports according to your
-                    requirements.
+                  In Shadobook ERP, we have the option to add a new route by entering the details such as routing code, routing name, and notes, and then clicking the save button. Now the created lists are displayed in list form.
                   </p>
                 </Col>
               </Row>
@@ -662,7 +672,8 @@ function Fixed() {
 
             <TabPane tab="Work Centers" key="5">
               <Row>
-                <Col xs={{
+                <Col
+                  xs={{
                     span: 22,
                     offset: 2,
                   }}
@@ -685,12 +696,12 @@ function Fixed() {
                   xxl={{
                     span: 11,
                     offset: 0,
-                  }}>
+                  }}
+                >
                   <img
-                   className={styles.tabimg}
+                    className={styles.tabimg}
                     alt="Agon"
-                    src="assets/imgs/page/homepage4/pr.jpg "
-                
+                    src="assets/imgs/page/about/6/ManuWC.png"
                   />
                 </Col>
 
@@ -722,9 +733,7 @@ function Fixed() {
                 >
                   <h4 className={styles.subhead2}>Work Centers</h4>
                   <p className={styles.para}>
-                    The interface offers detailed report generation pertaining
-                    to the areas of sales, invoices, items, payments, credit
-                    notes, proposals, estimates, and HR payroll reports.
+                  In this window, we have the option to add a work centre by clicking the "add work center" button and entering the details such as the work centre name, code, working hours, capacity, etc., and then clicking the "save" button to save the work centre details. Now the generated details will display in list form in Shadobook ERP.
                   </p>
                 </Col>
               </Row>
@@ -732,7 +741,8 @@ function Fixed() {
 
             <TabPane tab="Manufacturing Orders" key="6">
               <Row>
-                <Col xs={{
+                <Col
+                  xs={{
                     span: 22,
                     offset: 2,
                   }}
@@ -755,12 +765,12 @@ function Fixed() {
                   xxl={{
                     span: 11,
                     offset: 0,
-                  }}>
+                  }}
+                >
                   <img
-                   className={styles.tabimg}
+                    className={styles.tabimg}
                     alt="Agon"
-                    src="assets/imgs/page/homepage4/ban3.jpg "
-                    style={{ marginLeft: "50px" }}
+                    src="assets/imgs/page/about/6/ManuMO.png"
                   />
                 </Col>
 
@@ -792,10 +802,7 @@ function Fixed() {
                 >
                   <h4 className={styles.subhead2}>Manufacturing Orders</h4>
                   <p className={styles.para}>
-                    There are also charts that are generated with the data
-                    inputs for aiding better visualization of all your crucial
-                    metrics like income, revenues, payment and customer-related
-                    analysis.
+                  The Shadobook ERP, the manufacturing module, has the option to add the manufacturing orders by clicking the add button, and then enter all the details such as product, bill of materials, quantity, unit, routing, and status, and click the save button so the generated orders are displayed as a list.
                   </p>
                 </Col>
               </Row>
@@ -803,7 +810,8 @@ function Fixed() {
 
             <TabPane tab="Work Orders" key="7">
               <Row>
-                <Col xs={{
+                <Col
+                  xs={{
                     span: 22,
                     offset: 2,
                   }}
@@ -826,17 +834,17 @@ function Fixed() {
                   xxl={{
                     span: 11,
                     offset: 0,
-                  }}>
+                  }}
+                >
                   <img
-                   className={styles.tabimg}
+                    className={styles.tabimg}
                     alt="Agon"
-                    src="assets/imgs/page/homepage4/ban2.jpg "
-                    
+                    src="assets/imgs/page/about/6/ManuWO.png"
                   />
                 </Col>
 
                 <Col
-                   xs={{
+                  xs={{
                     span: 22,
                     offset: 2,
                   }}
@@ -863,9 +871,7 @@ function Fixed() {
                 >
                   <h4 className={styles.subhead2}>Work Orders</h4>
                   <p className={styles.para}>
-                    All this detailed record keeping will help you with simpler
-                    organization and in deriving insightful understanding that
-                    can help you drive towards better business goals.
+                  In Shadobook ERP, the manufacturing module has the option to show the work orders. By clicking the work order, we can filter the orders by selecting the manufacturing order, product, and status.
                   </p>
                 </Col>
               </Row>
@@ -873,7 +879,8 @@ function Fixed() {
 
             <TabPane tab="Settings" key="8">
               <Row>
-                <Col xs={{
+                <Col
+                  xs={{
                     span: 22,
                     offset: 2,
                   }}
@@ -896,46 +903,48 @@ function Fixed() {
                   xxl={{
                     span: 11,
                     offset: 0,
-                  }}>
+                  }}
+                >
                   <img
-                 className={styles.tabimg}
+                    className={styles.tabimg}
                     alt="Agon"
-                    src="assets/imgs/page/homepage4/objective1.png "
-                  
+                    src="assets/imgs/page/about/6/ManuSET.png"
                   />
                 </Col>
 
                 <Col
-                 xs={{
-                  span: 22,
-                  offset: 2,
-                }}
-                lg={{
-                  span: 10,
-                  offset: 3,
-                }}
-                md={{
-                  span: 22,
-                  offset: 2,
-                }}
-                sm={{
-                  span: 22,
-                  offset: 1,
-                }}
-                xl={{
-                  span: 10,
-                  offset: 3,
-                }}
-                xxl={{
-                  span: 9,
-                  offset: 0,
-                }}
+                  xs={{
+                    span: 22,
+                    offset: 2,
+                  }}
+                  lg={{
+                    span: 10,
+                    offset: 3,
+                  }}
+                  md={{
+                    span: 22,
+                    offset: 2,
+                  }}
+                  sm={{
+                    span: 22,
+                    offset: 1,
+                  }}
+                  xl={{
+                    span: 10,
+                    offset: 3,
+                  }}
+                  xxl={{
+                    span: 9,
+                    offset: 0,
+                  }}
                 >
                   <h4 className={styles.subhead2}>Settings</h4>
                   <p className={styles.para}>
-                    With Shadobooks, you can track, manage and strategies your
-                    spending as they happen with the real-time expense tracking
-                    solution that it offers.
+                    The preferences and parameters used to customize the
+                    manufacturing process are referred to as settings in
+                    manufacturing. Setting up working hours, Units of measure
+                    catagories, Unit of measure and general settings are all
+                    part of this.
                   </p>
                 </Col>
               </Row>
@@ -943,11 +952,13 @@ function Fixed() {
           </Tabs>
         </div>
 
-        <div className="styles.mobiletab">
-        <Tabcon/>
+        <div className={styles.mobiletab}>
+          <Tabcon />
         </div>
 
-        <Footer />
+        <div>
+          <Contactmanager/>
+        </div>
       </Layout>
     </>
   );

@@ -17,6 +17,7 @@ import TeamSlider from "../components/slider/Team";
 import TestimonialSlider from "../components/slider/Testimonial";
 import Zoom from "react-reveal/Zoom";
 import Pulse from "react-reveal/Pulse";
+import Contactmanager from "../components/contactmanager";
 
 function Leads() {
   const [isOpen, setOpen] = useState(false);
@@ -30,54 +31,56 @@ function Leads() {
             backgroundImage: `url(/assets/imgs/page/homepage4/weq.jpg)`,
             backgroundSize: "cover",
             height: "400px",
-            width:"100%"
+            width: "100%",
           }}
         >
           {/* Breadcrumb code */}
 
-        <Col  xs={{
-                span: 24,
-                offset: 1,
-              }}
-              lg={{
-                span: 9,
-                offset: 1,
-              }}
-              md={{
-                span: 16,
-                offset: 0,
-              }}
-              sm={{
-                span: 17,
-                offset: 1,
-              }}
-              xl={{
-                span: 22,
-                offset: 1,
-              }}
-              xxl={{
-                span: 22,
-                offset: 1,
-              }}>
-          <Content className={styles.bc} >
-            <Breadcrumb style={{  fontWeight: "bold" }}>
-              <Breadcrumb>
-                <Breadcrumb.Item style={{ color: "white" }}>
-                  Index
-                </Breadcrumb.Item>
-                <Breadcrumb.Item>
-                  <a style={{ color: "white" }} href="">
-                    Features
-                  </a>
-                </Breadcrumb.Item>
-                <Breadcrumb.Item>
-                  <a style={{ color: "white" }} href="">
-                    Leads
-                  </a>
-                </Breadcrumb.Item>
+          <Col
+            xs={{
+              span: 24,
+              offset: 1,
+            }}
+            lg={{
+              span: 9,
+              offset: 1,
+            }}
+            md={{
+              span: 16,
+              offset: 0,
+            }}
+            sm={{
+              span: 17,
+              offset: 1,
+            }}
+            xl={{
+              span: 22,
+              offset: 1,
+            }}
+            xxl={{
+              span: 22,
+              offset: 1,
+            }}
+          >
+            <Content className={styles.bc}>
+              <Breadcrumb style={{ fontWeight: "bold" }}>
+                <Breadcrumb>
+                  <Breadcrumb.Item style={{ color: "white" }}>
+                    Index
+                  </Breadcrumb.Item>
+                  <Breadcrumb.Item>
+                    <a style={{ color: "white" }} href="">
+                      Features
+                    </a>
+                  </Breadcrumb.Item>
+                  <Breadcrumb.Item>
+                    <a style={{ color: "white" }} href="">
+                      Leads
+                    </a>
+                  </Breadcrumb.Item>
+                </Breadcrumb>
               </Breadcrumb>
-            </Breadcrumb>
-          </Content>
+            </Content>
           </Col>
 
           {/* end of the breadcrumb code */}
@@ -108,7 +111,7 @@ function Leads() {
               }}
               xxl={{
                 span: 22,
-                offset:1,
+                offset: 1,
               }}
             >
               <div>
@@ -116,89 +119,18 @@ function Leads() {
                   <h1 className={styles.headings}>Leads</h1>
                 </Flip>
               </div>
+
+              <div className={styles.headparacenter}>
+                <Flip top cascade>
+                  <p className={styles.headpara}>
+                    Shadobooks offers an easy-to-use CRM interface and
+                    facilitates data access from anywhere at any time.
+                  </p>
+                </Flip>
+              </div>
             </Col>
           </Row>
         </div>
-
-        <Row>
-          <Col
-            xs={{
-              span: 23,
-              offset: 1,
-            }}
-            lg={{
-              span: 10,
-              offset: 0,
-            }}
-            md={{
-              span: 22,
-              offset: 0,
-            }}
-            sm={{
-              span: 17,
-              offset: 1,
-            }}
-            xl={{
-              span: 10,
-              offset: 1,
-            }}
-            xxl={{
-              span: 10,
-              offset: 0,
-            }}
-          >
-            <Flip cascade>
-              <p className={styles.para}>How does the Leads work ?</p>
-            </Flip>
-            <Zoom>
-              <p className={styles.subhead}>
-                {" "}
-                In simple terms, a lead is an individual or organization with an
-                interest in what you are selling. The interest is expressed by
-                sharing contact information, like an email ID, a phone number,
-                or even a social media handle.
-              </p>
-            </Zoom>
-          </Col>
-
-          {/* image for the first container */}
-
-          <Col
-            xs={{
-              span: 24,
-              offset: 0,
-            }}
-            lg={{
-              span: 12,
-              offset: 0,
-            }}
-            md={{
-              span: 22,
-              offset: 0,
-            }}
-            sm={{
-              span: 17,
-              offset: 1,
-            }}
-            xl={{
-              span: 12,
-              offset: 1,
-            }}
-            xxl={{
-              span: 10,
-              offset: 1,
-            }}
-          >
-            <Zoom>
-              <img
-                src="assets/imgs/page/homepage4/leadvec.jpg"
-                className={styles.conimg}
-              />
-            </Zoom>
-          </Col>
-        </Row>
-
-        {/* second container starts from here */}
 
         <Row>
           <Col
@@ -228,24 +160,81 @@ function Leads() {
             }}
           >
             <div>
-              <Flip top cascade>
-                <p className={styles.subhead2}>How to create a New Lead ?</p>
-              </Flip>
+              <Flip top cascade></Flip>
             </div>
           </Col>
         </Row>
 
         {/* second container image has been placed here */}
 
+        <Zoom>
+          <div className={styles.imgcenter}>
+            <img
+              src="assets/imgs/page/about/11/L.png"
+              className={styles.conimg2}
+            />
+          </div>
+        </Zoom>
+
+        {/* after image dialouges are wrriten here */}
+
+        <div className={styles.imgcon}>
+          <Zoom>
+            <p className={styles.subhead4}>
+            In Shadobook ERP, the lead page is shown when you click the lead module. Here we have the options to add a new lead, import a lead, filter options, and also the list form of generated leads.
+            </p>
+          </Zoom>
+        </div>
+
+        {/* addnewlead */}
+
         <Row>
+          <Col
+            xs={{
+              span: 23,
+              offset: 1,
+            }}
+            lg={{
+              span: 10,
+              offset: 0,
+            }}
+            md={{
+              span: 22,
+              offset: 0,
+            }}
+            sm={{
+              span: 17,
+              offset: 1,
+            }}
+            xl={{
+              span: 10,
+              offset: 1,
+            }}
+            xxl={{
+              span: 10,
+              offset: 0,
+            }}
+          >
+            <Flip cascade>
+              <p className={styles.para}>Add New Lead</p>
+            </Flip>
+            <Zoom>
+              <p className={styles.subhead}>
+              In this add new lead window, we have to select the details such as status, source, and assigned, enter the field name such as name, address, position,city,email address, state, company,etc., and click the save button to add the new task.
+              </p>
+            </Zoom>
+          </Col>
+
+          {/* image addnewlead */}
+
           <Col
             xs={{
               span: 24,
               offset: 0,
             }}
             lg={{
-              span: 22,
-              offset: 1,
+              span: 12,
+              offset: 0,
             }}
             md={{
               span: 22,
@@ -256,25 +245,24 @@ function Leads() {
               offset: 1,
             }}
             xl={{
-              span: 22,
+              span: 12,
               offset: 1,
             }}
             xxl={{
-              span: 30,
-              offset: 2,
+              span: 10,
+              offset: 1,
             }}
           >
             <Zoom>
               <img
-                src="assets/imgs/page/homepage4/12a.png"
-                className={styles.conimg2}
+                src="assets/imgs/page/about/11/AL.png"
+                className={styles.conimg}
               />
             </Zoom>
           </Col>
         </Row>
 
-        {/* after image dialouges are wrriten here */}
-
+        {/* importleads */}
         <Row>
           <Col
             xs={{
@@ -282,42 +270,75 @@ function Leads() {
               offset: 1,
             }}
             lg={{
-              span: 23,
+              span: 10,
               offset: 0,
             }}
             md={{
-              span: 23,
+              span: 22,
               offset: 0,
             }}
             sm={{
               span: 17,
-              offset: 0,
+              offset: 1,
             }}
             xl={{
-              span: 22,
-              offset: 0,
+              span: 10,
+              offset: 1,
             }}
             xxl={{
-              span: 22,
-              offset: 2,
+              span: 10,
+              offset: 0,
             }}
           >
+            <Flip cascade>
+              <p className={styles.para}>Import Leads</p>
+            </Flip>
             <Zoom>
-              <p className={styles.subhead4}>
-                Lead is a contact already determined to be a prospective
-                customer, whereas other companies consider a “lead” to be any
-                sales contact. But what remains the same across definitions is
-                that a lead will potentially become a future client. A sales
-                lead is a potential sales contact, individual or organization
-                that expresses an interest in your goods or services. Leads are
-                typically obtained through the referral of an existing customer
-                or through a direct response to advertising or publicity.
+              <p className={styles.subhead}>
+              In Shadobook ERP, when clicking the import lead button, the import page will open. Here, we have to select the csv file, status, source,responsible and then click the import button or simulate import button so the selected file will import.
               </p>
             </Zoom>
           </Col>
 
-          {/* learn more button codings are placed here */}
+          {/* image importleads */}
+
+          <Col
+            xs={{
+              span: 24,
+              offset: 0,
+            }}
+            lg={{
+              span: 12,
+              offset: 0,
+            }}
+            md={{
+              span: 22,
+              offset: 0,
+            }}
+            sm={{
+              span: 17,
+              offset: 1,
+            }}
+            xl={{
+              span: 12,
+              offset: 1,
+            }}
+            xxl={{
+              span: 10,
+              offset: 1,
+            }}
+          >
+            <Zoom>
+              <img
+                src="assets/imgs/page/about/11/IL.png"
+                className={styles.conimg}
+              />
+            </Zoom>
+          </Col>
         </Row>
+        <div>
+          <Contactmanager/>
+        </div>
       </Layout>
     </>
   );

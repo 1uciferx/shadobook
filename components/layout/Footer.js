@@ -3,9 +3,9 @@ import Link from "next/link";
 const Footer = () => {
     return (
         <>
-            <footer className="footer mt-50" style={{zIndex:"9999"}}>
+            <footer className="footer mt-50" >
                 <div className="container">
-                    {/*  <div className="footer-top">
+                      <div className="footer-top">
                        <div className="row">
                             <div className="col-md-4 col-sm-6 text-center text-md-start">
                                 <Link href="/">
@@ -21,7 +21,7 @@ const Footer = () => {
                                 </Link>
                             </div>
                         </div>
-                    </div> */}
+                    </div> 
                     <div className="row">
                         <div className="col-lg-3 width-20 mb-30">
                             <h4 className="text-heading-5">Contact</h4>

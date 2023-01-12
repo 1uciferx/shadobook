@@ -10,6 +10,18 @@
     text-shadow: 2px 2px 4px #000000;
 }
 
+.headpara {
+
+    text-align: center;
+    font-size: 16px;
+    font-family: Segoe UI;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-weight: 300;
+    font-style: normal;
+    text-shadow: 2px 2px 4px #000000;
+}
+
 .para {
     font-family: Segoe UI;
     text-align: start;
@@ -45,9 +57,32 @@
 
 .conimg2{
 
-    margin-top: 50px;
+    margin-top: 2%;
 }
 
+.conimg{
+
+    margin-top: 10%;
+}
+
+.imgcenter{
+    margin: auto;
+    text-align: center;
+  
+}
+
+.imgcon{
+    margin: auto;
+    text-align: center;
+    width: 90%;
+  
+}
+
+.headparacenter{
+margin: auto;
+text-align: center;
+width: 50%;
+}
 
 
 
@@ -59,7 +94,6 @@
 .subhead4 {
     font-family: Segoe UI;
     font-weight: normal;
-    width: 90%;
     text-align: center;
     font-size: 18px;
     margin-top: 50px;
@@ -120,6 +154,12 @@
         font-weight: 600;
         font-style: normal;
         text-shadow: 2px 2px 4px #000000;
+    }
+    
+.headparacenter{
+    margin: auto;
+    text-align: center;
+    width: 100%;
     }
 }
 

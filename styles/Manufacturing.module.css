@@ -83,7 +83,7 @@
 
 .para2 {
  margin-top: 20px;
- width: 80%;
+ width: 100%;
   font-family:Segoe UI;
   font-size: 18px;
   line-height: 23px;
@@ -91,13 +91,15 @@
   font-weight: 400;
   text-decoration: none solid rgb(0, 0, 0);
   text-align: center;
+  
+ 
 
 
 }
 
 .para3 {
   margin-top: 20px;
-  width: 80%;
+  width: 100%;
    font-family:Segoe UI;
    font-size: 18px;
    line-height: 23px;
@@ -105,7 +107,8 @@
    font-weight: 400;
    text-decoration: none solid rgb(0, 0, 0);
    text-align: center;
-   margin-left: 30px;
+   
+
  
  
  }
@@ -116,20 +119,21 @@
 }
 
 .conimgone {
-  height: 400px;
-  margin-top: 80px;
+  height: 50vh;
+  margin-top: 8%;
 }
 
 .conimgtwo {
-  height: 400px;
-  margin-top: 80px;
+  height: 50vh;
+  margin-top: 8%;
 }
 
 
 .tabimg {
-  height: 380px;
+  height: 80vh;
   margin-top: 80px;
   margin-bottom: 100px;
+
 }
 
 .mobiletab{
@@ -138,7 +142,8 @@
 
 
 
-@media screen and (min-width: 992px){
+
+@media screen and (min-width: 768px){
 
   .mobiletab{
     display: none;
@@ -147,6 +152,14 @@
   .imgcon {
     height: 400px;
     margin-top: 50px;
+  }
+
+  .subhead2 {
+    font-weight:bold;
+    font-size: 25px;
+    line-height: 40px;
+    color: #90331c;
+    margin-top: 10px;
   }
 
   .para {
@@ -178,8 +191,8 @@
 
 .tabimg {
   height: 350px;
-  margin-top: 80px;
-  margin-bottom: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 }
@@ -197,6 +210,87 @@
     margin-top: 30px;
   
   }
+
+  .tabimg {
+    height: 380px;
+    margin-top: 80px;
+  
+  }
+
+  .para2 {
+    margin-top: 20px;
+    width: 100%;
+     font-family:Segoe UI;
+     font-size: 18px;
+     line-height: 23px;
+     color:black;
+     font-weight: 400;
+     text-decoration: none solid rgb(0, 0, 0);
+     text-align: center;
+    
+   
+   
+   }
+   
+   .para3 {
+     margin-top: 20px;
+     width: 100%;
+      font-family:Segoe UI;
+      font-size: 18px;
+      line-height: 23px;
+      color:black;
+      font-weight: 400;
+      text-decoration: none solid rgb(0, 0, 0);
+      text-align: center;
+
+   
+    
+    
+    }
+
+  
+
+    
+  .para {
+   
+ 
+    font-family:Segoe UI;
+    font-size: 18px;
+    line-height: 23px;
+    color:black;
+    font-weight: 400;
+    text-decoration: none solid rgb(0, 0, 0);
+    width: 100%;
+ 
+
+}
+
+  .headings2{
+  
+    font-size: 46px;
+    line-height: 56px;
+    font-family: Segoe UI;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 50px;
+    
+}
+
+
+.subhead2 {
+  font-weight:bold;
+  font-size: 25px;
+  line-height: 40px;
+  color: #90331c;
+  margin-top: 0%;
+}
+
+
+  .heroimg {
+    height: 300px;
+    margin-top: 20px;
+  }
+  
 
 
   .headings3{
@@ -220,6 +314,9 @@
 .tabs{
   display: none;
 }
+.mobiletab{
+  display: block;
+}
 }
 
 
@@ -234,6 +331,10 @@
   }
   .mobiletab{
     display: none;
+  }
+  
+  .tabs{
+    display: block;
   }
 }
 

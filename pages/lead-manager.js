@@ -15,6 +15,7 @@ import styled from "styled-components";
 import { Controller, Scene } from "react-scrollmagic";
 import { Tween, Timeline } from "react-gsap";
 import Header from "../components/layout/Header";
+import Contactmanager from "../components/contactmanager";
 
 const { Content } = L;
 
@@ -663,7 +664,44 @@ function Leadmanager() {
                 offset: 2,
               }}
               xxl={{
-                span: 8,
+                span: 24,
+                offset: 0,
+              }}
+            
+              >
+              <div>
+                <Contactmanager/>
+                </div>  
+              </Col>
+            </div>
+          </Scene>
+
+
+          <Scene pin>
+            <div className={styles.panel}>
+              <Col
+               xs={{
+                span: 22,
+                offset: 2,
+              }}
+              lg={{
+                span: 24,
+                offset: 1,
+              }}
+              md={{
+                span: 20,
+                offset: 2,
+              }}
+              sm={{
+                span: 22,
+                offset: 1,
+              }}
+              xl={{
+                span: 22,
+                offset: 2,
+              }}
+              xxl={{
+                span: 24,
                 offset: 0,
               }}
               className={styles.footer}

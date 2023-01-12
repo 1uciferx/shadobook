@@ -14,6 +14,7 @@ const { Content } = L;
 import { BackTop } from "antd";
 import { Button, Dropdown, Space } from "antd";
 import { DownOutlined } from "@ant-design/icons";
+import Contactmanager from "../components/contactmanager";
 
 function Process() {
   return (
@@ -22,316 +23,596 @@ function Process() {
         {/* Nav Tabs */}
 
         {/* innerheader */}
-        <Content
-        
-          style={{
-            backgroundImage: `url(/assets/imgs/page/homepage4/ban9.jpg)`,
-            backgroundSize: "cover",
-            height: "550px",
-            padding: "10px 100px",
-          }}
-        >
-          <Breadcrumb style={{ margin: "16px 0", fontWeight: "bold" }}>
-            <Breadcrumb.Item>Home</Breadcrumb.Item>
-            <Breadcrumb.Item>Features</Breadcrumb.Item>
-            <Breadcrumb.Item>Inventory</Breadcrumb.Item>
-          </Breadcrumb>
+        <Content className={styles.bghead}>
+          <Col
+            xs={{
+              span: 24,
+              offset: 1,
+            }}
+            lg={{
+              span: 9,
+              offset: 1,
+            }}
+            md={{
+              span: 16,
+              offset: 0,
+            }}
+            sm={{
+              span: 17,
+              offset: 1,
+            }}
+            xl={{
+              span: 22,
+              offset: 1,
+            }}
+            xxl={{
+              span: 22,
+              offset: 1,
+            }}
+          >
+            <Content className={styles.bc}>
+              <Breadcrumb>
+                <Breadcrumb>
+                  <Breadcrumb.Item>Index</Breadcrumb.Item>
+                  <Breadcrumb.Item>
+                    <a href="">Features</a>
+                  </Breadcrumb.Item>
+                  <Breadcrumb.Item>
+                    <a href="">Purchase</a>
+                  </Breadcrumb.Item>
+                </Breadcrumb>
+              </Breadcrumb>
+            </Content>
+          </Col>
 
           <Row>
-            <Col span={14}>
-              {/* <a
-                      className="popup-youtube btn-play-video-2"
-                      onClick={() => setOpen(true)}
-                    ></a> */}
-
+            <Col
+              xs={{
+                span: 24,
+                offset: 0,
+              }}
+              lg={{
+                span: 10,
+                offset: 1,
+              }}
+              md={{
+                span: 22,
+                offset: 2,
+              }}
+              sm={{
+                span: 22,
+                offset: 1,
+              }}
+              xl={{
+                span: 10,
+                offset: 1,
+              }}
+              xxl={{
+                span: 11,
+                offset: 0,
+              }}
+            >
               <img
-                className="img "
+                className={styles.heroimg}
                 alt="Agon"
-                src="assets/imgs/page/homepage4/purchase.jpg "
-                style={{
-                  borderRadius: "10px",
-                  height: "400px",
-                  maxWidth: "130%",
-                  marginRight: "200px",
-                  marginTop: "30px",
-                }}
+                src="assets/imgs/page/homepage4/invvec.jpg "
               />
             </Col>
 
-            <Col span={10} style={{ marginTop: "100px" }}>
+            <Col
+              xs={{
+                span: 24,
+                offset: 0,
+              }}
+              lg={{
+                span: 10,
+                offset: 3,
+              }}
+              md={{
+                span: 22,
+                offset: 2,
+              }}
+              sm={{
+                span: 22,
+                offset: 1,
+              }}
+              xl={{
+                span: 10,
+                offset: 3,
+              }}
+              xxl={{
+                span: 9,
+                offset: 0,
+              }}
+            >
               <h1 className={styles.headings}>Inventory</h1>
               <h4 className={styles.para}>
-                Your organization might have several different sales processes
-                in place like deal closure, lead follow-up, order management, or
-                your discount process. With Blueprints, you can capture every
-                stage of these offline sales processes inside your CRM, and
-                execute them in a systematic manner.
+                Be it managing your orders, tracking your stock, keeping a tab
+                on your warehouse operations, handling GST billing, and
+                fulfilling orders on the go, Shadobooks helps you with
+                comprehensive inventory management on the go. Stay informed
+                about all your commodities and the numbers available, along with
+                even their expiration dates, taxing, SKU codes, warehouse
+                availability and order management. There’s also a wide scope of
+                integrations with all your operational software tools to make it
+                easy for you to manage all your operations under one roof.
               </h4>
             </Col>
           </Row>
         </Content>
 
-        <Content style={{ marginTop: "100px" }}>
-          <h2 className={styles.headings2}>Items</h2>
+        <h2 className={styles.headings2}>Items</h2>
 
-          <Col span={24} push="5">
+        <Col
+          xs={{
+            span: 24,
+            offset: 0,
+          }}
+          lg={{
+            span: 22,
+            offset: 1,
+          }}
+          md={{
+            span: 22,
+            offset: 0,
+          }}
+          sm={{
+            span: 17,
+            offset: 1,
+          }}
+          xl={{
+            span: 22,
+            offset: 1,
+          }}
+          xxl={{
+            span: 24,
+            offset: 0,
+          }}
+        >
+          <div className={styles.centerimg}>
             <img
+              className={styles.conimg}
               src="assets/imgs/page/about/3/items.png"
               alt="Agon"
-              style={{
-                borderRadius: "10px",
-                height: "500px",
-                marginTop: "30px",
-              
-              }}
             />
-          </Col>
+          </div>
+        </Col>
 
-          <Content style={{ padding: "50px 100px" }}>
-            <p className={styles.para}>
-              Your organization might have several different sales processes in
-              place—like deal closure, lead follow-up, order management, or your
-              discount process. With Blueprints, you can capture every stage of
-              these offline sales processes inside your CRM, and execute them in
-              a systematic manner.
-            </p>
-          </Content>
-        </Content>
-        <Content style={{ marginTop: "20px" }}>
-          <h2 className={styles.headings2}>Inventory Receiving Vouchers</h2>
+        <div className={styles.centercon}>
+          <p className={styles.para}>
+            In Shadobook ERP, a list of items will display by clicking the
+            inventory module's "items" tab. Here, enter all the details such as
+            the commodity code, name, warehouse name, unit name, etc. According
+            to the details provided in the form, an items file will be shown on
+            the items page.
+          </p>
+        </div>
 
-          <Col span={24} push="4">
+        <h2 className={styles.headings2}>Inventory Receiving Vouchers</h2>
+
+        <Col
+          xs={{
+            span: 24,
+            offset: 0,
+          }}
+          lg={{
+            span: 22,
+            offset: 1,
+          }}
+          md={{
+            span: 22,
+            offset: 0,
+          }}
+          sm={{
+            span: 17,
+            offset: 1,
+          }}
+          xl={{
+            span: 22,
+            offset: 1,
+          }}
+          xxl={{
+            span: 24,
+            offset: 0,
+          }}
+        >
+          <div className={styles.centerimg}>
             <img
-              src="assets/imgs/page/about/3/img.png"
+              className={styles.conimg}
+              src="assets/imgs/page/about/3/IRV.png"
               alt="Agon"
-              style={{
-                borderRadius: "10px",
-                height: "500px",
-                marginTop: "30px",
-              }}
             />
-          </Col>
+          </div>
+        </Col>
 
-          <Content className="site-layout" style={{ padding: "50px 100px" }}>
-            <p className={styles.para}>
-              Your organization might have several different sales processes in
-              place—like deal closure, lead follow-up, order management, or your
-              discount process. With Blueprints, you can capture every stage of
-              these offline sales processes inside your CRM, and execute them in
-              a systematic manner.
-            </p>
-          </Content>
-        </Content>
+        <div className={styles.centercon}>
+          <p className={styles.para}>
+            Here we can add the vouchers by clicking the delivery docket button
+            and enter the details like docket number,choose from a purchase
+            order,supplier name,accounting date,buyer,project,warehouse name
+            etc.,and click the save button now we can able to see the list of
+            deliveries in list form in  shadobook ERP
+          </p>
+        </div>
 
-        <Content style={{ marginTop: "20px" }}>
-          <h2 className={styles.headings2}>Inventory Delivery Vouchers</h2>
-
-          <Col span={24} push="4">
+        <h2 className={styles.headings2}>Inventory Delivery Vouchers</h2>
+        <Col
+          xs={{
+            span: 24,
+            offset: 0,
+          }}
+          lg={{
+            span: 22,
+            offset: 1,
+          }}
+          md={{
+            span: 22,
+            offset: 0,
+          }}
+          sm={{
+            span: 17,
+            offset: 1,
+          }}
+          xl={{
+            span: 22,
+            offset: 1,
+          }}
+          xxl={{
+            span: 24,
+            offset: 0,
+          }}
+        >
+          <div className={styles.centerimg}>
             <img
-              src="assets/imgs/page/about/3/img.png"
+              className={styles.conimg}
+              src="assets/imgs/page/about/3/IDV.png"
               alt="Agon"
-              style={{
-                borderRadius: "10px",
-                height: "500px",
-                marginTop: "30px",
-              }}
             />
-          </Col>
+          </div>
+        </Col>
 
-          <Content className="site-layout" style={{ padding: "50px 100px" }}>
-            <p className={styles.para}>
-              Your organization might have several different sales processes in
-              place—like deal closure, lead follow-up, order management, or your
-              discount process. With Blueprints, you can capture every stage of
-              these offline sales processes inside your CRM, and execute them in
-              a systematic manner.
-            </p>
-          </Content>
-        </Content>
-        <Content style={{ marginTop: "20px" }}>
-          <h2 className={styles.headings2}>Package Lists</h2>
+        <div className={styles.centercon}>
+          <p className={styles.para}>
+            The inventory module in shadobook ERP displays inventory deliveries
+            in list form with details such as voucher code, customer name,
+            voucher date, invoices, to, address, HR code, status, delivery
+            status, and the option to export the slip.
+          </p>
+        </div>
 
-          <Col span={24} push="4">
+        <h2 className={styles.headings2}>Packing Lists</h2>
+
+        <Col
+          xs={{
+            span: 24,
+            offset: 0,
+          }}
+          lg={{
+            span: 22,
+            offset: 1,
+          }}
+          md={{
+            span: 22,
+            offset: 0,
+          }}
+          sm={{
+            span: 17,
+            offset: 1,
+          }}
+          xl={{
+            span: 22,
+            offset: 1,
+          }}
+          xxl={{
+            span: 24,
+            offset: 0,
+          }}
+        >
+          <div className={styles.centerimg}>
             <img
-              src="assets/imgs/page/about/3/img.png"
+              className={styles.conimg}
+              src="assets/imgs/page/about/3/PL.png"
               alt="Agon"
-              style={{
-                borderRadius: "10px",
-                height: "500px",
-                marginTop: "30px",
-              }}
             />
-          </Col>
+          </div>
+        </Col>
 
-          <Content className="site-layout" style={{ padding: "50px 100px" }}>
-            <p className={styles.para}>
-              Your organization might have several different sales processes in
-              place—like deal closure, lead follow-up, order management, or your
-              discount process. With Blueprints, you can capture every stage of
-              these offline sales processes inside your CRM, and execute them in
-              a systematic manner.
-            </p>
-          </Content>
-        </Content>
-        <Content style={{ marginTop: "20px" }}>
-          <h2 className={styles.headings2}>Internal Delivery Note</h2>
+        <div className={styles.centercon}>
+          <p className={styles.para}>
+            In Shadobook ERP, the packing list is part of the inventory module,
+            and we can filter the packing list data on this page by date, staff,
+            inventory delivery voucher, and status.And you also have the option
+            to add the packing list with the help of the add button, enter all
+            the details here, and click the save button.
+          </p>
+        </div>
 
-          <Col span={24} push="4">
+        <h2 className={styles.headings2}>Internal Delivery Note</h2>
+
+        <Col
+          xs={{
+            span: 24,
+            offset: 0,
+          }}
+          lg={{
+            span: 22,
+            offset: 1,
+          }}
+          md={{
+            span: 22,
+            offset: 0,
+          }}
+          sm={{
+            span: 17,
+            offset: 1,
+          }}
+          xl={{
+            span: 22,
+            offset: 1,
+          }}
+          xxl={{
+            span: 24,
+            offset: 0,
+          }}
+        >
+          <div className={styles.centerimg}>
             <img
-              src="assets/imgs/page/about/3/img.png"
+              className={styles.conimg}
+              src="assets/imgs/page/about/3/IDN.png"
               alt="Agon"
-              style={{
-                borderRadius: "10px",
-                height: "500px",
-                marginTop: "30px",
-              }}
             />
-          </Col>
+          </div>
+        </Col>
 
-          <Content className="site-layout" style={{ padding: "50px 100px" }}>
-            <p className={styles.para}>
-              Your organization might have several different sales processes in
-              place—like deal closure, lead follow-up, order management, or your
-              discount process. With Blueprints, you can capture every stage of
-              these offline sales processes inside your CRM, and execute them in
-              a systematic manner.
-            </p>
-          </Content>
-        </Content>
+        <div className={styles.centercon}>
+          <p className={styles.para}>
+            In Shadobook ERP, the internal delivery note is used to track goods
+            or services. Here we can add the internal delivery note by clicking
+            the "add" button, entering all the details (such as the delivery
+            note number, sender, added from, date created, total amount, and
+            status), and clicking the "save" button. The generated list appears
+            in the form of a list.
+          </p>
+        </div>
 
+        <h2 className={styles.headings2}>Loss & Adjustments</h2>
 
-       <Content style={{ marginTop: "20px" }}>
-          <h2 className={styles.headings2}>Loss & Adjustments</h2>
-
-          <Col span={24} push="4">
+        <Col
+          xs={{
+            span: 24,
+            offset: 0,
+          }}
+          lg={{
+            span: 22,
+            offset: 1,
+          }}
+          md={{
+            span: 22,
+            offset: 0,
+          }}
+          sm={{
+            span: 17,
+            offset: 1,
+          }}
+          xl={{
+            span: 22,
+            offset: 1,
+          }}
+          xxl={{
+            span: 24,
+            offset: 0,
+          }}
+        >
+          <div className={styles.centerimg}>
             <img
-              src="assets/imgs/page/about/3/img.png"
+              className={styles.conimg}
+              src="assets/imgs/page/about/3/LA.png"
               alt="Agon"
-              style={{
-                borderRadius: "10px",
-                height: "500px",
-                marginTop: "30px",
-              }}
             />
-          </Col>
+          </div>
+        </Col>
 
-          <Content className="site-layout" style={{ padding: "50px 100px" }}>
-            <p className={styles.para}>
-              Your organization might have several different sales processes in
-              place—like deal closure, lead follow-up, order management, or your
-              discount process. With Blueprints, you can capture every stage of
-              these offline sales processes inside your CRM, and execute them in
-              a systematic manner.
-            </p>
-          </Content>
-        </Content>
+        <div className={styles.centercon}>
+          <p className={styles.para}>
+            In this window, we can easily access the loss or adjustment in the
+            inventory module, and by clicking the add button, we can create the
+            loss or adjustment by entering the details such as type, time, date
+            created, status, reason, and creator. and click the save button; now
+            the details are viewed in list form. We can also filter the data by
+            selecting options such as time, date created, status, and type.
+          </p>
+        </div>
 
+        <h2 className={styles.headings2}>Receiving-Exporting Return Order</h2>
 
-       <Content style={{ marginTop: "20px" }}>
-          <h2 className={styles.headings2}>Receiving-Exporting Return Order</h2>
-
-          <Col span={24} push="4">
+        <Col
+          xs={{
+            span: 24,
+            offset: 0,
+          }}
+          lg={{
+            span: 22,
+            offset: 1,
+          }}
+          md={{
+            span: 22,
+            offset: 0,
+          }}
+          sm={{
+            span: 17,
+            offset: 1,
+          }}
+          xl={{
+            span: 22,
+            offset: 1,
+          }}
+          xxl={{
+            span: 24,
+            offset: 0,
+          }}
+        >
+          <div className={styles.centerimg}>
             <img
-              src="assets/imgs/page/about/3/img.png"
+              className={styles.conimg}
+              src="assets/imgs/page/about/3/RERO.png"
               alt="Agon"
-              style={{
-                borderRadius: "10px",
-                height: "500px",
-                marginTop: "30px",
-              }}
             />
-          </Col>
+          </div>
+        </Col>
 
-          <Content className="site-layout" style={{ padding: "50px 100px" }}>
-            <p className={styles.para}>
-              Your organization might have several different sales processes in
-              place—like deal closure, lead follow-up, order management, or your
-              discount process. With Blueprints, you can capture every stage of
-              these offline sales processes inside your CRM, and execute them in
-              a systematic manner.
-            </p>
-          </Content>
-        </Content>
+        <div className={styles.centercon}>
+          <p className={styles.para}>
+            Here the page shows the receiving-exporting return order in the form
+            of a list with the details such as the order return number, customer
+            name, total amount, discount amount, total after discount, date
+            created, type, and status. also have the option to add the receiving
+            export return order in Shadobook ERP.
+          </p>
+        </div>
 
+        <h2 className={styles.headings2}>Warehouse</h2>
 
-        <Content style={{ marginTop: "20px" }}>
-          <h2 className={styles.headings2}>Warehouse</h2>
-
-          <Col span={24} push="4">
+        <Col
+          xs={{
+            span: 24,
+            offset: 0,
+          }}
+          lg={{
+            span: 22,
+            offset: 1,
+          }}
+          md={{
+            span: 22,
+            offset: 0,
+          }}
+          sm={{
+            span: 17,
+            offset: 1,
+          }}
+          xl={{
+            span: 22,
+            offset: 1,
+          }}
+          xxl={{
+            span: 24,
+            offset: 0,
+          }}
+        >
+          <div className={styles.centerimg}>
             <img
-              src="assets/imgs/page/about/3/img.png"
+              className={styles.conimg}
+              src="assets/imgs/page/about/3/Warehouse.png"
               alt="Agon"
-              style={{
-                borderRadius: "10px",
-                height: "500px",
-                marginTop: "30px",
-              }}
             />
-          </Col>
+          </div>
+        </Col>
 
-          <Content className="site-layout" style={{ padding: "50px 100px" }}>
-            <p className={styles.para}>
-              Your organization might have several different sales processes in
-              place—like deal closure, lead follow-up, order management, or your
-              discount process. With Blueprints, you can capture every stage of
-              these offline sales processes inside your CRM, and execute them in
-              a systematic manner.
-            </p>
-          </Content>
-        </Content>
+        <div className={styles.centercon}>
+          <p className={styles.para}>
+            In this window, we have the option to add the warehouse with the
+            necessary details, such as warehouse code, warehouse name, warehouse
+            address, order, display and note. And also have the "add multiple"
+            option and the list of warehouses displayed in the form of a list.
+          </p>
+        </div>
 
+        <h2 className={styles.headings2}>Inventory History</h2>
 
-        <Content style={{ marginTop: "20px" }}>
-          <h2 className={styles.headings2}>Inventory History</h2>
-
-          <Col span={24} push="4">
+        <Col
+          xs={{
+            span: 24,
+            offset: 0,
+          }}
+          lg={{
+            span: 22,
+            offset: 1,
+          }}
+          md={{
+            span: 22,
+            offset: 0,
+          }}
+          sm={{
+            span: 17,
+            offset: 1,
+          }}
+          xl={{
+            span: 22,
+            offset: 1,
+          }}
+          xxl={{
+            span: 24,
+            offset: 0,
+          }}
+        >
+          <div className={styles.centerimg}>
             <img
-              src="assets/imgs/page/about/3/img.png"
+              className={styles.conimg}
+              src="assets/imgs/page/about/3/IH.png"
               alt="Agon"
-              style={{
-                borderRadius: "10px",
-                height: "500px",
-                marginTop: "30px",
-              }}
             />
-          </Col>
+          </div>
+        </Col>
 
-          <Content className="site-layout" style={{ padding: "50px 100px" }}>
-            <p className={styles.para}>
-              Your organization might have several different sales processes in
-              place—like deal closure, lead follow-up, order management, or your
-              discount process. With Blueprints, you can capture every stage of
-              these offline sales processes inside your CRM, and execute them in
-              a systematic manner.
-            </p>
-          </Content>
-        </Content>
+        <div className={styles.centercon}>
+          <p className={styles.para}>
+            In ShadoBook ERP, the inventory history shows the list of warehouses
+            with code, name, voucher date, opening stock, closing stock, serial
+            number, and status. and also have the option to filter the history
+            by warehouse,  commodity,  status, and date.
+          </p>
+        </div>
 
-        <Content style={{ marginTop: "20px" }}>
-          <h2 className={styles.headings2}>Settings</h2>
+        <h2 className={styles.headings2}>Settings</h2>
 
-          <Col span={24} push="4">
+        <Col
+          xs={{
+            span: 24,
+            offset: 0,
+          }}
+          lg={{
+            span: 22,
+            offset: 1,
+          }}
+          md={{
+            span: 22,
+            offset: 0,
+          }}
+          sm={{
+            span: 17,
+            offset: 1,
+          }}
+          xl={{
+            span: 22,
+            offset: 1,
+          }}
+          xxl={{
+            span: 24,
+            offset: 0,
+          }}
+        >
+          <div className={styles.centerimg}>
             <img
-              src="assets/imgs/page/about/3/img.png"
+              className={styles.conimg}
+              src="assets/imgs/page/about/3/INSET.png"
               alt="Agon"
-              style={{
-                borderRadius: "10px",
-                height: "500px",
-                marginTop: "30px",
-              }}
             />
-          </Col>
+          </div>
+        </Col>
 
-          <Content className="site-layout" style={{ padding: "50px 100px" }}>
-            <p className={styles.para}>
-              Your organization might have several different sales processes in
-              place—like deal closure, lead follow-up, order management, or your
-              discount process. With Blueprints, you can capture every stage of
-              these offline sales processes inside your CRM, and execute them in
-              a systematic manner.
-            </p>
-          </Content>
-        </Content>
+        <div className={styles.centercon}>
+          <p className={styles.para}>
+            Inventory settings are the settings that control how an inventory
+            system behaves. This includes settings such as the commodity type,
+            commodity group, subgroup, Units, Colors, Models, Sizes, Styles,
+            Warehouse custom fields, minimum and maximum inventory, prefix
+            settings, Approval settings and Reset data.
+          </p>
+        </div>
+
+        <div>
+          <Contactmanager/>
+        </div>
+
         {/* <section className="section-box mt-100">
           <div className="container">
             <div className="row">

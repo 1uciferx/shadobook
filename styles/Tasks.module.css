@@ -22,17 +22,17 @@
   .imgalign{
     width: 80%;
     margin: auto;
+    text-align: center;
   }
 
   
   .conalign{
     width: 80%;
     margin: auto;
+    text-align: center;
   }
   
-  .bc{
-    padding: 10px;
-}
+
 
   .modimg{
     border-radius: 500px;
@@ -47,7 +47,6 @@
     color:black;
     font-weight: 400;
     text-decoration: none solid rgb(0, 0, 0);
-    width: 90%;
     margin-top: 30px;
   
   
@@ -146,7 +145,7 @@
   
   .conimg{
     border-radius: 10px;
-    height: 500px;
+    height: 70vh;
     margin-top:30px;
   }
 

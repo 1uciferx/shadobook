@@ -14,6 +14,7 @@ import { Button, Space } from "antd";
 import Slide from "react-reveal/Slide";
 import Pulse from "react-reveal/Pulse";
 import { Breadcrumb, Layout as L } from "antd";
+import Contactmanager from "../components/contactmanager";
 const { Content } = L;
 
 function Task() {
@@ -30,50 +31,46 @@ function Task() {
               opacity={[0.9, 1]}
             />
             <ParallaxBannerLayer>
-            <Col  xs={{
-                span: 24,
-                offset: 1,
-              }}
-              lg={{
-                span: 9,
-                offset: 1,
-              }}
-              md={{
-                span: 16,
-                offset: 0,
-              }}
-              sm={{
-                span: 17,
-                offset: 1,
-              }}
-              xl={{
-                span: 22,
-                offset: 1,
-              }}
-              xxl={{
-                span: 22,
-                offset: 1,
-              }}>
-          <Content className={styles.bc} >
-            <Breadcrumb style={{  fontWeight: "bold" }}>
-              <Breadcrumb>
-                <Breadcrumb.Item>
-                  Index
-                </Breadcrumb.Item>
-                <Breadcrumb.Item>
-                  <a  href="">
-                    Features
-                  </a>
-                </Breadcrumb.Item>
-                <Breadcrumb.Item>
-                  <a  href="">
-                  Tasks
-                  </a>
-                </Breadcrumb.Item>
-              </Breadcrumb>
-            </Breadcrumb>
-          </Content>
-          </Col>
+              <Col
+                xs={{
+                  span: 24,
+                  offset: 1,
+                }}
+                lg={{
+                  span: 9,
+                  offset: 1,
+                }}
+                md={{
+                  span: 16,
+                  offset: 0,
+                }}
+                sm={{
+                  span: 17,
+                  offset: 1,
+                }}
+                xl={{
+                  span: 22,
+                  offset: 1,
+                }}
+                xxl={{
+                  span: 22,
+                  offset: 1,
+                }}
+              >
+                <Content className={styles.bc}>
+                  <Breadcrumb style={{ fontWeight: "bold" }}>
+                    <Breadcrumb>
+                      <Breadcrumb.Item>Index</Breadcrumb.Item>
+                      <Breadcrumb.Item>
+                        <a href="">Features</a>
+                      </Breadcrumb.Item>
+                      <Breadcrumb.Item>
+                        <a href="">Tasks</a>
+                      </Breadcrumb.Item>
+                    </Breadcrumb>
+                  </Breadcrumb>
+                </Content>
+              </Col>
               <Pulse>
                 <h1 className={styles.headings}>Tasks</h1>
               </Pulse>
@@ -105,15 +102,13 @@ function Task() {
                 }}
               >
                 <div className={styles.paraheadalign}>
-                <p className={styles.parahead}>
-                  <Zoom>
-                    Shadobooks focuses on making your procurement
-                  </Zoom>
-                </p>
+                  <p className={styles.parahead}>
+                    <Zoom>"Achieve more - with less effort"</Zoom>
+                  </p>
                 </div>
               </Col>
 
-              <Pulse>
+              {/* <Pulse>
                 <Col
                   xs={{
                     span: 22,
@@ -147,7 +142,7 @@ function Task() {
                    
                   />
                 </Col>
-              </Pulse>
+              </Pulse> */}
             </ParallaxBannerLayer>
           </ParallaxBanner>
         </ParallaxProvider>
@@ -183,12 +178,11 @@ function Task() {
           }}
         >
           <div className={styles.imgalign}>
-          <img
-            src="assets/imgs/page/about/3/img.png"
-            alt="Agon"
-            className={styles.conimg}
-           
-          />
+            <img
+              src="assets/imgs/page/about/10/TS.png"
+              alt="Agon"
+              className={styles.conimg}
+            />
           </div>
         </Col>
 
@@ -219,13 +213,12 @@ function Task() {
           }}
         >
           <div className={styles.conalign}>
-          <p className={styles.paracon}>
-            Your organization might have several different sales processes in
-            place—like deal closure, lead follow-up, order management, or your
-            discount process. With Blueprints, you can capture every stage of
-            these offline sales processes inside your CRM, and execute them in a
-            systematic manner.
-          </p>
+            <p className={styles.paracon}>
+              Shadobook ERP displays the task summary in this window. Go to the
+              task module to get this page. Here we get the details about the
+              task name, status, start date, due date, who it's assigned to, and
+              priority in the form of a list.
+            </p>
           </div>
         </Col>
 
@@ -259,12 +252,12 @@ function Task() {
             offset: 0,
           }}
         >
-           <div className={styles.imgalign}>
-          <img
-            src="assets/imgs/page/about/3/img.png"
-            alt="Agon"
-            className={styles.conimg}
-          />
+          <div className={styles.imgalign}>
+            <img
+              src="assets/imgs/page/about/10/ANT.png"
+              alt="Agon"
+              className={styles.conimg}
+            />
           </div>
         </Col>
 
@@ -295,13 +288,12 @@ function Task() {
           }}
         >
           <div className={styles.conalign}>
-          <p className={styles.paracon}>
-            Your organization might have several different sales processes in
-            place—like deal closure, lead follow-up, order management, or your
-            discount process. With Blueprints, you can capture every stage of
-            these offline sales processes inside your CRM, and execute them in a
-            systematic manner.
-          </p>
+            <p className={styles.paracon}>
+              We can add a new task in shadobook ERP by clicking the "Add New"
+              tab, entering all the details such as subject, start date, due
+              date, priority, assignees, and so on, and then clicking the "Save"
+              button; the task will then appear in the task summary page.
+            </p>
           </div>
         </Col>
 
@@ -335,8 +327,7 @@ function Task() {
             <img
               className={styles.conimg3}
               alt="Agon"
-              src="assets/imgs/page/homepage4/ban1.jpg "
-           
+              src="assets/imgs/page/about/10/STK.png"
             />
           </Col>
 
@@ -368,15 +359,13 @@ function Task() {
           >
             <h4 className={styles.subhead2}>Switch to Kanban</h4>
             <p className={styles.para}>
-              The estimate feature will give you the option to customize the
-              form that is tailored to give you a better understanding of the
-              customer intent. The CRM will enable assigning this influx of
-              requests to specific teams and employees.
+              When you click the switch to Karaban icon button on this page, it
+              displays the tasks as "not started," "in progress," "tested,"
+              "awaiting feedback," and "completed."Again, click that icon to go
+              back.
             </p>
           </Col>
         </Row>
-
-       
 
         <Slide left cascade>
           <h2 className={styles.headings2}> Tasks Overview</h2>
@@ -408,12 +397,12 @@ function Task() {
             offset: 0,
           }}
         >
-           <div className={styles.imgalign}>
-          <img
-            src="assets/imgs/page/about/3/img.png"
-            alt="Agon"
-            className={styles.conimg}
-          />
+          <div className={styles.imgalign}>
+            <img
+              src="assets/imgs/page/about/10/TO.png"
+              alt="Agon"
+              className={styles.conimg}
+            />
           </div>
         </Col>
 
@@ -444,15 +433,15 @@ function Task() {
           }}
         >
           <div className={styles.conalign}>
-          <p className={styles.paracon}>
-            Your organization might have several different sales processes in
-            place—like deal closure, lead follow-up, order management, or your
-            discount process. With Blueprints, you can capture every stage of
-            these offline sales processes inside your CRM, and execute them in a
-            systematic manner.
-          </p>
+            <p className={styles.paracon}>
+            In the Shadobook ERP task module, the task overview page shows the list of added task lists. Here, we also have the option to filter the task lists by staff members, month, and year.
+            </p>
           </div>
         </Col>
+
+        <div>
+          <Contactmanager/>
+        </div>
       </Layout>
     </>
   );
