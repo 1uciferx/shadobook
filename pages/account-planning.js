@@ -22,7 +22,7 @@ function Accountplanning() {
             <div className="container">
               <div className="row">
                 <div className="col-lg-7">
-                  <h1 className="text-display-3 mt-30">Account Planning</h1>
+                  <h1 className="text-display-4 mt-30">Account Planning</h1>
                   <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
                     Leverage the account planning section of the CRM to drive
                     your business towards informed decision-making when it comes

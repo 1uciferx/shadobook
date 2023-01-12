@@ -6,6 +6,7 @@ import Preloader from '../components/elements/Preloader';
 import 'react-modal-video/css/modal-video.css';
 import TawkTo from 'tawkto-react'
 import 'antd/dist/reset.css';
+import FlagApp from '../components/FlagApp';
 
 
 function MyApp({ Component, pageProps }) {

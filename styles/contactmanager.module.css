@@ -1,0 +1,147 @@
+.body {
+    background-image: url("/assets/imgs/page/homepage1/ac.jpg");
+    background-size: cover;
+    border-radius: 0px;
+    height: 500px;
+    width: 100%;
+
+}
+
+
+.parahead {
+    font-family: Segoe UI;
+    font-size: 46px;
+    line-height: 46px;
+    color: #903310;
+    font-weight: 500;
+    text-decoration: none solid rgb(0, 0, 0);
+    width: 70%;
+    text-align: center;
+
+    backdrop-filter: blur(20px);
+
+
+
+}
+
+.paraheadcontainer {
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    position: relative;
+}
+
+.bodycontainer {
+    margin: auto;
+    width: 100%;
+    backdrop-filter: blur(50px);
+
+
+
+}
+
+
+.formcontainer {
+    margin-top: 15%;
+    background: rgba(0, 0, 0, 0);
+    backdrop-filter: saturate(180%) blur(10px);
+    padding: 20px 30px;
+    border-radius: 5px;
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+
+    .parahead {
+        font-family: Segoe UI;
+        font-size: 24px;
+        line-height: 26px;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        text-decoration: none solid rgb(0, 0, 0);
+        width: 100%;
+        text-align: center;
+
+
+    }
+
+    .paraheadcontainer {
+        margin: auto;
+        text-align: center;
+        margin-top: 20%;
+        position: relative;
+        display: none;
+    }
+
+    .formcontainer {
+        margin-top: 30%;
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: saturate(180%) blur(10px);
+        padding: 30px 30px;
+        border-radius: 5px;
+
+
+
+    }
+
+    .body {
+        background-image: url("/assets/imgs/page/homepage1/ac.jpg");
+        background-size: cover;
+        border-radius: 0px;
+        height: 65vh;
+        
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .parahead {
+        font-family: Segoe UI;
+        font-size: 24px;
+        line-height: 26px;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        text-decoration: none solid rgb(0, 0, 0);
+        width: 100%;
+        text-align: center;
+
+
+    }
+
+    .paraheadcontainer {
+        margin: auto;
+        text-align: center;
+        margin-top: 20%;
+        position: relative;
+        display: none;
+    }
+
+    .formcontainer {
+        margin-top: 30%;
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: saturate(180%) blur(10px);
+        padding: 30px 30px;
+        border-radius: 5px;
+
+
+
+    }
+    .body {
+        background-image: url("/assets/imgs/page/homepage1/ac.jpg");
+        background-size: cover;
+        border-radius: 0px;
+        height: 65vh;
+        
+    }
+}
