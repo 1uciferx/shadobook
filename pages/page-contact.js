@@ -5,7 +5,6 @@ import { Breadcrumb, Layout as L } from "antd";
 const { Content } = L;
 import React, { useState } from "react";
 import {
-  AutoComplete,
   Button,
   Cascader,
   Checkbox,
@@ -16,6 +15,10 @@ import {
   Row,
   Select,
 } from "antd";
+import emailjs from '@emailjs/browser';
+import { toast } from "react-toastify";
+
+
 
 const { Option } = Select;
 const residences = [
@@ -84,10 +87,54 @@ const tailFormItemLayout = {
 };
 
 function Contact() {
+
   const [form] = Form.useForm();
-  const onFinish = (values) => {
-    console.log("Received values of form: ", values);
+
+  const [value, setValue] = React.useState("");
+  const [mail, setMail] = React.useState("");
+
+
+  const handleChange = (event) => {
+    setValue(event.target.value);
   };
+
+  const handleMail = (event) => {
+    setMail(event.target.value);
+  };
+
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_i31nnpg', 'template_yjmz3r7', e.target, 'user_Gls3jtD0r0QAmYpbwL05y')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+    e.target.reset()
+
+    toast.success("Message send");
+
+  };
+
+
+  const onFinish = (values) => {
+
+    emailjs.sendForm('service_qz5ctkl', 'template_g67xs4p', values, 'user_Gls3jtD0r0QAmYpbwL05y')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+    // values.reset()
+
+    console.log("Received values of form: ", values);
+
+  };
+
+
+
   const prefixSelector = (
     <Form.Item name="prefix" noStyle>
       <Select
@@ -102,27 +149,58 @@ function Contact() {
       </Select>
     </Form.Item>
   );
- 
-  const [autoCompleteResult, setAutoCompleteResult] = useState([]);
-  const onWebsiteChange = (value) => {
-    if (!value) {
-      setAutoCompleteResult([]);
-    } else {
-      setAutoCompleteResult(
-        [".com", ".org", ".net"].map((domain) => `${value}${domain}`)
-      );
-    }
-  };
-  const websiteOptions = autoCompleteResult.map((website) => ({
-    label: website,
-    value: website,
-  }));
+
+  // const [autoCompleteResult, setAutoCompleteResult] = useState([]);
+  // const onWebsiteChange = (value) => {
+  //   if (!value) {
+  //     setAutoCompleteResult([]);
+  //   } else {
+  //     setAutoCompleteResult(
+  //       [".com", ".org", ".net"].map((domain) => `${value}${domain}`)
+  //     );
+  //   }
+  // };
+  // const websiteOptions = autoCompleteResult.map((website) => ({
+  //   label: website,
+  //   value: website,
+  // }));
 
   return (
     <>
       <Layout>
-       
-        
+
+
+
+        <div className={styles.mobile}>
+          <div className={styles.formcontainer}>
+
+
+            <form class="form" onSubmit={sendEmail} style={{ padding: "10px" }}>
+              {/* <h5>CONTACT US</h5> */}
+              <label>Name</label>
+
+              <input style={{ width: "100%", padding: "5px", marginBottom: "15px" }} placeholder="Write your name here.." name="name" value={value} onChange={handleChange}>
+              </input>
+
+              <label>Email</label>
+
+              <input style={{ width: "100%", padding: "5px", marginBottom: "15px" }} placeholder="Let us know how to contact you back..@gmail" name="email" value={mail} onChange={handleMail} ></input>
+
+              <label>Message</label>
+              <textarea style={{ width: "100%", padding: "5px" }} placeholder="What would you like to tell us.." rows="4" cols="2" name="message"></textarea>
+
+              <button variant="contained" type="submit" style={{ backgroundColor: "#90321B", padding: "10px", marginTop: "15px", width: "30%", color: "white" }}  >
+                Send
+              </button>
+              {/* <input disabled={!value} onClick={close} style={{cursor:"pointer",padding:"10px",marginTop:"15px"}} type="submit" value="Send Message"></input> */}
+              {/* <button disabled={!value} type="submit">Let me in</button>  */}
+
+
+            </form>
+
+          </div>
+        </div>
+
 
         <div className={styles.bodycontainer}>
           <div className={styles.body}>
@@ -193,7 +271,7 @@ function Contact() {
                     }}
                   >
                     <div className={styles.formcontainer}>
-                      <Form
+                      {/* <Form
                         {...formItemLayout}
                         form={form}
                         name="register"
@@ -236,59 +314,6 @@ function Contact() {
                           <Input />
                         </Form.Item>
 
-                        {/* <Form.Item
-                          name="residence"
-                          label="Habitual Residence"
-                          rules={[
-                            {
-                              type: "array",
-                              required: true,
-                              message: "Please select your habitual residence!",
-                            },
-                          ]}
-                        >
-                          <Cascader options={residences} />
-                        </Form.Item> */}
-
-                        <Form.Item
-                          name="phone"
-                          label="Phone Number"
-                          rules={[
-                            {
-                              required: true,
-                              message: "Please input your phone number!",
-                            },
-                          ]}
-                        >
-                          <Input
-                            addonBefore={prefixSelector}
-                            style={{
-                              width: "100%",
-                            }}
-                          />
-                        </Form.Item>
-
-                        
-
-                        <Form.Item
-                          name="Company"
-                          label="Company"
-                          rules={[
-                            {
-                              required: true,
-                              message: "Please Type Your Company!",
-                            },
-                          ]}
-                        >
-                          <AutoComplete
-                            options={websiteOptions}
-                            onChange={onWebsiteChange}
-                            placeholder="Company Name"
-                          >
-                            <Input />
-                          </AutoComplete>
-                        </Form.Item>
-
                         <Form.Item
                           name="intro"
                           label="Message"
@@ -302,15 +327,41 @@ function Contact() {
                           <Input.TextArea showCount maxLength={100} />
                         </Form.Item>
 
-                        
-                        
-                          
+
+
+
                         <Form.Item {...tailFormItemLayout}>
                           <Button type="primary" htmlType="submit">
                             Send
                           </Button>
                         </Form.Item>
-                      </Form>
+                      </Form> */}
+
+
+
+                      <form class="form" onSubmit={sendEmail} style={{ padding: "10px" }}>
+                        {/* <h5>CONTACT US</h5> */}
+                        <label>Name</label>
+
+                        <input style={{ width: "100%", padding: "5px", marginBottom: "15px" }} placeholder="Write your name here.." name="name" value={value} onChange={handleChange}>
+                        </input>
+
+                        <label>Email</label>
+
+                        <input style={{ width: "100%", padding: "5px", marginBottom: "15px" }} placeholder="Let us know how to contact you back..@gmail" name="email" value={mail} onChange={handleMail} ></input>
+
+                        <label>Message</label>
+                        <textarea style={{ width: "100%", padding: "5px" }} placeholder="What would you like to tell us.." rows="4" cols="2" name="message"></textarea>
+
+                        <button variant="contained" type="submit" style={{ backgroundColor: "#90321B", padding: "10px", marginTop: "15px", width: "30%", color: "white" }}  >
+                          Send
+                        </button>
+                        {/* <input disabled={!value} onClick={close} style={{cursor:"pointer",padding:"10px",marginTop:"15px"}} type="submit" value="Send Message"></input> */}
+                        {/* <button disabled={!value} type="submit">Let me in</button>  */}
+
+
+                      </form>
+
                     </div>
                   </Col>
                 </Row>
@@ -318,7 +369,9 @@ function Contact() {
             </Content>
           </div>
 
-          
+
+
+
         </div>
       </Layout>
     </>

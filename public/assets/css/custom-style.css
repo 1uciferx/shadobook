@@ -29,6 +29,11 @@
     color: var(--primary) !important;
 }
 
+
+.header {
+  padding: 10px 0px;
+}
+
 .btn.btn-default:hover {
     background-color: var(--primary) !important; 
 }

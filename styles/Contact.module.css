@@ -1,103 +1,84 @@
-.body{
+.body {
     background-image: url("/assets/imgs/page/homepage4/webhooks.jpg");
-  background-size: cover;
-  border-radius: 5px;
-  height: 600px;
- 
-   
+    background-size: cover;
+    border-radius: 5px;
+    height: 90vh;
+
+
 }
 
 
-.parahead{
-    font-family:Segoe UI;
+.parahead {
+    font-family: Segoe UI;
     font-size: 46px;
     line-height: 46px;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     font-weight: 500;
     text-decoration: none solid rgb(0, 0, 0);
     width: 70%;
     text-align: center;
- 
-   
+
+
 }
-.paraheadcontainer{
+
+.paraheadcontainer {
     margin: auto;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 50%;
     position: relative;
 }
 
-.bodycontainer{
+.bodycontainer {
     margin: auto;
     width: 90%;
-    
 
-  
-  
+
+
+
 }
 
-.msggif{
+.msggif {
     margin: auto;
     width: 90%;
     height: 100px;
-  
-  
+
+
 }
 
 
-.formcontainer{
-    margin-top: 15%;
+.formcontainer {
+    margin-top: 26%;
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: saturate(180%) blur(10px);
     padding: 30px 30px;
     border-radius: 5px;
 
 
-   
+
 }
 
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 1000px) {
+
+    .bodycontainer {
+        display: none;
+    }
 
 
-.parahead{
-    font-family:Segoe UI;
-    font-size: 24px;
-    line-height: 26px;
-    color:rgb(255, 255, 255);
-    font-weight: 500;
-    text-decoration: none solid rgb(0, 0, 0);
-    width: 100%;
-    text-align: center;
- 
-   
-}
-.paraheadcontainer{
-    margin: auto;
-    text-align: center;
-    margin-top: 20%;
-    position: relative;
-}
-
-.formcontainer{
-    margin-top: 30%;
-    background: rgba(255, 255, 255, 0.8);
-    backdrop-filter: saturate(180%) blur(10px);
-    padding: 30px 30px;
-    border-radius: 5px;
 
 
-   
-}
-
-.body{
- background-image: url("/assets/imgs/page/homepage4/webhooks.jpg");
-  background-size: cover;
-  border-radius: 5px;
-  height: 25vh;
-  
 }
 
 
+@media screen and (min-width: 1000px) {
+
+    .mobile {
+        display: none;
+    }
+
+
+    .bodycontainer {
+        display: block;
+    }
 
 }

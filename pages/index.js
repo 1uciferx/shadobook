@@ -2,8 +2,22 @@
 import Link from "next/link";
 import PriceTable from "../components/elements/PriceTable";
 import Layout from "../components/layout/Layout";
+import Slider from "react-slick";
+
 
 function Index2() {
+
+  const settings = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear"
+  };
+
   return (
     <>
       <Layout>
@@ -42,7 +56,7 @@ function Index2() {
                     </div>
                   </div>
 
-                  
+
                   <div className="col-lg-5 d-none d-lg-block">
                     <div className="banner-imgs">
                       <div className="block-1 shape-2">
@@ -71,10 +85,164 @@ function Index2() {
           
 
           <div className="section-box overflow-visible mt-80">
-            <div className="container">
+            <div className="">
               <h2 className="text-heading-3 text-center color-gray-900 mb-60">
                 Trusted by the world’s leading companies
               </h2>
+
+              <Slider {...settings}>
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        style={{ margin: "auto" }}
+                        alt="ShadoBooks"
+                        src="assets/imgs/slider/logo/AGS.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        style={{ margin: "auto" }}
+                        alt="ShadoBooks"
+                        src="assets/imgs/slider/logo/Bizzmaster.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        style={{ margin: "auto" }}
+                        width={"300px"}
+                        alt="ShadoBooks"
+                        src="assets/imgs/slider/logo/lubechem1.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+                <div className="">
+
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        alt="ShadoBooks"
+                        style={{margin:"auto"}}
+                        src="assets/imgs/slider/logo/rulexx.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        alt="ShadoBooks"
+                        style={{margin:"auto"}}
+                        src="assets/imgs/slider/logo/imagineering.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        style={{margin:"auto"}}
+                        alt="ShadoBooks"
+                        src="assets/imgs/slider/logo/CBC.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        style={{margin:"auto"}}
+                        alt="ShadoBooks"
+                        src="assets/imgs/slider/logo/BMC.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        style={{margin:"auto"}}
+                        alt="ShadoBooks"
+                        src="assets/imgs/slider/logo/carlisle.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        alt="ShadoBooks"
+                        style={{margin:"auto"}}
+                        src="assets/imgs/slider/logo/reign.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        alt="ShadoBooks"
+                        style={{margin:"auto"}}
+                        src="assets/imgs/slider/logo/royalblue.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+
+                <div className="c">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        alt="ShadoBooks"
+                        style={{margin:"auto"}}
+                        src="assets/imgs/slider/logo/gold.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+
+                <div className="c">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        alt="ShadoBooks"
+                        style={{margin:"auto"}}
+                        src="assets/imgs/slider/logo/Mercury.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+              </Slider>
+
+              {/*               
               <div className="row">
                 <div className="col-lg-12">
                   <ul className="list-partners">
@@ -123,12 +291,7 @@ function Index2() {
                         <a className="clients">
                           <img
                             alt="ShadoBooks"
-                            src="assets/imgs/slider/logo/app.png"
-                            style={{filter: "grayscale(100)",
-                            maxWidth: "45%",
-                            transition: "all 0.4s ease-in-out",
-                            display: "inline-block",
-                            padding: "15px 0"}}
+                            src="assets/imgs/slider/logo/fracht.png"
                           />
                         </a>
                       </Link>
@@ -215,7 +378,7 @@ function Index2() {
                     </li>{" "}
                   </ul>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -244,10 +407,10 @@ function Index2() {
                   </span>
 
                   <h3 className="text-heading-4 mt-30">
-                      Shadobooks presents businesses
-                    </h3>
+                    Shadobooks presents businesses
+                  </h3>
                   <p className="text-heading-7 color-gray-600 ">
-                   
+
                     with the Dashboard which presents all the financial
                     data in a dynamically interactive format while also opening
                     new doors to a wealth of insights that can help you with
@@ -311,7 +474,7 @@ function Index2() {
             </div>
           </section>
 
-          
+
           <section className="section-box">
             <div className="container">
               <div className="row">
@@ -329,14 +492,14 @@ function Index2() {
                 </div>
                 <div className="col-lg-2 col-sm-1 col-12" />
               </div>
-            </div>           
+            </div>
           </section>
 
 
           
-          <section className="section-box mt-lg-50">
+          <section className="section-box mt-lg-100">
             
-            <div className="container mt-50">
+            <div className="container mt-70">
               <div className="row">
                 <div className="col-lg-4 col-md-12 col-sm-12">
                   <div className="list-icons mt-50">
@@ -465,7 +628,7 @@ function Index2() {
           </section>
 
 
-        {/* happy customers */}
+          {/* happy customers */}
           {/* <section className="section-box">
             <div className="container mt-120">
               <div className="bdrd-58 box-gray-100">
@@ -590,7 +753,7 @@ function Index2() {
             </div>
           </section> */}
 
-          <section className="section-box overflow-visible mb-100">
+          {/* <section className="section-box overflow-visible mb-100">
             <div className="container mt-100">
               <div className="row">
                 <div className="col-lg-10 mx-auto">
@@ -617,7 +780,7 @@ function Index2() {
                               className="input-newsletter"
                               placeholder="Enter you mail .."
                             />
-                            {/* <button className="btn btn-send" /> */}
+                            <button className="btn btn-send" />
                           </form>
                         </div>
                       </div>
@@ -639,7 +802,7 @@ function Index2() {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
         </div>
       </Layout>
     </>
