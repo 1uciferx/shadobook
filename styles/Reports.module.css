@@ -1,0 +1,618 @@
+
+
+
+.breasdcrumb{
+    margin-top: 30px;
+   
+}
+
+
+.tab{
+    text-align:center;
+    
+    position: sticky;
+    top: 10%;
+
+}
+
+
+
+
+
+
+.para1{
+    text-align: center;
+    font-size: 18px;
+    text-align: start;
+    line-height: 30px;
+    font-family: Segoe UI; 
+    color:rgb(0, 0, 0);
+    font-weight: 0;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.para4{
+    text-align: center;
+    font-size: 24px;
+    text-align: start;
+    line-height: 40px;
+    font-family: Segoe UI; 
+    color:rgb(0, 0, 0);
+    font-weight: 0;
+    font-style: normal;
+    margin-top: 30px;
+}
+
+
+
+
+.headings{
+    font-size: 36;
+    text-align: center;
+    line-height: 40px;
+    font-family: Segoe UI;
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 30px;
+}
+
+
+
+.para2{
+    text-align: center;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Segoe UI; 
+    color:rgb(0, 0, 0);
+    font-weight: 0;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+
+.headings2{
+    font-size: 36;
+    text-align: start;
+    line-height: 40px;
+    font-family: Segoe UI;
+    color:white;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 30px;}
+
+
+.para2{   
+    text-align: center;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Segoe UI; 
+    color:white;
+    font-weight: 0;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+
+.containers{
+    background-color:white;
+    border-radius: 20px;
+    width: 1900px;
+    max-width: 100%;
+    min-height: 100%;
+    position:relative;
+    box-shadow: 0px 1px 3px black;
+    overflow: hidden;
+}
+
+
+
+.logo{
+    height: 70px;
+    width: 70px;
+   
+    margin-top: 50px;
+}
+
+
+
+ .paraheader{
+    text-align: center;
+    font-size: 18px;
+   
+    line-height: 30px;
+    font-family: Segoe UI; 
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 30px;
+
+}
+
+
+.headingsheader{
+    font-size: 36;
+    text-align: center;
+    line-height: 40px;
+    font-family: Segoe UI;
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 50px;
+}
+
+.backgroundimg { 
+   
+    height:400px;
+    width:100%;
+    background-size: Cover }
+
+
+
+
+
+        .buttonres1 {
+            margin-left: 350px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres2 {
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres3 {
+            margin-left: 280px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres4 {
+            margin-left: 340px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres5 {
+            margin-left: 350px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres6 {
+            margin-left: 180px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres7 {
+            margin-left: 350px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres8      {
+            margin-left: 200px;
+            margin-bottom: 20px;
+        }
+        
+    
+    
+
+
+
+    /* media queri */
+
+
+
+    /* mobile screen */
+
+
+
+/* Margin top in all topic */
+
+.margintop1{
+    margin-top: 20px;
+}
+
+
+.margintop2{
+    margin-top: 10px;
+}
+
+
+.margintop3{
+    margin-top: 10px;
+}
+
+
+.margintop4{
+    margin-top: 10px;
+}
+
+
+.margintop5{
+    margin-top: 10px;
+}
+
+
+.margintop6{
+    margin-top: 10px;
+}
+
+
+.margintop7{
+    margin-top: 10px;
+}
+
+
+.margintop8{
+    margin-top: 10px;
+}
+
+
+.mobilescreen1{
+    margin-top: 5%;
+    margin-bottom: 100px;
+}
+
+
+
+
+    
+
+
+
+    
+    
+@media screen and (min-width: 600px) {
+
+    .mobilescreen2{
+          
+       display: none;
+    }
+        
+    }
+
+
+   
+
+    @media screen and (max-width: 600px) {
+
+        .margintop1{
+            margin-top: 20px;
+        }
+        
+        
+        .margintop2{
+            margin-top: 20px;
+        }
+        
+        
+        .margintop3{
+            margin-top: 20px;
+        }
+        
+        
+        .margintop4{
+            margin-top: 20px;
+        }
+        
+        
+        .margintop5{
+            margin-top: 20px;
+        }
+        
+        
+        .margintop6{
+            margin-top: 20px;
+        }
+        
+        
+        .margintop7{
+            margin-top: 20px;
+        }
+        
+        
+        .margintop8{
+            margin-top: 60px;
+            
+        }
+        
+        .mobilescreen1{
+          
+            display: none;
+            
+         }
+         .para1{
+             margin: 30px;
+         }
+          
+        
+            }
+
+
+            
+
+            
+
+    @media screen and (min-width: 300px) {
+
+        .buttonres1 {
+            margin-left: 200px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres2 {
+            margin-left: 200px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres3 {
+            margin-left: 200px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres4 {
+            margin-left: 200px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres5 {
+            margin-left: 200px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres6 {
+            margin-left: 200px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres7 {
+            margin-left: 200px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres8      {
+            margin-left: 200px;
+            margin-bottom: 20px;
+        }
+        
+    }
+    
+
+
+
+
+
+
+    @media screen and (min-width: 600px) {
+
+        .buttonres1 {
+            margin-left: 150px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres2 {
+            margin-left: 150px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres3 {
+            margin-left: 150px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres4 {
+            margin-left: 150px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres5 {
+            margin-left: 150px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres6 {
+            margin-left: 150px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres7 {
+            margin-left: 150px;
+            margin-bottom: 20px;
+        }
+    
+    }
+    
+
+
+
+   
+
+    @media screen and (min-width: 900px) {
+
+        .buttonres1 {
+            margin-left: 200px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres2 {
+            margin-left: 200px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres3 {
+            margin-left: 200px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres4 {
+            margin-left: 200px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres5 {
+            margin-left: 200px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres6 {
+            margin-left: 200px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres7 {
+            margin-left: 200px;
+            margin-bottom: 20px;
+        }
+    
+      
+    }
+    
+
+
+    @media screen and (min-width: 1200px) {
+    
+    .buttonres1 {
+        margin-left: 230px;
+        margin-bottom: 20px;
+    }
+
+    .buttonres2 {
+        margin-left: 250px;
+        margin-bottom: 20px;
+    }
+
+    .buttonres3 {
+        margin-left: 220px;
+        margin-bottom: 20px;
+    }
+
+    .buttonres4 {
+        margin-left: 300px;
+        margin-bottom: 20px;
+    }
+
+    .buttonres5 {
+        margin-left: 300px;
+        margin-bottom: 20px;
+    }
+
+    .buttonres6 {
+        margin-left: 110px;
+        margin-bottom: 20px;
+    }
+
+    .buttonres7 {
+        margin-left: 230px;
+        margin-bottom: 20px;
+    }
+
+    .buttonres8      {
+        margin-left: 200px;
+        margin-bottom: 20px;
+    }
+    
+
+
+
+
+
+    
+    @media screen and (min-width: 1500px) {
+    
+        .buttonres1 {
+            margin-left: 320px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres2 {
+            margin-left: 250px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres3 {
+            margin-left: 260px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres4 {
+            margin-left: 500px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres5 {
+            margin-left: 300px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres6 {
+            margin-left: 100px;
+            margin-bottom: 20px;
+        }
+    
+        .buttonres7 {
+            margin-left: 220px;
+            margin-bottom: 20px;
+        }
+    
+      
+    
+        }
+    }
+
+
+
+
+
+    @media screen and (max-width: 300px) {
+
+
+    .headings{
+        font-size: 26;
+        text-align: center;
+        line-height: 40px;
+        font-family: Segoe UI;
+        color:rgb(0, 0, 0);
+        font-weight: 600;
+        font-style: normal;
+      
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1600px) {
+
+    .para4{
+        text-align: center;
+        font-size: 18px;
+        text-align: start;
+        line-height: 30px;
+        font-family: Segoe UI; 
+        color:rgb(0, 0, 0);
+        font-weight: 0;
+        font-style: normal;
+        margin-top: 0px;
+   
+}
+
+    }
+    
+    .para8{
+        text-align: center;
+        font-size: 18px;
+        text-align: start;
+        line-height: 30px;
+        font-family: Segoe UI; 
+        color:rgb(0, 0, 0);
+        font-weight: 0;
+        font-style: normal;
+        margin-top: 0px;
+   
+}
+

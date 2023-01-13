@@ -218,6 +218,17 @@ const Header = ({ handleOpen, headerStyle }) => {
                                 </a>
                               </Link>
                             </li>
+
+                            
+                            <li>
+                              <Link href="/hiring">
+                                <a>
+                                  <i className="fi fi-rr-star" />
+                                  Hiring
+                                </a>
+                              </Link>
+                            </li>
+
                           </div>
 
                           <div>
@@ -332,7 +343,19 @@ const Header = ({ handleOpen, headerStyle }) => {
                                 </a>
                               </Link>
                             </li>
+
+                            <li>
+                              <Link href="/sales-agent">
+                                <a>
+                                  <i className="fi fi-rr-star" />
+                                  Sales Agent
+                                </a>
+                              </Link>
+                            </li>
                           </div>
+
+
+
 
                           <div>
                             {/* <li>

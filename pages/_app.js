@@ -13,6 +13,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Preloader from '../components/elements/Preloader';
 import 'react-modal-video/css/modal-video.css';
 import 'antd/dist/reset.css';
+import FlagApp from '../components/FlagApp';
 
 
 function MyApp({ Component, pageProps }) {

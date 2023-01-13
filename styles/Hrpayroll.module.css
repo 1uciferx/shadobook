@@ -1,0 +1,996 @@
+
+.breasdcrumb{
+    margin-top: 30px;
+   
+}
+
+
+
+
+
+.tab{
+    text-align:center;
+    
+    position: sticky;
+    top: 10%;
+
+}
+
+.header{
+    margin-bottom:100px ;
+}
+
+
+.para{
+    text-align: center;
+     font-size: 24px;
+     text-align: start;
+     line-height: 40px;
+      font-family: Segoe UI; 
+      color:rgb(0, 0, 0);
+        font-weight: 0;
+        font-style: normal;
+    margin-top: 30px;
+}
+
+
+
+.headings{
+ 
+    font-size: 36;
+    text-align: center;
+    line-height: 30px;
+    font-family: Segoe UI;
+    color:black;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 30px;
+}
+
+
+.para1{
+    
+  
+    font-size: 18px;
+ 
+    text-align: start;
+    line-height: 30px;
+    font-family: Segoe UI; 
+    color:rgb(0, 0, 0);
+    font-weight: 0;
+    font-style: normal;
+    margin-top: 30px;
+}
+
+
+.para10{
+    
+  
+    font-size: 18px;
+ 
+    text-align: start;
+    line-height: 30px;
+    font-family: Segoe UI; 
+    color:rgb(0, 0, 0);
+    font-weight: 0;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+
+.headings1{
+
+    font-size: 36;
+    text-align: center;
+    line-height: 40px;
+    font-family: Segoe UI;
+    color:bl;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 30px;
+
+}
+
+
+.headingsem{
+    font-size: 36px;
+    text-align: start;
+    line-height: 40px;
+    font-family: Segoe UI;
+    color:black;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 100px;
+}
+
+
+.para2{
+    text-align: center;
+     font-size: 18px;
+     text-align: center;
+     line-height: 30px;
+      font-family: Segoe UI; 
+      color:rgb(0, 0, 0);
+        font-weight: 0;
+        font-style: normal;
+    margin-top: 20px;
+}
+
+
+
+.headings2{
+    font-size: 36;
+    text-align: start;
+    line-height: 40px;
+    font-family: Segoe UI;
+    color:rgb(23, 18, 18);
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 30px;}
+
+
+
+ .para2{
+        text-align: center;
+     font-size: 18px;
+     text-align: center;
+     line-height: 30px;
+      font-family: Segoe UI; 
+      color:white;
+        font-weight: 0;
+        font-style: normal;
+    margin-top: 20px;
+}
+
+
+
+.containers{
+    background-color:white;
+    border-radius: 20px;
+    width: 1900px;
+    max-width: 100%;
+    min-height: 100%;
+    position:relative;
+    box-shadow: 0px 1px 3px black;
+    overflow: hidden;
+}
+
+
+
+.container{
+    background-color:white;
+    border-radius: 20px;
+    width: 300px;
+    max-width: 100%;
+    min-height: 200px;
+    position:relative;
+    box-shadow: 0px 1px 3px black;
+    overflow: hidden;
+}
+
+
+
+.containers2{
+    background-color:white;
+    border-radius: 20px;
+    width: 100%px;
+    max-width: 100%;
+    min-height: 100%;
+    position:relative;
+    box-shadow: 0px 1px 3px black;
+    overflow: hidden;
+}
+
+
+
+.para3{
+    text-align: center;
+    font-size: 18px;
+     margin-left:80px;
+     text-align: start;
+     line-height: 30px;
+      font-family: Segoe UI; 
+      color:rgb(0, 0, 0);
+        font-weight: 0;
+        font-style: normal;
+    margin-top: 20px;
+}
+
+
+.button{
+    color:"#90331c",
+
+}
+
+
+.position{
+    
+   
+    position: absolute;
+
+    top: 287px;
+    z-index: -1;
+}
+
+
+
+.headings0{
+       
+    font-size: 36;
+    text-align: center;
+    line-height: 40px;
+    font-family: Segoe UI;
+    color:black;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 200px;
+    
+}
+
+
+
+.margintop{
+    margin-top: 70px;
+}
+
+
+.background{
+    height: 400px;
+     width: 100%;
+}
+
+
+
+
+.margintopimg{
+    margin-top: 30px;
+}
+
+
+
+.backgroundimg{
+    height: 200%;
+    width: 100%;
+}
+
+
+/* media queries */
+
+
+
+
+/* backgroundimg */
+
+
+    
+         
+@media screen and (min-width: 350px) {
+
+    .backgroundimg{
+        height: 50%;
+        width: 100%;
+    }
+    
+       }
+
+       @media screen and (min-width: 500px) {
+
+        .backgroundimg{
+            height: 100%;
+            width: 100%;
+        }
+        
+           }
+
+
+
+
+
+
+ /* button */
+  
+ @media screen and (min-width: 300px) {
+
+    .buttonres1 {
+        margin-left: 150px;
+    }
+
+    .buttonres2 {
+        margin-left: 150px;
+    }
+
+    .buttonres3 {
+        margin-left: 90px;
+    }
+
+    .buttonres4 {
+        margin-left:90px;
+    }
+
+    
+    .buttonres5 {
+        margin-left: 90px;
+    }
+
+
+    
+    .buttonres6{
+        margin-left: 90px;
+    }
+
+
+    
+    .buttonres7 {
+        margin-left: 90px;
+    }
+
+
+    
+    .buttonres8 {
+        margin-left: 90px;
+    }
+
+
+    .buttonres9 {
+        margin-left: 90px;
+    }
+
+
+    
+    .buttonres10 {
+        margin-left:90px;
+    }
+
+  }
+
+
+
+@media screen and (min-width: 600px) {
+
+    .buttonres1 {
+        margin-left: 240px;
+    }
+
+    .buttonres2 {
+        margin-left: 240px;
+    }
+
+    .buttonres3 {
+        margin-left: 204px;
+    }
+
+    .buttonres4 {
+        margin-left: 240px;
+    }
+
+    
+    .buttonres5 {
+        margin-left: 240px;
+    }
+
+
+    
+    .buttonres6{
+        margin-left: 240px;
+    }
+
+
+    
+    .buttonres7 {
+        margin-left: 240px;
+    }
+
+
+    
+    .buttonres8 {
+        margin-left: 240px;
+    }
+
+
+    .buttonres9 {
+        margin-left: 240px;
+    }
+
+
+    
+    .buttonres10 {
+        margin-left: 240px;
+    }
+
+  }
+
+
+
+
+
+  
+@media screen and (min-width: 768px) {
+
+    .buttonres1 {
+        margin-left: 100px;
+    }
+
+    .buttonres2 {
+        margin-left: 100px;
+    }
+
+    .buttonres3 {
+        margin-left: 100px;
+    }
+
+    .buttonres4 {
+        margin-left:180px;
+    }
+
+    
+    .buttonres5 {
+        margin-left: 100px;
+    }
+
+
+    
+    .buttonres6{
+        margin-left: 100px;
+    }
+
+
+    
+    .buttonres7 {
+        margin-left: 100px;
+    }
+
+
+    
+    .buttonres8 {
+        margin-left: 100px;
+    }
+
+
+    .buttonres9 {
+        margin-left: 100px;
+    }
+
+
+    
+    .buttonres10 {
+        margin-left:100px;
+    }
+
+  }
+
+
+
+
+  
+
+  
+@media screen and (min-width: 992px) {
+
+    .buttonres1 {
+        margin-left: 140px;
+    }
+
+    .buttonres2 {
+        margin-left: 100px;
+    }
+
+    .buttonres3 {
+        margin-left: 140px;
+    }
+
+    .buttonres4 {
+        margin-left:190px;
+    }
+
+    
+    .buttonres5 {
+        margin-left: 130px;
+    }
+
+
+    
+    .buttonres6{
+        margin-left: 130px;
+    }
+
+
+    
+    .buttonres7 {
+        margin-left: 130px;
+    }
+
+
+    
+    .buttonres8 {
+        margin-left: 130px;
+    }
+
+
+    .buttonres9 {
+        margin-left: 130px;
+    }
+
+
+    
+    .buttonres10 {
+        margin-left:130px;
+    }
+
+  }
+
+
+  
+  
+@media screen and (min-width: 1200px) {
+
+    .buttonres1 {
+        margin-left: 230px;
+    }
+
+    .buttonres2 {
+        margin-left: 230px;
+    }
+
+    .buttonres3 {
+        margin-left: 230px;
+    }
+
+    .buttonres4 {
+        margin-left:300px;
+    }
+
+    
+    .buttonres5 {
+        margin-left: 230px;
+    }
+
+
+    
+    .buttonres6{
+        margin-left: 230px;
+    }
+
+
+    
+    .buttonres7 {
+        margin-left: 230px;
+    }
+
+
+    
+    .buttonres8 {
+        margin-left: 230px;
+    }
+
+
+    .buttonres9 {
+        margin-left: 230px;
+    }
+
+
+    
+    .buttonres10 {
+        margin-left:230px;
+    }
+
+  }
+
+
+  
+  
+@media screen and (min-width: 1500px) {
+
+    .buttonres1 {
+        margin-left: 230px;
+    }
+
+    .buttonres2 {
+        margin-left: 230px;
+    }
+
+    .buttonres3 {
+        margin-left: 230px;
+    }
+
+    .buttonres4 {
+        margin-left:300px;
+    }
+
+    
+    .buttonres5 {
+        margin-left: 230px;
+    }
+
+
+    
+    .buttonres6{
+        margin-left: 320px;
+    }
+
+
+    
+    .buttonres7 {
+        margin-left: 230px;
+    }
+
+
+    
+    .buttonres8 {
+        margin-left: 230px;
+    }
+
+
+    .buttonres9 {
+        margin-left: 230px;
+    }
+
+
+    
+    .buttonres10 {
+        margin-left:230px;
+    }
+
+  }
+
+
+ 
+
+
+
+   /* image */
+  
+@media screen and (max-width: 768px) {
+
+.logo{
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+    
+
+     
+@media screen and (max-width: 600px) {
+
+    .headings{ 
+      
+
+    font-size: 12;
+    text-align: center;
+    line-height: 1opx;
+    font-family: Segoe UI;
+    color:bl;
+    font-weight: 450;
+    font-style: normal;
+    margin-top: 20px;
+    margin-left: 0px;
+    }
+    
+.headings2{
+        font-size: 36;
+        text-align: center;
+        line-height: 30px;
+        font-family: Segoe UI;
+        color:black;
+        font-weight: 500;
+        font-style: normal;
+        margin-top: 20px;
+
+        }
+       
+       }
+       
+
+
+   
+@media screen and (max-width: 500px) {
+        .box{
+            display:none;
+        }
+        .margintop{
+            margin-top: 5%;
+        }
+       }
+      
+
+
+       
+           
+    
+
+@media screen and (min-width: 300px) {
+    
+    .margintop1{
+        margin-top: 80px;
+    }
+     }
+    
+
+      
+   
+                  
+              
+            
+
+
+@media screen and (min-width: 300px) {
+
+    .headings{
+        margin-left:0px;
+        font-size: 36px;
+        text-align: center;
+        line-height: 20px;
+        font-family: Segoe UI;
+        color:black;
+        font-weight: 600;
+        font-style: normal;
+        margin-top: 40px;
+
+            }}
+
+                    
+
+         
+         
+@media screen and (min-width: 990px) { 
+    
+    
+    .headingsheader{
+        font-size: 10;
+        text-align: start;
+        line-height: 40px;
+        font-family: Segoe UI;
+        color: rgb(16, 12, 12);
+        font-weight: 500;
+        font-style: normal;
+       margin-top: 15%;
+    }
+    
+       }
+
+                        
+                              
+@media screen and (min-width: 350px) {
+
+    
+    .headingsheader{
+        font-size: 10;
+        text-align: center;
+        line-height: 20px;
+        font-family: Segoe UI;
+        color: rgb(19, 17, 17);
+        font-weight: 500;
+        font-style: normal;
+        margin-top: 15%;
+    
+    }
+    
+       }
+                        
+                                
+                        
+                        
+                                                                                               
+                        
+@media screen and (min-width: 1200px) {
+
+    .paraheader{
+                                            
+        font-size: 13px;
+        text-align: start;
+        line-height: 30px;
+        font-family: Segoe UI; 
+        color:rgb(0, 0, 0);
+        font-weight: 600;
+        font-style: normal;
+        margin-top: 15%;
+     
+    
+    }
+    
+       }
+                        
+                                        
+                                        
+                                        
+                                    
+                        
+                                           
+                        
+                                       
+                        
+                                       @media screen and (min-width: 900px) {
+                        
+                                        .paraheader{
+                                            
+                                            font-size: 13px;
+                                            text-align: start;
+                                            line-height: 30px;
+                                            font-family: Segoe UI; 
+                                            color:rgb(0, 0, 0);
+                                            font-weight: 600;
+                                            font-style: normal;
+                                            margin-top: 15%;
+                                         
+                                        
+                                        }
+                                        
+                                           }
+                        
+                        
+                                           
+                                       
+                        
+                                       @media screen and (min-width: 600px) {
+                        
+                                        .paraheader{
+                                            
+                                            font-size: 13px;
+                                            text-align: start;
+                                            line-height: 30px;
+                                            font-family: Segoe UI; 
+                                            color:rgb(0, 0, 0);
+                                            font-weight: 600;
+                                            font-style: normal;
+                                            margin-top: 15%;
+                                         
+                                        
+                                        }
+                                        
+                                           }
+                                        
+                                    
+                                               
+                                       @media screen and (min-width: 350px) {
+                                    
+                                        .headingsheader{
+                                            font-size: 10;
+                                            text-align: start;
+                                            line-height: 20px;
+                                            font-family: Segoe UI;
+                                            color: rgb(19, 15, 14);
+                                            font-weight: 500;
+                                            font-style: normal;
+                                            margin-top: 25%;
+                                        
+                                        }
+                                        
+                                           }
+                                    
+                                    
+                                       
+                                    
+                                               
+                                               
+                                           @media screen and (min-width: 990px) {
+                                    
+                                            .headingsheader{
+                                                font-size: 10;
+                                                text-align: start;
+                                                line-height: 40px;
+                                                font-family: Segoe UI;
+                                                color: rgb(26, 23, 23);
+                                                font-weight: 500;
+                                                font-style: normal;
+                                               margin-top: 25%;
+                                            }
+                                            
+                                               }
+                                    
+                                    
+                        
+                        
+                                               .button{
+                                               background-color: rgb(29, 16, 14);
+                                               display: inline-block;
+                                               padding:18px 32px;
+                                               margin-top: 20px; 
+                                               border: solid 2px;
+                                               transition: .3s; 
+                                               font-size:1.25rem;
+                                               justify-content:center;
+                                               align-items: center;
+                                               column-gap:.5rem;
+                                               display:inline-flex;
+                                               margin-bottom: 1rem;
+                                               color:white;
+                                             
+                                               }
+                                    
+                                
+                        
+                        
+                                               
+                                       @media screen and (max-width: 770px) {
+                        
+                        .paraheader{
+                            text-align: center;
+                        }
+                        
+                        .headingsheader{
+                            text-align: center;
+                            margin-top:17% ;
+                        }
+                        .button{
+                           margin-left: 80%;
+                        }
+                    }
+                        
+                        
+                        
+                         @media screen and (max-width: 600px) {
+                            .paraheader{
+                                text-align: center;
+                            }
+                            
+                            .headingsheader{
+                                text-align: center;
+                                margin-top:10% ;
+                              
+                                    font-size: 42px;
+                             
+                                    line-height: 40px;
+                                    font-family: Segoe UI;
+                                    color: rgb(26, 21, 21);
+                                    font-weight: 500;
+                                    font-style: normal;
+                                   margin-top: 10%;
+                            }
+                        
+                        
+                            .headings{
+                        font-size: 28px;
+                            }
+                            
+                            .button{
+                              display: none;
+                            }
+                           
+                        
+                             .margintop1{
+                                margin-top: 0px;
+                             }
+                         }
+                      
+
+                       
+                      
+                        
+                         @media screen and (max-width: 600px) {
+                            .para1{
+                                font-size: 13px;
+                                text-align: start;
+                                line-height: 30px;
+                                font-family: Segoe UI; 
+                                color:rgb(0, 0, 0);
+                                font-weight: 600;
+                                font-style: normal;
+                                
+                            }
+                        
+
+                         
+                         }
+
+                      
+
+                         .box{
+
+                            width: 70%;
+                            object-fit: cover;
+                            height: 50vh;
+   
+                          
+                        }
+
+                .marginbottomfooter{
+                    margin-bottom: 100px;
+                }

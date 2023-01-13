@@ -638,6 +638,11 @@
   "resolved" "https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.21.1.tgz"
   "version" "3.21.1"
 
+"country-flag-icons@^1.5.5":
+  "integrity" "sha512-k4WXZ/WvWOSiYXRG1n8EYHNr1m/IX0GffKqAidaet5DrJsDOmJ8Q/8JvvONhZNnKYg24s4lvsm+9og1HcuIU/g=="
+  "resolved" "https://registry.npmjs.org/country-flag-icons/-/country-flag-icons-1.5.5.tgz"
+  "version" "1.5.5"
+
 "countup.js@^2.1.0":
   "integrity" "sha512-VanMzLEjkt3Hp/ty5BXikM8s4wE3OH4m1AnFro7THR86nYGRvGfGCoV+zrRJcqTbZi7X1egkLSIeUKDz7+4XLA=="
   "resolved" "https://registry.npmjs.org/countup.js/-/countup.js-2.1.0.tgz"
@@ -798,6 +803,11 @@
   "integrity" "sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg=="
   "resolved" "https://registry.npmjs.org/emoji-regex/-/emoji-regex-9.2.2.tgz"
   "version" "9.2.2"
+
+"emoji-supported@^1.0.0":
+  "integrity" "sha512-vZLTt+gEPTXs6cHmggph0yzGyJR/u4obU4DUXUHUMw56/cPasgEDpTq2+l93E4KtBh4oRlCbB0hxH6VhVeGdyA=="
+  "resolved" "https://registry.npmjs.org/emoji-supported/-/emoji-supported-1.0.0.tgz"
+  "version" "1.0.0"
 
 "errno@^0.1.1":
   "integrity" "sha512-dJ6oBr5SQ1VSd9qkk7ByRgb/1SH4JZjCHSW/mr63/QcXO9zLVxvJ6Oy13nio03rxpSnVDDjFor75SjVeZWPW/A=="
@@ -2667,7 +2677,7 @@
   dependencies:
     "prop-types" "^15.7.2"
 
-"react@*", "react@^16.2.0 || ^17.0.0", "react@^17.0.2", "react@^17.0.2 || ^18.0.0-0", "react@^18.0.0", "react@>= 16.3.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=15.0.0", "react@>=16.0.0", "react@>=16.11.0", "react@>=16.3.3", "react@>=16.9.0", "react@0.13 - 17", "react@18.0.0":
+"react@*", "react@^16.13.1", "react@^16.2.0 || ^17.0.0", "react@^17.0.2", "react@^17.0.2 || ^18.0.0-0", "react@^18.0.0", "react@>= 16.3.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=15.0.0", "react@>=16.0.0", "react@>=16.11.0", "react@>=16.3.3", "react@>=16.9.0", "react@0.13 - 17", "react@18.0.0":
   "integrity" "sha512-x+VL6wbT4JRVPm7EGxXhZ8w8LTROaxPXOqhlGyVSrv0sB1jkyFGgXxJ8LVoPRLvPR6/CIZGFmfzqUa2NYeMr2A=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.0.0.tgz"
   "version" "18.0.0"
@@ -2992,6 +3002,19 @@
   "integrity" "sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw== sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw=="
   "resolved" "https://registry.npmjs.org/text-table/-/text-table-0.2.0.tgz"
   "version" "0.2.0"
+
+"tiny-flag-react@^2.0.2":
+  "integrity" "sha512-R8q7vwsaIGeAyz3yU17UqhMBFLpM1O8ODlsfA0F6BMaySJyQY/uTIwX6SXMKLy37QN/0xRLxjlBzzcUY0etQcw=="
+  "resolved" "https://registry.npmjs.org/tiny-flag-react/-/tiny-flag-react-2.0.2.tgz"
+  "version" "2.0.2"
+  dependencies:
+    "emoji-supported" "^1.0.0"
+    "tiny-flag" "^1.0.3"
+
+"tiny-flag@^1.0.3":
+  "integrity" "sha512-dQLl07vR3YqCk+KHqIaE3JXnvFbM3Jv4LSO5ioT9m0Svq+fk+Qlz3B1WyBRlHp43t2nd7eOugCzSF/Zdw8qjQQ=="
+  "resolved" "https://registry.npmjs.org/tiny-flag/-/tiny-flag-1.0.3.tgz"
+  "version" "1.0.3"
 
 "to-fast-properties@^2.0.0":
   "integrity" "sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog=="
