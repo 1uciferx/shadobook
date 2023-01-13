@@ -181,6 +181,13 @@
   
   }
 
+    
+  .modalign{
+    text-align: center;
+    margin: auto;
+  }
+
+
 
 .bc  {
 
@@ -190,7 +197,7 @@
 
 .modimg{
   border-radius: 500px;
-   height: 250px;
+   height: 50vh;
 }
 
 @media screen and (max-width: 576px) {

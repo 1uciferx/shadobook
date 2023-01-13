@@ -71,78 +71,30 @@ function Task() {
                   </Breadcrumb>
                 </Content>
               </Col>
+
               <Pulse>
                 <h1 className={styles.headings}>Tasks</h1>
               </Pulse>
 
-              <Col
-                xs={{
-                  span: 22,
-                  offset: 1,
-                }}
-                lg={{
-                  span: 22,
-                  offset: 0,
-                }}
-                md={{
-                  span: 22,
-                  offset: 0,
-                }}
-                sm={{
-                  span: 22,
-                  offset: 0,
-                }}
-                xl={{
-                  span: 22,
-                  offset: 0,
-                }}
-                xxl={{
-                  span: 24,
-                  offset: 0,
-                }}
-              >
+             
                 <div className={styles.paraheadalign}>
                   <p className={styles.parahead}>
                     <Zoom>"Achieve more - with less effort"</Zoom>
                   </p>
                 </div>
-              </Col>
+        
 
-              {/* <Pulse>
-                <Col
-                  xs={{
-                    span: 22,
-                    offset: 1,
-                  }}
-                  lg={{
-                    span: 22,
-                    offset: 10,
-                  }}
-                  md={{
-                    span: 22,
-                    offset: 10,
-                  }}
-                  sm={{
-                    span: 22,
-                    offset: 10,
-                  }}
-                  xl={{
-                    span: 22,
-                    offset: 11,
-                  }}
-                  xxl={{
-                    span: 24,
-                    offset: 10,
-                  }}
-                >
+           <Pulse>
+           <div className={styles.modalign}>
                   <img
                   className={styles.modimg}
                     alt="Agon"
-                    src="assets/imgs/page/homepage4/objective1.png "
+                    src="assets/imgs/page/homepage4/taskbookmark1.png "
                    
                   />
-                </Col>
-              </Pulse> */}
+                  </div>
+             
+              </Pulse> 
             </ParallaxBannerLayer>
           </ParallaxBanner>
         </ParallaxProvider>
