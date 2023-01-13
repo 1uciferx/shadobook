@@ -2,7 +2,6 @@ import "../public/assets/css/app.2afad0c.bundle.css";
 import "../public/assets/css/swiper-custom.css";
 import "../public/assets/css/custom-style.css";
 import React, { useEffect, useState } from "react";
-import Preloader from "../components/elements/Preloader";
 import "react-modal-video/css/modal-video.css";
 import TawkTo from "tawkto-react";
 import "antd/dist/reset.css";
@@ -13,9 +12,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Preloader from '../components/elements/Preloader';
 import 'react-modal-video/css/modal-video.css';
-import TawkTo from 'tawkto-react'
 import 'antd/dist/reset.css';
-import Head from "next/head"
 
 
 function MyApp({ Component, pageProps }) {
