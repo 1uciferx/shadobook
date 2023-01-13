@@ -7,12 +7,12 @@ import { useState, useEffect } from "react";
 import Layout from "../components/layout/Layout";
 import { Button, Space } from 'antd'
 import Contactmanager from "../components/contactmanager";
-import styles from "../styles/HrPayroll.module.css";
+import styles from "../styles/Hrpayroll.module.css";
 import { Col, Row } from 'antd';
 import { Breadcrumb } from 'antd';
 import { Layout as L} from 'antd';
 
-const { Content} = L;
+const { Content } = L;
 
 
 function HrPayroll() {

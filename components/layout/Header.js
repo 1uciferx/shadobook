@@ -195,7 +195,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                 </a>
                               </Link>
                             </li>
-                           
+
                             {/* <li>
                               <Link href="/project-roadmap">
                                 <a>
@@ -529,9 +529,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                         </div>
                       </ul>
                     </li>
-                    {/* <li className="">
-                                            <Link href="/pricing"><a className="acuspad">Pricing</a></Link>   
-                                        </li> */}
+
 
                     {/* <li className="has-children">
                                             <Link href="#"><a className="acuspad">Support</a></Link>
@@ -653,7 +651,9 @@ const Header = ({ handleOpen, headerStyle }) => {
                       </ul>
                     </li>
 
-
+                    <li className="">
+                      <Link href="/pricing"><a className="acuspad">Pricing</a></Link>
+                    </li>
 
 
 

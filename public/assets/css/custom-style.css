@@ -194,3 +194,8 @@
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
 }
+
+
+.block-pricing-2 .box-pricing-item:hover, .block-pricing-2 .box-pricing-item.active {
+  background-color: #90321b;
+}
