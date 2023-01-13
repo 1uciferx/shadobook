@@ -17,14 +17,45 @@ import {
   Row,
   Select,
 } from "antd";
-
-
+import emailjs from '@emailjs/browser';
+import { toast } from "react-toastify";
 
 
 
 
 
 function Contactmanager() {
+
+
+  const [value, setValue] = React.useState("");
+  const [mail, setMail] = React.useState("");
+
+
+  const handleChange = (event) => {
+    setValue(event.target.value);
+  };
+
+  const handleMail = (event) => {
+    setMail(event.target.value);
+  };
+
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_i31nnpg', 'template_yjmz3r7', e.target, 'user_Gls3jtD0r0QAmYpbwL05y')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+    e.target.reset()
+
+    toast.success("Message send");
+
+  };
+
+
 
 
   return (
@@ -105,21 +136,21 @@ function Contactmanager() {
               >
 
                 <div className={styles.mobile}>
-                  
-                  <form class="form" style={{ padding: "40px" }}>
+
+                  <form class="form" style={{ padding: "40px" }} onSubmit={sendEmail}>
 
                     {/* <h5>CONTACT US</h5> */}
 
                     <label style={{ color: " " }}>Name</label>
 
                     <input style={{ width: "100%", padding: "5px", marginBottom: "15px" }} placeholder="Write your name here.."
-                      name="name" >
+                      name="name" value={value} onChange={handleChange}>
                     </input>
 
                     <label style={{ color: " " }}>Email</label>
 
                     <input style={{ width: "100%", padding: "5px", marginBottom: "15px" }}
-                      placeholder="Let us know how to contact you back..@gmail" name="email"  >
+                      placeholder="Let us know how to contact you back..@gmail" name="email" value={mail} onChange={handleMail}>
                     </input>
 
                     <label style={{ color: " " }}>Message</label>
@@ -128,7 +159,7 @@ function Contactmanager() {
                       placeholder="What would you like to tell us.." rows="4" cols="2" name="message"></textarea>
 
                     <button variant="contained" type="submit"
-                      style={{ backgroundColor: "#903310", padding: "10px", marginTop: "15px", width: "30%", color: "white", border: "none" }}>Send</button>
+                      style={{ backgroundColor: "#903310", padding: "10px", marginTop: "15px", width: "30%", color: "white", border: "none" }} disabled={!value || !mail}>Send</button>
 
 
                     {/* <input disabled={!value} onClick={close} 

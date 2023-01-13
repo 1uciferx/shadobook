@@ -41,10 +41,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
 
-    
+
       <Head>
-        
-        
+
+
         <title>Shadobooks</title>
         {/* <link href="https://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet"/> */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -54,15 +54,21 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
 
-        
-        
+
+
         <link
           rel="stylesheet"
           href="https://www.w3schools.com/w3css/4/w3.css"
         />
       </Head>
-      {!loading ? <Component {...pageProps} /> : <Preloader />}
-      
+      {!loading ?
+        <>
+          <ToastContainer position="bottom-left" />
+          <Component {...pageProps} />
+        </>
+        :
+        <Preloader />}
+
     </>
   );
 }

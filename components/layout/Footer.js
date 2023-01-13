@@ -5,23 +5,23 @@ const Footer = () => {
         <>
             <footer className="footer mt-50" >
                 <div className="container">
-                      <div className="footer-top">
-                       <div className="row">
+                    <div className="footer-top">
+                        <div className="row">
                             <div className="col-md-4 col-sm-6 text-center text-md-start">
                                 <Link href="/">
                                     <a className="d-flex">
-                                        <img width={150} alt="Shadobooks" src="/assets/logo/logo.png" /> 
+                                        <img width={150} alt="Shadobooks" src="/assets/logo/logo.png" />
                                     </a>
                                 </Link>
                             </div>
                             <div className="col-md-8 col-sm-6 text-center text-md-end">
-                                <span className="color-gray-900 text-heading-6 mr-30 text-mb-sm-20">Ready to get started?</span>
-                                <Link href="/page-signup">
-                                    <a className="btn btn-square">Create an Account</a>
+                                {/* <span className="color-gray-900 text-heading-6 mr-30 text-mb-sm-20">The Financial Shadow of your Company</span> */}
+                                <Link href="#">
+                                    <a className="btn btn-square">The Financial Shadow of your Company</a>
                                 </Link>
                             </div>
                         </div>
-                    </div> 
+                    </div>
                     <div className="row">
                         <div className="col-lg-3 width-20 mb-30">
                             <h4 className="text-heading-5">Contact</h4>
@@ -169,7 +169,7 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                    </div> 
+                    </div>
                     <div className="footer-bottom mt-20">
                         <div className="row">
                             <div className="col-md-8">
@@ -198,12 +198,12 @@ const Footer = () => {
                                     <Link href="https://www.linkedin.com/company/shadobooks/">
                                         <a className="icon-socials icon-linkedin"></a>
                                     </Link>
-                                     <Link href="https://wa.me/00971528722900">
-                                        
+                                    <Link href="https://wa.me/00971528722900">
+
                                         <a className="icon-socials icon-whatsapp"></a>
                                     </Link>
-                                    
-                                    
+
+
                                 </div>
                             </div>
                         </div>

@@ -1,11 +1,18 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import PriceTable from "../components/elements/PriceTable";
+import { useState } from "react";
 import Layout from "../components/layout/Layout";
 import Slider from "react-slick";
+import dynamic from "next/dynamic";
+const ModalVideo = dynamic(import("react-modal-video"), {
+  ssr: false,
+});
 
 
 function Index2() {
+
+  const [isOpen, setOpen] = useState(false);
 
   const settings = {
     dots: false,
@@ -47,12 +54,13 @@ function Index2() {
                         <a className="btn btn-black shape-square icon-arrow-right-white">
                           Get Start
                         </a>
-                      </Link> 
-                      <Link href="/page-about-2">
-                        <a className="btn btn-link icon-triangle color-gray-900 ml-40">
-                          How it works
-                        </a>
                       </Link>
+                      
+
+                      <a className="btn btn-link icon-triangle color-gray-900 ml-40"  onClick={() => setOpen(true)}>
+                        How it works
+                      </a>
+                      
                     </div>
                   </div>
 
@@ -82,7 +90,7 @@ function Index2() {
               </div>
             </div>
           </section>
-          
+
 
           <div className="section-box overflow-visible mt-80">
             <div className="">
@@ -134,7 +142,7 @@ function Index2() {
                       <img
                         width={"300px"}
                         alt="ShadoBooks"
-                        style={{margin:"auto"}}
+                        style={{ margin: "auto" }}
                         src="assets/imgs/slider/logo/rulexx.png"
                       />
                     </a>
@@ -146,7 +154,7 @@ function Index2() {
                       <img
                         width={"300px"}
                         alt="ShadoBooks"
-                        style={{margin:"auto"}}
+                        style={{ margin: "auto" }}
                         src="assets/imgs/slider/logo/imagineering.png"
                       />
                     </a>
@@ -157,7 +165,7 @@ function Index2() {
                     <a className="item-logo box-hover-shadow hover-up">
                       <img
                         width={"300px"}
-                        style={{margin:"auto"}}
+                        style={{ margin: "auto" }}
                         alt="ShadoBooks"
                         src="assets/imgs/slider/logo/CBC.png"
                       />
@@ -169,7 +177,7 @@ function Index2() {
                     <a className="item-logo box-hover-shadow hover-up">
                       <img
                         width={"300px"}
-                        style={{margin:"auto"}}
+                        style={{ margin: "auto" }}
                         alt="ShadoBooks"
                         src="assets/imgs/slider/logo/BMC.png"
                       />
@@ -181,7 +189,7 @@ function Index2() {
                     <a className="item-logo box-hover-shadow hover-up">
                       <img
                         width={"300px"}
-                        style={{margin:"auto"}}
+                        style={{ margin: "auto" }}
                         alt="ShadoBooks"
                         src="assets/imgs/slider/logo/carlisle.png"
                       />
@@ -195,7 +203,7 @@ function Index2() {
                       <img
                         width={"300px"}
                         alt="ShadoBooks"
-                        style={{margin:"auto"}}
+                        style={{ margin: "auto" }}
                         src="assets/imgs/slider/logo/reign.png"
                       />
                     </a>
@@ -208,7 +216,7 @@ function Index2() {
                       <img
                         width={"300px"}
                         alt="ShadoBooks"
-                        style={{margin:"auto"}}
+                        style={{ margin: "auto" }}
                         src="assets/imgs/slider/logo/royalblue.png"
                       />
                     </a>
@@ -221,7 +229,7 @@ function Index2() {
                       <img
                         width={"300px"}
                         alt="ShadoBooks"
-                        style={{margin:"auto"}}
+                        style={{ margin: "auto" }}
                         src="assets/imgs/slider/logo/gold.png"
                       />
                     </a>
@@ -234,7 +242,7 @@ function Index2() {
                       <img
                         width={"300px"}
                         alt="ShadoBooks"
-                        style={{margin:"auto"}}
+                        style={{ margin: "auto" }}
                         src="assets/imgs/slider/logo/Mercury.png"
                       />
                     </a>
@@ -382,7 +390,7 @@ function Index2() {
             </div>
           </div>
 
-          
+
           <section className="section-box">
             <div className="container mt-120">
               <div className="row">
@@ -496,9 +504,9 @@ function Index2() {
           </section>
 
 
-          
+
           <section className="section-box mt-lg-100">
-            
+
             <div className="container mt-70">
               <div className="row">
                 <div className="col-lg-4 col-md-12 col-sm-12">
@@ -804,6 +812,14 @@ function Index2() {
             </div>
           </section> */}
         </div>
+
+        <ModalVideo
+          channel="youtube"
+          autoplay
+          isOpen={isOpen}
+          videoId="SEAVbu6qf_c"
+          onClose={() => setOpen(false)}
+        />
       </Layout>
     </>
   );
