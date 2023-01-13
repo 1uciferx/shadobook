@@ -58,12 +58,12 @@ function Leadmanagement() {
           <Content>
             <Breadcrumb >
               <Breadcrumb>
-                <Breadcrumb.Item style={{ fontWeight: "bold",color:"white"}}>Index</Breadcrumb.Item>
+                <Breadcrumb.Item style={{ color:"white"}}>Index</Breadcrumb.Item>
                 <Breadcrumb.Item>
-                  <a href="" style={{ fontWeight: "bold",color:"white"}}>Features</a>
+                  <a href="/#" style={{ color:"white"}}>Features</a>
                 </Breadcrumb.Item>
                 <Breadcrumb.Item>
-                  <a href="" style={{ fontWeight: "bold",color:"white"}}>Manufacturing</a>
+                  <a href="/" style={{color:"white"}}>Hiring</a>
                 </Breadcrumb.Item>
               </Breadcrumb>
             </Breadcrumb>

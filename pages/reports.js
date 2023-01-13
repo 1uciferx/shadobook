@@ -30,7 +30,7 @@ function Reports() {
         <div  >
 
 
-          <Row className={styles.mobilescreen1} style={{ backgroundImage: "url('assets/background2.jpg')", backgroundSize: "Cover" }} >
+          <Row className={styles.mobilescreen1} style={{ backgroundImage: "url('assets/background14.jpg')", backgroundSize: "Cover",objectFit:"cover" }} >
             <div>
 
               <Row  >
@@ -63,12 +63,12 @@ function Reports() {
                   <Content>
                     <Breadcrumb >
                       <Breadcrumb>
-                        <Breadcrumb.Item style={{ fontWeight: "bold", color: "white" }}>Index</Breadcrumb.Item>
+                        <Breadcrumb.Item >Index</Breadcrumb.Item>
                         <Breadcrumb.Item>
-                          <a href="" style={{ fontWeight: "bold", color: "white" }}>Features</a>
+                          <a href="/#" >Features</a>
                         </Breadcrumb.Item>
                         <Breadcrumb.Item>
-                          <a href="" style={{ fontWeight: "bold", color: "white" }}>Manufacturing</a>
+                          <a href="/" >Reports</a>
                         </Breadcrumb.Item>
                       </Breadcrumb>
                     </Breadcrumb>
@@ -378,8 +378,8 @@ function Reports() {
                     }}
                     xxl={{
 
-                      span: 10,
-                      offset: 6,
+                      span: 12,
+                      offset: 5,
                     }}>
 
 
@@ -580,7 +580,7 @@ function Reports() {
                     xxl={{
 
                       span: 19,
-                      offset: 2,
+                      offset: 3,
                     }}>
                     <h3 className={styles.headings}>POS Reports</h3>
                   </Col>
@@ -699,7 +699,7 @@ function Reports() {
                     xxl={{
 
                       span: 9,
-                      offset: 7,
+                      offset: 6,
                     }}>
                     <h3 className={styles.headings}> Reports</h3>
                   </Col>

@@ -67,10 +67,10 @@ function Accounting() {
                     <Breadcrumb >
                       <Breadcrumb.Item style={{ fontWeight: "bold", color: "white" }} >Index</Breadcrumb.Item>
                       <Breadcrumb.Item >
-                        <a href="" style={{ fontWeight: "bold", color: "white" }}>Features</a>
+                        <a href="/#" style={{ fontWeight: "bold", color: "white" }}>Features</a>
                       </Breadcrumb.Item>
                       <Breadcrumb.Item>
-                        <a href="" style={{ fontWeight: "bold", color: "white" }}>Manufacturing</a>
+                        <a href="/" style={{ fontWeight: "bold", color: "white" }}>Accounting</a>
                       </Breadcrumb.Item>
                     </Breadcrumb>
                   </Breadcrumb>

@@ -61,12 +61,12 @@ style={{ backgroundImage: "url('assets/background.jpg')"}}>
           <Content  >
             <Breadcrumb>
               <Breadcrumb >
-                <Breadcrumb.Item style={{ fontWeight: "bold"}} >Index</Breadcrumb.Item>
+                <Breadcrumb.Item  >Index</Breadcrumb.Item>
                 <Breadcrumb.Item >
-                  <a href="" style={{ fontWeight: "bold"}} >Features</a>
+                  <a href="/#"  >Features</a>
                 </Breadcrumb.Item>
                 <Breadcrumb.Item>
-                  <a href="" style={{ fontWeight: "bold"}}>Manufacturing</a>
+                  <a href="/" >Sales Agent</a>
                 </Breadcrumb.Item>
               </Breadcrumb>
             </Breadcrumb>
@@ -581,7 +581,7 @@ xxl={{
           xxl={{
 
             span: 7,
-            offset: 7,
+            offset: 8,
           }}>
           <h3 className={styles.headings4}>Orders</h3>
         </Col>
@@ -618,7 +618,7 @@ xxl={{
           xxl={{
 
             span: 12,
-            offset: 5,
+            offset: 6,
           }}>
 
 
@@ -659,7 +659,7 @@ xxl={{
           xxl={{
 
             span: 12,
-            offset: 0,
+            offset: 6,
           }}>
           <img className={styles.img4} src="/salesagent/pic1.png"></img>
         </Col>

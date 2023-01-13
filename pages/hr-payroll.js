@@ -51,12 +51,12 @@ function HrPayroll() {
           <Content>
             <Breadcrumb >
               <Breadcrumb>
-                <Breadcrumb.Item style={{ fontWeight: "bold"}}>Index</Breadcrumb.Item>
+                <Breadcrumb.Item >Index</Breadcrumb.Item>
                 <Breadcrumb.Item>
-                  <a href="" style={{ fontWeight: "bold"}}>Features</a>
+                  <a href="/#" >Features</a>
                 </Breadcrumb.Item>
                 <Breadcrumb.Item>
-                  <a href="" style={{ fontWeight: "bold"}}>Manufacturing</a>
+                  <a href="#" >Hr Payroll</a>
                 </Breadcrumb.Item>
               </Breadcrumb>
             </Breadcrumb>
@@ -287,7 +287,7 @@ function HrPayroll() {
             xxl={{
 
               span: 15,
-              offset: 9,
+              offset: 8,
             }}>
             <h3 className={styles.headings}>Attendance</h3>
           </Col>
@@ -917,7 +917,7 @@ function HrPayroll() {
             xxl={{
 
               span: 13,
-              offset: 0,
+              offset: 1,
             }}>
             <h3 className={styles.headings}>Payslip</h3>
           </Col>
