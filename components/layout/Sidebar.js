@@ -128,14 +128,14 @@ const Sidebar = ({ openClass }) => {
                                 </a>
                               </Link>
                             </li>
-                            <li>
+                            {/* <li>
                               <Link href="/account-planning">
                                 <a>
                                 
                                   Account planning
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
                             <li>
                               <Link href="/reports">
                                 <a>
@@ -161,14 +161,14 @@ const Sidebar = ({ openClass }) => {
                               </Link>
                             </li>
 
-                            <li>
+                            {/* <li>
                               <Link href="/customer-center">
                                 <a>
                                  
                                   Customer Center
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
                             <li>
                               <Link href="/purchase">
                                 <a>
@@ -177,14 +177,14 @@ const Sidebar = ({ openClass }) => {
                                 </a>
                               </Link>
                             </li>
-                            <li>
+                            {/* <li>
                               <Link href="/suppliers">
                                 <a>
                                   
                                   Suppliers
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
                             <li>
                               <Link href="/expenses">
                                 <a>
@@ -210,14 +210,14 @@ const Sidebar = ({ openClass }) => {
                                 </a>
                               </Link>
                             </li>
-                            <li>
+                            {/* <li>
                               <Link href="/project-roadmap">
                                 <a>
                                  
                                   Project Roadmap
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
 
                             <li>
                               <Link href="/inventory">
@@ -230,23 +230,23 @@ const Sidebar = ({ openClass }) => {
                           </div>
 
                           <div>
-                            <li>
+                            {/* <li>
                               <Link href="/fixed-asset">
                                 <a>
                                  
                                   Fixed Assets
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
 
-                            <li>
+                            {/* <li>
                               <Link href="/commissions">
                                 <a>
                                   
                                   commissions
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
 
                             <li>
                               <Link href="/leads">
@@ -256,22 +256,22 @@ const Sidebar = ({ openClass }) => {
                                 </a>
                               </Link>
                             </li>
-                            <li>
+                            {/* <li>
                               <Link href="/lead-management">
                                 <a>
                                   
                                   Lead Management
                                 </a>
                               </Link>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                               <Link href="/loyality">
                                 <a>
                                
                                   Loyality
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
                             <li>
                               <Link href="/task">
                                 <a>
@@ -281,16 +281,16 @@ const Sidebar = ({ openClass }) => {
                               </Link>
                             </li>
 
-                            <li>
+                            {/* <li>
                               <Link href="/task-bookmarks">
                                 <a>
                                   
                                   Task Bookmarks
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
 
-                            <li>
+                            {/* <li>
                               <Link href="/mindmap">
                                 <a>
                                  
@@ -314,7 +314,7 @@ const Sidebar = ({ openClass }) => {
                                   Appoinments
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
                             <li>
                               <Link href="hrrecords">
                                 <a>
@@ -333,14 +333,14 @@ const Sidebar = ({ openClass }) => {
                               </Link>
                             </li>
 
-                            <li>
+                            {/* <li>
                               <Link href="/wikibooks">
                                 <a>
                                  
                                   Wiki Books
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
                          
                           
 
@@ -354,7 +354,7 @@ const Sidebar = ({ openClass }) => {
                               </Link>
                             </li> */}
 
-                            <li>
+                            {/* <li>
                               <Link href="idea-hub">
                                 <a>
                                  
@@ -396,18 +396,37 @@ const Sidebar = ({ openClass }) => {
                                   Team passwords
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
 
                             <li>
-                              <Link href="/filesharing">
+                              <Link href="/filemanager">
                                 <a>
                                   
-                                  File Sharing
+                                  File Manager
                                 </a>
                               </Link>
                             </li>
 
                             <li>
+                              <Link href="/companyassets">
+                                <a>
+                                 
+                                  Company Assets
+                                </a>
+                              </Link>
+                            </li>
+
+
+                            <li>
+                              <Link href="/POS">
+                                <a>
+                                 
+                                  Point of Sale
+                                </a>
+                              </Link>
+                            </li>
+
+                            {/* <li>
                               <Link href="/spreadsheet">
                                 <a>
                                  
@@ -430,7 +449,7 @@ const Sidebar = ({ openClass }) => {
                                   Video Library
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
 
                             <li>
                               <Link href="webhooks">
@@ -450,7 +469,7 @@ const Sidebar = ({ openClass }) => {
                               </Link>
                             </li>
 
-                            <li>
+                            {/* <li>
                               <Link href="/recruitment">
                                 <a>
                                  
@@ -466,7 +485,7 @@ const Sidebar = ({ openClass }) => {
                                   Objective
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
                         </div>
 
                             <div>
@@ -475,6 +494,42 @@ const Sidebar = ({ openClass }) => {
                                 <a>
                                  
                                   Support
+                                </a>
+                              </Link>
+                            </li>
+
+                            <li>
+                              <Link href="/Utilities">
+                                <a>
+                                 
+                                  Utilities
+                                </a>
+                              </Link>
+                            </li>
+
+                            <li>
+                              <Link href="/Knowledgebase">
+                                <a>
+                                 
+                                  Knowledge Base
+                                </a>
+                              </Link>
+                            </li>
+
+                            <li>
+                              <Link href="/hiring">
+                                <a>
+                                 
+                                  Hiring
+                                </a>
+                              </Link>
+                            </li>
+
+                            <li>
+                              <Link href="/sales">
+                                <a>
+                                 
+                                  Sales
                                 </a>
                               </Link>
                             </li>

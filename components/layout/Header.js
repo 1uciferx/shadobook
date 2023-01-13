@@ -51,7 +51,7 @@ const Header = ({ handleOpen, headerStyle }) => {
 
   }
 
-  
+
 
   useEffect(() => {
     shodanData()
@@ -106,7 +106,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                       <Link href="#">
                         <a className="acuspad">Features</a>
                       </Link>
-                      <ul className="sub-menu" style={{ width: "750px" }}>
+                      <ul className="sub-menu" style={{ width: "600px" }}>
                         <div style={{ display: "flex" }}>
                           <div>
                             <li>
@@ -127,11 +127,13 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li>
 
 
+
+
                             <li>
-                              <Link href="/reports">
+                              <Link href="/Knowledgebase">
                                 <a>
                                   <i className="fi fi-rr-star" />
-                                  Reports
+                                  Knowlege Base
                                 </a>
                               </Link>
                             </li>
@@ -152,14 +154,14 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li>
 
-                            <li>
+                            {/* <li>
                               <Link href="/customer-center">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Customer Center
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
                             <li>
                               <Link href="/purchase">
                                 <a>
@@ -168,14 +170,14 @@ const Header = ({ handleOpen, headerStyle }) => {
                                 </a>
                               </Link>
                             </li>
-                            <li>
+                            {/* <li>
                               <Link href="/suppliers">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Suppliers
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
                             <li>
                               <Link href="/expenses">
                                 <a>
@@ -193,22 +195,38 @@ const Header = ({ handleOpen, headerStyle }) => {
                                 </a>
                               </Link>
                             </li>
-                            <li>
-                              <Link href="/projects">
-                                <a>
-                                  <i className="fi fi-rr-star" />
-                                  Projects
-                                </a>
-                              </Link>
-                            </li>
-                            <li>
+                           
+                            {/* <li>
                               <Link href="/project-roadmap">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Project Roadmap
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
+
+
+
+                          </div>
+
+                          <div>
+                            {/* <li>
+                              <Link href="/fixed-asset">
+                                <a>
+                                  <i className="fi fi-rr-star" />
+                                  Fixed Assets
+                                </a>
+                              </Link>
+                            </li> */}
+
+                            {/* <li>
+                              <Link href="/commissions">
+                                <a>
+                                  <i className="fi fi-rr-star" />
+                                  commissions
+                                </a>
+                              </Link>
+                            </li> */}
 
                             <li>
                               <Link href="/inventory">
@@ -219,33 +237,12 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li>
 
-                            
+
                             <li>
                               <Link href="/hiring">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Hiring
-                                </a>
-                              </Link>
-                            </li>
-
-                          </div>
-
-                          <div>
-                            <li>
-                              <Link href="/fixed-asset">
-                                <a>
-                                  <i className="fi fi-rr-star" />
-                                  Fixed Assets
-                                </a>
-                              </Link>
-                            </li>
-
-                            <li>
-                              <Link href="/commissions">
-                                <a>
-                                  <i className="fi fi-rr-star" />
-                                  commissions
                                 </a>
                               </Link>
                             </li>
@@ -258,22 +255,22 @@ const Header = ({ handleOpen, headerStyle }) => {
                                 </a>
                               </Link>
                             </li>
-                            <li>
+                            {/* <li>
                               <Link href="/lead-manager">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Lead Manager
                                 </a>
                               </Link>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                               <Link href="/loyality">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Loyality
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
                             <li>
                               <Link href="/task">
                                 <a>
@@ -283,40 +280,40 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li>
 
-                            <li>
+                            {/* <li>
                               <Link href="/task-bookmarks">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Task Bookmarks
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
 
-                            <li>
+                            {/* <li>
                               <Link href="/mindmap">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Mindmap
                                 </a>
                               </Link>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                               <Link href="/reminder">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Reminder
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
 
-                            <li>
+                            {/* <li>
                               <Link href="/appoinments">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Appoinments
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
                             <li>
                               <Link href="hrrecords">
                                 <a>
@@ -335,20 +332,29 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li>
 
-                            <li>
+                            {/* <li>
                               <Link href="/wikibooks">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Wiki Books
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
 
                             <li>
                               <Link href="/sales-agent">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Sales Agent
+                                </a>
+                              </Link>
+                            </li>
+
+                            <li>
+                              <Link href="/projects">
+                                <a>
+                                  <i className="fi fi-rr-star" />
+                                  Projects
                                 </a>
                               </Link>
                             </li>
@@ -367,46 +373,55 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li> */}
 
-                            <li>
+                            {/* <li>
                               <Link href="idea-hub">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Idea Hub
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
 
-                            <li>
+                            {/* <li>
                               <Link href="/feedback">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Feedback
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
 
-                            <li>
+                            {/* <li>
                               <Link href="/staff-booking">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Staff Booking
                                 </a>
                               </Link>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                               <Link href="/staff-workload">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Staff Workload
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
 
-                            <li>
+                            {/* <li>
                               <Link href="/teampasswords">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Team passwords
+                                </a>
+                              </Link>
+                            </li> */}
+
+                            <li>
+                              <Link href="/reports">
+                                <a>
+                                  <i className="fi fi-rr-star" />
+                                  Reports
                                 </a>
                               </Link>
                             </li>
@@ -429,30 +444,30 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li>
 
-                            <li>
+                            {/* <li>
                               <Link href="/spreadsheet">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Spreadsheet Online
                                 </a>
                               </Link>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                               <Link href="/setup">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Setup
                                 </a>
                               </Link>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                               <Link href="videolibrary">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Video Library
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
 
                             <li>
                               <Link href="webhooks">
@@ -473,6 +488,15 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li>
 
                             <li>
+                              <Link href="/support">
+                                <a>
+                                  <i className="fi fi-rr-star" />
+                                  Support
+                                </a>
+                              </Link>
+                            </li>
+
+                            <li>
                               <Link href="/POS">
                                 <a>
                                   <i className="fi fi-rr-star" />
@@ -481,35 +505,25 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li>
 
-                            <li>
+                            {/* <li>
                               <Link href="/recruitment">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Recruitment
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
 
-                            <li>
+                            {/* <li>
                               <Link href="/objective">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Objective
                                 </a>
                               </Link>
-                            </li>
+                            </li> */}
                           </div>
 
-                          <div>
-                            <li>
-                              <Link href="/support">
-                                <a>
-                                  <i className="fi fi-rr-star" />
-                                  Support
-                                </a>
-                              </Link>
-                            </li>
-                          </div>
 
 
                         </div>
@@ -662,45 +676,45 @@ const Header = ({ handleOpen, headerStyle }) => {
                         objectFit: "cover",
                         marginBottom: "3px",
                       }}></img>
-                    {/* 📞 */}
+                      {/* 📞 */}
 
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={2}
-                      stroke="currentColor"
-                      style={{ height: "20px", width: "20px" }}
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
-                      />
-                    </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={2}
+                        stroke="currentColor"
+                        style={{ height: "20px", width: "20px" }}
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                        />
+                      </svg>
 
-                    <span style={{ diplay: "block" }}> +971 52 872 2900</span>
-                  </a>
-                </ul>
-              </nav>
+                      <span style={{ diplay: "block" }}> +971 52 872 2900</span>
+                    </a>
+                  </ul>
+                </nav>
 
 
-              <div
-                className="burger-icon burger-icon-white cusburgericon"
-                onClick={handleOpen}
-              >
-                <span className="burger-icon-top" />
-                <span className="burger-icon-mid" />
-                <span className="burger-icon-bottom" />
+                <div
+                  className="burger-icon burger-icon-white cusburgericon"
+                  onClick={handleOpen}
+                >
+                  <span className="burger-icon-top" />
+                  <span className="burger-icon-mid" />
+                  <span className="burger-icon-bottom" />
+                </div>
               </div>
             </div>
-          </div>
 
 
 
 
 
-          {/* <div className="header-right">
+            {/* <div className="header-right">
               <div className="block-signin">
                 <Link href="/page-signup">
                   <span className="btn btn-default hover-up icon-arrow-right acuspad">
@@ -709,9 +723,9 @@ const Header = ({ handleOpen, headerStyle }) => {
                 </Link>
               </div>
             </div> */}
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
     </>
   );
 };

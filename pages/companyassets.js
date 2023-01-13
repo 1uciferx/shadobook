@@ -437,8 +437,8 @@ function companyassets() {
               offset: 0,
             }}
             xxl={{
-              span: 20,
-              offset: 2,
+              span: 16,
+              offset: 5,
             }} >
             <h1 className={styles.para7}>Our Dashboard</h1>
 

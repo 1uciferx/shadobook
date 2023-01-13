@@ -489,12 +489,37 @@ function Expenses() {
                 }}
                 xxl={{
                   span: 20,
-                  offset: 2,
+                  offset: 0,
                 }} >
                 <p className={styles.subhead6}>
                   Overview and How to Record expenses in shadobooks CRM
                 </p>
+                </Col>
 
+                <Col xs={{
+                span: 20,
+                offset: 2,
+              }}
+                lg={{
+                  span: 6,
+                  offset: 2,
+                }}
+                sm={{
+                  span: 20,
+                  offset: 1,
+                }}
+                md={{
+                  span: 20,
+                  offset: 2,
+                }}
+                xl={{
+                  span: 20,
+                  offset: 0,
+                }}
+                xxl={{
+                  span: 20,
+                  offset: 3,
+                }} >
                 <Zoom cascade>
                   <img src="assets/imgs/page/homepage1/ssd.png" />
                 </Zoom>
