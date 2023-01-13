@@ -1,0 +1,113 @@
+.headings{
+    
+    margin-bottom: 100px;
+    margin-top: 40px;
+     font-size: 76px;
+     line-height: 300px;
+     font-family: Segoe UI;
+     color:rgb(255, 255, 255);
+     text-shadow: 2px 2px 4px #6e5f5f00;
+     font-weight: 600;
+     font-style: normal;
+}
+
+.para {
+    font-family:Segoe UI;
+  
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 60px;
+    color:rgb(255, 255, 255);
+    font-weight: 600; 
+    text-decoration: none solid rgb(0, 0, 0); }
+
+    .subhead {
+        font-family:Segoe UI;
+        font-weight:bold;
+        font-size: 35px;
+        line-height: 40px;
+        color: #90331c;
+     }
+
+    .subhead2 {
+        font-family: Segoe UI;
+        font-weight:normal;
+        font-size: 15px;
+        line-height: 20px;
+        color: #181818e0;
+     }
+
+    .subhead3 {
+        /* font-weight:bold; */
+        font-size: 15px;
+        /* line-height: 20px; */
+        color: #ffffff;
+     }
+
+     /* style for the odd container subject */
+     .subhead4 {
+        font-family: Segoe UI;
+        font-weight:normal;
+        width: 700px;
+        font-size: 15px;
+        line-height: 20px;
+        margin-left: 20px;
+        color: #181818e0;
+     }
+
+     /* style for the odd container heading */
+
+     .subhead5 {
+        font-family:Segoe UI;
+        font-weight:bold;
+        margin-left: 20px;
+        margin-top: 200px;
+        font-size: 35px;
+        line-height: 40px;
+        color: #90331c;
+     }
+
+     /* style for the even container subject */
+
+     .subhead6 {
+        font-family: Segoe UI;
+        font-weight:normal;
+        width: 700px;
+        margin-left: 30px;
+        font-size: 15px;
+        line-height: 20px;
+        color: #181818e0;
+     }
+
+
+     /* style for the container even heading */
+
+     .subhead7 {
+        font-family:Segoe UI;
+        font-weight:bold;
+        margin-left: 30px;
+        margin-top: 200px;
+        font-size: 35px;
+        line-height: 40px;
+        color: #8e341e;
+     }
+
+
+
+     .para5 {
+        font-family:Segoe UI;
+        margin-left: 0px;
+        margin-bottom: 70px;
+        font-size: 48px;
+        line-height: 20px;
+        color:rgb(0, 0, 0);
+        font-weight: 600; 
+        text-decoration: none solid rgb(0, 0, 0);
+        text-align: center;
+        margin-top: 60px;
+
+      }
+
+
+
+        

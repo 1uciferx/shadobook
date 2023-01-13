@@ -1,0 +1,733 @@
+.headings {
+
+    margin-bottom: 0px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 76px;
+    line-height: 200px;
+    font-family: Segoe UI;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+
+.para {
+    font-family: Segoe UI;
+    text-align: center;
+    margin-top: 0px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 80px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    text-decoration: none solid rgb(0, 0, 0);
+}
+
+
+
+.subhead {
+    font-family: Segoe UI;
+    text-align: start;
+    margin-left: 50px;
+    margin-top: 120px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 20px;
+    color: #000000;
+}
+
+
+
+.subhead1 {
+    font-family: Segoe UI;
+    text-align: start;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #181818e0;
+}
+
+
+
+.subhead2 {
+    font-family: Segoe UI;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 0px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 20px;
+    color: #000000e0;
+}
+
+
+.subhead3 {
+    font-family: Segoe UI;
+    text-align: start;
+    margin-top: 50px;
+    margin-left: 0px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 20px;
+    color: #181818e0;
+}
+
+
+.subhead4 {
+    font-family: Segoe UI;
+    text-align: center;
+    margin-top: 60px;
+  
+    width: 100%;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #000000e0;
+}
+
+
+
+.subhead5 {
+    font-family: Segoe UI;
+    text-align: start;
+    margin-top: 80px;
+    width: 100%;
+
+    font-size: 18px;
+    line-height: 20px;
+    color: #181818e0;
+}
+
+
+
+.subhead6 {
+    font-family: Segoe UI;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 0px;
+    font-size: 28px;
+    line-height: 20px;
+    color: #181818e0;
+}
+
+
+
+.subhead7 {
+    font-family: Segoe UI;
+    text-align: start;
+    margin-top: 40px;
+    width: 100%;
+
+    font-size: 18px;
+    line-height: 22px;
+    color: #181818e0;
+}
+
+
+
+/* end of the style css which is assigned in expenses */
+
+
+
+
+
+
+
+/* Media queries styles has been initiated from here */
+
+
+
+
+
+/* media queries for ipad mini screen views */
+
+@media screen and (max-width: 768px) {
+
+    .headings {
+
+        margin-bottom: 0px;
+        margin-top: 100px;
+        text-align: center;
+        font-size: 76px;
+        line-height: 200px;
+        font-family: Segoe UI;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 4px #000000;
+        font-weight: 600;
+        font-style: normal;
+    }
+    
+    
+    
+    .para {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-left: 300px;
+        margin-top: 0px;
+        font-size: 18px;
+        line-height: 80px;
+        color: rgb(255, 255, 255);
+        font-weight: 400;
+        text-decoration: none solid rgb(0, 0, 0);
+    }
+    
+    
+    
+    .subhead {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-left: 50px;
+        margin-top: 120px;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 20px;
+        color: #000000;
+    }
+    
+    
+    
+    .subhead1 {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: 18px;
+        line-height: 20px;
+        color: #181818e0;
+    }
+    
+    
+    
+    .subhead2 {
+        font-family: Segoe UI;
+        text-align: center;
+        margin-top: 60px;
+        margin-left: 150px;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 20px;
+        color: #000000e0;
+    }
+    
+    
+    .subhead3 {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-top: 80px;
+     
+        width: 100%;
+        font-size: 18px;
+        line-height: 20px;
+        color: #181818e0;
+    }
+    
+    
+    .subhead4 {
+        font-family: Segoe UI;
+        text-align: center;
+        margin-top: 60px;
+        margin-left: 140px;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 20px;
+        color: #000000e0;
+    }
+    
+    
+    
+    .subhead5 {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-top: 80px;
+        width: 100%;
+    
+        font-size: 18px;
+        line-height: 20px;
+        color: #181818e0;
+    }
+    
+    
+    
+    .subhead6 {
+        font-family: Segoe UI;
+        text-align: center;
+        margin-top: 80px;
+        margin-left: 0px;
+        font-size: 28px;
+        line-height: 20px;
+        color: #181818e0;
+    }
+    
+    
+    
+    .subhead7 {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-top: 40px;
+        width: 100%;
+   
+        font-size: 18px;
+        line-height: 22px;
+        color: #181818e0;
+    }
+    
+  
+}
+
+
+
+
+
+
+/* media queries for the ipad view */
+
+@media screen and (max-width: 991px) {
+
+    .headings {
+
+        
+        margin-top: 119px;
+        text-align: center;
+        font-size: 38px;
+        width: 100%;
+        line-height: 12px;
+        font-family: Segoe UI;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 4px #000000;
+        font-weight: 600;
+        font-style: normal;
+    }
+    
+    
+    
+    .para {
+        font-family: Segoe UI;
+        text-align: center;      
+        
+        margin-top: 100px;
+        font-size: 16px;
+        width: 100%;
+        line-height: 22px;
+        color: rgb(255, 255, 255);
+        font-weight: 400;
+        text-decoration: none solid rgb(0, 0, 0);
+    }
+    
+    
+    
+    
+    .subhead {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-left: 50px;
+        margin-top: 120px;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 20px;
+        color: #000000;
+    }
+    
+    
+    
+    .subhead1 {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: 16px;
+        line-height: 19px;
+        color: #181818e0;
+    }
+    
+    
+    
+    .subhead2 {
+        font-family: Segoe UI;
+        text-align: center;
+        margin-top: 60px;
+        margin-left: 0px;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 20px;
+        color: #000000e0;
+    }
+    
+    
+    .subhead3 {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-top: 80px;
+       
+        width: 100%;
+        font-size: 18px;
+        line-height: 20px;
+        color: #181818e0;
+    }
+    
+    
+    .subhead4 {
+        font-family: Segoe UI;
+        text-align: center;
+        margin-top: 60px;
+        margin-left: 20px;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 20px;
+        color: #000000e0;
+    }
+    
+    
+    
+    .subhead5 {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-top: 80px;
+        width: 100%;
+      
+        font-size: 18px;
+        line-height: 20px;
+        color: #181818e0;
+    }
+    
+    
+    
+    .subhead6 {
+        font-family: Segoe UI;
+        text-align: center;
+        margin-top: 80px;
+        margin-left: 0px;
+        font-size: 28px;
+        line-height: 20px;
+        color: #181818e0;
+    }
+    
+    
+    
+    .subhead7 {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-top: 40px;
+        width: 100%;
+     
+        font-size: 18px;
+        line-height: 22px;
+        color: #181818e0;
+    }
+    
+   
+    
+     
+   
+
+}
+
+
+
+
+/* media query for the smartphones */
+
+@media screen and (max-width: 576px) {
+
+
+    .headings {
+
+        margin-bottom: 0px;
+        margin-top: 140px;
+        text-align: center;
+    
+        font-size: 26px;
+        width: 100%;       
+        line-height: 10px;
+        font-family: Segoe UI;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 4px #000000;
+        font-weight: 600;
+        font-style: normal;
+    }
+    
+    
+    
+    .para {
+        font-family: Segoe UI;
+        text-align: center;
+        margin-left: 6%;
+        margin-top: 20%;
+        font-size: 12px;
+        width: 85%;
+        line-height:20px;
+        color: rgb(255, 255, 255);
+        font-weight: 400;
+        text-decoration: none solid rgb(0, 0, 0);
+    }
+    
+    
+    
+    .subhead {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-left: 10px;
+        margin-top: 120px;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 20px;
+        color: #000000;
+    }
+    
+    
+    
+    .subhead1 {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 16px;
+        line-height: 20px;
+        color: #181818e0;
+    }
+    
+    
+    
+    .subhead2 {
+        font-family: Segoe UI;
+        text-align: center;
+        margin-top: 0px;
+        margin-left: 10px;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 20px;
+        color: #000000e0;
+    }
+    
+    
+    .subhead3 {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-top: 40px;
+        margin-left: 20px;
+        width: 300px;
+        font-size: 14px;
+        line-height: 20px;
+        color: #181818e0;
+    }
+    
+    
+    .subhead4 {
+        font-family: Segoe UI;
+        text-align: center;
+        margin-top: 60px;
+        margin-left: 0px;
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 20px;
+        color: #000000e0;
+    }
+    
+    
+    
+    .subhead5 {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-top: 80px;
+        width: 500px;
+        margin-left: 150px;
+        font-size: 18px;
+        line-height: 20px;
+        color: #181818e0;
+    }
+    
+    
+    
+    .subhead6 {
+        font-family: Segoe UI;
+        text-align: center;
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 28px;
+        line-height: 20px;
+        color: #181818e0;
+    }
+    
+    
+    
+    .subhead7 {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-top: 29px;
+        width: 286px;
+        margin-left: 30px;
+        font-size: 16px;
+        line-height: 19px;
+        color: #181818e0;
+    }
+    
+     
+   
+}
+
+
+
+
+/* media query for laptop */
+
+@media screen and (min-width: 993px) and (max-width: 1520px) {
+
+    .headings {
+
+        margin-bottom: 0px;
+        margin-top: 100px;
+        margin-left: 350px;
+        text-align: center;
+        font-size: 56px;
+        width: 250px;
+        line-height: 100px;
+        font-family: Segoe UI;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 4px #000000;
+        font-weight: 600;
+        font-style: normal;
+    }
+    
+    
+    
+    .para {
+        font-family: Segoe UI;
+        text-align: center;
+        
+        margin-bottom: 0px;
+        width: 100%;
+        font-size: 18px;
+        line-height: 0px;
+        color: rgb(255, 255, 255);
+        font-weight: 400;
+        text-decoration: none solid rgb(0, 0, 0);
+    }
+    
+    
+    
+    .subhead {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-left: 50px;
+        margin-top: 120px;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 20px;
+        color: #000000;
+    }
+    
+    
+    
+    .subhead1 {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: 18px;
+        line-height: 20px;
+        color: #181818e0;
+    }
+    
+    
+    
+    .subhead2 {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-top: 60px;
+        margin-left: 0px;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 20px;
+        color: #000000e0;
+    }
+    
+    
+    .subhead3 {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-top: 50px;
+        margin-left: 0px;
+        width: 400px;
+        font-size: 18px;
+        line-height: 20px;
+        color: #181818e0;
+    }
+    
+    
+    .subhead4 {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-top: 60px;
+        margin-left: 0px;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 20px;
+        color: #000000e0;
+    }
+    
+    
+    
+    .subhead5 {
+        font-family: Segoe UI;
+        text-align: start;
+        margin-top: 80px;
+        width: 500px;
+        margin-left: 150px;
+        font-size: 18px;
+        line-height: 20px;
+        color: #181818e0;
+    }
+    
+    
+    
+    .subhead6 {
+        font-family: Segoe UI;
+        text-align: center;
+        margin-top: 0px;
+      
+        width: 100%;
+        font-size: 28px;
+        line-height: 20px;
+        color: #181818e0;
+    }
+    
+    
+    
+    .subhead7 {
+        font-family: Segoe UI;
+        text-align: start;
+   
+        width: 100%;
+ 
+        font-size: 16px;
+        line-height: 22px;
+        color: #181818e0;
+    }
+
+
+}
+    
+     /* hero image banner which is located at the top */
+    
+    
+     
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

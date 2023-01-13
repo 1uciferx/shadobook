@@ -11,6 +11,11 @@ import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Preloader from '../components/elements/Preloader';
+import 'react-modal-video/css/modal-video.css';
+import TawkTo from 'tawkto-react'
+import 'antd/dist/reset.css';
+import Head from "next/head"
 
 
 function MyApp({ Component, pageProps }) {

@@ -27,6 +27,7 @@ const Layout = ({ children, headerStyle }) => {
             <main className="main">
                 {children}
             </main>
+            
             <Footer />
             <BackToTop/>
         </>
