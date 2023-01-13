@@ -16,6 +16,13 @@
 
   .paraheadalign{
     width: 60%;
+    text-align: center;
+    margin: auto;
+  }
+
+  
+  .modalign{
+    text-align: center;
     margin: auto;
   }
 

@@ -90,40 +90,16 @@ function Contracts() {
                   </p>
                 </div>
              
-              {/* <Pulse>
-                <Col
-                  xs={{
-                    span: 20,
-                    offset: 6,
-                  }}
-                  lg={{
-                    span: 22,
-                    offset: 10,
-                  }}
-                  md={{
-                    span: 22,
-                    offset: 10,
-                  }}
-                  sm={{
-                    span: 22,
-                    offset: 10,
-                  }}
-                  xl={{
-                    span: 22,
-                    offset: 11,
-                  }}
-                  xxl={{
-                    span: 24,
-                    offset: 10,
-                  }}
-                >
+               <Pulse>
+               <div className={styles.modalign}>
                   <img
                     alt="Agon"
-                    src="assets/imgs/page/homepage4/objective1.png "
+                    src="assets/imgs/page/homepage4/congif.gif "
                     className={styles.modimg}
                   />
-                </Col>
-              </Pulse> */}
+                  </div>
+              
+              </Pulse> 
             </ParallaxBannerLayer>
           </ParallaxBanner>
         </ParallaxProvider>
