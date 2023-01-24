@@ -106,9 +106,9 @@ const Header = ({ handleOpen, headerStyle }) => {
                       <Link href="#">
                         <a className="acuspad">Features</a>
                       </Link>
-                      <ul className="sub-menu" style={{ width: "600px" }}>
-                        <div style={{ display: "flex" }}>
-                          <div>
+                      <ul className="sub-menu" style={{ width: "600px",marginLeft:"-488px"}}>
+                        <div style={{ display: "flex", justifyContent:"center"}}>
+                          <div >
                             <li>
                               <Link href="/accounting">
                                 <a>

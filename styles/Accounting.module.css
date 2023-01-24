@@ -19,7 +19,9 @@
 }
 
 
-.para2{
+.para2
+
+{
     
     font-size: 18px;  
     text-align: start;
@@ -29,8 +31,6 @@
     font-weight: 0;
     font-style: normal;
     margin: 20px;
-   
-
 }
 
 .para3{
@@ -44,9 +44,11 @@
     font-style: normal;
     margin-top: 0px;
     margin: 20px;
+    margin-top: 30px;
 }
 
 .para4{
+
     text-align: center;
     font-size: 18px;  
     text-align: start;
@@ -61,6 +63,7 @@
 }
 
 .para5{
+
     text-align: center;
     font-size: 18px;  
     text-align: start;
@@ -74,6 +77,7 @@
 }
 
 .para6{
+
     text-align: center;
     font-size: 18px;  
     text-align: start;
@@ -87,6 +91,7 @@
 }
 
 .para7{
+
     text-align: center;
     font-size: 18px;  
     text-align: start;
@@ -100,6 +105,7 @@
 }
 
 .para8{
+
     text-align: center;
     font-size: 18px;  
     text-align: start;
@@ -114,6 +120,7 @@
 
 
 .para9{
+
     text-align: center;
     font-size: 18px;  
     text-align: start;
@@ -127,6 +134,7 @@
 }
 
 .para10{
+
     text-align: center;
     font-size: 18px;  
     text-align: start;
@@ -137,77 +145,88 @@
     font-style: normal;
     margin-top: 0px;
     margin: 20px;
-    margin-bottom: 100px;
+   
 }
 
 
 
 
-    .headings{
-       
-        font-size: 36;
-        text-align: center;
-        line-height: 40px;
-        font-family: Segoe UI;
-        color:black;
-        font-weight: 600;
-        font-style: normal;
-        margin-top: 30px;
-    }
-    
-    .containers{
-        background-color:white;
-        border-radius: 20px;
+.headings{
 
-        position:relative;
-        box-shadow: 1px 6px 3px ;
-        overflow: hidden;
+    font-size: 36;
+    text-align: center;
+    line-height: 40px;
+    font-family: Segoe UI;
+    color:black;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 30px;
+             
+}
+    
+.containers{
+
+    background-color:white;
+    border-radius: 20px;
+    position:relative;
+    box-shadow: 1px 6px 3px ;
+    overflow: hidden;
+        
     }
     
-    .shadow{
-        background-color:white;
-        border-radius: 20px;
-   
-      
-       height: 550px;
-     
-        position:relative;
-        box-shadow: 1px 6px 3px ;
-        overflow: hidden;
+.shadow{
+
+    background-color:white;
+    border-radius: 20px;
+    height: 550px;
+    position:relative;
+    box-shadow: 1px 6px 3px ;
+    overflow: hidden;
+       
     }
+
+
+.logo3{
+  width: 70%;
+  height: 70%;
+  margin-top: -20px;
+  margin-left: 70px;
+}
+
   
 
-    .headerimg{
-        height: 250px;
-        width: 800px;
+.headerimg{
+
+    height: 250px;
+    width: 800px;
     }
 
-    .backgroundimg{
-        height: 800px;
-        width: 100%;
-    }
+.backgroundimg{
 
-
-
-
-
-    .maginheading{
-        margin-bottom:50px ;
+    height: 800px;
+    width: 100%;
     }
 
 
-    .headingsheader{
-        font-size: 36;
-        text-align: start;
-        line-height: 40px;
-        font-family: Segoe UI;
-        color:rgb(242, 227, 227);
-        font-weight: 600;
-        font-style: normal;
+.maginheading{
+
+    margin-bottom:50px ;
+    }
+
+
+.headingsheader{
+
+    font-size: 36;
+    text-align: start;
+    line-height: 40px;
+    font-family: Segoe UI;
+    color:rgb(242, 227, 227);
+    font-weight: 600;
+    font-style: normal;
        
-    }
+}
     
- .paraheader{
+.paraheader{
     
     font-size: 36px;
     text-align: start;
@@ -216,14 +235,102 @@
     color:white;
     font-weight: 600;
     font-style: normal;
-   margin-top: 13%;
- }
+    margin-top: 13%;
+}
 
- .logo{
+ 
+  /* Module images */
+
+  .img1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 6px 3px ;
+    border-radius: 15px;
+}
+
+
+.img2{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    box-shadow: 1px 6px 3px ;
+    border-radius: 15px;
+}
+
+
+
+.img3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-shadow: 1px 6px 3px ;
+    border-radius: 15px;
+    height: 90%;
+}
+
+
+
+.img4{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    box-shadow: 1px 6px 3px ;
+    border-radius: 15px;
+}
+
+
+
+.img5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 6px 3px ;
+    border-radius: 15px;
+}
+
+
+
+.img6{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 6px 3px ;
+    border-radius: 15px;
+}
+
+
+
+.img7{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 6px 3px ;
+    border-radius: 15px;
+}
+
+
+
+
+.img8{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    box-shadow: 1px 6px 3px ;
+    border-radius: 15px;
+}
+
+
+.img9{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 6px 3px ;
+    border-radius: 15px;
+}
+
+
+.logo1{
+ 
     height: 350px;
     width: 400px;
- }
+    
+}
 
+.logo5{
+    margin-top: 0px;
+}
 
 
  /* media querie */
@@ -278,10 +385,26 @@
         margin-left: 130px;
         margin-bottom: 20px;
     }
+
     
 }
 
+@media screen and (min-width: 300px) {
 
+    .headingsheader{
+        font-size: 10;
+        text-align: center;
+        line-height: 20px;
+        font-family: Segoe UI;
+        color:rgb(242, 227, 227);
+        font-weight: 400;
+        font-style: normal;
+        margin-top: 20%;
+    
+    }
+
+
+}
 
  @media screen and (min-width: 300px) {
 
@@ -374,6 +497,35 @@
        }
 
 
+@media screen and (max-width: 500px) {
+    
+    .box{
+        display:none;
+    }
+   .paraheader{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+   }
+   .headingsheader{
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+   }
+   .headings{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+   }
+.backgroundimg{
+    height: 500px;
+    width: 100%
+}
+.para1,.para2,.para3,.para4,.para5,.para6,.para7,.para8,.para9,.para10{
+    font-size: 14px;
+}
+
+   }
 
 
 @media screen and (min-width: 600px) {
@@ -426,28 +578,21 @@
         margin-left: 150px;
         margin-bottom: 20px;
     }
-}
-
-
-
-@media screen and (min-width: 600px) {
-
     .box{
-        width:600px;
+        width: 474px;
         height: 300px;
         margin-bottom: 0px;
         margin-top: 30px;
-        margin-left: 50px;
+      
         
     }
-    
-    }
 
 
 
+}
 
 
-    @media screen and (min-width: 698px) {
+@media screen and (min-width: 698px) {
 
         .margintop1{
             margin-top: 50px;
@@ -496,13 +641,17 @@
             margin-top: 50px;
         
            
-           }
+        }
+
         
-            }
-
-
-
-
+        .box{
+            width: 400px;
+            height: 400px;
+            margin-top: 10px;
+            
+        }
+        
+    }
 
 
 
@@ -547,84 +696,12 @@
         margin-left: 230px;
         margin-bottom: 20px;
     }
-    
-     
-}
-
-
-
-
-@media screen and (min-width: 1200px) {
-
-.buttonres1 {
-    margin-left: 340px;
-    margin-bottom: 20px;
-}
-
-.buttonres2 {
-    margin-left: 180px;
-    margin-bottom: 20px;
-}
-
-.buttonres3 {
-    margin-left: 250px;
-    margin-bottom: 20px;
-}
-
-.buttonres4 {
-    margin-left: 350px;
-    margin-bottom: 20px;
-}
-
-.buttonres5 {
-    margin-left: 350px;
-    margin-bottom: 20px;
-}
-
-.buttonres6 {
-    margin-left: 160px;
-    margin-bottom: 20px;
-}
-
-.buttonres7 {
-    margin-left: 230px;
-    margin-bottom: 20px;
-}
-
-.buttonres8      {
-    margin-left: 130px;
-    margin-bottom: 20px;
-}
-
-.buttonres9      {
-    margin-left: 250px;
-    margin-bottom: 20px;
-}
-
-
-.buttonres10     {
-    margin-left: 250px;
-    margin-bottom: 20px;
-}
- 
-
-
-}
-
-
-
 
    
-   @media screen and (max-width: 500px) {
-    .box{
-        display:none;
-    }
-   }
-  
+}
 
 
-       
-   @media screen and (min-width: 990px) {
+@media screen and (min-width: 990px) {
 
     .paraheader{
         
@@ -636,16 +713,81 @@
         font-weight: 600;
         font-style: normal;
         margin-top: 15%;
-     
+    }
+
+    .box{
+        width: 950px;
+        height: 600px;
+        margin-top: 10px;
+       
+    }
+
+    .headingsheader{
+        font-size: 10;
+        text-align: start;
+        line-height: 40px;
+        font-family: Segoe UI;
+        color:rgb(242, 227, 227);
+        font-weight: 500;
+        font-style: normal;
+        margin-top: 27%;
+    }
+
     
+}
+
+
+@media screen and (min-width: 1200px) {
+    .buttonres1 {
+        margin-left: 340px;
+        margin-bottom: 20px;
     }
     
-       }
+    .buttonres2 {
+        margin-left: 180px;
+        margin-bottom: 20px;
+    }
     
-
-               
-
-   @media screen and (min-width: 1200px) {
+    .buttonres3 {
+        margin-left: 250px;
+        margin-bottom: 20px;
+    }
+    
+    .buttonres4 {
+        margin-left: 350px;
+        margin-bottom: 20px;
+    }
+    
+    .buttonres5 {
+        margin-left: 350px;
+        margin-bottom: 20px;
+    }
+    
+    .buttonres6 {
+        margin-left: 160px;
+        margin-bottom: 20px;
+    }
+    
+    .buttonres7 {
+        margin-left: 230px;
+        margin-bottom: 20px;
+    }
+    
+    .buttonres8      {
+        margin-left: 130px;
+        margin-bottom: 20px;
+    }
+    
+    .buttonres9      {
+        margin-left: 250px;
+        margin-bottom: 20px;
+    }
+    
+    
+    .buttonres10     {
+        margin-left: 250px;
+        margin-bottom: 20px;
+    }
 
     .paraheader{
         
@@ -660,129 +802,26 @@
      
     
     }
+    .logo1{
+        margin-top: 80px;
+
+        height: 350px;
+        width: 400px;
+  
+    }
+   
     
-       }
-    
-    
-
-    
-
-       @media screen and (min-width: 690px) {
-
-        .box{
-            width: 400px;
-            height: 400px;
-            margin-top: 10px;
-            
-        }
-        
-           }
-
-           
-
+}
 
 
            
-       @media screen and (min-width: 990px) {
+@media screen and (min-width: 1600px) {
+    .logo1{
+        margin-top: 0px;
 
-        .box{
-            width: 950px;
-            height: 600px;
-            margin-top: 10px;
-           
-        }
-        
-           }
-
-           
- 
-
+        height: 350px;
+        width: 400px;    
+    }
     
-           
-    @media screen and (min-width: 990px) {
-
-        .headingsheader{
-            font-size: 10;
-            text-align: start;
-            line-height: 40px;
-            font-family: Segoe UI;
-            color:rgb(242, 227, 227);
-            font-weight: 500;
-            font-style: normal;
-           margin-top: 27%;
-        }
-        
-           }
-
-
-  /* Module images */
-
- .img1{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    box-shadow: 1px 6px 3px ;
-}
-
-
-.img2{
-    margin-top: 10px;
-    margin-bottom: 0px;
-    box-shadow: 1px 6px 3px ;
-}
-
-
-
-.img3{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    box-shadow: 1px 6px 3px ;
-}
-
-
-
-.img4{
-    margin-top: 10px;
-    margin-bottom: 5px;
-    box-shadow: 1px 6px 3px ;
-}
-
-
-
-.img5{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    box-shadow: 1px 6px 3px ;
-}
-
-
-
-.img6{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    box-shadow: 1px 6px 3px ;
-}
-
-
-
-.img7{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    box-shadow: 1px 6px 3px ;
-}
-
-
-
-
-.img8{
-    margin-top: 15px;
-    margin-bottom: 10px;
-    box-shadow: 1px 6px 3px ;
-}
-
-
-
-.img9{
-    margin-top: 10px;
-    margin-bottom: 0px;
-    box-shadow: 1px 6px 3px ;
+   
 }

@@ -126,7 +126,7 @@ xxl={{
 
   sm={{
     span: 20,
-    offset: 3,
+    offset: 1,
   }}
 
   md={{
@@ -140,7 +140,7 @@ xxl={{
   }}
   xl={{
     span: 10,
-    offset: 0,
+    offset: 2,
   }}
   xxl={{
 
@@ -156,7 +156,6 @@ xxl={{
 
 
 </div>
-
 
 
 
@@ -225,8 +224,8 @@ xxl={{
           }}
           xxl={{
 
-            span: 13,
-            offset: 5,
+            span: 18,
+            offset: 3,
           }}>
           <img className={styles.img1} src="/salesagent/pic1.png"></img>
         </Col>
@@ -261,13 +260,21 @@ xxl={{
           }}
           xxl={{
 
-            span: 13,
-            offset: 5,
+            span: 18,
+            offset: 3,
           }}>
 
 
-          <p className={styles.para1}>A dashboard is a piece of sales technology that shows the most recent performance information visually. 
-         It provides you with a succinct overview of data that is based on results, such as sales-to-date, sales by region, lead conversion rate, sales growth, and so on.</p>
+          <p className={styles.para1}>
+            <li>
+            A dashboard is a piece of sales technology that shows the most recent performance information visually. 
+
+            </li>
+            <br></br>
+            <li>
+            It provides you with a succinct overview of data that is based on results, such as sales-to-date, sales by region, lead conversion rate, sales growth, and so on.
+            </li>
+         </p>
 {/* 
           <Space>
             <Button className={styles.buttonres1}>Learn More</Button>
@@ -372,7 +379,7 @@ xxl={{
           }}
           xl={{
             span: 8,
-            offset: 0,
+            offset: 1,
           }}
           xxl={{
 
@@ -381,8 +388,18 @@ xxl={{
           }}>
 
 
-          <p className={styles.para1}>Sales representatives typically have a great deal of autonomy to set prices, terms, and conditions of sale and are contractually empowered
-          to sell all of a manufacturer's output. Despite working on a commission basis, they occasionally carry out the responsibilities of a manufacturer's marketing department.</p>
+          <p className={styles.para1}>
+            <li>
+            Sales representatives typically have a great deal of autonomy to set prices, terms, and conditions of sale and are contractually empowered
+          to sell all of a manufacturer's output.
+            </li>
+            <br></br>
+
+            <li>
+            Despite working on a commission basis, they occasionally carry out the responsibilities of a manufacturer's marketing department.
+
+            </li>
+             </p>
 {/* 
           <Space>
             <Button className={styles.buttonres2}>Learn More</Button>
@@ -400,33 +417,33 @@ xxl={{
 
       <Row className={styles.margintop3}>
       <Col xs={{
-            span: 18,
-            offset: 3,
+          span: 18,
+          offset: 2,
+        }}
+
+          sm={{
+            span: 20,
+            offset: 2,
           }}
 
-            sm={{
-              span: 20,
-              offset: 1,
-            }}
+          md={{
+            span: 10,
+            offset: 7,
+          }}
 
-            md={{
-              span: 18,
-              offset: 3,
-            }}
+          lg={{
+            span: 12,
+            offset: 6,
+          }}
+          xl={{
+            span: 12,
+            offset: 2,
+          }}
+          xxl={{
 
-            lg={{
-              span: 12,
-              offset: 2,
-            }}
-            xl={{
-              span: 12,
-              offset: 1,
-            }}
-            xxl={{
-
-              span: 7,
-              offset: 4,
-            }}>
+            span: 14,
+            offset: 1,
+          }}>
           <h3 className={styles.headings3}>Programs</h3>
         </Col>
       </Row>
@@ -450,7 +467,7 @@ xxl={{
             }}
 
             lg={{
-              span: 14,
+              span: 20,
               offset: 0,
             }}
             xl={{
@@ -465,76 +482,54 @@ xxl={{
           <img className={styles.img3} src="/salesagent/pic1.png"></img>
         </Col>
 
+       
         <Col xs={{
-            span: 0,
+          span: 20,
+          offset: 2,
+        }}
+
+          sm={{
+            span: 20,
             offset: 0,
           }}
 
-            sm={{
-              span: 0,
-              offset: 0,
-            }}
-
-            md={{
-              span: 0,
-              offset: 0,
-            }}
-
-            lg={{
-              span: 6,
-              offset: 1,
-            }}
-            xl={{
-              span: 6,
-              offset: 0,
-            }}
-            xxl={{
-
-              span: 6,
-              offset: 1,
-            }}>
-          <img className={styles.logo} src="/logo1/vector4.jpg"></img>
-        </Col>
-
-      </Row>
-
-
-
-      <Row>
-      <Col xs={{
-             span: 20,
-             offset: 2,
+          md={{
+            span: 20,
+            offset: 2,
           }}
 
-            sm={{
-              span: 20,
-              offset: 2,
-            }}
+          lg={{
+            span: 20,
+            offset: 0,
+          }}
+          xl={{
+            span: 8,
+            offset: 1,
+          }}
+          xxl={{
 
-            md={{
-              span: 20,
-              offset: 2,
-            }}
-
-            lg={{
-              span: 14,
-              offset: 0,
-            }}
-            xl={{
-              span: 12,
-              offset: 0,
-            }}
-            xxl={{
-
-              span: 12,
-              offset: 2,
-            }}>
+            span: 8,
+            offset: 1,
+          }}>
 
 
 
-          <p className={styles.para1}>A sales programme is a sizable collection of coordinated, repeatable, and conventional activities that promote incremental new business.
-          Sales programmes frequently depend on multiple organisations. Each organisation must comprehend, accept, and carry out its specific sales programme 
-          component in order for the programme to be effective.</p>
+          <p className={styles.para1}>
+            <li>
+            A sales programme is a sizable collection of coordinated, repeatable, and conventional activities that promote incremental new business.
+            </li>
+            <br></br>
+            <li>
+
+            Sales programmes frequently depend on multiple organisations. 
+            </li>
+            <br></br>
+            <li>
+            Each organisation must comprehend, accept, and carry out its specific sales programme 
+          component in order for the programme to be effective.
+            </li>
+
+         </p>
 {/* 
           <Space>
             <Button className={styles.buttonres3}>Learn More</Button>
