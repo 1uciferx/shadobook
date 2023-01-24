@@ -34,9 +34,10 @@
 
   
   .conalign{
-    width: 80%;
-    margin: auto;
+   
     text-align: center;
+   
+
   }
   
 
@@ -45,7 +46,8 @@
     border-radius: 500px;
      height: 300px;
   }
-  .paracon {
+
+ .paracon {
    
  
     font-family:Segoe UI;
@@ -55,9 +57,14 @@
     font-weight: 400;
     text-decoration: none solid rgb(0, 0, 0);
     margin-top: 30px;
+    display: inline-block;
+    text-align: left;
+    
   
   
-  }
+  } 
+
+
 
   .para {
    
@@ -96,7 +103,7 @@
    font-size: 25px;
    line-height: 40px;
    color: #90331c;
-   margin-top: 200px;
+   margin-top: 14%;
   }
   
   .headings2{

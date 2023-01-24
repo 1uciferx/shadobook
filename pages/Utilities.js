@@ -31,7 +31,7 @@ function Utilities() {
         <ParallaxProvider>
           <ParallaxBanner style={{ aspectRatio: "2 / 1" }}>
             <ParallaxBannerLayer
-              image="assets/imgs/page/homepage4/ban9.jpg"
+              image="assets/imgs/page/homepage4/ban8.jpg"
               speed={-20}
             />
             <ParallaxBannerLayer>

@@ -464,22 +464,22 @@ function Service1() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 col-sm-12 " >
+              {/* <div className="col-lg-6 col-sm-12 " >
                 <div className="inner-image mt-50" >
-                  <img
+               <img
                     className="bdrd-16 img-responsive"
                     src="assets/imgs/page/homepage4/why3.png" style={{width:"900px", height:"700px",maxWidth:"150%"}}
                     alt="ShadoBooks"
                   />
-                  {/* <div className="block-image-bottom">
+                 <div className="block-image-bottom">
                     <img
                       className="bdrd-16 img-responsive"
                       src="assets/imgs/page/homepage2/img-built-2.png"
                       alt="ShadoBooks"
                     />
-                  </div> */}
+                  </div> 
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>

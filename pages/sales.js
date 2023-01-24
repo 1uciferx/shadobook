@@ -107,7 +107,7 @@ function About1() {
               credit notes and inventory management on the go.
             </h4>
 
-            <div className={styles.btnspace}>
+            {/* <div className={styles.btnspace}>
               <Link href="/page-contact">
                 <a className="btn btn-black shape-square icon-arrow-right-white ">
                   Get Start
@@ -121,7 +121,7 @@ function About1() {
                   How it works
                 </a>
               </Link>
-            </div>
+            </div> */}
           </Col>
 
           <Col

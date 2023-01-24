@@ -323,7 +323,7 @@ function Purchase() {
                       </h3>
                       <p className={styles.para}>
                         In Shadobook ERP, a list of items will display by
-                        clicking the purchase module's "items" tab. Here, enter
+                        clicking the purchase module "items" tab. Here, enter
                         all the details such as the commodity code, name,
                         warehouse name, unit name, etc. According to the details
                         provided in the form, an items file will be shown on the

@@ -165,12 +165,56 @@ function Task() {
           }}
         >
           <div className={styles.conalign}>
-            <p className={styles.paracon}>
-              Shadobook ERP displays the task summary in this window. Go to the
-              task module to get this page. Here we get the details about the
-              task name, status, start date, due date, who it's assigned to, and
-              priority in the form of a list.
-            </p>
+          <ul className={styles.paracon}>
+              <li>
+              • The task summary in Shadobook ERP can be accessed by going to the task module.
+              </li>
+              <br></br>
+              <li>
+              The task summary page displays a list of tasks with the following details:
+              </li>
+              <br></br>
+              <li>
+              • Task name
+              </li>
+              <br></br>
+              <li>
+              • Status (Not Started, In Progress, Completed, etc)
+              </li>
+              <br></br>
+              <li>
+              • Start date
+              </li>
+              <br></br>
+              <li>
+              • Due date
+              </li>
+              <br></br>
+              <li>
+              • Assignee(s)
+              </li>
+              <br></br>
+              <li>
+              • Priority level
+              </li>
+              <br></br>
+              <li>
+              • The task summary page allows you to view and manage all the tasks in one place.
+              </li>
+              <br></br>
+              <li>
+              • You can filter and sort the task list by task name, status, start date, due date, assignee and priority level
+              </li>
+              <br></br>
+              <li>
+              • The task summary page allows you to track the progress of tasks, and manage the workflow effectively
+              </li>
+              <br></br>
+              <li>
+              • The task summary page can be used to manage the tasks, and track progress and performance of your team.
+              </li>
+            </ul> 
+          
           </div>
         </Col>
 
@@ -215,19 +259,19 @@ function Task() {
 
         <Col
           xs={{
-            span: 22,
+            span: 24,
             offset: 0,
           }}
           lg={{
-            span: 22,
+            span: 24,
             offset: 0,
           }}
           md={{
-            span: 23,
+            span: 24,
             offset: 0,
           }}
           sm={{
-            span: 22,
+            span: 24,
             offset: 0,
           }}
           xl={{
@@ -239,14 +283,36 @@ function Task() {
             offset: 0,
           }}
         >
-          <div className={styles.conalign}>
-            <p className={styles.paracon}>
-              We can add a new task in shadobook ERP by clicking the "Add New"
-              tab, entering all the details such as subject, start date, due
-              date, priority, assignees, and so on, and then clicking the "Save"
-              button; the task will then appear in the task summary page.
-            </p>
-          </div>
+        
+
+           <div className={styles.conalign}>
+        <ul className={styles.paracon}>
+              <li>
+              • To add a new task in Shadobook ERP, click the "Add New" tab.
+              </li>
+              <br></br>
+              <li>
+              • Enter the task details such as subject, start date, due date, priority, assignees, etc.
+              </li>
+              <br></br>
+              <li>
+              • Click the "Save" button to create the task.
+              </li>
+              <br></br>
+              <li>
+              • The new task will appear in the task summary page.
+              </li>
+              <br></br>
+              <li>
+              • Tasks can be assigned to specific team members, and given a priority level
+              </li>
+              <br></br>
+              <li>
+              • Tasks can have a start date and a due date, for planning and tracking purposes.
+              </li>
+            </ul> 
+          
+         </div> 
         </Col>
 
         <Row>
@@ -310,12 +376,28 @@ function Task() {
             }}
           >
             <h4 className={styles.subhead2}>Switch to Kanban</h4>
-            <p className={styles.para}>
-              When you click the switch to Karaban icon button on this page, it
-              displays the tasks as "not started," "in progress," "tested,"
-              "awaiting feedback," and "completed."Again, click that icon to go
-              back.
-            </p>
+            <ul className={styles.para}>
+              <li>
+              • Switching to Kanban view on a task management page displays tasks in columns of "not started," "in progress," "tested," "awaiting feedback," and "completed."
+              </li>
+              <br></br>
+              <li>
+              • Kanban is a method for visualizing and managing the flow of work.
+              </li>
+              <br></br>
+              <li>
+              • Kanban boards can be used to manage a variety of tasks, from software development to manufacturing.
+              </li>
+              <br></br>
+              <li>
+              • Kanban boards can be used to help teams identify bottlenecks in their process, prioritize work, and improve workflow.
+              </li>
+              <br></br>
+              <li>
+              • Clicking the switch to Kanban icon again will switch back to the previous view.
+              </li>
+             
+            </ul> 
           </Col>
         </Row>
 
@@ -360,23 +442,23 @@ function Task() {
 
         <Col
           xs={{
-            span: 22,
+            span: 24,
             offset: 0,
           }}
           lg={{
-            span: 22,
+            span: 24,
             offset: 0,
           }}
           md={{
-            span: 23,
+            span: 24,
             offset: 0,
           }}
           sm={{
-            span: 22,
+            span: 24,
             offset: 0,
           }}
           xl={{
-            span: 22,
+            span: 24,
             offset: 0,
           }}
           xxl={{
@@ -385,9 +467,48 @@ function Task() {
           }}
         >
           <div className={styles.conalign}>
-            <p className={styles.paracon}>
-            In the Shadobook ERP task module, the task overview page shows the list of added task lists. Here, we also have the option to filter the task lists by staff members, month, and year.
-            </p>
+          <ul className={styles.paracon}>
+              <li>
+              • In the Shadobook ERP task module, the task overview page displays a list of all added task lists.
+              </li>
+              <br></br>
+              <li>
+              The task overview page allows you to filter task lists by:
+              </li>
+              <br></br>
+              <li>
+              • Staff members
+              </li>
+              <br></br>
+              <li>
+              • Month
+              </li>
+              <br></br>
+              <li>
+              • Year
+              </li>
+              <br></br>
+              <li>
+              • This makes it easy to view and manage tasks assigned to specific staff members, or tasks due in a specific month or year.
+              </li>
+              <br></br>
+              <li>
+              • The filter option helps to get a clear view of the task list, and makes it easier to manage and track progress.
+              </li>
+              <br></br>
+              <li>
+              • The task overview page allows you to see the progress of all the tasks and manage them effectively.
+              </li>
+              <br></br>
+              <li>
+              • By using filter options you can see the task status, and monitor the performance of your team members.
+              </li>
+              <br></br>
+              <li>
+              • It can be used to manage the tasks and track progress and performance of your team.
+              </li>
+              
+            </ul> 
           </div>
         </Col>
 

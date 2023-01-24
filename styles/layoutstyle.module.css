@@ -1,0 +1,19 @@
+.allfooter{
+    display: block;
+}
+
+.mobilefooter{
+    display: none;
+}
+
+
+@media screen and (max-width: 425px){
+
+    .allfooter{
+        display:none;
+    }
+    
+    .mobilefooter{
+        display: block;
+    }
+}

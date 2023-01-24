@@ -3,6 +3,8 @@ import BackToTop from "../elements/BackToTop";
 import Footer from "./Footer";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
+import styles from "../../styles/layoutstyle.module.css";
+import Mobilefooter from '../mobilefooter';
 
 const Layout = ({ children, headerStyle }) => {
     const [openClass, setOpenClass] = useState('');
@@ -28,7 +30,14 @@ const Layout = ({ children, headerStyle }) => {
                 {children}
             </main>
             
-            <Footer />
+            <div className={styles.allfooter}>
+                 <Footer /> 
+            </div>
+
+                 
+            <div className={styles.mobilefooter}>
+            <Mobilefooter/>
+            </div>
             <BackToTop/>
         </>
     );

@@ -3,6 +3,7 @@ import Link from "next/link";
 const Footer = () => {
     return (
         <>
+     
             <footer className="footer mt-50" >
                 <div className="container">
                     <div className="footer-top">
@@ -15,7 +16,10 @@ const Footer = () => {
                                 </Link>
                             </div>
                             <div className="col-md-8 col-sm-6 text-center text-md-end">
+
+                                
                                 {/* <span className="color-gray-900 text-heading-6 mr-30 text-mb-sm-20">The Financial Shadow of your Company</span> */}
+                                
                                 <Link href="#">
                                     <a className="btn btn-square">The Financial Shadow of your Company</a>
                                 </Link>
@@ -210,6 +214,7 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
+      
         </>
     );
 };
