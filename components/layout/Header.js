@@ -86,7 +86,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                         src="/assets/logo/Logo.png"
                       />
                     ) : (
-                      <img width={150} alt="ShadoBooks" src="/assets/logo/logo.png" />
+                      <img width={250} alt="ShadoBooks" src="assets/imgs/page/homepage4/shadobookslogo.png " />
                     )}
                   </a>
                 </Link>
