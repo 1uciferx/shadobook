@@ -5,6 +5,7 @@ import { Tabs } from "antd"; const { TabPane } = Tabs;
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { Button, Space } from 'antd'
+import { Anchor} from 'antd';
 import "react-modal-video/css/modal-video.css";
 import Layout from "../components/layout/Layout";
 import styles from "../styles/Reports.module.css";
@@ -13,10 +14,22 @@ import { Col, Row } from 'antd';
 import { Breadcrumb } from 'antd';
 import Contactmanager from "../components/contactmanager";
 import { Layout as L } from 'antd';
+import { Card } from 'antd';
+const { Meta } = Card;
 
 const { Content } = L;
 
-
+export const App = () => (
+  <Card
+    hoverable
+    style={{
+      width: 240,
+    }}
+    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+  >
+    <Meta title="Europe Street beat" description="www.instagram.com"/>
+  </Card>
+);
 
 
 
@@ -27,13 +40,12 @@ function Reports() {
 
       <Layout>
 
-        <div  >
+        <div>
 
-
-          <Row className={styles.mobilescreen1} style={{ backgroundImage: "url('assets/background14.jpg')", backgroundSize: "Cover",objectFit:"cover" }} >
+          <Row className={styles.mobilescreen1} style={{ backgroundImage: "url('assets/background14.jpg')", backgroundSize: "Cover",height:"450px" }} >
             <div>
 
-              <Row  >
+              <Row>
                 <Col className={styles.breasdcrumb}
                   xs={{
                     span: 24,
@@ -145,7 +157,7 @@ function Reports() {
                     offset: 4
                   }}>
 
-                  <p className={styles.paraheader}>Forms such as invoices, order acknowledgments, purchase orders, receivables statements, payables checks, etc. Managed reports produced on a reoccurring basis.  Ad hoc reports that are usually one-time, “I need this information now” reports.  A new approach for many companies is to use intelligent reporting software as a front-end to leading ERP systems </p></Col>
+                  <p className={styles.paraheader}>Forms such as invoices, order acknowledgments, purchase orders, receivables statements, payables checks, etc. Managed reports produced on a reoccurring basis.  And hoc reports that are usually one-time, “I need this information now” reports.  A new approach for many companies is to use intelligent reporting software as a front-end to leading ERP systems </p></Col>
               </Row>
 
             </div>
@@ -198,10 +210,10 @@ function Reports() {
                   </Col>
                 </Row>
 
+
+
+
                 <Row>
-
-
-
 
                   <Col xs={{
                     span: 20,
@@ -264,7 +276,17 @@ function Reports() {
                     }}>
 
 
-                    <p className={styles.para1}>Accounting reports are periodic financial statements that outline a company's financial situation at a specific point in time or over a predetermined time period. The business activities and transactions are described. They are a collection of financial data derived from accounting records of a company.</p>
+                    <p className={styles.para1}>
+                      <li>
+                      ➼  Accounting reports are periodic financial statements that outline a company's financial situation at a specific point in time or over a predetermined time period. 
+                 
+                      </li>
+                      <br></br>
+
+                      <li>
+                      ➼ The business activities and transactions are described. They are a collection of financial data derived from accounting records of a company.
+                        </li>
+                      </p>
 
                   </Col>
 
@@ -373,8 +395,8 @@ function Reports() {
                       offset: 5,
                     }}
                     xl={{
-                      span: 14,
-                      offset: 0,
+                      span: 18,
+                      offset: 3,
                     }}
                     xxl={{
 
@@ -383,7 +405,17 @@ function Reports() {
                     }}>
 
 
-                    <p className={styles.para1}>The interface is designed to offer statistical charts of the staff ratio by departments, age groups or job profile. In addition to employee management, they’ll also help you understand your resources better.</p>
+                    <p className={styles.para1}>
+                      <li>
+                      ➼  The interface is designed to offer statistical charts of the staff ratio by departments, age groups or job profile.
+                        </li>
+                        <br></br>
+
+                        <li>
+                   
+                        ➼   In addition to employee management, they’ll also help you understand your resources better.
+                         </li>
+                         </p>
 
                   </Col>
 
@@ -525,8 +557,8 @@ function Reports() {
                       offset: 9,
                     }}
                     xl={{
-                      span: 12,
-                      offset: 0,
+                      span: 15,
+                      offset: 7,
                     }}
                     xxl={{
 
@@ -535,7 +567,26 @@ function Reports() {
                     }}>
 
 
-                    <p className={styles.para1}>A retailer's current stock is outlined in an inventory report. It summarises information on the state and performance of inventory, including specifics like the amount of stock you have, the products that are selling the quickest,      category performance, and other statistics.  A physical or electronic report that lists the total amount of current inventory that a company has on hand is known as an inventory report.</p>
+                    <p className={styles.para1}>
+                      <li>
+                        
+                      ➼  A retailer's current stock is outlined in an inventory report.
+
+                        </li>
+                        <br></br>
+
+                        <li>
+
+                      
+                        ➼  It summarises information on the state and performance of inventory, including specifics like the amount of stock you have, the products that are selling the quickest, category performance, and other statistics.
+                        </li>
+                        <br></br>
+                        <li>
+
+                        
+                        ➼  A physical or electronic report that lists the total amount of current inventory that a company has on hand is known as an inventory report.
+                        </li>
+                        </p>
 
 
                   </Col>
@@ -575,12 +626,12 @@ function Reports() {
                     }}
                     xl={{
                       span: 19,
-                      offset: 0,
+                      offset: 2,
                     }}
                     xxl={{
 
                       span: 19,
-                      offset: 3,
+                      offset: 4,
                     }}>
                     <h3 className={styles.headings}>POS Reports</h3>
                   </Col>
@@ -646,8 +697,8 @@ function Reports() {
                       offset: 4,
                     }}
                     xl={{
-                      span: 16,
-                      offset: 0,
+                      span: 18,
+                      offset: 2,
                     }}
                     xxl={{
 
@@ -656,7 +707,17 @@ function Reports() {
                     }}>
 
 
-                    <p className={styles.para1}> Point of sale POS reports are reports generated with the data from a point of sale system, including both software and hardware from multiple stores. We can track all the transactional data and in-store activities at the point of sale terminal, and that data is stored in a system for future analysis via POS reports.</p>
+                    <p className={styles.para1}> 
+                    <li>
+                    ➼ Point of sale POS reports are reports generated with the data from a point of sale system, including both software and hardware from multiple stores.
+                      </li>
+                      <br></br>
+                      <li>
+
+             
+                      ➼ We can track all the transactional data and in-store activities at the point of sale terminal, and that data is stored in a system for future analysis via POS reports.
+                      </li>
+                      </p>
 
 
                   </Col>
@@ -694,7 +755,7 @@ function Reports() {
                     }}
                     xl={{
                       span: 16,
-                      offset: 1,
+                      offset: 4,
                     }}
                     xxl={{
 
@@ -765,8 +826,8 @@ function Reports() {
                       offset: 5,
                     }}
                     xl={{
-                      span: 15,
-                      offset: 0,
+                      span: 16,
+                      offset: 4,
                     }}
                     xxl={{
 
@@ -775,8 +836,19 @@ function Reports() {
                     }}>
 
 
-                    <p className={styles.para1}>A report is a written document that organises information for a particular audience and use. A report is a written document that offers relevant business data in an easily readable and ordered manner. Each report has a distinct target audience.
+                    <p className={styles.para1}>
+                      <li>
+                      ➼    A report is a written document that organises information for a particular audience and use.
+                        </li>
+                        <br></br>
+                        <li>
+                        ➼    A report is a written document that offers relevant business data in an easily readable and ordered manner.
+                          </li>
+                          <br></br>
 
+                          <li>
+                          ➼   Each report has a distinct target audience.
+                           </li>
                     </p>
 
                     {/* <Space>
@@ -906,7 +978,16 @@ function Reports() {
 
 
                     <p className={styles.para4}>
-                      Employers can cross-reference financial information in a payroll report to confirm their tax responsibilities.Such details as pay scales, number of hours worked, overtime hours worked, taxes deducted from paychecks, employer tax payments, vacation balances, and more, could be included.
+                      <li>
+
+                     
+                      ➼   Employers can cross-reference financial information in a payroll report to confirm their tax responsibilities.
+                      </li><br></br>
+                      <li>
+
+
+                      ➼ Such details as pay scales, number of hours worked, overtime hours worked, taxes deducted from paychecks, employer tax payments, vacation balances, and more, could be included.
+                      </li>
                     </p>
                     {/* 
   <Space>
@@ -993,9 +1074,15 @@ function Reports() {
                     }}>
 
 
-                    <p className={styles.para1}>You can generate and see a range of reports on the tasks completed and projects developed using timesheet reporting.
-                      Reports for chargeable can also be produced. The Timesheet Report offers a wide range of reporting choices, including the ability to group and categorise,
-                      n            while still displaying the traditional sheet view of daily hours spent.</p>
+                    <p className={styles.para1}>
+                      <li>
+                       ➼  You can generate and see a range of reports on the tasks completed and projects developed using timesheet reporting.</li>
+                        <li>
+
+                       <br></br>
+                        ➼ Reports for chargeable can also be produced. The Timesheet Report offers a wide range of reporting choices, including the ability to group and categorise,
+                      while still displaying the traditional sheet view of daily hours spent.
+                    </li></p>
 
 
                   </Col>
@@ -1137,8 +1224,8 @@ function Reports() {
                       offset: 4,
                     }}
                     xl={{
-                      span: 14,
-                      offset: 0,
+                      span: 18,
+                      offset: 2,
                     }}
                     xxl={{
 
@@ -1147,9 +1234,22 @@ function Reports() {
                     }}>
 
 
-                    <p className={styles.para1}>A sales report, also known as a sales analysis report, is a document that summarizes a business's sales activities.
-                      This report typically includes information on sales volume, leads, new accounts, revenue and costs for a given period.
-                      A sales report or sales analysis report is a document that shows trends impacting your sales operations within a specific period.</p>
+                    <p className={styles.para1}>
+                      <li>
+                        
+                      ➼   A sales report, also known as a sales analysis report, is a document that summarizes a business's sales activities.
+                        </li>
+                        <br></br>
+                        <li>
+
+                       
+                        ➼  This report typically includes information on sales volume, leads, new accounts, revenue and costs for a given period. 
+                      </li>
+                      <li>
+<br></br>
+                     
+➼   A sales report or sales analysis report is a document that shows trends impacting your sales operations within a specific period.
+                      </li></p>
 
                     {/* <Space>
                 <Button className={styles.buttonres7}>Learn More</Button>
@@ -1170,12 +1270,12 @@ function Reports() {
 
 
 
-          {/* Mobile screen  */}
+                                                     {/* Mobile screen */}
 
 
           <div className={styles.mobilescreen2}>
 
-            <Row style={{ backgroundImage: "url('assets/background2.jpg')", backgroundSize: "Cover" }} >
+            <Row style={{ backgroundImage: "url('assets/background2.jpg')" }} >
               <div>
 
                 <Row>
@@ -1291,7 +1391,6 @@ function Reports() {
                 <h3 className={styles.headings}>Accounting Reports</h3>
               </Col>
             </Row>
-
 
 
 

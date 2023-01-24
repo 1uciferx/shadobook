@@ -73,8 +73,8 @@ function HrPayroll() {
           <Col
 
             xs={{
-              span: 23,
-              offset: 0,
+              span: 20,
+              offset: 2,
             }}
 
             sm={{
@@ -244,8 +244,17 @@ function HrPayroll() {
             }}>
 
 
-            <p className={styles.para1}>In HR, the term "payroll" refers to the many employee evaluations that HR does and which in turn affect the way payroll is computed. 
-        Software used by automated payroll systems takes into account evaluations such as attendance, leaves, shifts, expenses, etc.</p>
+            <p className={styles.para1}>
+              <li>
+              In HR, the term "payroll" refers to the many employee evaluations that HR does and which in turn affect the way payroll is computed. 
+              </li>
+              <br></br>
+              <li>
+
+             
+        Software used by automated payroll systems takes into account evaluations such as attendance, leaves, shifts, expenses, etc.
+        </li>
+        </p>
 
 
             {/* <Button className={styles.buttonres1}>Learn More</Button> */}
@@ -326,10 +335,24 @@ function HrPayroll() {
             }}>
 
 
-            <p className={styles.para1}>The basis for payroll is a worker's attendance records. 
-         The Time-Attendance terminal that is positioned at the entrance and exit of the building generates this data by keeping track of biometric and RFID card usage.
-         These time-attendance terminals check valid identification (fingerprint, card, face, etc.)
+            <p className={styles.para1}>
+              <li>
 
+              The basis for payroll is a worker's attendance records. 
+              </li>
+              <br></br>
+
+              <li>
+
+           
+         The Time-Attendance terminal that is positioned at the entrance and exit of the building generates this data by keeping track of biometric and RFID card usage.
+         </li>
+         <br></br>
+
+         <li>
+
+         These time-attendance terminals check valid identification (fingerprint, card, face, etc.)
+         </li>
 </p>
 
             {/* <Space>
@@ -474,8 +497,17 @@ function HrPayroll() {
             }}>
 
 
-            <p className={styles.para1}> The commission is an amount of money paid by an employer as a fee or percentage to an employee for a specific task or for bringing new business by selling goods or services
-          of the company. Sometimes it is also referred to as sales commissions or incentives.
+            <p className={styles.para1}> 
+            <li>
+            The commission is an amount of money paid by an employer as a fee or percentage to an employee for a specific task or for bringing new business by selling goods or services
+          of the company. 
+          </li>
+          <br></br>
+          <li>
+
+         
+          Sometimes it is also referred to as sales commissions or incentives.
+          </li>
 
 </p>
 
@@ -634,9 +666,21 @@ function HrPayroll() {
             }}>
 
 
-            <p className={styles.para1}>Deductions or payroll deductions is the amount removed or deducted from the paycheck of the employee as tax and for other purposes. 
-         The most common form of payroll deductions includes payroll withholdings, payroll taxes, benefits deductions and wage garnishments.
-         Payroll deductions are amounts employers take out of an employee's paycheck each pay period.</p>
+            <p className={styles.para1}>
+              <li>
+              Deductions or payroll deductions is the amount removed or deducted from the paycheck of the employee as tax and for other purposes. 
+              </li>
+              <br></br>
+
+         <li>
+       The most common form of payroll deductions includes payroll withholdings, payroll taxes, benefits deductions and wage garnishments.
+       </li>
+
+       <br></br>
+       <li>
+
+         Payroll deductions are amounts employers take out of an employee's paycheck each pay period.
+         </li></p>
 {/* 
             <Space>
               <Button className={styles.buttonres4}>Learn More</Button>
@@ -749,8 +793,18 @@ function HrPayroll() {
             }}>
 
 
-            <p className={styles.para1}>Payroll key performance indicators (KPIs) are techniques to gauge how well a company's payroll system is working because it might have an effect on the bottom line.
-         KPIs are designed to aid in the development of a payroll system that is more efficient.
+            <p className={styles.para1}>
+              <li>
+                
+              Payroll key performance indicators (KPIs) are techniques to gauge how well a company's payroll system is working because it might have an effect on the bottom line.
+              </li>
+              <br></br>
+
+              <li>
+
+             
+                KPIs are designed to aid in the development of a payroll system that is more efficient.
+             </li>
 
 </p>
 
@@ -869,8 +923,20 @@ function HrPayroll() {
             }}>
 
 
-            <p className={styles.para1}>An insurance policy called payroll insurance covers unanticipated errors in payroll that occur during business operations.
-          Whether it is through their income, perks, taxes, or remittances, as a business owner you have several responsibilities to keep your employees safe.</p>
+            <p className={styles.para1}>
+              
+              <li>
+
+              An insurance policy called payroll insurance covers unanticipated errors in payroll that occur during business operations.
+              </li>
+              <br></br>
+
+              <li>
+
+             
+          Whether it is through their income, perks, taxes, or remittances, as a business owner you have several responsibilities to keep your employees safe.
+          </li>
+          </p>
 
             {/* <Space>
               <Button className={styles.buttonres6}>Learn More</Button>
@@ -990,9 +1056,27 @@ function HrPayroll() {
             }}>
 
 
-            <p className={styles.para1}>Employees get a wage slip, often known as a payslip, from their employers each month. 
-        A salary slip includes a thorough summary of an employee's pay and deductions for a specific time period. The employees may receive a hard copy of this document in the mail.
-        An important HR document or record that contains details on every facet of an employee's salary is known as a payslip or salary slip. Every month, the employee receives their payslips.</p>
+            <p className={styles.para1}>
+              <li>
+              Employees get a wage slip, often known as a payslip, from their employers each month. 
+              </li>
+              <br></br>
+              <li>
+
+              A salary slip includes a thorough summary of an employee's pay and deductions for a specific time period.
+              </li>
+              <br></br>
+
+              <li>
+              The employees may receive a hard copy of this document in the mail.
+
+              </li>
+              <br></br>
+        <li>
+
+        An important HR document or record that contains details on every facet of an employee's salary is known as a payslip or salary slip. Every month, the employee receives their payslips.
+        </li>
+        </p>
 
             {/* <Space>
               <Button className={styles.buttonres7}>Learn More</Button>
@@ -1076,8 +1160,15 @@ function HrPayroll() {
             }}>
 
 
-            <p className={styles.para1}>An excel payslip template is a document that contains all the information about the payment that is due to an employee for work completed within a specific time frame.
-         It contains information on overtime, taxes, perks, and base salary.</p>
+            <p className={styles.para1}>
+              <li>
+              An excel payslip template is a document that contains all the information about the payment that is due to an employee for work completed within a specific time frame.
+                </li>
+                <br></br>
+                <li>
+                It contains information on overtime, taxes, perks, and base salary.
+                </li>
+        </p>
 
             {/* <Space>
               <Button className={styles.buttonres8}>Learn More</Button>
@@ -1222,9 +1313,20 @@ function HrPayroll() {
             }}>
 
 
-            <p className={styles.para1}>The tax that is deducted, assessed, or imposed on the employer's paycheck is known as payroll tax.
-          This will include pay, gross salary, benefits, and any other type of compensation given to the workers. The tax withheld, billed, or imposed
-          on an employer's paycheck is known as payroll tax.</p>
+            <p className={styles.para1}>
+              <li>
+              The tax that is deducted, assessed, or imposed on the employer's paycheck is known as payroll tax.
+                </li>
+                <br></br>
+                <li>
+                This will include pay, gross salary, benefits, and any other type of compensation given to the workers.
+                </li>
+                <br></br>
+                <li>
+                The tax withheld, billed, or imposed
+          on an employer's paycheck is known as payroll tax.
+                </li>
+          </p>
 
             {/* <Space>
               <Button className={styles.buttonres9}>Learn More</Button>
@@ -1341,8 +1443,15 @@ function HrPayroll() {
             }}>
 
 
-            <p className={styles.para10}>To tailor your paycheck to your company's needs and those of your employees, go to Payroll Settings. 
-         Changes can be made to the liability and expenditure accounts as well as the bank account that is used for batch payments to employees under the Organisation tab.</p>
+            <p className={styles.para10}>
+              <li>
+              To tailor your paycheck to your company's needs and those of your employees, go to Payroll Settings. 
+                </li>
+                <br></br>
+                <li>
+                Changes can be made to the liability and expenditure accounts as well as the bank account that is used for batch payments to employees under the Organisation tab.
+                </li>
+         </p>
 
             {/* <Space>
               <Button className={styles.buttonres10}>Learn More</Button>
@@ -1351,6 +1460,7 @@ function HrPayroll() {
           </Col>
 
         </Row>
+
 
 <div>
   <Contactmanager/>

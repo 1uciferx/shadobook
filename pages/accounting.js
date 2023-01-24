@@ -38,12 +38,12 @@ function Accounting() {
             <Row  >
               <Col className={styles.breasdcrumb}
                 xs={{
-                  span: 22,
-                  offset: 1,
+                  span: 16,
+                  offset: 0,
                 }}
                 lg={{
                   span: 9,
-                  offset: 1,
+                  offset: 0,
                 }}
                 md={{
                   span: 16,
@@ -85,7 +85,7 @@ function Accounting() {
 
                 xs={{
                   span: 20,
-                  offset: 1,
+                  offset: 2,
                 }}
 
                 sm={{
@@ -102,17 +102,27 @@ function Accounting() {
                   span: 10,
                   offset: 1,
                 }}
+
                 xl={{
                   span: 10,
                   offset: 1,
                 }}
+
                 xxl={{
 
                   span: 8,
                   offset: 3,
                 }}>   <h1 className={styles.headingsheader}>Accounting</h1>
 
-                <p className={styles.paraheader}> An ERP system ensures that your accounting is automated. It simplifies operations related to accounts receivable,accounts  payable, improves cash flow problems, and cash management. It becomes pretty easier to manage the entire organization by generating information and compiling it.</p>
+                <p className={styles.paraheader}>
+                     
+                        An ERP system ensures that your accounting is automated.
+               
+                        It simplifies operations related to accounts receivable,accounts payable, improves cash flow problems, and cash management.
+                        It becomes pretty easier to manage the entire organization  by generating information and compiling it.
+                        
+                  
+                     </p>
 
               </Col>
 
@@ -120,22 +130,22 @@ function Accounting() {
 
               <Col xs={{
                 span: 20,
-                offset: 4,
+                offset: 3,
               }}
 
                 sm={{
-                  span: 19,
-                  offset: 2,
+                  span: 18,
+                  offset: 4,
                 }}
 
                 md={{
-                  span: 18,
-                  offset: 5,
+                  span: 14,
+                  offset: 7,
                 }}
 
                 lg={{
                   span: 10,
-                  offset: 2,
+                  offset: 1,
                 }}
                 xl={{
                   span: 10,
@@ -162,34 +172,34 @@ function Accounting() {
         {/* Dashboard */}
 
         <Row className={styles.margintop1}>
-          <Col xs={{
-            span: 19,
-            offset: 2,
+        <Col xs={{
+          span: 19,
+          offset: 2,
+        }}
+
+          sm={{
+            span: 18,
+            offset: 3,
           }}
 
-            sm={{
-              span: 18,
-              offset: 4,
-            }}
+          md={{
+            span: 10,
+            offset: 7,
+          }}
 
-            md={{
-              span: 18,
-              offset: 3,
-            }}
+          lg={{
+            span: 10,
+            offset: 7,
+          }}
+          xl={{
+            span: 12,
+            offset: 6,
+          }}
+          xxl={{
 
-            lg={{
-              span: 10,
-              offset: 0,
-            }}
-            xl={{
-              span: 12,
-              offset: 3,
-            }}
-            xxl={{
-
-              span: 8,
-              offset: 4,
-            }}>
+            span: 9,
+            offset: 7,
+          }}>
             <h3 className={styles.headings}>Dashboard</h3>
           </Col>
 
@@ -197,107 +207,82 @@ function Accounting() {
 
 
 
-          <Col xs={{
+          
+        <Col xs={{
+          span: 20,
+          offset: 2,
+        }}
+
+          sm={{
             span: 20,
             offset: 2,
           }}
 
-            sm={{
-              span: 20,
-              offset: 2,
-            }}
+          md={{
+            span: 20,
+            offset: 0,
+          }}
 
-            md={{
-              span: 20,
-              offset: 2,
-            }}
+          lg={{
+            span: 20,
+            offset: 0,
+          }}
+          xl={{
+            span: 18,
+            offset: 3,
+          }}
+          xxl={{
 
-            lg={{
-              span: 14,
-              offset: 0,
-            }}
-            xl={{
-              span: 14,
-              offset: 2,
-            }}
-            xxl={{
-
-              span: 13,
-              offset: 2,
-            }}>
+            span: 18,
+            offset: 3,
+          }}>
             <img className={styles.img1} src="/accountingpage/pic1.png"></img>
           </Col>
 
+        
+            
           <Col xs={{
-            span: 0,
-            offset: 0,
+          span: 21,
+          offset: 2,
+        }}
+
+          sm={{
+            span: 20,
+            offset: 2,
           }}
 
-            sm={{
-              span: 0,
-              offset: 0,
-            }}
-
-            md={{
-              span: 0,
-              offset: 0,
-            }}
-
-            lg={{
-              span: 6,
-              offset: 1,
-            }}
-            xl={{
-              span: 6,
-              offset: 0,
-            }}
-            xxl={{
-
-              span: 6,
-              offset: 1,
-            }}>
-
-            <img className={styles.logo} src="/logo1/vector5.jpg"></img>
-          </Col>
-
-        </Row>
-
-
-
-        <Row>
-          <Col xs={{
-            span: 24,
-            offset: 0,
+          md={{
+            span: 20,
+            offset: 2,
           }}
 
-            sm={{
-              span: 20,
-              offset: 2,
-            }}
+          lg={{
+            span: 20,
+            offset: 2,
+          }}
+          xl={{
+            span: 18,
+            offset: 3,
+          }}
+          xxl={{
 
-            md={{
-              span: 20,
-              offset: 2,
-            }}
-
-            lg={{
-              span: 14,
-              offset: 2,
-            }}
-            xl={{
-              span: 14,
-              offset: 2,
-            }}
-            xxl={{
-
-              span: 13,
-              offset: 2,
-            }}>
+            span: 18,
+            offset: 3,
+          }}>
 
 
             <p className={styles.para1}>
-              An accounting dashboard easily shows financial data or other metrics from multiple sources. For example, some information may be stored within your accounting system, while other information may be stored in your inventory system or CRM.
+              <li>
+              An accounting dashboard easily shows financial data or other metrics from multiple sources.
+              </li>
+              <br></br>
+            <li>
+            For example, some information may be stored within your accounting system, while other information may be stored in your inventory system or CRM.
+            </li>
+            <br></br>
+            <li>
               In this accounting dashboard example, we get a real-time view of invoices, cashflow, accounts receivable and accounts payable, profit and loss, and much more.
+            </li> 
             </p>
 
             {/* <Space>
@@ -319,12 +304,12 @@ function Accounting() {
         <Row className={styles.margintop2}>
           <Col xs={{
             span: 18,
-            offset: 2,
+            offset: 3,
           }}
 
             sm={{
               span: 20,
-              offset: 0,
+              offset: 2,
             }}
 
             md={{
@@ -338,12 +323,12 @@ function Accounting() {
             }}
             xl={{
               span: 12,
-              offset: 1,
+              offset: 2,
             }}
             xxl={{
 
               span: 14,
-              offset: 0,
+              offset: 2,
             }}>
             <h3 className={styles.headings}>Banking</h3>
           </Col>
@@ -378,7 +363,7 @@ function Accounting() {
             xxl={{
 
               span: 12,
-              offset: 2,
+              offset: 3,
             }}>
             <img className={styles.img2} src="/accountingpage/pic2.png"></img>
           </Col>
@@ -409,12 +394,18 @@ function Accounting() {
             }}
             xxl={{
 
-              span: 8,
+              span: 6,
               offset: 0,
             }}>
 
 
-            <p className={styles.para2}>An accounting ERP enables you to precisely setup the system so that all transactions are accurately recorded and automatically reported.The finance department mostly uses ERP accounting software.</p>
+            <p className={styles.para2}>
+              <li>
+              An accounting ERP enables you to precisely setup the system so that all transactions are accurately recorded and automatically reported.
+                </li>
+                <br></br>
+                <li>The finance department mostly uses ERP accounting software.
+                  </li></p>
 
             {/* <Space>
             <Button className={styles.buttonres2}>Learn More</Button>
@@ -438,7 +429,7 @@ function Accounting() {
 
             sm={{
               span: 20,
-              offset: 1,
+              offset: 2,
             }}
 
             md={{
@@ -452,12 +443,12 @@ function Accounting() {
             }}
             xl={{
               span: 12,
-              offset: 1,
+              offset: 2,
             }}
             xxl={{
 
               span: 7,
-              offset: 4,
+              offset: 5,
             }}>
             <h3 className={styles.headings}>Transactions</h3>
           </Col>
@@ -480,12 +471,12 @@ function Accounting() {
             }}
 
             md={{
-              span: 20,
+              span: 22,
               offset: 2,
             }}
 
             lg={{
-              span: 14,
+              span: 12,
               offset: 0,
             }}
             xl={{
@@ -495,48 +486,17 @@ function Accounting() {
             xxl={{
 
               span: 12,
-              offset: 2,
+              offset: 3,
             }}>
             <img className={styles.img3} src="/accountingpage/pic3.png"></img>
           </Col>
 
-          <Col xs={{
-            span: 0,
-            offset: 0,
-          }}
 
-            sm={{
-              span: 0,
-              offset: 0,
-            }}
-
-            md={{
-              span: 0,
-              offset: 0,
-            }}
-
-            lg={{
-              span: 6,
-              offset: 1,
-            }}
-            xl={{
-              span: 6,
-              offset: 0,
-            }}
-            xxl={{
-
-              span: 6,
-              offset: 1,
-            }}>
-
-            <img className={styles.logo} src="/logo1/vector17.svg"></img>
-          </Col>
-        </Row>
-
-        <Row>
-          <Col xs={{
-            span: 24,
-            offset: 0,
+          
+         
+        <Col xs={{
+            span: 22,
+            offset: 1,
           }}
 
             sm={{
@@ -550,25 +510,32 @@ function Accounting() {
             }}
 
             lg={{
-              span: 14,
-              offset: 0,
+              span: 8,
+              offset: 1,
             }}
             xl={{
-              span: 12,
-              offset: 0,
+              span: 8,
+              offset: 1,
             }}
             xxl={{
 
-              span: 12,
-              offset: 2,
+              span: 6,
+              offset: 1,
             }}>
 
-
-            <p className={styles.para3}>An accounting ERP enables you to precisely setup the system so that all transactions are accurately recorded and automatically reported.The finance department mostly uses ERP accounting software.</p>
+            <p className={styles.para3}>
+              <li>
+              An accounting ERP enables you to precisely setup the system so that all transactions are accurately recorded and automatically reported.
+                </li>
+                <br></br>
+                <li>
+                  The finance department mostly uses ERP accounting software.</li></p>
 
             {/* <Space>
             <Button className={styles.buttonres3}>Learn More</Button>
           </Space> */}
+
+<img className={styles.logo2} src="/logo1/vector17.svg"></img>
 
           </Col>
 
@@ -587,12 +554,12 @@ function Accounting() {
         <Row className={styles.margintop4}>
           <Col xs={{
             span: 19,
-            offset: 2,
+            offset: 3,
           }}
 
             sm={{
               span: 18,
-              offset: 1,
+              offset: 3,
             }}
 
             md={{
@@ -695,8 +662,8 @@ function Accounting() {
 
         <Row>
           <Col xs={{
-            span: 24,
-            offset: 0,
+            span: 22,
+            offset: 1,
           }}
 
             sm={{
@@ -723,7 +690,19 @@ function Accounting() {
               offset: 5,
             }}>
 
-            <p className={styles.para4}>A Journal Entry is a standard accounting transaction that affects multiple Accounts and the sum of debits is equal to the sum of credits. A Journal Entry Impacts the main ledger. Journal Entries can be used for entering expenses, opening entries, contra entries, bank payments, excise entries, etc. </p>
+            <p className={styles.para4}>
+              <li>
+              A Journal Entry is a standard accounting transaction that affects multiple Accounts and the sum of debits is equal to the sum of credits.
+                </li>
+                <br></br>
+                <li>
+                A Journal Entry Impacts the main ledger.
+                </li>
+                <br></br>
+                <li>
+
+              
+                 Journal Entries can be used for entering expenses, opening entries, contra entries, bank payments, excise entries, etc.  </li> </p>
 
             {/* <Space>
             <Button className={styles.buttonres4}>Learn More</Button>
@@ -746,7 +725,7 @@ function Accounting() {
 
             sm={{
               span: 18,
-              offset: 1,
+              offset: 3,
             }}
 
             md={{
@@ -802,7 +781,7 @@ function Accounting() {
               span: 13,
               offset: 5,
             }}>
-            <img className={styles.img5} src="/accountingpage/pic4.png"></img>
+            <img className={styles.img5} src="/accountingpage/pic5.png"></img>
           </Col>
 
         </Row>
@@ -811,8 +790,8 @@ function Accounting() {
 
         <Row>
           <Col xs={{
-            span: 24,
-            offset: 0,
+            span: 22,
+            offset: 1,
           }}
 
             sm={{
@@ -840,7 +819,15 @@ function Accounting() {
             }}>
 
 
-            <p className={styles.para5}>Transfers are financial transactions that take place between two different funds but are neither receipts nor expenses Transfers are essentially a fund balance moving from one fund to another. Each side of the transaction utilises the same account code.</p>
+            <p className={styles.para5}>
+              <li>
+                ransfers are financial transactions that take place between two different funds but are neither receipts nor expenses Transfers are essentially a fund balance moving from one fund to another.
+                </li>
+                <br></br>
+                <li>
+                Each side of the transaction utilises the same account code.
+                </li>
+                </p>
 
             {/* <Space>
             <Button className={styles.buttonres5}>Learn More</Button>
@@ -861,12 +848,12 @@ function Accounting() {
         <Row className={styles.margintop6}>
           <Col xs={{
             span: 18,
-            offset: 2,
+            offset: 3,
           }}
 
             sm={{
               span: 20,
-              offset: 0,
+              offset: 2,
             }}
 
             md={{
@@ -880,12 +867,12 @@ function Accounting() {
             }}
             xl={{
               span: 12,
-              offset: 1,
+              offset: 2,
             }}
             xxl={{
 
               span: 14,
-              offset: 0,
+              offset: 1,
             }}>
             <h3 className={styles.headings}>Chart of Accounts</h3>
           </Col>
@@ -898,8 +885,8 @@ function Accounting() {
           }}
 
             sm={{
-              span: 19,
-              offset: 0,
+              span: 20,
+              offset: 2,
             }}
 
             md={{
@@ -920,7 +907,7 @@ function Accounting() {
               span: 12,
               offset: 2,
             }}>
-            <img className={styles.img6} src="/accountingpage/pic5.png"></img>
+            <img className={styles.img6} src="/accountingpage/pic6.png"></img>
           </Col>
 
 
@@ -949,12 +936,24 @@ function Accounting() {
             }}
             xxl={{
 
-              span: 7,
+              span: 6,
               offset: 0,
             }}>
 
 
-            <p className={styles.para6}>An index of all the accounts in an accounting system is provided by a chart of accounts (COA), a financial and organisational tool. This gives information about all of the business's financial transactions. For each sort of asset, liability, equity, revenue, and expense, an account serves as a distinct reco</p>
+            <p className={styles.para6}>
+              <li>
+              An index of all the accounts in an accounting system is provided by a chart of accounts (COA), a financial and organisational tool.
+                </li>
+                <br></br>
+                <li>
+                This gives information about all of the business's financial transactions.
+                  </li> 
+                  <br></br>
+                  <li>
+                  For each sort of asset, liability, equity, revenue, and expense, an account serves as a distinct reco
+                  </li>
+                  </p>
 
             {/* <Space>
             <Button className={styles.buttonres6}>Learn More</Button>
@@ -1037,53 +1036,17 @@ function Accounting() {
               span: 12,
               offset: 2,
             }}>
-            <img className={styles.img7} src="/accountingpage/pic6.png"></img>
+            <img className={styles.img7} src="/accountingpage/pic7.png"></img>
           </Col>
 
 
 
 
 
-          <Col xs={{
-            span: 0,
-            offset: 0,
-          }}
-
-            sm={{
-              span: 0,
-              offset: 0,
-            }}
-
-            md={{
-              span: 0,
-              offset: 0,
-            }}
-
-            lg={{
-              span: 6,
-              offset: 2,
-            }}
-            xl={{
-              span: 6,
-              offset: 0,
-            }}
-            xxl={{
-
-              span: 6,
-              offset: 2,
-            }}>
-
-            <img className={styles.logo} src="/logo1/vector13.svg"></img>
-          </Col>
-
-        </Row>
-
-
-
-        <Row>
-          <Col xs={{
-            span: 24,
-            offset: 0,
+         
+        <Col xs={{
+            span: 22,
+            offset: 1,
           }}
 
             sm={{
@@ -1097,25 +1060,35 @@ function Accounting() {
             }}
 
             lg={{
-              span: 13,
-              offset: 0,
+              span: 8,
+              offset: 1,
             }}
             xl={{
-              span: 12,
-              offset: 0,
+              span: 8,
+              offset: 1,
             }}
             xxl={{
 
-              span: 12,
-              offset: 2,
+              span: 6,
+              offset: 1,
             }}>
 
 
-            <p className={styles.para7}>The bank reconciliation report shows the discrepancy between the bank balance listed on an organization's bank statement and the amount listed in the chart of accounts. Check the report to see if the "Balance as per bank" field corresponds to the bank account statement.</p>
+
+            <p className={styles.para7}>
+              <li>
+              The bank reconciliation report shows the discrepancy between the bank balance listed on an organization's bank statement and the amount listed in the chart of accounts.
+                </li>
+                <br></br>
+                <li>
+                Check the report to see if the "Balance as per bank" field corresponds to the bank account statement.
+                </li>
+                </p>
 
             {/* <Space>
             <Button className={styles.buttonres7}>Learn More</Button>
           </Space> */}
+         
 
           </Col>
 
@@ -1137,7 +1110,7 @@ function Accounting() {
 
             sm={{
               span: 20,
-              offset: 1,
+              offset: 2,
             }}
 
             md={{
@@ -1195,13 +1168,13 @@ function Accounting() {
               span: 12,
               offset: 2,
             }}>
-            <img className={styles.img8} src="/accountingpage/pic7.png"></img>
+            <img className={styles.img8} src="/accountingpage/pic8.png"></img>
           </Col>
 
 
           <Col xs={{
-            span: 24,
-            offset: 0,
+            span: 22,
+            offset: 1,
           }}
 
             sm={{
@@ -1224,12 +1197,12 @@ function Accounting() {
             }}
             xxl={{
 
-              span: 8,
+              span: 6,
               offset: 1,
             }}>
 
 
-            <p className={styles.para8}>A budget is a financial plan that projects future earnings and costs. A budget, put simply, forecasts future spending and saving in addition to anticipated income and expenses.     </p>
+            <p className={styles.para8}>A budget is a financial plan that projects future earnings and costs. A budget, put simply, forecasts future spending and saving in addition to anticipated income and expenses.</p>
             {/* 
             <Space>
               <Button className={styles.buttonres8}>Learn More</Button>
@@ -1355,49 +1328,16 @@ function Accounting() {
               span: 12,
               offset: 2,
             }}>
-            <img className={styles.img9} src="/accountingpage/pic8.png"></img>
+            <img className={styles.img9} src="/accountingpage/pic9.png"></img>
           </Col>
 
 
 
-          <Col xs={{
-            span: 0,
-            offset: 0,
-          }}
-
-            sm={{
-              span: 0,
-              offset: 0,
-            }}
-
-            md={{
-              span: 0,
-              offset: 0,
-            }}
-
-            lg={{
-              span: 6,
-              offset: 1,
-            }}
-            xl={{
-              span: 6,
-              offset: 1,
-            }}
-            xxl={{
-
-              span: 6,
-              offset: 1,
-            }}>
-
-            <img className={styles.logo} src="/logo1/vector9.jpg"></img>
-          </Col>
-
-        </Row>
-
-        <Row>
-          <Col xs={{
-            span: 24,
-            offset: 0,
+        
+         
+        <Col xs={{
+            span: 22,
+            offset: 1,
           }}
 
             sm={{
@@ -1411,17 +1351,17 @@ function Accounting() {
             }}
 
             lg={{
-              span: 12,
-              offset: 0,
+              span: 8,
+              offset: 1,
             }}
             xl={{
-              span: 12,
-              offset: 0,
+              span: 8,
+              offset: 1,
             }}
             xxl={{
 
-              span: 12,
-              offset: 2,
+              span: 6,
+              offset: 1,
             }}>
 
 
@@ -1430,6 +1370,8 @@ function Accounting() {
           <Space>
             <Button className={styles.buttonres10}>Learn More</Button>
           </Space> */}
+
+                <img className={styles.logo5} src="/logo1/vector9.jpg"></img>
 
           </Col>
 

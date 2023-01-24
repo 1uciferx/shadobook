@@ -23,8 +23,6 @@ function Leadmanagement() {
 
         {/* Hiring */}
 
-
-
         <div className={styles.backgroundimg1} style={{ backgroundImage: "url('assets/background11.jpg')", zIndex: "-1", position: "relative" }}>
 
 
@@ -106,10 +104,13 @@ function Leadmanagement() {
                 offset: 6,
               }}>   <h1 className={styles.headingsheader}>Hiring</h1>
 
-              <p className={styles.paraheader}> Enterprise resource planning, or ERP, is an integrated software solution that enables businesses to manage all of their operational needs through a single interface.
-     As a result, data availability and efficiency are increased, and more immediate information like the company's financial condition is made available.</p>
-
-
+              <p className={styles.paraheader}>
+                
+              
+                
+                  Enterprise resource planning, or ERP, is an integrated software solution that enables businesses to manage all of their operational needs through a single interface.s
+            
+                  As a result, data availability and efficiency are increased, and more immediate information like the company's financial condition is made available.</p>
 
             </Col>
 
@@ -132,9 +133,6 @@ function Leadmanagement() {
 
 
 
-
-
-
         {/* Dashboard */}
 
         <Col className={styles.margintop}>
@@ -142,7 +140,7 @@ function Leadmanagement() {
           <Row>
             <Col xs={{
               span: 22,
-              offset: 0,
+              offset: 1,
             }}
 
               sm={{
@@ -168,7 +166,7 @@ function Leadmanagement() {
                 span: 8,
                 offset: 3
               }}>
-              <h3 className={styles.headingsdashboard}>Dashboard</h3>
+              <h3 className={styles.headings}>Dashboard</h3>
             </Col>
           </Row>
 
@@ -243,8 +241,40 @@ function Leadmanagement() {
                 offset: 1
               }}>
 
-              <p className={styles.para}> Recruitment dashboards aid HR teams, hiring managers, and recruiters in comprehending all facets of the hiring process. These include keeping track of employer brand metrics, which demonstrate the general level of interest job searchers have in working for the organisation, and comprehending the number of applicants who are progressing through the recruiting process.
+              <p className={styles.para}> 
+              <li>
+                  Campaigns in Progress: Active recruitment campaigns currently underway.
+              </li>
 
+              <br/>
+
+              <li>
+                  Completed Campaigns: Finished recruitment campaigns.
+              </li>
+              
+              <br></br>
+              <li>
+                   Status of Hiring Campaigns: An overview of progress of recruitment campaigns, including candidates contacted, interviewed and hired.
+
+              </li>
+              <br></br>
+              <li>
+                   Candidates Need to Recruit: Number of candidates still needed to fill open positions.
+              </li>
+              <br></br>
+              <li>
+                   Candidates Recruited: Number of candidates successfully hired.
+              </li>
+              <br></br>
+              <li>
+                   Upcoming Interview: Number of scheduled interviews and their dates and times.
+              </li>
+
+            
+
+
+              
+              
                  </p>
 
             </Col>
@@ -364,9 +394,20 @@ function Leadmanagement() {
               }}>
 
 
-            <p className={styles.para1}>A recruiting campaign, in essence, is a procedure used by a company to promote a steady stream of excellent applicants to apply for their openings.
-      The hiring process involves looking over applications, choosing the best applicants for interviews, testing candidates, making a decision between candidates, 
-      and carrying out different pre-employment exams and checks.</p>
+            <p className={styles.para1}>
+              <li>
+                 Quick and easy overview of the recruitment campaign, including the campaign's name, the position, the type of employment, the department, the number of positions, and the current status of the campaign.
+              </li>
+              <br></br>
+              <li>
+              Help to identify the campaign, the position, the recruitment process and the current status of the recruitment campaign.
+              </li>
+              <br></br>
+              <li>
+              Can be used to filter and search for specific campaigns, positions and department
+              </li>
+              
+              </p>
             {/* 
             <Space>
               <Button className={styles.buttonres2}>Learn More</Button>
@@ -389,8 +430,8 @@ function Leadmanagement() {
 
             <Row>
               <Col xs={{
-                span: 16,
-                offset: 5,
+                span: 24,
+                offset: 0,
               }}
 
                 sm={{
@@ -450,8 +491,28 @@ function Leadmanagement() {
                 span: 8,
                 offset: 1
               }}>
-                <p className={styles.para1}>A candidate profile is a thorough outline of a job opening at a company and the ideal applicant who will fill it. 
-       A candidate persona is a road map that ultimately aids recruiters in outlining the ideal personality qualities & skills for a particular position.</p>
+                <p className={styles.para1}>
+                  <li>
+                  Track and organize candidate information using unique identifier (Candidate code)
+                  </li>
+                  <br></br>
+                  <li>
+                  Communicate and schedule interviews using candidate's contact information (name, email, phone number)
+                  </li>
+                  <br></br>
+                
+                  <li>
+                     Understand candidate's stage in hiring process and make decisions (Status)
+                  </li>
+                  <br></br>
+                 
+                 
+                
+                  <li>
+                  Ensure smooth and efficient hiring process
+                  </li>
+
+                 </p>
 
                 {/* <Space>
                 <Button className={styles.buttonres3}>Learn More</Button>
@@ -506,8 +567,8 @@ function Leadmanagement() {
 
           <Row className={styles.margintop4}>
             <Col xs={{
-              span: 16,
-              offset: 5,
+              span: 24,
+              offset: 0,
             }}
 
               sm={{
@@ -569,9 +630,22 @@ function Leadmanagement() {
               }}>
 
 
-              <p className={styles.para1}>An interview schedule is a planning tool that hiring managers and recruiters can use to choose the questions they wish to ask during a meeting with a candidate. 
-        In order to help interviewers, researchers, and investigators get information or data on a certain topic or issue, a list of structured questions has been produced
-        as an interview schedule.</p>
+              <p className={styles.para1}>
+                <li>
+                Specific recruiting campaign or job listing for which the interview is being scheduled (Hiring campaign)
+                </li>
+                <br></br>
+               
+                <li>
+                Job position for which the candidate is being interviewed (Position)
+                </li>
+                <br></br>
+                
+               
+                <li>
+                The information is used to schedule and organize interviews for candidates and also to track the performance of recruiting campaigns using Shadobook ERP.
+                </li>
+               </p>
 
               {/* <Space>
                 <Button className={styles.buttonres4}>Learn More</Button>
@@ -684,8 +758,23 @@ function Leadmanagement() {
                   span: 8,
                   offset: 1,
                 }}>
-                <p className={styles.para1}>Before you make the jump, we’d like to invite you to a journey through the current top five hiring channels that all HR and recruiters should embrace,
-        to help you make a better decision while staying ahead of the current trends and being among the top players with a strong foundation.</p>
+                <p className={styles.para1}>
+                  <li>
+                   Form builder and Form information: Tool for creating and designing forms easily and efficiently.
+                     </li>
+                     <br></br>
+                     <li>
+                     Can create various forms such as surveys, registration forms, contact forms
+                     </li>
+                     <br></br>
+                     <li>
+                     Includes drag-and-drop functionality, templates, and customization options.
+                     </li>
+                     <br></br>
+                     <li>
+                     Allows for easy distribution and data collection
+                     </li>
+                    </p>
 
                 {/* <Space>
                 <Button className={styles.buttonres5}>Learn More</Button>
@@ -758,7 +847,7 @@ function Leadmanagement() {
             }}
             xl={{
               span: 13,
-              offset: 0,
+              offset: 9,
             }}
             xxl={{
 
@@ -793,8 +882,8 @@ function Leadmanagement() {
               offset: 1,
             }}
             xl={{
-              span: 10,
-              offset: 0,
+              span: 8,
+              offset: 3,
             }}
             xxl={{
 
@@ -803,8 +892,27 @@ function Leadmanagement() {
             }}>
 
 
-            <p className={styles.para1}>A new hiring portal is a gateway from which a company can welcome new hires into the organization and integrate them faster into the company culture.
-        Using the new hire portal the company can build a good first impression, give an overview of their culture and welcome new hiring with an engaging and customized experience.
+            <p className={styles.para1}>
+              <li>
+                  Search by specific skills
+              </li>
+              <br></br>
+              <li>
+              Search by job title
+              </li>
+              <br></br>
+              <li>
+              Search by experience level
+              </li>
+              <br></br>
+              <li>
+              Search by location
+              </li>
+              <br></br>
+              <li>
+              Search by company,etc.
+              </li>
+              
 
 </p>
 
@@ -837,7 +945,7 @@ function Leadmanagement() {
               offset: 1,
             }}
             xl={{
-              span: 10,
+              span: 8,
               offset: 0,
             }}
             xxl={{
@@ -952,15 +1060,19 @@ function Leadmanagement() {
                   offset: 3,
                 }}
                 xl={{
-                  span: 12,
-                  offset: 6,
+                  span: 15,
+                  offset: 4,
                 }}
                 xxl={{
 
                   span: 12,
                   offset: 0,
                 }}>
-                <p className={styles.para7}>Hiring Slots are periods of time that can be booked for venues in sheepSpaces, supporting multiple venues, restrictions and bespoke pricing.</p>
+                <p className={styles.para7}>
+                <li> Hiring Slots are periods of time that can be booked for venues in sheepSpaces, supporting multiple venues, restrictions and bespoke pricing.
+                </li>
+
+                </p>
                 {/* 
               <Space>
                 <Button className={styles.buttonres7}>Learn More</Button>
