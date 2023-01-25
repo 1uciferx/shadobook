@@ -25,7 +25,7 @@
 .para {
     font-family: Segoe UI;
     text-align: start;
-    margin-top: 250px;
+    margin-top: 81px;
     font-size: 28px;
     line-height: 20px;
     color: rgb(0, 0, 0);
@@ -143,6 +143,8 @@ width: 50%;
         margin-top: 10px;
         height: 300px;
     }
+
+    
     .headings {
 
 

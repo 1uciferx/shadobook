@@ -131,13 +131,17 @@ function Utilities() {
             }}
             xxl={{
               span: 10,
-              offset: 0,
+              offset: 2,
             }}
           >
             <LightSpeed right>
-              <p className={styles.para}>
-              In Shadobook ERP, go to Utilities ➡ Click Media, and then the shown window appears. Here we have the options to create the new folder, upload files using the upload icon, download the files by clicking the download icon, etc.
-              </p>
+              <ol className={styles.para}>
+              <li>➟ In the media window, you have the options to:</li><br/>
+              <li>➟ Create a new folder.</li><br/>
+              <li>➟ Upload files using the upload icon</li><br/>
+              <li>➟ Download files by clicking the download icon, etc.</li>
+
+              </ol>
             </LightSpeed>
           </Col>
 
@@ -164,7 +168,7 @@ function Utilities() {
             }}
             xxl={{
               span: 10,
-              offset: 2,
+              offset: 1,
             }}
           >
             <Fade left>
@@ -271,9 +275,11 @@ function Utilities() {
             }}
           >
             <LightSpeed left>
-              <p className={styles.para2}>
-              In this window, we have the option to export the bulk PDF. To get this window, click the utilities module, then select bulk PDF export. Here we can select any one of the types, such as invoices, estimates, receipts, credit notes, proposals, and expenses. After selecting the from and to dates, the payment method, and finally clicking the submit button, the selected files are exported in bulk to our shadobook ERP.
-              </p>
+              <ol className={styles.para2}>
+              <li>➟ You can select one of the types, such as invoices, estimates, receipts, credit notes, proposals, and expenses.</li><br/>
+              <li>➟ After selecting the from and to dates, the payment method, and clicking the submit button, the selected files will be exported in bulk to Shadobook ERP.</li>
+
+              </ol>
             </LightSpeed>
           </Col>
         </Row>
@@ -338,9 +344,13 @@ function Utilities() {
             }}
           >
             <LightSpeed right>
-              <p className={styles.para}>
-              In Shadobook ERP, we have the CSV export option. To access this option, navigate to the utilities module and then click the CSV export button. In that window, select export types such as customers, contacts, leads, expenses, receipts, and periods, then click the export button. The csv file has been downloaded.
-              </p>
+              <ol className={styles.para}>
+              <li>➟ In Shadobook ERP, we have the option to export data in CSV format by navigating to the Utilities
+module and clicking on CSV export button.</li><br/>
+              <li>➟ In that window, you can select export types such as customers, contacts, leads, expenses, receipts, and periods.</li><br/>
+              <li>➟ After selecting the options, click the export button, it will download the CSV file of exported data</li>
+
+              </ol>
             </LightSpeed>
           </Col>
 
@@ -474,9 +484,12 @@ function Utilities() {
             }}
           >
             <LightSpeed left>
-              <p className={styles.para2}>
-              This calendar page shows newly created and upcoming events from the queues for sales, purchases,estimate and so on. To get this window, go to Utilities and then click the calendar option. Now we can see tasks and events in shadobook ERP.
-              </p>
+              <ol className={styles.para2}>
+              <li>➟ This calendar page shows newly created and upcoming events from the queues for sales, purchases, estimate, etc.</li><br/>
+              <li>➟ To access this window, go to Utilities and click on the calendar option.</li><br/>
+              <li>➟ Now you can see tasks and events in Shadobook ERP.</li>
+
+              </ol>
             </LightSpeed>
           </Col>
         </Row>
@@ -541,9 +554,13 @@ function Utilities() {
             }}
           >
             <LightSpeed right>
-              <p className={styles.para}>
-              To check the list of announcements, go to the Utilities module and click "announcements." Here we can see the list of announcements and also have the option to create a new announcement by clicking the "New Tab." Here, enter the subject and message fields and click the "Save" button. Now the announcement is listed in our Shadobook ERP.
-              </p>
+              <ol className={styles.para}>
+              <li>➟ To check the list of announcements, go to the Utilities module and click "Announcements."</li><br/>
+              <li>➟ On this page, you can see the list of existing announcements and also have the option to create a new announcement by clicking the "New Tab."</li><br/>
+              <li>➟ To create a new announcement, enter the subject and message fields and click the "Save" button.</li><br/>
+              <li>➟ Now, the announcement is listed in Shadobook ERP.</li>
+
+              </ol>
             </LightSpeed>
           </Col>
 
@@ -677,9 +694,15 @@ function Utilities() {
             }}
           >
             <LightSpeed left>
-              <p className={styles.para2}>
-              We can create goals and also view the goals that have already been set. To add a new goal, navigate to the utilities module and click the goal option there. We can then add the new goal by clicking the "new goal" tab here. enter all details such as subject, staff member, achievements, start date, end date, goal type, and then click the save button. Now the list of goals appears in our shadobook ERP.
-              </p>
+              <ol className={styles.para2}>
+              <li>➟ In Shadobook ERP, it is possible to create and view goals.</li><br/>
+              <li>➟ To add a new goal, navigate to the Utilities module and click on the Goal option.</li><br/>
+              <li>➟ Click on the "New Goal" tab to add a new goal.</li><br/>
+              <li>➟ Enter all details such as subject, staff member, achievements, start date, end date, goal type.</li><br/>
+              <li>➟ Click the Save button to save the goal.</li><br/>
+              <li>➟ The list of goals will appear in Shadobook ERP.</li>
+
+              </ol>
             </LightSpeed>
           </Col>
         </Row>
@@ -745,9 +768,11 @@ function Utilities() {
             }}
           >
             <LightSpeed right>
-              <p className={styles.para}>
-              To check all the activities, go to the Utilities module and select Activity Log. Here we have the option to filter the activities by date in shadobook ERP.
-              </p>
+              <ol className={styles.para}>
+              <li>➟ To check all the activities in Shadobook ERP, go to the Utilities module and select Activity Log</li><br/>
+              <li>➟ On this page, there is an option to filter the activities by date.</li>
+
+              </ol>
             </LightSpeed>
           </Col>
 
@@ -881,9 +906,11 @@ function Utilities() {
             }}
           >
             <LightSpeed left>
-              <p className={styles.para2}>
-              To check the inquiries, complaints, etc., we use this ticket pipe log option. Select the option ticket pipe log from the utilities module.Here we can see all the data in the form of a list and also have the option to filter by date in Shadobook ERP.
-              </p>
+              <ol className={styles.para2}>
+              <li>➟ To check the inquiries, complaints, etc. in Shadobook ERP, go to the Utilities module and select the Ticket Pipe Log option.</li><br/>
+              <li>➟ On this page, you can see all the data in the form of a list and also have the option to filter by date.</li>
+
+              </ol>
             </LightSpeed>
           </Col>
         </Row>

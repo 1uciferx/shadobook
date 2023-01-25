@@ -28,7 +28,7 @@ function Leads() {
 
         <div
           style={{
-            backgroundImage: `url(/assets/imgs/page/homepage4/weq.jpg)`,
+            backgroundImage: `url(/assets/imgs/page/homepage1/ccc.jpg)`,
             backgroundSize: "cover",
             height: "400px",
             width: "100%",
@@ -90,8 +90,8 @@ function Leads() {
           <Row>
             <Col
               xs={{
-                span: 24,
-                offset: 0,
+                span: 20,
+                offset: 2,
               }}
               lg={{
                 span: 22,
@@ -107,7 +107,7 @@ function Leads() {
               }}
               xl={{
                 span: 20,
-                offset: 0,
+                offset: 2,
               }}
               xxl={{
                 span: 22,
@@ -122,10 +122,10 @@ function Leads() {
 
               <div className={styles.headparacenter}>
                 <Flip top cascade>
-                  <p className={styles.headpara}>
-                    Shadobooks offers an easy-to-use CRM interface and
-                    facilitates data access from anywhere at any time.
-                  </p>
+                  <ol className={styles.headpara}>
+                    <li>Shadobooks offers an easy to use CRM interface and</li>
+                    <li> facilitates data access from anywhere at any time.</li>
+                  </ol>
                 </Flip>
               </div>
             </Col>
@@ -168,11 +168,13 @@ function Leads() {
         {/* second container image has been placed here */}
 
         <Zoom>
+          <div className={styles.happy}>
           <div className={styles.imgcenter}>
             <img
               src="assets/imgs/page/about/11/L.png"
               className={styles.conimg2}
             />
+          </div>
           </div>
         </Zoom>
 
@@ -219,9 +221,12 @@ function Leads() {
               <p className={styles.para}>Add New Lead</p>
             </Flip>
             <Zoom>
-              <p className={styles.subhead}>
-              In this add new lead window, we have to select the details such as status, source, and assigned, enter the field name such as name, address, position,city,email address, state, company,etc., and click the save button to add the new task.
-              </p>
+              <ol className={styles.subhead}>
+              <li>➟ In this add new lead window, you need to select the details such as status, source, and assigned.</li><br/>
+              <li>➟ You need to enter the field name such as name, address, position, city, email address, state, company, etc.</li><br/>
+              <li>➟ Click the save button to add the new task.</li>
+
+              </ol>
             </Zoom>
           </Col>
 
@@ -294,9 +299,12 @@ function Leads() {
               <p className={styles.para}>Import Leads</p>
             </Flip>
             <Zoom>
-              <p className={styles.subhead}>
-              In Shadobook ERP, when clicking the import lead button, the import page will open. Here, we have to select the csv file, status, source,responsible and then click the import button or simulate import button so the selected file will import.
-              </p>
+              <ol className={styles.subhead}>
+              <li>➟ In Shadobook ERP, when you click the import lead button, the import page will open.</li><br/>
+              <li>➟ To import lead, select the csv file, status, source, responsible.</li><br/>
+              <li>➟ Click the import button or simulate import button to import the selected file.</li>
+
+              </ol>
             </Zoom>
           </Col>
 
