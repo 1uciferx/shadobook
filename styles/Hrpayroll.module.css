@@ -692,9 +692,7 @@
 
    
 @media screen and (max-width: 500px) {
-        .box{
-            display:none;
-        }
+        
         .margintop{
             margin-top: 5%;
         }
@@ -702,8 +700,10 @@
       
 
 
-       
-           
+       @media screen and (max-width: 760px) {    
+       .box{
+        display:none;
+    } }
     
 
 @media screen and (min-width: 300px) {
@@ -784,7 +784,7 @@
 
     .paraheader{
                                             
-        font-size: 13px;
+        font-size: 18px;
         text-align: start;
         line-height: 30px;
         font-family: Segoe UI; 
@@ -811,7 +811,7 @@
                         
                                         .paraheader{
                                             
-                                            font-size: 13px;
+                                            font-size: 18px;
                                             text-align: start;
                                             line-height: 30px;
                                             font-family: Segoe UI; 
@@ -833,7 +833,7 @@
                         
                                         .paraheader{
                                             
-                                            font-size: 13px;
+                                            font-size: 18px;
                                             text-align: start;
                                             line-height: 30px;
                                             font-family: Segoe UI; 
@@ -958,6 +958,9 @@
                              .margintop1{
                                 margin-top: 0px;
                              }
+
+
+                             
                          }
                       
 
@@ -984,15 +987,16 @@
 
                          .box{
 
-                            width: 70%;
+                            width: 63%;
                             object-fit: cover;
-                            height: 50vh;
-   
-                          
+                            height: 43vh;
+                           
+    margin-top: 17%;
+                            margin-left: 19%;
                         }
 
                 .marginbottomfooter{
-                    margin-bottom: 100px;
+                    margin-bottom: 20px;
                 }
 
 
