@@ -120,7 +120,18 @@ function Contracts() {
         <Zoom top>
           <div className={styles.paraconcenter}>
             <p className={styles.paracon}>
-            In Shadobook  ERP, when clicking the contract module, the page shows the add new contract option, a contract summary, a contract by type, a contract value by type, and a list of generated contracts.
+            In Shadobook ERP, when clicking the contract module, the page shows:
+            <br></br>
+            <br></br>
+            <li>The option to add a new contract.</li>
+            <br></br>
+            <li>A contract summary.</li>
+            <br></br>
+            <li>A contract by type</li>
+            <br></br>
+            <li>A contract value by type.</li>
+            <br></br>
+            <li>A list of generated contracts.</li>
             </p>
           </div>
         </Zoom>
@@ -215,7 +226,10 @@ function Contracts() {
           <Zoom top>
           <div className={styles.paraconcenter}>
             <p className={styles.paracon}>
-            On this page, enter all the contract information details, such as customer, subject, contract value, contract type, start date, end date, and contract description, and then click the save button. The new contract has now been created in our shadobook ERP system.
+            <li>On this page, you can enter all the contract information details such as customer, subject, contract value, contract type,     <br></br> start date, end date, and contract description.</li>
+            <br></br>
+            <li>Click the save button to create the new contract in Shadobook ERP system.</li>
+         
             </p>
             </div>
           </Zoom>

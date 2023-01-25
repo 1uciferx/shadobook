@@ -140,23 +140,23 @@ function Task() {
 
         <Col
           xs={{
-            span: 24,
-            offset: 0,
+            span: 20,
+            offset: 2,
           }}
           lg={{
             span: 24,
             offset: 0,
           }}
           md={{
-            span: 24,
-            offset: 0,
+            span: 20,
+            offset: 2,
           }}
           sm={{
             span: 24,
             offset: 0,
           }}
           xl={{
-            span: 24,
+            span: 22,
             offset: 0,
           }}
           xxl={{
@@ -259,16 +259,16 @@ function Task() {
 
         <Col
           xs={{
-            span: 24,
-            offset: 0,
+            span: 20,
+            offset: 2,
           }}
           lg={{
             span: 24,
             offset: 0,
           }}
           md={{
-            span: 24,
-            offset: 0,
+            span: 20,
+            offset: 2,
           }}
           sm={{
             span: 24,
@@ -442,23 +442,23 @@ function Task() {
 
         <Col
           xs={{
-            span: 24,
-            offset: 0,
+            span: 20,
+            offset: 2,
           }}
           lg={{
             span: 24,
             offset: 0,
           }}
           md={{
-            span: 24,
-            offset: 0,
+            span: 20,
+            offset: 2,
           }}
           sm={{
             span: 24,
             offset: 0,
           }}
           xl={{
-            span: 24,
+            span: 22,
             offset: 0,
           }}
           xxl={{

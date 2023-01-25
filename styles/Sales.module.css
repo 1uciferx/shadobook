@@ -43,7 +43,7 @@
  font-family: Segoe UI;
  font-weight: bold;
  font-style: normal;
- margin-top: 26%;
+ margin-top: 10%;
  
 }
 
@@ -97,14 +97,34 @@ text-align: center;
 .tabimg1{
   border-radius: 10px;
   height: 50vh;
-  margin-top: 10%;
+  margin-top: 22%;
 }
 
 .tabimg2{
   border-radius: 10px;
   height: 50vh;
-  margin-top: 10%;
+  margin-top: 28%;
 }
+
+
+.tabimgreceipt{
+  border-radius: 10px;
+  height: 50vh;
+  margin-top: 20%;
+}
+
+.tabimgCN{
+  border-radius: 10px;
+  height: 50vh;
+  margin-top: 25%;
+}
+
+.tabimgitems{
+  border-radius: 10px;
+  height: 50vh;
+  margin-top: 22%;
+}
+
 
 .tabcontent{
   display: block;
@@ -115,7 +135,7 @@ text-align: center;
 }
 
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 993px){
 
   .tabcontent {
     display: none;
@@ -138,14 +158,60 @@ text-align: center;
       font-weight: 600;
       font-style: normal;
       margin-top: 10%;
+      text-align: center;
       
      }
+
+     .tabimg1{
+      border-radius: 10px;
+      height: 50vh;
+      margin-top: 22%;
+    }
+    
+    .tabimg2{
+      border-radius: 10px;
+      height: 50vh;
+      margin-top: 28%;
+    }
+    
+    
+    .tabimgreceipt{
+      border-radius: 10px;
+      height: 50vh;
+      margin-top: 20%;
+    }
+    
+    .tabimgCN{
+      border-radius: 10px;
+      height: 50vh;
+      margin-top: 25%;
+    }
+    
+    .tabimgitems{
+      border-radius: 10px;
+      height: 50vh;
+      margin-top: 22%;
+    }
+
+    .para {
+   
+ 
+      font-family:Segoe UI;
+      font-size: 18px;
+      line-height: 23px;
+      color:black;
+      font-weight: 400;
+      text-decoration: none solid rgb(0, 0, 0);
+      width: 100%;
+      text-align: center;
+    
+    
+    }
+    
   
 }
 
-@media screen and (max-width: 566px){
 
-  .btnspace{
-    margin-top: 6%;
-  }
-}
+
+
+

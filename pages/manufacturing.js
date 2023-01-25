@@ -207,11 +207,13 @@ function Fixed() {
             offset: 1,
           }}
         >
+          <div className={styles.dashboardcenter}>
           <p className={styles.paracenter}>
-            In shadobook ERP, when clicking the manufacturing module, select the
-            dashboard. Here we can see the graphical representation of data such
-            as manufacturing orders, work orders, and work centers.
+           <li>In Shadobook ERP, go to the manufacturing module and select the dashboard.</li>
+           <br></br>
+           <li>On the dashboard, graphical representation of data such as manufacturing orders, work orders, and work centers can be viewed.</li>
           </p>
+          </div>
         </Col>
 
         <Row>
@@ -452,12 +454,22 @@ function Fixed() {
                 >
                   <h4 className={styles.subhead2}>Products</h4>
                   <p className={styles.para}>
-                    To add products, click the manufacturing module, then select
-                    products. Here, we can add a new product by entering the
-                    details such as its name, image, sale price, cost, product
-                    category, product type, quantity, unit name, etc., and
-                    clicking the save button. In shadobook ERP, all of the
-                    generated products appear in a list view.
+                  To add products in Shadobook ERP:
+                  <br></br>
+                  <br></br>
+                    <li>• Go to the manufacturing module</li>
+                    <br></br>
+                    <li>• Select products</li>
+                    <br></br>
+                    <p>To add a new product:</p>
+                    <br></br>
+                    <li>• Enter details such as its name, image, sale price, cost, product category, product type, quantity, unit name, etc.</li>
+                    <br></br>
+                    <li>• Click the save button</li>
+
+                    <li>• The list of all generated products can be viewed in the products tab in Shadobook ERP.</li>
+
+
                   </p>
                 </Col>
               </Row>
@@ -526,7 +538,12 @@ function Fixed() {
                 >
                   <h4 className={styles.subhead2}>Products Varients</h4>
                   <p className={styles.para}>
-                  In Shado Book ERP, the product variant management has the option to filter the data by selecting the product, product type, and product category, and it is displayed in the form of a list.
+                  In Shadobook ERP, the product variant management feature allows users to:
+                  <br></br>
+                  <br></br>
+                    <li>• Filter data by selecting the product, product type, and product category.</li>
+                    <br></br>
+                    <li>• View the filtered data in the form of a list.</li>
                   </p>
                 </Col>
               </Row>
@@ -595,7 +612,11 @@ function Fixed() {
                 >
                   <h4 className={styles.subhead2}>Bills of Materials</h4>
                   <p className={styles.para}>
-                  On the Bills of Material page, we have the option to add a new bill by entering the details such as product, BOM code, BOM type, product variant, quantity, unit,routing and clicking the save button. Here, bills are displayed in list form in the shadobook ERP.
+                  <li>• The Bills of Material page allows you to add a new bill by providing information such as the product, BOM code, BOM type, product variant, quantity, unit, and routing.</li>
+                    <br></br>
+                    <li>• Once the details are entered, you can save the bill by clicking the save button.</li>
+                    <br></br>
+                    <li>• The bills are then displayed in a list format in the shadobook ERP.</li>
                   </p>
                 </Col>
               </Row>
@@ -664,7 +685,11 @@ function Fixed() {
                 >
                   <h4 className={styles.subhead2}>Routings</h4>
                   <p className={styles.para}>
-                  In Shadobook ERP, we have the option to add a new route by entering the details such as routing code, routing name, and notes, and then clicking the save button. Now the created lists are displayed in list form.
+                  <li>• In Shadobook ERP, it is possible to create a new route by providing information such as the routing code, routing name, and notes.</li>
+                    <br></br>
+                    <li>• Once the details are entered, you can save the route by clicking the save button.</li>
+                    <br></br>
+                    <li>• The created routes will then be displayed in a list format in the ERP.</li>
                   </p>
                 </Col>
               </Row>
@@ -733,7 +758,14 @@ function Fixed() {
                 >
                   <h4 className={styles.subhead2}>Work Centers</h4>
                   <p className={styles.para}>
-                  In this window, we have the option to add a work centre by clicking the "add work center" button and entering the details such as the work centre name, code, working hours, capacity, etc., and then clicking the "save" button to save the work centre details. Now the generated details will display in list form in Shadobook ERP.
+                  <li>• In this window, there is an option to add a new work center by clicking the "add work center" button.</li>
+                    <br></br>
+                    <li>• To create a new work center, you need to provide details such as the work center name, code, working hours, capacity, etc.</li>
+                    <br></br>
+                    <li>• After providing the details, you can save the work center by clicking the "save" button.</li>
+                    <br></br>
+                    <li>• The created work center details will then be displayed in a list format in Shadobook ERP.</li>
+                    
                   </p>
                 </Col>
               </Row>
@@ -802,7 +834,13 @@ function Fixed() {
                 >
                   <h4 className={styles.subhead2}>Manufacturing Orders</h4>
                   <p className={styles.para}>
-                  The Shadobook ERP, the manufacturing module, has the option to add the manufacturing orders by clicking the add button, and then enter all the details such as product, bill of materials, quantity, unit, routing, and status, and click the save button so the generated orders are displayed as a list.
+                  <li>• In the Shadobook ERP, the manufacturing module has the option to add new manufacturing orders.</li>
+                    <br></br>
+                    <li>• To create a new order, you need to click the add button and enter details such as the product, bill of materials, quantity, unit, routing, and status.</li>
+                    <br></br>
+                    <li>• Once all the details are entered, you can save the order by clicking the save button.</li>
+                    <br></br>
+                    <li>• The generated orders will then be displayed in a list format in the manufacturing module.</li>
                   </p>
                 </Col>
               </Row>
@@ -871,7 +909,9 @@ function Fixed() {
                 >
                   <h4 className={styles.subhead2}>Work Orders</h4>
                   <p className={styles.para}>
-                  In Shadobook ERP, the manufacturing module has the option to show the work orders. By clicking the work order, we can filter the orders by selecting the manufacturing order, product, and status.
+                  <li>• In Shadobook ERP, the manufacturing module has the option to display work orders.</li>
+                    <br></br>
+                    <li>• By clicking the work order button, you can filter the orders by selecting criteria such as the manufacturing order, product, and status.</li>
                   </p>
                 </Col>
               </Row>
@@ -940,11 +980,9 @@ function Fixed() {
                 >
                   <h4 className={styles.subhead2}>Settings</h4>
                   <p className={styles.para}>
-                    The preferences and parameters used to customize the
-                    manufacturing process are referred to as settings in
-                    manufacturing. Setting up working hours, Units of measure
-                    catagories, Unit of measure and general settings are all
-                    part of this.
+                  <li>• In manufacturing, the preferences and parameters used to customize the manufacturing process are known as settings.</li>
+                    <br></br>
+                    <li>• Setting up working hours, units of measure categories, unit of measure, and general settings are all part of this.</li>
                   </p>
                 </Col>
               </Row>
