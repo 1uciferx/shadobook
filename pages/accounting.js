@@ -197,8 +197,8 @@ function Accounting() {
           }}
           xxl={{
 
-            span: 9,
-            offset: 7,
+            span: 6,
+            offset: 9,
           }}>
             <h3 className={styles.headings}>Dashboard</h3>
           </Col>
@@ -234,7 +234,7 @@ function Accounting() {
           xxl={{
 
             span: 18,
-            offset: 3,
+            offset: 5,
           }}>
             <img className={styles.img1} src="/accountingpage/pic1.png"></img>
           </Col>
@@ -266,23 +266,23 @@ function Accounting() {
           }}
           xxl={{
 
-            span: 18,
-            offset: 3,
+            span: 15,
+            offset: 5,
           }}>
 
 
             <p className={styles.para1}>
               <li>
-              An accounting dashboard easily shows financial data or other metrics from multiple sources.
+              	ShadobooksERP Accounting dashboard allows users to view and manage their financial data in an organized and visually appealing way. 
               </li>
               <br></br>
             <li>
-            For example, some information may be stored within your accounting system, while other information may be stored in your inventory system or CRM.
+            	It typically includes a variety of widgets and charts that display information such as income and expenses, profit and loss, and balances for different accounts. 
             </li>
             <br></br>
             <li>
-              In this accounting dashboard example, we get a real-time view of invoices, cashflow, accounts receivable and accounts payable, profit and loss, and much more.
-            </li> 
+            	Users can customize the dashboard to show the information that is most relevant to them, and can also set up alerts and notifications for specific events.
+            </li>
             </p>
 
             {/* <Space>
@@ -319,7 +319,7 @@ function Accounting() {
 
             lg={{
               span: 12,
-              offset: 0,
+              offset: 6,
             }}
             xl={{
               span: 12,
@@ -353,8 +353,8 @@ function Accounting() {
             }}
 
             lg={{
-              span: 14,
-              offset: 0,
+              span: 20,
+              offset: 2,
             }}
             xl={{
               span: 12,
@@ -385,27 +385,36 @@ function Accounting() {
             }}
 
             lg={{
-              span: 6,
-              offset: 1,
+              span: 20,
+              offset: 2,
             }}
             xl={{
               span: 8,
-              offset: 0,
+              offset: 1,
             }}
             xxl={{
 
-              span: 6,
+              span: 7,
               offset: 0,
             }}>
 
 
             <p className={styles.para2}>
               <li>
-              An accounting ERP enables you to precisely setup the system so that all transactions are accurately recorded and automatically reported.
+              	The Banking sub-module in ShadobooksERP Accounting feature allows users to manage their bank transactions within the software. 
                 </li>
                 <br></br>
-                <li>The finance department mostly uses ERP accounting software.
-                  </li></p>
+                <li>	It includes features such as connecting to bank accounts, automatically importing bank transactions, reconciling bank statements.
+                  </li>
+                  <br></br>
+                  <li>
+                  	With this, user can easily track and manage their bank transactions, which can help them to make better-informed decisions. 
+                  </li>
+                  <br></br>
+                  <li>
+                  	Additionally, the it can help users automate their accounting processes and reduce errors, which can save them time and money.
+                  </li>
+                  </p>
 
             {/* <Space>
             <Button className={styles.buttonres2}>Learn More</Button>
@@ -519,23 +528,33 @@ function Accounting() {
             }}
             xxl={{
 
-              span: 6,
+              span: 7,
               offset: 1,
             }}>
 
             <p className={styles.para3}>
               <li>
-              An accounting ERP enables you to precisely setup the system so that all transactions are accurately recorded and automatically reported.
-                </li>
+              The Transactions sub-module in ShadobooksERP Accounting feature includes, creating and managing invoices, vouchers, estimates, purchase orders, payslips and credit notes. </li>
                 <br></br>
+
                 <li>
-                  The finance department mostly uses ERP accounting software.</li></p>
+                	It allows users to track and manage their payments, and apply credits to invoices. 
+                  </li>
+                  <br></br>
+                  <li>
+                  	This feature also allows the user to generate reports on transactions, such as revenue, expenses, and outstanding invoices. 
+                  </li>
+                  <br></br>
+                  <li>
+                  	It can also automate accounting tasks, save time and reduce errors.
+                  </li>
+                  </p>
 
             {/* <Space>
             <Button className={styles.buttonres3}>Learn More</Button>
           </Space> */}
 
-<img className={styles.logo2} src="/logo1/vector17.svg"></img>
+
 
           </Col>
 
@@ -692,17 +711,23 @@ function Accounting() {
 
             <p className={styles.para4}>
               <li>
-              A Journal Entry is a standard accounting transaction that affects multiple Accounts and the sum of debits is equal to the sum of credits.
+              	The Journal Entry sub-module in ShadobooksERP Accounting feature enables users to record and manage their financial transactions in the form of journal entries. 
                 </li>
                 <br></br>
                 <li>
-                A Journal Entry Impacts the main ledger.
+                	It enables users to record journal entries, including the ability to create and manage journal entries, record and track payments, debits and apply credits to invoices.
                 </li>
                 <br></br>
+
                 <li>
 
-              
-                 Journal Entries can be used for entering expenses, opening entries, contra entries, bank payments, excise entries, etc.  </li> </p>
+                It also allows the user to post journal entries to the general ledger and generate reports on journal entries.  
+                  </li>
+                  <br></br>
+                  <li>
+                  	It can also help to maintain the integrity of financial records and ensure compliance with accounting principles.
+                  </li>
+                  </p>
 
             {/* <Space>
             <Button className={styles.buttonres4}>Learn More</Button>
@@ -821,11 +846,16 @@ function Accounting() {
 
             <p className={styles.para5}>
               <li>
-                ransfers are financial transactions that take place between two different funds but are neither receipts nor expenses Transfers are essentially a fund balance moving from one fund to another.
+              	In ShadobooksERP, this feature allows the user to record financial transactions such as transferring money from one account to another. 
+                </li>
+                <br></br>
+
+                <li>
+               	This will help users to keep track of their financial transactions and maintain the integrity of their financial records. 
                 </li>
                 <br></br>
                 <li>
-                Each side of the transaction utilises the same account code.
+                	Additionally, this feature can also be used to record inter-company transactions.
                 </li>
                 </p>
 
@@ -863,7 +893,7 @@ function Accounting() {
 
             lg={{
               span: 12,
-              offset: 2,
+              offset: 6,
             }}
             xl={{
               span: 12,
@@ -895,8 +925,8 @@ function Accounting() {
             }}
 
             lg={{
-              span: 12,
-              offset: 0,
+              span: 20,
+              offset: 2,
             }}
             xl={{
               span: 12,
@@ -927,8 +957,8 @@ function Accounting() {
             }}
 
             lg={{
-              span: 7,
-              offset: 1,
+              span: 20,
+              offset: 2,
             }}
             xl={{
               span: 8,
@@ -936,22 +966,26 @@ function Accounting() {
             }}
             xxl={{
 
-              span: 6,
+              span: 7,
               offset: 0,
             }}>
 
 
             <p className={styles.para6}>
               <li>
-              An index of all the accounts in an accounting system is provided by a chart of accounts (COA), a financial and organisational tool.
+              	In ShadobooksERP the Chart of Accounts sub-module feature allows users to manage and organize their financial accounts. 
                 </li>
                 <br></br>
                 <li>
-                This gives information about all of the business's financial transactions.
+                	This includes creating and managing different types of accounts, such as income, expense, asset, liability, and equity accounts. 
                   </li> 
                   <br></br>
                   <li>
-                  For each sort of asset, liability, equity, revenue, and expense, an account serves as a distinct reco
+                  This feature enables users to choose a ledger from the list of sub-ledgers
+                  </li>
+                  <br></br>
+                  <li>
+                  It can also help to maintain the integrity of financial records and ensure compliance with accounting principles.
                   </li>
                   </p>
 
@@ -1069,7 +1103,7 @@ function Accounting() {
             }}
             xxl={{
 
-              span: 6,
+              span: 7,
               offset: 1,
             }}>
 
@@ -1077,12 +1111,17 @@ function Accounting() {
 
             <p className={styles.para7}>
               <li>
-              The bank reconciliation report shows the discrepancy between the bank balance listed on an organization's bank statement and the amount listed in the chart of accounts.
+              	The Reconcile module allows users to match their bank and credit card transactions with the corresponding entries in their ShadobooksERP.
                 </li>
                 <br></br>
                 <li>
-                Check the report to see if the "Balance as per bank" field corresponds to the bank account statement.
+                	It helps users to quickly match transactions and make any necessary adjustments. 
                 </li>
+                <br></br>
+                <li>
+                Additionally, the module can help users to reconcile their transactions with their general ledger, ensuring that their financial statements are accurate.
+                </li>
+
                 </p>
 
             {/* <Space>
@@ -1197,12 +1236,25 @@ function Accounting() {
             }}
             xxl={{
 
-              span: 6,
+              span: 7,
               offset: 1,
             }}>
 
 
-            <p className={styles.para8}>A budget is a financial plan that projects future earnings and costs. A budget, put simply, forecasts future spending and saving in addition to anticipated income and expenses.</p>
+            <p className={styles.para8}>
+              <li>
+               	The module enables users to set financial goals for various departments or divisions within their company, and then track their actual financial performance against those goals. </li>
+                <br></br>
+                <li>
+                	Users can create budgets for different time periods, such as monthly, quarterly, or annually, and can compare actual financial results with budgeted results in real-time. 
+                </li>
+                <br></br>
+                <li>
+                It allows users to monitor budget variances and take corrective actions if needed.
+
+
+                </li>
+                </p>
             {/* 
             <Space>
               <Button className={styles.buttonres8}>Learn More</Button>
@@ -1281,11 +1333,11 @@ function Accounting() {
 
             lg={{
               span: 12,
-              offset: 0,
+              offset: 6,
             }}
             xl={{
               span: 12,
-              offset: 0,
+              offset: 2,
             }}
             xxl={{
 
@@ -1316,8 +1368,8 @@ function Accounting() {
             }}
 
             lg={{
-              span: 12,
-              offset: 0,
+              span: 20,
+              offset: 2,
             }}
             xl={{
               span: 12,
@@ -1351,8 +1403,8 @@ function Accounting() {
             }}
 
             lg={{
-              span: 8,
-              offset: 1,
+              span: 20,
+              offset: 2,
             }}
             xl={{
               span: 8,
@@ -1360,18 +1412,30 @@ function Accounting() {
             }}
             xxl={{
 
-              span: 6,
+              span: 7,
               offset: 1,
             }}>
 
 
-            <p className={styles.para10}>There are various account settings in ERP Next to restrict and configure actions in the Accounting module.</p>
+            <p className={styles.para10}>
+              <li>
+              	In ShadobooksERP, this module allows users to configure and customize various aspects of the accounting module to suit their organization's specific needs. 
+                </li>
+                <br></br>
+                <li>
+                	It enables users to set up their financial chart of accounts, define their tax codes, set up currency exchange rates, and more. 
+                </li>
+                <br></br>
+                <li>
+                	The module also allows users to make changes to the functionalities of the accounting module, such as the default account type, transaction numbering, and the default date format.
+                </li>
+                </p>
             {/* 
           <Space>
             <Button className={styles.buttonres10}>Learn More</Button>
           </Space> */}
 
-                <img className={styles.logo5} src="/logo1/vector9.jpg"></img>
+               
 
           </Col>
 

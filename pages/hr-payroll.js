@@ -83,26 +83,26 @@ function HrPayroll() {
             }}
 
             md={{
-              span: 10,
+              span: 11,
               offset: 2,
             }}
 
             lg={{
-              span: 10,
-              offset: 1,
+              span: 11,
+              offset: 2,
             }}
             xl={{
-              span: 8,
+              span: 10,
               offset: 2,
             }}
             xxl={{
 
-              span: 8,
-              offset: 3,
+              span: 10,
+              offset: 2,
             }}>   <h1 className={styles.headingsheader}>Hr Payroll</h1>
 
-            <p className={styles.paraheader}>The main function of human resources is to take care of employee relations, while the payroll function deals with the financial compensation of those employees 
-         and the process by which they get paid. These two departments have distinct responsibilities in an organization, however they do have areas where they overlap.</p>
+            <p className={styles.paraheader}>
+            Shadobooks CRM offers hassle-free and seamless employee management with an easy-to-use HR Payroll interface. Be it your employee management, processing payrolls, calculating deductions, commissions or bonuses, the platform offers all of these operations under one roof.</p>
 
 
 
@@ -110,7 +110,7 @@ function HrPayroll() {
 
           <Col xs={{
             span: 10,
-            offset: 6,
+            offset: 8,
           }}
 
             sm={{
@@ -119,17 +119,17 @@ function HrPayroll() {
             }}
 
             md={{
-              span: 7,
-              offset: 4,
+              span: 8,
+              offset: 1,
             }}
 
             lg={{
               span: 8,
-              offset: 3,
+              offset: 2,
             }}
             xl={{
-              span: 8,
-              offset: 4,
+              span: 10,
+              offset: 0,
             }}
             xxl={{
 
@@ -246,13 +246,13 @@ function HrPayroll() {
 
             <p className={styles.para1}>
               <li>
-              In HR, the term "payroll" refers to the many employee evaluations that HR does and which in turn affect the way payroll is computed. 
+              	Keeping accurate and current records of employee information, including personal details, job titles, and bank account.
               </li>
               <br></br>
               <li>
 
              
-        Software used by automated payroll systems takes into account evaluations such as attendance, leaves, shifts, expenses, etc.
+              	You can receive a particular employee information by entering their name, department, role, and date of hire, from the list of employees.
         </li>
         </p>
 
@@ -281,8 +281,8 @@ function HrPayroll() {
             }}
 
             md={{
-              span: 7,
-              offset: 13,
+              span: 5,
+              offset: 15,
             }}
 
             lg={{
@@ -291,7 +291,7 @@ function HrPayroll() {
             }}
             xl={{
               span: 6,
-              offset: 0,
+              offset: 15,
             }}
             xxl={{
 
@@ -338,20 +338,20 @@ function HrPayroll() {
             <p className={styles.para1}>
               <li>
 
-              The basis for payroll is a worker's attendance records. 
+              	ShadobooksERP allows for monitoring employee attendance, including by HR code and by month. 
               </li>
               <br></br>
 
               <li>
 
            
-         The Time-Attendance terminal that is positioned at the entrance and exit of the building generates this data by keeping track of biometric and RFID card usage.
+              It also provides the ability to update an employee's leave information, including the number of leaves taken, as well as paid and unpaid leaves.
          </li>
          <br></br>
 
          <li>
 
-         These time-attendance terminals check valid identification (fingerprint, card, face, etc.)
+         	You can receive a particular employee attendance information by entering their name, department, role, and date of hire, from the list of employee’s attendance.
          </li>
 </p>
 
@@ -423,7 +423,7 @@ function HrPayroll() {
             }}
             xl={{
               span: 12,
-              offset: 0,
+              offset: 1,
             }}
             xxl={{
 
@@ -499,14 +499,13 @@ function HrPayroll() {
 
             <p className={styles.para1}> 
             <li>
-            The commission is an amount of money paid by an employer as a fee or percentage to an employee for a specific task or for bringing new business by selling goods or services
-          of the company. 
+            	In ShadobooksERP the commission plan includes by setting commission rates, sales targets, and performance metrics.
           </li>
           <br></br>
           <li>
 
          
-          Sometimes it is also referred to as sales commissions or incentives.
+          Keeping track of commission earned by employees, including commission payments and commissions earned per sale.
           </li>
 
 </p>
@@ -630,7 +629,7 @@ function HrPayroll() {
               span: 12,
               offset: 0,
             }}>
-            <img className={styles.containers} src="/hrpayroll/pic1.png"></img>
+            <img className={styles.containers} src="/hrpayroll/pic4.png"></img>
           </Col>
         </Row>
 
@@ -668,12 +667,12 @@ function HrPayroll() {
 
             <p className={styles.para1}>
               <li>
-              Deductions or payroll deductions is the amount removed or deducted from the paycheck of the employee as tax and for other purposes. 
+              Our detection sub-module automatically calculates deductions such as taxes and other deductions from employees' salaries.
               </li>
               <br></br>
 
          <li>
-       The most common form of payroll deductions includes payroll withholdings, payroll taxes, benefits deductions and wage garnishments.
+         	The detection sub-module page includes, employee number, employee name and department name.
        </li>
 
        <br></br>
@@ -719,7 +718,7 @@ function HrPayroll() {
             }}
             xl={{
               span: 12,
-              offset: 0,
+              offset: 1,
             }}
             xxl={{
 
@@ -759,7 +758,7 @@ function HrPayroll() {
               span: 12,
               offset: 0,
             }}>
-            <img className={styles.containers} src="/hrpayroll/pic1.png"></img>
+            <img className={styles.containers} src="/hrpayroll/pic5.png"></img>
           </Col>
 
 
@@ -796,14 +795,16 @@ function HrPayroll() {
             <p className={styles.para1}>
               <li>
                 
-              Payroll key performance indicators (KPIs) are techniques to gauge how well a company's payroll system is working because it might have an effect on the bottom line.
+              	ShadobooksERP's bonus KPI page allows HR to enter a bonus for their employees.
               </li>
               <br></br>
 
               <li>
 
              
-                KPIs are designed to aid in the development of a payroll system that is more efficient.
+              	You can receive a particular employee information by entering their name, department, and hire date in order to give bonuses.
+
+
              </li>
 
 </p>
@@ -845,7 +846,7 @@ function HrPayroll() {
             }}
             xl={{
               span: 12,
-              offset: 0,
+              offset: 1,
             }}
             xxl={{
 
@@ -887,7 +888,7 @@ function HrPayroll() {
               span: 14,
               offset: 5,
             }}>
-            <img className={styles.containers} src="/hrpayroll/pic1.png"></img>
+            <img className={styles.containers} src="/hrpayroll/pic6.png"></img>
           </Col>
 
 
@@ -927,14 +928,16 @@ function HrPayroll() {
               
               <li>
 
-              An insurance policy called payroll insurance covers unanticipated errors in payroll that occur during business operations.
+              	ShadobooksERP assists HR in maintaining insurance information for employees.
               </li>
               <br></br>
 
               <li>
 
              
-          Whether it is through their income, perks, taxes, or remittances, as a business owner you have several responsibilities to keep your employees safe.
+              	Generating reports on insurance for employees by including employee number, employee name and department name.
+
+
           </li>
           </p>
 
@@ -978,7 +981,7 @@ function HrPayroll() {
             }}
             xl={{
               span: 12,
-              offset: 0,
+              offset: 1,
             }}
             xxl={{
 
@@ -1020,7 +1023,7 @@ function HrPayroll() {
               span: 12,
               offset: 0,
             }}>
-            <img className={styles.containers} src="/hrpayroll/pic1.png"></img>
+            <img className={styles.containers} src="/hrpayroll/pic7.png"></img>
           </Col>
 
 
@@ -1058,24 +1061,20 @@ function HrPayroll() {
 
             <p className={styles.para1}>
               <li>
-              Employees get a wage slip, often known as a payslip, from their employers each month. 
+              	Payslip Management: Assisting HR in maintaining and tracking employee payslips information.
               </li>
               <br></br>
               <li>
 
-              A salary slip includes a thorough summary of an employee's pay and deductions for a specific time period.
+              	Payslip Creation: Allowing HR to create new payslips by entering employee name and payment month details.
               </li>
               <br></br>
 
               <li>
-              The employees may receive a hard copy of this document in the mail.
+              Payslip Viewing: Providing a home page for HR to view newly created payslips.
 
               </li>
-              <br></br>
-        <li>
-
-        An important HR document or record that contains details on every facet of an employee's salary is known as a payslip or salary slip. Every month, the employee receives their payslips.
-        </li>
+            
         </p>
 
             {/* <Space>
@@ -1115,7 +1114,7 @@ function HrPayroll() {
             }}
             xl={{
               span: 14,
-              offset: 0,
+              offset: 11,
             }}
             xxl={{
 
@@ -1156,17 +1155,24 @@ function HrPayroll() {
             xxl={{
 
               span: 14,
-              offset: 5,
+              offset: 7,
             }}>
 
 
             <p className={styles.para1}>
               <li>
-              An excel payslip template is a document that contains all the information about the payment that is due to an employee for work completed within a specific time frame.
+              	Allowing HR to create new payslip templates by clicking the add button.
                 </li>
                 <br></br>
                 <li>
-                It contains information on overtime, taxes, perks, and base salary.
+                	Allowing HR to enter template name, department name, role, staff and except for staff details.
+                </li>
+
+                <br></br>
+                <li>
+                	Providing a home page for HR to view newly created payslip templates.
+
+
                 </li>
         </p>
 
@@ -1205,7 +1211,7 @@ function HrPayroll() {
               span: 14,
               offset: 5,
             }}>
-            <img className={styles.containers} src="/hrpayroll/pic1.png"></img>
+            <img className={styles.containers} src="/hrpayroll/pic8.png"></img>
           </Col>
 
         </Row>
@@ -1279,7 +1285,7 @@ function HrPayroll() {
               span: 12,
               offset: 0,
             }}>
-            <img className={styles.containers} src="/hrpayroll/pic1.png"></img>
+            <img className={styles.containers} src="/hrpayroll/pic9.png"></img>
           </Col>
 
 
@@ -1315,17 +1321,16 @@ function HrPayroll() {
 
             <p className={styles.para1}>
               <li>
-              The tax that is deducted, assessed, or imposed on the employer's paycheck is known as payroll tax.
+              ShadobooksERP enables management of income taxes by allowing the setting of tax for the year, income taxes, department name, and employee name.
                 </li>
                 <br></br>
                 <li>
-                This will include pay, gross salary, benefits, and any other type of compensation given to the workers.
+                	You can receive a particular employee tax by entering their name, department, role, from the list of employee’s taxes.
+
+
+
                 </li>
-                <br></br>
-                <li>
-                The tax withheld, billed, or imposed
-          on an employer's paycheck is known as payroll tax.
-                </li>
+                
           </p>
 
             {/* <Space>
@@ -1363,8 +1368,8 @@ function HrPayroll() {
               offset: 2,
             }}
             xl={{
-              span: 14,
-              offset: 0,
+              span: 8,
+              offset: 3,
             }}
             xxl={{
 
@@ -1399,6 +1404,7 @@ function HrPayroll() {
               span: 12,
               offset: 2,
             }}
+
             xl={{
               span: 10,
               offset: 0,
@@ -1408,7 +1414,7 @@ function HrPayroll() {
               span: 12,
               offset: 7,
             }}>
-            <img className={styles.containers} src="/hrpayroll/pic1.png"></img>
+            <img className={styles.containers} src="/hrpayroll/pic10.png"></img>
           </Col>
 
 
@@ -1434,7 +1440,7 @@ function HrPayroll() {
             }}
             xl={{
               span: 10,
-              offset: 2,
+              offset: 1,
             }}
             xxl={{
 
@@ -1443,14 +1449,35 @@ function HrPayroll() {
             }}>
 
 
-            <p className={styles.para10}>
-              <li>
-              To tailor your paycheck to your company's needs and those of your employees, go to Payroll Settings. 
+            <p className={styles.para1}>
+            Prior to managing HR payroll, the following details must be entered.
+            <br></br>
+            <br></br>
+               
+             
+                <li>
+                Payroll Columns,	
+                </li>
+
+                <br></br>
+                <li>
+                	Data Integration	
+                </li>
+
+                <br></br>
+                <li>
+                	Permissions	
                 </li>
                 <br></br>
                 <li>
-                Changes can be made to the liability and expenditure accounts as well as the bank account that is used for batch payments to employees under the Organisation tab.
+              Income Tax Rates,and Rebates
                 </li>
+                <br></br>
+                <li>
+                	Earnings List,	Salary Detection List and 	Insurance List
+
+                </li>
+                
          </p>
 
             {/* <Space>

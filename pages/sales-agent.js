@@ -225,7 +225,7 @@ xxl={{
           xxl={{
 
             span: 18,
-            offset: 3,
+            offset: 5,
           }}>
           <img className={styles.img1} src="/salesagent/pic1.png"></img>
         </Col>
@@ -261,18 +261,32 @@ xxl={{
           xxl={{
 
             span: 18,
-            offset: 3,
+            offset: 5,
           }}>
 
 
           <p className={styles.para1}>
+          The sales agent dashboard in ShadobooksERP would likely show key data, including, 
+          <br></br> <br></br>
             <li>
-            A dashboard is a piece of sales technology that shows the most recent performance information visually. 
+            	The number of agents, 
 
             </li>
             <br></br>
             <li>
-            It provides you with a succinct overview of data that is based on results, such as sales-to-date, sales by region, lead conversion rate, sales growth, and so on.
+            	The number of active and inactive agents, 
+            </li>
+            <br></br>
+            <li>
+            	The total number of programs, 
+            </li>
+            <br></br>
+            <li>
+            	The total number of programs, 
+            </li>
+            <br></br>
+            <li>
+            The number of orders that have been delivered
             </li>
          </p>
 {/* 
@@ -354,7 +368,7 @@ xxl={{
               span: 12,
               offset: 2,
             }}>
-          <img className={styles.img2} src="/salesagent/pic3.png"></img>
+          <img className={styles.img2} src="/salesagent/pic2.png"></img>
         </Col>
 
 
@@ -390,17 +404,22 @@ xxl={{
 
           <p className={styles.para1}>
             <li>
-            Sales representatives typically have a great deal of autonomy to set prices, terms, and conditions of sale and are contractually empowered
-          to sell all of a manufacturer's output.
+            	In ShadobooksERP, a sales representative is a user with the ability to manage and track sales and customer interactions within the system.
             </li>
             <br></br>
+            
 
             <li>
-            Despite working on a commission basis, they occasionally carry out the responsibilities of a manufacturer's marketing department.
+            In order to create a new sales agent in ShadobooksERP, you can follow these steps:
 
             </li>
+            <p>•	Click on the "New Agent" button.</p>
+            <p>•	Fill in the necessary information for the new agent, including their name, contact information, and other relevant details.</p>
+            <p>
+            •	Click on the "Save" button to create the new agent.
+            </p>
              </p>
-{/* 
+{/* •	
           <Space>
             <Button className={styles.buttonres2}>Learn More</Button>
           </Space> */}
@@ -479,7 +498,7 @@ xxl={{
               span: 12,
               offset: 2,
             }}>
-          <img className={styles.img3} src="/salesagent/pic1.png"></img>
+          <img className={styles.img3} src="/salesagent/pic3.png"></img>
         </Col>
 
        
@@ -516,18 +535,21 @@ xxl={{
 
           <p className={styles.para1}>
             <li>
-            A sales programme is a sizable collection of coordinated, repeatable, and conventional activities that promote incremental new business.
+            	In ShadobooksERP an “Agent program” sub-module helps to manage agents, including 
             </li>
             <br></br>
+
+            <li>
+            	Creating new agents, 
+
+           
+            Updating agent information, and	Tracking agent performance.
+ </li> <br></br>
             <li>
 
-            Sales programmes frequently depend on multiple organisations. 
+            	You can receive a particular agent information by entering their name and agent group from the list of agents.
             </li>
-            <br></br>
-            <li>
-            Each organisation must comprehend, accept, and carry out its specific sales programme 
-          component in order for the programme to be effective.
-            </li>
+           
 
          </p>
 {/* 
@@ -617,7 +639,23 @@ xxl={{
           }}>
 
 
-          <p className={styles.para1}>To assess orders from a sales agent, use this InfoSource, which comprises data for the billing dataset and sales agent assignments for the order.</p>
+          <p className={styles.para1}>
+            <li>
+            The order page displays all the orders placed by the agents.
+              </li>
+              <br></br>
+              <li>
+              	Use the search filters available to narrow down the order list to view the specific agent's order.
+              </li>
+              <br></br>
+              <li>
+              	You can also filter the orders by Agent.
+              </li>
+              <br></br>
+              <li>
+              	Click on the specific order to view the details.
+              </li>
+              </p>
 {/* 
           <Space>
             <Button className={styles.buttonres4}>Learn More</Button>
@@ -656,7 +694,7 @@ xxl={{
             span: 12,
             offset: 6,
           }}>
-          <img className={styles.img4} src="/salesagent/pic1.png"></img>
+          <img className={styles.img4} src="/salesagent/pic4.png"></img>
         </Col>
       </Row>
 

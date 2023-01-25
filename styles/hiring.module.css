@@ -31,7 +31,7 @@
     color:rgb(0, 0, 0);
     font-weight: 0;
     font-style: normal;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 
@@ -104,7 +104,7 @@
     font-weight: 0;
     font-style: normal;
     margin-top: 0px;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
     
 }
 
@@ -282,7 +282,7 @@
       }
 
     .margintop2{
-        margin-top: 350px;
+        margin-top: 50px;
     }
     
     .para1{ 
@@ -407,9 +407,7 @@
         height: 0%;
     } 
 
-    .margintop1{
-        margin-top: 0px;
-    }
+   
 }
 
 
@@ -470,7 +468,7 @@
     }
 
     .margintop2{
-        margin-top:150px;
+        margin-top:50px;
     }
 
 }
@@ -543,7 +541,10 @@
 @media screen and (min-width: 991px) {
 
     .margintop1{
-        margin-top: 400px;
+        margin-top: 50px;
+    }
+    .margintop2{
+        margin-top: 50px;
     }
 
     .box{
@@ -739,16 +740,16 @@
                                          
  @media screen and (min-width: 1600px) {
     .margintop2{
-        margin-top: 280px;
+        margin-top: 80px;
     }
     
     .margintop3{
-        margin-top: 250px;
+        margin-top: 80px;
     }
     
      
     .margintop4{
-        margin-top: 70px;
+        margin-top: 50px;
    
     }
 

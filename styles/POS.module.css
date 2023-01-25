@@ -11,6 +11,9 @@
  
 
 }
+.breasdcrumb{
+  margin-top: 20px;
+}
 
 .parahead {
    
@@ -41,7 +44,7 @@
 }
 
 .tabheadings1{
-  margin-top: 200px;
+  margin-top: 85px;
   font-size: 30px;
 }
 
@@ -226,7 +229,7 @@ width: 100%;
 
   @media screen and (max-width:991px ) {
     .tabheadings1{
-      margin-top: 20px;
+      margin-top: 0px;
       font-size: 30px;
     }
 

@@ -887,8 +887,8 @@ function Leadmanagement() {
             }}
             xxl={{
 
-              span: 8,
-              offset: 1,
+              span: 5,
+              offset: 4,
             }}>
 
 
@@ -951,7 +951,7 @@ function Leadmanagement() {
             xxl={{
 
               span: 10,
-              offset: 3,
+              offset: 1,
             }}>
             <img className={styles.img6} src="/hiring/pic6.png"></img>
           </Col>
@@ -1041,7 +1041,7 @@ function Leadmanagement() {
               </Col>
 
               <Col xs={{
-                span: 24,
+                span: 20,
                 offset: 1,
               }}
 
@@ -1066,10 +1066,11 @@ function Leadmanagement() {
                 xxl={{
 
                   span: 12,
-                  offset: 0,
+                  offset: 6,
                 }}>
                 <p className={styles.para7}>
-                <li> Hiring Slots are periods of time that can be booked for venues in sheepSpaces, supporting multiple venues, restrictions and bespoke pricing.
+                <li>
+                  Hiring Slots are periods of time that can be booked for venues in sheepSpaces, supporting multiple venues, restrictions and bespoke pricing.
                 </li>
 
                 </p>
