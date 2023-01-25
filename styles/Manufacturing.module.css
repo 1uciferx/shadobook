@@ -16,8 +16,9 @@
      text-decoration: none solid rgb(0, 0, 0);
      width: 80%;
   
-
 }
+
+
 
 .headings{
     text-align: center;
@@ -67,6 +68,8 @@
   color:black;
   font-weight: 400;
   text-decoration: none solid rgb(0, 0, 0);
+  display: inline-block;
+  text-align: left;
 
 
 }
@@ -335,6 +338,12 @@
   
   .tabs{
     display: block;
+  }
+}
+
+@media screen and (min-width: 425px){
+  .tabimg{
+    height: 40vh;
   }
 }
 

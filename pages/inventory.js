@@ -178,15 +178,22 @@ function Process() {
           </div>
         </Col>
 
+        <Col
+         xs={{
+          span: 20,
+          offset: 2,
+        }}>
         <div className={styles.centercon}>
           <p className={styles.para}>
-            In Shadobook ERP, a list of items will display by clicking the
-            inventory module's "items" tab. Here, enter all the details such as
-            the commodity code, name, warehouse name, unit name, etc. According
-            to the details provided in the form, an items file will be shown on
-            the items page.
+           <li>In Shadobook ERP, you can access a list of items by clicking the "items" tab in the inventory module.</li>
+           <br></br>
+           <li>To add new items, you need to enter details such as the commodity code, name, warehouse name, unit name, etc. in the form.</li>
+           <br></br>
+           <li>After providing the details, the items will be displayed on the items page according to the information provided in the form.</li>
+           
           </p>
         </div>
+        </Col>
 
         <h2 className={styles.headings2}>Inventory Receiving Vouchers</h2>
 
@@ -225,15 +232,22 @@ function Process() {
           </div>
         </Col>
 
-        <div className={styles.centercon}>
+        <Col
+         xs={{
+          span: 20,
+          offset: 2,
+        }}>
+          <div className={styles.centercon}>
           <p className={styles.para}>
-            Here we can add the vouchers by clicking the delivery docket button
-            and enter the details like docket number,choose from a purchase
-            order,supplier name,accounting date,buyer,project,warehouse name
-            etc.,and click the save button now we can able to see the list of
-            deliveries in list form in  shadobook ERP
+          <li>In Shadobook ERP, you can create vouchers by clicking the delivery docket button.</li>
+          <br></br>
+           <li>To create a new voucher, you need to enter details such as the docket number, choose from a purchase order,<br></br> supplier name, accounting date, buyer, project, warehouse name, etc.</li>
+           <br></br>
+           <li>Once the details are entered, you can save the voucher by clicking the save button.</li>
+           
           </p>
         </div>
+        </Col>
 
         <h2 className={styles.headings2}>Inventory Delivery Vouchers</h2>
         <Col
@@ -271,14 +285,23 @@ function Process() {
           </div>
         </Col>
 
+        <Col
+         xs={{
+          span: 20,
+          offset: 2,
+        }}>
         <div className={styles.centercon}>
           <p className={styles.para}>
-            The inventory module in shadobook ERP displays inventory deliveries
-            in list form with details such as voucher code, customer name,
-            voucher date, invoices, to, address, HR code, status, delivery
-            status, and the option to export the slip.
+          <li>In Shadobook ERP, the internal delivery note is used to track goods or services.</li>
+          <br></br>
+           <li>To create a new internal delivery note, click the "add" button, enter details such as the delivery note number,   <br></br> sender, added from, date created, total amount, and status.</li>
+           <br></br>
+           <li>After providing the details, save the note by clicking the "save" button.</li>
+          <br></br>
+           <li>The generated list of internal delivery notes will appear in a list format.</li>
           </p>
         </div>
+        </Col>
 
         <h2 className={styles.headings2}>Packing Lists</h2>
 
@@ -317,15 +340,21 @@ function Process() {
           </div>
         </Col>
 
+        <Col
+         xs={{
+          span: 20,
+          offset: 2,
+        }}>
         <div className={styles.centercon}>
           <p className={styles.para}>
-            In Shadobook ERP, the packing list is part of the inventory module,
-            and we can filter the packing list data on this page by date, staff,
-            inventory delivery voucher, and status.And you also have the option
-            to add the packing list with the help of the add button, enter all
-            the details here, and click the save button.
+          <li>In Shadobook ERP, the packing list is part of the inventory module.</li>
+          <br></br>
+           <li>You can filter the packing list data by date, staff, inventory delivery voucher, and status.</li>
+           <br></br>
+           <li>You can also add a new packing list by clicking the add button, entering the details, and clicking the save button.</li>
           </p>
         </div>
+        </Col>
 
         <h2 className={styles.headings2}>Internal Delivery Note</h2>
 
@@ -364,16 +393,23 @@ function Process() {
           </div>
         </Col>
 
+        <Col
+         xs={{
+          span: 20,
+          offset: 2,
+        }}>
         <div className={styles.centercon}>
           <p className={styles.para}>
-            In Shadobook ERP, the internal delivery note is used to track goods
-            or services. Here we can add the internal delivery note by clicking
-            the "add" button, entering all the details (such as the delivery
-            note number, sender, added from, date created, total amount, and
-            status), and clicking the "save" button. The generated list appears
-            in the form of a list.
+          <li>In Shadobook ERP, the internal delivery note is used to track goods or services.</li>
+          <br></br>
+           <li>To create a new internal delivery note, click the "add" button, enter details such as the delivery note number,     <br></br> sender, added from, date created, total amount, and status.</li>
+           <br></br>
+           <li>After providing the details, save the note by clicking the "save" button.</li>
+           <br></br>
+           <li>The generated list of internal delivery notes will appear in a list format.</li>
           </p>
         </div>
+        </Col>
 
         <h2 className={styles.headings2}>Loss & Adjustments</h2>
 
@@ -412,16 +448,26 @@ function Process() {
           </div>
         </Col>
 
+        <Col
+         xs={{
+          span: 20,
+          offset: 2,
+        }}>
         <div className={styles.centercon}>
           <p className={styles.para}>
-            In this window, we can easily access the loss or adjustment in the
-            inventory module, and by clicking the add button, we can create the
-            loss or adjustment by entering the details such as type, time, date
-            created, status, reason, and creator. and click the save button; now
-            the details are viewed in list form. We can also filter the data by
-            selecting options such as time, date created, status, and type.
+          <li>In this window, the inventory module allows easy access to loss or adjustment.</li>
+          <br></br>
+           <li>By clicking the add button, you can create a new loss or adjustment by entering details such as type,  <br></br>time, date created, status, reason, and creator.</li>
+           <br></br>
+           <li>After providing the details, you can save the loss or adjustment by clicking the save button.</li>
+           <br></br>
+           <li>The generated loss or adjustment details will appear in a list format.</li>
+           <br></br>
+           <li>The data can also be filtered by selecting options such as time, date created, status, and type.</li>
           </p>
         </div>
+
+</Col>
 
         <h2 className={styles.headings2}>Receiving-Exporting Return Order</h2>
 
@@ -460,15 +506,22 @@ function Process() {
           </div>
         </Col>
 
+        <Col
+         xs={{
+          span: 20,
+          offset: 2,
+        }}>
         <div className={styles.centercon}>
           <p className={styles.para}>
-            Here the page shows the receiving-exporting return order in the form
-            of a list with the details such as the order return number, customer
-            name, total amount, discount amount, total after discount, date
-            created, type, and status. also have the option to add the receiving
-            export return order in Shadobook ERP.
+          -In this page, the receiving-exporting return orders are shown in a list format
+          <br></br>
+          <br></br>
+          <li>The list includes details such as the order return number, customer name, total amount, discount amount,  <br></br>total after discount, date created, type, and status.</li>
+          <br></br>
+           <li>You have the option to add a new receiving-exporting return order in Shadobook ERP.</li>
           </p>
         </div>
+        </Col>
 
         <h2 className={styles.headings2}>Warehouse</h2>
 
@@ -507,14 +560,21 @@ function Process() {
           </div>
         </Col>
 
+        <Col
+         xs={{
+          span: 20,
+          offset: 2,
+        }}>
         <div className={styles.centercon}>
           <p className={styles.para}>
-            In this window, we have the option to add the warehouse with the
-            necessary details, such as warehouse code, warehouse name, warehouse
-            address, order, display and note. And also have the "add multiple"
-            option and the list of warehouses displayed in the form of a list.
+          <li>In this window, you can add a new warehouse by providing necessary details such as warehouse code, warehouse name,    <br></br>warehouse address, order, display and note.</li>
+          <br></br>
+           <li>There is also an option to add multiple warehouses at once.</li>
+           <br></br>
+           <li>The list of warehouses is displayed in a list format.</li>
           </p>
         </div>
+        </Col>
 
         <h2 className={styles.headings2}>Inventory History</h2>
 
@@ -553,14 +613,19 @@ function Process() {
           </div>
         </Col>
 
+        <Col
+         xs={{
+          span: 20,
+          offset: 2,
+        }}>
         <div className={styles.centercon}>
           <p className={styles.para}>
-            In ShadoBook ERP, the inventory history shows the list of warehouses
-            with code, name, voucher date, opening stock, closing stock, serial
-            number, and status. and also have the option to filter the history
-            by warehouse,  commodity,  status, and date.
+          <li>In ShadoBook ERP, the inventory history shows a list of warehouses with details such as code, name, voucher date,<br></br> opening stock, closing stock, serial number, and status.</li>
+          <br></br>
+           <li>There is an option to filter the history by warehouse, commodity, status, and date.</li>
           </p>
         </div>
+        </Col>
 
         <h2 className={styles.headings2}>Settings</h2>
 
@@ -599,15 +664,19 @@ function Process() {
           </div>
         </Col>
 
+        <Col
+         xs={{
+          span: 20,
+          offset: 2,
+        }}>
         <div className={styles.centercon}>
           <p className={styles.para}>
-            Inventory settings are the settings that control how an inventory
-            system behaves. This includes settings such as the commodity type,
-            commodity group, subgroup, Units, Colors, Models, Sizes, Styles,
-            Warehouse custom fields, minimum and maximum inventory, prefix
-            settings, Approval settings and Reset data.
+          <li>Inventory settings are used to control how an inventory system behaves.</li>
+          <br></br>
+           <li>This includes settings such as commodity type, commodity group, subgroup, Units, Colors, Models, Sizes, <br></br>Styles, Warehouse custom fields, minimum and maximum inventory, prefix settings, Approval settings, and Reset data.</li>
           </p>
         </div>
+        </Col>
 
         <div>
           <Contactmanager/>

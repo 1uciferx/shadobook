@@ -230,20 +230,20 @@ function Purchase() {
                 offset: 0,
               }}
               lg={{
-                span: 16,
-                offset: 2,
+                span: 24,
+                offset: 0,
               }}
               sm={{
-                span: 18,
+                span: 24,
                 offset: 0,
               }}
               md={{
-                span: 14,
+                span: 24,
                 offset: 0,
               }}
               xl={{
-                span: 20,
-                offset: 1,
+                span: 24,
+                offset: 0,
               }}
               xxl={{
                 span: 22,
@@ -299,7 +299,7 @@ function Purchase() {
                       }}
                       lg={{
                         span: 10,
-                        offset: 3,
+                        offset: 0,
                       }}
                       md={{
                         span: 22,
@@ -322,12 +322,13 @@ function Purchase() {
                         Items
                       </h3>
                       <p className={styles.para}>
-                        In Shadobook ERP, a list of items will display by
-                        clicking the purchase module "items" tab. Here, enter
-                        all the details such as the commodity code, name,
-                        warehouse name, unit name, etc. According to the details
-                        provided in the form, an items file will be shown on the
-                        items page.
+                        <li>• Click the "items" tab in the purchase module of Shadobook ERP</li>
+                        <br></br>
+                        <li>• A list of items will display</li>
+                        <br></br>
+                        <li>• Enter details such as the commodity code, name, warehouse name, unit name, etc. </li>
+                        <br></br>
+                        <li>• According to the details provided in the form, an items file will be shown on the items page.</li>
                       </p>
                       {/* <Space>
                     <Button style={{ color: "#90331c" }}>Learn More</Button>
@@ -400,13 +401,15 @@ function Purchase() {
                         Purchase Request
                       </h3>
                       <p className={styles.para}>
-                        By selecting the purchase module and then "purchase
-                        request," you can view the purchase requests that have
-                        been submitted.Here you can see the list of requests. In
-                        addition, we can create a new request in Salesforce ERP
-                        by clicking the "new request" tab and entering all of
-                        the details such as the request code, name, department,
-                        request time, and so on.
+                      <li>• Go to the purchase module in Shadobooks ERP.</li>
+                        <br></br>
+                        <li>• Select "purchase request".</li>
+                        <br></br>
+                        <li>• View the list of submitted purchase requests. </li>
+                        <br></br>
+                        <li>• To create a new request, click the "new request" tab.</li>
+                        <br></br>
+                        <li>• Enter details such as request code, name, department, request time, etc..</li>
                       </p>
                     </Col>
                   </Row>
@@ -476,10 +479,12 @@ function Purchase() {
                         Vendor-Items
                       </h3>
                       <p className={styles.para}>
-                        On this page, we can see a list of vendors and their
-                        products, as well as the date the page was created.In
-                        addition, we have the option to add the vendor, group
-                        items, and items in the form in Shadobook ERP.
+                      <li>• A page displaying a list of vendors and their products is available.</li>
+                        <br></br>
+                        <li>• The date the page was created is also visible.</li>
+                        <br></br>
+                        <li>• The option to add vendors, group items, and individual items is provided on the page in Shadobook ERP. </li>
+                        
                       </p>
                     </Col>
                   </Row>
@@ -549,12 +554,17 @@ function Purchase() {
                         Quotations
                       </h3>
                       <p className={styles.para}>
-                        In this window, we can see the list of quotations. To
-                        create a new estimate, go to the "New" tab, enter all
-                        the required details, such as the estimate number,
-                        amount, purchase request, date, etc., and save the form.
-                        Now the list of quotations can be viewed in Shadobook
-                        ERP.
+                      <li>• A window displaying a list of quotations is available in Shadobook ERP.</li>
+                        <br></br>
+                        <p>To create a new estimate:</p>
+                     
+                        <li>• Go to the "New" tab.</li>
+                        <br></br>
+                        <li>• Enter details such as estimate number, amount, purchase request, date, etc. </li>
+                        <br></br>
+                        <li>• Save the form.</li>
+                        <br></br>
+                        <li>• The list of quotations can now be viewed in the window. </li>
                       </p>
                     </Col>
                   </Row>
@@ -623,14 +633,19 @@ function Purchase() {
                         Purchase Order
                       </h3>
                       <p className={styles.para}>
-                        To view the purchase order in Shadobook ERP, click the
-                        purchase module, and then click "purchase order" here.
-                        We have two types of tabs available: new and PO voucher
-                        tabs. To create a new purchase order, click the new tab
-                        and enter all the details, such as the purchase order
-                        number, vendor, date, department, PO value, etc., then
-                        save the form. Now you can view the purchase order list
-                        here.
+                   
+                        <p>To view purchase orders in Shadobook ERP:</p>
+                     
+                        <li>• Go to the purchase module, Click "purchase order".</li>
+                        <br></br>
+                        <p>Two types of tabs are available:</p>
+                        <li>• "New" tab for creating a new purchase order, "PO voucher" tab for viewing existing purchase orders </li>
+                        <br></br>
+                        <p>To create a new purchase order:</p>
+                        <li>• Enter details such as purchase order number, vendor, date, department, PO value, etc and Save the form.</li>
+                        <br></br>
+                        <li>• The list of purchase orders can now be viewed in the "PO voucher" tab. </li>
+                        
                       </p>
                     </Col>
                   </Row>
@@ -700,14 +715,16 @@ function Purchase() {
                         Order Returns
                       </h3>
                       <p className={styles.para}>
-                        Go to the purchase module in Shadobook ERP to view the
-                        list of order returns. Clicking the order return button
-                        displays the list of order returns. To create a new
-                        order return, click the new tab and enter all the
-                        details, such as the order return number, vendor, total
-                        amount, discount total, total after discount, date
-                        created, status, etc., and then save the form. Now the
-                        order return is available in list form.
+
+                      <li>• Go to the purchase module in Shadobook ERP to view the list of order returns.</li>
+                        <br></br>
+                        <li>• Clicking the order return button displays the list of order returns</li>
+                        <br></br>
+                        <p>To create a new order return:</p>
+                        <li>• Click the new tab, Enter details such as the order return number, vendor, total amount, discount total, total after discount, date created, status, etc.</li>
+                        <br></br>
+                        <li>• Save the form, The newly created order return will be available in list form.</li>
+                       
                       </p>
                     </Col>
                   </Row>
@@ -777,14 +794,18 @@ function Purchase() {
                         Contracts
                       </h3>
                       <p className={styles.para}>
-                        To view the number of contracts in Shadobook ERP, Go to
-                        the purchase module, and then click contracts. Now you
-                        can see the contract lists. To create a new contract,
-                        click the "new" tab, enter all the details, such as
-                        department, project, service category, vendors, contract
-                        description, contract value, payment amount, payment
-                        cycle, payment terms, and then save the form. Now the
-                        list of contracts will appear.
+                      <p>To view contracts in Shadobook ERP:</p>
+                     
+                     <li>• Go to the purchase module, Click "contracts"</li>
+                     <br></br>
+                     <li>• The list of contracts will appear </li>
+                     <br></br>
+                     <p>To create a new contract:</p>
+                     <li>• Click the "new" tab, Enter details such as department, project, service category, vendors, contract description, contract value, payment amount, payment cycle, payment terms</li>
+                     <br></br>
+          
+                     <li>• save the form, The list of debit notes can now be viewed in the debit note tab.</li>
+                    
                       </p>
                     </Col>
                   </Row>
@@ -854,13 +875,15 @@ function Purchase() {
                         Debit Notes
                       </h3>
                       <p className={styles.para}>
-                        In Shadobook ERP, we can create and also view the list
-                        of debit notes. To create a new debit note, go to the
-                        purchase module, click on "debit note," then "new tab,"
-                        and enter all the details such as the debit note number,
-                        debit note date, vendors, status,amount,remaining
-                        amount, etc., and then save the form. Now we can see the
-                        debit notes in list form.
+                      <li>• In Shadobook ERP, debit notes can be created and viewed</li>
+                     <br></br>
+                     <p>To create a new debit note:</p>
+                     <li>• Go to the purchase module, Click on "debit note", Click on "new tab"</li>
+                     <br></br>
+                     <li>• Enter details such as debit note number, debit note date, vendors, status, amount, remaining amount etc..., Save the form</li>
+                     <br></br>
+                     <li>• The list of debit notes can now be viewed in the debit note tab.</li>
+                    
                       </p>
                     </Col>
                   </Row>
@@ -929,13 +952,14 @@ function Purchase() {
                         Invoices
                       </h3>
                       <p className={styles.para}>
-                        In this window, we can see the list of invoices created.
-                        To create a new invoice, go to the purchase module and
-                        then click the invoice. Go to the new tab and enter all
-                        the details, such as the invoice number, vendors,
-                        contracts, purchase order, invoice date, invoice amount,
-                        etc., and save the form. Now the list of invoices is
-                        appearing in our Shadobook ERP.
+                      <li>A window displaying a list of invoices created is available in Shadobook ERP</li>
+                     <br></br>
+                     <p>To create a new Invoice:</p>
+                     <li>• Go to the purchase module, Click on the invoice tab, Go to the new tab</li>
+                     <br></br>
+                     <li>• Enter details such as invoice number, vendors, contracts, purchase order, invoice date, invoice amount etc..., Save the form</li>
+                     <br></br>
+                     <li>• The list of invoices can now be viewed in the invoice tab in Shadobook ERP.</li>
                       </p>
                     </Col>
                   </Row>
@@ -1082,11 +1106,9 @@ function Purchase() {
                       </h3>
 
                       <p className={styles.para}>
-                        The preferences and parameters used to customize the
-                        purchasing process are referred to as settings in
-                        purchase. Setting up purchase options, units, approval,
-                        commodity group, subgroup, vendor category, permissions,
-                        order return, and currency rates are all part of this.
+                      <li>• In purchase, settings refer to preferences and parameters used to customize the purchasing process.</li>
+                      <br></br>
+                      <li>• Setting up purchase options, units, approval, commodity group, subgroup, vendor category, permissions, order return, and currency rates are all part of the settings.</li>
                       </p>
                     </Col>
                   </Row>
