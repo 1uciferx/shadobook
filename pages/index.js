@@ -817,7 +817,7 @@ function Index2() {
           channel="youtube"
           autoplay
           isOpen={isOpen}
-          videoId="SEAVbu6qf_c"
+          videoId="z_BYO8A4VQ0"
           onClose={() => setOpen(false)}
         />
       </Layout>

@@ -437,14 +437,16 @@ function companyassets() {
               offset: 0,
             }}
             xxl={{
-              span: 16,
-              offset: 5,
+              span: 20,
+              offset: 0,
             }} >
             <h1 className={styles.para7}>Our Dashboard</h1>
-
-            <img src="assets/imgs/page/homepage1/zz.png" alt="shado books" />
-          </Col>
+            </Col>
         </Row>
+
+        <div className={styles.imgce}>
+            <img src="assets/imgs/page/homepage1/zz.png" alt="shado books" />
+            </div>
 
 
         
@@ -565,7 +567,10 @@ function companyassets() {
                 span: 6,
                 offset: 1,
               }} >
-              <h3 className={styles.subhead9}>The ability to efficiently manage a company's sign programme while meeting performance criteria for quality, on-budget, and on-time delivery is the sign manager's responsibility. The Sign manager in our module can take several forms, including asset name, asset tag, type, check type, staff name, location, and sign document.</h3>
+              <ol className={styles.subhead9}>
+                <li>➟ The ability to efficiently manage a company's sign programme while meeting performance criteria for quality, on-budget, and on-time delivery is the sign manager's responsibility.</li><br/>
+                <li>➟ The Sign manager in our module can take several forms, including asset name, asset tag, type, check type, staff name, location, and sign document.</li>
+              </ol>
               <br />
               {/* <Button danger> Learn More </Button> */}
             </Col>
@@ -630,7 +635,11 @@ function companyassets() {
                 span: 6,
                 offset: 1,
               }} >
-              <h3 className={styles.subhead10}>Asset maintenance is any action performed on assets in order to maintain their performance. Shadobooks CRM has tools for tracking specific maintenance activities for an asset by date, person in charge of the maintenance, and future maintenance due date. To access the Asset maintenance list, go to: Asset managementàMaintenance.</h3>
+              <ol className={styles.subhead10}>
+                <li>➟ Asset maintenance is any action performed on assets in order to maintain their performance.</li><br />
+                <li>➟ Shadobooks CRM has tools for tracking specific maintenance activities for an asset by date, person in charge of the maintenance, and future maintenance due date. </li><br />
+                <li>➟ To access the Asset maintenance list, go to: Asset management ⇢ Maintenance.</li>
+                </ol>
               <br />
               {/* <Button danger style={{ marginLeft: "400px" }}> Learn More </Button> */}
             </Col>
@@ -749,7 +758,10 @@ function companyassets() {
                 span: 6,
                 offset: 1,
               }} >
-              <h3 className={styles.subhead9}>Asset audits in Shadobooks CRM modules enables global auditors to colloborate to ensure compliance. Bond between Employee, Location and assets are maintained in CRM to helps physical auditors to find asset availability.</h3>
+              <ol className={styles.subhead9}>
+                <li>➟ Asset audits in Shadobooks CRM modules enables global auditors to colloborate to ensure compliance. </li><br />
+                <li>➟ Bond between Employee, Location and assets are maintained in CRM to helps physical auditors to find asset availability.</li>
+                </ol>
               <br />
               {/* <Button danger> Learn More </Button> */}
             </Col>
@@ -814,7 +826,11 @@ function companyassets() {
                 span: 6,
                 offset: 1,
               }} >
-              <h3 className={styles.subhead10}>CRM's depreciation module allows customers to define all parameters related to the various techniques they utilise. Once established, it automates the calculation of depreciation for all assets with a single click. You may no longer spend evenings reconciling many spread sheets during the annual return filing process.</h3>
+              <ol className={styles.subhead10}>
+                <li>➟ CRM's depreciation module allows customers to define all parameters related to the various techniques they utilise. </li><br />
+                <li>➟ Once established, it automates the calculation of depreciation for all assets with a single click.</li><br />
+                <li>➟ You may no longer spend evenings reconciling many spread sheets during the annual return filing process.</li>
+                 </ol>
               <br />
               {/* <Button danger style={{ marginLeft: "400px" }}> Learn More </Button> */}
             </Col>
@@ -933,7 +949,11 @@ function companyassets() {
                 span: 6,
                 offset: 1,
               }} >
-              <h3 className={styles.subhead9}>A component asset is used to link asset data, which is then summarised in an aggregate asset. To add, delete, and access the component assets in shadobooks CRM, go to Asset managementàComponentsàAdd. Then, in the component form, give a description of the required item.</h3>
+              <ol className={styles.subhead9}>
+                <li>➟ A component asset is used to link asset data, which is then summarised in an aggregate asset.</li> <br />
+                <li>➟ To add, delete, and access the component assets in shadobooks CRM, go to Asset management ⇢ Components ⇢ Add. </li><br />
+                <li>➟ Then, in the component form, give a description of the required item.</li>
+                </ol>
               <br />
               {/* <Button danger> Learn More </Button> */}
             </Col>
@@ -998,7 +1018,10 @@ function companyassets() {
                 span: 6,
                 offset: 1,
               }} >
-              <h3 className={styles.subhead10}>Our location module provides a comprehensive Fixed Asset & Inventory Tracking solution, allowing customers to conduct thorough, cost-effective physical audits. Physical audits can be conducted using barcode labels connected to fixed assets and inventory items, as well as portable scanning equipment.</h3>
+              <ol className={styles.subhead10}>
+                <li>➟ Our location module provides a comprehensive Fixed Asset & Inventory Tracking solution, allowing customers to conduct thorough, cost-effective physical audits. </li> <br />
+                <li>➟ Physical audits can be conducted using barcode labels connected to fixed assets and inventory items, as well as portable scanning equipment.</li>
+                </ol>
               <br />
               {/* <Button danger style={{ marginLeft: "400px" }}> Learn More </Button> */}
             </Col>
@@ -1117,7 +1140,11 @@ function companyassets() {
                 span: 6,
                 offset: 1,
               }} >
-              <h3 className={styles.subhead9}>Shadobooks CRM software is a consumer software that is typically licenced rather than purchased and sold. It may necessitate a licence to be used by an organisation, on a specific computer, or based on other parameters such as the number of users. To create licenses, go to Asset management-LicencesàAdd.</h3>
+              <ol className={styles.subhead9}>
+                <li>➟ Shadobooks CRM software is a consumer software that is typically licenced rather than purchased and sold. </li><br />
+                <li>➟ It may necessitate a licence to be used by an organisation, on a specific computer, or based on other parameters such as the number of users. </li><br />
+                <li>➟ To create licenses, go to Asset management ⇢ Licences ⇢ Add.</li>
+                </ol>
               <br />
               {/* <Button danger> Learn More </Button> */}
             </Col>
@@ -1182,7 +1209,12 @@ function companyassets() {
                 span: 6,
                 offset: 1,
               }} >
-              <h3 className={styles.subhead10}>The various types of requests are related to Shadobooks CRM assets. For example, you may provide sanitizers, masks, and gloves to your employees. A title and asset check-out details can be included in request types. If an employee requests a new mask, the Asset is mask and the title is requesting an asset. The request kinds can be added, updated, or deleted.</h3>
+              <ol className={styles.subhead10}>
+                <li>➟ The various types of requests are related to Shadobooks CRM assets. For example, you may provide sanitizers, masks, and gloves to your employees. </li><br />
+                <li>➟ A title and asset check-out details can be included in request types. </li><br />
+                <li>➟ If an employee requests a new mask, the Asset is mask and the title is requesting an asset.</li><br /> 
+                <li>➟ The request kinds can be added, updated, or deleted.</li>
+                </ol>
               <br />
               {/* <Button danger style={{ marginLeft: "400px" }}> Learn More </Button> */}
             </Col>
@@ -1297,7 +1329,12 @@ function companyassets() {
                 span: 6,
                 offset: 1,
               }} >
-              <h3 className={styles.subhead9}>A consumable asset is one that is purchased in large quantities and distributed. The consumable asset may be established in shadobooks CRM by clicking the Company asset-Consumables-Add. When adding a consumable, make a note of the product, quantity, purchase cost, and vendor. You may also add consumables in bulk using barcodes.</h3>
+              <ol className={styles.subhead9}>
+                <li>➟ A consumable asset is one that is purchased in large quantities and distributed. </li> <br />
+                <li>➟ The consumable asset may be established in shadobooks CRM by clicking the Company asset ⇢ Consumables ⇢ Add. </li> <br />
+                <li>➟ When adding a consumable, make a note of the product, quantity, purchase cost, and vendor.</li>  <br />
+                <li>➟ You may also add consumables in bulk using barcodes.</li>
+                </ol>
               <br />
               {/* <Button danger> Learn More </Button> */}
             </Col>
@@ -1362,7 +1399,12 @@ function companyassets() {
                 span: 6,
                 offset: 1,
               }} >
-              <h3 className={styles.subhead10}>In Shadobooks CRM it is possible to manually add a predefined kit. To do this, click Asset managementàPredefined kitsàAdd. Enter the name of the kit to start a new Predefined Kit. The list of predefined kits can be found on the predefined kit home page.</h3>
+              <ol className={styles.subhead10}>
+                <li>➟ In Shadobooks CRM it is possible to manually add a predefined kit. </li> <br />
+                <li>➟ To do this, click Asset management ⇢ Predefined kits ⇢ Add. </li> <br />
+                <li>➟ Enter the name of the kit to start a new Predefined Kit. </li> <br />
+                <li>➟ The list of predefined kits can be found on the predefined kit home page.</li>
+                </ol>
               <br />
               {/* <Button danger style={{ marginLeft: "400px" }}> Learn More </Button> */}
             </Col>
@@ -1481,7 +1523,12 @@ function companyassets() {
                 span: 6,
                 offset: 1,
               }} >
-              <h3 className={styles.subhead9}>Assets are used to help the smooth running of equipment or other fixed assets. Accessories have been assigned to another Asset. For example, a data card (Accessory) is allocated to a laptop (Fixed Asset). In our module, you can add accessories by selecting the Asset management-Accessories-Add button.</h3>
+              <ol className={styles.subhead9}>
+                <li>➟ Assets are used to help the smooth running of equipment or other fixed assets. </li> <br />
+                <li>➟ Accessories have been assigned to another Asset. </li> <br />
+                <li>➟ For example, a data card (Accessory) is allocated to a laptop (Fixed Asset). </li> <br />
+                <li>➟ In our module, you can add accessories by selecting the Asset management ⇢ Accessories ⇢ Add button.</li>
+                </ol>
               <br />
               {/* <Button danger> Learn More </Button> */}
             </Col>
@@ -1546,7 +1593,11 @@ function companyassets() {
                 span: 6,
                 offset: 1,
               }} >
-              <h3 className={styles.subhead10}>Assets include both tangible and intangible items like as raw materials, inventory, machinery, and real estate. In Shadobooks CRM, go to Company assetàAssetàAdd an asset. Assets can be added, updated, and deleted. You may also add assets in bulk.</h3>
+              <ol className={styles.subhead10}>
+                <li>➟ Assets include both tangible and intangible items like as raw materials, inventory, machinery, and real estate. </li> <br />
+                <li>➟ In Shadobooks CRM, go to Company assetàAssetàAdd an asset. </li> <br />
+                <li>➟ Assets can be added, updated, and deleted. You may also add assets in bulk.</li>
+                </ol>
               <br />
               {/* <Button danger style={{ marginLeft: "400px" }}> Learn More </Button> */}
             </Col>

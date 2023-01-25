@@ -13,12 +13,18 @@
     font-style: normal;
 }
 
+
+.hida {
+    margin: auto;
+    text-align: center;
+}
+
 .para {
     font-family: Segoe UI;
 
 
     margin-left: 50px;
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: 28px;
     line-height: 20px;
     color: rgb(0, 0, 0);

@@ -207,7 +207,7 @@ function Privacypolicy() {
                     <h3 className="text-heading-6 color-gray-400 mb-20 mt-150">
                       Share
                     </h3>
-                    <Link href="https://facebook.com">
+                    <Link href="https://www.facebook.com/shadobookscrm">
                       <a
                         className="share-social share-fb"
                         target="_blank"
@@ -215,7 +215,7 @@ function Privacypolicy() {
                       ></a>
                     </Link>
                     <br />
-                    <Link href="https://twitter.com">
+                    <Link href="https://twitter.com/shado_books">
                       <a
                         className="share-social share-tw"
                         target="_blank"
@@ -223,13 +223,13 @@ function Privacypolicy() {
                       ></a>
                     </Link>
                     <br />
-                    <Link href="https://www.pinterest.com">
+                    {/* <Link href="https://www.pinterest.com">
                       <a
                         className="share-social share-pi"
                         target="_blank"
                         rel="noreferrer"
                       ></a>
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>

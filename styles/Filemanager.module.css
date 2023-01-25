@@ -29,10 +29,10 @@
 .subhead {
     font-family: Segoe UI;
     text-align: right;
-    margin-right: 40px;
-    margin-top: 20%;
+    margin-right: 30px;
+    margin-top: 30%;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 40px;
     color: #591605;
 }
@@ -43,7 +43,7 @@
     margin-right: 40px;
     margin-top: 30%;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 40px;
     color: #591605;
 }
@@ -68,9 +68,9 @@
     font-family: Segoe UI;
     text-align: left;
     margin-right: 10px;
-    margin-top: 20%;
+    margin-top: 30%;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 40px;
     color: #591605;
 }
@@ -325,7 +325,7 @@
     .headings {
 
         margin-top: 5%;
-        font-size: 46px;
+        font-size: 36px;
         width: 100%;
         text-align: center;
         font-family: Segoe UI;

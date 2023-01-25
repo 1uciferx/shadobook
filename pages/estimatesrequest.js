@@ -94,7 +94,7 @@ function Estimatesrequest() {
           }}
             lg={{
               span: 20,
-              offset: 2,
+              offset: 3,
             }}
             sm={{
               span: 12,
@@ -106,11 +106,11 @@ function Estimatesrequest() {
             }}
             xl={{
               span: 20,
-              offset: 7,
+              offset: 3,
             }}
             xxl={{
               span: 20,
-              offset: 7,
+              offset: 3,
             }} >
             <h1 className={styles.para}>What is an estimate request?</h1>
 
@@ -124,8 +124,8 @@ function Estimatesrequest() {
             offset: 0,
           }}
             lg={{
-              span: 20,
-              offset: 2,
+              span: 16,
+              offset: 0,
             }}
             sm={{
               span: 20,
@@ -168,7 +168,7 @@ function Estimatesrequest() {
           }}
             lg={{
               span: 20,
-              offset: 2,
+              offset: 3,
             }}
             sm={{
               span: 12,
@@ -180,11 +180,11 @@ function Estimatesrequest() {
             }}
             xl={{
               span: 20,
-              offset: 7,
+              offset: 3,
             }}
             xxl={{
               span: 20,
-              offset: 7,
+              offset: 3,
             }} >
             <h1 className={styles.para}>Create estimate request form</h1>
 
@@ -229,7 +229,7 @@ function Estimatesrequest() {
             offset: 0,
           }}
             lg={{
-              span: 20,
+              span: 14,
               offset: 2,
             }}
             sm={{
@@ -248,7 +248,10 @@ function Estimatesrequest() {
               span: 16,
               offset: 0,
             }} >
-            <p className={styles.subhead}>The first step is to create an estimate request form; you may create an unlimited number of estimate request forms in Shadobooks CRM. To do so, navigate to Setup-Estimate requestForms - New form. Fill out the form with your information and save it.</p>
+            <ol className={styles.subhead}>
+              <li>➟ The first step is to create an estimate request form; you may create an unlimited number of estimate request forms in Shadobooks CRM. </li><br />
+              <li>➟ To do so, navigate to Setup ⇢ Estimate requestForms ⇢ New form. Fill out the form with your information and save it.</li>
+            </ol>
 
           </Col>
 
@@ -289,7 +292,7 @@ function Estimatesrequest() {
             offset: 0,
           }}
             lg={{
-              span: 20,
+              span: 14,
               offset: 2,
             }}
             sm={{
@@ -308,7 +311,11 @@ function Estimatesrequest() {
               span: 16,
               offset: 0,
             }} >
-            <p className={styles.subhead}>After successfully entering the Shadobooks CRM database, the estimate request must be in status. To change a form's state, navigate to Setup-Estimate request-Statuses-New status. Save the status by entering its name and colour.</p>
+            <p className={styles.subhead}>
+              After successfully entering the Shadobooks CRM database, the estimate request must be in status.
+              To change a form's state, navigate to Setup-Estimate request ⇢ Statuses ⇢ New status.
+              Save the status by entering its name and colour.
+            </p>
 
           </Col>
 
@@ -346,7 +353,7 @@ function Estimatesrequest() {
             offset: 2,
           }}
             lg={{
-              span: 20,
+              span: 18,
               offset: 2,
             }}
             sm={{
@@ -379,7 +386,7 @@ function Estimatesrequest() {
           offset: 0,
         }}
           lg={{
-            span: 20,
+            span: 14,
             offset: 2,
           }}
           sm={{
@@ -398,7 +405,11 @@ function Estimatesrequest() {
             span: 16,
             offset: 0,
           }} >
-          <p className={styles.subhead}>Estimate request reports are used to track estimate forms and provide an overview of all estimate’s forms created in a specific time period. The way to get the overall Estimate request reports by, go to Addon management-Estimate request. On the estimate request page, you may find a list of forms.</p>
+          <ol className={styles.subhead}>
+            <li>➟ Estimate request reports are used to track estimate forms and provide an overview of all estimate’s forms created in a specific time period. </li><br />
+            <li>➟ The way to get the overall Estimate request reports by, go to Addon management-Estimate request. </li><br />
+            <li>➟ On the estimate request page, you may find a list of forms.</li>
+          </ol>
         </Col>
 
 

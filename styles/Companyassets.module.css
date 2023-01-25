@@ -12,6 +12,10 @@
    font-style: normal;
 }
 
+.imgce {
+   margin: auto;
+   text-align: center;
+}
 
 
 .headings3 {
@@ -665,7 +669,7 @@
 
    .subhead9 {
       font-family: Segoe UI;
-      margin-top: 200px;
+      margin-top: 40px;
       text-align: start;
       line-height: 26px;
       font-size: 18px;
@@ -676,8 +680,8 @@
    .subhead10 {
       font-family: Segoe UI;
       margin-right: 20px;
-      margin-top: 200px;
-      text-align: end;
+      margin-top: 40px;
+      text-align: start;
       line-height: 26px;
       font-size: 18px;
       color: #010101;

@@ -41,7 +41,7 @@
 .subhead2 {
    font-family: Segoe UI;
    font-weight: normal;
-   margin-top: 100px;
+   margin-top: 5%;
    font-size: 18px;
    text-align: start;
    line-height: 25px;
@@ -51,7 +51,7 @@
 .subhead5 {
    font-family: Segoe UI;
    font-weight: normal;
-   margin-top: 100px;
+   margin-top: 5%;
    font-size: 18px;
    text-align: start;
    line-height: 25px;
@@ -65,7 +65,7 @@
 .subhead3 {
    font-family: Segoe UI;
    font-weight: normal;
-   margin-top: 70px;
+   margin-top: 5%;
    font-size: 18px;
    width: 70%;
    text-align: start;

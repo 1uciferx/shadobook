@@ -36,7 +36,7 @@ function Knowledgebase() {
                         <div style={{
                             backgroundImage: `url(/assets/imgs/page/homepage1/1sd.jpg)`,
                             backgroundSize: "cover",
-                            height: '500px'
+                            height: '400px'
                         }}>
 
                             {/* Breadcrumb code */}
@@ -106,8 +106,8 @@ function Knowledgebase() {
                         offset: 0,
                     }}
                         lg={{
-                            span: 20,
-                            offset: 2,
+                            span: 10,
+                            offset: 1,
                         }}
                         sm={{
                             span: 20,
@@ -118,7 +118,7 @@ function Knowledgebase() {
                             offset: 0,
                         }}
                         xl={{
-                            span: 20,
+                            span: 10,
                             offset: 0,
                         }}
                         xxl={{
@@ -133,9 +133,11 @@ function Knowledgebase() {
                             </Slide>
                         </div>
 
-                        <p className={styles.subhead}>
-                            Shadobooks CRMs can also assist you to develop other types of information, such as a knowledge base. A knowledge base is useful because it allows customers to get the answers they want and need on their own schedule. You may not only create, share, and update your knowledge base, but you can also report on and analyze it to learn how customers use it, which pages are most frequently requested, and the overall impact it has on your audience.
-                        </p>
+                        <ol className={styles.subhead}>
+                            <li>➟ Shadobooks CRMs can also assist you to develop other types of information, such as a knowledge base. </li><br/>
+                            <li>➟ A knowledge base is useful because it allows customers to get the answers they want and need on their own schedule. </li><br/>
+                            <li>➟ You may not only create, share, and update your knowledge base, but you can also report on and analyze it to learn how customers use it, which pages are most frequently requested, and the overall impact it has on your audience.</li>
+                        </ol>
 
                         {/* <Space><Button style={{ color: "#90331c", marginLeft: '40px' }}>Learn More</Button></Space> */}
                     </Col>
@@ -145,20 +147,20 @@ function Knowledgebase() {
                         offset: 2,
                     }}
                         lg={{
-                            span: 20,
-                            offset: 2,
+                            span: 10,
+                            offset: 1,
                         }}
                         sm={{
                             span: 20,
                             offset: 0,
                         }}
                         md={{
-                            span: 20,
-                            offset: 0,
+                            span: 14,
+                            offset: 5,
                         }}
                         xl={{
-                            span: 20,
-                            offset: 0,
+                            span: 10,
+                            offset: 1,
                         }}
                         xxl={{
                             span: 10,
@@ -182,7 +184,7 @@ function Knowledgebase() {
                         offset: 2,
                     }}
                         lg={{
-                            span: 20,
+                            span: 10,
                             offset: 2,
                         }}
                         sm={{
@@ -190,11 +192,11 @@ function Knowledgebase() {
                             offset: 0,
                         }}
                         md={{
-                            span: 20,
-                            offset: 0,
+                            span: 14,
+                            offset: 5,
                         }}
                         xl={{
-                            span: 20,
+                            span: 10,
                             offset: 0,
                         }}
                         xxl={{
@@ -215,8 +217,8 @@ function Knowledgebase() {
                         offset: 0,
                     }}
                         lg={{
-                            span: 20,
-                            offset: 2,
+                            span: 10,
+                            offset: 1,
                         }}
                         sm={{
                             span: 20,
@@ -227,8 +229,8 @@ function Knowledgebase() {
                             offset: 0,
                         }}
                         xl={{
-                            span: 20,
-                            offset: 0,
+                            span: 10,
+                            offset: 1,
                         }}
                         xxl={{
                             span: 10,
@@ -245,44 +247,23 @@ function Knowledgebase() {
                             </Slide>
                         </div>
 
-                        <p className={styles.subhead}>
-                            To create a new knowledge base article, go to the main menu and select Knowledge Base-Articles. A new window will open; click the top left button New Article. Fill out the article form with your information and save it. Following the creation of the knowledge base article, each content will have a unique slug that users can access directly.
-                        </p>
+                        <ol className={styles.subhead}>
+                            <li>➟ To create a new knowledge base article, go to the main menu and select Knowledge Base ⇢ Articles. </li><br/>
+                            <li>➟ A new window will open; click the top left button New Article. </li><br/>
+                            <li>➟ Fill out the article form with your information and save it. </li><br/>
+                            <li>➟ Following the creation of the knowledge base article, each content will have a unique slug that users can access directly.</li>
+                        </ol>
 
                         {/* <Space><Button style={{ color: "#90331c", marginLeft: '40px' }}>Learn More</Button></Space> */}
                     </Col>
                 </Row>
 
 
-                <Row>
-                    <Col xs={{
-                        span: 20,
-                        offset: 2,
-                    }}
-                        lg={{
-                            span: 20,
-                            offset: 2,
-                        }}
-                        sm={{
-                            span: 20,
-                            offset: 0,
-                        }}
-                        md={{
-                            span: 20,
-                            offset: 0,
-                        }}
-                        xl={{
-                            span: 20,
-                            offset: 0,
-                        }}
-                        xxl={{
-                            span: 20,
-                            offset: 2,
-                        }} >
+               <div className={styles.hida}>
                         <img src="assets/imgs/page/homepage1/xx1.png" />
-                    </Col>
+                        </div>
                     {/* <Space><Button style={{ color: "#90331c", marginLeft: '740px', marginBottom:'50px' }}>Learn More</Button></Space> */}
-                </Row>
+                
 
 
                 <div>

@@ -169,7 +169,7 @@ function Fixed() {
             }}
             xl={{
               span: 8,
-              offset: 0,
+              offset: 2,
             }}
             xxl={{
               span: 10,
@@ -177,7 +177,12 @@ function Fixed() {
             }} >
 
             {/* first container contents */}
-            <p className={styles.subhead2}>Shadobooks CRM supports multiple action hooks across the code to provide the greatest experience for buyers. Webhooks are a helpful tool for businesses that want to execute code in response to a particular event. Webhooks are most commonly used by web application platforms. The goal is that vendors will find it simple to integrate.</p>
+            <ol className={styles.subhead2}>
+              <li>➟ Shadobooks CRM supports multiple action hooks across the code to provide the greatest experience for buyers.</li><br/>
+              <li>➟ Webhooks are a helpful tool for businesses that want to execute code in response to a particular event. </li><br/>
+              <li>➟ Webhooks are most commonly used by web application platforms. </li><br/>
+              <li>➟ The goal is that vendors will find it simple to integrate.</li>
+            </ol>
           </Col>
 
           <Col xs={{
@@ -186,7 +191,7 @@ function Fixed() {
           }}
             lg={{
               span: 10,
-              offset: 0,
+              offset: 1,
             }}
             sm={{
               span: 10,
@@ -198,7 +203,7 @@ function Fixed() {
             }}
             xl={{
               span: 10,
-              offset: 3,
+              offset: 2,
             }}
             xxl={{
               span: 10,
@@ -265,7 +270,7 @@ function Fixed() {
           }}
             lg={{
               span: 10,
-              offset: 0,
+              offset: 2,
             }}
             sm={{
               span: 10,
@@ -317,17 +322,17 @@ function Fixed() {
 
             {/* second container contents */}
 
-            <p className={styles.subhead3}>
+            <ol className={styles.subhead3}>
               To create a new webhook in Shadobooks CRM,<br /><br />
 
-              <li>Go to General Section - Webhooks - Webhooks to establish a new webhook.</li>
-              <li>On the Webhooks page, click the New Webhook button.</li>
-              <li>Fill out all of the required parameters on the New Webhook page.</li>
-              <li>Click Save.</li>
+              <li>➟ Go to General Section ⇢ Webhooks ⇢ Webhooks to establish a new webhook.</li>
+              <li>➟ On the Webhooks page, click the New Webhook button.</li>
+              <li>➟ Fill out all of the required parameters on the New Webhook page.</li>
+              <li>➟ Click Save.</li>
 
 
 
-            </p>
+            </ol>
           </Col>
 
 
@@ -383,7 +388,7 @@ function Fixed() {
           }}
             lg={{
               span: 10,
-              offset: 0,
+              offset: 1,
             }}
             sm={{
               span: 10,
@@ -403,9 +408,11 @@ function Fixed() {
             }} >
 
             {/* third container contents */}
-            <p className={styles.subhead5}>
-              Using the webhook logs, you can keep track of all activity in Shadobooks CRM. Webhook logs provide a record of every webhook attempt made by our system, as well as information on the call's success or failure. Webhooks can be enabled or disabled in the developer options.
-            </p>
+            <ol className={styles.subhead5}>
+              <li>➟ Using the webhook logs, you can keep track of all activity in Shadobooks CRM. </li><br/>
+              <li>➟ Webhook logs provide a record of every webhook attempt made by our system, as well as information on the call's success or failure.</li> <br/>
+              <li>➟ Webhooks can be enabled or disabled in the developer options.</li>
+            </ol>
           </Col>
 
           <Col xs={{
@@ -414,7 +421,7 @@ function Fixed() {
           }}
             lg={{
               span: 10,
-              offset: 0,
+              offset: 1,
             }}
             sm={{
               span: 10,

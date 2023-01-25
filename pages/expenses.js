@@ -99,7 +99,7 @@ function Expenses() {
               }}
                 lg={{
                   span: 20,
-                  offset: 2,
+                  offset: 1,
                 }}
                 sm={{
                   span: 18,
@@ -111,7 +111,7 @@ function Expenses() {
                 }}
                 xl={{
                   span: 20,
-                  offset: 3,
+                  offset: 4,
                 }}
                 xxl={{
                   span: 20,
@@ -139,8 +139,8 @@ function Expenses() {
                   offset: 1,
                 }}
                 md={{
-                  span: 16,
-                  offset: 4,
+                  span: 12,
+                  offset: 1,
                 }}
                 xl={{
                   span: 20,
@@ -174,7 +174,7 @@ function Expenses() {
                 offset: 0,
               }}
                 lg={{
-                  span: 6,
+                  span: 10,
                   offset: 2,
                 }}
                 sm={{
@@ -199,18 +199,20 @@ function Expenses() {
                   <p className={styles.subhead}>
                     Benefits of Record Expenses
                   </p>
+                
+
+
+                <ol className={styles.subhead1}>
+                  The following are the expenses benefits in Shadobooks CRM: <br/><br/>
+
+                  <li>➟ Fewer delays and errors, </li><br/>
+                  <li>➟ Greater operational efficiency, </li><br/>
+                  <li>➟ Greater visibility, </li><br/>
+                  <li>➟ Simplified reporting, </li><br/>
+                  <li>➟ Greater compliance.</li><br/>
+                </ol>
+
                 </Flip>
-
-
-                <h2 className={styles.subhead1}>
-                  The following are the expenses benefits in Shadobooks CRM: <br/>
-
-                  Fewer delays and errors, 
-                  Greater operational efficiency, 
-                  Greater visibility, 
-                  Simplified reporting, 
-                  Greater compliance.
-                </h2>
               </Col>
 
 
@@ -219,7 +221,7 @@ function Expenses() {
                 offset: 1,
               }}
                 lg={{
-                  span: 6,
+                  span: 8,
                   offset: 2,
                 }}
                 sm={{
@@ -262,8 +264,8 @@ function Expenses() {
                 offset: 0,
               }}
                 lg={{
-                  span: 6,
-                  offset: 2,
+                  span: 10,
+                  offset: 10,
                 }}
                 sm={{
                   span: 20,
@@ -275,7 +277,7 @@ function Expenses() {
                 }}
                 xl={{
                   span: 8,
-                  offset: 10,
+                  offset: 8,
                 }}
                 xxl={{
                   span: 10,
@@ -293,7 +295,7 @@ function Expenses() {
                 offset: 2,
               }}
                 lg={{
-                  span: 20,
+                  span: 8,
                   offset: 2,
                 }}
                 sm={{
@@ -324,7 +326,7 @@ function Expenses() {
                 offset: 0,
               }}
                 lg={{
-                  span: 20,
+                  span: 10,
                   offset: 2,
                 }}
                 sm={{
@@ -345,9 +347,11 @@ function Expenses() {
                 }} >
 
                 <Slide left cascade>
-                  <p className={styles.subhead3}>
-                    Direct expenses are expenses that a corporation can easily link to a specific "cost item," which could be a product, department, or project. This category may contain software, equipment, and raw materials. It can also involve labour, assuming the labour is specific to the product, department, or project.
-                  </p>
+                  <ol className={styles.subhead3}>
+                    <li>➟ Direct expenses are expenses that a corporation can easily link to a specific "cost item," which could be a product, department, or project. </li><br/>
+                    <li>➟ This category may contain software, equipment, and raw materials. </li><br/>
+                    <li>➟ It can also involve labour, assuming the labour is specific to the product, department, or project.</li>
+                  </ol>
                 </Slide>
 
 
@@ -362,8 +366,8 @@ function Expenses() {
                 offset: 2,
               }}
                 lg={{
-                  span: 6,
-                  offset: 2,
+                  span: 20,
+                  offset: 4,
                 }}
                 sm={{
                   span: 20,
@@ -394,7 +398,7 @@ function Expenses() {
                 offset: 2,
               }}
                 lg={{
-                  span: 6,
+                  span: 8,
                   offset: 2,
                 }}
                 sm={{
@@ -428,7 +432,7 @@ function Expenses() {
                 offset: 0,
               }}
                 lg={{
-                  span: 20,
+                  span: 10,
                   offset: 2,
                 }}
                 sm={{
@@ -448,9 +452,11 @@ function Expenses() {
                   offset: 0,
                 }} >
                 <Slide left cascade>
-                  <p className={styles.subhead3}>
-                    Indirect expenses are those that cannot be determined directly within a given product or service. Indirect expenses include the costs of maintaining and running a business. These overhead costs are once left over the direct costs have been computed further.
-                  </p>
+                  <ol className={styles.subhead3}>
+                    <li>➟ Indirect expenses are those that cannot be determined directly within a given product or service. </li><br/>
+                    <li>➟ Indirect expenses include the costs of maintaining and running a business. </li><br/>
+                    <li>➟ These overhead costs are once left over the direct costs have been computed further.</li>
+                  </ol>
                 </Slide>
 
 
@@ -472,7 +478,7 @@ function Expenses() {
                 offset: 2,
               }}
                 lg={{
-                  span: 6,
+                  span: 20,
                   offset: 2,
                 }}
                 sm={{
@@ -496,35 +502,12 @@ function Expenses() {
                 </p>
                 </Col>
 
-                <Col xs={{
-                span: 20,
-                offset: 2,
-              }}
-                lg={{
-                  span: 6,
-                  offset: 2,
-                }}
-                sm={{
-                  span: 20,
-                  offset: 1,
-                }}
-                md={{
-                  span: 20,
-                  offset: 2,
-                }}
-                xl={{
-                  span: 20,
-                  offset: 0,
-                }}
-                xxl={{
-                  span: 20,
-                  offset: 3,
-                }} >
+                <div className={styles.helloimg}>
                 <Zoom cascade>
                   <img src="assets/imgs/page/homepage1/ssd.png" />
                 </Zoom>
-
-              </Col>
+                </div>
+              
             </Row>
 
             <Row>
@@ -534,7 +517,7 @@ function Expenses() {
                 offset: 0,
               }}
                 lg={{
-                  span: 6,
+                  span: 20,
                   offset: 2,
                 }}
                 sm={{
@@ -547,20 +530,18 @@ function Expenses() {
                 }}
                 xl={{
                   span: 20,
-                  offset: 0,
+                  offset: 1,
                 }}
                 xxl={{
                   span: 20,
-                  offset: 2,
+                  offset: 1,
                 }} >
-                <p className={styles.subhead7}>
-                To add a new expense, select Expenses—> Record Expense from the side menu. Fill out the details in the expenses form and save it. You can assign tasks to newly created expenses and attach 'expense receipts' as well.
+                <ol className={styles.subhead7}>
+                <li>➟ To add a new expense, select Expenses ⇢ Record Expense from the side menu. </li><br/>
+                <li>➟ Fill out the details in the expenses form and save it. </li><br/>
+                <li>➟ You can assign tasks to newly created expenses and attach 'expense receipts' as well.</li>
 
-
-
-
-
-                </p>
+                </ol>
               </Col>
             </Row>
           </Parallax>

@@ -64,7 +64,7 @@ function Filemanager() {
             }}
             md={{
               span: 20,
-              offset: 0,
+              offset: 2,
             }}
             xl={{
               span: 20,
@@ -132,7 +132,7 @@ function Filemanager() {
               }}
               xl={{
                 span: 6,
-                offset: 0,
+                offset: 1,
               }}
               xxl={{
                 span: 6,
@@ -149,9 +149,11 @@ function Filemanager() {
 
               {/* contents for the sub heading 1 */}
               <Slide left cascade>
-              <p className={styles.subhead2}>
-              The shared file in shadobooks ERP may be accessed under the manage sharing tab. To view this, go to File manager-->Manage sharing--> Choose the staff name, staff type, status, password, and the from and to dates. According to the details provided in the form, a specified shared file will be shown on the manage sharing page.
-              </p>
+              <ol className={styles.subhead2}>
+              <li>➟ The shared file in shadobooks ERP may be accessed under the manage sharing tab. </li><br/>
+              <li>➟ To view this, go to File manager ⇢ Manage sharing ⇢ Choose the staff name, staff type, status, password, and the from and to dates. </li><br/>
+              <li>➟ According to the details provided in the form, a specified shared file will be shown on the manage sharing page.</li>
+              </ol>
               </Slide>
             </Col>
 
@@ -174,7 +176,7 @@ function Filemanager() {
               }}
               xl={{
                 span: 14,
-                offset: 1,
+                offset: 2,
               }}
               xxl={{
                 span: 14,
@@ -258,9 +260,10 @@ function Filemanager() {
               {/* contents for the sub heading even */}
 
 
-              <p className={styles.subhead9}>
-              To view a particular downloaded file in shadobooks ERP, go to File manager-->Manage download-->Choose the staff name, hashshare and the from and to dates. Using the information provided in the form, you can view the specified downloaded files from the list of downloaded files in the manage download page.
-              </p>
+              <ol className={styles.subhead9}>
+              <li>➟ To view a particular downloaded file in shadobooks ERP, go to File manager ⇢ Manage download ⇢ Choose the staff name, hashshare and the from and to dates. </li><br/>
+              <li>➟ Using the information provided in the form, you can view the specified downloaded files from the list of downloaded files in the manage download page.</li>
+              </ol>
             </Col>
 
           </Row>
@@ -304,9 +307,12 @@ function Filemanager() {
 
             {/* contents for the sub heading odd */}
 
-            <p className={styles.subhead2}>
-            You can get a chart-based summary on the manage sharing and manage download files in shadobooks ERP. To get this, go to File manager--> File sharing reports-->Choose either the Manage Downloads or the Manage Sharing tab. Fill out the form with your information. You can now view it as a chart-based form.
-            </p>
+            <ol className={styles.subhead2}>
+            <li>➟ You can get a chart-based summary on the manage sharing and manage download files in shadobooks ERP.</li><br/>
+            <li>➟ To get this, go to File manager ⇢ File sharing reports ⇢ Choose either the Manage Downloads or the Manage Sharing tab. </li><br/>
+            <li>➟ Fill out the form with your information.</li> <br/>
+            <li>➟ You can now view it as a chart-based form.</li>
+            </ol>
           </Col>
 
           {/* image for the odd container */}
@@ -414,9 +420,11 @@ function Filemanager() {
 
               {/* contents for the sub heading even */}
 
-              <p className={styles.subhead9}>
-                You can organize files obtained from many sources with Shadobooks ERP's File Manager. You can also make your own folders and place files in them. To ensure that only authorized people have access to a file, impose permission rules on a single folder or file.
-              </p>
+              <ol className={styles.subhead9}>
+                <li>➟ You can organize files obtained from many sources with Shadobooks ERP's File Manager. </li><br/>
+                <li>➟ You can also make your own folders and place files in them. </li><br/>
+                <li>➟ To ensure that only authorized people have access to a file, impose permission rules on a single folder or file.</li>
+              </ol>
             </Col>
 
           </Row>

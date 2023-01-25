@@ -3,27 +3,27 @@ import Link from "next/link";
 const Footer = () => {
     return (
         <>
-     
+
             <footer className="footer mt-50" >
                 <div className="container">
                     <div className="footer-top">
                         <div className="row">
-                            <div className="col-md-4 col-sm-6 text-center text-md-start">
+                            {/* <div className="col-md-4 col-sm-6 text-center text-md-start">
                                 <Link href="/">
                                     <a className="d-flex">
                                         <img width={150} alt="Shadobooks" src="/assets/logo/logo.png" />
                                     </a>
                                 </Link>
-                            </div>
-                            <div className="col-md-8 col-sm-6 text-center text-md-end">
+                            </div> */}
+                            {/* <div className="col-md-8 col-sm-6 text-center text-md-end"> */}
 
-                                
-                                {/* <span className="color-gray-900 text-heading-6 mr-30 text-mb-sm-20">The Financial Shadow of your Company</span> */}
-                                
-                                <Link href="#">
+
+                            {/* <span className="color-gray-900 text-heading-6 mr-30 text-mb-sm-20">The Financial Shadow of your Company</span> */}
+
+                            {/* <Link href="#">
                                     <a className="btn btn-square">The Financial Shadow of your Company</a>
                                 </Link>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="row">
@@ -33,9 +33,9 @@ const Footer = () => {
                                 Building, Al Maktoum Road, Dubai, UAE
                             </div>
 
-                            <div className="mt-20 text-body-text color-gray-600">+971 52 872 2900</div>
-                            <div className="text-body-text color-gray-600">+971 42 253 534</div>
-                            <div className="mt-20 text-body-text color-gray-600">info@shadobooks.com</div>
+                            <div className="mt-20 text-body-text color-gray-600"><a href="callto:+971 52 872 2900">+971 52 872 2900</a></div>
+                            <div className="text-body-text color-gray-600"><a href="callto:+971 42 253 534">+971 42 253 534</a></div>
+                            <div className="mt-20 text-body-text color-gray-600"><a href="mailto:info@shadobooks.com">info@shadobooks.com</a></div>
 
                         </div>
                         <div className="col-lg-3 width-20 mb-30">
@@ -193,10 +193,10 @@ const Footer = () => {
                                     <Link href="https://www.facebook.com/shadobookscrm">
                                         <a className="icon-socials icon-facebook"></a>
                                     </Link>
-                                    <Link href="https://twitter.com/shadobooks">
+                                    <Link href="https://twitter.com/shado_books">
                                         <a className="icon-socials icon-twitter"></a>
                                     </Link>
-                                    <Link href="https://www.instagram.com/shadobooks1/">
+                                    <Link href="https://www.instagram.com/shadobooks_crm/">
                                         <a className="icon-socials icon-instagram"></a>
                                     </Link>
                                     <Link href="https://www.linkedin.com/company/shadobooks/">
@@ -214,7 +214,7 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
-      
+
         </>
     );
 };

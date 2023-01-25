@@ -80,7 +80,7 @@
    width: 80%;
    text-align: start;
    font-size: 15px;
-   margin-top: 50px;
+   margin-top: 20%;
    
    line-height: 20px;
    color: #000000e0;
@@ -183,7 +183,7 @@
    margin-right: 20%;
    text-align: end;
    font-size: 46px;
-   margin-top: 120px;
+   margin-top: 20px;
    line-height: 20px;
    color: #000000e0;
 }
@@ -1729,7 +1729,7 @@
       margin-right: 190px;
       text-align: end;
       font-size: 26px;
-      margin-top: 120px;
+      margin-top: 20px;
       line-height: 20px;
       color: #000000e0;
    }

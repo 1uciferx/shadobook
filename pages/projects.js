@@ -1329,9 +1329,10 @@ function Projects() {
                       span: 10,
                       offset: 2,
                     }} >
-                    <p className={styles.subhead11}>
-                      In accounting, a payment voucher records all company transactions involving payments. This voucher type includes any payment made by the company via cash, check, internet payment, or any other method.
-                    </p>
+                    <ol className={styles.subhead11}>
+                      <li>➟ In accounting, a payment voucher records all company transactions involving payments.</li> <br/>
+                      <li>➟ This voucher type includes any payment made by the company via cash, check, internet payment, or any other method.</li>
+                    </ol>
 
                   </Col>
 
@@ -1353,11 +1354,11 @@ function Projects() {
                       offset: 0,
                     }}
                     xl={{
-                      span: 10,
-                      offset: 0,
+                      span: 8,
+                      offset: 1,
                     }}
                     xxl={{
-                      span: 10,
+                      span: 8,
                       offset: 1,
                     }} >
                     <div>
@@ -1440,9 +1441,10 @@ function Projects() {
                       span: 8,
                       offset: 1,
                     }} >
-                    <p className={styles.subhead13}>
-                      A receipt voucher is a handwritten receipt for goods or services sold. A standard receipt voucher includes the date, time, amount, and type of product or service sold, as well as the signature of the person selling the product or service.
-                    </p>
+                    <ol className={styles.subhead13}>
+                     <li>➟ A receipt voucher is a handwritten receipt for goods or services sold. </li><br/>
+                     <li>➟ A standard receipt voucher includes the date, time, amount, and type of product or service sold, as well as the signature of the person selling the product or service.</li>
+                    </ol>
 
                   </Col>
                 </Row>
@@ -1626,7 +1628,7 @@ function Projects() {
                     }}
                     xxl={{
                       span: 6,
-                      offset: 1,
+                      offset: 3,
                     }} >
                     <div>
                       <Zoom>
@@ -1700,7 +1702,7 @@ function Projects() {
                     }}
                     xxl={{
                       span: 6,
-                      offset: 1,
+                      offset: 3,
                     }} >
                     <div>
                       <Zoom>
@@ -1776,9 +1778,11 @@ function Projects() {
                       offset: 1,
                     }} >
                     <img src="/assets/imgs/page/homepage1/milestone.png" />
-                    <p className={styles.subhead18}>
-                      In a project management system, a milestone is a reference point that is used to monitor the project management process. Another important aspect of project milestones is task association and project planning, which will aid in project success. The start and finish dates of a milestone are determined by the task's start and end dates.
-                    </p>
+                    <ol className={styles.subhead18}>
+                      <li>➟ In a project management system, a milestone is a reference point that is used to monitor the project management process. </li><br/>
+                      <li>➟ Another important aspect of project milestones is task association and project planning, which will aid in project success. </li><br/>
+                      <li>➟ The start and finish dates of a milestone are determined by the task's start and end dates.</li>
+                    </ol>
 
                   </Col>
                 </Row>
@@ -1819,7 +1823,7 @@ function Projects() {
                     }}
                     xxl={{
                       span: 6,
-                      offset: 1,
+                      offset: 3,
                     }} >
                     <div>
                       <Zoom>
@@ -1894,7 +1898,7 @@ function Projects() {
                     }}
                     xxl={{
                       span: 6,
-                      offset: 1,
+                      offset: 3,
                     }} >
                     <div>
                       <Zoom>
@@ -1970,7 +1974,7 @@ function Projects() {
                     }}
                     xxl={{
                       span: 6,
-                      offset: 1,
+                      offset: 3,
                     }} >
                     <div>
                       <Zoom>
@@ -2044,7 +2048,7 @@ function Projects() {
                     }}
                     xxl={{
                       span: 6,
-                      offset: 1,
+                      offset: 3,
                     }} >
                     <div>
                       <Zoom>
@@ -2118,7 +2122,7 @@ function Projects() {
                     }}
                     xxl={{
                       span: 6,
-                      offset: 1,
+                      offset: 3,
                     }} >
                     <div>
                       <Zoom>
@@ -2191,7 +2195,7 @@ function Projects() {
                     }}
                     xxl={{
                       span: 6,
-                      offset: 1,
+                      offset: 3,
                     }} >
                     <div>
                       <Zoom>

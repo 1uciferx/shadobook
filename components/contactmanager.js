@@ -159,7 +159,7 @@ function Contactmanager() {
                       placeholder="What would you like to tell us.." rows="4" cols="2" name="message"></textarea>
 
                     <button variant="contained" type="submit"
-                      style={{ backgroundColor: "#903310", padding: "10px", marginTop: "15px", width: "30%", color: "white", border: "none" }} disabled={!value || !mail}>Send</button>
+                      style={{ backgroundColor: "#903310", padding: "10px", marginTop: "15px", width: "40%", color: "white", border: "none" }} disabled={!value || !mail}>Send</button>
 
 
                     {/* <input disabled={!value} onClick={close} 

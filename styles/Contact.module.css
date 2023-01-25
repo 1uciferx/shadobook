@@ -1,5 +1,5 @@
 .body {
-    background-image: url("/assets/imgs/page/homepage4/webhooks.jpg");
+    background-image: url("/assets/imgs/page/homepage1/as12.jpg");
     background-size: cover;
     border-radius: 5px;
     height: 90vh;
@@ -11,8 +11,9 @@
 .parahead {
     font-family: Segoe UI;
     font-size: 46px;
+    margin-left: 20%;
     line-height: 46px;
-    color: rgb(255, 255, 255);
+    color: rgb(48, 47, 47);
     font-weight: 500;
     text-decoration: none solid rgb(0, 0, 0);
     width: 70%;

@@ -26,6 +26,43 @@
    color: #90331c;
 }
 
+
+.conimg{
+   margin-top: 10%;
+
+ }
+
+
+ .mobie {
+   display: none;
+
+ }
+
+
+ .tabheadings1{
+   margin-top: 20px;
+   text-align: center;
+   font-size: 30px;
+ }
+
+ .makeme {
+   margin: auto;
+   text-align: center;
+ }
+
+
+ .mobpara {
+   
+   font-family:Segoe UI;
+   font-size: 18px;
+   line-height: 23px;
+   color:black;
+   font-weight: 400;
+   text-decoration: none solid rgb(0, 0, 0);
+
+}
+ 
+
 .subhead2 {
    font-weight: bold;
    font-family: Segoe UI;
@@ -59,7 +96,7 @@
 
 
    .headings {
-      margin-left: 380px;
+      margin-left: 80px;
       font-size: 46px;
       line-height: 280px;
       font-family: Segoe UI;
@@ -198,6 +235,16 @@
       color: #811a00e0;
    }
    
+
+   .mmc {
+      display: none;
+   }
+
+ .mobie {
+   display: block;
+
+ }
+
    .subhead3 {
    
       font-family: Segoe UI;
@@ -246,7 +293,7 @@
       font-weight: bold;
       font-family: Segoe UI;
       margin-top: 10%;
-      font-size: 35px;
+      font-size: 30px;
       line-height: 40px;
       color: #811a00e0;
    }
@@ -256,7 +303,8 @@
       font-family: Segoe UI;
       font-size: 15px;
       margin-top: 80px;
-      margin-left: 20px;
+      text-align: center;
+      margin-left: 0px;
       color: #ffffff;
    }
 }

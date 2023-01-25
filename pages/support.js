@@ -253,10 +253,11 @@ function Support() {
                   span: 10,
                   offset: 1,
                 }} >
-                <p className={styles.subhead4}>
-                To create a new ticket, navigate to Addon Management->Support->New ticket.<br /><br />
-                  Fill out the ticket form by clicking "with contact or without contact tickets" and save it. Click the 'weekly status icon' to see the ticket's weekly status. You can set remainder and tasks to the newly formed tickets.
-                </p>
+                <ol className={styles.subhead4}>
+                <li>➟ To create a new ticket, navigate to Addon Management ⇢ Support ⇢ New ticket.<br /></li>
+                <li>➟ Fill out the ticket form by clicking "with contact or without contact tickets" and save it.</li> <br />
+                <li>➟ Click the 'weekly status icon' to see the ticket's weekly status. You can set remainder and tasks to the newly formed tickets.</li>
+                </ol>
               </Col>
             </Row>
           </Parallax>
@@ -266,7 +267,7 @@ function Support() {
 
             <Row>
               <Col xs={{
-                span: 20,
+                span: 16,
                 offset: 0,
               }}
                 lg={{
@@ -279,7 +280,7 @@ function Support() {
                 }}
                 md={{
                   span: 8,
-                  offset: 2,
+                  offset: 1,
                 }}
                 xl={{
                   span: 10,
@@ -289,11 +290,13 @@ function Support() {
                   span: 8,
                   offset: 2,
                 }} >
-                <p className={styles.subhead5}>
-                  Power your support system and ticketing processes with Shadobooks CRM. The interface is easy to implement, use and scale as you deem fit. All your ticket summaries, progress, active queries and other necessary information are crucial.
+                <ol className={styles.subhead5}>
+                  <li>➟ Power your support system and ticketing processes with Shadobooks CRM. </li><br/>
+                  <li>➟ The interface is easy to implement, use and scale as you deem fit. </li><br/>
+                  <li>➟ All your ticket summaries, progress, active queries and other necessary information are crucial.</li><br/>
 
-                  This section provides a single panel view for all your support requirements and helps in carrying out a transparent process between teams to be informed about the processes and tasks that happen around them.
-                </p>
+                  <li>➟ This section provides a single panel view for all your support requirements and helps in carrying out a transparent process between teams to be informed about the processes and tasks that happen around them.</li>
+                </ol>
               </Col>
 
 
@@ -311,8 +314,8 @@ function Support() {
                   offset: 5,
                 }}
                 md={{
-                  span: 10,
-                  offset: 2,
+                  span: 8,
+                  offset: 0,
                 }}
                 xl={{
                   span: 8,
@@ -346,8 +349,8 @@ function Support() {
             offset: 1,
           }}
           md={{
-            span: 10,
-            offset: 0,
+            span: 20,
+            offset: 2,
           }}
           xl={{
             span: 10,
@@ -389,15 +392,20 @@ function Support() {
               span: 10,
               offset: 3,
             }} >
-            <p className={styles.subhead56}>
-              Shadobooks CRM ticketing system allows you to collect and analyse customer feedback every time a ticket is closed. A powerful ticketing dashboard simplifies the resolution of customer inquiries and the management of interactions between customers and agents. Repeatedly asking a consumer to introduce themselves will irritate them and waste a lot of time. This is where a ticketing system can come in handy. With an integrated ticketing system, agents can view past tickets raised by customers through any channel. You can also assign tickets to specific agents based on your customers' inquiries.
-            </p>
+            <ol className={styles.subhead56}>
+              <li>➟ Shadobooks CRM ticketing system allows you to collect and analyse customer feedback every time a ticket is closed. </li><br/>
+              <li>➟ A powerful ticketing dashboard simplifies the resolution of customer inquiries and the management of interactions between customers and agents. </li><br/>
+              <li>➟ Repeatedly asking a consumer to introduce themselves will irritate them and waste a lot of time. </li><br/>
+              <li>➟ This is where a ticketing system can come in handy. </li><br/>
+              <li>➟ With an integrated ticketing system, agents can view past tickets raised by customers through any channel. </li><br/>
+              <li>➟ You can also assign tickets to specific agents based on your customers' inquiries.</li>
+            </ol>
 
           </Col>
 
           <Col xs={{
             span: 20,
-            offset: 1,
+            offset: 2,
           }}
             lg={{
               span: 10,
@@ -413,7 +421,7 @@ function Support() {
             }}
             xl={{
               span: 10,
-              offset: 0,
+              offset: 1,
             }}
             xxl={{
               span: 8,
