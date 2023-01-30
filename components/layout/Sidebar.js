@@ -144,14 +144,7 @@ const Sidebar = ({ openClass }) => {
                                 </a>
                               </Link>
                             </li>
-                            <li>
-                              <Link href="/sales">
-                                <a>
-                                 
-                                  Sales
-                                </a>
-                              </Link>
-                            </li>
+                           
                             <li>
                               <Link href="estimatesrequest">
                                 <a>

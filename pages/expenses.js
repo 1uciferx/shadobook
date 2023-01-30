@@ -103,7 +103,7 @@ function Expenses() {
                 }}
                 sm={{
                   span: 18,
-                  offset: 0,
+                  offset: 3,
                 }}
                 md={{
                   span: 18,
@@ -111,7 +111,7 @@ function Expenses() {
                 }}
                 xl={{
                   span: 20,
-                  offset: 4,
+                  offset: 3,
                 }}
                 xxl={{
                   span: 20,
@@ -152,7 +152,9 @@ function Expenses() {
                 }}>
 
                 <LightSpeed cascade>
-                  <p className={styles.para}>Offering assistance to individuals and organizations regarding technology-related devices.</p>
+                  <ol className={styles.para}>
+                    <li>Offering assistance to individuals and organizations </li>
+                    <li>regarding technology-related devices.</li></ol>
                 </LightSpeed>
 
               </Col>
@@ -199,18 +201,18 @@ function Expenses() {
                   <p className={styles.subhead}>
                     Benefits of Record Expenses
                   </p>
-                
 
 
-                <ol className={styles.subhead1}>
-                  The following are the expenses benefits in Shadobooks CRM: <br/><br/>
 
-                  <li>➟ Fewer delays and errors, </li><br/>
-                  <li>➟ Greater operational efficiency, </li><br/>
-                  <li>➟ Greater visibility, </li><br/>
-                  <li>➟ Simplified reporting, </li><br/>
-                  <li>➟ Greater compliance.</li><br/>
-                </ol>
+                  <ol className={styles.subhead1}>
+                    The following are the expenses benefits in Shadobooks CRM: <br /><br />
+
+                    <li>➟ Fewer delays and errors, </li><br />
+                    <li>➟ Greater operational efficiency, </li><br />
+                    <li>➟ Greater visibility, </li><br />
+                    <li>➟ Simplified reporting, </li><br />
+                    <li>➟ Greater compliance.</li><br />
+                  </ol>
 
                 </Flip>
               </Col>
@@ -226,7 +228,7 @@ function Expenses() {
                 }}
                 sm={{
                   span: 20,
-                  offset: 1,
+                  offset: 2,
                 }}
                 md={{
                   span: 20,
@@ -269,7 +271,7 @@ function Expenses() {
                 }}
                 sm={{
                   span: 20,
-                  offset: 1,
+                  offset: 2,
                 }}
                 md={{
                   span: 12,
@@ -300,7 +302,7 @@ function Expenses() {
                 }}
                 sm={{
                   span: 20,
-                  offset: 1,
+                  offset: 2,
                 }}
                 md={{
                   span: 10,
@@ -331,7 +333,7 @@ function Expenses() {
                 }}
                 sm={{
                   span: 20,
-                  offset: 1,
+                  offset: 2,
                 }}
                 md={{
                   span: 10,
@@ -348,8 +350,8 @@ function Expenses() {
 
                 <Slide left cascade>
                   <ol className={styles.subhead3}>
-                    <li>➟ Direct expenses are expenses that a corporation can easily link to a specific "cost item," which could be a product, department, or project. </li><br/>
-                    <li>➟ This category may contain software, equipment, and raw materials. </li><br/>
+                    <li>➟ Direct expenses are expenses that a corporation can easily link to a specific "cost item," which could be a product, department, or project. </li><br />
+                    <li>➟ This category may contain software, equipment, and raw materials. </li><br />
                     <li>➟ It can also involve labour, assuming the labour is specific to the product, department, or project.</li>
                   </ol>
                 </Slide>
@@ -371,7 +373,7 @@ function Expenses() {
                 }}
                 sm={{
                   span: 20,
-                  offset: 1,
+                  offset: 2,
                 }}
                 md={{
                   span: 10,
@@ -403,7 +405,7 @@ function Expenses() {
                 }}
                 sm={{
                   span: 20,
-                  offset: 1,
+                  offset: 2,
                 }}
                 md={{
                   span: 10,
@@ -436,8 +438,8 @@ function Expenses() {
                   offset: 2,
                 }}
                 sm={{
-                  span: 20,
-                  offset: 1,
+                  span: 16,
+                  offset: 2,
                 }}
                 md={{
                   span: 10,
@@ -453,8 +455,8 @@ function Expenses() {
                 }} >
                 <Slide left cascade>
                   <ol className={styles.subhead3}>
-                    <li>➟ Indirect expenses are those that cannot be determined directly within a given product or service. </li><br/>
-                    <li>➟ Indirect expenses include the costs of maintaining and running a business. </li><br/>
+                    <li>➟ Indirect expenses are those that cannot be determined directly within a given product or service. </li><br />
+                    <li>➟ Indirect expenses include the costs of maintaining and running a business. </li><br />
                     <li>➟ These overhead costs are once left over the direct costs have been computed further.</li>
                   </ol>
                 </Slide>
@@ -483,7 +485,7 @@ function Expenses() {
                 }}
                 sm={{
                   span: 20,
-                  offset: 1,
+                  offset: 2,
                 }}
                 md={{
                   span: 20,
@@ -500,14 +502,14 @@ function Expenses() {
                 <p className={styles.subhead6}>
                   Overview and How to Record expenses in shadobooks CRM
                 </p>
-                </Col>
+              </Col>
 
-                <div className={styles.helloimg}>
+              <div className={styles.helloimg}>
                 <Zoom cascade>
                   <img src="assets/imgs/page/homepage1/ssd.png" />
                 </Zoom>
-                </div>
-              
+              </div>
+
             </Row>
 
             <Row>
@@ -521,7 +523,7 @@ function Expenses() {
                   offset: 2,
                 }}
                 sm={{
-                  span: 20,
+                  span: 16,
                   offset: 1,
                 }}
                 md={{
@@ -537,9 +539,9 @@ function Expenses() {
                   offset: 1,
                 }} >
                 <ol className={styles.subhead7}>
-                <li>➟ To add a new expense, select Expenses ⇢ Record Expense from the side menu. </li><br/>
-                <li>➟ Fill out the details in the expenses form and save it. </li><br/>
-                <li>➟ You can assign tasks to newly created expenses and attach 'expense receipts' as well.</li>
+                  <li>➟ To add a new expense, select Expenses ⇢ Record Expense from the side menu. </li><br />
+                  <li>➟ Fill out the details in the expenses form and save it. </li><br />
+                  <li>➟ You can assign tasks to newly created expenses and attach 'expense receipts' as well.</li>
 
                 </ol>
               </Col>

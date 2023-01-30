@@ -68,7 +68,7 @@ function Projects() {
           <Row>
 
             <Col xs={{
-              span: 12,
+              span: 20,
               offset: 1,
             }}
               lg={{
@@ -76,7 +76,7 @@ function Projects() {
                 offset: 2,
               }}
               sm={{
-                span: 12,
+                span: 20,
                 offset: 0,
               }}
               md={{
@@ -437,7 +437,7 @@ function Projects() {
               span: 18,
               offset: 0,
             }}
-            style={{ marginTop: '30px', marginBottom: '40px' }}>
+           >
 
 
             <Tabs
@@ -450,192 +450,39 @@ function Projects() {
 
               defaultActiveKey="1" onChange={callback}  >
 
-              <TabPane tab="Sales" key="1" >
 
-
-                {/* module 1 on tab */}
-
-
+              <TabPane tab="Milestones" key="1">
                 <Row>
-                  <div>
-                    <Zoom top>
-
-                      <Col xs={{
-                        span: 20,
-                        offset: 1,
-                      }}
-                        lg={{
-                          span: 6,
-                          offset: 2,
-                        }}
-                        sm={{
-                          span: 6,
-                          offset: 2,
-                        }}
-                        md={{
-                          span: 6,
-                          offset: 4,
-                        }}
-                        xl={{
-                          span: 8,
-                          offset: 2,
-                        }}
-                        xxl={{
-                          span: 1,
-                          offset: 4,
-                        }} >
-                        <Card
-                          hoverable
-                          style={{
-                            width: 240,
-                          }}
-                          cover={<img alt="Proposals" src="/assets/imgs/page/homepage1/proposal.jpg" />}
-                        >
-                          <Meta title="Proposals" description=" " />
-                        </Card>
-                      </Col>
-                    </Zoom>
-                  </div>
-
-
-                  {/* module 2 on tab */}
-
-
+                  <Col span={2}></Col>
 
                   <Col xs={{
                     span: 20,
-                    offset: 1,
+                    offset: 0,
                   }}
                     lg={{
                       span: 6,
                       offset: 2,
                     }}
                     sm={{
-                      span: 6,
-                      offset: 2,
-                    }}
-                    md={{
-                      span: 6,
+                      span: 10,
                       offset: 0,
                     }}
-                    xl={{
-                      span: 6,
-                      offset: 2,
-                    }}
-                    xxl={{
-                      span: 2,
-                      offset: 1,
-                    }} >
-                    <div>
-                      <Zoom top>
-                        <Card
-                          hoverable
-                          style={{
-                            width: 240,
-                          }}
-                          cover={<img alt="Estimates" src="/assets/imgs/page/homepage1/estimate.jpg" />}
-                        >
-                          <Meta title="Estimates" description=" " />
-                        </Card>
-                      </Zoom>
-                    </div>
-                  </Col>
-
-
-                  {/* module 3 on tab */}
-
-
-
-                  <Col xs={{
-                    span: 20,
-                    offset: 1,
-                  }}
-                    lg={{
-                      span: 6,
-                      offset: 2,
-                    }}
-                    sm={{
-                      span: 6,
-                      offset: 2,
-                    }}
                     md={{
-                      span: 1,
+                      span: 10,
                       offset: 0,
-                    }}
-                    xl={{
-                      span: 6,
-                      offset: 0,
-                    }}
-                    xxl={{
-                      span: 3,
-                      offset: 2,
-                    }} >
-                    <div>
-                      <Zoom top>
-                        <Card
-                          hoverable
-                          style={{
-                            width: 240,
-                          }}
-                          cover={<img alt="Invoices" src="/assets/imgs/page/homepage1/invoice.jpg" />}
-                        >
-                          <Meta title="Invoices" description=" " />
-                        </Card>
-                      </Zoom>
-                    </div>
-                  </Col>
-
-
-                  {/* module 4 on tab */}
-
-
-
-                  <Col xs={{
-                    span: 20,
-                    offset: 1,
-                  }}
-                    lg={{
-                      span: 6,
-                      offset: 2,
-                    }}
-                    sm={{
-                      span: 6,
-                      offset: 2,
-                    }}
-                    md={{
-                      span: 8,
-                      offset: 1,
                     }}
                     xl={{
                       span: 8,
-                      offset: 3,
+                      offset: 1,
                     }}
                     xxl={{
-                      span: 3,
+                      span: 8,
                       offset: 1,
                     }} >
-                    <div>
-                      <Zoom top>
-                        <Card
-                          hoverable
-                          style={{
-                            width: 240,
-                          }}
-                          cover={<img alt="Subscriptions" src="/assets/imgs/page/homepage1/subscription.jpg" />}
-                        >
-                          <Meta title="Subscriptions" description=" " />
-                        </Card>
-                      </Zoom>
-                    </div>
-                  </Col>
+                    <img src="/assets/imgs/page/homepage1/milestone.png" />
+                    </Col>
 
-
-                  {/* module 5 on tab */}
-
-
-
-
-                  <Col xs={{
+                    <Col xs={{
                     span: 20,
                     offset: 1,
                   }}
@@ -644,37 +491,32 @@ function Projects() {
                       offset: 2,
                     }}
                     sm={{
-                      span: 6,
-                      offset: 2,
+                      span: 10,
+                      offset: 0,
                     }}
                     md={{
-                      span: 1,
+                      span: 8,
                       offset: 0,
                     }}
                     xl={{
-                      span: 1,
-                      offset: 0,
+                      span: 8,
+                      offset: 1,
                     }}
                     xxl={{
-                      span: 3,
-                      offset: 2,
+                      span: 10,
+                      offset: 1,
                     }} >
-                    <div>
-                      <Zoom top>
-                        <Card
-                          hoverable
-                          style={{
-                            width: 240,
-                          }}
-                          cover={<img alt="Expenses" src="/assets/imgs/page/homepage1/expenses.jpg" />}
-                        >
-                          <Meta title="Expenses & Credit Notes" description=" " />
-                        </Card>
-                      </Zoom>
-                    </div>
+                    <ol className={styles.subhead18}>
+                      <li>➟ In a project management system, a milestone is a reference point that is used to monitor the project management process. </li><br />
+                      <li>➟ Another important aspect of project milestones is task association and project planning, which will aid in project success. </li><br />
+                      <li>➟ The start and finish dates of a milestone are determined by the task's start and end dates.</li>
+                    </ol>
+
                   </Col>
                 </Row>
               </TabPane>
+
+
 
               {/* end of the 1st tab pane */}
 
@@ -1330,7 +1172,7 @@ function Projects() {
                       offset: 2,
                     }} >
                     <ol className={styles.subhead11}>
-                      <li>➟ In accounting, a payment voucher records all company transactions involving payments.</li> <br/>
+                      <li>➟ In accounting, a payment voucher records all company transactions involving payments.</li> <br />
                       <li>➟ This voucher type includes any payment made by the company via cash, check, internet payment, or any other method.</li>
                     </ol>
 
@@ -1442,8 +1284,8 @@ function Projects() {
                       offset: 1,
                     }} >
                     <ol className={styles.subhead13}>
-                     <li>➟ A receipt voucher is a handwritten receipt for goods or services sold. </li><br/>
-                     <li>➟ A standard receipt voucher includes the date, time, amount, and type of product or service sold, as well as the signature of the person selling the product or service.</li>
+                      <li>➟ A receipt voucher is a handwritten receipt for goods or services sold. </li><br />
+                      <li>➟ A standard receipt voucher includes the date, time, amount, and type of product or service sold, as well as the signature of the person selling the product or service.</li>
                     </ol>
 
                   </Col>
@@ -1557,8 +1399,8 @@ function Projects() {
                       offset: 0,
                     }}
                     xxl={{
-                      span: 14,
-                      offset: 1,
+                      span: 6,
+                      offset: 4,
                     }} >
                     <img src="/assets/imgs/page/homepage1/aa3.jpg" />
                   </Col>
@@ -1585,7 +1427,7 @@ function Projects() {
                       offset: 0,
                     }}
                     xxl={{
-                      span: 6,
+                      span: 10,
                       offset: 1,
                     }} >
                     <p className={styles.subhead16}>
@@ -1619,7 +1461,7 @@ function Projects() {
                       offset: 0,
                     }}
                     md={{
-                      span: 8,
+                      span: 12,
                       offset: 0,
                     }}
                     xl={{
@@ -1650,7 +1492,7 @@ function Projects() {
                       offset: 0,
                     }}
                     md={{
-                      span: 10,
+                      span: 6,
                       offset: 0,
                     }}
                     xl={{
@@ -1693,7 +1535,7 @@ function Projects() {
                       offset: 0,
                     }}
                     md={{
-                      span: 8,
+                      span: 12,
                       offset: 0,
                     }}
                     xl={{
@@ -1724,7 +1566,7 @@ function Projects() {
                       offset: 0,
                     }}
                     md={{
-                      span: 10,
+                      span: 6,
                       offset: 0,
                     }}
                     xl={{
@@ -1749,44 +1591,192 @@ function Projects() {
 
               {/* start of the 9th panel */}
 
-              <TabPane tab="Milestones" key="9">
+
+              <TabPane tab="Sales" key="9" >
+
+
+                {/* module 1 on tab */}
+
+
                 <Row>
-                  <Col span={2}></Col>
+                  <div>
+                    <Zoom top>
+
+                      <Col xs={{
+                        span: 20,
+                        offset: 1,
+                      }}
+                        lg={{
+                          span: 6,
+                          offset: 2,
+                        }}
+                        sm={{
+                          span: 6,
+                          offset: 2,
+                        }}
+                        md={{
+                          span: 6,
+                          offset: 4,
+                        }}
+                        xl={{
+                          span: 6,
+                          offset: 2,
+                        }}
+                        xxl={{
+                          span: 6,
+                          offset: 4,
+                        }} >
+                        <Card
+                          hoverable
+                          style={{
+                            width: 240,
+                          }}
+                          cover={<img alt="Proposals" src="/assets/imgs/page/homepage1/proposal.jpg" />}
+                        >
+                          <Meta title="Proposals" description=" " />
+                        </Card>
+                      </Col>
+                    </Zoom>
+                  </div>
+
+
+                  {/* module 2 on tab */}
+
+
 
                   <Col xs={{
                     span: 20,
-                    offset: 0,
+                    offset: 1,
                   }}
                     lg={{
-                      span: 20,
-                      offset: 0,
+                      span: 6,
+                      offset: 2,
                     }}
                     sm={{
-                      span: 10,
-                      offset: 0,
+                      span: 6,
+                      offset: 2,
                     }}
                     md={{
-                      span: 16,
+                      span: 6,
                       offset: 0,
                     }}
                     xl={{
-                      span: 20,
+                      span: 6,
+                      offset: 1,
+                    }}
+                    xxl={{
+                      span: 6,
+                      offset: 1,
+                    }} >
+                    <div>
+                      <Zoom top>
+                        <Card
+                          hoverable
+                          style={{
+                            width: 240,
+                          }}
+                          cover={<img alt="Estimates" src="/assets/imgs/page/homepage1/estimate.jpg" />}
+                        >
+                          <Meta title="Estimates & Invoices" description=" " />
+                        </Card>
+                      </Zoom>
+                    </div>
+                  </Col>
+
+
+
+
+                  {/* module 4 on tab */}
+
+
+
+                  <Col xs={{
+                    span: 20,
+                    offset: 1,
+                  }}
+                    lg={{
+                      span: 6,
+                      offset: 2,
+                    }}
+                    sm={{
+                      span: 6,
+                      offset: 2,
+                    }}
+                    md={{
+                      span: 8,
+                      offset: 1,
+                    }}
+                    xl={{
+                      span: 4,
+                      offset: 1,
+                    }}
+                    xxl={{
+                      span: 3,
+                      offset: 1,
+                    }} >
+                    <div>
+                      <Zoom top>
+                        <Card
+                          hoverable
+                          style={{
+                            width: 240,
+                          }}
+                          cover={<img alt="Subscriptions" src="/assets/imgs/page/homepage1/subscription.jpg" />}
+                        >
+                          <Meta title="Subscriptions" description=" " />
+                        </Card>
+                      </Zoom>
+                    </div>
+                  </Col>
+
+
+                  {/* module 5 on tab */}
+
+
+
+
+                  <Col xs={{
+                    span: 20,
+                    offset: 1,
+                  }}
+                    lg={{
+                      span: 6,
+                      offset: 2,
+                    }}
+                    sm={{
+                      span: 6,
+                      offset: 2,
+                    }}
+                    md={{
+                      span: 1,
+                      offset: 0,
+                    }}
+                    xl={{
+                      span: 1,
                       offset: 0,
                     }}
                     xxl={{
-                      span: 16,
-                      offset: 1,
+                      span: 3,
+                      offset: 2,
                     }} >
-                    <img src="/assets/imgs/page/homepage1/milestone.png" />
-                    <ol className={styles.subhead18}>
-                      <li>➟ In a project management system, a milestone is a reference point that is used to monitor the project management process. </li><br/>
-                      <li>➟ Another important aspect of project milestones is task association and project planning, which will aid in project success. </li><br/>
-                      <li>➟ The start and finish dates of a milestone are determined by the task's start and end dates.</li>
-                    </ol>
-
+                    <div>
+                      <Zoom top>
+                        <Card
+                          hoverable
+                          style={{
+                            width: 240,
+                          }}
+                          cover={<img alt="Expenses" src="/assets/imgs/page/homepage1/expenses.jpg" />}
+                        >
+                          <Meta title="Expenses & Credit Notes" description=" " />
+                        </Card>
+                      </Zoom>
+                    </div>
                   </Col>
                 </Row>
               </TabPane>
+
+
 
 
               {/* end of the 9th panel */}
@@ -1814,7 +1804,7 @@ function Projects() {
                       offset: 0,
                     }}
                     md={{
-                      span: 8,
+                      span: 12,
                       offset: 0,
                     }}
                     xl={{
@@ -1845,7 +1835,7 @@ function Projects() {
                       offset: 0,
                     }}
                     md={{
-                      span: 10,
+                      span: 6,
                       offset: 0,
                     }}
                     xl={{
@@ -1889,7 +1879,7 @@ function Projects() {
                       offset: 0,
                     }}
                     md={{
-                      span: 8,
+                      span: 12,
                       offset: 0,
                     }}
                     xl={{
@@ -1920,7 +1910,7 @@ function Projects() {
                       offset: 0,
                     }}
                     md={{
-                      span: 10,
+                      span: 6,
                       offset: 0,
                     }}
                     xl={{
@@ -1965,7 +1955,7 @@ function Projects() {
                       offset: 0,
                     }}
                     md={{
-                      span: 8,
+                      span: 12,
                       offset: 0,
                     }}
                     xl={{
@@ -1996,7 +1986,7 @@ function Projects() {
                       offset: 0,
                     }}
                     md={{
-                      span: 10,
+                      span: 6,
                       offset: 0,
                     }}
                     xl={{
@@ -2039,7 +2029,7 @@ function Projects() {
                       offset: 0,
                     }}
                     md={{
-                      span: 8,
+                      span: 12,
                       offset: 0,
                     }}
                     xl={{
@@ -2070,7 +2060,7 @@ function Projects() {
                       offset: 0,
                     }}
                     md={{
-                      span: 10,
+                      span: 6,
                       offset: 0,
                     }}
                     xl={{
@@ -2113,7 +2103,7 @@ function Projects() {
                       offset: 0,
                     }}
                     md={{
-                      span: 8,
+                      span: 12,
                       offset: 0,
                     }}
                     xl={{
@@ -2122,7 +2112,7 @@ function Projects() {
                     }}
                     xxl={{
                       span: 6,
-                      offset: 3,
+                      offset: 2,
                     }} >
                     <div>
                       <Zoom>
@@ -2144,7 +2134,7 @@ function Projects() {
                       offset: 0,
                     }}
                     md={{
-                      span: 10,
+                      span: 6,
                       offset: 0,
                     }}
                     xl={{
@@ -2186,7 +2176,7 @@ function Projects() {
                       offset: 0,
                     }}
                     md={{
-                      span: 8,
+                      span: 12,
                       offset: 0,
                     }}
                     xl={{
@@ -2195,7 +2185,7 @@ function Projects() {
                     }}
                     xxl={{
                       span: 6,
-                      offset: 3,
+                      offset: 4,
                     }} >
                     <div>
                       <Zoom>
@@ -2217,7 +2207,7 @@ function Projects() {
                       offset: 1,
                     }}
                     md={{
-                      span: 10,
+                      span: 6,
                       offset: 0,
                     }}
                     xl={{
@@ -2225,7 +2215,7 @@ function Projects() {
                       offset: 0,
                     }}
                     xxl={{
-                      span: 10,
+                      span: 12,
                       offset: 1,
                     }} >
                     <p className={styles.subhead19}>

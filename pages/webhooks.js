@@ -139,7 +139,7 @@ function Fixed() {
           }} >
 
           <Affix offsetTop={top}>
-            <Button style={{ color: 'black', width: '200px', marginLeft: '50px', marginTop: '30px' }}  >
+            <Button style={{ color: 'black', width: '200px', marginLeft: '30px', marginTop: '30px' }}  >
               Web Hooks
             </Button>
           </Affix>
@@ -250,7 +250,7 @@ function Fixed() {
           }} >
 
           <Affix offsetTop={top}>
-            <Button style={{ color: 'black', width: '200px', marginLeft: '50px', marginTop: '30px' }}  >
+            <Button style={{ color: 'black', width: '200px', marginLeft: '30px', marginTop: '30px' }}  >
               New Webhook
             </Button>
           </Affix>
@@ -371,7 +371,7 @@ function Fixed() {
           }} >
 
           <Affix offsetTop={top}>
-            <Button style={{ color: 'black', width: '200px', marginLeft: '50px', marginTop: '30px' }} >
+            <Button style={{ color: 'black', width: '200px', marginLeft: '30px', marginTop: '30px' }} >
               Log History
             </Button>
           </Affix>
