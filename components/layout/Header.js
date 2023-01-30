@@ -141,7 +141,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li>
                             <li>
-                              <Link href="EstimatesReq">
+                              <Link href="EstimateReq">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Estimates Request
@@ -465,7 +465,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li> */}
 
                             <li>
-                              <Link href="webhooks">
+                              <Link href="webhook">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Web Hooks
