@@ -138,34 +138,34 @@ function Leadmanagement() {
         <Col className={styles.margintop}>
 
           <Row>
-            <Col xs={{
-              span: 22,
-              offset: 1,
+          <Col xs={{
+            span: 18,
+            offset: 3,
+          }}
+
+            sm={{
+              span: 20,
+              offset: 2,
             }}
 
-              sm={{
-                span: 22,
-                offset: 0,
-              }}
+            md={{
+              span: 18,
+              offset: 3,
+            }}
 
-              md={{
-                span: 22,
-                offset: 1,
-              }}
+            lg={{
+              span: 12,
+              offset: 6,
+            }}
+            xl={{
+              span: 11,
+              offset: 2,
+            }}
+            xxl={{
 
-              lg={{
-                span: 10,
-                offset: 3,
-              }}
-              xl={{
-                span: 10,
-                offset: 2,
-              }}
-              xxl={{
-
-                span: 8,
-                offset: 3
-              }}>
+              span: 12,
+              offset: 1,
+            }}>
               <h3 className={styles.headings}>Dashboard</h3>
             </Col>
           </Row>
@@ -176,96 +176,93 @@ function Leadmanagement() {
 
 
            
+          <Col xs={{
+            span: 20,
+            offset: 2,
+          }}
 
-            <Col xs={{
+            sm={{
               span: 20,
               offset: 2,
             }}
 
-              sm={{
-                span: 20,
-                offset: 2,
-              }}
+            md={{
+              span: 20,
+              offset: 2,
+            }}
 
-              md={{
-                span: 20,
-                offset: 2,
-              }}
+            lg={{
+              span: 20,
+              offset: 2,
+            }}
+            xl={{
+              span: 11,
+              offset: 2,
+            }}
+            xxl={{
 
-              lg={{
-                span: 13,
-                offset: 1,
-              }}
-              xl={{
-                span: 12,
-                offset: 1,
-              }}
-              xxl={{
-
-                span: 13,
-                offset: 1
-              }}>
+              span: 11,
+              offset: 2,
+            }}>
 
               <img className={styles.img1} src="/hiring/pic1.png"></img>
             </Col>
 
 
 
-
             <Col xs={{
+            span: 22,
+            offset: 1,
+          }}
+
+            sm={{
               span: 20,
               offset: 2,
             }}
 
-              sm={{
-                span: 20,
-                offset: 2,
-              }}
+            md={{
+              span: 20,
+              offset: 2,
+            }}
 
-              md={{
-                span: 19,
-                offset: 2,
-              }}
+            lg={{
+              span: 20,
+              offset: 2,
+            }}
+            xl={{
+              span: 8,
+              offset: 1,
+            }}
+            xxl={{
 
-              lg={{
-                span: 8,
-                offset: 1,
-              }}
-              xl={{
-                span: 8,
-                offset: 1,
-              }}
-              xxl={{
-
-                span: 8,
-                offset: 1
-              }}>
-
+              span: 8,
+              offset: 1,
+            }}>
               <p className={styles.para}> 
               <li>
                   Campaigns in Progress: Active recruitment campaigns currently underway.
               </li>
 
-              <br/>
+            
 
               <li>
                   Completed Campaigns: Finished recruitment campaigns.
               </li>
               
-              <br></br>
+              
               <li>
                    Status of Hiring Campaigns: An overview of progress of recruitment campaigns, including candidates contacted, interviewed and hired.
 
               </li>
-              <br></br>
+             
               <li>
                    Candidates Need to Recruit: Number of candidates still needed to fill open positions.
               </li>
-              <br></br>
+             
               <li>
                    Candidates Recruited: Number of candidates successfully hired.
               </li>
-              <br></br>
+             
               <li>
                    Upcoming Interview: Number of scheduled interviews and their dates and times.
               </li>
@@ -294,12 +291,45 @@ function Leadmanagement() {
         {/* Campaign */}
 
         <Row className={styles.margintop2}>
-          <Col
+        <Col xs={{
+            span: 18,
+            offset: 3,
+          }}
 
-            xs={{
+            sm={{
               span: 20,
               offset: 2,
             }}
+
+            md={{
+              span: 18,
+              offset: 3,
+            }}
+
+            lg={{
+              span: 12,
+              offset: 6,
+            }}
+            xl={{
+              span: 11,
+              offset: 2,
+            }}
+            xxl={{
+
+              span: 12,
+              offset: 1,
+            }}>
+            <h3 className={styles.headings}>Campaign</h3>
+          </Col>
+
+
+        </Row>
+
+        <Row >
+        <Col xs={{
+            span: 20,
+            offset: 2,
+          }}
 
             sm={{
               span: 20,
@@ -312,87 +342,51 @@ function Leadmanagement() {
             }}
 
             lg={{
-              span: 13,
-              offset: 1,
-            }}
-            xl={{
-              span: 12,
-              offset: 0,
-            }}
-            xxl={{
-
-              span: 10,
-              offset: 2,
-            }}>
-            <h3 className={styles.headings}>Campaign</h3>
-          </Col>
-
-
-        </Row>
-
-        <Row >
-        <Col xs={{
               span: 20,
               offset: 2,
             }}
+            xl={{
+              span: 11,
+              offset: 2,
+            }}
+            xxl={{
 
-              sm={{
-                span: 20,
-                offset: 2,
-              }}
-
-              md={{
-                span: 20,
-                offset: 2,
-              }}
-
-              lg={{
-                span: 13,
-                offset: 1,
-              }}
-              xl={{
-                span: 12,
-                offset: 1,
-              }}
-              xxl={{
-
-                span: 13,
-                offset: 1
-              }}>
+              span: 11,
+              offset: 2,
+            }}>
 
             <img className={styles.img2} src="/hiring/pic2.png"></img>
 
           </Col>
 
           <Col xs={{
+            span: 22,
+            offset: 1,
+          }}
+
+            sm={{
               span: 20,
               offset: 2,
             }}
 
-              sm={{
-                span: 20,
-                offset: 2,
-              }}
+            md={{
+              span: 20,
+              offset: 2,
+            }}
 
-              md={{
-                span: 20,
-                offset: 2,
-              }}
+            lg={{
+              span: 20,
+              offset: 2,
+            }}
+            xl={{
+              span: 8,
+              offset: 1,
+            }}
+            xxl={{
 
-              lg={{
-                span: 8,
-                offset: 1,
-              }}
-              xl={{
-                span: 8,
-                offset: 1,
-              }}
-              xxl={{
-
-                span: 8,
-                offset: 1
-              }}>
-
+              span: 8,
+              offset: 1,
+            }}>
 
             <p className={styles.para1}>
               <li>
@@ -445,8 +439,8 @@ function Leadmanagement() {
                 }}
 
                 lg={{
-                  span: 10,
-                  offset: 12,
+                  span: 13,
+                  offset: 5,
                 }}
                 xl={{
                   span: 10,
@@ -464,8 +458,8 @@ function Leadmanagement() {
             <Row >
              
             <Col xs={{
-              span: 20,
-              offset: 2,
+              span: 22,
+              offset: 1,
             }}
 
               sm={{
@@ -479,8 +473,8 @@ function Leadmanagement() {
               }}
 
               lg={{
-                span: 8,
-                offset: 1,
+                span: 20,
+                offset: 2,
               }}
               xl={{
                 span: 8,
@@ -495,16 +489,16 @@ function Leadmanagement() {
                   <li>
                   Track and organize candidate information using unique identifier (Candidate code)
                   </li>
-                  <br></br>
+                 
                   <li>
                   Communicate and schedule interviews using candidate's contact information (name, email, phone number)
                   </li>
-                  <br></br>
+                 
                 
                   <li>
                      Understand candidate's stage in hiring process and make decisions (Status)
                   </li>
-                  <br></br>
+             
                  
                  
                 
@@ -535,8 +529,8 @@ function Leadmanagement() {
               }}
 
               lg={{
-                span: 13,
-                offset: 1,
+                span: 20,
+                offset: 2,
               }}
               xl={{
                 span: 12,
@@ -566,43 +560,41 @@ function Leadmanagement() {
         <div     >
 
           <Row className={styles.margintop4}>
-            <Col xs={{
-              span: 24,
-              offset: 0,
-            }}
-
-              sm={{
-                span: 13,
-                offset: 5,
+          <Col xs={{
+                span: 24,
+                offset: 0,
               }}
 
-              md={{
-                span: 13,
-                offset: 5,
-              }}
+                sm={{
+                  span: 13,
+                  offset: 5,
+                }}
 
-              lg={{
-                span: 10,
-                offset: 12,
-              }}
-              xl={{
-                span: 10,
-                offset: 12,
-              }}
-              xxl={{
+                md={{
+                  span: 13,
+                  offset: 5,
+                }}
 
-                span: 10,
-                offset: 11,
-              }}>
+                lg={{
+                  span: 13,
+                  offset: 5,
+                }}
+                xl={{
+                  span: 10,
+                  offset: 11,
+                }}
+                xxl={{
+
+                  span: 10,
+                  offset: 11
+                }}>
               <h3 className={styles.headings}>Interview Schedule</h3></Col>
           </Row>
 
           <Row >
-            
-
           <Col xs={{
-              span: 20,
-              offset: 2,
+              span: 22,
+              offset: 1,
             }}
 
               sm={{
@@ -616,8 +608,8 @@ function Leadmanagement() {
               }}
 
               lg={{
-                span: 8,
-                offset: 1,
+                span: 20,
+                offset: 2,
               }}
               xl={{
                 span: 8,
@@ -629,17 +621,16 @@ function Leadmanagement() {
                 offset: 1
               }}>
 
-
               <p className={styles.para1}>
                 <li>
                 Specific recruiting campaign or job listing for which the interview is being scheduled (Hiring campaign)
                 </li>
-                <br></br>
+              
                
                 <li>
                 Job position for which the candidate is being interviewed (Position)
                 </li>
-                <br></br>
+               
                 
                
                 <li>
@@ -669,8 +660,8 @@ function Leadmanagement() {
               }}
 
               lg={{
-                span: 13,
-                offset: 1,
+                span: 20,
+                offset: 2,
               }}
               xl={{
                 span: 12,
@@ -697,80 +688,114 @@ function Leadmanagement() {
 
 
             <Row>
-              <Col xs={{
-                span: 24,
-                offset: 1,
-              }}
+            <Col xs={{
+            span: 18,
+            offset: 3,
+          }}
 
-                sm={{
-                  span: 22,
-                  offset: 1,
-                }}
+            sm={{
+              span: 20,
+              offset: 2,
+            }}
 
-                md={{
-                  span: 21,
-                  offset: 1,
-                }}
+            md={{
+              span: 18,
+              offset: 3,
+            }}
 
-                lg={{
-                  span: 10,
-                  offset: 12,
-                }}
-                xl={{
-                  span: 9,
-                  offset: 12,
-                }}
-                xxl={{
+            lg={{
+              span: 12,
+              offset: 6,
+            }}
+            xl={{
+              span: 11,
+              offset: 2,
+            }}
+            xxl={{
 
-                  span: 15,
-                  offset: 9
-                }}>
-
+              span: 12,
+              offset: 1,
+            }}>
                 <h3 className={styles.headings}>Hiring Channels</h3></Col>
             </Row>
 
             <Row >
+           
+          
               <Col xs={{
-                span: 22,
-                offset: 1,
-              }}
+            span: 20,
+            offset: 2,
+          }}
 
-                sm={{
-                  span: 22,
-                  offset: 1,
-                }}
+            sm={{
+              span: 20,
+              offset: 2,
+            }}
 
-                md={{
-                  span: 20,
-                  offset: 2,
-                }}
+            md={{
+              span: 20,
+              offset: 2,
+            }}
 
-                lg={{
-                  span: 9,
-                  offset: 1,
-                }}
-                xl={{
-                  span: 8,
-                  offset: 0,
-                }}
-                xxl={{
+            lg={{
+              span: 20,
+              offset: 2,
+            }}
+            xl={{
+              span: 11,
+              offset: 2,
+            }}
+            xxl={{
 
-                  span: 8,
-                  offset: 1,
-                }}>
+              span: 11,
+              offset: 2,
+            }}>
+
+                <img className={styles.img5} src="/hiring/pic5.png"></img>
+              </Col>
+
+
+              <Col xs={{
+            span: 22,
+            offset: 1,
+          }}
+
+            sm={{
+              span: 20,
+              offset: 2,
+            }}
+
+            md={{
+              span: 20,
+              offset: 2,
+            }}
+
+            lg={{
+              span: 20,
+              offset: 2,
+            }}
+            xl={{
+              span: 8,
+              offset: 1,
+            }}
+            xxl={{
+
+              span: 8,
+              offset: 1,
+            }}>
                 <p className={styles.para1}>
                   <li>
                    Form builder and Form information: Tool for creating and designing forms easily and efficiently.
                      </li>
-                     <br></br>
+                     
                      <li>
                      Can create various forms such as surveys, registration forms, contact forms
                      </li>
-                     <br></br>
+                    
                      <li>
                      Includes drag-and-drop functionality, templates, and customization options.
                      </li>
-                     <br></br>
+                     
                      <li>
                      Allows for easy distribution and data collection
                      </li>
@@ -781,37 +806,6 @@ function Leadmanagement() {
               </Space> */}
               </Col>
 
-              <Col xs={{
-                span: 20,
-                offset: 2,
-              }}
-
-                sm={{
-                  span: 20,
-                  offset: 0,
-                }}
-
-                md={{
-                  span: 20,
-                  offset: 0,
-                }}
-
-                lg={{
-                  span: 12,
-                  offset: 1,
-                }}
-                xl={{
-                  span: 13,
-                  offset: 0,
-                }}
-                xxl={{
-
-                  span: 13,
-                  offset: 1
-                }}>
-
-                <img className={styles.img5} src="/hiring/pic5.png"></img>
-              </Col>
 
             </Row>
 
@@ -826,6 +820,44 @@ function Leadmanagement() {
 
 
         <Row className={styles.margintop6}>
+        <Col xs={{
+            span: 18,
+            offset: 3,
+          }}
+
+            sm={{
+              span: 20,
+              offset: 2,
+            }}
+
+            md={{
+              span: 18,
+              offset: 3,
+            }}
+
+            lg={{
+              span: 12,
+              offset: 6,
+            }}
+            xl={{
+              span: 11,
+              offset: 2,
+            }}
+            xxl={{
+
+              span: 12,
+              offset: 1,
+            }}>
+            <h3 className={styles.headings}>Hiring Portal</h3>
+          </Col>
+        </Row>
+
+        <Row>
+
+
+      
+
+
           <Col xs={{
             span: 20,
             offset: 2,
@@ -837,78 +869,76 @@ function Leadmanagement() {
             }}
 
             md={{
-              span: 20,
-              offset: 2,
+              span: 17,
+              offset: 4,
             }}
 
             lg={{
               span: 12,
-              offset: 11,
+              offset: 6,
             }}
             xl={{
-              span: 13,
-              offset: 9,
+              span: 11,
+              offset: 2,
             }}
             xxl={{
 
-              span: 12,
-              offset: 0,
+              span: 11,
+              offset: 2,
             }}>
-            <h3 className={styles.headings}>Hiring Portal</h3>
+
+            <img className={styles.img6} src="/hiring/pic6.png"></img>
           </Col>
-        </Row>
-
-        <Row>
 
 
-          
-        <Col xs={{
-            span: 21,
+
+  
+          <Col xs={{
+            span: 22,
             offset: 1,
           }}
 
             sm={{
-              span: 21,
-              offset: 1,
-            }}
-
-            md={{
               span: 20,
               offset: 2,
             }}
 
+            md={{
+              span: 17,
+              offset: 4,
+            }}
+
             lg={{
-              span: 9,
-              offset: 1,
+              span: 12,
+              offset: 6,
             }}
             xl={{
               span: 8,
-              offset: 3,
+              offset: 1,
             }}
             xxl={{
 
-              span: 5,
-              offset: 4,
+              span: 8,
+              offset: 1,
             }}>
-
 
             <p className={styles.para1}>
               <li>
                   Search by specific skills
               </li>
-              <br></br>
+             
               <li>
               Search by job title
               </li>
-              <br></br>
+             
               <li>
               Search by experience level
               </li>
-              <br></br>
+             
               <li>
               Search by location
               </li>
-              <br></br>
+             
               <li>
               Search by company,etc.
               </li>
@@ -921,41 +951,6 @@ function Leadmanagement() {
               </Space> */}
 
           </Col>
-
-
-
-
-          <Col xs={{
-            span: 20,
-            offset: 2,
-          }}
-
-            sm={{
-              span: 20,
-              offset: 2,
-            }}
-
-            md={{
-              span: 20,
-              offset: 2,
-            }}
-
-            lg={{
-              span: 12,
-              offset: 1,
-            }}
-            xl={{
-              span: 8,
-              offset: 0,
-            }}
-            xxl={{
-
-              span: 10,
-              offset: 1,
-            }}>
-            <img className={styles.img6} src="/hiring/pic6.png"></img>
-          </Col>
-
 
 
         </Row>

@@ -110,19 +110,13 @@ function Accounting() {
 
                 xxl={{
 
-                  span: 8,
-                  offset: 3,
+                  span: 8 ,
+                  offset: 1,
                 }}>   <h1 className={styles.headingsheader}>Accounting</h1>
 
                 <p className={styles.paraheader}>
                      
-                        An ERP system ensures that your accounting is automated.
-               
-                        It simplifies operations related to accounts receivable,accounts payable, improves cash flow problems, and cash management.
-                        It becomes pretty easier to manage the entire organization  by generating information and compiling it.
-                        
-                  
-                     </p>
+                ShadobooksERP provides real-time data that enables your finance team to anticipate and take necessary steps to fulfill financial obligations and achieve goals in a timely manner. Additionally, it ensures that the reports generated are in compliance with the regulations of the region and are based on the International Financial Reporting Standards (IFRS), allowing your team to be at ease and confident in the accuracy of the financial information.</p>
 
               </Col>
 
@@ -154,7 +148,7 @@ function Accounting() {
                 xxl={{
 
                   span: 8,
-                  offset: 2,
+                  offset: 3,
                 }}>
                 <img className={styles.box} src="/logo1/vector2.png"></img>
               </Col>
@@ -173,136 +167,6 @@ function Accounting() {
 
         <Row className={styles.margintop1}>
         <Col xs={{
-          span: 19,
-          offset: 2,
-        }}
-
-          sm={{
-            span: 18,
-            offset: 3,
-          }}
-
-          md={{
-            span: 10,
-            offset: 7,
-          }}
-
-          lg={{
-            span: 10,
-            offset: 7,
-          }}
-          xl={{
-            span: 12,
-            offset: 6,
-          }}
-          xxl={{
-
-            span: 6,
-            offset: 9,
-          }}>
-            <h3 className={styles.headings}>Dashboard</h3>
-          </Col>
-
-
-
-
-
-          
-        <Col xs={{
-          span: 20,
-          offset: 2,
-        }}
-
-          sm={{
-            span: 20,
-            offset: 2,
-          }}
-
-          md={{
-            span: 20,
-            offset: 0,
-          }}
-
-          lg={{
-            span: 20,
-            offset: 0,
-          }}
-          xl={{
-            span: 18,
-            offset: 3,
-          }}
-          xxl={{
-
-            span: 18,
-            offset: 5,
-          }}>
-            <img className={styles.img1} src="/accountingpage/pic1.png"></img>
-          </Col>
-
-        
-            
-          <Col xs={{
-          span: 21,
-          offset: 2,
-        }}
-
-          sm={{
-            span: 20,
-            offset: 2,
-          }}
-
-          md={{
-            span: 20,
-            offset: 2,
-          }}
-
-          lg={{
-            span: 20,
-            offset: 2,
-          }}
-          xl={{
-            span: 18,
-            offset: 3,
-          }}
-          xxl={{
-
-            span: 15,
-            offset: 5,
-          }}>
-
-
-            <p className={styles.para1}>
-              <li>
-              	ShadobooksERP Accounting dashboard allows users to view and manage their financial data in an organized and visually appealing way. 
-              </li>
-              <br></br>
-            <li>
-            	It typically includes a variety of widgets and charts that display information such as income and expenses, profit and loss, and balances for different accounts. 
-            </li>
-            <br></br>
-            <li>
-            	Users can customize the dashboard to show the information that is most relevant to them, and can also set up alerts and notifications for specific events.
-            </li>
-            </p>
-
-            {/* <Space>
-            <Button className={styles.buttonres1}>Learn More</Button>
-          </Space> */}
-
-          </Col>
-
-        </Row>
-
-
-
-
-
-
-
-        {/* Banking */}
-
-        <Row className={styles.margintop2}>
-          <Col xs={{
             span: 18,
             offset: 3,
           }}
@@ -327,16 +191,17 @@ function Accounting() {
             }}
             xxl={{
 
-              span: 14,
+              span: 12,
               offset: 2,
             }}>
-            <h3 className={styles.headings}>Banking</h3>
+            <h3 className={styles.headings}>Dashboard</h3>
           </Col>
-        </Row>
 
 
 
-        <Row>
+
+
+         
           <Col xs={{
             span: 20,
             offset: 2,
@@ -357,20 +222,21 @@ function Accounting() {
               offset: 2,
             }}
             xl={{
-              span: 12,
-              offset: 0,
+              span: 11,
+              offset: 2,
             }}
             xxl={{
 
-              span: 12,
-              offset: 3,
+              span: 11,
+              offset: 2,
             }}>
-            <img className={styles.img2} src="/accountingpage/pic2.png"></img>
+            <img className={styles.img1} src="/accountingpage/pic1.png"></img>
           </Col>
-
-
+      
+        
+       
           <Col xs={{
-            span: 23,
+            span: 22,
             offset: 1,
           }}
 
@@ -394,23 +260,149 @@ function Accounting() {
             }}
             xxl={{
 
-              span: 7,
-              offset: 0,
+              span: 8,
+              offset: 1,
             }}>
+            <p className={styles.para1}>
+              <li>
+              	ShadobooksERP Accounting dashboard allows users to view and manage their financial data in an organized and visually appealing way. 
+              </li>
+              
+            <li>
+            	It typically includes a variety of widgets and charts that display information such as income and expenses, profit and loss, and balances for different accounts. 
+            </li>
+           
+            <li>
+            	Users can customize the dashboard to show the information that is most relevant to them, and can also set up alerts and notifications for specific events.
+            </li>
+            </p>
 
+            {/* <Space>
+            <Button className={styles.buttonres1}>Learn More</Button>
+          </Space> */}
+
+          </Col>
+
+        </Row>
+
+
+
+
+
+
+
+        {/* Banking */}
+
+        <Row className={styles.margintop2}>
+         <Col xs={{
+            span: 18,
+            offset: 3,
+          }}
+
+            sm={{
+              span: 20,
+              offset: 2,
+            }}
+
+            md={{
+              span: 18,
+              offset: 3,
+            }}
+
+            lg={{
+              span: 12,
+              offset: 6,
+            }}
+            xl={{
+              span: 6,
+              offset: 5,
+            }}
+            xxl={{
+
+              span: 12,
+              offset: 1,
+            }}>
+            <h3 className={styles.headings}>Banking</h3>
+          </Col>
+        </Row>
+
+
+
+        <Row>
+        <Col xs={{
+            span: 20,
+            offset: 2,
+          }}
+
+            sm={{
+              span: 20,
+              offset: 2,
+            }}
+
+            md={{
+              span: 20,
+              offset: 2,
+            }}
+
+            lg={{
+              span: 20,
+              offset: 2,
+            }}
+            xl={{
+              span: 11,
+              offset: 2,
+            }}
+            xxl={{
+
+              span: 11,
+              offset: 2,
+            }}>
+            <img className={styles.img2} src="/accountingpage/pic2.png"></img>
+          </Col>
+
+
+      
+          <Col xs={{
+            span: 22,
+            offset: 1,
+          }}
+
+            sm={{
+              span: 20,
+              offset: 2,
+            }}
+
+            md={{
+              span: 20,
+              offset: 2,
+            }}
+
+            lg={{
+              span: 20,
+              offset: 2,
+            }}
+            xl={{
+              span: 8,
+              offset: 1,
+            }}
+            xxl={{
+
+              span: 8,
+              offset: 1,
+            }}>
 
             <p className={styles.para2}>
               <li>
               	The Banking sub-module in ShadobooksERP Accounting feature allows users to manage their bank transactions within the software. 
                 </li>
-                <br></br>
+              
                 <li>	It includes features such as connecting to bank accounts, automatically importing bank transactions, reconciling bank statements.
                   </li>
-                  <br></br>
+                 
                   <li>
                   	With this, user can easily track and manage their bank transactions, which can help them to make better-informed decisions. 
                   </li>
-                  <br></br>
+                
                   <li>
                   	Additionally, the it can help users automate their accounting processes and reduce errors, which can save them time and money.
                   </li>
@@ -431,7 +423,7 @@ function Accounting() {
 
 
         <Row className={styles.margintop3}>
-          <Col xs={{
+        <Col xs={{
             span: 18,
             offset: 3,
           }}
@@ -448,19 +440,19 @@ function Accounting() {
 
             lg={{
               span: 12,
-              offset: 2,
+              offset: 6,
             }}
             xl={{
               span: 12,
-              offset: 2,
+              offset: 6,
             }}
             xxl={{
 
-              span: 7,
-              offset: 5,
+              span: 12,
+              offset: 6,
             }}>
-            <h3 className={styles.headings}>Transactions</h3>
-          </Col>
+              <h3 className={styles.headings}>Transactions</h3>
+              </Col>
         </Row>
 
 
@@ -469,7 +461,7 @@ function Accounting() {
         <Row>
 
 
-          <Col xs={{
+        <Col xs={{
             span: 20,
             offset: 2,
           }}
@@ -480,30 +472,29 @@ function Accounting() {
             }}
 
             md={{
-              span: 22,
+              span: 20,
               offset: 2,
             }}
 
             lg={{
-              span: 12,
-              offset: 0,
+              span: 16,
+              offset: 4,
             }}
             xl={{
-              span: 12,
-              offset: 0,
+              span: 16,
+              offset: 4,
             }}
             xxl={{
 
-              span: 12,
-              offset: 3,
+              span: 16,
+              offset: 4,
             }}>
             <img className={styles.img3} src="/accountingpage/pic3.png"></img>
           </Col>
 
 
-          
          
-        <Col xs={{
+          <Col xs={{
             span: 22,
             offset: 1,
           }}
@@ -519,32 +510,33 @@ function Accounting() {
             }}
 
             lg={{
-              span: 8,
-              offset: 1,
+              span: 16,
+              offset: 4,
             }}
             xl={{
-              span: 8,
-              offset: 1,
+              span: 16,
+              offset: 4,
             }}
             xxl={{
 
-              span: 7,
-              offset: 1,
+              span: 16,
+              offset: 4,
             }}>
+
 
             <p className={styles.para3}>
               <li>
               The Transactions sub-module in ShadobooksERP Accounting feature includes, creating and managing invoices, vouchers, estimates, purchase orders, payslips and credit notes. </li>
-                <br></br>
+               
 
                 <li>
                 	It allows users to track and manage their payments, and apply credits to invoices. 
                   </li>
-                  <br></br>
+                
                   <li>
                   	This feature also allows the user to generate reports on transactions, such as revenue, expenses, and outstanding invoices. 
                   </li>
-                  <br></br>
+                
                   <li>
                   	It can also automate accounting tasks, save time and reduce errors.
                   </li>
@@ -571,14 +563,14 @@ function Accounting() {
         {/* Journal Entry */}
 
         <Row className={styles.margintop4}>
-          <Col xs={{
-            span: 19,
+        <Col xs={{
+            span: 18,
             offset: 3,
           }}
 
             sm={{
-              span: 18,
-              offset: 3,
+              span: 20,
+              offset: 2,
             }}
 
             md={{
@@ -587,8 +579,8 @@ function Accounting() {
             }}
 
             lg={{
-              span: 10,
-              offset: 7,
+              span: 12,
+              offset: 6,
             }}
             xl={{
               span: 12,
@@ -596,50 +588,17 @@ function Accounting() {
             }}
             xxl={{
 
-              span: 7,
-              offset: 8,
+              span: 12,
+              offset: 6,
             }}>
             <h3 className={styles.headings}>Journal Entry</h3>
           </Col>
+</Row>
 
 
 
 
-          <Col xs={{
-            span: 0,
-            offset: 0,
-          }}
-
-            sm={{
-              span: 0,
-              offset: 0,
-            }}
-
-            md={{
-              span: 0,
-              offset: 0,
-            }}
-
-            lg={{
-              span: 0,
-              offset: 0,
-            }}
-            xl={{
-              span: 0,
-              offset: 0,
-            }}
-            xxl={{
-
-              span: 0,
-              offset: 0,
-            }}>
-
-            <img className={styles.logo} src="/logo1/vector1.png"></img>
-          </Col>
-
-
-
-
+<Row>
 
           <Col xs={{
             span: 20,
@@ -657,17 +616,17 @@ function Accounting() {
             }}
 
             lg={{
-              span: 20,
-              offset: 0,
+              span: 16,
+              offset: 4,
             }}
             xl={{
-              span: 18,
-              offset: 3,
+              span: 16,
+              offset: 4,
             }}
             xxl={{
 
-              span: 13,
-              offset: 5,
+              span: 16,
+              offset: 4,
             }}>
             <img className={styles.img4} src="/accountingpage/pic4.png"></img>
           </Col>
@@ -677,10 +636,9 @@ function Accounting() {
 
 
 
-        </Row>
-
-        <Row>
-          <Col xs={{
+        
+         
+        <Col xs={{
             span: 22,
             offset: 1,
           }}
@@ -696,34 +654,34 @@ function Accounting() {
             }}
 
             lg={{
-              span: 19,
-              offset: 2,
+              span: 16,
+              offset: 4,
             }}
             xl={{
-              span: 18,
-              offset: 3,
+              span: 16,
+              offset: 4,
             }}
             xxl={{
 
-              span: 13,
-              offset: 5,
+              span: 16,
+              offset: 4,
             }}>
 
             <p className={styles.para4}>
               <li>
               	The Journal Entry sub-module in ShadobooksERP Accounting feature enables users to record and manage their financial transactions in the form of journal entries. 
                 </li>
-                <br></br>
+               
                 <li>
                 	It enables users to record journal entries, including the ability to create and manage journal entries, record and track payments, debits and apply credits to invoices.
                 </li>
-                <br></br>
+             
 
                 <li>
 
                 It also allows the user to post journal entries to the general ledger and generate reports on journal entries.  
                   </li>
-                  <br></br>
+                 
                   <li>
                   	It can also help to maintain the integrity of financial records and ensure compliance with accounting principles.
                   </li>
@@ -743,14 +701,15 @@ function Accounting() {
         {/* Transfer */}
 
         <Row className={styles.margintop5}>
-          <Col xs={{
-            span: 19,
-            offset: 2,
+       
+        <Col xs={{
+            span: 18,
+            offset: 3,
           }}
 
             sm={{
-              span: 18,
-              offset: 3,
+              span: 20,
+              offset: 2,
             }}
 
             md={{
@@ -759,24 +718,25 @@ function Accounting() {
             }}
 
             lg={{
-              span: 10,
-              offset: 7,
-            }}
-            xl={{
               span: 12,
               offset: 6,
             }}
+            xl={{
+              span: 12,
+              offset: 2,
+            }}
             xxl={{
 
-              span: 7,
-              offset: 8,
+              span: 14,
+              offset: 1,
             }}>
             <h3 className={styles.headings}>Transfer</h3>
           </Col>
+</Row>
 
 
 
-
+<Row>
 
           <Col xs={{
             span: 20,
@@ -795,26 +755,24 @@ function Accounting() {
 
             lg={{
               span: 20,
-              offset: 0,
+              offset: 2,
             }}
             xl={{
-              span: 18,
-              offset: 3,
+              span: 12,
+              offset: 2,
             }}
             xxl={{
 
-              span: 13,
-              offset: 5,
+              span: 12,
+              offset: 2,
             }}>
             <img className={styles.img5} src="/accountingpage/pic5.png"></img>
           </Col>
 
-        </Row>
+       
+        
 
-
-
-        <Row>
-          <Col xs={{
+        <Col xs={{
             span: 22,
             offset: 1,
           }}
@@ -830,30 +788,31 @@ function Accounting() {
             }}
 
             lg={{
-              span: 19,
+              span: 20,
               offset: 2,
             }}
             xl={{
-              span: 18,
-              offset: 3,
+              span: 8,
+              offset: 1,
             }}
             xxl={{
 
-              span: 13,
-              offset: 5,
+              span: 8,
+              offset: 1,
             }}>
+
 
 
             <p className={styles.para5}>
               <li>
               	In ShadobooksERP, this feature allows the user to record financial transactions such as transferring money from one account to another. 
                 </li>
-                <br></br>
+             
 
                 <li>
                	This will help users to keep track of their financial transactions and maintain the integrity of their financial records. 
                 </li>
-                <br></br>
+              
                 <li>
                 	Additionally, this feature can also be used to record inter-company transactions.
                 </li>
@@ -930,7 +889,7 @@ function Accounting() {
             }}
             xl={{
               span: 12,
-              offset: 0,
+              offset: 2,
             }}
             xxl={{
 
@@ -942,7 +901,7 @@ function Accounting() {
 
 
           <Col xs={{
-            span: 23,
+            span: 22,
             offset: 1,
           }}
 
@@ -966,24 +925,23 @@ function Accounting() {
             }}
             xxl={{
 
-              span: 7,
-              offset: 0,
+              span: 8,
+              offset: 1,
             }}>
-
 
             <p className={styles.para6}>
               <li>
               	In ShadobooksERP the Chart of Accounts sub-module feature allows users to manage and organize their financial accounts. 
                 </li>
-                <br></br>
+               
                 <li>
                 	This includes creating and managing different types of accounts, such as income, expense, asset, liability, and equity accounts. 
                   </li> 
-                  <br></br>
+                 
                   <li>
                   This feature enables users to choose a ledger from the list of sub-ledgers
                   </li>
-                  <br></br>
+                  
                   <li>
                   It can also help to maintain the integrity of financial records and ensure compliance with accounting principles.
                   </li>
@@ -1006,7 +964,7 @@ function Accounting() {
 
 
         <Row className={styles.margintop7}>
-          <Col xs={{
+        <Col xs={{
             span: 18,
             offset: 3,
           }}
@@ -1017,22 +975,22 @@ function Accounting() {
             }}
 
             md={{
-              span: 20,
-              offset: 2,
+              span: 18,
+              offset: 3,
             }}
 
             lg={{
               span: 12,
-              offset: 0,
+              offset: 6,
             }}
             xl={{
               span: 12,
-              offset: 0,
+              offset: 2,
             }}
             xxl={{
 
-              span: 7,
-              offset: 4,
+              span: 14,
+              offset: 1,
             }}>
             <h3 className={styles.headings}> Reconcile</h3>
           </Col>
@@ -1042,7 +1000,7 @@ function Accounting() {
 
         <Row>
 
-          <Col xs={{
+        <Col xs={{
             span: 20,
             offset: 2,
           }}
@@ -1058,12 +1016,12 @@ function Accounting() {
             }}
 
             lg={{
-              span: 13,
-              offset: 0,
+              span: 20,
+              offset: 2,
             }}
             xl={{
               span: 12,
-              offset: 0,
+              offset: 2,
             }}
             xxl={{
 
@@ -1078,7 +1036,8 @@ function Accounting() {
 
 
          
-        <Col xs={{
+       
+          <Col xs={{
             span: 22,
             offset: 1,
           }}
@@ -1086,7 +1045,7 @@ function Accounting() {
             sm={{
               span: 20,
               offset: 2,
-            }}
+            }}    
 
             md={{
               span: 20,
@@ -1094,8 +1053,8 @@ function Accounting() {
             }}
 
             lg={{
-              span: 8,
-              offset: 1,
+              span: 20,
+              offset: 2,
             }}
             xl={{
               span: 8,
@@ -1103,21 +1062,20 @@ function Accounting() {
             }}
             xxl={{
 
-              span: 7,
+              span: 8,
               offset: 1,
             }}>
-
 
 
             <p className={styles.para7}>
               <li>
               	The Reconcile module allows users to match their bank and credit card transactions with the corresponding entries in their ShadobooksERP.
                 </li>
-                <br></br>
+               
                 <li>
                 	It helps users to quickly match transactions and make any necessary adjustments. 
                 </li>
-                <br></br>
+               
                 <li>
                 Additionally, the module can help users to reconcile their transactions with their general ledger, ensuring that their financial statements are accurate.
                 </li>
@@ -1142,7 +1100,7 @@ function Accounting() {
 
 
         <Row className={styles.margintop8}>
-          <Col xs={{
+        <Col xs={{
             span: 18,
             offset: 3,
           }}
@@ -1159,7 +1117,7 @@ function Accounting() {
 
             lg={{
               span: 12,
-              offset: 0,
+              offset: 6,
             }}
             xl={{
               span: 12,
@@ -1167,8 +1125,8 @@ function Accounting() {
             }}
             xxl={{
 
-              span: 8,
-              offset: 4,
+              span: 14,
+              offset: 1,
             }}>
             <h3 className={styles.headings}> Budget</h3>
           </Col>
@@ -1179,7 +1137,7 @@ function Accounting() {
 
         <Row>
 
-          <Col xs={{
+        <Col xs={{
             span: 20,
             offset: 2,
           }}
@@ -1195,12 +1153,12 @@ function Accounting() {
             }}
 
             lg={{
-              span: 12,
-              offset: 0,
+              span: 20,
+              offset: 2,
             }}
             xl={{
               span: 12,
-              offset: 0,
+              offset: 2,
             }}
             xxl={{
 
@@ -1227,8 +1185,8 @@ function Accounting() {
             }}
 
             lg={{
-              span: 8,
-              offset: 1,
+              span: 20,
+              offset: 2,
             }}
             xl={{
               span: 8,
@@ -1236,19 +1194,18 @@ function Accounting() {
             }}
             xxl={{
 
-              span: 7,
+              span: 8,
               offset: 1,
             }}>
-
 
             <p className={styles.para8}>
               <li>
                	The module enables users to set financial goals for various departments or divisions within their company, and then track their actual financial performance against those goals. </li>
-                <br></br>
+               
                 <li>
                 	Users can create budgets for different time periods, such as monthly, quarterly, or annually, and can compare actual financial results with budgeted results in real-time. 
                 </li>
-                <br></br>
+              
                 <li>
                 It allows users to monitor budget variances and take corrective actions if needed.
 
@@ -1316,7 +1273,7 @@ function Accounting() {
 
 
         <Row className={styles.margintop9}>
-          <Col xs={{
+        <Col xs={{
             span: 18,
             offset: 3,
           }}
@@ -1327,8 +1284,8 @@ function Accounting() {
             }}
 
             md={{
-              span: 20,
-              offset: 2,
+              span: 18,
+              offset: 3,
             }}
 
             lg={{
@@ -1341,8 +1298,8 @@ function Accounting() {
             }}
             xxl={{
 
-              span: 10,
-              offset: 3,
+              span: 14,
+              offset: 1,
             }}>
             <h3 className={styles.headings}> Setting</h3>
           </Col>
@@ -1352,7 +1309,7 @@ function Accounting() {
 
         <Row>
 
-          <Col xs={{
+        <Col xs={{
             span: 20,
             offset: 2,
           }}
@@ -1373,7 +1330,7 @@ function Accounting() {
             }}
             xl={{
               span: 12,
-              offset: 0,
+              offset: 2,
             }}
             xxl={{
 
@@ -1386,8 +1343,8 @@ function Accounting() {
 
 
         
-         
-        <Col xs={{
+        
+          <Col xs={{
             span: 22,
             offset: 1,
           }}
@@ -1412,20 +1369,18 @@ function Accounting() {
             }}
             xxl={{
 
-              span: 7,
+              span: 8,
               offset: 1,
             }}>
-
-
             <p className={styles.para10}>
               <li>
               	In ShadobooksERP, this module allows users to configure and customize various aspects of the accounting module to suit their organization's specific needs. 
                 </li>
-                <br></br>
+               
                 <li>
                 	It enables users to set up their financial chart of accounts, define their tax codes, set up currency exchange rates, and more. 
                 </li>
-                <br></br>
+               
                 <li>
                 	The module also allows users to make changes to the functionalities of the accounting module, such as the default account type, transaction numbering, and the default date format.
                 </li>

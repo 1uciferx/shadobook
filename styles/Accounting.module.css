@@ -7,9 +7,10 @@
 .para1
 
 {
-    text-align: center;
+ 
+    text-align:justify;
     font-size: 18px;  
-    text-align: start;
+   
     line-height: 30px;
     font-family: Segoe UI; 
     color:rgb(0, 0, 0);
@@ -24,7 +25,8 @@
 {
     
     font-size: 18px;  
-    text-align: start;
+   
+    text-align:justify;
     line-height: 30px;
     font-family: Segoe UI; 
     color:rgb(0, 0, 0);
@@ -36,7 +38,8 @@
 .para3{
    
     font-size: 18px;  
-    text-align: start;
+    
+    text-align:justify;
     line-height: 30px;
     font-family: Segoe UI; 
     color:rgb(0, 0, 0);
@@ -49,9 +52,9 @@
 
 .para4{
 
-    text-align: center;
+    text-align:justify;
     font-size: 18px;  
-    text-align: start;
+   
     line-height: 30px;
     font-family: Segoe UI; 
     color:rgb(0, 0, 0);
@@ -64,9 +67,9 @@
 
 .para5{
 
-    text-align: center;
+    text-align:justify;
     font-size: 18px;  
-    text-align: start;
+   
     line-height: 30px;
     font-family: Segoe UI; 
     color:rgb(0, 0, 0);
@@ -78,9 +81,9 @@
 
 .para6{
 
-    text-align: center;
+    text-align:justify;
     font-size: 18px;  
-    text-align: start;
+  
     line-height: 30px;
     font-family: Segoe UI; 
     color:rgb(0, 0, 0);
@@ -92,9 +95,9 @@
 
 .para7{
 
-    text-align: center;
+    text-align:justify;
     font-size: 18px;  
-    text-align: start;
+    
     line-height: 30px;
     font-family: Segoe UI; 
     color:rgb(0, 0, 0);
@@ -105,10 +108,9 @@
 }
 
 .para8{
-
-    text-align: center;
+    text-align:justify;
     font-size: 18px;  
-    text-align: start;
+   
     line-height: 30px;
     font-family: Segoe UI; 
     color:rgb(0, 0, 0);
@@ -121,9 +123,9 @@
 
 .para9{
 
-    text-align: center;
+    text-align:justify;
     font-size: 18px;  
-    text-align: start;
+    
     line-height: 30px;
     font-family: Segoe UI; 
     color:rgb(0, 0, 0);
@@ -135,9 +137,9 @@
 
 .para10{
 
-    text-align: center;
+    text-align:justify;
     font-size: 18px;  
-    text-align: start;
+   
     line-height: 30px;
     font-family: Segoe UI; 
     color:rgb(0, 0, 0);
@@ -149,7 +151,10 @@
 }
 
 
-
+.aligncenter{
+  margin:auto;
+  text-align: center;
+}
 
 .headings{
 
@@ -229,7 +234,8 @@
 .paraheader{
     
     font-size: 36px;
-    text-align: start;
+   
+    text-align:justify;
     line-height: 30px;
     font-family: Segoe UI; 
     color:white;
@@ -263,7 +269,7 @@
     margin-bottom: 0px;
     box-shadow: 1px 6px 3px ;
     border-radius: 15px;
-    height: 90%;
+   
 }
 
 
@@ -282,6 +288,7 @@
     margin-bottom: 10px;
     box-shadow: 1px 6px 3px ;
     border-radius: 15px;
+    width:120%
 }
 
 
@@ -412,7 +419,8 @@
 .paraheader{
     
        font-size: 16px;
-       text-align: center;
+       
+       text-align:justify;
        line-height: 30px;
        font-family: Segoe UI; 
        color:white;
@@ -505,7 +513,8 @@
    .paraheader{
     font-size: 16px;
     font-weight: 400;
-    text-align: center;
+   
+    text-align:justify;
    }
    .headingsheader{
     font-size: 38px;
@@ -523,6 +532,8 @@
 }
 .para1,.para2,.para3,.para4,.para5,.para6,.para7,.para8,.para9,.para10{
     font-size: 14px;
+    text-align:justify;
+  
 }
 
    }
@@ -706,7 +717,8 @@
     .paraheader{
         
         font-size: 18px;
-       text-align: start;
+      
+       text-align:justify;
         line-height: 30px;
         font-family: Segoe UI; 
         color:white;
@@ -793,6 +805,7 @@
         
         font-size: 18px;
         text-align: start;
+        text-align:justify;
         line-height: 30px;
         font-family: Segoe UI; 
         color:white;
