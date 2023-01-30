@@ -6,7 +6,7 @@ const Footer = () => {
 
             <footer className="footer mt-50" >
                 <div className="container">
-                    <div className="footer-top">
+                    {/* <div className="footer-top">
                         <div className="row">
                             {/* <div className="col-md-4 col-sm-6 text-center text-md-start">
                                 <Link href="/">
@@ -21,11 +21,15 @@ const Footer = () => {
                             {/* <span className="color-gray-900 text-heading-6 mr-30 text-mb-sm-20">The Financial Shadow of your Company</span> */}
 
                             {/* <Link href="#">
+                                
+                                 <span className="color-gray-900 text-heading-6 mr-30 text-mb-sm-20">The Financial Shadow of your Company</span> 
+                                
+                                <Link href="#">
                                     <a className="btn btn-square">The Financial Shadow of your Company</a>
                                 </Link>
                             </div> */}
-                        </div>
-                    </div>
+                        {/* </div>
+                    </div> */} 
                     <div className="row">
                         <div className="col-lg-3 width-20 mb-30">
                             <h4 className="text-heading-5">Contact</h4>

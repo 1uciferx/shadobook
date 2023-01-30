@@ -173,7 +173,7 @@
       font-family: Segoe UI;
       font-weight: 600;
       font-style: normal;
-      margin-top: 100px;
+      margin-top: 90% ;
       
      }
 
@@ -184,8 +184,8 @@
     }
 
     .modimg{
-     display: none;
-    }
+      display: none;
+     }
 
     .headings2{
       text-align: center;
@@ -229,7 +229,7 @@
     .parahead {
    
  
-     display: none;
+ font-size: 10px;
     
     
     
@@ -390,10 +390,7 @@
      }
 
     
-     .modimg{
-      display: none;
-     }
- 
+
      .headings{
       text-align: center;
       font-size: 36px;
@@ -454,6 +451,9 @@
     height: 100px;
    }
  }
+
+
+ 
 
  
 

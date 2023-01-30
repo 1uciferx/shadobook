@@ -22,13 +22,14 @@
 }
 
 .headings{
- text-align: center;
- font-size: 46px;
- line-height: 56px;
- font-family: Segoe UI;
- font-weight: 600;
- font-style: normal;
- margin-top: 12%;
+  margin-left: 380px;
+   font-size: 46px;
+   line-height: 280px;
+   font-family: Segoe UI;
+   color: rgb(0, 0, 0);
+   font-weight: 600;
+   font-style: normal;
+
  
 }
 
@@ -123,69 +124,165 @@ width:70%
   
 }
 
-@media screen and (max-width: 992px){
-
-  .heroimg{
-    display: none;
-  }
-
-  .bghead{
-    background-image: url(/assets/imgs/page/homepage4/ban1.jpg);
-    background-size : cover;
-    height: 50vh;
-    padding: 20px 50px;
-  }
-}
 
 
-@media screen and (max-width: 380px){
+
+
+
+
+
+
+
+
+  .headings {
+    margin-left: 380px;
+    font-size: 46px;
+    line-height: 280px;
+    font-family: Segoe UI;
+    color: black;
+    font-weight: 600;
+    font-style: normal;
+ }
  
-.headings2{
-  text-align: center;
-   font-size: 46px;
-   line-height: 56px;
-   font-family: Segoe UI;
-   font-weight: 600;
-   font-style: normal;
-   margin-top: 10%;
+ 
+ .subhead3 {
+ 
+    font-family: Segoe UI;
+    font-size: 15px;
+    margin-top: 80px;
+    margin-left: 20px;
+    color: #000000;
+ }
+ 
+ 
+ 
+ @media screen and (min-width: 576px) {
+ 
+ 
+    .headings {
+       margin-left: 80px;
+       font-size: 46px;
+       line-height: 280px;
+       font-family: Segoe UI;
+       color: rgb(0, 0, 0);
+       font-weight: 600;
+       font-style: normal;
+    }
+
+    .conimg{
+      height: 55vh;
+    
+      
+    }
+
+  
+    
+ 
    
-  }
-  .bghead{
-    background-image: url(/assets/imgs/page/homepage4/ban1.jpg);
-    background-size : cover;
-    height: 82vh;
-    padding: 20px 50px;
-  }
-}
-
-
-@media screen and (max-width: 280px){
+    .subhead3 {
+    
+       font-family: Segoe UI;
+       font-size: 20px;
+       margin-top: 80px;
+       margin-left: 20px;
+       color: #000000;
+    }
+ }
  
-  .headings2{
-    text-align: center;
-     font-size: 46px;
-     line-height: 56px;
-     font-family: Segoe UI;
-     font-weight: 600;
-     font-style: normal;
-     margin-top: 10%;
-     
+ 
+ @media screen and (max-width: 576px) {
+ 
+ 
+    .headings {
+       margin-left: 10%;
+       font-size: 34px;
+       width: 100%;
+       line-height: 72px;
+       font-family: Segoe UI;
+       color: rgb(0, 0, 0);
+       font-weight: 600;
+       font-style: normal;
     }
-    .bghead{
-      background-image: url(/assets/imgs/page/homepage4/ban1.jpg);
-      background-size : cover;
-      height: 130vh;
-      padding: 20px 50px;
-    }
-  }
 
-  @media screen and (max-width: 426px){
     .conimg{
       height: 40vh;
     
       
     }
-  }
+    
+   
+    
+    .subhead3 {
+    
+       font-family: Segoe UI;
+       font-size: 20px;
+       margin-top: 80px;
+       margin-left: 20px;
+       color: #000000;
+    }  
+ }
+ 
+ 
+ @media screen and (max-width: 991px) {
+ 
+ 
+    .headings {
+       text-align: center;
+       font-size: 46px;
+       line-height: 80px;
+       font-family: Segoe UI;
+       color: rgb(0, 0, 0);
+       font-weight: 600;
+       font-style: normal;
+    }
+
+    .conimg{
+      height: 40vh;
+    
+      
+    }
+    
+    
+ 
+    .subhead3 {
+    
+       font-family: Segoe UI;
+       font-size: 20px;
+       margin-top: 10px;
+       margin-left: 20px;
+       color: #000000;
+    }
+ }
+ 
+ 
+ @media screen and (max-width: 768px) {
+ 
+ 
+    .headings {
+       margin-left: 10%;
+       font-size: 34px;
+       width: 100%;
+       text-align: center;
+       line-height: 72px;
+       font-family: Segoe UI;
+       color: rgb(0, 0, 0);
+       font-weight: 600;
+       font-style: normal;
+    }
+    
+   
+    .subhead3 {
+    
+       font-family: Segoe UI;
+       font-size: 20px;
+       margin-top: 10px;
+       text-align: center;
+       margin-left: 0px;
+       color: #000000;
+    }
+ }
+
+
 
 
 
