@@ -75,7 +75,7 @@ function Fixed() {
 
           <Col xs={{
               span: 20,
-              offset: 0,
+              offset: 1,
             }}
               lg={{
                 span: 10,

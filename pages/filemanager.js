@@ -76,7 +76,11 @@ function Filemanager() {
             }} >
               <Flip left cascade>
             <h1 className={styles.headings}> File Manager </h1>
-            <p className={styles.para}>A file manager application can help you organize, store and transfer files on your mobile device</p>
+
+            <ol className={styles.para}>
+              <li>A file manager application can help you organize, </li>
+              <li>store and transfer files on your mobile device</li>
+              </ol>
             </Flip>
           </Col>
 
@@ -119,8 +123,8 @@ function Filemanager() {
               offset: 3,
             }}
               lg={{
-                span: 10,
-                offset: 0,
+                span: 8,
+                offset: 1,
               }}
               sm={{
                 span: 20,
@@ -201,7 +205,7 @@ function Filemanager() {
               offset: 2,
             }}
               lg={{
-                span: 12,
+                span: 10,
                 offset: 0,
               }}
               sm={{
@@ -232,7 +236,7 @@ function Filemanager() {
             }}
               lg={{
                 span: 8,
-                offset: 0,
+                offset: 1,
               }}
               sm={{
                 span: 20,
@@ -322,7 +326,7 @@ function Filemanager() {
           }}
             lg={{
               span: 12,
-              offset: 0,
+              offset: 1,
             }}
             sm={{
               span: 20,
@@ -359,7 +363,7 @@ function Filemanager() {
               offset: 2,
             }}
               lg={{
-                span: 12,
+                span: 10,
                 offset: 0,
               }}
               sm={{
@@ -390,7 +394,7 @@ function Filemanager() {
             }}
               lg={{
                 span: 8,
-                offset: 0,
+                offset: 1,
               }}
               sm={{
                 span: 20,

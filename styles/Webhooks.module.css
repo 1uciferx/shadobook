@@ -261,9 +261,10 @@
        font-family: Segoe UI;
        text-align: center;
        margin-left: 0px;
-       margin-top: 68px;
+       margin-top: 15px;
        font-size: 14px;
-       line-height: 19px;
+       line-height: 22px;
+       
        color: rgb(255, 255, 255);
        width: 98%;
        text-decoration: none solid rgb(0, 0, 0);
@@ -311,12 +312,12 @@
    .headings {
 
 
-      font-size: 36px;
+      font-size: 30px;
       text-align: center;
-   
+      line-height: 40px;
       font-family: Segoe UI;
       color: rgb(253, 251, 251);
-      margin-top: 50px;
+      margin-top: 14px;
       font-weight: 600;
       font-style: normal;
    }

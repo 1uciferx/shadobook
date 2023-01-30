@@ -135,7 +135,7 @@ function Support() {
           }}
             lg={{
               span: 20,
-              offset: 0,
+              offset: 4,
             }}
             sm={{
               span: 20,
@@ -147,7 +147,7 @@ function Support() {
             }}
             xl={{
               span: 20,
-              offset: 2,
+              offset: 4,
             }}
             xxl={{
               span: 20,
@@ -175,7 +175,7 @@ function Support() {
             }}
             sm={{
               span: 20,
-              offset: 0,
+              offset: 1,
             }}
             md={{
               span: 10,
@@ -210,7 +210,7 @@ function Support() {
                 }}
                 sm={{
                   span: 20,
-                  offset: 0,
+                  offset: 1,
                 }}
                 md={{
                   span: 10,
@@ -276,7 +276,7 @@ function Support() {
                 }}
                 sm={{
                   span: 10,
-                  offset: 6,
+                  offset: 5,
                 }}
                 md={{
                   span: 8,
@@ -346,7 +346,7 @@ function Support() {
           }}
           sm={{
             span: 20,
-            offset: 1,
+            offset: 2,
           }}
           md={{
             span: 20,

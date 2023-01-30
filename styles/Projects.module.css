@@ -241,7 +241,7 @@
    font-weight: normal;
    text-align: start;
    font-size: 16px;
-   margin-top: 120px;
+   margin-top: 50px;
    margin-left: 30px;
    line-height: 20px;
    color: #000000e0;
@@ -633,8 +633,9 @@
   width: 100%;
    font-family: Segoe UI;
    color: rgb(255, 255, 255);
-   margin-top: 60px;
+   
    font-weight: 600;
+   margin: 5%;
    font-style: normal;
    text-shadow: 2px 2px 4px #000000;
 }
@@ -847,7 +848,7 @@
 .subhead15 {
    font-family: Segoe UI;
    font-weight: normal;
-   width: 550px;
+   width: 100%;
    text-align: center;
    font-size: 14px;
    margin-top: 40px;
@@ -911,7 +912,7 @@
 .subhead18 {
    font-family: Segoe UI;
    font-weight: normal;
-   width: 400px;
+   width: 100%;
    text-align: center;
    font-size: 14px;
    margin-top: 20px;
@@ -1640,7 +1641,7 @@
       width: 100%;
       text-align: center;
       font-size: 40px;
-      margin-top: 20px;
+      margin-top: 35px;
 
       line-height: 20px;
       color: #000000e0;
@@ -1684,7 +1685,7 @@
       width: 95%;
       text-align: start;
       font-size: 40px;
-      margin-top: 40px;
+      margin-top: 65px;
  
       line-height: 20px;
       color: #000000e0;
@@ -1833,7 +1834,7 @@
    .subhead18 {
       font-family: Segoe UI;
       font-weight: normal;
-      width: 800px;
+      width: 100%;
       text-align: start;
       font-size: 16px;
       margin-top: 20px;

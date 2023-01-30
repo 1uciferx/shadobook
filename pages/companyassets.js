@@ -86,7 +86,7 @@ function companyassets() {
             backgroundImage: `url(/assets/imgs/page/homepage1/bg8.jpg)`,
             backgroundSize: "cover",
             width: "100%",
-            height: '800px',
+            height: '600px',
           }}>
 
             <Col xs={{

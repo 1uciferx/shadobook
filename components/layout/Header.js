@@ -66,13 +66,14 @@ const Header = ({ handleOpen, headerStyle }) => {
 
 
     <>
+    
       <header
         className={
           scroll
             ? `${headerStyle} header sticky-bar stick `
             : `${headerStyle} header sticky-bar`
-        }
-      >
+        }>
+
         <div className="container">
           <div className="main-header">
             <div className="header-left">
@@ -101,8 +102,6 @@ const Header = ({ handleOpen, headerStyle }) => {
                       </Link>
                     </li>
                     <li className="has-children">
-
-
                       <Link href="#">
                         <a className="acuspad">Features</a>
                       </Link>
@@ -125,12 +124,8 @@ const Header = ({ handleOpen, headerStyle }) => {
                                 </a>
                               </Link>
                             </li>
-
-
-
-
                             <li>
-                              <Link href="/Knowledgebase">
+                              <Link href="/knowledgeBaseKB">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Knowlege Base
@@ -146,7 +141,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li>
                             <li>
-                              <Link href="estimatesrequest">
+                              <Link href="EstimatesReq">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Estimates Request
@@ -179,7 +174,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li> */}
                             <li>
-                              <Link href="/expenses">
+                              <Link href="/Expense">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Expenses
@@ -315,7 +310,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li> */}
                             <li>
-                              <Link href="hrrecords">
+                              <Link href="hrrecord">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   HR Records
@@ -427,7 +422,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li>
 
                             <li>
-                              <Link href="/filemanager">
+                              <Link href="/filemanage">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   File Manager
@@ -436,7 +431,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li>
 
                             <li>
-                              <Link href="/companyassets">
+                              <Link href="/companyasset">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Company Assets
@@ -488,7 +483,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li>
 
                             <li>
-                              <Link href="/support">
+                              <Link href="/support-page">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Support
