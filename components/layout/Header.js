@@ -93,7 +93,7 @@ const Header = ({ handleOpen, headerStyle }) => {
 
               </div>
               <div className="header-nav">
-                <nav className="nav-main-menu d-none d-xl-block" style={{ marginLeft: "240px", marginTop: "10px" }}>
+                <nav className="nav-main-menu d-none d-xl-block" style={{ marginLeft: "0px", marginTop: "10px" }}>
                   <ul className="main-menu">
                     <li className="">
                       <Link href="/">
@@ -106,7 +106,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                       <Link href="#">
                         <a className="acuspad">Features</a>
                       </Link>
-                      <ul className="sub-menu" style={{ width: "600px",marginLeft:"-488px"}}>
+                      <ul className="sub-menu" style={{ width: "600px",marginLeft:"-250px"}}>
                         <div style={{ display: "flex", justifyContent:"center"}}>
                           <div >
                             <li>

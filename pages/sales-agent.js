@@ -164,106 +164,103 @@ xxl={{
       {/* Dashboard */}
 
       <Row className={styles.margintop1}>
-        <Col xs={{
-          span: 19,
-          offset: 2,
-        }}
-
-          sm={{
+      <Col xs={{
             span: 18,
             offset: 3,
           }}
 
-          md={{
-            span: 10,
-            offset: 6,
-          }}
+            sm={{
+              span: 20,
+              offset: 2,
+            }}
 
-          lg={{
-            span: 10,
-            offset: 7,
-          }}
-          xl={{
-            span: 12,
-            offset: 6,
-          }}
-          xxl={{
+            md={{
+              span: 18,
+              offset: 3,
+            }}
 
-            span: 9,
-            offset: 7,
-          }}>
+            lg={{
+              span: 12,
+              offset: 6,
+            }}
+            xl={{
+              span: 11,
+              offset: 2,
+            }}
+            xxl={{
+
+              span: 13,
+              offset: 1,
+            }}>
           <h3 className={styles.headings}>Dashboard</h3>
         </Col>
 
+</Row>
 
 
 
-
+<Row>
         <Col xs={{
-          span: 20,
-          offset: 2,
-        }}
-
-          sm={{
             span: 20,
             offset: 2,
           }}
 
-          md={{
-            span: 20,
-            offset: 0,
-          }}
+            sm={{
+              span: 20,
+              offset: 2,
+            }}
 
-          lg={{
-            span: 20,
-            offset: 0,
-          }}
-          xl={{
-            span: 18,
-            offset: 3,
-          }}
-          xxl={{
+            md={{
+              span: 20,
+              offset: 2,
+            }}
 
-            span: 18,
-            offset: 5,
-          }}>
+            lg={{
+              span: 20,
+              offset: 2,
+            }}
+            xl={{
+              span: 11,
+              offset: 2,
+            }}
+            xxl={{
+
+              span: 11,
+              offset: 2,
+            }}>
           <img className={styles.img1} src="/salesagent/pic1.png"></img>
         </Col>
 
-      </Row>
 
 
-
-      <Row>
-        <Col xs={{
-          span: 20,
-          offset: 2,
-        }}
-
-          sm={{
-            span: 20,
-            offset: 2,
+      <Col xs={{
+            span: 22,
+            offset: 1,
           }}
 
-          md={{
-            span: 20,
-            offset: 2,
-          }}
+            sm={{
+              span: 20,
+              offset: 2,
+            }}
 
-          lg={{
-            span: 20,
-            offset: 2,
-          }}
-          xl={{
-            span: 18,
-            offset: 3,
-          }}
-          xxl={{
+            md={{
+              span: 20,
+              offset: 2,
+            }}
 
-            span: 18,
-            offset: 5,
-          }}>
+            lg={{
+              span: 20,
+              offset: 2,
+            }}
+            xl={{
+              span: 8,
+              offset: 1,
+            }}
+            xxl={{
 
+              span: 8,
+              offset: 1,
+            }}>
 
           <p className={styles.para1}>
           The sales agent dashboard in ShadobooksERP would likely show key data, including, 
@@ -307,34 +304,34 @@ xxl={{
       {/* Management */}
 
       <Row className={styles.margintop2}>
-        <Col xs={{
-          span: 18,
-          offset: 2,
-        }}
-
-          sm={{
-            span: 20,
-            offset: 2,
+      <Col xs={{
+            span: 18,
+            offset: 3,
           }}
 
-          md={{
-            span: 10,
-            offset: 7,
-          }}
+            sm={{
+              span: 20,
+              offset: 2,
+            }}
 
-          lg={{
-            span: 12,
-            offset: 6,
-          }}
-          xl={{
-            span: 12,
-            offset: 2,
-          }}
-          xxl={{
+            md={{
+              span: 18,
+              offset: 3,
+            }}
 
-            span: 14,
-            offset: 1,
-          }}>
+            lg={{
+              span: 12,
+              offset: 6,
+            }}
+            xl={{
+              span: 11,
+              offset: 2,
+            }}
+            xxl={{
+
+              span: 13,
+              offset: 1,
+            }}>
           <h3 className={styles.headings}>Management</h3>
         </Col>
       </Row>
@@ -357,15 +354,15 @@ xxl={{
 
             lg={{
               span: 20,
-              offset: 0,
+              offset: 2,
             }}
             xl={{
-              span: 12,
-              offset: 0,
+              span: 11,
+              offset: 2,
             }}
             xxl={{
 
-              span: 12,
+              span: 11,
               offset: 2,
             }}>
           <img className={styles.img2} src="/salesagent/pic2.png"></img>
@@ -373,34 +370,33 @@ xxl={{
 
 
         <Col xs={{
-          span: 20,
-          offset: 2,
-        }}
-
-          sm={{
-            span: 20,
-            offset: 0,
-          }}
-
-          md={{
-            span: 20,
-            offset: 2,
-          }}
-
-          lg={{
-            span: 20,
-            offset: 0,
-          }}
-          xl={{
-            span: 8,
+            span: 22,
             offset: 1,
           }}
-          xxl={{
 
-            span: 8,
-            offset: 1,
-          }}>
+            sm={{
+              span: 20,
+              offset: 2,
+            }}
 
+            md={{
+              span: 20,
+              offset: 2,
+            }}
+
+            lg={{
+              span: 20,
+              offset: 2,
+            }}
+            xl={{
+              span: 8,
+              offset: 1,
+            }}
+            xxl={{
+
+              span: 8,
+              offset: 1,
+            }}>
 
           <p className={styles.para1}>
             <li>
@@ -436,33 +432,33 @@ xxl={{
 
       <Row className={styles.margintop3}>
       <Col xs={{
-          span: 18,
-          offset: 2,
-        }}
-
-          sm={{
-            span: 20,
-            offset: 2,
+            span: 18,
+            offset: 3,
           }}
 
-          md={{
-            span: 10,
-            offset: 7,
-          }}
+            sm={{
+              span: 20,
+              offset: 2,
+            }}
 
-          lg={{
-            span: 12,
-            offset: 6,
-          }}
-          xl={{
-            span: 12,
-            offset: 2,
-          }}
-          xxl={{
+            md={{
+              span: 18,
+              offset: 3,
+            }}
 
-            span: 14,
-            offset: 1,
-          }}>
+            lg={{
+              span: 12,
+              offset: 6,
+            }}
+            xl={{
+              span: 11,
+              offset: 2,
+            }}
+            xxl={{
+
+              span: 13,
+              offset: 1,
+            }}>
           <h3 className={styles.headings3}>Programs</h3>
         </Col>
       </Row>
@@ -487,50 +483,49 @@ xxl={{
 
             lg={{
               span: 20,
-              offset: 0,
+              offset: 2,
             }}
             xl={{
-              span: 12,
-              offset: 0,
+              span: 11,
+              offset: 2,
             }}
             xxl={{
 
-              span: 12,
+              span: 11,
               offset: 2,
             }}>
           <img className={styles.img3} src="/salesagent/pic3.png"></img>
         </Col>
 
        
-        <Col xs={{
-          span: 20,
-          offset: 2,
-        }}
-
-          sm={{
-            span: 20,
-            offset: 0,
-          }}
-
-          md={{
-            span: 20,
-            offset: 2,
-          }}
-
-          lg={{
-            span: 20,
-            offset: 0,
-          }}
-          xl={{
-            span: 8,
+      <Col xs={{
+            span: 22,
             offset: 1,
           }}
-          xxl={{
 
-            span: 8,
-            offset: 1,
-          }}>
+            sm={{
+              span: 20,
+              offset: 2,
+            }}
 
+            md={{
+              span: 20,
+              offset: 2,
+            }}
+
+            lg={{
+              span: 20,
+              offset: 2,
+            }}
+            xl={{
+              span: 8,
+              offset: 1,
+            }}
+            xxl={{
+
+              span: 8,
+              offset: 1,
+            }}>
 
 
           <p className={styles.para1}>
@@ -572,34 +567,34 @@ xxl={{
       {/* Orders */}
 
       <Row className={styles.margintop4}>
-        <Col xs={{
-          span: 18,
-          offset: 2,
-        }}
-
-          sm={{
-            span: 20,
-            offset: 1,
+      <Col xs={{
+            span: 18,
+            offset: 3,
           }}
 
-          md={{
-            span: 13,
-            offset: 5,
-          }}
+            sm={{
+              span: 20,
+              offset: 2,
+            }}
 
-          lg={{
-            span: 10,
-            offset: 7,
-          }}
-          xl={{
-            span: 12,
-            offset: 0,
-          }}
-          xxl={{
+            md={{
+              span: 18,
+              offset: 3,
+            }}
 
-            span: 7,
-            offset: 8,
-          }}>
+            lg={{
+              span: 12,
+              offset: 6,
+            }}
+            xl={{
+              span: 11,
+              offset: 2,
+            }}
+            xxl={{
+
+              span: 13,
+              offset: 1,
+            }}>
           <h3 className={styles.headings4}>Orders</h3>
         </Col>
 
@@ -609,35 +604,67 @@ xxl={{
 
 
 <Row>
+
 <Col xs={{
-           span: 20,
-           offset: 2,
-        }}
-
-          sm={{
-            span: 20,
-            offset: 1,
-          }}
-
-          md={{
             span: 20,
             offset: 2,
           }}
 
-          lg={{
-            span: 18,
-            offset: 3,
-          }}
-          xl={{
-            span: 14,
-            offset: 5,
-          }}
-          xxl={{
+            sm={{
+              span: 20,
+              offset: 2,
+            }}
 
-            span: 12,
-            offset: 6,
-          }}>
+            md={{
+              span: 20,
+              offset: 2,
+            }}
 
+            lg={{
+              span: 20,
+              offset: 2,
+            }}
+            xl={{
+              span: 11,
+              offset: 2,
+            }}
+            xxl={{
+
+              span: 11,
+              offset: 2,
+            }}>
+          <img className={styles.img4} src="/salesagent/pic4.png"></img>
+        </Col>
+
+
+        <Col xs={{
+            span: 22,
+            offset: 1,
+          }}
+
+            sm={{
+              span: 20,
+              offset: 2,
+            }}
+
+            md={{
+              span: 20,
+              offset: 2,
+            }}
+
+            lg={{
+              span: 20,
+              offset: 2,
+            }}
+            xl={{
+              span: 8,
+              offset: 1,
+            }}
+            xxl={{
+
+              span: 8,
+              offset: 1,
+            }}>
 
           <p className={styles.para1}>
             <li>
@@ -666,36 +693,6 @@ xxl={{
 
 
 
-        <Col xs={{
-          span: 20,
-          offset: 2,
-        }}
-
-          sm={{
-            span: 20,
-            offset: 1,
-          }}
-
-          md={{
-            span: 22,
-            offset: 0,
-          }}
-
-          lg={{
-            span: 18,
-            offset: 3,
-          }}
-          xl={{
-            span: 15,
-            offset: 5,
-          }}
-          xxl={{
-
-            span: 12,
-            offset: 6,
-          }}>
-          <img className={styles.img4} src="/salesagent/pic4.png"></img>
-        </Col>
       </Row>
 
       
