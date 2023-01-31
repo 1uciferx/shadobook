@@ -43,38 +43,48 @@ function Index6() {
                     </Link>
                   </div>
                 </div>
+
+
                 <div className="col-lg-5 d-none d-lg-block">
+
                   <div className="banner-imgs">
+
                     <div className="block-1 shape-1">
                       <img
                         src="/assets/imgs/page/homepage6/line-chart.svg"
                         alt="Agon"
                       />
                     </div>
+
                     <div className="block-2 shape-3">
                       <img
                         src="/assets/imgs/page/homepage6/card.png"
                         alt="Agon"
                       />
                     </div>
-                    <img
-                      className="img-banner img-responsive shape-2"
-                      alt="Agon"
-                      src="assets/imgs/page/homepage6/banner.png"
-                    />
+
+                    
+
                   </div>
+
+
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+{/* 
         <div className="section-box box-slider-3 d-none d-lg-flex">
           <div className="container">
             <div className="block-slider-bottom-banner">
               <Intro2 />
             </div>
           </div>
-        </div>
+        </div> */}
+
+
+
         <div className="section-box mt-100">
           <div className="container">
             <div className="row">

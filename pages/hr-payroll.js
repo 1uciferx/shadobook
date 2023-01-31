@@ -10,7 +10,6 @@ import TestimonialSlider from "../components/slider/Testimonial";
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
-
 function Home() {
   const [isOpen, setOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(1);
@@ -26,14 +25,14 @@ function Home() {
             </Link> */}
       <Layout>
         <section className="section-box">
-          <div className="banner-hero banner-1">
+          <div className="banner-hero banner-head-image" style={{ background: "url('assets/background5.jpg')" }}>
             <div className="container">
               <div className="row">
                 <div className="col-lg-7">
-                  <h1 className="text-display-2">
+                  <h1  style={{color:"white"}} className="text-display-2">
                     Hr Payroll
                   </h1>
-                  <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
+                  <p style={{color:"white"}} className="text-body-lead-large color-gray-500 mt-40 pr-40">
                     Shadobooks CRM offers hassle-free and seamless employee management with an easy-to-use HR Payroll interface. Be it your employee management, processing payrolls, calculating deductions, commissions or bonuses, the platform offers all of these operations under one roof.
                   </p>
 
@@ -41,7 +40,7 @@ function Home() {
                 <div className="col-lg-5 d-none d-xl-block">
                   <div className="">
 
-                    <img style={{ bottom: "140px" }} className="img" alt="Agon" src="logo1/vector10.jpg" />
+                    <img style={{ bottom: "140px" }} className="img" alt="Agon" src="logo1/vector20.jpg" />
                   </div>
                 </div>
               </div>
@@ -92,7 +91,7 @@ function Home() {
                 </div>
 
                 <div className="col-lg-6 col-sm-12">
-                  <img style={{ height: "500px" }} className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
+                  <img  className="bdrd-16 img-responsive mt-60" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
 
               </div>
@@ -107,7 +106,7 @@ function Home() {
             <div className="container mt-100">
               <div className="row">
                 <div className="col-lg-6 col-sm-12">
-                  <img style={{ height: "500px" }} className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
+                  <img  className="bdrd-16 img-responsive mt-200" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
                 <div className="col-lg-6 col-sm-12 block-we-do">
 
@@ -173,7 +172,7 @@ function Home() {
                 </div>
 
                 <div className="col-lg-6 col-sm-12">
-                  <img style={{ height: "500px" }} className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
+                  <img  className="bdrd-16 img-responsive mt-50" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
 
               </div>
@@ -187,7 +186,7 @@ function Home() {
             <div className="container mt-100">
               <div className="row">
                 <div className="col-lg-6 col-sm-12">
-                  <img style={{ height: "500px" }} className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
+                  <img  className="bdrd-16 img-responsive mt-150" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
                 <div className="col-lg-6 col-sm-12 block-we-do">
 
@@ -254,8 +253,8 @@ function Home() {
 
                 </div>
 
-                <div className="col-lg-6 col-sm-12">
-                  <img style={{ height: "500px" }} className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
+                <div className="col-lg-6 col-sm-12 mt-50">
+                  <img  className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
 
               </div>
@@ -268,8 +267,8 @@ function Home() {
 
             <div className="container mt-100">
               <div className="row">
-                <div className="col-lg-6 col-sm-12">
-                  <img style={{ height: "500px" }} className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
+                <div className="col-lg-6 col-sm-12 mt-50">
+                  <img className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
                 <div className="col-lg-6 col-sm-12 block-we-do">
 
@@ -339,8 +338,8 @@ Generating reports on insurance for employees by including employee number, empl
 
                 </div>
 
-                <div className="col-lg-6 col-sm-12">
-                  <img style={{ height: "500px" }} className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
+                <div className="col-lg-6 col-sm-12 mt-130">
+                  <img className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
 
               </div>
@@ -353,8 +352,8 @@ Generating reports on insurance for employees by including employee number, empl
 
             <div className="container mt-100">
               <div className="row">
-                <div className="col-lg-6 col-sm-12">
-                  <img style={{ height: "500px" }} className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
+                <div className="col-lg-6 col-sm-12 mt-120">
+                  <img  className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
                 <div className="col-lg-6 col-sm-12 block-we-do">
 
@@ -418,8 +417,8 @@ Generating reports on insurance for employees by including employee number, empl
 
                 </div>
 
-                <div className="col-lg-6 col-sm-12">
-                  <img style={{ height: "500px" }} className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
+                <div className="col-lg-6 col-sm-12 mt-100">
+                  <img  className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
 
               </div>
@@ -434,8 +433,8 @@ Generating reports on insurance for employees by including employee number, empl
 
             <div className="container mt-100">
               <div className="row">
-                <div className="col-lg-6 col-sm-12">
-                  <img style={{ height: "500px" }} className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
+                <div className="col-lg-6 col-sm-12 mt-150">
+                  <img  className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
                 <div className="col-lg-6 col-sm-12 block-we-do">
 
