@@ -26,26 +26,26 @@ function Home() {
             </Link> */}
       <Layout>
         <section className="section-box">
-          <div className="banner-hero banner-1">
+          <div className="banner-hero banner-head-image" style={{ background: "url('assets/background1.jpg')" }}>
             <div className="container">
               <div className="row">
                 <div className="col-lg-7">
-                  <h1 className="text-display-2">
+                  <h1 style={{color:"white",marginTop:"-35px"}} className="text-display-2">
                     Reports
                   </h1>
-                  <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
+                  <p style={{color:"white"}} className="text-body-lead-large color-gray-500 mt-40 pr-40">
                     Shadobook CRM helps you with a thorough platform which enables you to generate extensive reports according to your requirements. The interface offers detailed report generation pertaining
                     to the areas of sales, invoices, items, payments, credit notes, proposals, estimates,
                   </p>
                   <div className="mt-40">
-                    <Link href="/page-service-1"><a className="btn btn-black icon-arrow-right-white">Get Start</a></Link>
+                    <Link href="/page-contact"><a className="btn btn-black icon-arrow-right-white">Get Start</a></Link>
 
                   </div>
                 </div>
                 <div className="col-lg-5 d-none d-xl-block">
                   <div className="banner-imgs">
 
-                    <img style={{bottom:"140px"}} className="img" alt="Agon" src="logo1/vector18.jpg" />
+                    <img style={{bottom:"140px"}} className="img" alt="Agon" src="logo1/vector19.jpg" />
                   </div>
                 </div>
               </div>
@@ -59,12 +59,13 @@ function Home() {
             <div className="row">
               <div className="col-lg-2 col-sm-1 col-12" />
               <div className="col-lg-8 col-sm-10 col-12 text-center mt-70">
-                <h2 className="text-heading-1 color-gray-900">
-                Why choose us<br className="d-lg-block d-none" />
+                {/* <h2 className="text-heading-1 color-gray-900">
+                See why we are trusted
+the world over<br className="d-lg-block d-none" />
                 </h2>
                 <p className="text-body-lead-large color-gray-600 mt-20">
                 Today, businesses require an advanced ERP system. ShadobooksERP provides access to up-to-date information and has been bringing innovative solutions, cost reduction, and exceptional business processes to Middle Eastern organizations.
-                </p>
+                </p> */}
               </div>
               <div className="col-lg-2 col-sm-1 col-12" />
             </div>
@@ -110,11 +111,11 @@ function Home() {
 
 
                     <div className="col-lg-6 col-md-12">
-                      <div className="block-video icon-pattern">
+                      
 
 
 
-                        <img style={{height:"500px"}} className="img-responsive" src="/reportpage/pic1.png" alt="Agon" />
+                        <img  className="img-responsive mt-100" src="/reportpage/pic1.png" alt="Agon" />
                       </div>
                     </div>
                   </div>
@@ -122,7 +123,7 @@ function Home() {
               </div>
 
             </div>
-          </div>
+      
         </section>
 
         {/*                 
@@ -209,7 +210,7 @@ function Home() {
           <div className="container mt-100">
             <div className="row">
               <div className="col-lg-6 col-sm-12 block-img-we-do">
-                <img style={{height:"500px"}} className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
+                <img  className="bdrd-16 img-responsive mt-120" src="/reportpage/pic2.png" alt="Agon" />
               </div>
               <div className="col-lg-6 col-sm-12 block-we-do">
 
@@ -296,11 +297,10 @@ function Home() {
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-12">
-                      <div className="block-video icon-pattern">
-                        {/* <a className="popup-youtube btn-play-video" onClick={() => setOpen(true)}></a> */}
+                     
 
 
-                        <img style={{height:"500px"}} className="img-responsive" src="/reportpage/pic3.png" alt="Agon" />
+                        <img  className="img-responsive mt-80" src="/reportpage/pic3.png" alt="Agon" />
                       </div>
                     </div>
                   </div>
@@ -308,13 +308,12 @@ function Home() {
               </div>
 
             </div>
-          </div>
-
+  
 
           <div className="container mt-100">
             <div className="row">
               <div className="col-lg-6 col-sm-12 block-img-we-do">
-                <img style={{height:"500px"}} className="bdrd-16 img" src="/reportpage/pic4.png" alt="Agon" />
+                <img  className="bdrd-16 img mt-10" src="/reportpage/pic4.png" alt="Agon" />
               </div>
               <div className="col-lg-6 col-sm-12 block-we-do">
 
@@ -378,11 +377,11 @@ function Home() {
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-12">
-                      <div className="block-video icon-pattern">
-                        {/* <a className="popup-youtube btn-play-video" onClick={() => setOpen(true)}></a> */}
+                    
+                       
 
 
-                        <img style={{height:"500px"}} className="img-responsive" src="/reportpage/pic5.png" alt="Agon" />
+                        <img  className="img-responsive mt-90" src="/reportpage/pic5.png" alt="Agon" />
                       </div>
                     </div>
                   </div>
@@ -390,15 +389,14 @@ function Home() {
               </div>
 
             </div>
-          </div>
-
+        
 
 
 
           <div className="container mt-100">
             <div className="row">
               <div className="col-lg-6 col-sm-12 block-img-we-do">
-                <img style={{height:"500px"}} className="bdrd-16 img-responsive" src="/reportpage/picnew2.png" alt="Agon" />
+                <img  className="bdrd-16 img-responsive mt-100" src="/reportpage/picnew2.png" alt="Agon" />
               </div>
               <div className="col-lg-6 col-sm-12 block-we-do">
 
@@ -458,12 +456,6 @@ function Home() {
                           <br></br>
 
 
-                          <li>
-
-                            The department payslips, which display the payslips of workers in a certain department, are included in the report
-                          </li>
-                          <br></br>
-
 
                           <li>
 
@@ -477,11 +469,10 @@ function Home() {
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-12">
-                      <div className="block-video icon-pattern">
-                        {/* <a className="popup-youtube btn-play-video" onClick={() => setOpen(true)}></a> */}
+                   
+                       
 
-
-                        <img style={{height:"500px"}} className="img-responsive" src="/reportpage/pic6.png" alt="Agon" />
+                        <img className="img-responsive mt-130" src="/reportpage/pic6.png" alt="Agon" />
                       </div>
                     </div>
                   </div>
@@ -489,7 +480,7 @@ function Home() {
               </div>
 
             </div>
-          </div>
+   
 
 
 
@@ -497,7 +488,7 @@ function Home() {
           <div className="container mt-100">
             <div className="row">
               <div className="col-lg-6 col-sm-12 block-img-we-do">
-                <img style={{height:"500px"}} className="bdrd-16 img-responsive" src="/reportpage/pic7.png" alt="Agon" />
+                <img  className="bdrd-16 img-responsive mt-55" src="/reportpage/pic7.png" alt="Agon" />
               </div>
               <div className="col-lg-6 col-sm-12 block-we-do">
 
@@ -589,11 +580,10 @@ function Home() {
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-12">
-                      <div className="block-video icon-pattern">
-                        {/* <a className="popup-youtube btn-play-video" onClick={() => setOpen(true)}></a> */}
+                     
 
 
-                        <img style={{height:"500px"}} className="img-responsive" src="/reportpage/pic8.png" alt="Agon" />
+                        <img className="img-responsive mt-80" src="/reportpage/pic8.png" alt="Agon" />
                       </div>
                     </div>
                   </div>
@@ -601,7 +591,7 @@ function Home() {
               </div>
 
             </div>
-          </div>
+         
 
         </section>
 
