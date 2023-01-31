@@ -14,6 +14,7 @@ import Preloader from '../components/elements/Preloader';
 import 'react-modal-video/css/modal-video.css';
 import 'antd/dist/reset.css';
 import FlagApp from '../components/FlagApp';
+// import 'burger-menu/lib/index.css';
 
 
 function MyApp({ Component, pageProps }) {

@@ -21,19 +21,23 @@ function Process() {
   return (
     <>
       <Layout>
-    
-      <section className="section-box">
-                        <div className="banner-hero banner-head-image" style={{ background: 'url(assets/imgs/page/blog/single/inventory.jpg)' }}>
-                            <div className="container">
-                                <div className="text-center">
-                                    <h1 className="text-display-2 color-white mt-30">Inventory</h1>
-                                    <p className="text-body-lead-large color-white mt-40 pr-40">
-                                    Be it managing your orders, tracking your stock, keeping a tab on your warehouse operations, handling GST billing, and fulfilling orders on the go, Shadobooks helps you with comprehensive inventory management on the go. Stay informed about all your commodities and the numbers available, along with even their expiration dates, taxing, SKU codes, warehouse availability and order management. There’s also a wide scope of integrations with all your operational software tools to make it easy for you to manage all your operations under one roof.
-                  </p>
-                               </div>
-                            </div>
-                        </div>
-                    </section>
+        <section className="section-box">
+          <div
+            className="banner-hero banner-head-image"
+            style={{
+              background: "url(assets/imgs/page/blog/single/inventory.jpg)",
+            }}
+          >
+            <div className="container">
+              <div className="text-center">
+                <h1 className="text-display-2 color-white mt-30">Inventory</h1>
+                <p className="text-body-lead-large color-white mt-40 pr-40">
+                Shadobooks ERP offers comprehensive inventory management, including order management, stock tracking, warehouse operations, GST billing, mobile order fulfillment, and software integrations for streamlined operations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <Col>
           <h2 className={styles.headings2}>Items</h2>

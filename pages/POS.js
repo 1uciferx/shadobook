@@ -1,734 +1,338 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import Link from "next/link";
 import Layout from "../components/layout/Layout";
-import styled from "styled-components";
-import { Controller, Scene } from "react-scrollmagic";
-import { Tween, Timeline } from "react-gsap";
-import styles from "../styles/POS.module.css";
-import { Col, Row } from "antd";
-import { Parallax, ParallaxProvider, useParallax } from "react-scroll-parallax";
-import Zoom from "react-reveal/Zoom";
-import Contactmanager from "../components/contactmanager";
-import { Layout as L} from 'antd';
-
-import { Breadcrumb } from 'antd';
 
 const { Content} = L;
 function POS() {
   return (
     <>
       <Layout>
+        <div className="page-homepage7-bg"></div>
+        <div className="section-box">
+          <div
+            className="banner-hero banner-head-image"
+            style={{ background: "url(assets/imgs/page/homepage4/POS.jpg)" }}
+          >
+            <div className="container mt-40">
+              <div className="row">
+                <div className="col-lg-6 mt-30">
+                  <h1 className="text-display-4 color-white">Point of Sale</h1>
+                  <div className="list-social-banner">
+                    <Link href="https://www.facebook.com/shadobookscrm">
+                      <a className="social-banner facebook hover-up"></a>
+                    </Link>
 
-        <div
-          style={{
-            backgroundImage: `url(/assets/imgs/page/homepage4/ban4.jpg)`,
-            backgroundSize: "cover",
-            height: "400px",
-            width: "100%",
-          }}>
-        
+                    <Link href="https://www.instagram.com/shadobooks_crm/">
+                      <a className="social-banner instagram hover-up"></a>
+                    </Link>
 
+                    <Link href="https://twitter.com/shado_books">
+                      <a className="social-banner twitter hover-up"></a>
+                    </Link>
 
-<Col className={styles.breasdcrumb}
-          xs={{
-            span: 22,
-            offset: 1,
-          }}
-          lg={{
-            span: 9,
-            offset: 1,
-          }}
-          md={{
-            span: 16,
-            offset: 0,
-          }}
-          sm={{
-            span: 17,
-            offset: 1,
-          }}
-          xl={{
-            span: 22,
-            offset: 1,
-          }}
-          xxl={{
-            span: 22,
-            offset: 1,
-          }}>
-
-          <Content  >
-            <Breadcrumb>
-              <Breadcrumb >
-                <Breadcrumb.Item  >Index</Breadcrumb.Item>
-                <Breadcrumb.Item >
-                  <a href="/#"  >Features</a>
-                </Breadcrumb.Item>
-                <Breadcrumb.Item>
-                  <a href="/" >Point Of Sales</a>
-                </Breadcrumb.Item>
-              </Breadcrumb>
-            </Breadcrumb>
-          </Content>
-        </Col>
-
-
-          <Row>
-            <Col span={24}>
-              <h3 className={styles.headings}>Point Of Sales</h3>
-              <p className={styles.parahead}>
-                "Shop with us for unbeatable savings!"
-              </p>
-            </Col>
-          </Row>
+                    <Link href="https://www.linkedin.com/company/shadobooks/">
+                      <a className="social-banner linkedin hover-up"></a>
+                    </Link>
+                  </div>
+                </div>
+                <div className="col-lg-5 offset-xl-1 mt-30">
+                  <p className="text-body-lead-large color-white">
+                  "In ShadoBooks ERP, you can streamline your sales operations, including product setup, trade discount management, diary synchronization, point of sale transactions, and e-commerce integration, all in one centralized platform."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        {/* magic2 Content */}
+        <div className="container mt-90">
+          <div className="row">
+            <div className="col-lg-12 col-sm-12 pr-30">
+              <div className="card-grid-style-4">
+                <h2 className="text-heading-2">Order List</h2>
+                <div className="grid-4-img">
+                  {/* <Link href="#"> */}
+                  <a>
+                    <img src="assets/imgs/page/about/8/POSOL.png" alt="Agon" />
+                  </a>
 
-        <div className="my-thing">
-          <Row>
-            <Col
-             xs={{
-              span: 17,
-              offset: 1,
-            }}
-            lg={{
-              span: 9,
-              offset: 1,
-            }}
-            md={{
-              span: 16,
-              offset: 2,
-            }}
-            sm={{
-              span: 17,
-              offset: 1,
-            }}
-            xl={{
-              span: 10,
-              offset: 1,
-            }}
-            xxl={{
-              span: 9,
-              offset: 1,
-            }}
-            >
-              <img
-                className={styles.conimg}
-                alt="Agon"
-                src="assets/imgs/page/about/8/POSOL.png"
-               
-              />
-            </Col>
-            <Col
-              xs={{
-                span: 20,
-                offset: 2,
-              }}
-              lg={{
-                span: 8,
-                offset: 5,
-              }}
-              md={{
-                span: 18,
-                offset: 3,
-              }}
-              sm={{
-                span: 20,
-                offset: 1,
-              }}
-              xl={{
-                span: 8,
-                offset: 4,
-              }}
-              xxl={{
-                span: 8,
-                offset: 4,
-              }}
-            >
-              <h3 className={styles.tabheadings1}>Order List</h3>
-
-              <Zoom>
-              <p className={styles.para}>
-                To create an order, go to the point of sale module in Shadobook ERP
-                <br></br>
-                <br></br>
-                  <li>
-                       Click the "Order List" option
-                  </li>
+                  {/* </Link> */}
+                </div>
+                <p className="text-body-text color-gray-800 mt-20">
+                  <p />
+                  To create an order, go to the point of sale module in
+                  Shadobook ERP
                   <br></br>
-
-                  <li>
-                      In the window that opens, click the "Create Order" tab
-                  </li>
                   <br></br>
-
-                  <li>
-                      To create a return order, click the "Create Return Order" tab
-                  </li>
-                  <br></br>
-
-                  <li>
-                       Enter details such as the order return number, sales order, phone number, order date, customer, etc.
-                  </li>
-                  <br></br>
-
-                  <li>
-                      Click the save button
-                  </li>
-                  <br></br>
-
-                  <li>
-                      The order list will now be visible in list view
-                  </li>
-                  <br></br>
-
-
-              </p>
-              </Zoom>
-            </Col>
-          </Row>
+                  ➟ Click the "Order List" option, In the window that opens,
+                  click the "Create Order" tab
+                  <br />
+                  <br />
+                  ➟ To create a return order, click the "Create Return Order"
+                  tab
+                  <br />
+                  <br />
+                  ➟ Enter details such as the order return number, sales order,
+                  phone number, order date, customer, etc.
+                  <br />
+                  <br />➟ Click the save button, The order list will now be
+                  visible in list view
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div className="my-thing">
-          <Row>
-            <Col
-              xs={{
-                span: 17,
-                offset: 1,
-              }}
-              lg={{
-                span: 9,
-                offset: 1,
-              }}
-              md={{
-                span: 16,
-                offset: 2,
-              }}
-              sm={{
-                span: 17,
-                offset: 1,
-              }}
-              xl={{
-                span: 10,
-                offset: 1,
-              }}
-              xxl={{
-                span: 9,
-                offset: 2,
-              }}
-            >
-              <img
-                className={styles.conimg}
-                alt="Agon"
-                src="assets/imgs/page/about/8/Productsetup.png"
-               
-              />
-            </Col>
-            <Col
-               xs={{
-                span: 20,
-                offset: 2,
-              }}
-              lg={{
-                span: 8,
-                offset: 5,
-              }}
-              md={{
-                span: 18,
-                offset: 3,
-              }}
-              sm={{
-                span: 20,
-                offset: 1,
-              }}
-              xl={{
-                span: 8,
-                offset: 4,
-              }}
-              xxl={{
-                span: 8,
-                offset: 3,
-              }}
-            >
-              <h3 className={styles.tabheadings1}>Products Setup</h3>
+        <div className="section-box">
+          <div className="container mt-120">
+            <div className="row">
+              <div className="col-lg-6 col-md-12 col-sm-12 block-img-we-do text-center">
+                <img
+                  src="assets/imgs/page/about/8/Productsetup.png"
+                  alt="Agon"
+                />
+              </div>
+              <div className="col-lg-6 col-md-12 col-sm-12 block-we-do">
+                <h3 className="text-heading-2 ">Products Setup</h3>
 
-              <Zoom>
-              <p className={styles.para}>
-                <li>
-                     ERP in Shadobook offers product setup through POS, Portal, WooCommerce, and Pre-Order channels
-                </li>
-                <br></br>
-                <li>
-                     Each channel has separate setting options
-                </li>
-                <br></br>
-                <li>
-                     To create a product setup, go to the point of sale module in Shadobook ERP
-                </li>
-                <br></br>
-                <li>
-                     Click the "Product Setup" option
-                </li>
-                <br></br>
-                <li>
-                     The channels will be visible in this window, and you can select the desired channel to set up the product.
-                </li>
-                
-              </p>
-              </Zoom>
-            </Col>
-          </Row>
+                <div className="row">
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                      ERP in Shadobook offers product setup through POS, Portal,
+                      WooCommerce, and Pre-Order channels
+                    </p>
+                  </div>
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                      Each channel has separate setting options.
+                    </p>
+                  </div>
+
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                      To create a product setup, go to the point of sale module
+                      in Shadobook ERP, Click the "Product Setup" option.
+                    </p>
+                  </div>
+
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                      The channels will be visible in this window, and you can
+                      select the desired channel to set up the product.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div className="my-thing">
-          <Row>
-            <Col
-             xs={{
-              span: 17,
-              offset: 1,
-            }}
-            lg={{
-              span: 9,
-              offset: 1,
-            }}
-            md={{
-              span: 16,
-              offset: 2,
-            }}
-            sm={{
-              span: 17,
-              offset: 1,
-            }}
-            xl={{
-              span: 10,
-              offset: 1,
-            }}
-            xxl={{
-              span: 9,
-              offset: 2,
-            }}
-            >
-              <img
-                className={styles.conimg}
-                alt="Agon"
-                src="assets/imgs/page/about/8/POSTD.png"
-               
-              />
-            </Col>
-            <Col
-              xs={{
-                span: 20,
-                offset: 2,
-              }}
-              lg={{
-                span: 8,
-                offset: 5,
-              }}
-              md={{
-                span: 18,
-                offset: 3,
-              }}
-              sm={{
-                span: 20,
-                offset: 1,
-              }}
-              xl={{
-                span: 8,
-                offset: 4,
-              }}
-              xxl={{
-                span: 8,
-                offset: 3,
-              }}
-            >
-              <h3 id="tab-e" className={styles.tabheadings1}>
-                Trade Discount
-              </h3>
-              <Zoom>
-              <p className={styles.para}>
-                <li>
-                    In the window, there is an option to create a trade discount.
-                </li>
-                <br></br>
-                <li>
-                    There are separate tabs such as Promotions and Vouchers.
-                </li>
-                <br></br>
-                <li>
-                    To add a new trade discount, click the "Add New" button in each tab.
-                </li>
-                <br></br>
-                <li>
-                    Enter fields such as the trade discount's name, start date, formal discount, etc.
-                </li>
-                <br></br>
-                <li>
-                    Click the save button.
-                </li>
-                <br></br>
-                <li>
-                     The trade discount list will now be visible in Shadobook ERP.
-                </li>
-              </p>
-              </Zoom>
-            </Col>
-          </Row>
+        <div className="section-box">
+          <div className="container mt-120">
+            <div className="row">
+              <div className="col-lg-6 col-md-12 col-sm-12 block-img-we-do text-center">
+                <img src="assets/imgs/page/about/8/POSTD.png" alt="Agon" />
+              </div>
+              <div className="col-lg-6 col-md-12 col-sm-12 block-we-do">
+                <h3 className="text-heading-2 ">Trade Discount</h3>
+
+                <div className="row">
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                      In the window, there is an option to create a trade
+                      discount, There are separate tabs such as Promotions and
+                      Vouchers.
+                    </p>
+                  </div>
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                      To add a new trade discount, click the "Add New" button in
+                      each tab.
+                    </p>
+                  </div>
+
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                      Enter fields such as the trade discount's name, start
+                      date, formal discount, etc... , Click the save button.
+                    </p>
+                  </div>
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                      The trade discount list will now be visible in Shadobook
+                      ERP.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div className="my-thing">
-          <Row>
-            <Col
-               xs={{
-                span: 17,
-                offset: 1,
-              }}
-              lg={{
-                span: 9,
-                offset: 1,
-              }}
-              md={{
-                span: 16,
-                offset: 2,
-              }}
-              sm={{
-                span: 17,
-                offset: 1,
-              }}
-              xl={{
-                span: 10,
-                offset: 1,
-              }}
-              xxl={{
-                span: 9,
-                offset: 2,
-              }}
-            >
-              <img
-                className={styles.conimg}
-                alt="Agon"
-                src="assets/imgs/page/about/8/POSDS.png"
-             
-              />
-            </Col>
-            <Col
-               xs={{
-                span: 20,
-                offset: 2,
-              }}
-              lg={{
-                span: 8,
-                offset: 5,
-              }}
-              md={{
-                span: 18,
-                offset: 3,
-              }}
-              sm={{
-                span: 20,
-                offset: 1,
-              }}
-              xl={{
-                span: 8,
-                offset: 4,
-              }}
-              xxl={{
-                span: 8,
-                offset: 3,
-              }}
-            >
-              <h3 id="tab-e" className={styles.tabheadings1}>
+        <div className="section-box">
+          <div className="container mt-120">
+            <div className="row">
+              <div className="col-lg-6 col-md-12 col-sm-12 block-img-we-do text-center">
+                <img src="assets/imgs/page/about/8/POSDS.png" alt="Agon" />
+              </div>
+              <div className="col-lg-6 col-md-12 col-sm-12 block-we-do">
+                <h3 className="text-heading-2 ">Diary sync</h3>
 
-                Diary sync
-              </h3>
-              <Zoom>
-              <p className={styles.para}>
-                 To get the diary sync in Shadobook ERP, go to the point of sale module
-              <br></br>
-              <br></br>
-            <li>
-               Click the "Diary Sync" option
-            </li>
-            <br></br>
-            
-               From here, you can access the following list options:
-               <br></br>
-            <br></br>
-            <li>
-            Product (from store information + image),Description,Price,Orders and Inventory management
-            </li>
-            <li>
-                Click on each tab to access the relevant information
-            </li>
-            <br></br>
-            <li>
-               All information is displayed in list format.
-            </li>
-              </p>
-              </Zoom>
-            </Col>
-          </Row>
+                <div className="row">
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                      To get the diary sync in Shadobook ERP, go to the point of
+                      sale module
+                    </p>
+                  </div>
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                      Click the "Diary Sync" option, From here, you can access
+                      the following list options
+                    </p>
+                  </div>
+
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                      Product (from store information +
+                      image),Description,Price,Orders and Inventory management.
+                    </p>
+                  </div>
+
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                      Click on each tab to access the relevant information, All
+                      information is displayed in list format.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div className="my-thing">
-          <Row>
-            <Col
-                xs={{
-                  span: 17,
-                  offset: 1,
-                }}
-                lg={{
-                  span: 9,
-                  offset: 1,
-                }}
-                md={{
-                  span: 16,
-                  offset: 2,
-                }}
-                sm={{
-                  span: 17,
-                  offset: 1,
-                }}
-                xl={{
-                  span: 8,
-                  offset: 2,
-                }}
-                xxl={{
-                  span: 8,
-                  offset: 2,
-                }}
-            >
-              <img
-                className={styles.conimg}
-                alt="Agon"
-                src="assets/imgs/page/about/8/POSMOD.png"
-                
-              />
-            </Col>
-            <Col
-               xs={{
-                span: 20,
-                offset: 2,
-              }}
-              lg={{
-                span: 8,
-                offset: 5,
-              }}
-              md={{
-                span: 18,
-                offset: 3,
-              }}
-              sm={{
-                span: 20,
-                offset: 1,
-              }}
-              xl={{
-                span: 8,
-                offset: 5,
-              }}
-              xxl={{
-                span: 8,
-                offset: 4,
-              }}
-            >
-              <h3 id="tab-e" className={styles.tabheadings1}>
-                POS
-              </h3>
+        <div className="section-box">
+          <div className="container mt-120">
+            <div className="row">
+              <div className="col-lg-6 col-md-12 col-sm-12 block-img-we-do text-center">
+                <img src="assets/imgs/page/about/8/POSMOD.png" alt="Agon" />
+              </div>
+              <div className="col-lg-6 col-md-12 col-sm-12 block-we-do">
+                <h3 className="text-heading-2 ">Shift Management</h3>
 
-              <Zoom>
-              <p className={styles.para}>
-                   In Shadobook ERP, shift management is maintained in the point of sale module
-              <br></br><br></br>
-                <li>
-                    To access the shift management feature, select the option by clicking on the point of sale module
-                </li>
-                <br></br>
-                <li>
-                    To create a new shift, click the "Create Shift" button
-                
-                </li>
-                <br></br>
-                <li>
-                     Enter the new open shift balance
-                </li>
-                <br></br>
-                <li>
-                    Click the "Save" button
-                </li>
-                <br></br>
-                <li>
+                <div className="row">
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                    To access the shift management feature, select the option by clicking on the point of sale module.
+                    </p>
+                  </div>
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                    To create a new shift, click the "Create Shift" button.
+                    </p>
+                  </div>
+
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                    Enter the new open shift balance, Click the "Save" button.
+                    </p>
+                  </div>
+
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
                     Shift management list can be seen in list format.
-                </li>
-              </p>
-              </Zoom>
-            </Col>
-          </Row>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div className="my-thing">
-          <Row>
-            <Col
-               xs={{
-                span: 17,
-                offset: 1,
-              }}
-              lg={{
-                span: 9,
-                offset: 1,
-              }}
-              md={{
-                span: 16,
-                offset: 2,
-              }}
-              sm={{
-                span: 17,
-                offset: 1,
-              }}
-              xl={{
-                span: 10,
-                offset: 1,
-              }}
-              xxl={{
-                span: 8,
-                offset: 2,
-              }}
-            >
-              <img
-                className={styles.conimg}
-                alt="Agon"
-                src="assets/imgs/page/about/8/POSECOM.png"
-                
-              />
-            </Col>
-            <Col
-               xs={{
-                span: 20,
-                offset: 2,
-              }}
-              lg={{
-                span: 8,
-                offset: 5,
-              }}
-              md={{
-                span: 18,
-                offset: 3,
-              }}
-              sm={{
-                span: 20,
-                offset: 1,
-              }}
-              xl={{
-                span: 8,
-                offset: 4,
-              }}
-              xxl={{
-                span: 8,
-                offset: 0,
-              }}
-            >
-              <h3 id="tab-e" className={styles.tabheadings1}>
-                E-Commerce
-              </h3>
-              <Zoom>
-              <p className={styles.para}>
-              Shadobook ERP has an E-commerce option for conducting business through an online store
-              <br></br>
-              <br></br>
+        <div className="section-box">
+          <div className="container mt-120">
+            <div className="row">
+              <div className="col-lg-6 col-md-12 col-sm-12 block-img-we-do text-center">
+                <img
+                   src="assets/imgs/page/about/8/POSECOM.png"
+                  alt="Agon"
+                />
+              </div>
+              <div className="col-lg-6 col-md-12 col-sm-12 block-we-do">
+                <h3 className="text-heading-2 ">E-Commerce</h3>
 
-                <li>
-                  Shadobook ERP has an E-commerce option for conducting business through an online store
-                </li>
-                <br></br>
-                <li>
-                   To access this option, go to the point of sale module
-                </li>
-                <br></br>
-                <li>
-                   Select the E-commerce option
-                </li>
-                <br></br>
-               <li>
-                   This will open the online store login window to conduct business.
-               </li>
-              </p>
-              </Zoom>
-            </Col>
-          </Row>
+                <div className="row">
+
+                <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                      Shadobook ERP has an E-commerce option for conducting business through an online store.
+                    </p>
+                  </div>
+
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                    To access this option, go to the point of sale module.
+                    </p>
+                  </div>
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                    Select the E-commerce option.
+                    </p>
+                  </div>
+
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                    This will open the online store login window to conduct business.
+                    </p>
+                  </div>
+
+                 
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div className="my-thing">
-          <Row>
-            <Col
-               xs={{
-                span: 17,
-                offset: 1,
-              }}
-              lg={{
-                span: 9,
-                offset: 1,
-              }}
-              md={{
-                span: 16,
-                offset: 2,
-              }}
-              sm={{
-                span: 17,
-                offset: 1,
-              }}
-              xl={{
-                span: 10,
-                offset: 1,
-              }}
-              xxl={{
-                span: 8,
-                offset: 2,
-              }}
-            >
-              <img
-                className={styles.conimg}
-                alt="Agon"
-                src="assets/imgs/page/about/8/POSSET.png"
-               
-              />
-            </Col>
-            <Col
-              xs={{
-                span: 20,
-                offset: 2,
-              }}
-              lg={{
-                span: 8,
-                offset: 5,
-              }}
-              md={{
-                span: 18,
-                offset: 3,
-              }}
-              sm={{
-                span: 20,
-                offset: 1,
-              }}
-              xl={{
-                span: 8,
-                offset: 4,
-              }}
-              xxl={{
-                span: 8,
-                offset: 0,
-              }}
-            >
-              <h3 id="tab-e" className={styles.tabheadings1}>
-                Settings
-              </h3>
-              <Zoom>
-              <p className={styles.para}>
-              Setting in point of sale is the configuration of the system
-              </p>
-              </Zoom>
-            </Col>
-          </Row>
-        </div>
+        <div className="section-box">
+          <div className="container mt-120">
+            <div className="row">
+              <div className="col-lg-6 col-md-12 col-sm-12 block-img-we-do text-center">
+                <img
+                    src="assets/imgs/page/about/8/POSSET.png"
+                  alt="Agon"
+                />
+              </div>
+              <div className="col-lg-6 col-md-12 col-sm-12 block-we-do">
+                <h3 className="text-heading-2 ">Settings</h3>
 
-        <div>
-          <Contactmanager/>
+                <div className="row">
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                    Setting in point of sale is the configuration of the system
+                    </p>
+                  </div>
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                    Setting up the automatic sync config.
+                    </p>
+                  </div>
+
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                    Order setting.
+                    </p>
+                  </div>
+
+                  <div className="col-lg-6 col-sm-6 col-12 mt-10">
+                    <p className="text-body-excerpt color-gray-600 icon-leaf">
+                    Default setting.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </Layout>
     </>
