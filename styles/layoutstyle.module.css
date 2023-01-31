@@ -5,6 +5,13 @@
 .mobilefooter{
     display: none;
 }
+.allheader{
+    display: block;
+}
+
+.mobileheader{
+    display: none;
+}
 
 
 @media screen and (max-width: 425px){
@@ -14,6 +21,14 @@
     }
     
     .mobilefooter{
+        display: block;
+    }
+
+    .allheader{
+        display:none;
+    }
+    
+    .mobileheader{
         display: block;
     }
 }
