@@ -146,7 +146,7 @@ const Sidebar = ({ openClass }) => {
                             </li>
                            
                             <li>
-                              <Link href="estimatesrequest">
+                              <Link href="EstimateReq">
                                 <a>
                                   
                                   Estimates Request
@@ -179,7 +179,7 @@ const Sidebar = ({ openClass }) => {
                               </Link>
                             </li> */}
                             <li>
-                              <Link href="/expenses">
+                              <Link href="/Expense">
                                 <a>
                                   
                                   Expenses
@@ -196,7 +196,7 @@ const Sidebar = ({ openClass }) => {
                               </Link>
                             </li>
                             <li>
-                              <Link href="/projects">
+                              <Link href="/project">
                                 <a>
                                   
                                   Projects
@@ -309,7 +309,7 @@ const Sidebar = ({ openClass }) => {
                               </Link>
                             </li> */}
                             <li>
-                              <Link href="hrrecords">
+                              <Link href="hrrecord">
                                 <a>
                                  
                                   Hr Records
@@ -392,7 +392,7 @@ const Sidebar = ({ openClass }) => {
                             </li> */}
 
                             <li>
-                              <Link href="/filemanager">
+                              <Link href="/filemanage">
                                 <a>
                                   
                                   File Manager
@@ -401,7 +401,7 @@ const Sidebar = ({ openClass }) => {
                             </li>
 
                             <li>
-                              <Link href="/companyassets">
+                              <Link href="/companyasset">
                                 <a>
                                  
                                   Company Assets
@@ -483,7 +483,7 @@ const Sidebar = ({ openClass }) => {
 
                             <div>
                             <li>
-                              <Link href="/support">
+                              <Link href="/support-page">
                                 <a>
                                  
                                   Support
@@ -501,7 +501,7 @@ const Sidebar = ({ openClass }) => {
                             </li>
 
                             <li>
-                              <Link href="/Knowledgebase">
+                              <Link href="/knowledgeBaseKB">
                                 <a>
                                  
                                   Knowledge Base
@@ -523,6 +523,15 @@ const Sidebar = ({ openClass }) => {
                                 <a>
                                  
                                   Sales
+                                </a>
+                              </Link>
+                            </li>
+
+                            <li>
+                              <Link href="/sales-agent">
+                                <a>
+                                 
+                                  Sales Agent
                                 </a>
                               </Link>
                             </li>
@@ -646,15 +655,15 @@ const Sidebar = ({ openClass }) => {
                           : "has-children"
                       }
                     >
-                      <span
+                      {/* <span
                         onClick={() => handleToggle(5)}
                         className="menu-expand"
                       >
                         <i className="fi-rr-angle-small-down"></i>
-                      </span>
+                      </span> */}
 
                       
-                        <a style={{fontSize:"20px"}}>Solution</a>
+                        {/* <a style={{fontSize:"20px"}}>Solution</a> */}
                       
                       <ul
                         className={
@@ -663,18 +672,18 @@ const Sidebar = ({ openClass }) => {
                             : "sub-menu d-none"
                         }
                       >
-                        <li>
+                        {/* <li>
                           <Link href="/itsupport">
                             <a className="closer">IT & Support</a>
                           </Link>
-                        </li>
-                        <li>
+                        </li> */}
+                        {/* <li>
                           <Link href="/oilandgas">
                             <a className="closer">OIL & GAS</a>
                           </Link>
-                        </li>
+                        </li> */}
 
-                        <li>
+                        {/* <li>
                           <Link href="/manufacturing1">
                             <a>Manufacturing</a>
                           </Link>
@@ -683,7 +692,7 @@ const Sidebar = ({ openClass }) => {
                           <Link href="/retailandwholesaler">
                             <a>Retail & Wholesalers</a>
                           </Link>
-                        </li>
+                        </li> */}
                         {/* <li>
                           <Link href="/blog-single">
                             <a>Hiring Agencies</a>

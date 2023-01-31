@@ -23,7 +23,7 @@ function Pricing1() {
                                                 <div className="box-info-price"><span className="text-heading-3 for-month display-month"> AED 1000</span><span className="text-heading-3 for-year">$420</span><span className="text-month for-month text-body-small color-gray-400">/month</span><span className="text-month for-year text-body-small color-gray-400">/year</span></div>
                                                 <div className="line-bd-bottom">
                                                     <h4 className="text-heading-5 mb-15">IT & SUPPORT</h4>
-                                                    <p className="text-body-small color-gray-400">All the basics for businesses that are just getting started.</p>
+                                                    <p className="text-body-small color-gray-400">Affordable and comprehensive IT & SUPPORT solutions for businesses in the early stages of growth</p>
                                                 </div>
                                                 <ul className="list-package-feature">
                                                     <li>Unlimited updates</li>
@@ -40,7 +40,7 @@ function Pricing1() {
                                                 <div className="box-info-price"><span className="text-heading-3 for-month display-month">AED 1500</span><span className="text-heading-3 for-year">$1068</span><span className="text-month for-month text-body-small color-gray-400">/month</span><span className="text-month for-year text-body-small color-gray-400">/year</span></div>
                                                 <div className="line-bd-bottom">
                                                     <h4 className="text-heading-5 mb-15">OIL & GAS</h4>
-                                                    <p className="text-body-small color-gray-400">All the basics for businesses that are just getting started.</p>
+                                                    <p className="text-body-small color-gray-400">Budget-friendly and essential oil & gas solutions for new businesses.We provide you at reasonable price.</p>
                                                 </div>
                                                 <ul className="list-package-feature">
                                                     <li>Unlimited updates</li>
@@ -57,7 +57,7 @@ function Pricing1() {
                                                 <div className="box-info-price"><span className="text-heading-3 for-month display-month">AED 1300</span><span className="text-heading-3 for-year">$1500</span><span className="text-month for-month text-body-small color-gray-400">/month</span><span className="text-month for-year text-body-small color-gray-400">/year</span></div>
                                                 <div className="line-bd-bottom">
                                                     <h4 className="text-heading-5 mb-15">MANUFACTURING</h4>
-                                                    <p className="text-body-small color-gray-400">Advanced features for pros who need more customization.</p>
+                                                    <p className="text-body-small color-gray-400">High-end and customizable manufacturing solutions for experienced professionals.</p>
                                                 </div>
                                                 <ul className="list-package-feature">
                                                     <li>Unlimited updates</li>
@@ -75,7 +75,7 @@ function Pricing1() {
                                                 <div className="box-info-price"><span className="text-heading-3 for-month display-month">AED 1150</span><span className="text-heading-3 for-year">$2388</span><span className="text-month for-month text-body-small color-gray-400">/month</span><span className="text-month for-year text-body-small color-gray-400">/year</span></div>
                                                 <div className="line-bd-bottom">
                                                     <h4 className="text-heading-5 mb-15">RETAIL & WHOLESALE</h4>
-                                                    <p className="text-body-small color-gray-400">Advanced features for pros who need more customization.</p>
+                                                    <p className="text-body-small color-gray-400">Cost-effective and comprehensive retail & wholesale solutions for businesses of all sizes.</p>
                                                 </div>
                                                 <ul className="list-package-feature">
                                                     <li>Unlimited updates &amp; Support</li>

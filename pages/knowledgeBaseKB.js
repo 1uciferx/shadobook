@@ -65,10 +65,10 @@ function knowledgeBaseKB() {
 
         <div className="section-box mt-140">
           <div className="container text-start">
-            <h2 className="text-heading-1 color-gray-900">
+            <h2 className="text-heading-3 color-gray-900">
               What is Knowledge Base
             </h2>
-            <p className="text-body-lead-large color-gray-600 mt-20">
+            <p className="text-body-text color-gray-600 mt-20">
               <br /><br />
               ➟ Shadobooks CRMs can also assist you to develop other types of information, such as a knowledge base.
               <br /><br />
@@ -96,10 +96,10 @@ function knowledgeBaseKB() {
 
         <div className="section-box mt-140">
           <div className="container text-start">
-            <h2 className="text-heading-1 color-gray-900">
+            <h2 className="text-heading-3 color-gray-900">
               How to Create an Article
             </h2>
-            <p className="text-body-lead-large color-gray-600 mt-20">
+            <p className="text-body-text color-gray-600 mt-20">
               ➟ To create a new knowledge base article, go to the main menu and select Knowledge Base ⇢ Articles.
               <br /><br />
               ➟ A new window will open; click the top left button New Article.

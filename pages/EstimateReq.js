@@ -23,7 +23,7 @@ function EstimateReq() {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-6">
-                                    <h1 className="text-display-3 mt-30">Estimates Request</h1>
+                                    <h1 className="text-display-3 mt-90">Estimates Request</h1>
                                     <p className="text-body-lead-large color-gray-500 mt-40 pr-40">The estimate request function in Shadobooks CRM allows you to develop forms that your customers can use to get a pricing estimate for services or items from your business. The estimates request feature allows you to add several types of fields that may be adapted to your company's needs.</p>
                                     <div className="mt-40">
                                         {/* <Link href="/page-service-1"><a className="btn btn-black shape-square icon-arrow-right-white">SIGNUP NOW
@@ -53,9 +53,9 @@ function EstimateReq() {
                             <div className="col-lg-1 col-sm-1 col-12" />
                             <div className="col-lg-10 col-sm-10 col-12 text-start">
 
-                                <h2 className="text-display-3 text-center color-gray-900 mb-60">Create estimate request form</h2>
+                                <h2 className="text-heading-3 text-center color-gray-900 mb-60">Create estimate request form</h2>
 
-                                <p className="text-body-lead-large color-gray-600 mt-20">➟ The first step is to create an estimate request form; you may create an unlimited number of estimate request forms in Shadobooks CRM.
+                                <p className="text-body-text  color-gray-600 mt-20">➟ The first step is to create an estimate request form; you may create an unlimited number of estimate request forms in Shadobooks CRM.
                                     <br /><br />
                                     ➟ To do so, navigate to Setup ⇢ Estimate requestForms ⇢ New form. Fill out the form with your information and save it.</p>
                             </div>
@@ -82,9 +82,9 @@ function EstimateReq() {
                             <div className="col-lg-1 col-sm-1 col-12" />
                             <div className="col-lg-10 col-sm-10 col-12 text-center">
 
-                                <h2 className="text-display-3 color-gray-900 mb-60">Set status to form</h2>
+                                <h2 className="text-heading-3 color-gray-900 mb-60">Set status to form</h2>
 
-                                <p className="text-body-lead-large color-gray-600 mt-20">After successfully entering the Shadobooks CRM database, the estimate request must be in status. To change a form's state, navigate to Setup-Estimate request ⇢ Statuses ⇢ New status. Save the status by entering its name and colour.</p>
+                                <p className="text-body-text color-gray-600 mt-20">After successfully entering the Shadobooks CRM database, the estimate request must be in status. To change a form's state, navigate to Setup-Estimate request ⇢ Statuses ⇢ New status. Save the status by entering its name and colour.</p>
                             </div>
                         </div>
                     </div>
@@ -97,9 +97,9 @@ function EstimateReq() {
                             <div className="col-lg-1 col-sm-1 col-12" />
                             <div className="col-lg-10 col-sm-10 col-12 text-start">
 
-                                <h2 className="text-display-3 text-center color-gray-900 mb-60">Estimate request Report</h2>
+                                <h2 className="text-heading-3 text-center color-gray-900 mb-60">Estimate request Report</h2>
 
-                                <p className="text-body-lead-large color-gray-600 mt-20">➟ Estimate request reports are used to track estimate forms and provide an overview of all estimate’s forms created in a specific time period.
+                                <p className="text-body-text color-gray-600 mt-20">➟ Estimate request reports are used to track estimate forms and provide an overview of all estimate’s forms created in a specific time period.
                                     <br /><br />
                                     ➟ The way to get the overall Estimate request reports by, go to Addon management-Estimate request.
                                     <br /><br />

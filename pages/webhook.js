@@ -55,9 +55,9 @@ function Index6() {
                         <div className="col-lg-12 col-sm-12 pr-30">
                             <div className="card-grid-style-4">
                                 <span className="tag-dot">Webhooks</span>
-                                <a className="text-heading-4">
+                                <div className="text-heading-4">
                                     What are Web Hooks ?
-                                </a>
+                                </div>
                                 <div className="grid-4-img">
                                     {/* <Link href="#"> */}
                                     <a>
@@ -69,7 +69,7 @@ function Index6() {
 
                                     {/* </Link> */}
                                 </div>
-                                <a className="text-heading-7">
+                                <div className="text-heading-7">
                                     <p />
                                     ➟ Shadobooks CRM supports multiple action hooks across the code to provide the greatest experience for buyers.
                                     <br /><br />
@@ -78,7 +78,7 @@ function Index6() {
                                     ➟ Webhooks are most commonly used by web application platforms.
                                     <br /><br />
                                     ➟ The goal is that vendors will find it simple to integrate.
-                                </a>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -92,9 +92,9 @@ function Index6() {
                         <div className="col-lg-12 col-sm-12 pr-30">
                             <div className="card-grid-style-4">
                                 <span className="tag-dot">New Webhook</span>
-                                <a className="text-heading-4">
+                                <div className="text-heading-4">
                                     How to Create a New Webhook ?
-                                </a>
+                                    </div>
                                 <div className="grid-4-img">
                                     {/* <Link href="#"> */}
                                     <a>
@@ -106,7 +106,7 @@ function Index6() {
 
                                     {/* </Link> */}
                                 </div>
-                                <a className="text-heading-7">
+                                <div className="text-heading-7">
                                     <p />
                                     To create a new webhook in Shadobooks CRM,
                                     <br /><br />
@@ -114,7 +114,7 @@ function Index6() {
                                     ➟ On the Webhooks page, click the New Webhook button. <br /><br />
                                     ➟ Fill out all of the required parameters on the New Webhook page. <br /><br />
                                     ➟ Click Save.
-                                </a>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -129,9 +129,9 @@ function Index6() {
                         <div className="col-lg-12 col-sm-12 pr-30">
                             <div className="card-grid-style-4">
                                 <span className="tag-dot">Log History</span>
-                                <a className="text-heading-4">
+                                <div className="text-heading-4">
                                     What is Log History ?
-                                </a>
+                                    </div>
                                 <div className="grid-4-img">
                                     {/* <Link href="#"> */}
                                     <a>
@@ -143,14 +143,14 @@ function Index6() {
 
                                     {/* </Link> */}
                                 </div>
-                                <a className="text-heading-7">
+                                <div className="text-body-text">
                                     <p />
                                     ➟ Using the webhook logs, you can keep track of all activity in Shadobooks CRM.
                                     <br /><br />
                                     ➟ Webhook logs provide a record of every webhook attempt made by our system, as well as information on the call's success or failure.
                                     <br /><br />
                                     ➟ Webhooks can be enabled or disabled in the developer options.
-                                </a>
+                                    </div>
                             </div>
                         </div>
                     </div>

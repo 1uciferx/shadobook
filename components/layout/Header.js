@@ -12,7 +12,7 @@ const Header = ({ handleOpen, headerStyle }) => {
 
 
   const [scroll, setScroll] = useState(0);
-
+  
   const [shodan, setShodan] = useState("");
   const [ip, setIP] = useState("");
 
@@ -346,7 +346,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li>
 
                             <li>
-                              <Link href="/projects">
+                              <Link href="/project">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Projects

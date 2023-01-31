@@ -8,7 +8,7 @@ function Index8() {
         <>
             <Layout>
                 <div className="section-box">
-                <div className="banner-hero banner-head-image" style={{ background: 'url(/assets/imgs/page/homepage4/demo2.jpg)' }}>
+                <div className="banner-hero banner-head-image" style={{ background: 'url(/assets/imgs/page/homepage4/ee22.jpg)' }}>
                         <div className="container mt-50">
                             <div className="row">
                             <div className="col-lg-2"></div>
@@ -36,13 +36,13 @@ function Index8() {
                                 <div className="product-item-2 product-item-3 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
 
 
-                                    <a>
+                                   
                                         <div className="product-image"><img src="assets/imgs/page/homepage1/asf.png" /></div>
-                                    </a>
+                                   
                                     <div className="product-info">
-                                        <a>
+                                      
                                             <h3 className="text-body-lead color-gray-900">Support</h3>
-                                        </a>
+                                       
                                         <div className="d-flex mt-20">
 
                                             <p className="text-body-text color-gray-600 mt-5">The shadobooks CRM ticketing system includes a unique dashboard for organising and handling a huge number of support tickets. It also results in a more enjoyable client experience. A CRM ticketing system gives solutions to two specific features of the ticketing system: Customers generating inquiries through multiple means, as email or phone. Priority-based ticket resolution for bulk tickets.</p>
@@ -86,13 +86,13 @@ function Index8() {
                                 <div className="product-item-2 product-item-3 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
 
 
-                                    <a>
+                                   
                                         <div className="product-image"><img src="/assets/imgs/page/homepage1/as3.png" /></div>
-                                    </a>
+                                   
                                     <div className="product-info">
-                                        <a>
+                                       
                                             <h3 className="text-body-lead color-gray-900">Raise a Ticket</h3>
-                                        </a>
+                                      
                                         <div className="d-flex mt-20">
 
                                             <p className="text-body-text color-gray-600 mt-5">➟ Power your support system and ticketing processes with Shadobooks CRM.
