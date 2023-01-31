@@ -655,15 +655,15 @@ const Sidebar = ({ openClass }) => {
                           : "has-children"
                       }
                     >
-                      <span
+                      {/* <span
                         onClick={() => handleToggle(5)}
                         className="menu-expand"
                       >
                         <i className="fi-rr-angle-small-down"></i>
-                      </span>
+                      </span> */}
 
                       
-                        <a style={{fontSize:"20px"}}>Solution</a>
+                        {/* <a style={{fontSize:"20px"}}>Solution</a> */}
                       
                       <ul
                         className={
@@ -672,18 +672,18 @@ const Sidebar = ({ openClass }) => {
                             : "sub-menu d-none"
                         }
                       >
-                        <li>
+                        {/* <li>
                           <Link href="/itsupport">
                             <a className="closer">IT & Support</a>
                           </Link>
-                        </li>
+                        </li> */}
                         {/* <li>
                           <Link href="/oilandgas">
                             <a className="closer">OIL & GAS</a>
                           </Link>
                         </li> */}
 
-                        <li>
+                        {/* <li>
                           <Link href="/manufacturing1">
                             <a>Manufacturing</a>
                           </Link>
@@ -692,7 +692,7 @@ const Sidebar = ({ openClass }) => {
                           <Link href="/retailandwholesaler">
                             <a>Retail & Wholesalers</a>
                           </Link>
-                        </li>
+                        </li> */}
                         {/* <li>
                           <Link href="/blog-single">
                             <a>Hiring Agencies</a>
