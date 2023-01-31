@@ -164,7 +164,7 @@ function Home() {
 
 
 
-            <div className="container mt-100">
+            <div  className="container mt-100">
               <div className="row">
                
 
@@ -196,7 +196,7 @@ function Home() {
 
                 </div>
 
-                <div className="col-lg-6 col-sm-12">
+                <div  className="col-lg-6 col-sm-12">
                   <img className="bdrd-16 img-responsive mt-170" src="/salesagent/pic3.png" alt="Agon" />
                 </div>
 
@@ -212,7 +212,7 @@ function Home() {
 
           
 
-            <div className="container mt-100">
+            <div style = {{ marginBottom:"100px"}} className="container mt-100">
               <div className="row">
                
 
@@ -243,8 +243,8 @@ function Home() {
 
                 </div>
 
-                <div className="col-lg-6 col-sm-12">
-                  <img  className="bdrd-16 img-responsive mt-100" src="/salesagent/pic4.png" alt="Agon" />
+                <div  className="col-lg-6 col-sm-12">
+                  <img  className="bdrd-16 img-responsive mt-130" src="/salesagent/pic4.png" alt="Agon" />
                 </div>
 
               </div>

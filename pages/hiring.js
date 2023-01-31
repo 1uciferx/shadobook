@@ -429,7 +429,7 @@ function Home() {
 
 
 
-          <div className="container mt-120">
+          <div style = {{ marginBottom:"100px"}} className="container mt-120">
                         <div className="bg-10 bdrd-58 pb-60">
                             <div className="row">
                                 <div className="col-lg-2 col-sm-1 col-12" />

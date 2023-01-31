@@ -91,7 +91,7 @@ function Home() {
                 </div>
 
                 <div className="col-lg-6 col-sm-12">
-                  <img  className="bdrd-16 img-responsive mt-60" src="/reportpage/pic2.png" alt="Agon" />
+                  <img  className="bdrd-16 img-responsive mt-130" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
 
               </div>
@@ -172,7 +172,7 @@ function Home() {
                 </div>
 
                 <div className="col-lg-6 col-sm-12">
-                  <img  className="bdrd-16 img-responsive mt-50" src="/reportpage/pic2.png" alt="Agon" />
+                  <img  className="bdrd-16 img-responsive mt-100" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
 
               </div>
@@ -253,7 +253,7 @@ function Home() {
 
                 </div>
 
-                <div className="col-lg-6 col-sm-12 mt-50">
+                <div className="col-lg-6 col-sm-12 mt-120">
                   <img  className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
 
@@ -267,7 +267,7 @@ function Home() {
 
             <div className="container mt-100">
               <div className="row">
-                <div className="col-lg-6 col-sm-12 mt-50">
+                <div className="col-lg-6 col-sm-12 mt-120">
                   <img className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
                 <div className="col-lg-6 col-sm-12 block-we-do">
@@ -352,7 +352,7 @@ Generating reports on insurance for employees by including employee number, empl
 
             <div className="container mt-100">
               <div className="row">
-                <div className="col-lg-6 col-sm-12 mt-120">
+                <div className="col-lg-6 col-sm-12 mt-190">
                   <img  className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
                 <div className="col-lg-6 col-sm-12 block-we-do">
@@ -417,7 +417,7 @@ Generating reports on insurance for employees by including employee number, empl
 
                 </div>
 
-                <div className="col-lg-6 col-sm-12 mt-100">
+                <div className="col-lg-6 col-sm-12 mt-130">
                   <img  className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
 
@@ -431,7 +431,7 @@ Generating reports on insurance for employees by including employee number, empl
 
 
 
-            <div className="container mt-100">
+            <div style = {{ marginBottom:"100px"}} className="container mt-100">
               <div className="row">
                 <div className="col-lg-6 col-sm-12 mt-150">
                   <img  className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />

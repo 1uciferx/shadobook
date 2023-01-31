@@ -104,7 +104,7 @@ function Home() {
 
 
 
-                        <img  className="img-responsive mt-70" src="/accountingpage/pic1.png" alt="Agon" />
+                        <img  className="img-responsive mt-120" src="/accountingpage/pic1.png" alt="Agon" />
                       </div>
                     </div>
                   </div>
@@ -151,7 +151,7 @@ function Home() {
                       
 
 
-                        <img  className="img-responsive mt-100" src="/accountingpage/pic2.png" alt="Agon" />
+                        <img  className="img-responsive mt-130" src="/accountingpage/pic2.png" alt="Agon" />
                       </div>
                     </div>
                   </div>
@@ -200,7 +200,7 @@ function Home() {
                
 
 
-                        <img  className="img-responsive mt-130" src="/accountingpage/pic3.png" alt="Agon" />
+                        <img  className="img-responsive mt-140" src="/accountingpage/pic3.png" alt="Agon" />
                       </div>
                     </div>
                   </div>
@@ -232,11 +232,7 @@ function Home() {
                 </li>
                 <br></br>
 
-                <li>
-
-                It also allows the user to post journal entries to the general ledger and generate reports on journal entries.  
-                  </li>
-                  <br></br>
+                
                   <li>
                   	It can also help to maintain the integrity of financial records and ensure compliance with accounting principles.
                   </li>
@@ -296,7 +292,7 @@ function Home() {
                      
                       
 
-                        <img className="img-responsive mt-80" src="/accountingpage/pic5.png" alt="Agon" />
+                        <img className="img-responsive mt-90" src="/accountingpage/pic5.png" alt="Agon" />
                       </div>
                     </div>
                   </div>
@@ -348,7 +344,7 @@ function Home() {
                       
 
 
-                        <img  className="img-responsive mt-90" src="/accountingpage/pic6.png" alt="Agon" />
+                        <img  className="img-responsive mt-120" src="/accountingpage/pic6.png" alt="Agon" />
                       </div>
                     </div>
                   </div>
@@ -396,7 +392,7 @@ function Home() {
                        
 
 
-                        <img  className="img-responsive mt-70" src="/accountingpage/pic7.png" alt="Agon" />
+                        <img  className="img-responsive mt-100" src="/accountingpage/pic7.png" alt="Agon" />
                       </div>
                     </div>
                   </div>
@@ -443,7 +439,7 @@ function Home() {
                     
 
 
-                        <img className="img-responsive mt-70" src="/accountingpage/pic8.png" alt="Agon" />
+                        <img className="img-responsive mt-120" src="/accountingpage/pic8.png" alt="Agon" />
                       </div>
                     </div>
                   </div>
@@ -458,7 +454,7 @@ function Home() {
 
 
 
-          <div className="container">
+          <div  style = {{ marginBottom:"100px"}} className="container">
             <div className="tab-content">
               <div className={activeIndex === 1 ? "tab-pane fade  active show" : "tab-pane fade "}>
                 <div className="bg-10 panel-box mt-50">
@@ -485,7 +481,7 @@ function Home() {
 
                       </div>
                     </div>
-                    <div className="col-lg-6 col-md-12">
+                    <div className="col-lg-6 col-md-12 ">
                       
 
 
