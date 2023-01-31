@@ -75,14 +75,14 @@ function BlogSingle() {
                                         </div>
                                         <p />
 
-                                        <h2 className="text-heading-3">Overview and How to Record expenses in shadobooks CRM</h2>
+                                        <h2 className="text-heading-4">Overview and How to Record expenses in shadobooks CRM</h2>
                                         <p>➟ To add a new expense, select Expenses ⇢ Record Expense from the side menu.
                                             <br /><br />
                                             ➟ Fill out the details in the expenses form and save it.
                                             <br /><br />
                                             ➟ You can assign tasks to newly created expenses and attach 'expense receipts' as well.</p>
                                         <p />
-                                        <br /><br />
+                                        
 
 
                                     </div>

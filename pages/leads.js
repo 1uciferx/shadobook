@@ -1,355 +1,161 @@
-/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useState } from "react";
-import { Breadcrumb, Layout as L } from "antd";
-const { Content } = L;
-import Flip from "react-reveal/Flip";
-import { Button, Space } from "antd";
-import { Col, Row } from "antd";
-import styles from "../styles/Leads.module.css";
-import "react-modal-video/css/modal-video.css";
-import CounterUp from "../components/elements/CounterUp";
+import PriceTable2 from "../components/elements/PriceTable2";
 import Layout from "../components/layout/Layout";
-import TeamSlider from "../components/slider/Team";
+import OfferSlider from "../components/slider/Offer";
 import TestimonialSlider from "../components/slider/Testimonial";
-import Zoom from "react-reveal/Zoom";
-import Pulse from "react-reveal/Pulse";
-import Contactmanager from "../components/contactmanager";
+const ModalVideo = dynamic(import("react-modal-video"), {
+  ssr: false,
+});
 
-function Leads() {
+function Home() {
   const [isOpen, setOpen] = useState(false);
+  const [activeIndex, setActiveIndex] = useState(1);
+
+  const handleOnClick = (index) => {
+    setActiveIndex(index); // remove the curly braces
+  };
+
   return (
     <>
+      {/* <Link href="/#">
+                <a>Link</a></Link>
+            </Link> */}
       <Layout>
-        {/* backgroundImage for the hero */}
+        <section className="section-box">
+          <div className="banner-hero banner-head-image" style={{ background: 'url(assets/imgs/page/homepage1/eeeq.jpg)' }}>
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-12">
+                  <h1 className="text-display-2 text-center color-white">
+                    Leads
 
-        <div
-          style={{
-            backgroundImage: `url(/assets/imgs/page/homepage1/ccc.jpg)`,
-            backgroundSize: "cover",
-            height: "400px",
-            width: "100%",
-          }}
-        >
-          {/* Breadcrumb code */}
+                  </h1>
+                  <p className="text-body-lead-large color-white mt-40  text-center">
+                    Shadobooks offers an easy to use CRM interface and
+                    facilitates data access from anywhere at any time.
+                  </p>
 
-          <Col
-            xs={{
-              span: 24,
-              offset: 1,
-            }}
-            lg={{
-              span: 9,
-              offset: 1,
-            }}
-            md={{
-              span: 16,
-              offset: 0,
-            }}
-            sm={{
-              span: 17,
-              offset: 1,
-            }}
-            xl={{
-              span: 22,
-              offset: 1,
-            }}
-            xxl={{
-              span: 22,
-              offset: 1,
-            }}
-          >
-            <Content className={styles.bc}>
-              <Breadcrumb style={{ fontWeight: "bold" }}>
-                <Breadcrumb>
-                  <Breadcrumb.Item style={{ color: "white" }}>
-                    Index
-                  </Breadcrumb.Item>
-                  <Breadcrumb.Item>
-                    <a style={{ color: "white" }} href="">
-                      Features
-                    </a>
-                  </Breadcrumb.Item>
-                  <Breadcrumb.Item>
-                    <a style={{ color: "white" }} href="">
-                      Leads
-                    </a>
-                  </Breadcrumb.Item>
-                </Breadcrumb>
-              </Breadcrumb>
-            </Content>
-          </Col>
+                </div>
 
-          {/* end of the breadcrumb code */}
-
-          {/* text on the hero banner */}
-
-          <Row>
-            <Col
-              xs={{
-                span: 20,
-                offset: 2,
-              }}
-              lg={{
-                span: 22,
-                offset: 1,
-              }}
-              md={{
-                span: 22,
-                offset: 1,
-              }}
-              sm={{
-                span: 22,
-                offset: 1,
-              }}
-              xl={{
-                span: 20,
-                offset: 2,
-              }}
-              xxl={{
-                span: 22,
-                offset: 1,
-              }}
-            >
-              <div>
-                <Flip top cascade>
-                  <h1 className={styles.headings}>Leads</h1>
-                </Flip>
               </div>
-
-              <div className={styles.headparacenter}>
-                <Flip top cascade>
-                  <ol className={styles.headpara}>
-                    <li>Shadobooks offers an easy to use CRM interface and</li>
-                    <li> facilitates data access from anywhere at any time.</li>
-                  </ol>
-                </Flip>
-              </div>
-            </Col>
-          </Row>
-        </div>
-
-        <Row>
-          <Col
-            xs={{
-              span: 24,
-              offset: 0,
-            }}
-            lg={{
-              span: 20,
-              offset: 1,
-            }}
-            md={{
-              span: 22,
-              offset: 0,
-            }}
-            sm={{
-              span: 17,
-              offset: 1,
-            }}
-            xl={{
-              span: 20,
-              offset: 2,
-            }}
-            xxl={{
-              span: 21,
-              offset: 0,
-            }}
-          >
-            <div>
-              <Flip top cascade></Flip>
             </div>
-          </Col>
-        </Row>
-
-        {/* second container image has been placed here */}
-
-        <Zoom>
-          <div className={styles.happy}>
-          <div className={styles.imgcenter}>
-            <img
-              src="assets/imgs/page/about/11/L.png"
-              className={styles.conimg2}
-            />
           </div>
+        </section>
+
+        <section className="section-box">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-2 col-sm-1 col-12" />
+
+              <div className="col-lg-2 col-sm-1 col-12" />
+            </div>
           </div>
-        </Zoom>
 
-        {/* after image dialouges are wrriten here */}
 
-        <div className={styles.imgcon}>
-          <Zoom>
-            <p className={styles.subhead4}>
-            In Shadobook ERP, the lead page is shown when you click the lead module. Here we have the options to add a new lead, import a lead, filter options, and also the list form of generated leads.
-            </p>
-          </Zoom>
-        </div>
 
-        {/* addnewlead */}
 
-        <Row>
-          <Col
-            xs={{
-              span: 23,
-              offset: 1,
-            }}
-            lg={{
-              span: 10,
-              offset: 0,
-            }}
-            md={{
-              span: 22,
-              offset: 0,
-            }}
-            sm={{
-              span: 17,
-              offset: 1,
-            }}
-            xl={{
-              span: 10,
-              offset: 1,
-            }}
-            xxl={{
-              span: 10,
-              offset: 0,
-            }}
-          >
-            <Flip cascade>
-              <p className={styles.para}>Add New Lead</p>
-            </Flip>
-            <Zoom>
-              <ol className={styles.subhead}>
-              <li>➟ In this add new lead window, you need to select the details such as status, source, and assigned.</li><br/>
-              <li>➟ You need to enter the field name such as name, address, position, city, email address, state, company, etc.</li><br/>
-              <li>➟ Click the save button to add the new task.</li>
+          <div className="container mt-90">
+          <div className="row">
+                        <div className="col-lg-12 col-sm-12 pr-30">
+                            <div className="card-grid-style-4">
+                                <span className="tag-dot">Leads</span>
+                                
+                                <div className="grid-4-img">
+                                    {/* <Link href="#"> */}
+                                    <a>
+                                        <img
+                                            src="assets/imgs/page/about/11/L.png"
+                                            alt="Agon"
+                                        />
+                                    </a>
 
-              </ol>
-            </Zoom>
-          </Col>
+                                    {/* </Link> */}
+                                </div>
+                                <div className="text-body-text">
+                                    <p />
+                                    In Shadobook ERP, the lead page is shown when you click the lead module. Here we have the options to add a new lead, import a lead, filter options, and also the list form of generated leads.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+</div>
 
-          {/* image addnewlead */}
 
-          <Col
-            xs={{
-              span: 24,
-              offset: 0,
-            }}
-            lg={{
-              span: 12,
-              offset: 0,
-            }}
-            md={{
-              span: 22,
-              offset: 0,
-            }}
-            sm={{
-              span: 17,
-              offset: 1,
-            }}
-            xl={{
-              span: 12,
-              offset: 1,
-            }}
-            xxl={{
-              span: 10,
-              offset: 1,
-            }}
-          >
-            <Zoom>
-              <img
-                src="assets/imgs/page/about/11/AL.png"
-                className={styles.conimg}
-              />
-            </Zoom>
-          </Col>
-        </Row>
+          <div className="container">
+            <div className="tab-content">
+              <div className="bg-6 panel-box mt-50" >
+                <div className="row">
+                  <div className="col-lg-6 col-md-12">
+                    <div className="block-video mt-0 ">
+                      <img className="img-responsive" src="assets/imgs/page/about/11/AL.png" alt="Shadoboooks" />
+                    </div>
+                  </div>
+                  <div className="col-lg-6 col-md-12">
+                    <div className="box-optimized">
+                      <h3 className="text-heading-2">
+                        Add New Lead
+                      </h3>
+                      <p className="text-body-excerpt mt-30">
+                        ➟  In this add new lead window, you need to select the details such as status, source, and assigned.
+                        <br /><br />
+                        ➟  You need to enter the field name such as name, address, position, city, email address, state, company, etc.
+                        <br /><br />
+                        ➟ Click the save button to add the new task.
 
-        {/* importleads */}
-        <Row>
-          <Col
-            xs={{
-              span: 23,
-              offset: 1,
-            }}
-            lg={{
-              span: 10,
-              offset: 0,
-            }}
-            md={{
-              span: 22,
-              offset: 0,
-            }}
-            sm={{
-              span: 17,
-              offset: 1,
-            }}
-            xl={{
-              span: 10,
-              offset: 1,
-            }}
-            xxl={{
-              span: 10,
-              offset: 0,
-            }}
-          >
-            <Flip cascade>
-              <p className={styles.para}>Import Leads</p>
-            </Flip>
-            <Zoom>
-              <ol className={styles.subhead}>
-              <li>➟ In Shadobook ERP, when you click the import lead button, the import page will open.</li><br/>
-              <li>➟ To import lead, select the csv file, status, source, responsible.</li><br/>
-              <li>➟ Click the import button or simulate import button to import the selected file.</li>
+                      </p>
+                    </div>
+                  </div>
 
-              </ol>
-            </Zoom>
-          </Col>
+                </div>
+              </div>
+            </div>
+          </div>
 
-          {/* image importleads */}
+          <div className="container">
+            <div className="tab-content">
+              <div className="bg-4 panel-box mt-50" >
+                <div className="row">
+                  <div className="col-lg-6 col-md-12">
+                    <div className="box-optimized">
+                      <h3 className="text-heading-2">
+                        Import Leads
+                      </h3>
+                      <p className="text-body-excerpt mt-30">
+                        ➟  In Shadobook ERP, when you click the import lead button, the import page will open.
 
-          <Col
-            xs={{
-              span: 24,
-              offset: 0,
-            }}
-            lg={{
-              span: 12,
-              offset: 0,
-            }}
-            md={{
-              span: 22,
-              offset: 0,
-            }}
-            sm={{
-              span: 17,
-              offset: 1,
-            }}
-            xl={{
-              span: 12,
-              offset: 1,
-            }}
-            xxl={{
-              span: 10,
-              offset: 1,
-            }}
-          >
-            <Zoom>
-              <img
-                src="assets/imgs/page/about/11/IL.png"
-                className={styles.conimg}
-              />
-            </Zoom>
-          </Col>
-        </Row>
-        <div>
-          <Contactmanager/>
-        </div>
+                        <br /><br />
+                        ➟ To import lead, select the csv file, status, source, responsible.
+                        <br /><br />
+                        ➟ Click the import button or simulate import button to import the selected file.
+
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-lg-6 col-md-12">
+                    <div className="block-video mt-20 ">
+                      <img className="img-responsive" src="assets/imgs/page/about/11/IL.png" alt="Shadoboooks" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+        </section>
+
       </Layout>
+
     </>
-  );
+  )
 }
 
-export default Leads;
+export default Home;
