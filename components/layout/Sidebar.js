@@ -526,6 +526,15 @@ const Sidebar = ({ openClass }) => {
                                 </a>
                               </Link>
                             </li>
+
+                            <li>
+                              <Link href="/sales-agent">
+                                <a>
+                                 
+                                  Sales Agent
+                                </a>
+                              </Link>
+                            </li>
                           </div>
                            
                             
