@@ -16,7 +16,12 @@ function Manufacturing() {
     <>
       <Layout>
         <section className="section-box">
-          <div className="banner-hero banner-4">
+        <div
+            className="banner-hero banner-head-image"
+            style={{
+              background: "url(assets/imgs/page/blog/single/manuf.jpg)",
+            }}
+          >
             <div className="container">
               <div className="row">
                 <div className="col-lg-7">
@@ -46,7 +51,7 @@ function Manufacturing() {
           <div className="container"></div>
         </section>
 
-        <section className="section-box mb-120">
+        <section className="section-box mb-120 mb-xs-10">
           <div className="container mt-20 mb-lg-100">
             <div className="row">
               <div className="col-lg-1 col-sm-12"></div>
@@ -73,7 +78,7 @@ function Manufacturing() {
           </div>
         </section>
 
-        <div className="container mt-100">
+        <div className="shadow-lg p-3 mb-5 bg-body rounded container mt-100 ">
           <div className="row">
             <div className="col-lg-2 col-sm-1 col-12" />
             <div className="col-lg-8 col-sm-10 col-12 text-center mt-40">

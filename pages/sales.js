@@ -9,11 +9,16 @@ function Sales() {
     <>
       <Layout>
         <div className="section-box">
-          <div className="banner-hero banner-4">
+        <div
+            className="banner-hero banner-head-image"
+            style={{
+              background: "url(assets/imgs/page/blog/single/sale.jpg)",
+            }}
+          >
             <div className="container mt-40">
               <div className="row">
                 <div className="col-lg-8">
-                  <h1 className="text-display-2 mt-30">Sales</h1>
+                  <h1 className="text-display-2 color-white mt-30">Sales</h1>
                   <p className="text-body-lead-large color-white mt-40 pr-40">
                     The sales interface enables hyper management of all your
                     prospects,
@@ -24,12 +29,12 @@ function Sales() {
                 </div>
                 <div className="col-lg-4 d-none d-lg-block">
                   <div className="banner-imgs">
-                    <div className="block-4 shape-2">
+                    {/* <div className="block-4 shape-2">
                       <img
                         src="assets/imgs/page/homepage4/salesgif.gif "
                         alt="Agon"
                       />
-                    </div>
+                    </div> */}
                     {/* <div className="block-2 shape-3">
                       <img
                         src="/assets/imgs/page/homepage5/circle-2.svg"
@@ -61,7 +66,7 @@ function Sales() {
           <div className="col-lg-8">
             <div className="single-detail mt-50">
               <h2 className="text-heading-2">Proposal</h2>
-              <p>
+              <p className="text-body-text">
                 ➟ To view a proposal in Shadobook ERP, navigate to the sales
                 module, Click the "New Proposal" tab to create a new proposal.
                 <br></br>
