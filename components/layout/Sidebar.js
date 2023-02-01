@@ -445,9 +445,8 @@ const Sidebar = ({ openClass }) => {
                             </li> */}
 
                             <li>
-                              <Link href="webhooks">
-                                <a>
-                                 
+                              <Link href="webhook">
+                                <a>                               
                                   Web Hooks
                                 </a>
                               </Link>
