@@ -693,7 +693,6 @@ const Header = ({ handleOpen, headerStyle }) => {
                   </ul>
                 </nav>
 
-
                 <div
                   className="burger-icon burger-icon-white cusburgericon"
                   onClick={handleOpen}
@@ -701,7 +700,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                   <span className="burger-icon-top" />
                   <span className="burger-icon-mid" />
                   <span className="burger-icon-bottom" />
-                </div>
+                </div> 
               </div>
             </div>
 

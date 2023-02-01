@@ -82,7 +82,7 @@ function Mobilefooter() {
     <div class="d-flex justify-content-center">
 
       <div class="copyright">
-     <p style={{color:"#90331c"}}>© ShadoBooks Pvt.Ltd</p>
+     <p style={{color:"#90331c",marginBottom:"80px"}}>© ShadoBooks Pvt.Ltd</p>
       </div>
     </div>
   </div>

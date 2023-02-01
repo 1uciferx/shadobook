@@ -165,10 +165,7 @@ function Utilities() {
                   <div className="box-optimized">
                     <h3 className="text-heading-2">Announcements</h3>
                     <p className="text-body-excerpt mt-30">
-                      ➟ To check the list of announcements, go to the Utilities
-                      module and click "Announcements."
-                      <br></br>
-                      <br></br>➟ On this page, you can see the list of existing
+                     ➟ In this Module, you can see the list of existing
                       announcements and also have the option to create a new
                       announcement by clicking the "New Tab."
                       <br></br>
@@ -203,20 +200,15 @@ function Utilities() {
                   <div className="box-optimized">
                     <h3 className="text-heading-2">Goals</h3>
                     <p className="text-body-excerpt mt-30">
-                      ➟ In Shadobook ERP, it is possible to create and view
-                      goals.
-                      <br></br>
-                      <br></br>➟ To add a new goal, navigate to the Utilities
-                      module and click on the Goal option.
-                      <br></br>
-                      <br></br>➟ Click on the "New Goal" tab to add a new goal.
+                     ➟ To add a new goal, navigate to the Utilities
+                      module and click on the Goal option, Click on the "New Goal" tab to add a new goal.
+                     
                       <br></br>
                       <br></br>➟ Enter all details such as subject, staff
                       member, achievements, start date, end date, goal type.
                       <br></br>
-                      <br></br>➟ Click the Save button to save the goal.
-                      <br></br>
-                      <br></br>➟ The list of goals will appear in Shadobook ERP.
+                      <br></br>➟ Click the Save button to save the goal, The list of goals will appear in Shadobook ERP.
+                       
                     </p>
                   </div>
                 </div>

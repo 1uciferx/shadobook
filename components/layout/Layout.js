@@ -24,9 +24,10 @@ const Layout = ({ children, headerStyle }) => {
   return (
     <>
       <div className={openClass && "body-overlay-1"} onClick={handleRemove} />
+
       <div className={styles.allheader}>
         <Header handleOpen={handleOpen} headerStyle={headerStyle} />
-        <Sidebar openClass={openClass} />
+         <Sidebar openClass={openClass} /> 
       </div>
       <main className="main">{children}</main>
 

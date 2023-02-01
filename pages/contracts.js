@@ -12,30 +12,35 @@ function Contracts() {
   return (
     <>
       <Layout>
-        <section className="section-box">
+      <section className="section-box">
           <div
             className="banner-hero banner-head-image"
             style={{
-              background: "url(assets/imgs/page/blog/single/inventory.jpg)",
+              background: "url(assets/imgs/page/blog/single/Contracts.jpg)",
             }}
           >
             <div className="container">
-              <div className="text-center">
-                <h1 className="text-display-2 color-white mt-30">Contracts</h1>
-                <Zoom>
-                  <p className="text-body-lead-large color-white mt-40 pr-40">
-                    Shadobooks CRM offers a curated section that is dedicated to
+              <div className="row">
+                <div className="col-lg-12">
+                  <h1 className="text-display-2 text-center color-white">
+                  Contracts
+                  </h1>
+                  <p className="text-body-lead-large color-white mt-40  text-center">
+                  Shadobooks CRM offers a curated section that is dedicated to
                     maintaining and keeping track of all the agreements.
                     Everything from the creation of contracts, overlooking
                     business collaboration, managing documentation between the
                     signed parties, and tracking policies and renewal are some
                     of the features that the interface offers.
                   </p>
-                </Zoom>
+                </div>
               </div>
             </div>
           </div>
         </section>
+
+
+        
 
         <div className="section-box bg-7 mt-70">
           <div className="container mt-100 mb-50">
@@ -50,7 +55,7 @@ function Contracts() {
                   <br></br>
                   <br></br>➟ A contract summary.
                   <br></br>
-                  <br></br>➟ A contract by type
+                  <br></br>➟ A contract by type.
                   <br></br>
                   <br></br>➟A contract value by type.
                   <br></br>
@@ -61,7 +66,7 @@ function Contracts() {
                 <div className="inner-image">
                   <img
                     className="img-responsive"
-                    src="assets/imgs/page/about/7/Contractssum.png"
+                    src="assets/imgs/page/about/7/contractssum.png"
                     alt="Agon"
                   />
                 </div>
@@ -80,7 +85,8 @@ function Contracts() {
                  
                 />
             </div>
-            <p className="text-body-lead-large color-gray-600 mt-20">
+            
+            <p className="text-body-lead-large color-gray-600 mt-20 text-center">
               CRM contracts are digital documents that formalise relationships
               between businesses and their customers.
             </p>
@@ -125,7 +131,7 @@ function Contracts() {
                  
                 />
             </div>
-            <p className="text-body-lead-large color-gray-600 mt-20">
+            <p className="text-body-lead-large color-gray-600 text-center mt-20">
             All your vendor list is updated here along with all the associated details like your purchases, pricing, overdue, invoice details, profile summary and their contact list.
             </p>
             <div className="col-lg-2 col-sm-1 col-12" />
