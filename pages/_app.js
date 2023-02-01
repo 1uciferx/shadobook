@@ -16,7 +16,6 @@ import 'antd/dist/reset.css';
 import FlagApp from '../components/FlagApp';
 
 
-
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);
 
