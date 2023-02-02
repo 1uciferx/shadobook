@@ -1,36 +1,25 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import axios from 'axios';
-
-
-
-
+import axios from "axios";
+import styles from "../../styles/header.module.css";
 
 const Header = ({ handleOpen, headerStyle }) => {
-
-
-
   const [scroll, setScroll] = useState(0);
 
   const [shodan, setShodan] = useState("");
   const [ip, setIP] = useState("");
 
-
-
   async function getIP() {
-    const { data } = await axios.get('https://what-is-my-ip.functionapi.workers.dev')
-    setIP(data)
+    const { data } = await axios.get(
+      "https://what-is-my-ip.functionapi.workers.dev"
+    );
+    setIP(data);
   }
 
-
   useEffect(() => {
-    getIP()
-  }, [])
-
-
-
-
+    getIP();
+  }, []);
 
   useEffect(() => {
     document.addEventListener("scroll", () => {
@@ -39,32 +28,27 @@ const Header = ({ handleOpen, headerStyle }) => {
         setScroll(scrollCheck);
       }
     });
-
-
   });
 
-
   const shodanData = async () => {
-    const { data } = await axios.get(`https://api.shodan.io/shodan/host/${ip && ip || "103.78.237.6"}?key=MuWfcU97yw8u9XP08ZsROsYTiny7Ibcx`)
+    const { data } = await axios.get(
+      `https://api.shodan.io/shodan/host/${
+        (ip && ip) || "103.78.237.6"
+      }?key=MuWfcU97yw8u9XP08ZsROsYTiny7Ibcx`
+    );
 
-    setShodan(data)
-
-  }
-
-
+    setShodan(data);
+  };
 
   useEffect(() => {
-    shodanData()
-  }, [getIP])
+    shodanData();
+  }, [getIP]);
 
-  console.log("data", ip)
+  console.log("data", ip);
 
-  console.log("country", shodan.country_code)
-
+  console.log("country", shodan.country_code);
 
   return (
-
-
     <>
       <header
         className={
@@ -86,14 +70,20 @@ const Header = ({ handleOpen, headerStyle }) => {
                         src="/assets/logo/Logo.png"
                       />
                     ) : (
-                      <img width={250} alt="ShadoBooks" src="assets/imgs/page/homepage4/shadobookslogo.png " />
+                      <img
+                        width={250}
+                        alt="ShadoBooks"
+                        src="assets/imgs/page/homepage4/shadobookslogo.png "
+                      />
                     )}
                   </a>
                 </Link>
-
               </div>
               <div className="header-nav">
-                <nav className="nav-main-menu d-none d-xl-block" style={{ marginLeft: "240px", marginTop: "10px" }}>
+                <nav
+                  className="nav-main-menu d-none d-xl-block"
+                  style={{ marginLeft: "240px", marginTop: "10px" }}
+                >
                   <ul className="main-menu">
                     <li className="">
                       <Link href="/">
@@ -101,8 +91,6 @@ const Header = ({ handleOpen, headerStyle }) => {
                       </Link>
                     </li>
                     <li className="has-children">
-
-
                       <Link href="#">
                         <a className="acuspad">Features</a>
                       </Link>
@@ -125,9 +113,6 @@ const Header = ({ handleOpen, headerStyle }) => {
                                 </a>
                               </Link>
                             </li>
-
-
-
 
                             <li>
                               <Link href="/Knowledgebase">
@@ -204,9 +189,6 @@ const Header = ({ handleOpen, headerStyle }) => {
                                 </a>
                               </Link>
                             </li> */}
-
-
-
                           </div>
 
                           <div>
@@ -236,7 +218,6 @@ const Header = ({ handleOpen, headerStyle }) => {
                                 </a>
                               </Link>
                             </li>
-
 
                             <li>
                               <Link href="/hiring">
@@ -359,9 +340,6 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li>
                           </div>
-
-
-
 
                           <div>
                             {/* <li>
@@ -523,13 +501,9 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li> */}
                           </div>
-
-
-
                         </div>
                       </ul>
                     </li>
-
 
                     {/* <li className="has-children">
                                             <Link href="#"><a className="acuspad">Support</a></Link>
@@ -652,11 +626,10 @@ const Header = ({ handleOpen, headerStyle }) => {
                     </li>
 
                     <li className="">
-                      <Link href="/pricing"><a className="acuspad">Pricing</a></Link>
+                      <Link href="/pricing">
+                        <a className="acuspad">Pricing</a>
+                      </Link>
                     </li>
-
-
-
 
                     <a
                       href="#"
@@ -666,16 +639,19 @@ const Header = ({ handleOpen, headerStyle }) => {
 
                         color: "black",
                       }}
-
                       className="header-right"
                     >
-
-                      <img src={`https://cdn.jsdelivr.net/npm/react-flagkit@1.0.2/img/SVG/${shodan.country_code || "IN"}.svg`} style={{
-                        marginRight: "15px",
-                        width: "30px",
-                        objectFit: "cover",
-                        marginBottom: "3px",
-                      }}></img>
+                      <img
+                        src={`https://cdn.jsdelivr.net/npm/react-flagkit@1.0.2/img/SVG/${
+                          shodan.country_code || "IN"
+                        }.svg`}
+                        style={{
+                          marginRight: "15px",
+                          width: "30px",
+                          objectFit: "cover",
+                          marginBottom: "3px",
+                        }}
+                      ></img>
                       {/* 📞 */}
 
                       <svg
@@ -698,20 +674,18 @@ const Header = ({ handleOpen, headerStyle }) => {
                   </ul>
                 </nav>
 
-                <div
-                  className="burger-icon burger-icon-white cusburgericon"
-                  onClick={handleOpen}
-                >
-                  <span className="burger-icon-top" />
-                  <span className="burger-icon-mid" />
-                  <span className="burger-icon-bottom" />
-                </div> 
+                <div className={styles.sidebar}>
+                  <div
+                    className="burger-icon burger-icon-white cusburgericon"
+                    onClick={handleOpen}
+                  >
+                    <span className="burger-icon-top" />
+                    <span className="burger-icon-mid" />
+                    <span className="burger-icon-bottom" />
+                  </div>
+                </div>
               </div>
             </div>
-
-
-
-
 
             {/* <div className="header-right">
               <div className="block-signin">

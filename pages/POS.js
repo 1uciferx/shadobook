@@ -58,6 +58,7 @@ function POS() {
 
                   {/* </Link> */}
                 </div>
+             
                 <p className="text-body-text color-gray-800 mt-20">
                   <p />
                   To create an order, go to the point of sale module in

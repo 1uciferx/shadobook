@@ -1,0 +1,9 @@
+.sidebar{
+    display: block;
+}
+
+@media screen and (min-width: 1199px){
+    .sidebar{
+        display: none;
+    }
+}

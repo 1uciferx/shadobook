@@ -274,7 +274,7 @@ function Manufacturing() {
                       route by clicking the save button.
                       <br></br>
                       <br></br>➟ The created routes will then be displayed in a
-                      list format in the ERP. ERP.
+                      list format in the ERP.
                     </p>
                   </div>
                 </div>

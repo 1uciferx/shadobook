@@ -6,7 +6,7 @@ function Terms() {
   return (
     <>
       <Layout>
-        <section className="section-box mt-50 mb-50">
+        <section className="section-box mt-130 mb-50">
           <div className="container text-center">
             <h1 className="text-heading-1">Terms and Conditions</h1>
           </div>

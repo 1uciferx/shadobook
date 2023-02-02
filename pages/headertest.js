@@ -230,8 +230,8 @@ function Headertest() {
               >
                 
 
-                <a style={{ fontSize: "20px", fontWeight:"500"}} onClick={() => handleToggle(2)}>Features</a>
-                <span onClick={() => handleToggle(2)} className="menu-expand" style={{position:"absolute",top:"121px"}}>
+                <a  style={{ fontSize: "20px", fontWeight:"500"}} onClick={() => handleToggle(2)}>Features</a>
+                <span onClick={() => handleToggle(2)} className="menu-expand" >
                   <i className="fi-rr-angle-small-down"  ></i>
                 </span>
                 <ul

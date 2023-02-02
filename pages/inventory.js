@@ -381,7 +381,7 @@ function Process() {
                   <div className="card-grid-style-3">
                     <img
                       className="img-responsive bdr-16"
-                      src="assets/imgs/page/about/3/Warehouse.png"
+                      src="assets/imgs/page/about/3/warehouse.png"
                       alt="shadobooks"
                     />
                   </div>
