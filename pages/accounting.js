@@ -35,7 +35,7 @@ function Home() {
                   Accounting
                   </h1>
                   <p  style={{color:"white",objectFit:"cover"}} className="text-body-lead-large color-gray-500 mt-40 pr-40">
-                  ShadobooksERP provides real-time data that enables your finance team to anticipate and take necessary steps to fulfill financial obligations and achieve goals in a timely manner. Additionally, it ensures that the reports generated are in compliance with the regulations of the region and are based on the International Financial Reporting Standards (IFRS), allowing your team to be at ease and confident in the accuracy of the financial information.
+                  Accounting hero page content - ShadobooksERP provides a comprehensive accounting solution for companies, featuring various functions such as banking transactions, reconciliation, journal entries, transfers, budgeting, and chart of accounts. The system is highly customizable to meet the unique requirements of your organization, helping you to simplify your financial processes, improve accuracy, and gain valuable insights into your business's financial status.
                  </p>
                 
                 </div>
@@ -200,7 +200,7 @@ function Home() {
                
 
 
-                        <img  className="img-responsive mt-140" src="/accountingpage/pic3.png" alt="Agon" />
+                        <img  className="img-responsive mt-170" src="/accountingpage/pic3.png" alt="Agon" />
                       </div>
                     </div>
                   </div>
@@ -485,7 +485,7 @@ function Home() {
                       
 
 
-                        <img className="img-responsive mt-120" src="/accountingpage/pic9.png" alt="Agon" />
+                        <img className="img-responsive mt-150" src="/accountingpage/pic9.png" alt="Agon" />
                       </div>
                     </div>
                   </div>
