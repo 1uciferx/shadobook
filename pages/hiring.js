@@ -31,7 +31,7 @@ function Home() {
 
             <section className="section-box">
         
- <div className="banner-hero banner-head-image" style={{ background: "url('assets/background16.jpg')" }}>
+ <div className="banner-hero banner-head-image" style={{ background: "url('assets/background16.jpg')",objectFit:"fill" }}>
 
 
             <div className="container">
@@ -63,7 +63,7 @@ function Home() {
 
                 <section className="section-box">
                     <div className="container mt-120">
-                        <div className="bg-5 bdrd-58  pb-60">
+                        <div className="bg-5 bdrd-58  pb-30">
                             <div className="row">
                                 <div className="col-lg-2 col-sm-1 col-12" />
                                 <div className="col-lg-8 col-sm-10 col-12 text-center mt-30">
@@ -123,7 +123,7 @@ function Home() {
                   
 
           <div className="container mt-120">
-                        <div className="bg-2 bdrd-48  pb-30">
+                        <div className="bg-2 bdrd-58  pb-30">
                             <div className="row">
                                 <div className="col-lg-2 col-sm-1 col-12" />
                                 <div className="col-lg-8 col-sm-10 col-12 text-center mt-30">

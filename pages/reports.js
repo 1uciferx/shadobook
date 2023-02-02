@@ -78,7 +78,7 @@ the world over<br className="d-lg-block d-none" />
                   <div className="row">
                     <div className="col-lg-6 col-md-12">
                       <div className="box-optimized">
-                        <h3 className="text-heading-2">
+                        <h3 className="text-heading-4 ">
                           Accounting Reports
                         </h3>
                         <p >
@@ -93,13 +93,13 @@ the world over<br className="d-lg-block d-none" />
                           <li>
                             Bookkeeping:
 
-                            This offers reports like Account list, Balance Sheet Comparison, Balance Sheet, General Ledger, Journal, Profit and Loss Comparison, Profit and Loss, Account history, and more that are useful for keeping track of financial transactions.
+                            This offers reports like Account list, Balance Sheet Comparison, Balance Sheet, General Ledger,   and more that are useful for keeping track of financial transactions.
                           </li>
                           <br></br>
                           <li>
                             Budget:
 
-                            Reports like Budget Overview, Budget vs Actual, and Profit and Loss Budget Performance are used to track the amounts that were budgeted versus what was actually spent on various accounts. Sales tax contains reports like the Tax Detail Report, Tax Summary Report and  that assist in keeping track of taxes.
+                            Reports like Budget Overview, Budget vs Actual, and Profit and Loss Budget Performance are used to track the amounts that were budgeted versus what was actually spent on various accounts. Sales tax contains reports like the Tax Detail Report, Tax Summary  and  that assist in keeping track of taxes.
                           </li>
 
 
@@ -115,7 +115,7 @@ the world over<br className="d-lg-block d-none" />
 
 
 
-                        <img  className="img-responsive mt-100" src="/reportpage/pic1.png" alt="Agon" />
+                        <img  className="img-responsive mt-180" src="/reportpage/pic1.png" alt="Agon" />
                       </div>
                     </div>
                   </div>
@@ -210,11 +210,11 @@ the world over<br className="d-lg-block d-none" />
           <div className="container mt-100">
             <div className="row">
               <div className="col-lg-6 col-sm-12 block-img-we-do">
-                <img  className="bdrd-16 img-responsive mt-120" src="/reportpage/pic2.png" alt="Agon" />
+                <img  className="bdrd-16 img-responsive mt-50" src="/reportpage/pic2.png" alt="Agon" />
               </div>
               <div className="col-lg-6 col-sm-12 block-we-do">
 
-                <h3 className="text-heading-1 mt-30">
+                <h3 className="text-heading-3 mt-30">
                   Purchase Reports
                 </h3>
                 <p>
@@ -269,7 +269,7 @@ the world over<br className="d-lg-block d-none" />
                   <div className="row">
                     <div className="col-lg-6 col-md-12">
                       <div className="box-optimized">
-                        <h3 className="text-heading-2">
+                        <h3 className="text-heading-3">
                           Inventory Reports
                         </h3>
                         <p >
@@ -300,7 +300,7 @@ the world over<br className="d-lg-block d-none" />
                      
 
 
-                        <img  className="img-responsive mt-80" src="/reportpage/pic3.png" alt="Agon" />
+                        <img  className="img-responsive mt-165" src="/reportpage/pic3.png" alt="Agon" />
                       </div>
                     </div>
                   </div>
@@ -317,7 +317,7 @@ the world over<br className="d-lg-block d-none" />
               </div>
               <div className="col-lg-6 col-sm-12 block-we-do">
 
-                <h3 className="text-heading-1 mt-30">
+                <h3 className="text-heading-3 mt-30">
                   POS Reports
                 </h3>
                 <p >
@@ -352,7 +352,7 @@ the world over<br className="d-lg-block d-none" />
                   <div className="row">
                     <div className="col-lg-6 col-md-12">
                       <div className="box-optimized">
-                        <h3 className="text-heading-2">
+                        <h3 className="text-heading-3">
                           Reports
                         </h3>
                         <p >
@@ -381,7 +381,7 @@ the world over<br className="d-lg-block d-none" />
                        
 
 
-                        <img  className="img-responsive mt-90" src="/reportpage/pic5.png" alt="Agon" />
+                        <img  className="img-responsive mt-165" src="/reportpage/pic5.png" alt="Agon" />
                       </div>
                     </div>
                   </div>
@@ -396,11 +396,11 @@ the world over<br className="d-lg-block d-none" />
           <div className="container mt-100">
             <div className="row">
               <div className="col-lg-6 col-sm-12 block-img-we-do">
-                <img  className="bdrd-16 img-responsive mt-100" src="/reportpage/picnew2.png" alt="Agon" />
+                <img  className="bdrd-16 img-responsive mt-50" src="/reportpage/picnew2.png" alt="Agon" />
               </div>
               <div className="col-lg-6 col-sm-12 block-we-do">
 
-                <h3 className="text-heading-1 mt-30">
+                <h3 className="text-heading-3 mt-30">
                   HR Reports
                 </h3>
                 <p >
@@ -434,7 +434,7 @@ the world over<br className="d-lg-block d-none" />
                   <div className="row">
                     <div className="col-lg-6 col-md-12">
                       <div className="box-optimized">
-                        <h3 className="text-heading-2">
+                        <h3 className="text-heading-3">
                           Payroll Reports
                         </h3>
                         <p >
@@ -472,7 +472,7 @@ the world over<br className="d-lg-block d-none" />
                    
                        
 
-                        <img className="img-responsive mt-130" src="/reportpage/pic6.png" alt="Agon" />
+                        <img className="img-responsive mt-150" src="/reportpage/pic6.png" alt="Agon" />
                       </div>
                     </div>
                   </div>
@@ -492,7 +492,7 @@ the world over<br className="d-lg-block d-none" />
               </div>
               <div className="col-lg-6 col-sm-12 block-we-do">
 
-                <h3 className="text-heading-1 mt-30">
+                <h3 className="text-heading-3 mt-30">
                   Timesheets Reports
                 </h3>
                 <p >
@@ -545,7 +545,7 @@ the world over<br className="d-lg-block d-none" />
                   <div className="row">
                     <div className="col-lg-6 col-md-12">
                       <div className="box-optimized">
-                        <h3 className="text-heading-2">
+                        <h3 className="text-heading-3">
                           Sales Reports
                         </h3>
                         <p >

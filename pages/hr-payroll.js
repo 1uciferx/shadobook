@@ -91,7 +91,7 @@ function Home() {
                 </div>
 
                 <div className="col-lg-6 col-sm-12">
-                  <img  className="bdrd-16 img-responsive mt-130" src="/reportpage/pic2.png" alt="Agon" />
+                  <img  className="bdrd-16 img-responsive mt-80" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
 
               </div>
@@ -234,7 +234,7 @@ function Home() {
                   <h3 className="text-heading-1 mt-30">
                   Bonus Kpi
                   </h3>
-                  <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
+                  <p className="text-body-lead-large color-gray-500 mt-30 pr-40">
                   <li>
                 
               	ShadobooksERP's bonus KPI page allows HR to enter a bonus for their employees.
@@ -253,7 +253,11 @@ function Home() {
 
                 </div>
 
-                <div className="col-lg-6 col-sm-12 mt-120">
+
+
+
+
+                <div className="col-lg-6 col-sm-12 mt-100">
                   <img  className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
 
@@ -262,12 +266,9 @@ function Home() {
 
 
 
-
-
-
             <div className="container mt-100">
               <div className="row">
-                <div className="col-lg-6 col-sm-12 mt-120">
+                <div className="col-lg-6 col-sm-12 mt-50">
                   <img className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
                 <div className="col-lg-6 col-sm-12 block-we-do">
