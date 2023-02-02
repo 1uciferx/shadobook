@@ -154,7 +154,7 @@ function Home() {
                 <div className="col-lg-6 col-sm-12 block-we-do">
 
                   <h3 className="text-heading-1 mt-30">
-                  Comission
+                  Commission
                   </h3>
                   <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
                   <li>
