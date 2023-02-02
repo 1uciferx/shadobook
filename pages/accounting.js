@@ -35,16 +35,11 @@ function Home() {
                   Accounting
                   </h1>
                   <p  style={{color:"white",objectFit:"cover"}} className="text-body-lead-large color-gray-500 mt-40 pr-40">
-                  Accounting hero page content - ShadobooksERP provides a comprehensive accounting solution for companies, featuring various functions such as banking transactions, reconciliation, journal entries, transfers, budgeting, and chart of accounts. The system is highly customizable to meet the unique requirements of your organization, helping you to simplify your financial processes, improve accuracy, and gain valuable insights into your business's financial status.
+                  ShadobooksERP provides a comprehensive accounting solution for companies, featuring various functions such as banking transactions, reconciliation, journal entries, transfers, budgeting, and chart of accounts. The system is highly customizable to meet the unique requirements of your organization, helping you to simplify your financial processes, improve accuracy, and gain valuable insights into your business's financial status.
                  </p>
                 
                 </div>
-                {/* <div className="col-lg-5 d-none d-xl-block">
-                  <div className="banner-imgs">
-
-                    <img style={{bottom:"140px"}} className="img" alt="Agon" src="logo1/vector" />
-                  </div>
-                </div> */}
+             
               </div>
             </div>
           </div>
