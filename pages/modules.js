@@ -7,7 +7,7 @@ function Modules() {
     <>
      <Layout>
   
-      <div class="container mt-100 ">
+      <div class="container mt-100 " style={{paddingTop:"50px"}}>
         <div class="row">
           <div class="col-md-3 col-sm-6" style={{cursor:"pointer"}}>
           <Link href="/accounting">
