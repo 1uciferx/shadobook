@@ -97,7 +97,7 @@ const Indexslider = () => {
             <div className="box-swiper">
                 <div className="swiper-container swiper-group-4">
                     <Swiper
-                        slidesPerView={4}
+                        slidesPerView={5}
                         spaceBetween={30}
                         loop={true}
                         autoplay={{
