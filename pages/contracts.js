@@ -16,7 +16,7 @@ function Contracts() {
           <div
             className="banner-hero banner-head-image"
             style={{
-              background: "url(assets/imgs/page/blog/single/Contracts.jpg)",
+              background: "url(assets/imgs/page/blog/single/contracts.jpg)",
               objectFit:"cover"
             }}
           >

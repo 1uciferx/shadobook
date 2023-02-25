@@ -5,18 +5,17 @@ import { useState } from "react";
 import Layout from "../components/layout/Layout";
 import Slider from "react-slick";
 import dynamic from "next/dynamic";
-import styles from "../styles/Index.module.css";
-
-
+import Indexslider from "../components/indexslider";
+import styles from "../styles/index.module.css";
+ 
+ 
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
-
-
+ 
 function Index2() {
-
   const [isOpen, setOpen] = useState(false);
-
+ 
   const settings = {
     dots: false,
     infinite: true,
@@ -26,15 +25,14 @@ function Index2() {
     speed: 2000,
     autoplaySpeed: 2000,
     cssEase: "linear",
-
   };
-
+ 
   return (
     <>
       <Layout>
         <div>
           <section className="section-box">
-            <div className="banner-hero banner-2" >
+            <div className="banner-hero banner-2">
               <div className="container">
                 <div className="row">
                   <div className="col-lg-7 mt-50">
@@ -51,7 +49,7 @@ function Index2() {
                     </h1>
                     <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
                       Driving enterprise operations towards better ease of
-                      operations with an all-in-on accounting platform.
+                      operations with an all-in-one accounting platform.
                     </p>
                     <div className="mt-40">
                       <Link href="/page-contact">
@@ -59,16 +57,16 @@ function Index2() {
                           Get Start
                         </a>
                       </Link>
-
-
-                      <a className="btn btn-link icon-triangle color-gray-900 ml-40" onClick={() => setOpen(true)}>
+ 
+                      <a
+                        className="btn btn-link icon-triangle color-gray-900 ml-40"
+                        onClick={() => setOpen(true)}
+                      >
                         How it works
                       </a>
-
                     </div>
                   </div>
-
-
+ 
                   <div className="col-lg-5 d-none d-lg-block">
                     <div className="banner-imgs">
                       <div className="block-1 shape-2">
@@ -86,7 +84,7 @@ function Index2() {
                       <img
                         className="img-responsive shape-1"
                         alt="ShadoBooks"
-                        src="assets/imgs/page/homepage2/bannernew.png"
+                        src="assets/imgs/page/homepage2/index-hero.jpg"
                       />
                     </div>
                   </div>
@@ -94,169 +92,350 @@ function Index2() {
               </div>
             </div>
           </section>
-
-          <div className={styles.companies}>
-            <div className="section-box overflow-visible mt-80">
-              <div className="">
-                <h2 className="text-heading-3 text-center color-gray-900 mb-60">
-                  Trusted by the world’s leading companies
-                </h2>
-
-                <Slider {...settings}>
-                  <div className="">
-                    <Link href="/#">
-                      <a className="item-logo box-hover-shadow hover-up">
-                        <img
-                          width={"300px"}
-                          style={{ margin: "auto" }}
-                          alt="ShadoBooks"
-                          src="assets/imgs/slider/logo/AGS.png"
-                        />
-                      </a>
-                    </Link>
+ 
+ 
+ 
+          <div className={styles.modslider}>
+          <div className="mt-50">
+            <Indexslider />
+            <div className="text-center">
+            <Link href="/modules">
+              <button
+                type="button"
+                class="btn btn-outline-dark"
+                style={{ padding: "10px 20px" }}
+              >
+                Show More
+              </button>
+            </Link>
+          </div>
+          </div>
+          </div>
+ 
+          <section className="section-box">
+            <div className="container mt-120">
+              <div className="row">
+                <div className="col-lg-6 col-sm-12 block-img-we-do">
+                  <div className="inner-image">
+                    <img
+                      className="bdrd-16 img-responsive"
+                      src="assets/imgs/page/homepage2/img-2.png"
+                      alt="ShadoBooks"
+                    />
+                    <div className="block-chart">
+                      <img
+                        src="/assets/imgs/page/homepage2/chart new.png"
+                        alt="chart"
+                      />
+                    </div>
                   </div>
-                  <div className="">
-                    <Link href="/#">
-                      <a className="item-logo box-hover-shadow hover-up">
+                </div>
+                <div className="col-lg-6 col-sm-12 block-we-do-2">
+                  <span className="tag-1 bg-green-900">
+                    What We Do, What You Get
+                  </span>
+ 
+                  <h3 className="text-heading-4 mt-30">
+                    Shadobooks presents businesses
+                  </h3>
+                  <p className="text-heading-7 color-gray-600 ">
+                    with the Dashboard which presents all the financial data in
+                    a dynamically interactive format while also opening new
+                    doors to a wealth of insights that can help you with
+                    informed decision-making and improve your customer-facing
+                    strategies.
+                  </p>
+                  <div className="list-icons mt-50">
+                    <div className="item-icon none-bd">
+                      <span className="icon-left">
                         <img
-                          width={"300px"}
-                          style={{ margin: "auto" }}
+                          src="/assets/imgs/page/homepage2/icon-work.svg"
                           alt="ShadoBooks"
-                          src="assets/imgs/slider/logo/Bizzmaster.png"
                         />
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="">
-                    <Link href="/#">
-                      <a className="item-logo box-hover-shadow hover-up">
+                      </span>
+                      <h4 className="text-heading-4">
+                        Work smarter with powerful features
+                      </h4>
+                      <p className="text-body-excerpt color-gray-600 mt-15">
+                        The dashboard unifies all your sales, marketing and
+                        customer support data while also giving you the leverage
+                        to customize the presentation in ways you deem fit for
+                        your operational flow in easy clicks.
+                      </p>
+                    </div>
+                    <div className="item-icon none-bd">
+                      <span className="icon-left">
                         <img
-                          style={{ margin: "auto" }}
-                          width={"300px"}
+                          src="/assets/imgs/page/homepage2/icon-design.svg"
                           alt="ShadoBooks"
-                          src="assets/imgs/slider/logo/lubechem1.png"
                         />
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="">
-
-                    <Link href="/#">
-                      <a className="item-logo box-hover-shadow hover-up">
+                      </span>
+                      <h4 className="text-heading-4">
+                        Designed for teams of all sorts and sizes
+                      </h4>
+                      <p className="text-body-excerpt color-gray-600 mt-15">
+                        You can organize all the KPIs in visual formats and spot
+                        trends through these interactive charts to drive your
+                        efforts in a better direction.
+                      </p>
+                    </div>
+                    <div className="item-icon none-bd">
+                      <span className="icon-left">
                         <img
-                          width={"300px"}
+                          src="/assets/imgs/page/homepage2/icon-advance.svg"
                           alt="ShadoBooks"
-                          style={{ margin: "auto" }}
-                          src="assets/imgs/slider/logo/rulexx.png"
                         />
-                      </a>
-                    </Link>
+                      </span>
+                      <h4 className="text-heading-4">
+                        Advanced analytics to grow your business
+                      </h4>
+                      <p className="text-body-excerpt color-gray-600 mt-15">
+                        Hosting an abundance of data and breaking them down to
+                        formats that are easier to interpret while also giving
+                        you complete interface freedom is why Shadobooks can be
+                        a game-changer for your business efforts.
+                      </p>
+                    </div>
                   </div>
-                  <div className="">
-                    <Link href="/#">
-                      <a className="item-logo box-hover-shadow hover-up">
-                        <img
-                          width={"300px"}
-                          alt="ShadoBooks"
-                          style={{ margin: "auto" }}
-                          src="assets/imgs/slider/logo/imagineering.png"
-                        />
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="">
-                    <Link href="/#">
-                      <a className="item-logo box-hover-shadow hover-up">
-                        <img
-                          width={"300px"}
-                          style={{ margin: "auto" }}
-                          alt="ShadoBooks"
-                          src="assets/imgs/slider/logo/CBC.png"
-                        />
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="">
-                    <Link href="/#">
-                      <a className="item-logo box-hover-shadow hover-up">
-                        <img
-                          width={"300px"}
-                          style={{ margin: "auto" }}
-                          alt="ShadoBooks"
-                          src="assets/imgs/slider/logo/BMC.png"
-                        />
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="">
-                    <Link href="/#">
-                      <a className="item-logo box-hover-shadow hover-up">
-                        <img
-                          width={"300px"}
-                          style={{ margin: "auto" }}
-                          alt="ShadoBooks"
-                          src="assets/imgs/slider/logo/carlisle.png"
-                        />
-                      </a>
-                    </Link>
-                  </div>
-
-                  <div className="">
-                    <Link href="/#">
-                      <a className="item-logo box-hover-shadow hover-up">
-                        <img
-                          width={"300px"}
-                          alt="ShadoBooks"
-                          style={{ margin: "auto" }}
-                          src="assets/imgs/slider/logo/reign.png"
-                        />
-                      </a>
-                    </Link>
-                  </div>
-
-                  <div className="">
-                    <Link href="/#">
-                      <a className="item-logo box-hover-shadow hover-up">
-                        <img
-                          width={"300px"}
-                          alt="ShadoBooks"
-                          style={{ margin: "auto" }}
-                          src="assets/imgs/slider/logo/royalblue.png"
-                        />
-                      </a>
-                    </Link>
-                  </div>
-
-                  <div className="c">
-                    <Link href="/#">
-                      <a className="item-logo box-hover-shadow hover-up">
-                        <img
-                          width={"300px"}
-                          alt="ShadoBooks"
-                          style={{ margin: "auto" }}
-                          src="assets/imgs/slider/logo/gold.png"
-                        />
-                      </a>
-                    </Link>
-                  </div>
-
-                  <div className="c">
-                    <Link href="/#">
-                      <a className="item-logo box-hover-shadow hover-up">
-                        <img
-                          width={"300px"}
-                          alt="ShadoBooks"
-                          style={{ margin: "auto" }}
-                          src="assets/imgs/slider/logo/Mercury.png"
-                        />
-                      </a>
-                    </Link>
-                  </div>
-                </Slider>
+                </div>
               </div>
-
-
-
+            </div>
+          </section>
+ 
+          <section className="section-box">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-2 col-sm-1 col-12" />
+                <div className="col-lg-8 col-sm-10 col-12 text-center mt-40">
+                  <h2 className="text-heading-1 color-gray-900 mb-10">
+                    Discover powerful features to
+                    <br className="d-lg-block d-none" />
+                    boost your productivity
+                  </h2>
+                  <p className="text-body-lead-large color-gray-600 mt-20">
+                    The customer center segment of Shadobooks is where you can
+                    import all your client-facing data under one roof.
+                  </p>
+                </div>
+                <div className="col-lg-2 col-sm-1 col-12" />
+              </div>
+            </div>
+          </section>
+ 
+          <section className="section-box mt-lg-10">
+            <div className="container mt-30">
+              <div className="row">
+                <div className="col-lg-4 col-md-12 col-sm-12">
+                  <div className="list-icons mt-50">
+                    <span className="icon-left">
+                      <img
+                        src="/assets/imgs/page/homepage2/icon-acquis.svg"
+                        alt="ShadoBooks"
+                      />
+                    </span>
+                    <h4 className="text-heading-4">1. Acquisition</h4>
+                    <p className="text-body-text color-gray-600 mt-15">
+                      The customer center segment of Shadobooks is where you can
+                      import all your client-facing data under one roof.
+                    </p>
+                  </div>
+                </div>
+ 
+                <div className="col-lg-4 col-md-12 col-sm-12">
+                  <div className="list-icons mt-50">
+                    <span className="icon-left">
+                      <img
+                        src="/assets/imgs/page/homepage2/icon-active.svg"
+                        alt="ShadoBooks"
+                      />
+                    </span>
+                    <h4 className="text-heading-4">2. Activation</h4>
+                    <p className="text-body-text color-gray-600 mt-15">
+                      Be it your partners from past projects or potential leads,
+                      you can integrate all their data here for a single panel
+                      source of view that will help in data decluttering.
+                    </p>
+                  </div>
+                </div>
+ 
+                <div className="col-lg-4 col-md-12 col-sm-12">
+                  <div className="list-icons mt-50">
+                    <span className="icon-left">
+                      <img
+                        src="/assets/imgs/page/homepage2/icon-retent.svg"
+                        alt="ShadoBooks"
+                      />
+                    </span>
+                    <h4 className="text-heading-4">3. Retention</h4>
+                    <p className="text-body-text color-gray-600 mt-15">
+                      {/* Update lead contact information, communication methods, and sales pipeline actions in this location. */}
+                      You can update all their contact details, method of
+                      communicating and planned actions you have in mind for the
+                      leads down the pipeline here.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+ 
+          <div className="section-box overflow-visible mt-80">
+            <div className="">
+              <h2 className="text-heading-3 text-center color-gray-900 mb-60">
+                Trusted by the world’s leading companies
+              </h2>
+ 
+              <Slider {...settings}>
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        style={{ margin: "auto" }}
+                        alt="ShadoBooks"
+                        src="assets/imgs/slider/logo/AGS.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        style={{ margin: "auto" }}
+                        alt="ShadoBooks"
+                        src="assets/imgs/slider/logo/Bizzmaster.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+                {/* <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        style={{ margin: "auto" }}
+                        width={"300px"}
+                        alt="ShadoBooks"
+                        src="assets/imgs/slider/logo/lubechem1.png"
+                      />
+                    </a>
+                  </Link>
+                </div> */}
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        alt="ShadoBooks"
+                        style={{ margin: "auto" }}
+                        src="assets/imgs/slider/logo/rulexx.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+                {/* <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        alt="ShadoBooks"
+                        style={{ margin: "auto" }}
+                        src="assets/imgs/slider/logo/imagineering.png"
+                      />
+                    </a>
+                  </Link>
+                </div> */}
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        style={{ margin: "auto" }}
+                        alt="ShadoBooks"
+                        src="assets/imgs/slider/logo/CBC.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        style={{ margin: "auto" }}
+                        alt="ShadoBooks"
+                        src="assets/imgs/slider/logo/BMC.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        style={{ margin: "auto" }}
+                        alt="ShadoBooks"
+                        src="assets/imgs/slider/logo/carlisle.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+ 
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        alt="ShadoBooks"
+                        style={{ margin: "auto" }}
+                        src="assets/imgs/slider/logo/reign.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+ 
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        alt="ShadoBooks"
+                        style={{ margin: "auto" }}
+                        src="assets/imgs/slider/logo/royalblue.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+ 
+                <div className="c">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        alt="ShadoBooks"
+                        style={{ margin: "auto" }}
+                        src="assets/imgs/slider/logo/gold.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+ 
+                <div className="c">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        alt="ShadoBooks"
+                        style={{ margin: "auto" }}
+                        src="assets/imgs/slider/logo/Mercury.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+              </Slider>
+ 
               {/*               
               <div className="row">
                 <div className="col-lg-12">
@@ -396,178 +575,7 @@ function Index2() {
               </div> */}
             </div>
           </div>
-
-
-          <section className="section-box">
-            <div className="container mt-120">
-              <div className="row">
-                <div className="col-lg-6 col-sm-12 block-img-we-do">
-                  <div className="inner-image">
-                    <img
-                      className="bdrd-16 img-responsive"
-                      src="assets/imgs/page/homepage2/img-2.png"
-                      alt="ShadoBooks"
-                    />
-                    <div className="block-chart">
-                      <img
-                        src="/assets/imgs/page/homepage2/chart new.png"
-                        alt="chart"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-sm-12 block-we-do-2">
-                  <span className="tag-1 bg-green-900">
-                    What We Do, What You Get
-                  </span>
-
-                  <h3 className="text-heading-4 mt-30">
-                    Shadobooks presents businesses
-                  </h3>
-                  <p className="text-heading-7 color-gray-600 ">
-
-                    with the Dashboard which presents all the financial
-                    data in a dynamically interactive format while also opening
-                    new doors to a wealth of insights that can help you with
-                    informed decision-making and improve your customer-facing
-                    strategies.
-                  </p>
-                  <div className="list-icons mt-50">
-                    <div className="item-icon none-bd">
-                      <span className="icon-left">
-                        <img
-                          src="/assets/imgs/page/homepage2/icon-work.svg"
-                          alt="ShadoBooks"
-                        />
-                      </span>
-                      <h4 className="text-heading-4">
-                        Work smarter with powerful features
-                      </h4>
-                      <p className="text-body-excerpt color-gray-600 mt-15">
-                        The dashboard unifies all your sales, marketing and
-                        customer support data while also giving you the leverage
-                        to customize the presentation in ways you deem fit for
-                        your operational flow in easy clicks.
-                      </p>
-                    </div>
-                    <div className="item-icon none-bd">
-                      <span className="icon-left">
-                        <img
-                          src="/assets/imgs/page/homepage2/icon-design.svg"
-                          alt="ShadoBooks"
-                        />
-                      </span>
-                      <h4 className="text-heading-4">
-                        Designed for teams of all sorts and sizes
-                      </h4>
-                      <p className="text-body-excerpt color-gray-600 mt-15">
-                        You can organize all the KPIs in visual formats and spot
-                        trends through these interactive charts to drive your
-                        efforts in a better direction.
-                      </p>
-                    </div>
-                    <div className="item-icon none-bd">
-                      <span className="icon-left">
-                        <img
-                          src="/assets/imgs/page/homepage2/icon-advance.svg"
-                          alt="ShadoBooks"
-                        />
-                      </span>
-                      <h4 className="text-heading-4">
-                        Advanced analytics to grow your business
-                      </h4>
-                      <p className="text-body-excerpt color-gray-600 mt-15">
-                        Hosting an abundance of data and breaking them down to
-                        formats that are easier to interpret while also giving
-                        you complete interface freedom is why Shadobooks can be
-                        a game-changer for your business efforts.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-
-          <section className="section-box">
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-2 col-sm-1 col-12" />
-                <div className="col-lg-8 col-sm-10 col-12 text-center mt-40">
-                  <h2 className="text-heading-1 color-gray-900 mb-10">
-                    Discover powerful features to
-                    <br className="d-lg-block d-none" />
-                    boost your productivity
-                  </h2>
-                  <p className="text-body-lead-large color-gray-600 mt-20">
-                    The customer center segment of Shadobooks is where you can
-                    import all your client-facing data under one roof.
-                  </p>
-                </div>
-                <div className="col-lg-2 col-sm-1 col-12" />
-              </div>
-            </div>
-          </section>
-
-
-
-          <section className="section-box mt-lg-100">
-
-            <div className="container mt-70">
-              <div className="row">
-                <div className="col-lg-4 col-md-12 col-sm-12">
-                  <div className="list-icons mt-50">
-                    <span className="icon-left">
-                      <img
-                        src="/assets/imgs/page/homepage2/icon-acquis.svg"
-                        alt="ShadoBooks"
-                      />
-                    </span>
-                    <h4 className="text-heading-4">1. Acquisition</h4>
-                    <p className="text-body-text color-gray-600 mt-15">
-                      The customer center segment of Shadobooks is where you can
-                      import all your client-facing data under one roof.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="col-lg-4 col-md-12 col-sm-12">
-                  <div className="list-icons mt-50">
-                    <span className="icon-left">
-                      <img
-                        src="/assets/imgs/page/homepage2/icon-active.svg"
-                        alt="ShadoBooks"
-                      />
-                    </span>
-                    <h4 className="text-heading-4">2. Activation</h4>
-                    <p className="text-body-text color-gray-600 mt-15">
-                      Be it your partners from past projects or potential leads,
-                      you can integrate all their data here for a single panel
-                      source of view that will help in data decluttering.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="col-lg-4 col-md-12 col-sm-12">
-                  <div className="list-icons mt-50">
-                    <span className="icon-left">
-                      <img
-                        src="/assets/imgs/page/homepage2/icon-retent.svg"
-                        alt="ShadoBooks"
-                      />
-                    </span>
-                    <h4 className="text-heading-4">3. Retention</h4>
-                    <p className="text-body-text color-gray-600 mt-15">
-                      You can update all their contact information,
-                      communication pathways and all the courses of actions you
-                      have in mind for the leads down the pipeline here.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+ 
           <section className="section-box">
             <div className="container mt-150">
               <div className="row">
@@ -626,17 +634,22 @@ function Index2() {
                   <div className="inner-image">
                     <img
                       className="bdrd-16 img-responsive"
-                      src="assets/imgs/page/homepage2/img-built-2.png"
+                      src="assets/imgs/page/homepage2/img-newsletter.png"
                       alt="ShadoBooks"
                     />
-
+                    <div className="block-image-bottom">
+                      <img
+                        className="bdrd-16 img-responsive"
+                        src="assets/imgs/page/homepage2/img-built-2.png"
+                        alt="ShadoBooks"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </section>
-
-
+ 
           {/* happy customers */}
           {/* <section className="section-box">
             <div className="container mt-120">
@@ -761,7 +774,7 @@ function Index2() {
               </div>
             </div>
           </section> */}
-
+ 
           {/* <section className="section-box overflow-visible mb-100">
             <div className="container mt-100">
               <div className="row">
@@ -778,11 +791,11 @@ function Index2() {
                         <p className="text-body-text color-gray-500">
                           By clicking the button, you are agreeing with our
                         </p>
-
+ 
                         <Link href="/page-terms">
                           <a>Term &amp; Conditions</a>
                         </Link>
-
+ 
                         <div className="box-form-newsletter mt-30">
                           <form className="form-newsletter">
                             <input
@@ -813,17 +826,17 @@ function Index2() {
             </div>
           </section> */}
         </div>
-
+ 
         <ModalVideo
           channel="youtube"
           autoplay
           isOpen={isOpen}
-          videoId="z_BYO8A4VQ0"
+          videoId="SEAVbu6qf_c"
           onClose={() => setOpen(false)}
         />
       </Layout>
     </>
   );
 }
-
+ 
 export default Index2;

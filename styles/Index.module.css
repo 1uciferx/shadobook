@@ -1,9 +1,10 @@
-.companies{
-display: block;
+.modslider{
+    display: block;
 }
 
-@media screen and (max-width: 768px) {
-    .companies{
+@media screen and (max-width: 1200px) {
+
+    .modslider{
         display: none;
-        }
+    }
 }
