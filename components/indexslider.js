@@ -33,7 +33,7 @@ const Indexslider = () => {
             bg: "bd-bg-10"
         },
         {
-            avatar: "Knowledgebase123.png",
+            avatar: "KB123.png",
             name: "Knowledge Base",
             company: "Bank of America",
             quote: "Onboarding in CRM streamlines the process of introducing new employees to an organisation. To provide an effective onboarding experience for new employees, it often involves electronic signatures.",
@@ -69,7 +69,7 @@ const Indexslider = () => {
             bg: "bd-bg-6"
         },
         {
-            avatar: "Support123.png",
+            avatar: "support123.png",
             name: "Support",
             company: "Bank of America",
             quote: "The purpose of the layoff checklist in shadobooks CRM is to provide a process for designating an employee for layoff. The layoff checklist includes the employee's name, email address, job position, department.",
@@ -83,7 +83,7 @@ const Indexslider = () => {
             bg: "bd-bg-6"
         },
         {
-            avatar: "sales123.png",
+            avatar: "Sales123.png",
             name: "Sales",
             company: "Bank of America",
             quote: "The HR reports include the following employee information: Layoffs of employees, Salary changes on the staff list, Staff changes by seniority, Staff changes by month.",

@@ -30,7 +30,7 @@ function Modules() {
                 <i class="text-heading-5">Support</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/Support123.png"
+                src="assets/imgs/page/modulelogo/support123.png"
                 alt="Photo of sunset"
               />
             </div>
@@ -93,7 +93,7 @@ function Modules() {
                 <i class="text-heading-5">Knowledge Base</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/Knowledgebase123.png"
+                src="assets/imgs/page/modulelogo/KB123.png"
                 alt="Photo of sunset"
               />
             </div>
@@ -156,7 +156,7 @@ function Modules() {
                 <i class="text-heading-5">Utilities</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/Utilities123.png"
+                src="assets/imgs/page/modulelogo/utilities123.png"
                 alt="Photo of sunset"
               />
             </div>
@@ -213,7 +213,7 @@ function Modules() {
           <Link href="/manufacturing">
             <div class="shadow p-3 mb-5 bg-body rounded">
               <h4 class="card-title text-center">
-                <i class="text-heading-5">Manufacturing</i>
+                <i class="text-heading-5 ">Manufacturing</i>
               </h4>
               <img
                 src="assets/imgs/page/modulelogo/Manufacturing123.png"
