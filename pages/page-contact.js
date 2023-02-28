@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import Layout from "../components/layout/Layout";
-import styles from "../styles/Contact.module.css";
+import styles from "../styles/contact.module.css";
 import { Breadcrumb, Layout as L } from "antd";
 const { Content } = L;
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import {
   Button,
   Cascader,
@@ -17,6 +17,13 @@ import {
 } from "antd";
 import emailjs from '@emailjs/browser';
 import { toast } from "react-toastify";
+
+// function LocalStorage(){
+//   const data=useRef();
+//   const handleClick=()=>{
+//     console.log(data.current.value,"initial Value")
+//   }
+// }
 
 
 
@@ -86,6 +93,13 @@ const tailFormItemLayout = {
   },
 };
 
+
+// const Result=()=>{
+//   return(
+//     <p>your message has been send</p>
+//   )
+// }
+
 function Contact() {
 
   const [form] = Form.useForm();
@@ -106,12 +120,12 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_i31nnpg', 'template_yjmz3r7', e.target, 'user_Gls3jtD0r0QAmYpbwL05y')
-      .then((result) => {
+    emailjs.sendForm('service_sqz7ayr', 'template_1c71gzm', form.current, 'QlaSLTiRcANhwlSL_')
+    .then((result) => {
         console.log(result.text);
-      }, (error) => {
+    }, (error) => {
         console.log(error.text);
-      });
+    });
     e.target.reset()
 
     toast.success("Message send");
@@ -121,12 +135,12 @@ function Contact() {
 
   const onFinish = (values) => {
 
-    emailjs.sendForm('service_qz5ctkl', 'template_g67xs4p', values, 'user_Gls3jtD0r0QAmYpbwL05y')
-      .then((result) => {
+    emailjs.sendForm('service_sqz7ayr', 'template_1c71gzm', form.current, 'QlaSLTiRcANhwlSL_')
+    .then((result) => {
         console.log(result.text);
-      }, (error) => {
+    }, (error) => {
         console.log(error.text);
-      });
+    });
     // values.reset()
 
     console.log("Received values of form: ", values);
@@ -135,20 +149,28 @@ function Contact() {
 
 
 
-  const prefixSelector = (
-    <Form.Item name="prefix" noStyle>
-      <Select
-        style={{
-          width: 70,
-        }}
-      >
-        <Option value="86">+86</Option>
-        <Option value="87">+87</Option>
-        <Option value="91">+91</Option>
-        <Option value="971">+971</Option>
-      </Select>
-    </Form.Item>
-  );
+
+
+
+
+
+
+
+
+  // const prefixSelector = (
+  //   <Form.Item name="prefix" noStyle>
+  //     <Select
+  //       style={{
+  //         width: 70,
+  //       }}
+  //     >
+  //       <Option value="86">+86</Option>
+  //       <Option value="87">+87</Option>
+  //       <Option value="91">+91</Option>
+  //       <Option value="971">+971</Option>
+  //     </Select>
+  //   </Form.Item>
+  // );
 
   // const [autoCompleteResult, setAutoCompleteResult] = useState([]);
   // const onWebsiteChange = (value) => {
@@ -170,14 +192,14 @@ function Contact() {
       <Layout>
 
 
-
+{/* 
         <div className={styles.mobile}>
           <div className={styles.formcontainer}>
 
 
             <form class="form" onSubmit={sendEmail} style={{ padding: "10px" }}>
               {/* <h5>CONTACT US</h5> */}
-              <label>Name</label>
+              {/* <label>Name</label>
 
               <input style={{ width: "100%", padding: "5px", marginBottom: "15px" }} placeholder="Write your name here.." name="name" value={value} onChange={handleChange}>
               </input>
@@ -196,12 +218,7 @@ function Contact() {
               {/* <button disabled={!value} type="submit">Let me in</button>  */}
 
 
-            </form>
-
-          </div>
-        </div>
-
-
+{/* 
         <div className={styles.bodycontainer}>
           <div className={styles.body}>
             <Content style={{ padding: "0 50px" }}>
@@ -242,7 +259,7 @@ function Contact() {
                     {/* <div>
                     <iframe   className={styles.msggif} src="https://embed.lottiefiles.com/animation/74453"></iframe>
                     </div> */}
-                  </Col>
+                  {/* </Col>
 
                   <Col
                     xs={{
@@ -269,8 +286,8 @@ function Contact() {
                       span: 9,
                       offset: 5,
                     }}
-                  >
-                    <div className={styles.formcontainer}>
+                  > */}
+                    {/* <div className={styles.formcontainer}> */} 
                       {/* <Form
                         {...formItemLayout}
                         form={form}
@@ -337,42 +354,66 @@ function Contact() {
                         </Form.Item>
                       </Form> */}
 
-
-
-                      <form class="form" onSubmit={sendEmail} style={{ padding: "10px" }}>
-                        {/* <h5>CONTACT US</h5> */}
-                        <label>Name</label>
-
-                        <input style={{ width: "100%", padding: "5px", marginBottom: "15px" }} placeholder="Write your name here.." name="name" value={value} onChange={handleChange}>
-                        </input>
-
-                        <label>Email</label>
-
-                        <input style={{ width: "100%", padding: "5px", marginBottom: "15px" }} placeholder="Let us know how to contact you back..@gmail" name="email" value={mail} onChange={handleMail} ></input>
-
-                        <label>Message</label>
-                        <textarea style={{ width: "100%", padding: "5px" }} placeholder="What would you like to tell us.." rows="4" cols="2" name="message"></textarea>
-
-                        <button variant="contained" type="submit" style={{ backgroundColor: "#90321B", padding: "10px", marginTop: "15px", width: "30%", color: "white" }}  >
-                          Send
-                        </button>
-                        {/* <input disabled={!value} onClick={close} style={{cursor:"pointer",padding:"10px",marginTop:"15px"}} type="submit" value="Send Message"></input> */}
-                        {/* <button disabled={!value} type="submit">Let me in</button>  */}
-
-
-                      </form>
-
-                    </div>
-                  </Col>
-                </Row>
+<div className={styles.body}>
+<section  >
+          <div className={styles.container1}>
+           
+         
+         
+         <div className={styles.container}>
+         <img className={styles.img} src="/logo1/vector23.jpg"></img>
+          <div className={styles.formBx}>
+            <form ref={form}  onSubmit={sendEmail}  className={styles.form}>
+             
+           
+              <div className={styles.inputBox}>
+              <div> <h5 className={styles.h5}>CONTACT US</h5></div>
+                <input  type= "text" name="From_Name"  required="required"/>
+                <span>Name</span>
               </div>
-            </Content>
+
+              <div className={styles.inputBox}>
+                <input  type= "email" name="user_Email" required="required"/>
+                <span>Email</span>
+              </div>
+
+              <div className={styles.inputBox}>
+                <input  type= "text" name="phone" required="required"/>
+                <span>Phone Number</span>
+              </div>
+
+
+              <div className={styles.inputBox}>
+                <input type= "text" name="Destination" required="required"/>
+                <span>Destination</span>
+              </div>
+
+              <div  className={styles.inputBox}>
+                <input type= "text" name="Subject" required="required"/>
+                <span>Subject</span>
+              </div>
+
+              <div className={styles.inputBox}>
+                <textarea type="text" name="message" required="required"></textarea>
+                <span>Message</span>
+              </div>
+
+
+              <div className={styles.buttoncontainer}>
+                {/* <input  type="submit" value="send" name=""/>
+              */}   <button className={styles.send} type="submit" value="send">Send</button>
+              </div>
+           
+           
+         {/* <div className="row">{result ? <Result/> : null}</div> */}
+          
+            </form>
           </div>
+         </div>
+         </div>
+</section>
+</div>
 
-
-
-
-        </div>
       </Layout>
     </>
   );
