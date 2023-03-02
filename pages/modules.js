@@ -16,7 +16,7 @@ function Modules() {
                 <i class="text-heading-5">Accounting</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/accounting123.png"
+                src="assets/imgs/page/homepage1/acc01.png"
                 alt="Photo of sunset"
               />
               
@@ -30,7 +30,7 @@ function Modules() {
                 <i class="text-heading-5">Support</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/support123.png"
+                src="assets/imgs/page/homepage1/support01.png"
                 alt="Photo of sunset"
               />
             </div>
@@ -44,7 +44,7 @@ function Modules() {
                 <i class="text-heading-5">Web Hooks</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/Webhooks123.png"
+                src="assets/imgs/page/homepage1/webhooks01.png"
                 alt="Photo of sunset"
               />
             </div>
@@ -59,7 +59,7 @@ function Modules() {
                 <i class="text-heading-5">Projects</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/Project123.png"
+                src="assets/imgs/page/homepage1/projects01.png"
                 alt="Photo of sunset"
               />
             </div>
@@ -79,7 +79,7 @@ function Modules() {
                 <i class="text-heading-5">File Manager</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/Filemanager123.png"
+                src="assets/imgs/page/homepage1/filemanager01.png"
                 alt="Photo of sunset"
               />
             </div>
@@ -93,7 +93,7 @@ function Modules() {
                 <i class="text-heading-5">Knowledge Base</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/KB123.png"
+                src="assets/imgs/page/homepage1/kb01.png"
                 alt="Photo of sunset"
               />
             </div>
@@ -107,7 +107,7 @@ function Modules() {
                 <i class="text-heading-5">Company Assets</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/Companyassets123.png"
+                src="assets/imgs/page/homepage1/companyassets01.png"
                 alt="Photo of sunset"
               />
               
@@ -121,7 +121,7 @@ function Modules() {
                 <i class="text-heading-5">Estimate Request</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/Estimaterequest123.png"
+                src="assets/imgs/page/homepage1/estimate01.png"
                 alt="Photo of sunset"
               />
             </div>
@@ -142,7 +142,7 @@ function Modules() {
                 <i class="text-heading-5">Hr Records</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/Hrrecords123.png"
+                src="assets/imgs/page/homepage1/hr01.png"
                 alt="Photo of sunset"
               />
             </div>
@@ -156,7 +156,7 @@ function Modules() {
                 <i class="text-heading-5">Utilities</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/utilities123.png"
+                src="assets/imgs/page/homepage1/uti01.png"
                 alt="Photo of sunset"
               />
             </div>
@@ -169,7 +169,7 @@ function Modules() {
                 <i class="text-heading-5">Inventory</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/Inventory123.png"
+                src="assets/imgs/page/homepage1/inventory01.png"
                 alt="Photo of sunset"
               />
             </div>
@@ -182,7 +182,7 @@ function Modules() {
                 <i class="text-heading-5">Hiring</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/Hiring123.png"
+                src="assets/imgs/page/homepage1/hiring01.png"
                 alt="Photo of sunset"
               />
             </div>
@@ -202,7 +202,7 @@ function Modules() {
                 <i class="text-heading-5">Tasks</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/Task123.png"
+                src="assets/imgs/page/homepage1/tasks01.png"
                 alt="Photo of sunset"
               />
             
@@ -216,7 +216,7 @@ function Modules() {
                 <i class="text-heading-5 ">Manufacturing</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/Manufacturing123.png"
+                src="assets/imgs/page/homepage1/manufacturing01.png"
                 alt="Photo of sunset"
               />
             </div>
@@ -229,7 +229,7 @@ function Modules() {
                   <i class="text-heading-5">Leads</i>
                 </h4>
                 <img
-                  src="assets/imgs/page/modulelogo/Leads123.png"
+                  src="assets/imgs/page/homepage1/leads01.png"
                   alt="Photo of sunset"
                 />
               </div>
@@ -242,7 +242,7 @@ function Modules() {
                 <i class="text-heading-5">Sales</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/Sales123.png"
+                src="assets/imgs/page/homepage1/sales01.png"
                 alt="Photo of sunset"
               />
             </div>
@@ -263,7 +263,7 @@ function Modules() {
                 <i class="text-heading-5">Purchase</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/Purchase123.png"
+                src="assets/imgs/page/homepage1/purchase01.png"
                 alt="Photo of sunset"
               />
             
@@ -277,7 +277,7 @@ function Modules() {
                 <i class="text-heading-5">Expenses</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/Expenses123.png"
+                src="assets/imgs/page/homepage1/expense01.png"
                 alt="Photo of sunset"
               />
             </div>
@@ -290,7 +290,7 @@ function Modules() {
                   <i class="text-heading-5">Contracts</i>
                 </h4>
                 <img
-                  src="assets/imgs/page/modulelogo/Contracts123.png"
+                  src="assets/imgs/page/homepage1/contracts01.png"
                   alt="Photo of sunset"
                 />
               </div>
@@ -303,7 +303,7 @@ function Modules() {
                 <i class="text-heading-5">Hr Payroll</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/Hrpayroll123.png"
+                src="assets/imgs/page/homepage1/hrpay01.png"
                 alt="Photo of sunset"
               />
             </div>
@@ -325,7 +325,7 @@ function Modules() {
                 <i class="text-heading-5">Sales Agent</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/Salesagent123.png"
+                src="assets/imgs/page/homepage1/salesagent01.png"
                 alt="Photo of sunset"
               />
             
@@ -339,7 +339,7 @@ function Modules() {
                 <i class="text-heading-5">Reports</i>
               </h4>
               <img
-                src="assets/imgs/page/modulelogo/Reports123.png"
+                src="assets/imgs/page/homepage1/reports01.png"
                 alt="Photo of sunset"
               />
             </div>
@@ -352,7 +352,7 @@ function Modules() {
                   <i class="text-heading-5">Point Of Sales</i>
                 </h4>
                 <img
-                  src="assets/imgs/page/modulelogo/POS123.png"
+                  src="assets/imgs/page/homepage1/pos01.png"
                   alt="Photo of sunset"
                 />
               </div>

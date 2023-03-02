@@ -18,36 +18,9 @@ const Indexslider = () => {
         //     quote: " ",
         //     bg: "hi"
         // },
+        
         {
-            avatar: "accounting123.png",
-            name: "Accounting",
-            company: "Nintendo",
-            quote: "In Shadobooks CRM an organisational chart depicts the organisational structure by connecting distinct employees with their unit’s name, email, parent unit, IMAP Username, IMAP password, and the encryption details.",
-            bg: "bd-bg-6"
-        },
-        {
-            avatar: "utilities123.png",
-            name: "Utilities",
-            company: "Starbucks",
-            quote: "The job description components in shadobooks CRM outline the primary functions and responsibilities of a certain position. This component is also in charge of the job selection processes and the publication.",
-            bg: "bd-bg-10"
-        },
-        {
-            avatar: "KB123.png",
-            name: "Knowledge Base",
-            company: "Bank of America",
-            quote: "Onboarding in CRM streamlines the process of introducing new employees to an organisation. To provide an effective onboarding experience for new employees, it often involves electronic signatures.",
-            bg: "bd-bg-6"
-        },
-        {
-            avatar: "Hrrecords123.png",
-            name: "HR Records",
-            company: "Bank of America",
-            quote: "The HR records of shadobooks CRM contain the staff name, code, email, personnel qualifications by department, gender, job position, role, and contact information. You may also examine these details on a chart basis.",
-            bg: "bd-bg-6"
-        },
-        {
-            avatar: "Reports123.png",
+            avatar: "reports01.png",
             name: "Reports",
             company: "Bank of America",
             quote: "Human resource training programmes are specialised courses that include the name of the training programme, the training type, the training item, the department, the training libraries, minimum point, and the training results.",
@@ -55,35 +28,63 @@ const Indexslider = () => {
            
         },
         {
-            avatar: "Contracts123.png",
+            avatar: "contracts01.png",
             name: "Contracts",
             company: "Bank of America",
             quote: "The process of operational contract management is carried out within an organisation using Shadobooks CRM. Human resource contract management includes the staff name.",
             bg: "bd-bg-6"
         },
         {
-            avatar: "Expenses123.png",
+            avatar: "expense01.png",
             name: "Expenses",
             company: "Bank of America",
             quote: "Dependant refers to a staff member's spouse or child who is fully dependent on the employee for support. To create a new dependant in Shadobooks CRM, enter the employee dependant's details in the dependant’s form.",
             bg: "bd-bg-6"
         },
         {
-            avatar: "support123.png",
+            avatar: "leads01.png",
             name: "Support",
             company: "Bank of America",
             quote: "The purpose of the layoff checklist in shadobooks CRM is to provide a process for designating an employee for layoff. The layoff checklist includes the employee's name, email address, job position, department.",
             bg: "bd-bg-6"
         },
         {
-            avatar: "Estimaterequest123.png",
+            avatar: "acc01.png",
+            name: "Accounting",
+            company: "Nintendo",
+            quote: "In Shadobooks CRM an organisational chart depicts the organisational structure by connecting distinct employees with their unit’s name, email, parent unit, IMAP Username, IMAP password, and the encryption details.",
+            bg: "bd-bg-6"
+        },
+        {
+            avatar: "uti01.png",
+            name: "Utilities",
+            company: "Starbucks",
+            quote: "The job description components in shadobooks CRM outline the primary functions and responsibilities of a certain position. This component is also in charge of the job selection processes and the publication.",
+            bg: "bd-bg-10"
+        },
+        {
+            avatar: "kb01.png",
+            name: "Knowledge Base",
+            company: "Bank of America",
+            quote: "Onboarding in CRM streamlines the process of introducing new employees to an organisation. To provide an effective onboarding experience for new employees, it often involves electronic signatures.",
+            bg: "bd-bg-6"
+        },
+        {
+            avatar: "hr01.png",
+            name: "HR Records",
+            company: "Bank of America",
+            quote: "The HR records of shadobooks CRM contain the staff name, code, email, personnel qualifications by department, gender, job position, role, and contact information. You may also examine these details on a chart basis.",
+            bg: "bd-bg-6"
+        },
+        {
+            avatar: "estimate01.png",
             name: "Estimate Request",
             company: "Bank of America",
             quote: "Q&A management is a type of online documentation that provides guidance for resolving problems encountered by clients. This may be accomplished in Shadobooks CRM by providing subject.",
             bg: "bd-bg-6"
         },
         {
-            avatar: "Sales123.png",
+            avatar: "sales01.png",
             name: "Sales",
             company: "Bank of America",
             quote: "The HR reports include the following employee information: Layoffs of employees, Salary changes on the staff list, Staff changes by seniority, Staff changes by month.",
@@ -114,7 +115,7 @@ const Indexslider = () => {
                             <SwiperSlide>
                                 <div className="swiper-slide active">
                                     <Card hoverable
-                                        style={{ width: 200, }} cover= {<img src={`assets/imgs/page/modulelogo/${item.avatar}`} alt="Agon" />} >
+                                        style={{ width: 200, }} cover= {<img src={`assets/imgs/page/homepage1/${item.avatar}`} alt="Agon" />} >
                                         <h5 style={{textAlign:"center"}}><b>{item.name}</b></h5>
                                         {/* <p>{item.quote}</p> */}
                                     </Card>
