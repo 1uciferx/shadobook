@@ -72,26 +72,27 @@ function Home() {
 
                 <div className="col-lg-6 col-sm-12 block-we-do">
 
-                  <h3 className="text-heading-1 mt-30">
+                  <h3 className="text-heading-2 mt-0">
                   Employees
                   </h3>
-                  <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
-                  <li>
-              	Keeping accurate and current records of employee information, including personal details, job titles, and bank account.
-              </li>
+                  <p style={{textAlign:"justify"}} className="text-body-lead-large color-gray-500 mt-40 pr-40 ">
+                    <p>
+                 
+                  ➟ 	Keeping accurate and current records of employee information, including personal details, job titles, and bank account.
+              </p>
               <br></br>
-              <li>
+              <p>
 
              
-              	You can receive a particular employee information by entering their name, department, role, and date of hire, from the list of employees.
-        </li>
+              ➟ 	You can receive a particular employee information by entering their name, department, role, and date of hire, from the list of employees.
+        </p>
 
-                  </p>
+                 </p>
 
                 </div>
 
                 <div className="col-lg-6 col-sm-12">
-                  <img  className="bdrd-16 img-responsive mt-80" src="/reportpage/pic2.png" alt="Agon" />
+                  <img  className="bdrd-16 img-responsive mt-90" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
 
               </div>
@@ -106,31 +107,31 @@ function Home() {
             <div className="container mt-100">
               <div className="row">
                 <div className="col-lg-6 col-sm-12">
-                  <img  className="bdrd-16 img-responsive mt-200" src="/reportpage/pic2.png" alt="Agon" />
+                  <img  className="bdrd-16 img-responsive mt-150" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
                 <div className="col-lg-6 col-sm-12 block-we-do">
 
-                  <h3 className="text-heading-1 mt-30">
+                  <h3 className="text-heading-2 mt-30">
                   Attendance
                   </h3>
-                  <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
-                  <li>
+                  <p style={{textAlign:"justify"}} className="text-body-lead-large color-gray-500 mt-40 pr-40">
+                  <p>
 
-              	ShadobooksERP allows for monitoring employee attendance, including by HR code and by month. 
-              </li>
+                  ➟ 	ShadobooksERP allows for monitoring employee attendance, including by HR code and by month. 
+              </p>
               <br></br>
 
-              <li>
+              <p>
 
            
-              It also provides the ability to update an employee's leave information, including the number of leaves taken, as well as paid and unpaid leaves.
-         </li>
+              ➟   It also provides the ability to update an employee's leave information, including the number of leaves taken, as well as paid and unpaid leaves.
+         </p>
          <br></br>
 
-         <li>
+         <p>
 
-         	You can receive a particular employee attendance information by entering their name, department, role, and date of hire, from the list of employee’s attendance.
-         </li>
+        ➟   	You can receive a particular employee attendance information by entering their name, department, role, and date of hire, from the list of employee’s attendance.
+         </p>
 
                   </p>
 
@@ -153,19 +154,19 @@ function Home() {
 
                 <div className="col-lg-6 col-sm-12 block-we-do">
 
-                  <h3 className="text-heading-1 mt-30">
+                  <h3 className="text-heading-2 mt-30">
                   Commission
                   </h3>
-                  <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
-                  <li>
-            	In ShadobooksERP the commission plan includes by setting commission rates, sales targets, and performance metrics.
-          </li>
+                  <p style={{textAlign:"justify"}} className="text-body-lead-large color-gray-500 mt-40 pr-40">
+                  <p>
+                  ➟ 	In ShadobooksERP the commission plan includes by setting commission rates, sales targets, and performance metrics.
+          </p>
           <br></br>
-          <li>
+          <p>
 
          
-          Keeping track of commission earned by employees, including commission payments and commissions earned per sale.
-          </li>
+          ➟  Keeping track of commission earned by employees, including commission payments and commissions earned per sale.
+          </p>
 
                   </p>
 
@@ -190,25 +191,25 @@ function Home() {
                 </div>
                 <div className="col-lg-6 col-sm-12 block-we-do">
 
-                  <h3 className="text-heading-1 mt-30">
+                  <h3 className="text-heading-2 mt-30">
                   Deductions
                   </h3>
-                  <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
+                  <p style={{textAlign:"justify"}} className="text-body-lead-large color-gray-500 mt-40 pr-40">
 
-                     <li>
-              Our detection sub-module automatically calculates deductions such as taxes and other deductions from employees' salaries.
-              </li>
+                     <p>
+                     ➟   Our detection sub-module automatically calculates deductions such as taxes and other deductions from employees' salaries.
+              </p>
               <br></br>
 
-         <li>
-         	The detection sub-module page includes, employee number, employee name and department name.
-       </li>
+         <p>
+         ➟   	The detection sub-module page includes, employee number, employee name and department name.
+       </p>
 
        <br></br>
-       <li>
+       <p>
 
-         Payroll deductions are amounts employers take out of an employee's paycheck each pay period.
-         </li>
+       ➟   Payroll deductions are amounts employers take out of an employee's paycheck each pay period.
+         </p>
 
                   </p>
 
@@ -231,23 +232,23 @@ function Home() {
 
                 <div className="col-lg-6 col-sm-12 block-we-do">
 
-                  <h3 className="text-heading-1 mt-30">
+                  <h3 className="text-heading-2 mt-30">
                   Bonus Kpi
                   </h3>
-                  <p className="text-body-lead-large color-gray-500 mt-30 pr-40">
-                  <li>
+                  <p style={{textAlign:"justify"}} className="text-body-lead-large color-gray-500 mt-30 pr-40">
+                  <p>
                 
-              	ShadobooksERP's bonus KPI page allows HR to enter a bonus for their employees.
-              </li>
+                  ➟  	ShadobooksERP's bonus KPI page allows HR to enter a bonus for their employees.
+              </p>
               <br></br>
 
-              <li>
+              <p>
 
              
-              	You can receive a particular employee information by entering their name, department, and hire date in order to give bonuses.
+              ➟ 	You can receive a particular employee information by entering their name, department, and hire date in order to give bonuses.
 
 
-             </li>
+             </p>
 
                   </p>
 
@@ -266,6 +267,9 @@ function Home() {
 
 
 
+
+            {/* Insurance */}
+
             <div className="container mt-100">
               <div className="row">
                 <div className="col-lg-6 col-sm-12 mt-50">
@@ -276,21 +280,21 @@ function Home() {
                   <h3 className="text-heading-1 mt-30">
                   Insurance
                   </h3>
-                  <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
+                  <p style={{textAlign:"justify"}} className="text-body-lead-large color-gray-500 mt-40 pr-40">
                    
-              <li>
+              <p>
 
-ShadobooksERP assists HR in maintaining insurance information for employees.
-</li>
+              ➟ ShadobooksERP assists HR in maintaining insurance information for employees.
+</p>
 <br></br>
 
-<li>
+<p>
 
 
-Generating reports on insurance for employees by including employee number, employee name and department name.
+➟ Generating reports on insurance for employees by including employee number, employee name and department name.
 
 
-</li>
+</p>
 
                   </p>
 
@@ -305,7 +309,7 @@ Generating reports on insurance for employees by including employee number, empl
 
 
 
-
+  {/* Payslip */}
 
 
             <div className="container mt-100">
@@ -316,24 +320,24 @@ Generating reports on insurance for employees by including employee number, empl
 
                 <div className="col-lg-6 col-sm-12 block-we-do">
 
-                  <h3 className="text-heading-1 mt-30">
+                  <h3 className="text-heading-2 mt-30">
                   Payslip
                   </h3>
-                  <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
-                  <li>
-              	Payslip Management: Assisting HR in maintaining and tracking employee payslips information.
-              </li>
+                  <p style={{textAlign:"justify"}} className="text-body-lead-large color-gray-500 mt-40 pr-40">
+                  <p>
+                  ➟ 	Payslip Management: Assisting HR in maintaining and tracking employee payslips information.
+              </p>
               <br></br>
-              <li>
+              <p>
 
-              	Payslip Creation: Allowing HR to create new payslips by entering employee name and payment month details.
-              </li>
+              ➟ 	Payslip Creation: Allowing HR to create new payslips by entering employee name and payment month details.
+              </p>
               <br></br>
 
-              <li>
-              Payslip Viewing: Providing a home page for HR to view newly created payslips.
+              <p>
+              ➟   Payslip Viewing: Providing a home page for HR to view newly created payslips.
 
-              </li>
+              </p>
             
                   </p>
 
@@ -353,26 +357,26 @@ Generating reports on insurance for employees by including employee number, empl
 
             <div className="container mt-100">
               <div className="row">
-                <div className="col-lg-6 col-sm-12 mt-190">
+                <div className="col-lg-6 col-sm-12 mt-100">
                   <img  className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
                 <div className="col-lg-6 col-sm-12 block-we-do">
 
-                  <h3 className="text-heading-1 mt-30">
+                  <h3 className="text-heading-2 mt-30">
                   Payslip Templates 
                   </h3>
-                  <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
-                  <li>
-              	Allowing HR to create new payslip templates by clicking the add button.
-                </li>
+                  <p style={{textAlign:"justify"}} className="text-body-lead-large color-gray-500 mt-40 pr-40">
+                  <p>
+                  ➟ 	Allowing HR to create new payslip templates by clicking the add button.
+                </p>
                 <br></br>
-                <li>
+                <p>
                 	Allowing HR to enter template name, department name, role, staff and except for staff details.
-                </li>
+                  ➟  </p>
 
                 <br></br>
                 <li>
-                	Providing a home page for HR to view newly created payslip templates.
+                ➟  	Providing a home page for HR to view newly created payslip templates.
 
 
                 </li>
@@ -399,26 +403,26 @@ Generating reports on insurance for employees by including employee number, empl
 
                 <div className="col-lg-6 col-sm-12 block-we-do">
 
-                  <h3 className="text-heading-1 mt-30">
+                  <h3 className="text-heading-2 mt-30">
                   Income Taxes
                   </h3>
-                  <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
-                  <li>
-              ShadobooksERP enables management of income taxes by allowing the setting of tax for the year, income taxes, department name, and employee name.
-                </li>
+                  <p style={{textAlign:"justify"}} className="text-body-lead-large color-gray-500 mt-40 pr-40">
+                  <p>
+                  ➟   ShadobooksERP enables management of income taxes by allowing the setting of tax for the year, income taxes, department name, and employee name.
+                </p>
                 <br></br>
-                <li>
-                	You can receive a particular employee tax by entering their name, department, role, from the list of employee’s taxes.
+                <p>
+                ➟   	You can receive a particular employee tax by entering their name, department, role, from the list of employee’s taxes.
 
 
 
-                </li>
+                </p>
 
                   </p>
 
                 </div>
 
-                <div className="col-lg-6 col-sm-12 mt-130">
+                <div className="col-lg-6 col-sm-12 mt-100">
                   <img  className="bdrd-16 img-responsive" src="/reportpage/pic2.png" alt="Agon" />
                 </div>
 
@@ -442,25 +446,25 @@ Generating reports on insurance for employees by including employee number, empl
                   <h3 className="text-heading-1 mt-30">
                   Settings
                   </h3>
-                  <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
-                  Prior to managing HR payroll, the following details must be entered.
+                  <p style={{textAlign:"justify"}} className="text-body-lead-large color-gray-500 mt-40 pr-40">
+                  ➟    Prior to managing HR payroll, the following details must be entered.
             <br></br>
             <br></br>
                
              
-                <li>
-                Payroll Columns,		Data Integration and  	Permissions	
-                </li>
+                <p>
+                ➟   Payroll Columns,		Data Integration and  	Permissions	
+                </p>
 
                 <br></br>
-                <li>
-              Income Tax Rates,and Rebates
-                </li>
+                <p>
+                ➟  Income Tax Rates,and Rebates
+                </p>
                 <br></br>
-                <li>
-                	Earnings List,	Salary Detection List and 	Insurance List
+                <p>
+                ➟  	Earnings List,	Salary Detection List and 	Insurance List
 
-                </li>
+                </p>
                 
                   </p>
 

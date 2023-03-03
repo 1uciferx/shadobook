@@ -1,87 +1,203 @@
+
+
+
+
+
+
+
+
+/* .section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:#0d192e ;
+
+} */
+
+
 .body {
-    background-image: url("/assets/imgs/page/homepage1/as12.jpg");
+    background-color:#0d192e ;
     background-size: cover;
     border-radius: 5px;
-    height: 90vh;
+    height: 80vh;
+    /* margin-bottom: 120px; */
 
 
 }
 
-
-.parahead {
-    font-family: Segoe UI;
-    font-size: 46px;
-    margin-left: 20%;
-    line-height: 46px;
-    color: rgb(48, 47, 47);
-    font-weight: 500;
-    text-decoration: none solid rgb(0, 0, 0);
-    width: 70%;
+.h5{
+    color:#fff;
+    font-weight:600;
+    /* margin-top: 20px; */
+    padding: 20px;
+   
+    width:100%;
+  
     text-align: center;
-
 
 }
+.container{
+    position : absolute;
+    width: 100%;
+   
+    
+    height: 800px;
+    background:#0d192e;
+    display:flex;
+    justify-content:right;
+    padding: 0px;
+    align-items: center;
+    
+}
+.container .formBx
+{
+    width:70%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
 
-.paraheadcontainer {
-    margin: auto;
-    text-align: center;
-    margin-top: 50%;
+    padding: 0 0 0 0px;
+}
+
+.container .formBx form{
     position: relative;
+    width: 100%;
+    padding: 0 0 0 0px;
 }
-
-.bodycontainer {
-    margin: auto;
-    width: 90%;
-
-
-
+.container .formBx form .inputBox{
+    position: relative;
+    margin-bottom: 40px;
 
 }
-
-.msggif {
-    margin: auto;
-    width: 90%;
-    height: 100px;
-
-
+.container .formBx form .inputBox:last-child
+{
+    margin-bottom:0px;
+}
+.container .formBx form .inputBox input,
+.container .formBx form .inputBox textarea
+{
+    position: relative;
+    background: transparent;
+    outline: transparent;
+    border: none;
+    width:100%;
+    color: #fff;
+    padding-bottom: 0px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    resize:none;
 }
 
 
-.formcontainer {
-    margin-top: 26%;
-    background: rgba(255, 255, 255, 0.8);
-    backdrop-filter: saturate(180%) blur(10px);
-    padding: 30px 30px;
-    border-radius: 5px;
 
-
-
+.container .formBx form .inputBox input[type="submit"]:focus
+{
+    background: #1bfaad;
 }
 
+.container .formBx form .inputBox span{
+    position: absolute;
+    left:0;
+    font-size: 16px;
+    font-weight: 300;
+    display:inline-block;
+    pointer-events: none;
+   letter-spacing: 1px;
+   color:rgba(255,255,255,0.5);
+   transition: all 0.2s;
+}
+.container .formBx form .inputBox input:focus~span,
+.container .formBx form .inputBox textarea:focus~span,
+.container .formBx form .inputBox input:valid~span,
+.container .formBx form .inputBox textarea:valid~span
+{
+transform:translateY(-24px);
+color:#1bfaad;
+font-size: 14px;
+}
+.send{
+    display: flex;
+    justify-content: center;
+  
+         display: inline-block;
+        background-color: #90321b;
+        padding: 10px;
+        width: 150px;
+        color: white;
+        text-align: center;
+        /* align-items: center; */
+      }
+.buttoncontainer{
+    display: flex;
+    /* justify-content: center; */
+}
 
-@media screen and (max-width: 1000px) {
+.img{
+    position: relative;
+    width:50%;
+    height: 70%;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0;
+    padding: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: 100px;
+}
+.img:before
+/* {
+    position: absolute;
+    content: '';
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    overflow: hidden;
+    background: #ff5064;
+    transform-origin:bottom;
+    transform: skewX(-25deg) translateX(10%);
+} */
+.img{
+    position:absolute;
+    bottom: 0;
+    max-height: 95%;
+}
 
-    .bodycontainer {
-        display: none;
+@media screen and (max-width: 915px) {
+    .img{
+        display:none;
+    }
+    .container{
+        /* position : absolute;
+        width: 100%; */
+        /* max-width: 100%; */
+       margin-top: 100px;
+       height: 600px;
+       /*   background:#0d192e; */
+        /* display:flex; */
+        justify-content:center;
+        padding: 0px;
+        /* align-items: center; */
+       /* height:1300px; */
     }
 
-
-
-
 }
 
-
-@media screen and (min-width: 1000px) {
-
-    .mobile {
-        display: none;
+@media screen and (min-width: 698px) {
+    .container .formBx form{
+        padding:70px;
+    
     }
-
-
-    .bodycontainer {
-        display: block;
-    }
-
 }
-
-
+@media screen and (min-width: 200px) {
+    .container .formBx form{
+   
+         margin: 0px;
+    }
+}
