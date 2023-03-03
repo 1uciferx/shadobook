@@ -361,7 +361,7 @@ function Contact() {
          
          
          <div className={styles.container}>
-         <img className={styles.img} src="/logo1/vector23.jpg"></img>
+         <img className={styles.img} src="/logo1/gif2.gif"></img>
           <div className={styles.formBx}>
             <form ref={form}  onSubmit={sendEmail}  className={styles.form}>
              
@@ -624,3 +624,5 @@ export default Contact;
           </div>
         </section>  */
 }
+
+

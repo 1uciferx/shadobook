@@ -1,0 +1,42 @@
+.buttonstart{
+    margin: auto;
+    text-align: center;
+  }
+
+  .button {
+    display: inline-block;
+   font-weight: bold;
+   font-family: Segoe UI;
+    background-color: #90331c;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .itemlogo{
+    width: 50px;
+   
+   
+    margin-top: 100px;
+      }
+
+      .itemlogo{
+        margin: 50px;
+        width: 50%;
+        max-width: 400px;
+       margin: auto;
+       text-align: center;
+        margin-top: 0%;
+          }
+
+
+.img1{
+ margin: auto;
+ text-align: center;
+
+}

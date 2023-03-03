@@ -10,31 +10,31 @@ const TestimonialSlider = () => {
 
     const data = [
         {
-            avatar: "1.png",
-            name: "Wade Warren",
-            company: "Louis Vuitton",
-            quote: "Even factoring differences in body weight between children and adults into account.",
+            // avatar: "assets/logo1/icon.png",
+            name: "Automated reports",
+          
+            quote: "Effective Automation. Efficient accounts handling. One platform.",
             bg: ""
         },
         {
-            avatar: "2.png",
-            name: "Brooklyn Simmons",
-            company: "Nintendo",
-            quote: "So yes, the alcohol (ethanol) in hand sanitizers can be absorbed through the skin, but no, it would not cause intoxication",
+            // avatar: "assets/logo1/icon2.png",
+            name: "Realtime analytics",
+          
+            quote: "Empowering businesses to access all accounting data at once.",
             bg: "bd-bg-6"
         },
         {
-            avatar: "3.png",
-            name: "Jenny Wilson",
-            company: "Starbucks",
-            quote: "Their blood alcohol levels rose to 0.007 to 0.02 o/oo (parts per thousand), or 0.7 to 2.0 mg/L",
+            // avatar: "assets/logo/icon3.png",
+            name: "Funnel optimization",
+
+            quote: "Redefining accounting by bringing all your data under one roof.",
             bg: "bd-bg-10"
         },
         {
-            avatar: "4.png",
-            name: "Albert Flores",
-            company: "Bank of America",
-            quote: "So yes, the alcohol (ethanol) in hand sanitizers can be absorbed through the skin, but no, it would not cause intoxication",
+            // avatar: "assets/logo1/icon4.png",
+            name: "User journey",
+            
+            quote: "A better way to handle accounting is here.",
             bg: "bd-bg-6"
         }
     ];
@@ -63,7 +63,7 @@ const TestimonialSlider = () => {
                                 <div className="swiper-slide active">
                                     <div className={`card-grid-style-3 hover-up ${item.bg}`}>
                                         <div className="grid-3-img">
-                                            <img src={`assets/imgs/page/homepage1/user-${item.avatar}`} alt="Agon" />
+                                            <img src={`${item.avatar}`} alt="Agon" />
                                         </div>
                                         <h3 className="text-heading-6 mb-5 mt-20">{item.name}</h3>
                                         <span className="text-body-small d-block">{item.company}</span>
