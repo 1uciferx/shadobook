@@ -1,3 +1,36 @@
+/* screens */
+
+
+.desktophome{
+display: block;
+}
+
+
+.mobilehome{
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+
+
+  .desktophome{
+    display: none;
+    }
+
+
+  .mobilehome{
+    display: block;
+  }
+  
+
+}
+
+
+
+
+
+
+
 .modslider{
     display: block;
 }
@@ -63,6 +96,7 @@
     font-size: 24px;
     padding: 20px;
     margin: auto;
+    padding: 30px;
 
 
 }
@@ -146,6 +180,7 @@
     padding: 0 20px ;
     
   }
+
   .lastboxicons{
     position: relative;
     margin: -60px;
@@ -156,7 +191,7 @@
   .lastboxcontainer{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 2fr;
-    margin-top: 80px;
+    margin-top: 40px;
   }
 
   .lastboxheading{
