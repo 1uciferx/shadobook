@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
 
-const { Content} = L;
+
 function POS() {
   return (
     <>

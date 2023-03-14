@@ -22,8 +22,8 @@ function Index8() {
                 </div>
                 <div className="col-lg-5 d-none d-lg-block">
                   <div className="banner-imgs d-flex">
-                    <div className="rounded-img shape-1"><img className="img-responsive" alt="Agon" src="assets/imgs/page/homepage8/banner1.png" /></div>
-                    <div className="rounded-img mt-20 shape-1-2"><img className="img-responsive" alt="Agon" src="assets/imgs/page/homepage8/banner2.png" /></div>
+                    <div className="rounded-img shape-1"><img className="img-responsive" alt="Agon" src="https://res.cloudinary.com/ddap9cqvo/image/upload/v1677752317/zahir-namane-hwc7eIQiTCE-unsplash_xitway.jpg" /></div>
+                    <div className="rounded-img mt-20 shape-1-2"><img className="img-responsive" alt="Agon" src="https://res.cloudinary.com/ddap9cqvo/image/upload/v1677751892/microsoft-365-7mBictB_urk-unsplash_mhyodc.jpg" /></div>
                     <div className="rounded-img shape-1"><img className="img-responsive" alt="Agon" src="assets/imgs/page/homepage8/banner3.png" /></div>
                   </div>
                 </div>
