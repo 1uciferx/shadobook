@@ -21,7 +21,8 @@ function Requestademo() {
 
                                 <div className="form-group"><input className="form-control" placeholder="Phone *" /></div>
 
-                                <div className="form-group"><textfield className="form-control" placeholder="Your email *" /></div>
+                                <div className="form-group"><textarea className="form-control" rows="4" cols="50">
+</textarea></div>
 
 
                                 <div className="form-group"><label className="text-body-small color-gray-500"><input className="chkbox" type="checkbox" /> Agree to
