@@ -61,10 +61,10 @@ function Mobileindex() {
           Driving enterprise operations towards better ease of operations with
           an all-in-one accounting platform.
         </p>
-        <Link href="/page-contact">
+        <Link href="/request-a-demo">
           <div className={styles.buttonstart}>
             <button class={styles.button}>
-              <span>GET STARTED </span>
+              <span>GET FREE DEMO </span>
             </button>
           </div>
         </Link>

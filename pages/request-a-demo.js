@@ -1,9 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import styles from "../styles/Hrrecords.module.css";
 import Layout from "../components/layout/Layout";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
+import { useRouter } from 'next/router'
+
 import {
   Button,
   Cascader,
@@ -19,6 +20,9 @@ import {
 const { Option } = Select;
 
 function Requestademo() {
+
+  const router = useRouter()
+
   const [form] = Form.useForm();
 
   const [value, setValue] = React.useState("");
@@ -52,14 +56,16 @@ function Requestademo() {
       );
     e.target.reset();
 
-    toast.success("Message send");
+    toast.success("Free Demo Request has been submitted successfully");
+
+    router.push("/#");
   };
 
   const onFinish = (values) => {
     emailjs
       .sendForm(
-        "service_qz5ctkl",
-        "template_g67xs4p",
+        "service_i31nnpg",
+        "template_yjmz3r7",
         values,
         "user_Gls3jtD0r0QAmYpbwL05y"
       )
@@ -97,50 +103,55 @@ function Requestademo() {
         <div className="bg-6-opacity-30 pt-40">
           <div className="container">
             <div className="box-signup">
-              <h1 className="text-heading-3 mb-50 text-center">
-                Sign Up For a Free Demo
+              <h1 className="text-heading-3 mb-30 text-center">
+                Request a Free Demo
               </h1>
 
-          
-                <div className="box-form-signup mb-200">
+              <div className="box-form-signup mb-200">
                 <form class="form" onSubmit={sendEmail}>
                   <div className="form-group">
-                 
                     <input
                       className="form-control"
                       placeholder="Your name *"
                       name="name"
-                      value={value}
-                      onChange={handleChange}
+                      required
                     />
                     {/* <Link href="/#"><a className="link-edit text-body-text">Edit</a></Link> */}
                   </div>
                   <div className="form-group">
                     <input
                       className="form-control"
-                      name="email"
                       placeholder="Your email *"
-                      value={mail}
-                      onChange={handleMail}
+                      required
+                      name="message"
+                      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                     />
                   </div>
 
                   <div className="form-group">
                     <input
                       className="form-control"
-                      placeholder="Company Name"
+                      placeholder="Company Name *"
+                      required
+                      name="message"
                     />
                   </div>
 
                   <div className="form-group">
-                    <input className="form-control" placeholder="Phone *" />
+                    <input
+                      className="form-control"
+                      placeholder="Phone *"
+                      name="message"
+                      required
+                      pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                    />
                   </div>
 
                   <div className="form-group">
                     <textarea
                       className="form-control"
                       style={{ background: "#f2f2f2" }}
-                      placeholder="What would you like to tell us.."
+                      placeholder="Specify your requirement to help us prepare better.."
                       rows="4"
                       cols="50"
                       name="message"
@@ -149,26 +160,28 @@ function Requestademo() {
 
                   <div className="form-group">
                     <label className="text-body-small color-gray-500">
-                      <input className="chkbox" type="checkbox" />I Agree to
-                      <Link href="/#">
-                        <a> terms &amp; conditions</a>
+                      <input className="chkbox" type="checkbox" required />I
+                      Agree to
+                      <Link href="/page-terms">
+                        <a> Terms &amp; Conditions</a>
                       </Link>
                     </label>
                   </div>
                   <div className="form-group">
                     <button
-                     variant="contained"
+                      variant="contained"
+                      style={{ backgroundColor: "#90331c" }}
                       className="btn btn-green-full text-heading-6"
                       type="submit"
                     >
-                      Sign Up
+                      Request a Free Demo
                     </button>
                   </div>
-                 </form> 
-                </div>
-          
+                </form>
+              </div>
             </div>
           </div>
+
           <div className="images-lists">
             <div className="row">
               <div className="col-lg-2 col-md-2 col-sm-6 pl-0">
