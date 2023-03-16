@@ -625,11 +625,11 @@ const Header = ({ handleOpen, headerStyle }) => {
                       </ul>
                     </li>
 
-                    <li className="">
+                    {/* <li className="">
                       <Link href="/pricing">
                         <a className="acuspad">Pricing</a>
                       </Link>
-                    </li>
+                    </li> */}
 
                     <a
                       href="#"

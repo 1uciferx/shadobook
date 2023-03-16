@@ -5,6 +5,8 @@ import Layout from "../components/layout/Layout";
 import { useState } from "react";
 import dynamic from "next/dynamic";
 import Intro2 from "../components/slider/Intro2";
+import styles from "../styles/Purchase.module.css";
+import Indexslider from "../components/indexslider";
 
 function Purchase() {
   const [isOpen, setOpen] = useState(false);
@@ -82,18 +84,22 @@ function Purchase() {
                   <div className="box-optimized">
                     <h3 className="text-heading-3">Vendor</h3>
                     <p className="text-body-text mt-20 icon-leaf">
-                    Shadobook ERP has a vendor module to manage vendor relationships, communications, and performance.
+                      Shadobook ERP has a vendor module to manage vendor
+                      relationships, communications, and performance.
                     </p>
                     <p className="text-body-text mt-20 icon-leaf">
-                    To add a new vendor, go to the purchase module, select the vendor tab and click "add new vendor".
+                      To add a new vendor, go to the purchase module, select the
+                      vendor tab and click "add new vendor".
                     </p>
                     <p className="text-body-text mt-20 icon-leaf">
-                    Enter vendor information such as code, name, category, etc. and save the form.
+                      Enter vendor information such as code, name, category,
+                      etc. and save the form.
                     </p>
                     <p className="text-body-text mt-20 icon-leaf">
-                    The added vendor will appear in the vendor list. There is also an option to import vendors and contacts through separate tabs.
+                      The added vendor will appear in the vendor list. There is
+                      also an option to import vendors and contacts through
+                      separate tabs.
                     </p>
-                    
                   </div>
                 </div>
                 <div className="col-lg-5 col-md-12  mt-90">
@@ -347,12 +353,12 @@ function Purchase() {
                     </p>
                     <p className="text-body-text mt-20 icon-leaf">
                       Enter details such as invoice number, vendors, contracts,
-                      purchase order, invoice amount etc..., Save
-                      the form.
+                      purchase order, invoice amount etc..., Save the form.
                     </p>
 
                     <p className="text-body-text mt-20 icon-leaf">
-                      The list of invoices can now be viewed in the Shadobook ERP.
+                      The list of invoices can now be viewed in the Shadobook
+                      ERP.
                     </p>
                   </div>
                 </div>
@@ -383,6 +389,23 @@ function Purchase() {
                     </p>
                   </div>
                 </div>
+
+                {/* <div className={styles.modslider}>
+            <div className="mt-90">
+              <Indexslider />
+              <div className="text-center">
+                <Link href="/modules">
+                  <button
+                    type="button"
+                    class="btn btn-outline-dark"
+                    style={{ padding: "10px 20px" , marginBottom:"40px" }}
+                  >
+                    Show More
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div> */}
               </div>
             </div>
           </div>
