@@ -131,8 +131,8 @@ function Requestademo() {
                   <div className="form-group">
                     <input
                       className="form-control"
-                      placeholder="Company Name *"
-                      required
+                      placeholder="Company Name "
+                      
                       name="message"
                     />
                   </div>
@@ -140,10 +140,11 @@ function Requestademo() {
                   <div className="form-group">
                     <input
                       className="form-control"
+                      input type="number"
                       placeholder="Phone *"
                       name="message"
                       required
-                      pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                      // pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
                     />
                   </div>
 
