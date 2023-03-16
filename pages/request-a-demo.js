@@ -3,7 +3,7 @@ import Link from "next/link";
 import Layout from "../components/layout/Layout";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
 
 import {
   Button,
@@ -20,8 +20,7 @@ import {
 const { Option } = Select;
 
 function Requestademo() {
-
-  const router = useRouter()
+  const router = useRouter();
 
   const [form] = Form.useForm();
 
@@ -112,7 +111,7 @@ function Requestademo() {
                   <div className="form-group">
                     <input
                       className="form-control"
-                      placeholder="Your name *"
+                      placeholder="Name... *"
                       name="name"
                       required
                     />
@@ -121,7 +120,7 @@ function Requestademo() {
                   <div className="form-group">
                     <input
                       className="form-control"
-                      placeholder="Your email *"
+                      placeholder="Email... *"
                       required
                       name="email"
                       pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
@@ -132,7 +131,6 @@ function Requestademo() {
                     <input
                       className="form-control"
                       placeholder="Company Name "
-                      
                       name="companyname"
                     />
                   </div>
@@ -140,7 +138,8 @@ function Requestademo() {
                   <div className="form-group">
                     <input
                       className="form-control"
-                      input type="number"
+                      input
+                      type="number"
                       placeholder="Phone *"
                       name="phnumber"
                       required
@@ -148,7 +147,7 @@ function Requestademo() {
                     />
                   </div>
 
-                  <div className="form-group">
+                  {/* <div className="form-group">
                     <textarea
                       className="form-control"
                       style={{ background: "#f2f2f2" }}
@@ -157,7 +156,7 @@ function Requestademo() {
                       cols="50"
                       name="message"
                     ></textarea>
-                  </div>
+                  </div> */}
 
                   <div className="form-group">
                     <label className="text-body-small color-gray-500">

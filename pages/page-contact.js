@@ -183,7 +183,7 @@ function Contact() {
 
               <input
                 style={{ width: "100%", padding: "5px", marginBottom: "15px" }}
-                placeholder="Write your name here.."
+                placeholder="Name..."
                 name="name"
                 value={value}
                 onChange={handleChange}
@@ -376,7 +376,7 @@ function Contact() {
                             padding: "5px",
                             marginBottom: "15px",
                           }}
-                          placeholder="Your name here.."
+                          placeholder="Name.."
                           name="name"
                           value={value}
                           onChange={handleChange}
@@ -391,7 +391,7 @@ function Contact() {
                             padding: "5px",
                             marginBottom: "15px",
                           }}
-                          placeholder="Your Email......"
+                          placeholder="Email......"
                           name="email"
                           value={mail}
                           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
