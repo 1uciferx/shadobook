@@ -123,7 +123,7 @@ function Requestademo() {
                       className="form-control"
                       placeholder="Your email *"
                       required
-                      name="message"
+                      name="email"
                       pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                     />
                   </div>
@@ -133,7 +133,7 @@ function Requestademo() {
                       className="form-control"
                       placeholder="Company Name "
                       
-                      name="message"
+                      name="companyname"
                     />
                   </div>
 
@@ -142,7 +142,7 @@ function Requestademo() {
                       className="form-control"
                       input type="number"
                       placeholder="Phone *"
-                      name="message"
+                      name="phnumber"
                       required
                       // pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
                     />
