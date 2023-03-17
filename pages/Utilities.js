@@ -3,10 +3,13 @@
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useState } from "react";
+import Contactmanager from "../components/contactmanager";
 import PriceTable2 from "../components/elements/PriceTable2";
 import Layout from "../components/layout/Layout";
 import OfferSlider from "../components/slider/Offer";
 import TestimonialSlider from "../components/slider/Testimonial";
+import styles from "../styles/Index.module.css";
+import Indexslider from "../components/indexslider";
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -265,6 +268,27 @@ function Utilities() {
             </div>
           </div>
         </section>
+
+        <div className={styles.modslider}>
+            <div className="mt-50">
+              <Indexslider />
+              <div className="text-center">
+                <Link href="/modules">
+                  <button
+                    type="button"
+                    class="btn btn-outline-dark"
+                    style={{ padding: "10px", marginTop:"-15px" , marginBottom:"30px" }}
+                  >
+                    Show More
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+          
+        <div>
+          <Contactmanager/>
+        </div>
       </Layout>
     </>
   );

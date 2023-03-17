@@ -6,6 +6,9 @@ import { useState } from "react";
 import "react-modal-video/css/modal-video.css";
 import PriceTable from "../components/elements/PriceTable";
 import Layout from "../components/layout/Layout";
+import Contactmanager from "../components/contactmanager";
+import styles from "../styles/Index.module.css";
+import Indexslider from "../components/indexslider";
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -16,7 +19,7 @@ function Manufacturing() {
     <>
       <Layout>
         <section className="section-box">
-        <div
+          <div
             className="banner-hero banner-head-image"
             style={{
               background: "url(assets/imgs/page/blog/single/manuf.jpg)",
@@ -97,11 +100,16 @@ function Manufacturing() {
           </div>
         </div>
 
-        <section className="section-box pt-100 pb-100 mt-100 mb-80" style={{background: "url(assets/imgs/page/blog/single/task1.jpg)",}}>
+        <section
+          className="section-box pt-100 pb-100 mt-100 mb-80"
+          style={{ background: "url(assets/imgs/page/blog/single/task1.jpg)" }}
+        >
           <div className="container">
             <div className="row">
               <div className="col-lg-5 mb-30">
-                <h3 className="text-heading-1 color-white mt-30">Manufacturing Benefits</h3>
+                <h3 className="text-heading-1 color-white mt-30">
+                  Manufacturing Benefits
+                </h3>
                 <div className="card-grid-style-2 card-square hover-up mb-20 border border-success rounded-top">
                   <p className="text-body-text color-gray-600 text-comment">
                     Increased efficiency in customer communications: CRM makes
@@ -349,9 +357,12 @@ function Manufacturing() {
                   <div className="box-optimized">
                     <h3 className="text-heading-2">Work Orders</h3>
                     <p className="text-body-excerpt mt-30">
-                      ➟ In Shadobook ERP, the manufacturing module has the option to display work orders.
+                      ➟ In Shadobook ERP, the manufacturing module has the
+                      option to display work orders.
                       <br></br>
-                      <br></br>➟ By clicking the work order button, you can filter the orders by selecting criteria such as the manufacturing order, product, and status.
+                      <br></br>➟ By clicking the work order button, you can
+                      filter the orders by selecting criteria such as the
+                      manufacturing order, product, and status.
                     </p>
                   </div>
                 </div>
@@ -378,9 +389,12 @@ function Manufacturing() {
                   <div className="box-optimized">
                     <h3 className="text-heading-2">Settings</h3>
                     <p className="text-body-excerpt mt-30">
-                      ➟ In manufacturing, the preferences and parameters used to customize the manufacturing process are known as settings.
+                      ➟ In manufacturing, the preferences and parameters used to
+                      customize the manufacturing process are known as settings.
                       <br></br>
-                      <br></br>➟ Setting up working hours, units of measure categories, unit of measure, and general settings are all part of this.
+                      <br></br>➟ Setting up working hours, units of measure
+                      categories, unit of measure, and general settings are all
+                      part of this.
                     </p>
                   </div>
                 </div>
@@ -388,6 +402,30 @@ function Manufacturing() {
             </div>
           </div>
         </section>
+        <div className={styles.modslider}>
+          <div className="mt-50">
+            <Indexslider />
+            <div className="text-center">
+              <Link href="/modules">
+                <button
+                  type="button"
+                  class="btn btn-outline-dark"
+                  style={{
+                    padding: "10px",
+                    marginTop: "-15px",
+                    marginBottom: "30px",
+                  }}
+                >
+                  Show More
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+        
+        <div>
+          <Contactmanager/>
+        </div>
       </Layout>
     </>
   );

@@ -52,7 +52,7 @@ function Index2() {
           {/* slider for the modules */}
 
           <div className="section-box">
-            <div className="banner-hero banner-homepage6 mt-100">
+            <div className="banner-hero banner-homepage6 mt-50">
               <div className="container">
                 <div className="row">
                   <div className="col-lg-7 mt-50 pb-120">
@@ -90,9 +90,9 @@ function Index2() {
                       />
                     </div> */}
                       <img
-                        className="img-banner img-responsive shape-2"
-                        alt="Agon"
-                        src="assets/imgs/page/homepage6/banner.png"
+                        className="img-banner img-responsive"
+                        alt="shadobooks"
+                        src="hero.png"
                       />
                     </div>
                   </div>

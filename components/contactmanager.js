@@ -143,20 +143,20 @@ function Contactmanager() {
 
                     <label style={{ color: " " }}>Name</label>
 
-                    <input style={{ width: "100%", padding: "5px", marginBottom: "15px" }} placeholder="Write your name here.."
+                    <input style={{ width: "100%", padding: "5px", marginBottom: "15px" }} placeholder="Name..."
                       name="name" value={value} onChange={handleChange}>
                     </input>
 
                     <label style={{ color: " " }}>Email</label>
 
                     <input style={{ width: "100%", padding: "5px", marginBottom: "15px" }}
-                      placeholder="Let us know how to contact you back..@gmail" name="email" value={mail} onChange={handleMail}>
+                      placeholder="Email..." name="email" value={mail} onChange={handleMail}>
                     </input>
 
                     <label style={{ color: " " }}>Message</label>
 
                     <textarea style={{ width: "100%", padding: "5px" }}
-                      placeholder="What would you like to tell us.." rows="4" cols="2" name="message"></textarea>
+                      placeholder="Specify your requirement to help us prepare batter.." rows="4" cols="2" name="message"></textarea>
 
                     <button variant="contained" type="submit"
                       style={{ backgroundColor: "#903310", padding: "10px", marginTop: "15px", width: "40%", color: "white", border: "none" }} disabled={!value || !mail}>Send</button>

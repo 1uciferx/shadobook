@@ -7,6 +7,7 @@ import dynamic from "next/dynamic";
 import Intro2 from "../components/slider/Intro2";
 import styles from "../styles/Purchase.module.css";
 import Indexslider from "../components/indexslider";
+import Contactmanager from "../components/contactmanager";
 
 function Purchase() {
   const [isOpen, setOpen] = useState(false);
@@ -410,6 +411,27 @@ function Purchase() {
             </div>
           </div>
         </section>
+
+        <div className={styles.modslider}>
+            <div className="mt-50">
+              <Indexslider />
+              <div className="text-center">
+                <Link href="/modules">
+                  <button
+                    type="button"
+                    class="btn btn-outline-dark"
+                    style={{ padding: "10px", marginTop:"-15px" , marginBottom:"30px" }}
+                  >
+                    Show More
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div>
+          <Contactmanager/>
+        </div>
       </Layout>
     </>
   );

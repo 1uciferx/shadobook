@@ -115,9 +115,7 @@ function Terms() {
                         using the services offered by shadobooks, you
                         acknowledge to have read, understood and agree to comply
                         to the mentioned terms of service (in addition to the
-                        website's privacy statement). If you have any
-                        disagreements, refrain from using our platform or
-                        service by any available means.
+                        website's privacy statement).
                       </p>
                       <h6 className="mt-35 mb-25" id="section-2">
                         Definitions
@@ -146,9 +144,7 @@ function Terms() {
                         You may use all our services for either personal or
                         professional use after you create your account with us.
                         You can create, edit, or delete content within your
-                        authorized account or personal profile space and we
-                        reserve the right to do the same on all other segments
-                        of our website at any point in time.<br></br>
+                        authorized account or personal profile space.<br></br>
                         <br></br>
                         While creating your account with us, you check off the
                         mandatory box that states that you agree to the terms of
@@ -162,13 +158,9 @@ function Terms() {
                       <p>
                         By usage of our services, you agree that shadobooks
                         shall not be held liable for any of your business losses
-                        or interruptions directly or indirectly. We shall also
-                        not be responsible for any losses that you incur due to
-                        the non-availability of our services due to any reason
-                        including failure of payment from the customer. We will
-                        only be accountable to provide you continuous support as
-                        per the contract we sign before you start our paid
-                        packages.{" "}
+                        or interruptions directly or indirectly. We will be
+                        accountable to provide you continuous support as per the
+                        contract we sign before you start our paid packages.{" "}
                       </p>
 
                       <h6 className="mt-35 mb-25" id="section-5">
@@ -177,11 +169,11 @@ function Terms() {
                       <p>
                         The copyright, software, code frameworks, intellectual
                         property rights, and the title of application ownership
-                        is solely owned by shadobooks or specific segments by
-                        third parties. All the source codes, content, or any
-                        supporting documents that concern the service we offer
-                        must not be reproduced or copied without any warning or
-                        before availing permission from the original supplier.{" "}
+                        is solely owned by shadobooks Private Limited. All the
+                        source codes, content, or any supporting documents that
+                        concern the service we offer must not be reproduced or
+                        copied without availing permission from Shadobooks
+                        Private Limited.{" "}
                       </p>
 
                       <h6 className="mt-35 mb-25" id="section-6">
@@ -193,21 +185,13 @@ function Terms() {
                         of its abilities. We thus forbid any alterations made to
                         our core software on any terms without our written
                         consent. <br></br>
-                        <br></br>
-                        By choosing to use our service, you comply with the
-                        terms of not copying, modifying, extracting codes,
-                        reverse engineering, or creating a derivative of what we
-                        originally own. You also hereby agree that you will not
-                        sublease, sublicense, or transfer the original ownership
-                        that we have provided you with. You also vouch to not
-                        engage in any activity that is of fraudulent nature.
                       </p>
 
                       <h6 className="mt-35 mb-25" id="section-7">
                         Third-party integrated applications
                       </h6>
                       <p>
-                        Shadobooks erp may utilize certain third-part software
+                        Shadobooks erp may utilize certain third-party software
                         for added process flow and efficiency. We only use these
                         added plugins according to the third-party provider’s
                         terms of service and the end-user is also bound to not
@@ -239,10 +223,6 @@ function Terms() {
                         But the user should clear their invoice for the existing
                         billing cycle before entering into a new agreement with
                         us.<br></br>
-                        <br></br>
-                        We do not support any hardware or software providers who
-                        do not own a valid license. The user is also to function
-                        with complete compliance from their side.
                       </p>
 
                       <h6 className="mt-35 mb-25" id="section-9">
@@ -271,11 +251,6 @@ function Terms() {
                         the stipulated time period mentioned in the invoice as
                         per this agreement and our contract with you.<br></br>
                         <br></br>
-                        The payment cost mentioned in the website will be
-                        standard, but it excludes taxes and other government
-                        charges that are required by law for which the customer
-                        will be liable to comply and pay along. <br></br>
-                        <br></br>
                         All the transactions made between both our parties are
                         non-refundable at any cause as per this agreement.
                         <br></br>
@@ -292,21 +267,13 @@ function Terms() {
                       </h6>
                       <p>
                         Failure to pay for more than 60 days after our invoice
-                        due date will be considered a breach of this agreement,
-                        which then we'd be authorized to disclose payment issues
-                        to a third-party if we are to take a legal route. You'd
-                        also be held liable to pay any jurisdiction or legal
-                        fees during the tenure along with our original payment.{" "}
+                        due date will be considered a breach of this agreement.{" "}
                         <br></br>
                         <br></br>
-                        Upon the 60th day of failure to clear the invoice,
-                        shadobooks also declares complete ownership to all your
-                        intellectual property and full ownership of your account
-                        created with our erp. The service will also be withheld
-                        upon failure to pay any non-disputed invoices within the
-                        stated dates. We also reserve the right to may or may
-                        not charge a late payment fee for these uncleared
-                        invoices. <br></br>
+                        The service will be withheld upon failure to pay any
+                        non-disputed invoices within the stated dates. We also
+                        reserve the right to may or may not charge a late
+                        payment fee for these uncleared invoices. <br></br>
                         <br></br>
                         We also reserve the right to terminate our contract in
                         writing to the client if their usage of our application
@@ -338,8 +305,7 @@ function Terms() {
                         By the terms of the agreement stated hereof, both the
                         parties involved agree not to share any confidential
                         information involved to any parties without the consent
-                        of the other. Both the supplier and the buyer are also
-                        to ensure that all their employees, representatives, or
+                        of the other. Both the parties should ensure that all their employees, representatives, or
                         any associated personnel complies with this
                         confidentiality obligation under all conditions.
                         <br></br>
@@ -364,11 +330,11 @@ function Terms() {
                       <p>
                         All these terms of service whichever are valid and
                         necessary are applicable even if a user signs up only
-                        for the 14-day free trial period. <br></br>
+                        for the free trial period. <br></br>
                         <br></br>
                         The customer also understands that any data they enter
                         into our applications or any customization they make
-                        will only be available to them for 14 days, post which
+                        will only be available to them for free trial period, post which
                         they would have to pay to retrieve or continue using any
                         of what we offer. <br></br>
                         <br></br>
@@ -388,9 +354,9 @@ function Terms() {
                         {" "}
                         Shadobooks hereby entitles the rights to modify, change,
                         or revamp the entire framework of this terms of service
-                        agreement unilaterally with or without prior notice. It
-                        thus rests on the user to constantly monitor this space
-                        for any additional information.<br></br>
+                        agreement unilaterally with prior notice. It thus rests
+                        on the user to constantly monitor this space for any
+                        additional information.<br></br>
                         <br></br>
                         If these modifications happen as a result that is not
                         attributed to legislation or authoritative decisions,
@@ -406,10 +372,8 @@ function Terms() {
                         date in the below and the user can monitor the same.{" "}
                         <br></br>
                         <br></br>
-                        You may choose to discontinue our services if any of
-                        these are not agreeable to you. By continuing, it is of
-                        explicit agreement that you are in complete agreement
-                        with all of these. <br></br>
+                        By continuing, it is of explicit agreement that you are
+                        in complete agreement with all of these. <br></br>
                         <br></br>
                         For any further clarifications, write to us at
                         support@shadobooks.com.

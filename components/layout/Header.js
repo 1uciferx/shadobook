@@ -585,13 +585,13 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </a>
                           </Link>
                         </li>
-                        <li>
+                        {/* <li>
                           <Link href="/oilandgas">
                             <a className="closer">
                               <i className="fi fi-rr-edit"></i>OIL & GAS
                             </a>
                           </Link>
-                        </li>
+                        </li> */}
                         <li>
                           <Link href="/manufacturing1">
                             <a className="closer">

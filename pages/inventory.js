@@ -5,10 +5,13 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import "react-modal-video/css/modal-video.css";
 import Layout from "../components/layout/Layout";
+import Contactmanager from "../components/contactmanager";
 import { Breadcrumb, Menu, theme } from "antd";
-import styles from "../styles/Inventory.module.css";
+// import styles from "../styles/Inventory.module.css";
 import { Col, Row } from "antd";
 import { Divider } from "antd";
+import styles from "../styles/Index.module.css";
+import Indexslider from "../components/indexslider";
 import { Layout as L } from "antd";
 const { Content } = L;
 import { BackTop } from "antd";
@@ -122,7 +125,7 @@ function Process() {
           <div className="container">
             <div className="row">
               <div className="text-center">
-              <h2 className="text-heading-2 ">
+                <h2 className="text-heading-2 ">
                   Inventory Receiving Vouchers
                 </h2>
               </div>
@@ -163,7 +166,7 @@ function Process() {
           <div className="container">
             <div className="row">
               <div className="text-center">
-              <h2 className="text-heading-2 ">Inventory Delivery Vouchers</h2>
+                <h2 className="text-heading-2 ">Inventory Delivery Vouchers</h2>
               </div>
 
               <div className="col-lg-2" />
@@ -206,7 +209,7 @@ function Process() {
           <div className="container">
             <div className="row">
               <div className="text-center">
-              <h2 className="text-heading-2 ">Packing Lists</h2>
+                <h2 className="text-heading-2 ">Packing Lists</h2>
               </div>
 
               <div className="col-lg-2" />
@@ -244,7 +247,7 @@ function Process() {
           <div className="container">
             <div className="row">
               <div className="text-center">
-              <h2 className="text-heading-2 ">Internal Delivery Note</h2>
+                <h2 className="text-heading-2 ">Internal Delivery Note</h2>
               </div>
 
               <div className="col-lg-2" />
@@ -287,7 +290,7 @@ function Process() {
           <div className="container">
             <div className="row">
               <div className="text-center">
-              <h2 className="text-heading-2 ">Loss & Adjustments</h2>
+                <h2 className="text-heading-2 ">Loss & Adjustments</h2>
               </div>
 
               <div className="col-lg-2" />
@@ -332,7 +335,7 @@ function Process() {
           <div className="container">
             <div className="row">
               <div className="text-center">
-              <h2 className="text-heading-2 ">
+                <h2 className="text-heading-2 ">
                   Receiving-Exporting Return Order
                 </h2>
               </div>
@@ -372,7 +375,7 @@ function Process() {
           <div className="container">
             <div className="row">
               <div className="text-center">
-              <h2 className="text-heading-2 ">Warehouse</h2>
+                <h2 className="text-heading-2 ">Warehouse</h2>
               </div>
 
               <div className="col-lg-2" />
@@ -410,7 +413,7 @@ function Process() {
           <div className="container">
             <div className="row">
               <div className="text-center">
-              <h2 className="text-heading-2 ">Inventory History</h2>
+                <h2 className="text-heading-2 ">Inventory History</h2>
               </div>
 
               <div className="col-lg-2" />
@@ -445,7 +448,7 @@ function Process() {
           <div className="container">
             <div className="row">
               <div className="text-center">
-              <h2 className="text-heading-2 ">Settings</h2>
+                <h2 className="text-heading-2 ">Settings</h2>
               </div>
 
               <div className="col-lg-2" />
@@ -478,9 +481,30 @@ function Process() {
           </div>
         </section>
 
-       
-
-       
+        <div className={styles.modslider}>
+          <div className="mt-50">
+            <Indexslider />
+            <div className="text-center">
+              <Link href="/modules">
+                <button
+                  type="button"
+                  class="btn btn-outline-dark"
+                  style={{
+                    padding: "10px",
+                    marginTop: "-15px",
+                    marginBottom: "30px",
+                  }}
+                >
+                  Show More
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+        
+        <div>
+          <Contactmanager/>
+        </div>
       </Layout>
     </>
   );

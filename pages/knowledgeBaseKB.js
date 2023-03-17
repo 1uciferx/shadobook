@@ -2,6 +2,9 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
+import styles from "../styles/Index.module.css";
+import Indexslider from "../components/indexslider";
+import Contactmanager from "../components/contactmanager";
 
 function knowledgeBaseKB() {
   return (
@@ -125,7 +128,27 @@ function knowledgeBaseKB() {
           </div>
         </div>
 
+        <div className={styles.modslider}>
+            <div className="mt-50">
+              <Indexslider />
+              <div className="text-center">
+                <Link href="/modules">
+                  <button
+                    type="button"
+                    class="btn btn-outline-dark"
+                    style={{ padding: "10px", marginTop:"-15px" , marginBottom:"30px" }}
+                  >
+                    Show More
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
 
+
+          <div>
+          <Contactmanager/>
+        </div>
       </Layout>
     </>
   );

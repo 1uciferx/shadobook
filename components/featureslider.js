@@ -141,8 +141,8 @@ const Featureslider = () => {
             ))}
           </Swiper>
         </div>
-        {/* <div className="swiper-button-next swiper-button-next-4" />
-        <div className="swiper-button-prev swiper-button-prev-4" /> */}
+        <div className="swiper-button-next swiper-button-next-4" />
+        <div className="swiper-button-prev swiper-button-prev-4" />
       </div>
     </>
   );

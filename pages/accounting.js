@@ -6,6 +6,9 @@ import { useState } from "react";
 import PriceTable2 from "../components/elements/PriceTable2";
 import Layout from "../components/layout/Layout";
 import Imagepopup from "../components/layout/Imagepopup";
+import styles from "../styles/Index.module.css";
+import Indexslider from "../components/indexslider";
+import Contactmanager from "../components/contactmanager";
 import OfferSlider from "../components/slider/Offer";
 import TestimonialSlider from "../components/slider/Testimonial";
 const ModalVideo = dynamic(import("react-modal-video"), {
@@ -537,7 +540,31 @@ function Home() {
             </div>
           </div>
         </div>
+
+
+        <div className={styles.modslider}>
+            <div className="mt-50">
+              <Indexslider />
+              <div className="text-center">
+                <Link href="/modules">
+                  <button
+                    type="button"
+                    class="btn btn-outline-dark"
+                    style={{ padding: "10px", marginTop:"-15px" , marginBottom:"30px" }}
+                  >
+                    Show More
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div>
+          <Contactmanager/>
+        </div>
       </Layout>
+
+
     </>
   );
 }
