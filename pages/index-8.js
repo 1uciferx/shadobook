@@ -11,7 +11,7 @@ function Index8() {
           <div className="banner-hero banner-homepage8">
             <div className="container mt-50">
               <div className="row">
-                <div className="col-lg-7"><span className="tag-1 bg-6 color-green-900">CHECK OUR BEST PROMOTIONS</span>
+                <div className="col-lg-7"><span className="tag-1 bg-6 color-green-900">Shadobooks</span>
                   <h1 className="text-display-4 font-bold mt-30">Search Your <span className="color-green-900">Next Holiday</span> from Our Destinations</h1>
                   <p className="text-body-lead-large color-gray-500 mt-40 pr-40">Get a website to be found on the first page of Google to avoid missing out on potential visitors and sales.</p>
                   <div className="mt-40 box-mw-610">
