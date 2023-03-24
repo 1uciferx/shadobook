@@ -118,7 +118,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                               <Link href="/knowledgeBaseKB">
                                 <a>
                                   <i className="fi fi-rr-star" />
-                                  Knowlege Base
+                                  Knowledge Base
                                 </a>
                               </Link>
                             </li>
@@ -308,7 +308,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                               <Link href="/hr-payroll">
                                 <a>
                                   <i className="fi fi-rr-star" />
-                                  HR Payroll
+                                  HR & Payroll
                                 </a>
                               </Link>
                             </li>

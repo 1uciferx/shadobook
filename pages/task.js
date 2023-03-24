@@ -16,7 +16,6 @@ import { Button, Space } from "antd";
 import Slide from "react-reveal/Slide";
 import Pulse from "react-reveal/Pulse";
 import { Breadcrumb, Layout as L } from "antd";
-import Contactmanager from "../components/contactmanager";
 const { Content } = L;
 
 function Task() {

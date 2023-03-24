@@ -5,6 +5,7 @@ import { Button, Space } from "antd";
 import { Col, Row } from "antd";
 import { Breadcrumb } from "antd";
 import "react-modal-video/css/modal-video.css";
+import Indexslider from "../components/indexslider";
 import styles from "../styles/SalesAgent.module.css";
 import CounterUp from "../components/elements/CounterUp";
 import Layout from "../components/layout/Layout";
@@ -115,7 +116,8 @@ function Salesagent() {
                       <br></br>➟ Tracking agent performance.
                       <br></br>
                       <br></br>
-                      You can receive a particular agent information by entering their name and agent group from the list of agents.
+                      You can receive a particular agent information by entering
+                      their name and agent group from the list of agents.
                     </p>
                   </div>
                 </div>
@@ -142,23 +144,19 @@ function Salesagent() {
                   <div className="box-optimized">
                     <h3 className="text-heading-2">Orders</h3>
                     <p className="text-body-excerpt mt-30">
-                      ➟ The order page displays all the orders placed by the agents.
-                      <br></br>
-                      ➟ Use the search filters available to narrow down the order list to view the specific agent's order.
+                      ➟ The order page displays all the orders placed by the
+                      agents.
+                      <br></br>➟ Use the search filters available to narrow down
+                      the order list to view the specific agent's order.
                       <br></br>➟ You can also filter the orders by Agent.
                       <br></br>
-                      <br></br>➟ Click on the specific order to view the details.
+                      <br></br>➟ Click on the specific order to view the
+                      details.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-
-
-           
-
-         
-
           </div>
         </section>
 
@@ -784,6 +782,26 @@ xxl={{
         </Col>
       </Row> */}
 
+        <div className={styles.modslider}>
+          <div className="mt-50">
+            <Indexslider />
+            <div className="text-center">
+              <Link href="/modules">
+                <button
+                  type="button"
+                  class="btn btn-outline-dark"
+                  style={{
+                    padding: "10px",
+                    marginTop: "-15px",
+                    marginBottom: "30px",
+                  }}
+                >
+                  Show More
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
         <div>
           <Contactmanager />
         </div>

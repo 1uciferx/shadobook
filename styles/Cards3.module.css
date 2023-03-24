@@ -1,0 +1,166 @@
+.heading1{
+    text-align:start;
+    font-size: 80px;
+    line-height: 84%;
+    font-family: Segoe UI;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+    top: 5%;
+    color: rgb(30, 32, 32);
+  
+  
+  }
+  
+  .cardheading{
+    text-align: center;
+    font-size: 26px;
+    line-height: 98%;
+    font-family: Segoe UI;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+    top: -13%;
+  
+  
+  }
+  
+  
+  
+  
+  .cardpara {
+   
+  
+    font-family: Segoe UI;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(75 71 71);
+    font-weight: 400;
+    text-decoration: none solid rgb(0, 0, 0);
+    width: 100%;
+    text-align:center;
+   
+  
+  }
+  
+  
+  
+  .profile img {
+    width: 82px;
+    height: 79px;
+    position: relative;
+    border-radius: 50%;
+    top: -45px;
+    }
+  
+  
+  
+  .para1 {
+   
+  
+    font-family: Segoe UI;
+    font-size: 31px;
+    line-height: 34px;
+    color: rgb(75 71 71);
+    font-weight: 600;
+    text-decoration: none solid rgb(0, 0, 0);
+    width: 100%;
+    text-align:start;
+    position: relative;
+    top: 14px;
+   
+  
+  }
+  
+  
+  
+  .para2 {
+   
+  
+    font-family: Segoe UI;
+    font-size: 19px;
+    line-height: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    text-decoration: none solid rgb(0, 0, 0);
+    width: 100%;
+    text-align:start;
+   
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .buttonstart {
+    margin: auto;
+    text-align: start;
+  }
+  
+  .button {
+    display: inline-block;
+    font-weight: bold;
+    font-family: Segoe UI;
+    background-color: #0099FF;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 155px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 20px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+    @media (max-width:1045px){
+      .container .box{
+        width: calc(38% - 10px);
+        margin-bottom: 20px;
+      }
+    }
+    @media (max-width:710px){
+      .container .box{
+        width: 100%;
+      }
+    }
+  
+  

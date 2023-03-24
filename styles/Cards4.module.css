@@ -1,0 +1,104 @@
+.heading1{
+    text-align:start;
+    font-size: 30px;
+    line-height: 117%;
+    font-family: Segoe UI;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+    left: 6%;
+    color: rgb(30, 32, 32);
+  
+  
+  }
+  
+  .cardheading{
+    text-align: start;
+    font-size: 26px;
+    line-height: 98%;
+    font-family: Segoe UI;
+    font-weight: 700;
+    font-style: normal;
+  
+   
+  
+  
+  }
+  
+  
+  
+  
+  .cardpara {
+   
+  
+    font-family: Segoe UI;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(75 71 71);
+    font-weight: 400;
+    text-decoration: none solid rgb(0, 0, 0);
+    width: 100%;
+    text-align:start;
+   
+  
+  }
+  
+  
+  
+  .profile img {
+    width: 82px;
+    height: 79px;
+    position: relative;
+  
+    right: 31%;
+  
+   
+  
+    }
+  
+  
+  
+  
+  
+  
+  
+  .para2 {
+   
+      font-family: Segoe UI;
+      font-size: 19px;
+      line-height: 23px;
+      color: rgb(0, 0, 0);
+      font-weight: 400;
+      position: relative;
+      left: 6%;
+      top:1%;
+      text-decoration: none solid rgb(0, 0, 0);
+      width: 100%;
+      text-align:start;
+   
+  
+  }
+  
+  
+  
+   
+   
+  
+  
+  
+    @media (max-width:1025px){
+   
+  
+      .profile img {
+          width: 82px;
+          height: 79px;
+          position: relative;
+       
+          right: 22%;
+    }
+  
+  
+  
+    }
+  
+  

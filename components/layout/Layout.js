@@ -6,6 +6,7 @@ import Sidebar from "./Sidebar";
 import styles from "../../styles/layoutstyle.module.css";
 import Mobilefooter from "../mobilefooter";
 import Headertest from "../../pages/headertest";
+import ResponsiveContainer from "../../util/responsivecontainer";
 
 const Layout = ({ children, headerStyle }) => {
   const [openClass, setOpenClass] = useState("");
@@ -27,10 +28,13 @@ const Layout = ({ children, headerStyle }) => {
 
       <div className={styles.allheader}>
         <Header handleOpen={handleOpen} headerStyle={headerStyle} />
-         <Sidebar openClass={openClass} /> 
+        <Sidebar openClass={openClass} />
       </div>
-      <main className="main">{children}</main>
+      
 
+      <ResponsiveContainer>
+        <main className="main">{children}</main>
+      </ResponsiveContainer>
       <div className={styles.allfooter}>
         <Footer />
       </div>

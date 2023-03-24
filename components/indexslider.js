@@ -11,7 +11,7 @@ SwiperCore.use([Autoplay, Navigation]);
 const Featureslider = () => {
   const data = [
     {
-      avatar: "reports01.png",
+      avatar: "Reports3.png",
       name: "Reports",
       company: "Bank of America",
       quote:
@@ -20,7 +20,7 @@ const Featureslider = () => {
       link: "/reports",
     },
     {
-      avatar: "contracts01.png",
+      avatar: "Contracts3.png",
       name: "Contracts",
       company: "Bank of America",
       quote:
@@ -29,7 +29,7 @@ const Featureslider = () => {
       link: "/contracts",
     },
     {
-      avatar: "expense01.png",
+      avatar: "Expenses4.png",
       name: "Expenses",
       company: "Bank of America",
       quote:
@@ -38,7 +38,7 @@ const Featureslider = () => {
       link: "/Expense",
     },
     {
-      avatar: "leads01.png",
+      avatar: "Support3.png",
       name: "Support",
       company: "Bank of America",
       quote:
@@ -47,7 +47,7 @@ const Featureslider = () => {
       link: "/support-page",
     },
     {
-      avatar: "acc01.png",
+      avatar: "Accountingvoucher2.png",
       name: "Accounting",
       company: "Nintendo",
       quote:
@@ -56,7 +56,7 @@ const Featureslider = () => {
       link: "/accounting",
     },
     {
-      avatar: "uti01.png",
+      avatar: "Utilities4.png",
       name: "Utilities",
       company: "Starbucks",
       quote:
@@ -65,7 +65,7 @@ const Featureslider = () => {
       link: "/Utilities",
     },
     {
-      avatar: "kb01.png",
+      avatar: "KnowledgeBase3.png",
       name: "Knowledge Base",
       company: "Bank of America",
       quote:
@@ -74,7 +74,7 @@ const Featureslider = () => {
       link: "/knowledgeBaseKB",
     },
     {
-      avatar: "hr01.png",
+      avatar: "Hiring3.png",
       name: "HR Records",
       company: "Bank of America",
       quote:
@@ -83,7 +83,7 @@ const Featureslider = () => {
       link: "/hrrecord",
     },
     {
-      avatar: "estimate01.png",
+      avatar: "EstimateRequest3.png",
       name: "Estimate Request",
       company: "Bank of America",
       quote:
@@ -92,7 +92,7 @@ const Featureslider = () => {
       link: "/EstimateReq",
     },
     {
-      avatar: "sales01.png",
+      avatar: "sales3.png",
       name: "Sales",
       company: "Bank of America",
       quote:
@@ -104,6 +104,7 @@ const Featureslider = () => {
 
   return (
     <>
+    <div className="mt-150">
       <div className="box-swiper">
         <div className="swiper-container swiper-group-4">
           <Swiper
@@ -143,6 +144,7 @@ const Featureslider = () => {
         </div>
         {/* <div className="swiper-button-next swiper-button-next-4" />
         <div className="swiper-button-prev swiper-button-prev-4" /> */}
+      </div>
       </div>
     </>
   );

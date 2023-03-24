@@ -10,6 +10,7 @@ function Modules() {
         <div class="container mt-100 " style={{ paddingTop: "50px" }}>
           <div class="row">
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
+              <div className={styles.ss2}>
               <Link href="/accounting">
                 <div class=" shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
@@ -17,13 +18,14 @@ function Modules() {
                   </h4>
                   <div className={styles.cntr}>
                     <img
-                      src="assets/imgs/page/homepage1/acc01.png"
+                      src="assets/imgs/page/homepage1/Accountingvoucher2.png"
                       alt="Photo of sunset"
                       width={"150px"}
                     />
                   </div>
                 </div>
               </Link>
+              </div>
             </div>
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
               <Link href="/support-page">
@@ -33,81 +35,7 @@ function Modules() {
                   </h4>
                   <div className={styles.cntr}>
                     <img
-                      src="assets/imgs/page/homepage1/support01.png"
-                      alt="Photo of sunset"
-                      width={"150px"}
-                    />
-                  </div>
-                </div>
-              </Link>
-            </div>
-
-            <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/webhook">
-                <div class="shadow p-3 mb-5 bg-body rounded">
-                  <h4 class="card-title text-center">
-                    <i class="text-heading-6">Web Hooks</i>
-                  </h4>
-                  <div className={styles.cntr}>
-                    <img
-                      src="assets/imgs/page/homepage1/webhooks01.png"
-                      alt="Photo of sunset"
-                      width={"150px"}
-                    />
-                  </div>
-                </div>
-              </Link>
-            </div>
-
-            <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/project">
-                <div class="shadow p-3 mb-5 bg-body rounded">
-                  <h4 class="card-title text-center">
-                    <i class="text-heading-6">Projects</i>
-                  </h4>
-                  <div className={styles.cntr}>
-                    <img
-                      src="assets/imgs/page/homepage1/projects01.png"
-                      alt="Photo of sunset"
-                      width={"150px"}
-                    />
-                  </div>
-                </div>
-              </Link>
-            </div>
-          </div>
-        </div>
-
-        {/* 2nd row */}
-
-        <div class="container mt-50">
-          <div class="row">
-            <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/filemanage">
-                <div class="shadow p-3 mb-5 bg-body rounded">
-                  <h4 class="card-title text-center">
-                    <i class="text-heading-6">File Manager</i>
-                  </h4>
-                  <div className={styles.cntr}>
-                    <img
-                      src="assets/imgs/page/homepage1/filemanager01.png"
-                      alt="Photo of sunset"
-                      width={"150px"}
-                    />
-                  </div>
-                </div>
-              </Link>
-            </div>
-
-            <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/knowledgeBaseKB">
-                <div class=" shadow p-3 mb-5 bg-body rounded">
-                  <h4 class="card-title text-center">
-                    <i class="text-heading-6">Knowledge Base</i>
-                  </h4>
-                  <div className={styles.cntr}>
-                    <img
-                      src="assets/imgs/page/homepage1/kb01.png"
+                      src="assets/imgs/page/homepage1/Support3.png"
                       alt="Photo of sunset"
                       width={"150px"}
                     />
@@ -124,7 +52,7 @@ function Modules() {
                   </h4>
                   <div className={styles.cntr}>
                     <img
-                      src="assets/imgs/page/homepage1/companyassets01.png"
+                      src="assets/imgs/page/homepage1/CompanyAssets3.png"
                       alt="Photo of sunset"
                       width={"150px"}
                     />
@@ -132,6 +60,85 @@ function Modules() {
                 </div>
               </Link>
             </div>
+
+
+            <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
+              <Link href="/filemanage">
+                <div class="shadow p-3 mb-5 bg-body rounded">
+                  <h4 class="card-title text-center">
+                    <i class="text-heading-6">File Manager</i>
+                  </h4>
+                  <div className={styles.cntr}>
+                    <img
+                      src="assets/imgs/page/homepage1/Filemanager3.png"
+                      alt="Photo of sunset"
+                      width={"150px"}
+                    />
+                  </div>
+                </div>
+              </Link>
+            </div>
+
+            
+          </div>
+        </div>
+
+        {/* 2nd row */}
+
+        <div class="container mt-50">
+          <div class="row">
+          <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
+              <Link href="/project">
+                <div class="shadow p-3 mb-5 bg-body rounded">
+                  <h4 class="card-title text-center">
+                    <i class="text-heading-6">Projects</i>
+                  </h4>
+                  <div className={styles.cntr}>
+                    <img
+                      src="assets/imgs/page/homepage1/Projects2.png"
+                      alt="Photo of sunset"
+                      width={"150px"}
+                    />
+                  </div>
+                </div>
+              </Link>
+            </div>
+
+            <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
+              <Link href="/knowledgeBaseKB">
+                <div class=" shadow p-3 mb-5 bg-body rounded">
+                  <h4 class="card-title text-center">
+                    <i class="text-heading-6">Knowledge Base</i>
+                  </h4>
+                  <div className={styles.cntr}>
+                    <img
+                      src="assets/imgs/page/homepage1/KnowledgeBase3.png"
+                      alt="Photo of sunset"
+                      width={"150px"}
+                    />
+                  </div>
+                </div>
+              </Link>
+            </div>
+
+            <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
+              <Link href="/webhook">
+                <div class="shadow p-3 mb-5 bg-body rounded">
+                  <h4 class="card-title text-center">
+                    <i class="text-heading-6">Web Hooks</i>
+                  </h4>
+                  <div className={styles.cntr}>
+                    <img
+                      src="assets/imgs/page/homepage1/WebHooks2.png"
+                      alt="Photo of sunset"
+                      width={"150px"}
+                    />
+                  </div>
+                </div>
+              </Link>
+            </div>
+
+          
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
               <Link href="/EstimateReq">
                 <div class="shadow p-3 mb-5 bg-body rounded">
@@ -140,7 +147,7 @@ function Modules() {
                   </h4>
                   <div className={styles.cntr}>
                     <img
-                      src="assets/imgs/page/homepage1/estimate01.png"
+                      src="assets/imgs/page/homepage1/EstimateRequest3.png"
                       alt="Photo of sunset"
                       width={"150px"}
                     />
@@ -163,7 +170,7 @@ function Modules() {
                   </h4>
                   <div className={styles.cntr}>
                     <img
-                      src="assets/imgs/page/homepage1/hr01.png"
+                      src="assets/imgs/page/homepage1/HRrecords3.png"
                       alt="Photo of sunset"
                       width={"150px"}
                     />
@@ -180,7 +187,7 @@ function Modules() {
                   </h4>
                   <div className={styles.cntr}>
                     <img
-                      src="assets/imgs/page/homepage1/uti01.png"
+                      src="assets/imgs/page/homepage1/Utilities4.png"
                       alt="Photo of sunset"
                       width={"150px"}
                     />
@@ -196,7 +203,7 @@ function Modules() {
                   </h4>
                   <div className={styles.cntr}>
                     <img
-                      src="assets/imgs/page/homepage1/inventory01.png"
+                      src="assets/imgs/page/homepage1/Inventory4.png"
                       alt="Photo of sunset"
                       width={"150px"}
                     />
@@ -212,7 +219,7 @@ function Modules() {
                   </h4>
                   <div className={styles.cntr}>
                     <img
-                      src="assets/imgs/page/homepage1/hiring01.png"
+                      src="assets/imgs/page/homepage1/Hiring3.png"
                       alt="Photo of sunset"
                       width={"150px"}
                     />
@@ -235,7 +242,7 @@ function Modules() {
                   </h4>
                   <div className={styles.cntr}>
                     <img
-                      src="assets/imgs/page/homepage1/tasks01.png"
+                      src="assets/imgs/page/homepage1/Tasks2.png"
                       alt="Photo of sunset"
                       width={"150px"}
                     />
@@ -251,7 +258,7 @@ function Modules() {
                   </h4>
                   <div className={styles.cntr}>
                     <img
-                      src="assets/imgs/page/homepage1/manufacturing01.png"
+                      src="assets/imgs/page/homepage1/Manufacturing3.png"
                       alt="Photo of sunset"
                       width={"150px"}
                     />
@@ -267,7 +274,7 @@ function Modules() {
                   </h4>
                   <div className={styles.cntr}>
                     <img
-                      src="assets/imgs/page/homepage1/leads01.png"
+                      src="assets/imgs/page/homepage1/Leads3.png"
                       alt="Photo of sunset"
                       width={"150px"}
                     />
@@ -283,7 +290,7 @@ function Modules() {
                   </h4>
                   <div className={styles.cntr}>
                     <img
-                      src="assets/imgs/page/homepage1/sales01.png"
+                      src="assets/imgs/page/homepage1/sales3.png"
                       alt="Photo of sunset"
                       width={"150px"}
                     />
@@ -306,7 +313,7 @@ function Modules() {
                   </h4>
                   <div className={styles.cntr}>
                     <img
-                      src="assets/imgs/page/homepage1/purchase01.png"
+                      src="assets/imgs/page/homepage1/Purchase3.png"
                       alt="Photo of sunset"
                       width={"150px"}
                     />
@@ -322,7 +329,7 @@ function Modules() {
                   </h4>
                   <div className={styles.cntr}>
                     <img
-                      src="assets/imgs/page/homepage1/expense01.png"
+                      src="assets/imgs/page/homepage1/Expenses4.png"
                       alt="Photo of sunset"
                       width={"150px"}
                     />
@@ -338,7 +345,7 @@ function Modules() {
                   </h4>
                   <div className={styles.cntr}>
                     <img
-                      src="assets/imgs/page/homepage1/contracts01.png"
+                      src="assets/imgs/page/homepage1/Contracts3.png"
                       alt="Photo of sunset"
                       width={"150px"}
                     />
@@ -354,7 +361,7 @@ function Modules() {
                   </h4>
                   <div className={styles.cntr}>
                     <img
-                      src="assets/imgs/page/homepage1/hrpay01.png"
+                      src="assets/imgs/page/homepage1/HRpayroll4.png"
                       alt="Photo of sunset"
                       width={"150px"}
                     />
@@ -377,7 +384,7 @@ function Modules() {
                   </h4>
                   <div className={styles.cntr}>
                     <img
-                      src="assets/imgs/page/homepage1/salesagent01.png"
+                      src="assets/imgs/page/homepage1/SalesAgent3.png"
                       alt="Photo of sunset"
                       width={"150px"}
                     />
@@ -393,7 +400,7 @@ function Modules() {
                   </h4>
                   <div className={styles.cntr}>
                     <img
-                      src="assets/imgs/page/homepage1/reports01.png"
+                      src="assets/imgs/page/homepage1/Reports3.png"
                       alt="Photo of sunset"
                       width={"150px"}
                     />
@@ -409,7 +416,7 @@ function Modules() {
                   </h4>
                   <div className={styles.cntr}>
                     <img
-                      src="assets/imgs/page/homepage1/pos01.png"
+                      src="assets/imgs/page/homepage1/PointOfsales3.png"
                       alt="Photo of sunset"
                       width={"150px"}
                     />

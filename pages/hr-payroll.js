@@ -36,7 +36,7 @@ function Home() {
               <div className="row">
                 <div className="col-lg-7">
                   <h1 style={{ color: "white" }} className="text-display-2">
-                    HR Payroll
+                    HR & Payroll
                   </h1>
                   <p
                     style={{ color: "white" }}
