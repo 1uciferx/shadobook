@@ -158,6 +158,11 @@ function Index2() {
           </div>
 
           {/* section 6 */}
+
+                      <div className={styles.cintoslider}>
+                        <p> Trusted by the World's Leading Companies</p>
+                      </div>
+
           <div>
             <Cintoslider />
           </div>
