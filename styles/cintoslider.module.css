@@ -25,7 +25,7 @@
 
 
 
-.cardcontainer {
+/* .cardcontainer {
     display: flex;
     overflow: hidden;
     width: 100%;
@@ -39,16 +39,4 @@
     animation: slide 10s linear infinite;
   }
 
-  /* .card:hover {
-    animation: slide-paused 10s infinite;
-  }*/
-  
-  @keyframes slide {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-320px);
-    }
-  }
-
+  */

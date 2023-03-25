@@ -9,7 +9,7 @@ function Sectiontwo() {
           <div className={styles.imgpic}>
             <img
               alt="shadobooks"
-              src="/assets/imgs/page/homepage4/fframe.png"
+              src="/assets/imgs/page/homepage1/qsq.png"
             />
           </div>
         </div>

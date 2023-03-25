@@ -25,8 +25,7 @@ function Service1() {
                     analysis to deal insights, activity data, and email
                     analysis. Create dashboards exclusively yours by utilizing
                     analytical widgets for sales, such as charts, goal meters,
-                    KPIs, and funnels. yours by utilizing analytical widgets for
-                    sales, such as charts, goal meters, KPIs, and funnels.
+                    KPIs, and funnels.
                   </p>
                   {/* <div className="mt-40">
                     <Link href="/page-about-1">
@@ -81,7 +80,8 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/hrmanagement.png"
-                        alt="ShadoBooks" style={{height:"50px"}}
+                        alt="ShadoBooks"
+                        style={{ height: "50px" }}
                       />
                     </span>
                     <h4 className="text-heading-6">HR Management</h4>
@@ -100,7 +100,8 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/hrpayroll.png"
-                        alt="ShadoBooks" style={{height:"50px"}}
+                        alt="ShadoBooks"
+                        style={{ height: "50px" }}
                       />
                     </span>
                     <h4 className="text-heading-6">HR Payroll</h4>
@@ -119,7 +120,8 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/accounting.png"
-                        alt="ShadoBooks" style={{height:"50px"}}
+                        alt="ShadoBooks"
+                        style={{ height: "50px" }}
                       />
                     </span>
                     <h4 className="text-heading-6">Accounting</h4>
@@ -141,7 +143,8 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/customers.png"
-                        alt="ShadoBooks" style={{height:"50px"}}
+                        alt="ShadoBooks"
+                        style={{ height: "50px" }}
                       />
                     </span>
                     <h4 className="text-heading-6">Customers</h4>
@@ -162,7 +165,8 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/sales.png"
-                        alt="ShadoBooks"  style={{height:"50px"}}
+                        alt="ShadoBooks"
+                        style={{ height: "50px" }}
                       />
                     </span>
                     <h4 className="text-heading-6">Sales</h4>
@@ -183,7 +187,8 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/reminder.png"
-                        alt="ShadoBooks"  style={{height:"50px"}}
+                        alt="ShadoBooks"
+                        style={{ height: "50px" }}
                       />
                     </span>
                     <h4 className="text-heading-6">Reminder</h4>
@@ -202,7 +207,8 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/chat.png"
-                        alt="ShadoBooks"  style={{height:"50px"}}
+                        alt="ShadoBooks"
+                        style={{ height: "50px" }}
                       />
                     </span>
                     <h4 className="text-heading-6">Chat</h4>
@@ -220,7 +226,8 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/chartflow.png"
-                        alt="ShadoBooks"  style={{height:"50px"}}
+                        alt="ShadoBooks"
+                        style={{ height: "50px" }}
                       />
                     </span>
                     <h4 className="text-heading-6">Flowchart</h4>
@@ -239,7 +246,8 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/lead.png"
-                        alt="ShadoBooks"  style={{height:"50px"}}
+                        alt="ShadoBooks"
+                        style={{ height: "50px" }}
                       />
                     </span>
                     <h4 className="text-heading-6">Lead</h4>
@@ -262,7 +270,8 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/timesheet.png"
-                        alt="ShadoBooks"  style={{height:"50px"}}
+                        alt="ShadoBooks"
+                        style={{ height: "50px" }}
                       />
                     </span>
                     <h4 className="text-heading-6">Timesheet</h4>
@@ -282,7 +291,8 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/staffworkload.png"
-                        alt="ShadoBooks"  style={{height:"50px"}}
+                        alt="ShadoBooks"
+                        style={{ height: "50px" }}
                       />
                     </span>
                     <h4 className="text-heading-6">Staff Workload</h4>
@@ -302,7 +312,8 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/expenses.png"
-                        alt="ShadoBooks"  style={{height:"50px"}}
+                        alt="ShadoBooks"
+                        style={{ height: "50px" }}
                       />
                     </span>
                     <h4 className="text-heading-6">Expenses</h4>
@@ -321,7 +332,8 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/projects.png"
-                        alt="ShadoBooks"  style={{height:"50px"}}
+                        alt="ShadoBooks"
+                        style={{ height: "50px" }}
                       />
                     </span>
                     <h4 className="text-heading-6">Project</h4>
@@ -344,7 +356,8 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/recuritment.png"
-                        alt="ShadoBooks"  style={{height:"50px"}}
+                        alt="ShadoBooks"
+                        style={{ height: "50px" }}
                       />
                     </span>
                     <h4 className="text-heading-6">Recruitment</h4>
@@ -364,7 +377,8 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/tasks.png"
-                        alt="ShadoBooks"  style={{height:"50px"}}
+                        alt="ShadoBooks"
+                        style={{ height: "50px" }}
                       />
                     </span>
                     <h4 className="text-heading-6">Task</h4>
@@ -384,7 +398,8 @@ function Service1() {
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/services/1/utilities.png"
-                        alt="ShadoBooks"  style={{height:"50px"}}
+                        alt="ShadoBooks"
+                        style={{ height: "50px" }}
                       />
                     </span>
                     <h4 className="text-heading-6">Utilities</h4>
@@ -400,8 +415,6 @@ function Service1() {
           </div>
         </section>
 
-
-        
         <section className="section-box">
           <div className="container mt-70">
             <div className="row">
@@ -464,18 +477,17 @@ function Service1() {
                   </div>
                 </div>
               </div>
-               <div className="col-lg-6 col-sm-12 " >
-                <div className="inner-image mt-50" >
-               
-                 <div className="block-image-bottom">
+              <div className="col-lg-6 col-sm-12 ">
+                <div className="inner-image mt-50">
+                  <div className="block-image-bottom">
                     <img
                       className="bdrd-16 img-responsive"
                       src="assets/imgs/page/homepage2/img-built-2.png"
                       alt="ShadoBooks"
                     />
-                  </div> 
+                  </div>
                 </div>
-              </div> 
+              </div>
             </div>
           </div>
         </section>
