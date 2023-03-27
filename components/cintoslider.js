@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import Image from "next/image";
-import styles from "../styles/Cintoslider.module.css";
+import styles from "../styles/cintoslider.module.css";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
