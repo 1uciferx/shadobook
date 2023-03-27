@@ -52,6 +52,7 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-bottom: 7%;
 }
 
 .featuresbtn span:first-child {

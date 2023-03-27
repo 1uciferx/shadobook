@@ -109,3 +109,8 @@
   }
 }
 
+@media (max-width:1200px){
+.allcontent{
+  background: linear-gradient(to bottom,#FFFFFF, #c8edeb,#FFFFFF );
+}
+}

@@ -104,7 +104,7 @@ const Featureslider = () => {
 
   return (
     <>
-    <div className="mt-150">
+    <div className="mt-20 ">
       <div className="box-swiper">
         <div className="swiper-container swiper-group-4">
           <Swiper

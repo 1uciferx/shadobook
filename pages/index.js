@@ -43,7 +43,8 @@ function Index2() {
           <div
             className="section-box"
             style={{
-              background: "linear-gradient(to bottom, #FFFFFF , #c8edeb)",
+              background:
+                "linear-gradient(to bottom,#FFFFFF ,#c8edeb, #FFFFFF)",
             }}
           >
             <div className="mt-50 mb-40">
@@ -103,6 +104,25 @@ function Index2() {
 
           {/* sectiontwo */}
 
+          <div
+            className={styles.modslider}
+            style={{
+              background: "linear-gradient(to bottom, #FFFFFF , #c8edeb)",
+            }}
+          >
+            <div className="mt-30">
+              <Indexslider />
+              <div className="text-center">
+                <Link href="/modules">
+                  <button className={styles.featuresbtn} role="button">
+                    <span class="text">Show More</span>
+                    <span style={{ fontFamily: "segoe ui" }}>Our Features</span>
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
           <div>
             <Fadedcards />
           </div>
@@ -134,17 +154,6 @@ function Index2() {
             <Cards3 />
           </div>
 
-          <div className={styles.modslider}>
-            <div className="mt-90">
-              <Indexslider />
-              <div className="text-center">
-                <Link href="/modules">
-                <button className={styles.featuresbtn} role="button"><span class="text">Show More</span><span style={{fontFamily:"segoe ui"}}>Our Features</span></button>
-                </Link>
-              </div>
-            </div>
-          </div>
-
           {/* section 4 */}
 
           <div>
@@ -159,9 +168,9 @@ function Index2() {
 
           {/* section 6 */}
 
-                      <div className={styles.cintoslider}>
-                        <p> Trusted by the World's Leading Companies</p>
-                      </div>
+          <div className={styles.cintoslider}>
+            <p> Trusted by the World's Leading Companies</p>
+          </div>
 
           <div>
             <Cintoslider />
