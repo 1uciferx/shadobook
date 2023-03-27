@@ -7,7 +7,6 @@ import Slider from "react-slick";
 import dynamic from "next/dynamic";
 import Indexslider from "../components/indexslider";
 import styles from "../styles/Index.module.css";
-import Intro2 from "../components/slider/homeslider1";
 import Mobileindex from "./mobileindex";
 import Fadedcards from "../components/Fadedcards";
 import Sectiontwo from "../components/sectiontwo";

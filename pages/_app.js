@@ -14,10 +14,26 @@ import Preloader from '../components/elements/Preloader';
 import 'react-modal-video/css/modal-video.css';
 import 'antd/dist/reset.css';
 import FlagApp from '../components/FlagApp';
+import Script from "next/script";
+import { useRouter } from "next/router";
+import * as gtag from "../lib/gtag";
+
 
 
 function MyApp({ Component, pageProps }) {
+
   const [loading, setLoading] = useState(false);
+
+  const router = useRouter();
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      gtag.pageview(url);
+    };
+    router.events.on("routeChangeComplete", handleRouteChange);
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
 
   useEffect(() => {
     var tawk = new TawkTo("6360f2c8b0d6371309cca7c1", "1ggpb8oj2");
@@ -61,6 +77,24 @@ function MyApp({ Component, pageProps }) {
           href="https://www.w3schools.com/w3css/4/w3.css"
         />
       </Head>
+
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
+      />
+      <Script
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${gtag.GA_TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }}
+      />
       {!loading ?
         <>
           <ToastContainer position="bottom-left" />
