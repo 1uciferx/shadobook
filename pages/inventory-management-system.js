@@ -18,6 +18,7 @@ import { Button, Dropdown, Space } from "antd";
 import { DownOutlined } from "@ant-design/icons";
 import Zoom from "react-reveal/Zoom";
 import Head from 'next/head';
+import Contactmanager from "../components/contactmanager";
 
 function Process() {
   return (
