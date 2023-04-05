@@ -84,7 +84,7 @@ function Home() {
                     In Shadobook ERP, the lead page is shown when you click the
                     lead module. Here we have the options to add a new lead,
                     import a lead, filter options, and also the list form of
-                    generated leads.
+                    generated leads.It allows<span><a href="/Utilities-management-software"> utilities</a></span> providers to capture important customer information, such as email addresses and phone numbers, which can be used for future marketing and communication efforts. 
                   </div>
                 </div>
               </div>

@@ -142,9 +142,7 @@ function Index6() {
                   </div>
                   <div className="col-lg-12 col-sm-6 col-12 mt-20">
                     <h4 className="text-heading-6 icon-leaf">
-                      Allows governmental entities to get information on
-                      accidents, absenteeism, labour turnover, wages, and
-                      salary.
+                    Allows governmental entities to get information on accidents, absenteeism, labour turnover, wages, and<span><a href="/sales-rep-software"> salary.</a></span> Employees can also access HR information on the<span><a href="/Knowledge-management-software"> Knowledge Base,</a></span> such as benefits, policies, and procedures. 
                     </h4>
                   </div>
                 </div>

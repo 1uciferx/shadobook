@@ -82,8 +82,7 @@ function Task() {
                 Start date, Due date, Assignee(s), Priority level tab.
                 <br />
                 <br />
-                ➟ The task summary page allows you to view and manage all the
-                tasks in one place.
+                ➟ The task summary page allows you to view and manage all the tasks in one place including<span><a href="/best-hrms-software"> HR management</a></span> task. 
                 <br />
                 <br />➟ You can filter and sort the task list by task name,
                 status, start date, due date, assignee and priority level.
@@ -222,7 +221,7 @@ function Task() {
                     The task overview page allows you to filter task lists by:
                     <br />
                     <br />
-                    ➟ Staff members, Month, Year
+                    ➟ Staff members, Month, Year and<span><a href="/hr-and-payroll-software"> Payroll </a></span>
                     <br />
                     <br />
                     ➟ This makes it easy to view and manage tasks assigned to

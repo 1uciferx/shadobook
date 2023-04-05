@@ -167,6 +167,42 @@ function Index2() {
 
           {/* section 6 */}
 
+
+          <section className="section-box">
+                        <div className="container mt-100">
+                            <div className="row">
+                                <div className="col-lg-1 col-sm-1 col-12" />
+                                <div className="col-lg-10 col-sm-10 col-12 text-center">
+                                    {/* <h2 className="text-heading-1 color-gray-900 mb-10">Latest Blogs</h2> */}
+                                    <p className="text-body-lead-large color-gray-600 mt-20">Our Latest Blogs</p>
+                                </div>
+                                <div className="col-lg-1 col-sm-1 col-12" />
+                            </div>
+                        </div>
+                        <div className="container mt-40">
+                            <div className="row">
+                            
+                                <div className="col-lg-4 col-sm-12 pr-30 mb-50">
+                                    <div className="card-grid-style-4"><span className="tag-dot">Blog</span>
+                                       
+
+                                        <div className="grid-4-img color-bg-9">
+                                            <Link href="/blogs/professional-accounting-software"><a><img src="/assets/imgs/page/blog/aa1.jpg" alt="Agon" />
+                                            </a></Link>
+                                        </div>
+                                        <Link href="/blog-single"><a className="text-heading-4">Best Professional Accounting Software for your busines
+                                        </a></Link>
+                                    </div>
+                                </div>
+                                                 
+                            </div>
+                            {/* <div className="mt-20 mb-30 text-center">
+                                <Link href="/blog-1"><a className="btn btn-black icon-arrow-right-white">Load more posts
+                                </a></Link>
+                            </div> */}
+                        </div>
+                    </section>
+
           <div className={styles.cintoslider}>
             <p> Trusted by the World's Leading Companies</p>
           </div>

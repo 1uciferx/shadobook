@@ -46,7 +46,7 @@ function Process() {
                     Shadobooks ERP offers comprehensive inventory management,
                     including order management, stock tracking, warehouse
                     operations, GST billing, mobile order fulfillment, and
-                    software integrations for streamlined operations.
+                    software integrations for streamlined operations. 
                   </p>
                 </div>
               </div>
