@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import Layout from "../components/layout/Layout";
-import styles from "../styles/Blog.module.css";
+import Layout from "/components/layout/Layout";
+import styles from "/styles/Blog.module.css";
 
-
+ 
 function Streamlinefinancialoperations() {
   return (
     <>
@@ -13,7 +13,7 @@ function Streamlinefinancialoperations() {
             <div
               className="banner-hero banner-head-image"
               style={{
-                background: "url(assets/imgs/page/blog/thomas.jpg)",
+                background: "url(/assets/imgs/page/blog/thomas.jpg)",
               }}
             >
               <div className="container">
@@ -46,7 +46,7 @@ function Streamlinefinancialoperations() {
                     </p>
                     <img
                       className="img-responsive bdr-16 mb-40"
-                      src="assets/imgs/page/blog/rr1.jpg"
+                      src="/assets/imgs/page/blog/rr1.jpg"
                       alt="Shadobooks ERP solutions"
                     />
                     <h2 className="text-heading-4">
@@ -92,7 +92,7 @@ function Streamlinefinancialoperations() {
                       <div className="col-lg-4">
                         <img
                           className="img-responsive bdr-10 mt-0"
-                          src="assets/imgs/page/blog/rr2.jpg"
+                          src="/assets/imgs/page/blog/rr2.jpg"
                           alt="Shadobooks ERP solutions"
                         />
                       </div>
@@ -100,7 +100,7 @@ function Streamlinefinancialoperations() {
                     <p />
                     <img
                       className="img-responsive bdr-16 mb-40 mt-30"
-                      src="assets/imgs/page/blog/info.jpg"
+                      src="/assets/imgs/page/blog/info.jpg"
                       alt="Shadobooks ERP solutions"
                     />
                     <h3 className="text-heading-4">
@@ -130,7 +130,7 @@ function Streamlinefinancialoperations() {
                       <div className="col-lg-4">
                         <img
                           className="img-responsive bdr-10 mt-20"
-                          src="assets/imgs/page/blog/rr3.jpg"
+                          src="/assets/imgs/page/blog/rr3.jpg"
                           alt="Shadobooks ERP solutions"
                         /> 
                       </div>
@@ -186,7 +186,7 @@ function Streamlinefinancialoperations() {
                       <div className="col-lg-4">
                         <img
                           className="img-responsive bdr-10 mt-0"
-                          src="assets/imgs/page/blog/real.jpg"
+                          src="/assets/imgs/page/blog/real.jpg"
                           alt="Shadobooks ERP solutions"
                         />
                       </div>
@@ -197,19 +197,19 @@ function Streamlinefinancialoperations() {
                       <div className="col-lg-6">
                         <img
                           className="img-responsive"
-                          src="assets/imgs/page/blog/rr4.jpg"
+                          src="/assets/imgs/page/blog/rr4.jpg"
                           alt="Shadobooks ERP solutions"
                         />
                       </div>
                       <div className="col-lg-6">
                         <img
                           className="img-responsive mb-20"
-                          src="assets/imgs/page/blog/rr5.jpg"
+                          src="/assets/imgs/page/blog/rr5.jpg"
                           alt="Shadobooks ERP solutions"
                         />
                         <img
                           className="img-responsive"
-                          src="assets/imgs/page/blog/rr6.jpg"
+                          src="/assets/imgs/page/blog/rr6.jpg"
                           alt="Shadobooks ERP solutions"
                         />
                       </div>
@@ -265,7 +265,7 @@ function Streamlinefinancialoperations() {
                       <div className="col-lg-4">
                         <img
                           className="img-responsive bdr-10 mt-0"
-                          src="assets/imgs/page/blog/rr7.jpg"
+                          src="/assets/imgs/page/blog/rr7.jpg"
                           alt="Shadobooks ERP solutions"
                         />
                       </div>
@@ -277,7 +277,7 @@ function Streamlinefinancialoperations() {
                       <div className="col-lg-4">
                         <img
                           className="img-responsive bdr-10 mt-20"
-                          src="assets/imgs/page/blog/rr8.jpg"
+                          src="/assets/imgs/page/blog/rr8.jpg"
                           alt="Shadobooks ERP solutions"
                         />
                       </div>

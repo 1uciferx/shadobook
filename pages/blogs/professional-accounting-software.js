@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import Layout from "../components/layout/Layout";
+import Layout from "/components/layout/Layout";
 import Head from "next/head";
-import styles from "../styles/Blog.module.css";
+import styles from "/styles/Blog.module.css";
 
 function BlogSingle() {
   return (
@@ -20,7 +20,7 @@ function BlogSingle() {
             <div
               className="banner-hero banner-head-image"
               style={{
-                background: "url(assets/imgs/page/blog/aa1.jpg)",
+                background: "url(/assets/imgs/page/blog/aa1.jpg)",
               }}
             >
               <div className="container">
@@ -147,7 +147,7 @@ function BlogSingle() {
                       <div className="col-lg-4">
                         <img
                           className="img-responsive bdr-10 mt-10"
-                          src="assets/imgs/page/blog/aa3.jpg"
+                          src="/assets/imgs/page/blog/aa3.jpg"
                           alt="Agon"
                         />
                       </div>
@@ -200,7 +200,7 @@ function BlogSingle() {
                       <div className="col-lg-4">
                         <img
                           className="img-responsive bdr-10 mt-10"
-                          src="assets/imgs/page/blog/aa4.jpg"
+                          src="/assets/imgs/page/blog/aa4.jpg"
                           alt="Agon"
                         />
                       </div>
@@ -258,7 +258,7 @@ function BlogSingle() {
                       <div className="col-lg-4">
                         <img
                           className="img-responsive bdr-10 mt-10"
-                          src="assets/imgs/page/blog/aa5.jpg"
+                          src="/assets/imgs/page/blog/aa5.jpg"
                           alt="Agon"
                         />
                       </div>

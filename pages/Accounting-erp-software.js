@@ -482,8 +482,7 @@ function Home() {
                         </p>
                         <br></br>
                         <p>
-                          ➟It allows users to monitor budget variances and take
-                          corrective actions if needed.
+                          ➟The<span><a href="/Utilities-management-software"> Utility module</a></span> can be used to generate and maintain records of payments and other transactions that are associated with the Accounting module. 
                         </p>
                       </p>
                     </div>

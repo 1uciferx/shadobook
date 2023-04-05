@@ -163,8 +163,7 @@ function Utilities() {
                       <br></br>➟ To access this window, go to Utilities and
                       click on the calendar option.
                       <br></br>
-                      <br></br>➟ Now you can see tasks and events in Shadobook
-                      ERP.
+                      <br></br>➟ Now you can see tasks,<span><a href="/recruitment-management-software"> Job posting</a></span> and events in Shadobook ERP
                     </p>
                   </div>
                 </div>

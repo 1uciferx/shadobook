@@ -74,6 +74,8 @@ function BlogSingle() {
                       ➟ Simplified reporting,
                       <br />
                       <br />➟ Greater compliance.
+                      <br />
+                      <br />➟ Integrated with both the<span><a href="/crm-software-uae"> sales</a></span> and<span><a href="/vendor-management-software-uae"> purchase</a></span> modules
                     </p>
                     <p />
                     <br />

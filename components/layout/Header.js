@@ -74,7 +74,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                       <img
                         width={250}
                         alt="ShadoBooks"
-                        src="assets/imgs/page/homepage4/shadobookslogo.png "
+                        src="/assets/imgs/page/homepage4/shadobookslogo.png "
                       />
                     )}
                   </a>

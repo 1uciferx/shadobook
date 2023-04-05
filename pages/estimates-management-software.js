@@ -150,6 +150,8 @@ function EstimateReq() {
                   <br />
                   <br />➟ On the estimate request page, you may find a list of
                   forms.
+                  <br />
+                  <br />➟  It offers an array of reports related to project progress, contracts, budgets, variances, forecasting, and <span><a href="/expense-management-system"> expenses. </a></span>
                 </p>
               </div>
             </div>

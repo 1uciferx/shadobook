@@ -71,9 +71,9 @@ function Purchase() {
                       Enter details such as the commodity code, name, warehouse
                       name, unit name, etc.
                     </p>
+                   
                     <p className="text-body-text mt-30 icon-leaf">
-                      According to the details provided in the form, an items
-                      file will be shown on the items page.
+                    The item is linked with both the<span><a href="/inventory-management-system"> inventory</a></span> and<span><a href="/crm-software-uae"> Sales</a></span> modules.
                     </p>
                   </div>
                 </div>

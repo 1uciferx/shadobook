@@ -99,9 +99,7 @@ function Sales() {
                 <div className="col-lg-7 col-md-12">
                   <h3 className="text-heading-3">Estimate</h3>
                   <p className="text-body-text mt-20 icon-leaf">
-                    In Shadobook ERP, navigate to the sales module and select
-                    "estimate".Click the "New Estimate" tab to create a new
-                    estimate.
+                    In Shadobook ERP, navigate to the sales module and select "estimate”. Click the "New Estimate" tab to create a new <span><a href="/estimates-management-software"> Estimate Request.</a></span>
                   </p>
                   <p className="text-body-text mt-20 icon-leaf">
                     Once the proposal is saved, it will appear in the form of a
@@ -311,7 +309,7 @@ function Sales() {
                   </p>
                   <p className="text-body-text mt-30 icon-leaf">
                     The item overview page can be used to manage the items, and
-                    track progress and performance of your team.
+                    track progress and performance of your team.The item is linked with both the inventory and<span><a href="/vendor-management-software-uae"> purchase</a></span>  modules. 
                   </p>
                 </div>
 

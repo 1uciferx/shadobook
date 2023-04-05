@@ -90,9 +90,9 @@ function Contracts() {
               <img alt="Contract tracking software" src="assets/imgs/page/homepage4/convec.jpg " />
             </div>
 
-            <p className="text-body-lead-large color-gray-600 mt-20 text-center">
+            <p className="text-body-lead-medium color-gray-600 mt-20 text-center">
               CRM contracts are digital documents that formalise relationships
-              between businesses and their customers.
+              between businesses and their customers.This module enables businesses to store, manage and track their contracts, and also helps businesses to ensure compliance with contractual obligations. The<span><a href="/inventory-management-system"> Inventory module</a></span> is linked to the Contract module, allowing businesses to track inventory related to specific contracts. The <span><a href="/Knowledge-management-software"> Knowledge Base module</a></span> is linked to the Contract module, allowing businesses to store important information related to their contracts. 
             </p>
             <div className="col-lg-2 col-sm-1 col-12" />
           </div>

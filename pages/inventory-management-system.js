@@ -486,6 +486,41 @@ function Process() {
           </div>
         </section>
 
+        <section className="section-box mt-50 mb-50">
+          <div className="container">
+            <div className="row">
+              <div className="text-center">
+                <h2 className="text-heading-2 "> Manage Your Inventory With Our ERP Software </h2>
+              </div>
+
+              <div className="col-lg-2" />
+              <div className="col-lg-8">
+                <div className="single-detail mt-50">
+                  {/* <div className="card-grid-style-3">
+                    <img
+                      className="img-responsive bdr-16"
+                      src="assets/imgs/page/about/3/INSET.png"
+                      alt="Inventory management system"
+                    />
+                  </div> */}
+                  <p />
+                  <p>You can view and manage all of the products, materials, and supplies that are in your inventory. Whether you need to reorder items, adjust quantities, or view stock levels, this page is your go-to resource.To get started, please use the links below: </p>
+
+                  <p>
+                    ➟  If you need to find and hire personnel to help manage your inventory, please visit ou<span><a href="/recruitment-management-software"> Hiring</a></span> page for more information. 
+                    <br />
+                    <br /> ➟ For resources and tips on improving the efficiency of your inventory management, please visit our<span><a href="/lead-management-system"> Leads</a></span> page. 
+                    <br /> ➟ To view and manage the tasks related to your inventory, please visit our<span><a href="/task-management-software"> Tasks</a></span> page.  
+                  
+                  </p>
+
+                  <p />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <div className={styles.modslider}>
           <div className="mt-50">
             <Indexslider />

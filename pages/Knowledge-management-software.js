@@ -141,6 +141,31 @@ function knowledgeBaseKB() {
           </div>
         </div>
 
+
+        <div className="section-box mt-140">
+          <div className="container text-start">
+            <h2 className="text-heading-3 color-gray-900">
+            Integration of Knowledge Base Module 
+            </h2>
+            <p className="text-body-text color-gray-600 mt-20">
+              <br /><br />
+              ➟ Integrating the Knowledge Base module with the HR module can help businesses to manage employee information more efficiently. 
+              <br /><br />
+              ➟ A knowledge base is useful because it allows customers to get the answers they want and need on their own schedule. Integrating the Knowledge Base module with the Customer Relationship Management (CRM) module can help businesses to improve customer satisfaction by providing employees with quick access to customer information and support documentation. 
+              <br /><br />
+              ➟ Integrating the Knowledge Base module with the Inventory Management module can help businesses to manage inventory more effectively. 
+              <br /><br />
+              ➟ Integration the Knowledge Base module with the Project Management module can help employees by access project information such as project scope, objectives, timelines, and deliverables. 
+              
+              <br /><br />
+              ➟ By integrating the Knowledge Base module with the<span><a href="/task-management-software"> Task modules</a></span>, businesses can also improve collaboration and communication among employees.  
+              <br /><br />
+              ➟ The integration of the Knowledge Base module with the<span><a href="/Accounting-erp-software"> Accounting modules</a></span> in an ERP system can provide businesses with a more comprehensive and efficient solution for managing their financial processes. 
+              
+            </p>
+          </div>
+        </div>
+
         <div className={styles.modslider}>
             <div className="mt-50">
               <Indexslider />
