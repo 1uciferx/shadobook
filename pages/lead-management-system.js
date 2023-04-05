@@ -10,6 +10,10 @@ import Contactmanager from "../components/contactmanager";
 import Indexslider from "../components/indexslider";
 import OfferSlider from "../components/slider/Offer";
 import TestimonialSlider from "../components/slider/Testimonial";
+import Head from 'next/head';
+
+
+
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -24,9 +28,12 @@ function Home() {
 
   return (
     <>
-      {/* <Link href="/#">
-                <a>Link</a></Link>
-            </Link> */}
+   <Head>
+        <title> Automate Your Sales Process with our Lead Management System</title>
+        <meta name="description" content="Shadobooks ERP lead management system is designed to help you streamline your sales pipeline, from lead generation to close." />
+      </Head>
+
+
       <Layout>
         <section className="section-box">
           <div
@@ -67,7 +74,7 @@ function Home() {
                   <div className="grid-4-img">
                     {/* <Link href="#"> */}
                     <a>
-                      <img src="assets/imgs/page/about/11/L.png" alt="Agon" />
+                      <img src="assets/imgs/page/about/11/L.png" alt="Lead management system" />
                     </a>
 
                     {/* </Link> */}
@@ -93,7 +100,7 @@ function Home() {
                       <img
                         className="img-responsive"
                         src="assets/imgs/page/about/11/AL.png"
-                        alt="Shadoboooks"
+                        alt="Lead management system"
                       />
                     </div>
                   </div>
@@ -143,7 +150,7 @@ function Home() {
                       <img
                         className="img-responsive"
                         src="assets/imgs/page/about/11/IL.png"
-                        alt="Shadoboooks"
+                        alt="Lead management system"
                       />
                     </div>
                   </div>

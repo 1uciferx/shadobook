@@ -10,6 +10,8 @@ import styles from "../styles/Index.module.css";
 import Indexslider from "../components/indexslider";
 import Contactmanager from "../components/contactmanager";
 import TestimonialSlider from "../components/slider/Testimonial";
+import Head from "next/head";
+
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -24,6 +26,11 @@ function Home() {
 
   return (
     <>
+      <Head>
+        <title>Find Right Talent Faster with Recruitment management Software</title>
+        <meta name="description" content="Our recruitment management software makes it easy to discover the most qualified candidates." />
+      </Head>
+
       <Layout>
         <section className="section-box">
           <div
@@ -100,7 +107,7 @@ function Home() {
                   <img
                     className="img-responsive mt-0"
                     src="/hiring/pic1.png"
-                    alt="Agon"
+                    alt="Recruitment management software"
                   />
                 </div>
               </div>
@@ -148,7 +155,7 @@ function Home() {
                       <img
                         className="img-responsive mt-120 "
                         src="/hiring/pic2.png"
-                        alt="Agon"
+                        alt="Recruitment management software"
                       />
                     </div>
                   </div>
@@ -203,7 +210,7 @@ function Home() {
                         <img
                           className="img-responsive"
                           src="/hiring/pic3.png"
-                          alt="Agon"
+                          alt="Recruitment management software"
                         />
                       </div>
                     </div>
@@ -259,7 +266,7 @@ function Home() {
                         <img
                           className="img-responsive"
                           src="/hiring/pic4.png"
-                          alt="Agon"
+                          alt="Recruitment management software"
                         />
                       </div>
                     </div>
@@ -314,7 +321,7 @@ function Home() {
                       <img
                         className="img-responsive"
                         src="/hiring/pic5.png"
-                        alt="Agon"
+                        alt="Recruitment management software"
                       />
                     </div>
                   </div>
@@ -355,7 +362,7 @@ function Home() {
                       <img
                         className="img-responsive mt-30"
                         src="/hiring/pic6.png"
-                        alt="Agon"
+                        alt="Recruitment management software"
                       />
                     </div>
                   </div>
@@ -390,7 +397,7 @@ function Home() {
                       <img
                         className="img-responsive mt=-100"
                         src="/hiring/pic7.png"
-                        alt="Agon"
+                        alt="Recruitment management software"
                       />
                     </div>
                   </div>
@@ -401,24 +408,28 @@ function Home() {
         </section>
 
         <div className={styles.modslider}>
-            <div className="mt-50">
-              <Indexslider />
-              <div className="text-center">
-                <Link href="/modules">
-                  <button
-                    type="button"
-                    class="btn btn-outline-dark"
-                    style={{ padding: "10px", marginTop:"-15px" , marginBottom:"30px" }}
-                  >
-                    Show More
-                  </button>
-                </Link>
-              </div>
+          <div className="mt-50">
+            <Indexslider />
+            <div className="text-center">
+              <Link href="/modules">
+                <button
+                  type="button"
+                  class="btn btn-outline-dark"
+                  style={{
+                    padding: "10px",
+                    marginTop: "-15px",
+                    marginBottom: "30px",
+                  }}
+                >
+                  Show More
+                </button>
+              </Link>
             </div>
           </div>
+        </div>
 
-          <div>
-          <Contactmanager/>
+        <div>
+          <Contactmanager />
         </div>
       </Layout>
     </>

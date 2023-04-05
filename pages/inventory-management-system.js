@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import "react-modal-video/css/modal-video.css";
 import Layout from "../components/layout/Layout";
-import Contactmanager from "../components/contactmanager";
 import { Breadcrumb, Menu, theme } from "antd";
 // import styles from "../styles/Inventory.module.css";
 import { Col, Row } from "antd";
@@ -19,10 +18,16 @@ import { Button, Dropdown, Space } from "antd";
 import { DownOutlined } from "@ant-design/icons";
 import Contactmanager from "../components/contactmanager";
 import Zoom from "react-reveal/Zoom";
+import Head from 'next/head';
 
 function Process() {
   return (
     <>
+      <Head>
+        <title>Boost Productivity With Advanced Inventory Management System</title>
+        <meta name="description" content="Improve your inventory control and simplify management using our inventory management system." />
+      </Head>
+
       <Layout>
         <section className="section-box">
           <div
@@ -63,7 +68,7 @@ function Process() {
                                             <img
                                                 className="img-responsive bdr-16"
                                                 src="assets/imgs/page/homepage1/zz.png"
-                                                alt="shadobooks"
+                                                alt="Inventory management system"
                                             />
                                             <p />
 
@@ -95,7 +100,7 @@ function Process() {
                     <img
                       className="img-responsive bdr-16"
                       src="assets/imgs/page/about/3/items.png"
-                      alt="shadobooks"
+                      alt="Inventory management system"
                     />
                   </div>
                   <p />
@@ -137,7 +142,7 @@ function Process() {
                     <img
                       className="img-responsive bdr-16"
                       src="assets/imgs/page/about/3/IRV.png"
-                      alt="shadobooks"
+                      alt="Inventory management system"
                     />
                   </div>
                   <p />
@@ -176,7 +181,7 @@ function Process() {
                     <img
                       className="img-responsive bdr-16"
                       src="assets/imgs/page/about/3/IDV.png"
-                      alt="shadobooks"
+                      alt="Inventory management system"
                     />
                   </div>
                   <p />
@@ -219,7 +224,7 @@ function Process() {
                     <img
                       className="img-responsive bdr-16"
                       src="assets/imgs/page/about/3/PL.png"
-                      alt="shadobooks"
+                      alt="Inventory management system"
                     />
                   </div>
                   <p />
@@ -257,7 +262,7 @@ function Process() {
                     <img
                       className="img-responsive bdr-16"
                       src="assets/imgs/page/about/3/IDN.png"
-                      alt="shadobooks"
+                      alt="Inventory management system"
                     />
                   </div>
                   <p />
@@ -300,7 +305,7 @@ function Process() {
                     <img
                       className="img-responsive bdr-16"
                       src="assets/imgs/page/about/3/LA.png"
-                      alt="shadobooks"
+                      alt="Inventory management system"
                     />
                   </div>
                   <p />
@@ -347,7 +352,7 @@ function Process() {
                     <img
                       className="img-responsive bdr-16"
                       src="assets/imgs/page/about/3/RERO.png"
-                      alt="shadobooks"
+                      alt="Inventory management system"
                     />
                   </div>
                   <p />
@@ -385,7 +390,7 @@ function Process() {
                     <img
                       className="img-responsive bdr-16"
                       src="assets/imgs/page/about/3/warehouse.png"
-                      alt="shadobooks"
+                      alt="Inventory management system"
                     />
                   </div>
                   <p />
@@ -423,7 +428,7 @@ function Process() {
                     <img
                       className="img-responsive bdr-16"
                       src="assets/imgs/page/about/3/IH.png"
-                      alt="shadobooks"
+                      alt="Inventory management system"
                     />
                   </div>
                   <p />
@@ -458,7 +463,7 @@ function Process() {
                     <img
                       className="img-responsive bdr-16"
                       src="assets/imgs/page/about/3/INSET.png"
-                      alt="shadobooks"
+                      alt="Inventory management system"
                     />
                   </div>
                   <p />
@@ -501,9 +506,9 @@ function Process() {
             </div>
           </div>
         </div>
-        
+
         <div>
-          <Contactmanager/>
+          <Contactmanager />
         </div>
       </Layout>
     </>

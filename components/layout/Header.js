@@ -99,7 +99,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                         <div style={{ display: "flex", justifyContent:"center"}}>
                           <div >
                             <li>
-                              <Link href="/accounting">
+                              <Link href="/Accounting-erp-software">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Accounting
@@ -107,7 +107,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li>
                             <li>
-                              <Link href="/Utilities">
+                              <Link href="/Utilities-management-software">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Utilities
@@ -115,7 +115,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li>
                             <li>
-                              <Link href="/knowledgeBaseKB">
+                              <Link href="/Knowledge-management-software">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Knowledge Base
@@ -123,7 +123,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li>
                             <li>
-                              <Link href="/sales">
+                              <Link href="/crm-software-uae">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Sales
@@ -131,7 +131,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li>
                             <li>
-                              <Link href="EstimateReq">
+                              <Link href="/estimates-management-software">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Estimates Request
@@ -148,7 +148,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li> */}
                             <li>
-                              <Link href="/purchase">
+                              <Link href="/vendor-management-software-uae">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Purchase
@@ -164,7 +164,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li> */}
                             <li>
-                              <Link href="/Expense">
+                              <Link href="/expense-management-system">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Expenses
@@ -173,7 +173,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li>
 
                             <li>
-                              <Link href="/contracts">
+                              <Link href="/contract-tracking-software">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Contracts
@@ -211,7 +211,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li> */}
 
                             <li>
-                              <Link href="/inventory">
+                              <Link href="/inventory-management-system">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Inventory
@@ -220,7 +220,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li>
 
                             <li>
-                              <Link href="/hiring">
+                              <Link href="/recruitment-management-software">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Hiring
@@ -229,7 +229,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li>
 
                             <li>
-                              <Link href="/leads">
+                              <Link href="/lead-management-system">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Leads
@@ -253,7 +253,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li> */}
                             <li>
-                              <Link href="/task">
+                              <Link href="/task-management-software">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Tasks
@@ -296,7 +296,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li> */}
                             <li>
-                              <Link href="hrrecord">
+                              <Link href="/best-hrms-software">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   HR Records
@@ -305,7 +305,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li>
 
                             <li>
-                              <Link href="/hr-payroll">
+                              <Link href="/hr-and-payroll-software">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   HR & Payroll
@@ -323,7 +323,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li> */}
 
                             <li>
-                              <Link href="/sales-agent">
+                              <Link href="/sales-rep-software">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Sales Agent
@@ -332,7 +332,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li>
 
                             <li>
-                              <Link href="/project">
+                              <Link href="/project-management-software">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Projects
@@ -396,7 +396,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li> */}
 
                             <li>
-                              <Link href="/reports">
+                              <Link href="/reports-module-in-erp">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Reports
@@ -405,7 +405,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li>
 
                             <li>
-                              <Link href="/filemanage">
+                              <Link href="/erp-document-management">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   File Manager
@@ -414,7 +414,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li>
 
                             <li>
-                              <Link href="/companyasset">
+                              <Link href="/fixed-assets-management-erp-software">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Company Assets
@@ -448,7 +448,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li> */}
 
                             <li>
-                              <Link href="webhook">
+                              <Link href="/webhook">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Web Hooks
@@ -457,7 +457,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li>
 
                             <li>
-                              <Link href="/manufacturing">
+                              <Link href="/manufacturing-erp-software">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Manufacturing
@@ -466,7 +466,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li>
 
                             <li>
-                              <Link href="/support-page">
+                              <Link href="/ticketing-system-in-erp">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Support
@@ -475,7 +475,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li>
 
                             <li>
-                              <Link href="/POS">
+                              <Link href="/point-of-sale-system">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Point Of Sales

@@ -121,7 +121,7 @@ const Sidebar = ({ openClass }) => {
                       >
                           <div>
                             <li>
-                              <Link href="/accounting">
+                              <Link href="/Accounting-erp-software">
                                 <a>
                                   
                                   Accounting
@@ -137,7 +137,7 @@ const Sidebar = ({ openClass }) => {
                               </Link>
                             </li> */}
                             <li>
-                              <Link href="/reports">
+                              <Link href="/reports-module-in-erp">
                                 <a>
                                  
                                   Reports
@@ -146,7 +146,7 @@ const Sidebar = ({ openClass }) => {
                             </li>
                            
                             <li>
-                              <Link href="EstimateReq">
+                              <Link href="/estimates-management-software">
                                 <a>
                                   
                                   Estimates Request
@@ -163,7 +163,7 @@ const Sidebar = ({ openClass }) => {
                               </Link>
                             </li> */}
                             <li>
-                              <Link href="/purchase">
+                              <Link href="/vendor-management-software-uae">
                                 <a>
                                   
                                   Purchase
@@ -179,7 +179,7 @@ const Sidebar = ({ openClass }) => {
                               </Link>
                             </li> */}
                             <li>
-                              <Link href="/Expense">
+                              <Link href="/expense-management-system">
                                 <a>
                                   
                                   Expenses
@@ -188,7 +188,7 @@ const Sidebar = ({ openClass }) => {
                             </li>
 
                             <li>
-                              <Link href="/contracts">
+                              <Link href="/contract-tracking-software">
                                 <a>
                                  
                                   Contracts
@@ -196,7 +196,7 @@ const Sidebar = ({ openClass }) => {
                               </Link>
                             </li>
                             <li>
-                              <Link href="/project">
+                              <Link href="/project-management-software">
                                 <a>
                                   
                                   Projects
@@ -213,7 +213,7 @@ const Sidebar = ({ openClass }) => {
                             </li> */}
 
                             <li>
-                              <Link href="/inventory">
+                              <Link href="/inventory-management-system">
                                 <a>
                                  
                                   Inventory
@@ -242,7 +242,7 @@ const Sidebar = ({ openClass }) => {
                             </li> */}
 
                             <li>
-                              <Link href="/leads">
+                              <Link href="/lead-management-system">
                                 <a>
                                   
                                   Leads
@@ -266,7 +266,7 @@ const Sidebar = ({ openClass }) => {
                               </Link>
                             </li> */}
                             <li>
-                              <Link href="/task">
+                              <Link href="/task-management-software">
                                 <a>
                                   
                                   Tasks
@@ -309,7 +309,7 @@ const Sidebar = ({ openClass }) => {
                               </Link>
                             </li> */}
                             <li>
-                              <Link href="hrrecord">
+                              <Link href="best-hrms-software">
                                 <a>
                                  
                                   Hr Records
@@ -318,7 +318,7 @@ const Sidebar = ({ openClass }) => {
                             </li>
 
                             <li>
-                              <Link href="/hr-payroll">
+                              <Link href="/hr-and-payroll-software">
                                 <a>
                                  
                                   HR Payroll
@@ -392,7 +392,7 @@ const Sidebar = ({ openClass }) => {
                             </li> */}
 
                             <li>
-                              <Link href="/filemanage">
+                              <Link href="/erp-document-management">
                                 <a>
                                   
                                   File Manager
@@ -401,7 +401,7 @@ const Sidebar = ({ openClass }) => {
                             </li>
 
                             <li>
-                              <Link href="/companyasset">
+                              <Link href="/fixed-assets-management-erp-software">
                                 <a>
                                  
                                   Company Assets
@@ -411,7 +411,7 @@ const Sidebar = ({ openClass }) => {
 
 
                             <li>
-                              <Link href="/POS">
+                              <Link href="/point-of-sale-system">
                                 <a>
                                  
                                   Point of Sale
@@ -445,7 +445,7 @@ const Sidebar = ({ openClass }) => {
                             </li> */}
 
                             <li>
-                              <Link href="webhook">
+                              <Link href="/webhook">
                                 <a>                               
                                   Web Hooks
                                 </a>
@@ -453,7 +453,7 @@ const Sidebar = ({ openClass }) => {
                             </li>
 
                             <li>
-                              <Link href="/manufacturing">
+                              <Link href="/manufacturing-erp-software">
                                 <a>
                                  
                                   Manufacturing
@@ -482,7 +482,7 @@ const Sidebar = ({ openClass }) => {
 
                             <div>
                             <li>
-                              <Link href="/support-page">
+                              <Link href="/ticketing-system-in-erp">
                                 <a>
                                  
                                   Support
@@ -491,7 +491,7 @@ const Sidebar = ({ openClass }) => {
                             </li>
 
                             <li>
-                              <Link href="/Utilities">
+                              <Link href="/Utilities-management-software">
                                 <a>
                                  
                                   Utilities
@@ -500,7 +500,7 @@ const Sidebar = ({ openClass }) => {
                             </li>
 
                             <li>
-                              <Link href="/knowledgeBaseKB">
+                              <Link href="/Knowledge-management-software">
                                 <a>
                                  
                                   Knowledge Base
@@ -509,7 +509,7 @@ const Sidebar = ({ openClass }) => {
                             </li>
 
                             <li>
-                              <Link href="/hiring">
+                              <Link href="/recruitment-management-software">
                                 <a>
                                  
                                   Hiring
@@ -518,7 +518,7 @@ const Sidebar = ({ openClass }) => {
                             </li>
 
                             <li>
-                              <Link href="/sales">
+                              <Link href="/crm-software-uae">
                                 <a>
                                  
                                   Sales
@@ -527,7 +527,7 @@ const Sidebar = ({ openClass }) => {
                             </li>
 
                             <li>
-                              <Link href="/sales-agent">
+                              <Link href="/sales-rep-software">
                                 <a>
                                  
                                   Sales Agent
@@ -763,7 +763,7 @@ const Sidebar = ({ openClass }) => {
               <div className="site-copyright color-gray-400 " style={{marginTop:"20px",}}>
                  © ShadoBooks Pvt.Ltd
    
-              </div>        */}
+              </div> */}
             </div>
           </div>
           

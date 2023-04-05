@@ -10,9 +10,16 @@ import Indexslider from "../components/indexslider";
 import OfferSlider from "../components/slider/Offer";
 import Contactmanager from "../components/contactmanager";
 import TestimonialSlider from "../components/slider/Testimonial";
+import Head from 'next/head';
+
+
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
+
+
+
+
 function Home() {
   const [isOpen, setOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(1);
@@ -23,9 +30,11 @@ function Home() {
 
   return (
     <>
-      {/* <Link href="/#">
-                <a>Link</a></Link>
-            </Link> */}
+    <Head>
+        <title>Best HR and Payroll Software | Shadobooks ERP</title>
+        <meta name="description" content="HR and Payroll Software helps organizations streamline processes, automate payroll calculations, track attendance, and stay compliant with labor laws." />
+      </Head>
+
       <Layout>
         <section className="section-box">
           <div
@@ -54,7 +63,7 @@ function Home() {
                     <img
                       style={{ bottom: "140px" }}
                       className="img"
-                      alt="Agon"
+                      alt=" HR and Payroll Software"
                       src="logo1/vector20.jpg"
                     />
                   </div>
@@ -99,7 +108,7 @@ function Home() {
                 <img
                   className="bdrd-16 img-responsive mt-90"
                   src="/reportpage/pic2.png"
-                  alt="Agon"
+                  alt=" HR and Payroll Software"
                 />
               </div>
             </div>
@@ -112,7 +121,7 @@ function Home() {
                   <img
                     className="bdrd-16 img-responsive mt-150"
                     src="/reportpage/pic2.png"
-                    alt="Agon"
+                    alt=" HR and Payroll Software"
                   />
                 </div>
                 <div className="col-lg-6 col-sm-12 block-we-do">
@@ -169,7 +178,7 @@ function Home() {
                   <img
                     className="bdrd-16 img-responsive mt-100"
                     src="/reportpage/pic2.png"
-                    alt="Agon"
+                    alt=" HR and Payroll Software"
                   />
                 </div>
               </div>
@@ -181,7 +190,7 @@ function Home() {
                   <img
                     className="bdrd-16 img-responsive mt-150"
                     src="/reportpage/pic2.png"
-                    alt="Agon"
+                    alt=" HR and Payroll Software"
                   />
                 </div>
                 <div className="col-lg-6 col-sm-12 block-we-do">
@@ -238,7 +247,7 @@ function Home() {
                   <img
                     className="bdrd-16 img-responsive"
                     src="/reportpage/pic2.png"
-                    alt="Agon"
+                    alt=" HR and Payroll Software"
                   />
                 </div>
               </div>
@@ -252,7 +261,7 @@ function Home() {
                   <img
                     className="bdrd-16 img-responsive"
                     src="/reportpage/pic2.png"
-                    alt="Agon"
+                    alt=" HR and Payroll Software"
                   />
                 </div>
                 <div className="col-lg-6 col-sm-12 block-we-do">
@@ -309,7 +318,7 @@ function Home() {
                   <img
                     className="bdrd-16 img-responsive"
                     src="/reportpage/pic2.png"
-                    alt="Agon"
+                    alt=" HR and Payroll Software"
                   />
                 </div>
               </div>
@@ -321,7 +330,7 @@ function Home() {
                   <img
                     className="bdrd-16 img-responsive"
                     src="/reportpage/pic2.png"
-                    alt="Agon"
+                    alt=" HR and Payroll Software"
                   />
                 </div>
                 <div className="col-lg-6 col-sm-12 block-we-do">
@@ -377,7 +386,7 @@ function Home() {
                 <img
                   className="bdrd-16 img-responsive"
                   src="/reportpage/pic2.png"
-                  alt="Agon"
+                  alt=" HR and Payroll Software"
                 />
               </div>
             </div>
@@ -389,7 +398,7 @@ function Home() {
                 <img
                   className="bdrd-16 img-responsive"
                   src="/reportpage/pic2.png"
-                  alt="Agon"
+                  alt=" HR and Payroll Software"
                 />
               </div>
               <div className="col-lg-6 col-sm-12 block-we-do">

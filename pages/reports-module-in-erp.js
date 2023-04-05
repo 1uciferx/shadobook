@@ -10,6 +10,9 @@ import Indexslider from "../components/indexslider";
 import OfferSlider from "../components/slider/Offer";
 import Contactmanager from "../components/contactmanager";
 import TestimonialSlider from "../components/slider/Testimonial";
+import Head from 'next/head';
+
+
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -24,9 +27,11 @@ function Home() {
 
   return (
     <>
-      {/* <Link href="/#">
-                <a>Link</a></Link>
-            </Link> */}
+     <Head>
+        <title>Fully Integrated Reports Module in ERP | Shadobooks ERP </title>
+        <meta name="description" content="The Reports Module in ERP Software provides users with comprehensive insights into their business operations for better decision-making." />
+      </Head>
+
       <Layout>
         <section className="section-box">
           <div
@@ -65,7 +70,7 @@ function Home() {
                     <img
                       style={{ bottom: "140px" }}
                       className="img"
-                      alt="Agon"
+                      alt="Reports Module in ERP"
                       src="logo1/vector19.jpg"
                     />
                   </div>
@@ -127,7 +132,7 @@ function Home() {
                       <img
                         className="img-responsive mt-165"
                         src="/reportpage/pic3.png"
-                        alt="Agon"
+                        alt="Reports Module in ERP"
                       />
                     </div>
                   </div>
@@ -144,7 +149,7 @@ function Home() {
                 <img
                   className="bdrd-16 img-responsive mt-50"
                   src="/reportpage/pic2.png"
-                  alt="Agon"
+                  alt="Reports Module in ERP"
                 />
               </div>
               <div className="col-lg-6 col-sm-12 block-we-do">
@@ -223,7 +228,7 @@ function Home() {
                       <img
                         className="img-responsive mt-165"
                         src="/reportpage/pic3.png"
-                        alt="Agon"
+                        alt="Reports Module in ERP"
                       />
                     </div>
                   </div>
@@ -238,7 +243,7 @@ function Home() {
                 <img
                   className="bdrd-16 img mt-10"
                   src="/reportpage/pic4.png"
-                  alt="Agon"
+                  alt="Reports Module in ERP"
                 />
               </div>
               <div className="col-lg-6 col-sm-12 block-we-do">
@@ -304,7 +309,7 @@ function Home() {
                       <img
                         className="img-responsive mt-165"
                         src="/reportpage/pic5.png"
-                        alt="Agon"
+                        alt="Reports Module in ERP"
                       />
                     </div>
                   </div>
@@ -319,7 +324,7 @@ function Home() {
                 <img
                   className="bdrd-16 img-responsive mt-50"
                   src="/reportpage/picnew2.png"
-                  alt="Agon"
+                  alt="Reports Module in ERP"
                 />
               </div>
               <div className="col-lg-6 col-sm-12 block-we-do">
@@ -393,7 +398,7 @@ function Home() {
                       <img
                         className="img-responsive mt-150"
                         src="/reportpage/pic6.png"
-                        alt="Agon"
+                        alt="Reports Module in ERP"
                       />
                     </div>
                   </div>
@@ -408,7 +413,7 @@ function Home() {
                 <img
                   className="bdrd-16 img-responsive mt-55"
                   src="/reportpage/pic7.png"
-                  alt="Agon"
+                  alt="Reports Module in ERP"
                 />
               </div>
               <div className="col-lg-6 col-sm-12 block-we-do">
@@ -491,7 +496,7 @@ function Home() {
                       <img
                         className="img-responsive mt-80"
                         src="/reportpage/pic8.png"
-                        alt="Agon"
+                        alt="Reports Module in ERP"
                       />
                     </div>
                   </div>

@@ -11,6 +11,7 @@ import Indexslider from "../components/indexslider";
 import Contactmanager from "../components/contactmanager";
 import OfferSlider from "../components/slider/Offer";
 import TestimonialSlider from "../components/slider/Testimonial";
+import Head from 'next/head';
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -25,15 +26,24 @@ function Home() {
 
   return (
     <>
-      {/* <Link href="/#">
-                <a>Link</a></Link>
-            </Link> */}
+      <Head>
+        <title>Accounting ERP Software for Streamlined Financial Management</title>
+        <meta
+          name="description"
+          content="Optimize financial management with accounting ERP software. Automate processes, gain insights, and streamline operations for efficient business performance."
+        />
+      </Head>
+      
       <Layout>
         <section className="section-box">
-          <div
+          <div role="img" aria-label="Accounting ERP software"
             className="banner-hero banner-head-image"
-            style={{ background: "url('assets/background27.jpg')" }}
+            style={{ background: "url('assets/background27.jpg')"}}
+            
           >
+            
+
+     
             <div className="container">
               <div className="row">
                 <div className="col-lg-10">
@@ -122,12 +132,12 @@ function Home() {
                     </div>
 
                     <div className="col-lg-6 col-md-12">
-                    <img
-                      className="img-responsive mt-130"
-                      src="/accountingpage/pic3.png"
-                      alt="Agon"
-                    />
-                  </div>
+                      <img
+                        className="img-responsive mt-130"
+                        src="/accountingpage/pic3.png"
+                        alt="Accounting ERP software"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -180,7 +190,7 @@ function Home() {
                     <img
                       className="img-responsive mt-130"
                       src="/accountingpage/pic2.png"
-                      alt="Agon"
+                      alt="Accounting ERP software"
                     />
                   </div>
                 </div>
@@ -234,7 +244,7 @@ function Home() {
                     <img
                       className="img-responsive mt-170"
                       src="/accountingpage/pic3.png"
-                      alt="Agon"
+                      alt="Accounting ERP software"
                     />
                   </div>
                 </div>
@@ -285,7 +295,7 @@ function Home() {
                     <img
                       className="img-responsive mt-120"
                       src="/accountingpage/pic4.png"
-                      alt="Agon"
+                      alt="Accounting ERP software"
                     />
                   </div>
                 </div>
@@ -333,7 +343,7 @@ function Home() {
                     <img
                       className="img-responsive mt-90"
                       src="/accountingpage/pic5.png"
-                      alt="Agon"
+                      alt="Accounting ERP software"
                     />
                   </div>
                 </div>
@@ -386,7 +396,7 @@ function Home() {
                     <img
                       className="img-responsive mt-120"
                       src="/accountingpage/pic6.png"
-                      alt="Agon"
+                      alt="Accounting ERP software"
                     />
                   </div>
                 </div>
@@ -433,7 +443,7 @@ function Home() {
                     <img
                       className="img-responsive mt-100"
                       src="/accountingpage/pic7.png"
-                      alt="Agon"
+                      alt="Accounting ERP software"
                     />
                   </div>
                 </div>
@@ -482,7 +492,7 @@ function Home() {
                     <img
                       className="img-responsive mt-120"
                       src="/accountingpage/pic8.png"
-                      alt="Agon"
+                      alt="Accounting ERP software"
                     />
                   </div>
                 </div>
@@ -532,7 +542,7 @@ function Home() {
                     <img
                       className="img-responsive mt-150"
                       src="/accountingpage/pic9.png"
-                      alt="Agon"
+                      alt="Accounting ERP software"
                     />
                   </div>
                 </div>
@@ -541,30 +551,31 @@ function Home() {
           </div>
         </div>
 
-
         <div className={styles.modslider}>
-            <div className="mt-50">
-              <Indexslider />
-              <div className="text-center">
-                <Link href="/modules">
-                  <button
-                    type="button"
-                    class="btn btn-outline-dark"
-                    style={{ padding: "10px", marginTop:"-15px" , marginBottom:"30px" }}
-                  >
-                    Show More
-                  </button>
-                </Link>
-              </div>
+          <div className="mt-50">
+            <Indexslider />
+            <div className="text-center">
+              <Link href="/modules">
+                <button
+                  type="button"
+                  class="btn btn-outline-dark"
+                  style={{
+                    padding: "10px",
+                    marginTop: "-15px",
+                    marginBottom: "30px",
+                  }}
+                >
+                  Show More
+                </button>
+              </Link>
             </div>
           </div>
+        </div>
 
-          <div>
-          <Contactmanager/>
+        <div>
+          <Contactmanager />
         </div>
       </Layout>
-
-
     </>
   );
 }

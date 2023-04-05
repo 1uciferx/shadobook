@@ -4,10 +4,19 @@ import Layout from "../components/layout/Layout";
 import styles from "../styles/Index.module.css";
 import Indexslider from "../components/indexslider";
 import Contactmanager from "../components/contactmanager";
+import Head from "next/head";
 
 function BlogSingle() {
   return (
     <>
+      <Head>
+        <title>Control Expenses with Our Expense Management System</title>
+        <meta
+          name="description"
+          content="Take control of expenses with our expense management system. Real-time tracking, spending caps, and centralized management save time, cut costs, and prevent mistakes."
+        />
+      </Head>
+
       <Layout>
         <div>
           <section className="section-box">
@@ -33,7 +42,7 @@ function BlogSingle() {
                     <img
                       className="img-responsive bdr-16"
                       src="assets/imgs/page/homepage1/ggj.jpg"
-                      alt="shadobooks"
+                      alt="Expense management system"
                     />
                     <p />
 
@@ -82,7 +91,7 @@ function BlogSingle() {
                         <img
                           className="img-responsive bdr-10 mt-10"
                           src="assets/imgs/page/homepage1/dd.jpg"
-                          alt="Agon"
+                          alt="Expense management system"
                         />
                       </div>
                     </div>
@@ -109,7 +118,7 @@ function BlogSingle() {
                         <img
                           className="img-responsive bdr-10 mt-10"
                           src="assets/imgs/page/homepage1/ii.jpg"
-                          alt="shadobooks"
+                          alt="Expense management system"
                         />
                       </div>
                     </div>
@@ -119,7 +128,7 @@ function BlogSingle() {
                       <img
                         className="img-responsive bdr-16"
                         src="assets/imgs/page/homepage1/ssd.png"
-                        alt="shadobooks"
+                        alt="Expense management system"
                       />
                     </div>
                     <p />
@@ -164,9 +173,9 @@ function BlogSingle() {
             </div>
           </div>
         </div>
-        
+
         <div>
-          <Contactmanager/>
+          <Contactmanager />
         </div>
       </Layout>
     </>

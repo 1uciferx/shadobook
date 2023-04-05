@@ -241,7 +241,7 @@ function Headertest() {
                 >
                   <div style={{marginLeft:"20px"}}>
                     <li>
-                      <Link href="/accounting">
+                      <Link href="/Accounting-erp-software">
                         <a style={{fontWeight:"400",fontSize:"15px"}} >Accounting</a>
                       </Link>
                     </li>
@@ -254,13 +254,13 @@ function Headertest() {
                               </Link>
                             </li> */}
                     <li>
-                      <Link href="/reports">
+                      <Link href="/reports-module-in-erp">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Reports</a>
                       </Link>
                     </li>
 
                     <li>
-                      <Link href="EstimateReq">
+                      <Link href="estimates-management-software">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Estimates Request</a>
                       </Link>
                     </li>
@@ -274,7 +274,7 @@ function Headertest() {
                               </Link>
                             </li> */}
                     <li>
-                      <Link href="/purchase">
+                      <Link href="/vendor-management-software-uae">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Purchase</a>
                       </Link>
                     </li>
@@ -287,18 +287,18 @@ function Headertest() {
                               </Link>
                             </li> */}
                     <li>
-                      <Link href="/Expense">
+                      <Link href="/expense-management-system">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Expenses</a>
                       </Link>
                     </li>
 
                     <li>
-                      <Link href="/contracts">
+                      <Link href="/contract-tracking-software">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Contracts</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/project">
+                      <Link href="/project-management-software">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Projects</a>
                       </Link>
                     </li>
@@ -312,7 +312,7 @@ function Headertest() {
                             </li> */}
 
                     <li>
-                      <Link href="/inventory">
+                      <Link href="/inventory-management-system">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Inventory</a>
                       </Link>
                     </li>
@@ -338,7 +338,7 @@ function Headertest() {
                             </li> */}
 
                     <li>
-                      <Link href="/leads">
+                      <Link href="/lead-management-system">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Leads</a>
                       </Link>
                     </li>
@@ -359,7 +359,7 @@ function Headertest() {
                               </Link>
                             </li> */}
                     <li>
-                      <Link href="/task">
+                      <Link href="/task-management-software">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Tasks</a>
                       </Link>
                     </li>
@@ -399,13 +399,13 @@ function Headertest() {
                               </Link>
                             </li> */}
                     <li>
-                      <Link href="hrrecord">
+                      <Link href="/best-hrms-software">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Hr Records</a>
                       </Link>
                     </li>
 
                     <li>
-                      <Link href="/hr-payroll">
+                      <Link href="/hr-and-payroll-software">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>HR Payroll</a>
                       </Link>
                     </li>
@@ -473,19 +473,19 @@ function Headertest() {
                             </li> */}
 
                     <li>
-                      <Link href="/filemanage">
+                      <Link href="/erp-document-management">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>File Manager</a>
                       </Link>
                     </li>
 
                     <li>
-                      <Link href="/companyasset">
+                      <Link href="/fixed-assets-management-erp-software">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Company Assets</a>
                       </Link>
                     </li>
 
                     <li>
-                      <Link href="/POS">
+                      <Link href="/point-of-sale-system">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Point of Sale</a>
                       </Link>
                     </li>
@@ -516,13 +516,13 @@ function Headertest() {
                             </li> */}
 
                     <li>
-                      <Link href="webhook">
+                      <Link href="/webhook">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Web Hooks</a>
                       </Link>
                     </li>
 
                     <li>
-                      <Link href="/manufacturing">
+                      <Link href="/manufacturing-erp-software">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Manufacturing</a>
                       </Link>
                     </li>
@@ -548,37 +548,37 @@ function Headertest() {
 
                   <div  style={{marginLeft:"20px"}}>
                     <li>
-                      <Link href="/support-page">
+                      <Link href="/ticketing-system-in-erp">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Support</a>
                       </Link>
                     </li>
 
                     <li>
-                      <Link href="/Utilities">
+                      <Link href="/Utilities-management-software">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Utilities</a>
                       </Link>
                     </li>
 
                     <li>
-                      <Link href="/knowledgeBaseKB">
+                      <Link href="/Knowledge-management-software">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Knowledge Base</a>
                       </Link>
                     </li>
 
                     <li>
-                      <Link href="/hiring">
+                      <Link href="/recruitment-management-software">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Hiring</a>
                       </Link>
                     </li>
 
                     <li>
-                      <Link href="/sales">
+                      <Link href="/crm-software-uae">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Sales</a>
                       </Link>
                     </li>
 
                     <li>
-                      <Link href="/sales-agent">
+                      <Link href="/sales-rep-software">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Sales Agent</a>
                       </Link>
                     </li>

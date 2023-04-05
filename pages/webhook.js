@@ -8,6 +8,7 @@ import dynamic from "next/dynamic";
 import styles from "../styles/Index.module.css";
 import Indexslider from "../components/indexslider";
 import Intro2 from "../components/slider/Intro2";
+import Head from "next/head";
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -15,6 +16,14 @@ function Index6() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
+      <Head>
+        <title>ERP Webhook Module | Shadobooks ERP</title>
+        <meta
+          name="description"
+          content="The Webhooks API allows you to subscribe to events happening in Shadobooks ERP and receive an HTTP request to an endpoint you configure whenever those events occur."
+        />
+      </Head>
+
       <Layout>
         <div className="section-box">
           <div
@@ -45,7 +54,7 @@ function Index6() {
                     </div>
                     <img
                       className="img-banner img-responsive shape-2"
-                      alt="Agon"
+                      alt=" Webhook"
                       src="assets/imgs/page/homepage1/llp.jpg"
                     />
                   </div>
@@ -64,7 +73,7 @@ function Index6() {
                 <div className="grid-4-img">
                   {/* <Link href="#"> */}
                   <a>
-                    <img src="assets/imgs/page/homepage1/az1.png" alt="Agon" />
+                    <img src="assets/imgs/page/homepage1/az1.png" alt=" Webhook" />
                   </a>
 
                   {/* </Link> */}
@@ -101,7 +110,7 @@ function Index6() {
                 <div className="grid-4-img">
                   {/* <Link href="#"> */}
                   <a>
-                    <img src="assets/imgs/page/homepage1/az2.png" alt="Agon" />
+                    <img src="assets/imgs/page/homepage1/az2.png" alt=" Webhook" />
                   </a>
 
                   {/* </Link> */}
@@ -134,7 +143,7 @@ function Index6() {
                 <div className="grid-4-img">
                   {/* <Link href="#"> */}
                   <a>
-                    <img src="assets/imgs/page/homepage1/az3.png" alt="Agon" />
+                    <img src="assets/imgs/page/homepage1/az3.png" alt=" Webhook" />
                   </a>
 
                   {/* </Link> */}
@@ -177,9 +186,9 @@ function Index6() {
             </div>
           </div>
         </div>
-        
+
         <div>
-          <Contactmanager/>
+          <Contactmanager />
         </div>
       </Layout>
     </>

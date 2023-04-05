@@ -6,10 +6,16 @@ import FeaturedSlider from "../components/slider/Featured";
 import styles from "../styles/Index.module.css";
 import Indexslider from "../components/indexslider";
 import Contactmanager from "../components/contactmanager";
+import Head from 'next/head';
 
 function Sales() {
   return (
     <>
+      <Head>
+        <title>Maximize Sales with best CRM software | Shadobooks ERP</title>
+        <meta name="description" content="Elevate your sales with our CRM software. Optimize your process with lead management, customer tracking, and more for business growth and success." />
+      </Head>
+
       <Layout>
         <div className="section-box">
           <div
@@ -32,7 +38,7 @@ function Sales() {
                   <div className="banner-imgs">
                     <img
                       className="img-banner img-responsive shape-1"
-                      alt="Agon"
+                      alt="CRM software UAE"
                       src="assets/imgs/page/homepage6/img-2.png"
                     />
                   </div>
@@ -82,7 +88,7 @@ function Sales() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/5/SalProposal.png"
-                    alt="Agon"
+                    alt="CRM software UAE"
                   />
                 </div>
               </div>
@@ -131,7 +137,7 @@ function Sales() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/5/SalEstimates.png"
-                    alt="Agon"
+                    alt="CRM software UAE"
                   />
                 </div>
               </div>
@@ -143,7 +149,7 @@ function Sales() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/5/Salinvoice.png"
-                    alt="Agon"
+                    alt="CRM software UAE"
                   />
                 </div>
                 <div className="col-lg-6 col-md-12">
@@ -223,7 +229,7 @@ function Sales() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/5/SalReceipt.png"
-                    alt="Agon"
+                    alt="CRM software UAE"
                   />
                 </div>
               </div>
@@ -235,7 +241,7 @@ function Sales() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/5/CreditNotes.png"
-                    alt="Agon"
+                    alt="CRM software UAE"
                   />
                 </div>
                 <div className="col-lg-6 col-md-12">
@@ -313,7 +319,7 @@ function Sales() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/5/SalItems.png"
-                    alt="Agon"
+                    alt="CRM software UAE"
                   />
                 </div>
               </div>

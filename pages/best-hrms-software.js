@@ -5,9 +5,10 @@ import dynamic from "next/dynamic";
 import Hr2 from "../components/slider/Hr2";
 import styles from "../styles/Hrrecords.module.css";
 import Indexslider from "../components/indexslider";
-import { Col, Row } from "antd";
 import Contactmanager from "../components/contactmanager";
 import Hrrecordsslider from "../components/slider/hrrecordsslider";
+import Head from "next/head";
+import { Col, Row } from "antd";
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -15,6 +16,16 @@ function Index6() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
+    
+      <Head>
+        <title>Best hrms Software | Shadobooks ERP </title>
+        <meta
+          name="description"
+          content="Shadobooks ERP offers best HRMS software to help businesses manage their HR and achieve their objectives. Our HR software simplifies HR operations."
+        />
+      </Head>
+
+
       <Layout>
         <div className="section-box">
           <div className="banner-hero banner-homepage6">
@@ -33,18 +44,18 @@ function Index6() {
                     <div className="block-1 shape-1">
                       <img
                         src="/assets/imgs/page/homepage6/line-chart.svg"
-                        alt="Agon"
+                        alt="Best hrms Software"
                       />
                     </div>
                     <div className="block-2 shape-3">
                       <img
                         src="/assets/imgs/page/homepage6/card.png"
-                        alt="Agon"
+                        alt="Best hrms Software"
                       />
                     </div>
                     <img
                       className="img-banner img-responsive shape-2"
-                      alt="Agon"
+                      alt="Best hrms Software"
                       src="assets/imgs/page/homepage6/banner.png"
                     />
                   </div>
@@ -107,7 +118,7 @@ function Index6() {
                 <img
                   className="bdrd-16 img-responsive"
                   src="assets/imgs/page/homepage1/fd1.jpg"
-                  alt="Agon"
+                  alt="Best hrms Software"
                 />
               </div>
               <div className="col-xl-7 col-lg-6 col-sm-12 block-we-do">
@@ -165,7 +176,7 @@ function Index6() {
           <div className={styles.makeme}>
             <img
               className={styles.conimg}
-              alt="Agon"
+              alt="Best hrms Software"
               src="assets/imgs/page/homepage1/reports.jpg"
             />
           </div>
@@ -208,7 +219,7 @@ function Index6() {
           <div className={styles.makeme}>
             <img
               className={styles.conimg}
-              alt="Agon"
+              alt="Best hrms Software"
               src="assets/imgs/page/homepage1/orgchart.jpg"
             />
           </div>
@@ -251,7 +262,7 @@ function Index6() {
           <div className={styles.makeme}>
             <img
               className={styles.conimg}
-              alt="Agon"
+              alt="Best hrms Software"
               src="assets/imgs/page/homepage1/jobdescription.jpg"
             />
           </div>
@@ -294,7 +305,7 @@ function Index6() {
           <div className={styles.makeme}>
             <img
               className={styles.conimg}
-              alt="Agon"
+              alt="Best hrms Software"
               src="assets/imgs/page/homepage1/onboarding.jpg"
             />
           </div>
@@ -337,7 +348,7 @@ function Index6() {
           <div className={styles.makeme}>
             <img
               className={styles.conimg}
-              alt="Agon"
+              alt="Best hrms Software"
               src="assets/imgs/page/homepage1/records.jpg"
             />
           </div>
@@ -380,7 +391,7 @@ function Index6() {
           <div className={styles.makeme}>
             <img
               className={styles.conimg}
-              alt="Agon"
+              alt="Best hrms Software"
               src="assets/imgs/page/homepage1/training.jpg"
             />
           </div>
@@ -422,7 +433,7 @@ function Index6() {
           <div className={styles.makeme}>
             <img
               className={styles.conimg}
-              alt="Agon"
+              alt="Best hrms Software"
               src="assets/imgs/page/homepage1/contracts.jpg"
             />
           </div>
@@ -465,7 +476,7 @@ function Index6() {
           <div className={styles.makeme}>
             <img
               className={styles.conimg}
-              alt="Agon"
+              alt="Best hrms Software"
               src="assets/imgs/page/homepage1/dependant.jpg"
             />
           </div>
@@ -508,7 +519,7 @@ function Index6() {
           <div className={styles.makeme}>
             <img
               className={styles.conimg}
-              alt="Agon"
+              alt="Best hrms Software"
               src="assets/imgs/page/homepage1/layoffchecklist.jpg"
             />
           </div>
@@ -550,7 +561,7 @@ function Index6() {
           <div className={styles.makeme}>
             <img
               className={styles.conimg}
-              alt="Agon"
+              alt="Best hrms Software"
               src="assets/imgs/page/homepage1/question.jpg"
             />
           </div>
@@ -610,9 +621,9 @@ function Index6() {
             </div>
           </div>
         </div>
-        
+
         <div>
-          <Contactmanager/>
+          <Contactmanager />
         </div>
       </Layout>
     </>

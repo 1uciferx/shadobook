@@ -22,6 +22,7 @@ import * as gtag from "../lib/gtag";
 
 function MyApp({ Component, pageProps }) {
 
+
   const [loading, setLoading] = useState(false);
 
   const router = useRouter();
