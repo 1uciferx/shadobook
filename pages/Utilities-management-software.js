@@ -10,6 +10,8 @@ import OfferSlider from "../components/slider/Offer";
 import TestimonialSlider from "../components/slider/Testimonial";
 import styles from "../styles/Index.module.css";
 import Indexslider from "../components/indexslider";
+import Head from "next/head";
+
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -24,6 +26,13 @@ function Utilities() {
 
   return (
     <>
+      <Head>
+        <title>Optimize Utility Management Software with ShadobooksERP</title>
+        <meta
+          name="description"
+          content="Revolutionize utility management with our utility management software offering comprehensive tools such as bulk PDF/CSV export, calendar & goal setting."
+        />
+      </Head>
       {/* <Link href="/#">
                 <a>Link</a></Link>
             </Link> */}
@@ -71,7 +80,7 @@ function Utilities() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/9/Media.png"
-                    alt="Agon"
+                    alt="Utilities management software"
                   />
                 </div>
               </div>
@@ -83,7 +92,7 @@ function Utilities() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/9/BPE.png"
-                    alt="Agon"
+                    alt="Utilities management software"
                   />
                 </div>
                 <div className="col-lg-6 col-md-12">
@@ -128,7 +137,7 @@ function Utilities() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/9/CSV.png"
-                    alt="Agon"
+                    alt="Utilities management software"
                   />
                 </div>
               </div>
@@ -140,7 +149,7 @@ function Utilities() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/9/Calender.png"
-                    alt="Agon"
+                    alt="Utilities management software"
                   />
                 </div>
                 <div className="col-lg-6 col-md-12">
@@ -168,7 +177,7 @@ function Utilities() {
                   <div className="box-optimized">
                     <h3 className="text-heading-2">Announcements</h3>
                     <p className="text-body-excerpt mt-30">
-                     ➟ In this Module, you can see the list of existing
+                      ➟ In this Module, you can see the list of existing
                       announcements and also have the option to create a new
                       announcement by clicking the "New Tab."
                       <br></br>
@@ -184,7 +193,7 @@ function Utilities() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/9/Anouncements.png"
-                    alt="Agon"
+                    alt="Utilities management software"
                   />
                 </div>
               </div>
@@ -196,22 +205,22 @@ function Utilities() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/9/Goals.png"
-                    alt="Agon"
+                    alt="Utilities management software"
                   />
                 </div>
                 <div className="col-lg-6 col-md-12">
                   <div className="box-optimized">
                     <h3 className="text-heading-2">Goals</h3>
                     <p className="text-body-excerpt mt-30">
-                     ➟ To add a new goal, navigate to the Utilities
-                      module and click on the Goal option, Click on the "New Goal" tab to add a new goal.
-                     
+                      ➟ To add a new goal, navigate to the Utilities module and
+                      click on the Goal option, Click on the "New Goal" tab to
+                      add a new goal.
                       <br></br>
                       <br></br>➟ Enter all details such as subject, staff
                       member, achievements, start date, end date, goal type.
                       <br></br>
-                      <br></br>➟ Click the Save button to save the goal, The list of goals will appear in Shadobook ERP.
-                       
+                      <br></br>➟ Click the Save button to save the goal, The
+                      list of goals will appear in Shadobook ERP.
                     </p>
                   </div>
                 </div>
@@ -236,7 +245,7 @@ function Utilities() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/9/AL.png"
-                    alt="Agon"
+                    alt="Utilities management software"
                   />
                 </div>
               </div>
@@ -248,7 +257,7 @@ function Utilities() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/9/TPL.png"
-                    alt="Agon"
+                    alt="Utilities management software"
                   />
                 </div>
                 <div className="col-lg-6 col-md-12">
@@ -270,24 +279,28 @@ function Utilities() {
         </section>
 
         <div className={styles.modslider}>
-            <div className="mt-50">
-              <Indexslider />
-              <div className="text-center">
-                <Link href="/modules">
-                  <button
-                    type="button"
-                    class="btn btn-outline-dark"
-                    style={{ padding: "10px", marginTop:"-15px" , marginBottom:"30px" }}
-                  >
-                    Show More
-                  </button>
-                </Link>
-              </div>
+          <div className="mt-50">
+            <Indexslider />
+            <div className="text-center">
+              <Link href="/modules">
+                <button
+                  type="button"
+                  class="btn btn-outline-dark"
+                  style={{
+                    padding: "10px",
+                    marginTop: "-15px",
+                    marginBottom: "30px",
+                  }}
+                >
+                  Show More
+                </button>
+              </Link>
             </div>
           </div>
-          
+        </div>
+
         <div>
-          <Contactmanager/>
+          <Contactmanager />
         </div>
       </Layout>
     </>

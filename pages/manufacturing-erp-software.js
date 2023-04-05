@@ -9,6 +9,8 @@ import Layout from "../components/layout/Layout";
 import Contactmanager from "../components/contactmanager";
 import styles from "../styles/Index.module.css";
 import Indexslider from "../components/indexslider";
+import Head from "next/head";
+
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -17,6 +19,14 @@ function Manufacturing() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
+      <Head>
+        <title>Open Source Manufacturing ERP software | Shadobooks ERP</title>
+        <meta
+          name="description"
+          content="Elevate your production capabilities with cloud-based manufacturing ERP software, designed to help you streamline processes and maximize efficiency."
+        />
+      </Head>
+
       <Layout>
         <section className="section-box">
           <div
@@ -41,7 +51,7 @@ function Manufacturing() {
                   <div className="banner-imgs">
                     <img
                       className="img-responsive shape-2 mt-20"
-                      alt="Agon"
+                      alt="Manufacturing ERP Software"
                       src="assets/imgs/page/homepage4/manufacturing.jpg "
                     />
                   </div>
@@ -73,7 +83,7 @@ function Manufacturing() {
                     centers can be viewed.
                   </p>
                   <div className="box-image-inner bg-color-2">
-                    <img src="assets/imgs/page/about/6/ManuDB.png" alt="Agon" />
+                    <img src="assets/imgs/page/about/6/ManuDB.png" alt="Manufacturing ERP Software" />
                   </div>
                 </div>
               </div>
@@ -201,7 +211,7 @@ function Manufacturing() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/6/ManuPM.png"
-                    alt="Agon"
+                    alt="Manufacturing ERP Software"
                   />
                 </div>
               </div>
@@ -213,7 +223,7 @@ function Manufacturing() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/6/ManuPVM.png"
-                    alt="Agon"
+                    alt="Manufacturing ERP Software"
                   />
                 </div>
                 <div className="col-lg-6 col-md-12">
@@ -255,7 +265,7 @@ function Manufacturing() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/6/ManuBOM.png"
-                    alt="Agon"
+                    alt="Manufacturing ERP Software"
                   />
                 </div>
               </div>
@@ -267,7 +277,7 @@ function Manufacturing() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/6/ManuRoutings.png"
-                    alt="Agon"
+                    alt="Manufacturing ERP Software"
                   />
                 </div>
                 <div className="col-lg-6 col-md-12">
@@ -314,7 +324,7 @@ function Manufacturing() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/6/ManuWC.png"
-                    alt="Agon"
+                    alt="Manufacturing ERP Software"
                   />
                 </div>
               </div>
@@ -326,7 +336,7 @@ function Manufacturing() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/6/ManuMO.png"
-                    alt="Agon"
+                    alt="Manufacturing ERP Software"
                   />
                 </div>
                 <div className="col-lg-6 col-md-12">
@@ -370,7 +380,7 @@ function Manufacturing() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/6/ManuWO.png"
-                    alt="Agon"
+                    alt="Manufacturing ERP Software"
                   />
                 </div>
               </div>
@@ -382,7 +392,7 @@ function Manufacturing() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/6/ManuSET.png"
-                    alt="Agon"
+                    alt="Manufacturing ERP Software"
                   />
                 </div>
                 <div className="col-lg-6 col-md-12">
@@ -422,9 +432,9 @@ function Manufacturing() {
             </div>
           </div>
         </div>
-        
+
         <div>
-          <Contactmanager/>
+          <Contactmanager />
         </div>
       </Layout>
     </>

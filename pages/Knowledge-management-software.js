@@ -5,10 +5,22 @@ import Layout from "../components/layout/Layout";
 import styles from "../styles/Index.module.css";
 import Indexslider from "../components/indexslider";
 import Contactmanager from "../components/contactmanager";
+import Head from 'next/head';
 
 function knowledgeBaseKB() {
   return (
     <>
+
+<Head>
+        <title>Revamp Business with Advanced Knowledge Management Software</title>
+        <meta
+          name="description"
+          content="Drive success with our Knowledge Management Software. Centralize information management, collaboration & maximize business potential."
+        />
+      </Head>
+
+
+
       <Layout>
         <div className="page-homepage7-bg"></div>
         <div className="section-box">
@@ -87,7 +99,7 @@ function knowledgeBaseKB() {
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
-                <img src="/assets/imgs/page/homepage4/sa1.png" />
+                <img src="/assets/imgs/page/homepage4/sa1.png" alt="Knowledge management software"/>
               </div>
               {/* <div className="col-lg-5">
                 <img src="/assets/imgs/page/homepage4/asas.jpg" />
@@ -119,10 +131,11 @@ function knowledgeBaseKB() {
           <div className="container">
             <div className="row">
               <div className="col-lg-7">
-                <img src="/assets/imgs/page/homepage4/sa2.png" />
+                <img src="/assets/imgs/page/homepage4/sa2.png" alt="Knowledge management software" />
+               
               </div>
               <div className="col-lg-5">
-                <img src="/assets/imgs/page/homepage4/asq.jpg" />
+                <img src="/assets/imgs/page/homepage4/asq.jpg" alt="Knowledge management software"/>
               </div>
             </div>
           </div>

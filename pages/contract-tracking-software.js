@@ -6,14 +6,21 @@ import TestimonialSlider from "../components/slider/Testimonial";
 import styles from "../styles/Index.module.css";
 import Indexslider from "../components/indexslider";
 import Contactmanager from "../components/contactmanager";
-import Zoom from "react-reveal/Zoom";
-import Jump from "react-reveal/Jump";
-import LightSpeed from "react-reveal/LightSpeed";
-import Fade from "react-reveal/Fade";
-import Pulse from "react-reveal/Pulse";
+import Head from "next/head";
+
 function Contracts() {
   return (
     <>
+      <Head>
+        <title>
+          Optimize Contract Workflow with Our Contract Tracking Software
+        </title>
+        <meta
+          name="description"
+          content="Boost productivity with our contract tracking software. Automate the process with real-time updates, configurable workflows, and automated reminders."
+        />
+      </Head>
+
       <Layout>
         <section className="section-box">
           <div
@@ -68,7 +75,7 @@ function Contracts() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/7/contractssum.png"
-                    alt="Agon"
+                    alt="Contract tracking software"
                   />
                 </div>
               </div>
@@ -80,7 +87,7 @@ function Contracts() {
           <div className="row">
             <div className="col-lg-2 col-sm-1 col-12" />
             <div className="col-lg-8 col-sm-10 col-12 text-center mt-10">
-              <img alt="Agon" src="assets/imgs/page/homepage4/convec.jpg " />
+              <img alt="Contract tracking software" src="assets/imgs/page/homepage4/convec.jpg " />
             </div>
 
             <p className="text-body-lead-large color-gray-600 mt-20 text-center">
@@ -110,7 +117,7 @@ function Contracts() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/7/addcontract.png"
-                    alt="Agon"
+                    alt="Contract tracking software"
                   />
                 </div>
               </div>
@@ -122,7 +129,7 @@ function Contracts() {
           <div className="row">
             <div className="col-lg-2 col-sm-1 col-12" />
             <div className="col-lg-8 col-sm-10 col-12 text-center mt-10">
-              <img alt="Agon" src="assets/imgs/page/homepage4/convec2.jpg " />
+              <img alt="Contract tracking software" src="assets/imgs/page/homepage4/convec2.jpg " />
             </div>
             <p className="text-body-lead-large color-gray-600 text-center mt-20">
               All your vendor list is updated here along with all the associated
@@ -153,9 +160,9 @@ function Contracts() {
             </div>
           </div>
         </div>
-        
+
         <div>
-          <Contactmanager/>
+          <Contactmanager />
         </div>
       </Layout>
     </>

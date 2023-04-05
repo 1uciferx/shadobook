@@ -8,12 +8,20 @@ import Intro2 from "../components/slider/Intro2";
 import styles from "../styles/Purchase.module.css";
 import Indexslider from "../components/indexslider";
 import Contactmanager from "../components/contactmanager";
+import Head from 'next/head';
+
 
 function Purchase() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
       <Layout>
+
+      <Head>
+        <title>Effortlessly Manage Vendors with vendor management Software</title>
+        <meta name="description" content=" Efficiently manage your vendors with our vendor management software. Streamline communication, track performance, and ensure compliance with contract terms." />
+      </Head>
+
         <div className="section-box">
           <div
             className="banner-hero banner-head-image"
@@ -36,7 +44,7 @@ function Purchase() {
                   <div className="banner-imgs">
                     <img
                       className="img-banner img-responsive shape-1"
-                      alt="Agon"
+                      alt="Vendor management software UAE"
                       src="assets/imgs/page/homepage6/img-1.png"
                     />
                   </div>
@@ -73,7 +81,7 @@ function Purchase() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/4/PurIT.png"
-                    alt="Agon"
+                    alt="Vendor management software UAE"
                   />
                 </div>
               </div>
@@ -107,7 +115,7 @@ function Purchase() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/4/PurV.png"
-                    alt="Agon"
+                    alt="Vendor management software UAE"
                   />
                 </div>
               </div>
@@ -119,7 +127,7 @@ function Purchase() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/4/PurPR.png"
-                    alt="Agon"
+                    alt="Vendor management software UAE"
                   />
                 </div>
                 <div className="col-lg-6 col-md-12">
@@ -166,7 +174,7 @@ function Purchase() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/4/PurVI.png"
-                    alt="Agon"
+                    alt="Vendor management software UAE"
                   />
                 </div>
               </div>
@@ -178,7 +186,7 @@ function Purchase() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/4/PurQ.png"
-                    alt="Agon"
+                    alt="Vendor management software UAE"
                   />
                 </div>
                 <div className="col-lg-6 col-md-12">
@@ -228,7 +236,7 @@ function Purchase() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/4/PurPO.png"
-                    alt="Agon"
+                    alt="Vendor management software UAE"
                   />
                 </div>
               </div>
@@ -240,7 +248,7 @@ function Purchase() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/4/PurOR.png"
-                    alt="Agon"
+                    alt="Vendor management software UAE"
                   />
                 </div>
                 <div className="col-lg-6 col-md-12">
@@ -293,7 +301,7 @@ function Purchase() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/4/PurC.png"
-                    alt="Agon"
+                    alt="Vendor management software UAE"
                   />
                 </div>
               </div>
@@ -305,7 +313,7 @@ function Purchase() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/4/PurDN.png"
-                    alt="Agon"
+                    alt="Vendor management software UAE"
                   />
                 </div>
                 <div className="col-lg-6 col-md-12">
@@ -338,7 +346,7 @@ function Purchase() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/4/PurI.png"
-                    alt="Agon"
+                    alt="Vendor management software UAE"
                   />
                 </div>
                 <div className="col-lg-6 col-md-12">
@@ -372,7 +380,7 @@ function Purchase() {
                   <img
                     className="img-responsive"
                     src="assets/imgs/page/about/4/PurSET.png"
-                    alt="Agon"
+                    alt="Vendor management software UAE"
                   />
                 </div>
                 <div className="col-lg-6 col-md-12">

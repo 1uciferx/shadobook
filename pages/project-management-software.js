@@ -9,6 +9,8 @@ import Indexslider from "../components/indexslider";
 import Contactmanager from "../components/contactmanager";
 import Layout from "../components/layout/Layout";
 import Checkmeslider from "../components/slider/Checkmeslider";
+import Head from "next/head";
+
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -16,6 +18,11 @@ const ModalVideo = dynamic(import("react-modal-video"), {
 function Project() {
   return (
     <>
+      <Head>
+        <title>Online Project Management Software | Shadobooks ERP</title>
+        <meta name="description" content="Shadobooks ERP Projects is a cloud-based project management software that helps teams to organize, monitor progress and achieve project goals." />
+      </Head>
+
       <Layout>
         <div className="page-homepage7-bg"></div>
         <div className="section-box">
@@ -108,7 +115,7 @@ function Project() {
                   data-wow-delay=".1s"
                 >
                   <div className="product-image">
-                    <img src="assets/imgs/page/homepage1/rrr1.png" />
+                    <img src="assets/imgs/page/homepage1/rrr1.png" alt="Project Management software"/>
                   </div>
 
                   <div className="product-info">
@@ -142,7 +149,7 @@ function Project() {
                   data-wow-delay=".1s"
                 >
                   <div className="product-image">
-                    <img src="assets/imgs/page/homepage1/rrr2.png" />
+                    <img src="assets/imgs/page/homepage1/rrr2.png" alt="Project Management software"/>
                   </div>
 
                   <div className="product-info">
@@ -213,7 +220,7 @@ function Project() {
                           <div className="img-user img-user-round">
                             <img
                               src="/assets/imgs/page/homepage1/vendor.jpg"
-                              alt="Agon"
+                              alt="Project Management software"
                             />
                           </div>
                           <h4 className="text-body-lead color-gray-900 mt-20">
@@ -235,7 +242,7 @@ function Project() {
                           <div className="img-user img-user-round">
                             <img
                               src="/assets/imgs/page/homepage1/gg4.jpg"
-                              alt="Agon"
+                              alt="Project Management software"
                             />
                           </div>
                           <h4 className="text-body-lead color-gray-900 mt-20">
@@ -258,7 +265,7 @@ function Project() {
                           <div className="img-user img-user-round">
                             <img
                               src="/assets/imgs/page/homepage1/gg3.jpg"
-                              alt="Agon"
+                              alt="Project Management software"
                             />
                           </div>
                           <h4 className="text-body-lead color-gray-900 mt-20">
@@ -279,7 +286,7 @@ function Project() {
                           <div className="img-user img-user-round">
                             <img
                               src="/assets/imgs/page/homepage1/df1.jpg"
-                              alt="Agon"
+                              alt="Project Management software"
                             />
                           </div>
                           <h4 className="text-body-lead color-gray-900 mt-20">
@@ -301,7 +308,7 @@ function Project() {
                           <div className="img-user img-user-round">
                             <img
                               src="/assets/imgs/page/homepage1/df2.jpg"
-                              alt="Agon"
+                              alt="Project Management software"
                             />
                           </div>
                           <h4 className="text-body-lead color-gray-900 mt-20">
@@ -323,7 +330,7 @@ function Project() {
                           <div className="img-user img-user-round">
                             <img
                               src="/assets/imgs/page/homepage1/df3.jpg"
-                              alt="Agon"
+                              alt="Project Management software"
                             />
                           </div>
                           <h4 className="text-body-lead color-gray-900 mt-20">
@@ -345,7 +352,7 @@ function Project() {
                           <div className="img-user img-user-round">
                             <img
                               src="/assets/imgs/page/homepage1/gg1.jpg"
-                              alt="Agon"
+                              alt="Project Management software"
                             />
                           </div>
                           <h4 className="text-body-lead color-gray-900 mt-20">
@@ -367,7 +374,7 @@ function Project() {
                           <div className="img-user img-user-round">
                             <img
                               src="/assets/imgs/page/homepage1/gg2.jpg"
-                              alt="Agon"
+                              alt="Project Management software"
                             />
                           </div>
                           <h4 className="text-body-lead color-gray-900 mt-20">
@@ -412,7 +419,7 @@ function Project() {
                     <img
                       className="img-responsive"
                       src="/assets/imgs/page/homepage1/milestone.png"
-                      alt="Shadoboooks"
+                      alt="Project Management software"
                     />
                   </div>
                 </div>
@@ -430,7 +437,7 @@ function Project() {
                     <img
                       className="img-responsive"
                       src="/assets/imgs/page/homepage1/report1.png"
-                      alt="Shadoboooks"
+                      alt="Project Management software"
                     />
                   </div>
                 </div>
@@ -479,7 +486,7 @@ function Project() {
                     <img
                       className="img-responsive"
                       src="/assets/imgs/page/homepage1/q11.jpg"
-                      alt="Shadoboooks"
+                      alt="Project Management software"
                     />
                   </div>
                 </div>
@@ -497,7 +504,7 @@ function Project() {
                     <img
                       className="img-responsive"
                       src="/assets/imgs/page/homepage1/aa2.jpg"
-                      alt="Shadoboooks"
+                      alt="Project Management software"
                     />
                   </div>
                 </div>
@@ -542,7 +549,7 @@ function Project() {
                     <img
                       className="img-responsive"
                       src="/assets/imgs/page/homepage1/aa1.webp"
-                      alt="Shadoboooks"
+                      alt="Project Management software"
                     />
                   </div>
                 </div>
@@ -560,7 +567,7 @@ function Project() {
                     <img
                       className="img-responsive"
                       src="/assets/imgs/page/homepage1/aa3.jpg"
-                      alt="Shadoboooks"
+                      alt="Project Management software"
                     />
                   </div>
                 </div>
@@ -610,7 +617,7 @@ function Project() {
                     <img
                       className="img-responsive"
                       src="/assets/imgs/page/homepage1/timesheets.jpg"
-                      alt="Shadoboooks"
+                      alt="Project Management software"
                     />
                   </div>
                 </div>
@@ -628,7 +635,7 @@ function Project() {
                     <img
                       className="img-responsive"
                       src="/assets/imgs/page/homepage1/notes.jpg"
-                      alt="Shadoboooks"
+                      alt="Project Management software"
                     />
                   </div>
                 </div>
@@ -680,7 +687,7 @@ function Project() {
                     <img
                       className="img-responsive"
                       src="/assets/imgs/page/homepage1/milestone.png"
-                      alt="Shadoboooks"
+                      alt="Project Management software"
                     />
                   </div>
                 </div>
@@ -698,7 +705,7 @@ function Project() {
                     <img
                       className="img-responsive"
                       src="/assets/imgs/page/homepage1/report1.png"
-                      alt="Shadoboooks"
+                      alt="Project Management software"
                     />
                   </div>
                 </div>
@@ -744,7 +751,7 @@ function Project() {
                     <img
                       className="img-responsive"
                       src="/assets/imgs/page/homepage1/milestone.png"
-                      alt="Shadoboooks"
+                      alt="Project Management software"
                     />
                   </div>
                 </div>
@@ -762,7 +769,7 @@ function Project() {
                     <img
                       className="img-responsive"
                       src="/assets/imgs/page/homepage1/report1.png"
-                      alt="Shadoboooks"
+                      alt="Project Management software"
                     />
                   </div>
                 </div>
@@ -812,7 +819,7 @@ function Project() {
                     <img
                       className="img-responsive"
                       src="/assets/imgs/page/homepage1/milestone.png"
-                      alt="Shadoboooks"
+                      alt="Project Management software"
                     />
                   </div>
                 </div>
@@ -830,7 +837,7 @@ function Project() {
                     <img
                       className="img-responsive"
                       src="/assets/imgs/page/homepage1/report1.png"
-                      alt="Shadoboooks"
+                      alt="Project Management software"
                     />
                   </div>
                 </div>
@@ -918,9 +925,9 @@ function Project() {
             </div>
           </div>
         </div>
-        
+
         <div>
-          <Contactmanager/>
+          <Contactmanager />
         </div>
       </Layout>
     </>

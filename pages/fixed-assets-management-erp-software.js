@@ -4,10 +4,17 @@ import Layout from "../components/layout/Layout";
 import styles from "../styles/Index.module.css";
 import Indexslider from "../components/indexslider";
 import Contactmanager from "../components/contactmanager";
+import Head from 'next/head';
 
 function Terms() {
   return (
     <>
+        <Head>
+        <title>Best Fixed Assets Management ERP Software | Shadobooks ERP</title>
+        <meta name="description" content="Fixed Asset Management ERP Software helps businesses track and manage their fixed assets. It also includes registration of these assets as part of this module." />
+      </Head>
+
+
       <Layout>
         <div
           className="banner-hero banner-head-image"
@@ -43,7 +50,7 @@ function Terms() {
                       <img
                         className="img-responsive bdr-16"
                         src="assets/imgs/page/homepage1/zz.png"
-                        alt="shadobooks"
+                        alt="Fixed Assets Management ERP Software"
                       />
                       <p />
 
@@ -78,7 +85,7 @@ function Terms() {
                       <img
                         className="img-responsive bdr-16"
                         src="assets/imgs/page/homepage4/zz1.png"
-                        alt="shadobooks"
+                        alt="Fixed Assets Management ERP Software"
                       />
                       <p />
 
@@ -113,7 +120,7 @@ function Terms() {
                       <img
                         className="img-responsive bdr-16"
                         src="assets/imgs/page/homepage4/zz2.png"
-                        alt="shadobooks"
+                        alt="Fixed Assets Management ERP Software"
                       />
                       <p />
 
@@ -152,7 +159,7 @@ function Terms() {
                       <img
                         className="img-responsive bdr-16"
                         src="assets/imgs/page/homepage4/zz3.png"
-                        alt="shadobooks"
+                        alt="Fixed Assets Management ERP Software"
                       />
                       <p />
 
@@ -185,7 +192,7 @@ function Terms() {
                       <img
                         className="img-responsive bdr-16"
                         src="assets/imgs/page/homepage4/zz4.png"
-                        alt="shadobooks"
+                        alt="Fixed Assets Management ERP Software"
                       />
                       <p />
 
@@ -223,7 +230,7 @@ function Terms() {
                       <img
                         className="img-responsive bdr-16"
                         src="assets/imgs/page/homepage4/zz5.png"
-                        alt="shadobooks"
+                        alt="Fixed Assets Management ERP Software"
                       />
                       <p />
 
@@ -260,7 +267,7 @@ function Terms() {
                       <img
                         className="img-responsive bdr-16"
                         src="assets/imgs/page/homepage4/zz6.png"
-                        alt="shadobooks"
+                        alt="Fixed Assets Management ERP Software"
                       />
                       <p />
 
@@ -294,7 +301,7 @@ function Terms() {
                       <img
                         className="img-responsive bdr-16"
                         src="assets/imgs/page/homepage4/zz7.png"
-                        alt="shadobooks"
+                        alt="Fixed Assets Management ERP Software"
                       />
                       <p />
 
@@ -331,7 +338,7 @@ function Terms() {
                       <img
                         className="img-responsive bdr-16"
                         src="assets/imgs/page/homepage1/zz8.png"
-                        alt="shadobooks"
+                        alt="Fixed Assets Management ERP Software"
                       />
                       <p />
 
@@ -372,7 +379,7 @@ function Terms() {
                       <img
                         className="img-responsive bdr-16"
                         src="assets/imgs/page/homepage1/ww1.png"
-                        alt="shadobooks"
+                        alt="Fixed Assets Management ERP Software"
                       />
                       <p />
 
@@ -412,7 +419,7 @@ function Terms() {
                       <img
                         className="img-responsive bdr-16"
                         src="assets/imgs/page/homepage1/ww2.png"
-                        alt="shadobooks"
+                        alt="Fixed Assets Management ERP Software"
                       />
                       <p />
 
@@ -452,7 +459,7 @@ function Terms() {
                       <img
                         className="img-responsive bdr-16"
                         src="assets/imgs/page/homepage1/ww3.png"
-                        alt="shadobooks"
+                        alt="Fixed Assets Management ERP Software"
                       />
                       <p />
 
@@ -492,7 +499,7 @@ function Terms() {
                       <img
                         className="img-responsive bdr-16"
                         src="assets/imgs/page/homepage1/ff2.png"
-                        alt="shadobooks"
+                        alt="Fixed Assets Management ERP Software"
                       />
                       <p />
 

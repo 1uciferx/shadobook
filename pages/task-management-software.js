@@ -11,16 +11,25 @@ import Zoom from "react-reveal/Zoom";
 import styles from "../styles/Index.module.css";
 import Indexslider from "../components/indexslider";
 import Contactmanager from "../components/contactmanager";
-import { Col, Row } from "antd";
+
 import { Button, Space } from "antd";
 import Slide from "react-reveal/Slide";
 import Pulse from "react-reveal/Pulse";
 import { Breadcrumb, Layout as L } from "antd";
 const { Content } = L;
+import Head from "next/head";
 
 function Task() {
   return (
     <>
+      <Head>
+        <title>Best ERP Task Management Software | Shadobooks ERP</title>
+        <meta
+          name="description"
+          content="Task Management Software, automates task and operation management in industry, assigning tasks and generating confirmation on completion."
+        />
+      </Head>
+
       <Layout>
         <section className="section-box">
           <div
@@ -54,7 +63,7 @@ function Task() {
                 <div className="grid-4-img">
                   {/* <Link href="#"> 
                   <a>  */}
-                  <img src="assets/imgs/page/about/10/TS.png" alt="Agon" />
+                  <img src="assets/imgs/page/about/10/TS.png" alt="Task Management Software" />
                   {/* </a>
 
                  </Link> */}
@@ -103,7 +112,7 @@ function Task() {
                     <img
                       className="img-responsive bdr-16"
                       src="assets/imgs/page/about/10/TS.png"
-                      alt="shadobooks"
+                      alt="Task Management Software"
                     />
                   </div>
                   <p />
@@ -141,11 +150,10 @@ function Task() {
         <div className="section-box">
           <div className="container mt-120">
             <div className="row">
-          
               <div className="col-lg-6 col-md-12 col-sm-12 block-img-we-do text-center">
-              <div className="card-grid-style-3">
-                <img src="assets/imgs/page/about/10/STK.png" alt="Agon" />
-              </div>
+                <div className="card-grid-style-3">
+                  <img src="assets/imgs/page/about/10/STK.png" alt="Task Management Software" />
+                </div>
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 block-we-do">
                 <h3 className="text-heading-2 " style={{ color: "#90331c" }}>
@@ -201,7 +209,7 @@ function Task() {
                     <img
                       className="img-responsive bdr-16"
                       src="assets/imgs/page/about/10/TO.png"
-                      alt="shadobooks"
+                      alt="Task Management Software"
                     />
                   </div>
                   <p />
@@ -217,17 +225,23 @@ function Task() {
                     ➟ Staff members, Month, Year
                     <br />
                     <br />
-                    ➟ This makes it easy to view and manage tasks assigned to specific staff members, or tasks due in a specific month or year.
+                    ➟ This makes it easy to view and manage tasks assigned to
+                    specific staff members, or tasks due in a specific month or
+                    year.
                     <br />
                     <br />
-                    ➟ The filter option helps to get a clear view of the task list, and makes it easier to manage and track progress.
+                    ➟ The filter option helps to get a clear view of the task
+                    list, and makes it easier to manage and track progress.
                     <br />
-                    <br />➟ The task overview page allows you to see the progress of all the tasks and manage them effectively.
+                    <br />➟ The task overview page allows you to see the
+                    progress of all the tasks and manage them effectively.
                     <br />
                     <br />
-                    ➟ By using filter options you can see the task status, and monitor the performance of your team members.
+                    ➟ By using filter options you can see the task status, and
+                    monitor the performance of your team members.
                     <br />
-                    <br />➟ It can be used to manage the tasks and track progress and performance of your team.
+                    <br />➟ It can be used to manage the tasks and track
+                    progress and performance of your team.
                   </p>
                   <p />
                   <br />
@@ -240,24 +254,28 @@ function Task() {
           </div>
         </section>
         <div className={styles.modslider}>
-            <div className="mt-50">
-              <Indexslider />
-              <div className="text-center">
-                <Link href="/modules">
-                  <button
-                    type="button"
-                    class="btn btn-outline-dark"
-                    style={{ padding: "10px", marginTop:"-15px" , marginBottom:"30px" }}
-                  >
-                    Show More
-                  </button>
-                </Link>
-              </div>
+          <div className="mt-50">
+            <Indexslider />
+            <div className="text-center">
+              <Link href="/modules">
+                <button
+                  type="button"
+                  class="btn btn-outline-dark"
+                  style={{
+                    padding: "10px",
+                    marginTop: "-15px",
+                    marginBottom: "30px",
+                  }}
+                >
+                  Show More
+                </button>
+              </Link>
             </div>
           </div>
+        </div>
 
-          <div>
-          <Contactmanager/>
+        <div>
+          <Contactmanager />
         </div>
       </Layout>
     </>

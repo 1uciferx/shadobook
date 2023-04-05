@@ -5,10 +5,16 @@ import Layout from "../components/layout/Layout";
 import styles from "../styles/Index.module.css";
 import Indexslider from "../components/indexslider";
 import Contactmanager from "../components/contactmanager";
+import Head from "next/head";
 
 function Index8() {
   return (
     <>
+      <Head>
+        <title>Ticketing System in ERP | Shadobooks ERP</title>
+        <meta name="description" content="Ticketing System in ERP module uses automated technology to help manage the ticketing process, registering, organizing, and ranking tickets into categories." />
+      </Head>
+
       <Layout>
         <div className="section-box">
           <div
@@ -41,7 +47,7 @@ function Index8() {
                   data-wow-delay=".1s"
                 >
                   <div className="product-image">
-                    <img src="assets/imgs/page/homepage1/asf.png" />
+                    <img src="assets/imgs/page/homepage1/asf.png" alt="Ticketing System in ERP" />
                   </div>
 
                   <div className="product-info">
@@ -93,7 +99,7 @@ function Index8() {
                     <img
                       className="img-responsive bdr-10 mt-10"
                       src="/assets/imgs/page/homepage1/ajv.gif"
-                      alt="Agon"
+                      alt="Ticketing System in ERP"
                     />
                   </div>
                 </div>
@@ -112,7 +118,7 @@ function Index8() {
                   data-wow-delay=".1s"
                 >
                   <div className="product-image">
-                    <img src="/assets/imgs/page/homepage1/as3.png" />
+                    <img src="/assets/imgs/page/homepage1/as3.png" alt="Ticketing System in ERP" />
                   </div>
 
                   <div className="product-info">
@@ -187,7 +193,7 @@ function Index8() {
                     <img
                       className="img-responsive bdr-10 mt-10"
                       src="/assets/imgs/page/homepage1/asx.gif"
-                      alt="Agon"
+                      alt="Ticketing System in ERP"
                     />
                   </div>
                 </div>
@@ -197,24 +203,28 @@ function Index8() {
           </div>
         </section>
         <div className={styles.modslider}>
-            <div className="mt-50">
-              <Indexslider />
-              <div className="text-center">
-                <Link href="/modules">
-                  <button
-                    type="button"
-                    class="btn btn-outline-dark"
-                    style={{ padding: "10px", marginTop:"-15px" , marginBottom:"30px" }}
-                  >
-                    Show More
-                  </button>
-                </Link>
-              </div>
+          <div className="mt-50">
+            <Indexslider />
+            <div className="text-center">
+              <Link href="/modules">
+                <button
+                  type="button"
+                  class="btn btn-outline-dark"
+                  style={{
+                    padding: "10px",
+                    marginTop: "-15px",
+                    marginBottom: "30px",
+                  }}
+                >
+                  Show More
+                </button>
+              </Link>
             </div>
           </div>
+        </div>
 
-          <div>
-          <Contactmanager/>
+        <div>
+          <Contactmanager />
         </div>
       </Layout>
     </>

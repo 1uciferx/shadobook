@@ -10,6 +10,9 @@ import Layout from "../components/layout/Layout";
 import OfferSlider from "../components/slider/Offer";
 import Contactmanager from "../components/contactmanager";
 import TestimonialSlider from "../components/slider/Testimonial";
+import Head from 'next/head';
+
+
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -24,9 +27,13 @@ function Home() {
 
   return (
     <>
-      {/* <Link href="/#">
-                <a>Link</a></Link>
-            </Link> */}
+
+       <Head>
+        <title>ERP Document Management | Shadobooks ERP</title>
+        <meta name="description" content="Shadobooks ERP provides a comprehensive system for document management, ensuring secure storage, effective file management and streamlined document workflows." />
+      </Head>
+
+
       <Layout>
         <section className="section-box">
           <div
@@ -92,7 +99,7 @@ function Home() {
                       <img
                         className="img-responsive"
                         src="assets/imgs/page/homepage1/t2.png"
-                        alt="Shadoboooks"
+                        alt="ERP Document Management"
                       />
                     </div>
                   </div>
@@ -110,7 +117,7 @@ function Home() {
                       <img
                         className="img-responsive"
                         src="assets/imgs/page/homepage1/t2.png"
-                        alt="Shadoboooks"
+                        alt="ERP Document Management"
                       />
                     </div>
                   </div>
@@ -161,7 +168,7 @@ function Home() {
                       <img
                         className="img-responsive"
                         src="assets/imgs/page/homepage1/t2.png"
-                        alt="Shadoboooks"
+                        alt="ERP Document Management"
                       />
                     </div>
                   </div>
@@ -179,7 +186,7 @@ function Home() {
                       <img
                         className="img-responsive"
                         src="assets/imgs/page/homepage1/t2.png"
-                        alt="Shadoboooks"
+                        alt="ERP Document Management"
                       />
                     </div>
                   </div>

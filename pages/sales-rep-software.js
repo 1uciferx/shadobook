@@ -12,10 +12,19 @@ import Layout from "../components/layout/Layout";
 import Contactmanager from "../components/contactmanager";
 import TeamSlider from "../components/slider/Team";
 import TestimonialSlider from "../components/slider/Testimonial";
+import Head from "next/head";
 
 function Salesagent() {
   return (
-    <>
+  <>
+      <Head>
+        <title>Best Sales Rep ERP Software | Shadobooks ERP</title>
+        <meta
+          name="description"
+          content="Sales Rep ERP Software is helps to automate business tasks, track performance, manage customer relationships, and generate invoices & Reports."
+        />
+      </Head>
+
       <Layout>
         <section className="section-box">
           <div
@@ -63,7 +72,7 @@ function Salesagent() {
                   <img
                     className="img-responsive"
                     src="/salesagent/pic1.png"
-                    alt="Agon"
+                    alt="Sales Rep Software"
                   />
                 </div>
               </div>
@@ -75,7 +84,7 @@ function Salesagent() {
                   <img
                     className="img-responsive"
                     src="/salesagent/pic3.png"
-                    alt="Agon"
+                    alt="Sales Rep Software"
                   />
                 </div>
                 <div className="col-lg-6 col-md-12">
@@ -125,7 +134,7 @@ function Salesagent() {
                   <img
                     className="img-responsive"
                     src="/salesagent/pic1.png"
-                    alt="Agon"
+                    alt="Sales Rep Software"
                   />
                 </div>
               </div>
@@ -137,7 +146,7 @@ function Salesagent() {
                   <img
                     className="img-responsive"
                     src="/salesagent/pic1.png"
-                    alt="Agon"
+                    alt="Sales Rep Software"
                   />
                 </div>
                 <div className="col-lg-6 col-md-12">
