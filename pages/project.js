@@ -13,7 +13,7 @@ const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
 
-function CareerDetails() {
+function Project() {
   return (
     <>
       <Layout>
@@ -169,7 +169,7 @@ function CareerDetails() {
           </div>
         </div>
 
-        <div className={styles.mmc}>
+        {/* <div className={styles.mmc}>
           <section className="section-box">
             <div className="container mt-10">
               <div className="row">
@@ -182,7 +182,7 @@ function CareerDetails() {
               <Sliderforprojects />
             </div>
           </section>
-        </div>
+        </div> */}
 
         {/* code for the mobile screen and ipad views, which is disabled for laptop */}
 
@@ -854,15 +854,15 @@ function CareerDetails() {
           </div>
         </div>
 
-        <div className="section-box mt-40">
+        {/* <div className="section-box mt-40">
           <div className="container text-center">
             <h2 className="text-heading-3 color-gray-900">
               Our modules on Sales
             </h2>
           </div>
-        </div>
+        </div> */}
 
-        <div className="section-box">
+        {/* <div className="section-box">
           <div className="container mt-30">
             <div className="row">
               <div className="col-xl-5 col-lg-6 col-sm-12 mb-30">
@@ -896,7 +896,7 @@ function CareerDetails() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className={styles.modslider}>
           <div className="mt-50">
@@ -927,4 +927,4 @@ function CareerDetails() {
   );
 }
 
-export default CareerDetails;
+export default Project;

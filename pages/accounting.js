@@ -106,8 +106,8 @@ function Home() {
                           <br></br>
                           <p>
                             ➟ It typically includes a variety of widgets and
-                            charts that display information such as income and
-                            expenses, profit and loss, and balances for
+                            charts that display information such as income and 
+                            <span><a href="/Accounting-erp-software"> expenses</a></span>, profit and loss, and balances for
                             different accounts.
                           </p>
                           <br></br>

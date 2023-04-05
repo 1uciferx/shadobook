@@ -273,7 +273,7 @@ function Purchase() {
                   <div className="box-optimized">
                     <h3 className="text-heading-3">Contracts</h3>
                     <p className="text-body-text mt-30 icon-leaf">
-                      To view contracts in Shadobook ERP: Go to the purchase
+                      To view <span><a href="/contract-tracking-software"> contracts</a></span> in Shadobook ERP: Go to the purchase
                       module, Click "contracts", The list of contracts will
                       appear
                     </p>

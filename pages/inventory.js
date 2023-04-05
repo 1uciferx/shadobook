@@ -17,7 +17,6 @@ const { Content } = L;
 import { BackTop } from "antd";
 import { Button, Dropdown, Space } from "antd";
 import { DownOutlined } from "@ant-design/icons";
-import Contactmanager from "../components/contactmanager";
 import Zoom from "react-reveal/Zoom";
 
 function Process() {

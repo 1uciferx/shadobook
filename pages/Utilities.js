@@ -116,7 +116,7 @@ function Utilities() {
                       clicking on CSV export button.
                       <br></br>
                       <br></br>➟ In that window, you can select export types
-                      such as customers, contacts, leads, expenses, receipts,
+                      such as customers, contacts, <span><a href="/lead-management-system"> leads</a></span>, expenses, receipts,
                       and periods.
                       <br></br>
                       <br></br>➟ After selecting the options, click the export

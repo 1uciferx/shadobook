@@ -109,7 +109,7 @@ function Home() {
                         address, position, city, email address, state, company,
                         etc.
                         <br />
-                        <br />➟ Click the save button to add the new task.
+                        <br />➟ Click the save button to add the new <span><a href="/lead-management-system">task.</a></span>
                       </p>
                     </div>
                   </div>

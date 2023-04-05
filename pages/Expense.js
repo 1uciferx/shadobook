@@ -10,20 +10,29 @@ function BlogSingle() {
     <>
       <Layout>
         <div>
-          <section className="section-box">
-            <div
-              className="banner-hero banner-head-image"
-              style={{
-                background: "url(assets/imgs/page/blog/single/banner.png)",
-              }}
-            >
-              <div className="container">
-                <div className="text-center">
-                  <h1 className="text-heading-1 color-white mt-30">Expenses</h1>
+        <section className="section-box">
+          <div
+            className="banner-hero banner-head-image"
+            style={{
+              background: "url(assets/imgs/page/blog/ee1.jpg)",
+              objectFit: "cover",
+            }}
+          >
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-12">
+                  <h1 className="text-display-2 text-center color-white">
+                  Expenses
+                  </h1>
+                  <p className="text-body-lead-large color-white mt-40  text-center">
+                  The expense module in Shadobooks ERP is a feature that allows businesses to manage and track their expenses efficiently. It provides a centralized platform for recording all types of expenses, including employee reimbursements, vendor bills, and other miscellaneous expenses. This module helps businesses to streamline their expense management process by providing tools for creating expense reports, tracking expenses against budgets, and generating insights into spending patterns. 
+                  </p>
                 </div>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
+         
           <section className="section-box mt-50 mb-50">
             <div className="container">
               <div className="row">

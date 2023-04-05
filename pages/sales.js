@@ -100,7 +100,7 @@ function Sales() {
                   <p className="text-body-text mt-20 icon-leaf">
                     Once the proposal is saved, it will appear in the form of a
                     list in the proposal overview page. Enter all the necessary
-                    details such as customer, estimate number, amount, project,
+                    details such as customer, <span><a href="/estimates-management-software"> estimate number</a></span>, amount, project,
                     date, etc.
                   </p>
                   <p className="text-body-text mt-20 icon-leaf">
