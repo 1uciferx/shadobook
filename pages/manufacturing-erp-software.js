@@ -96,15 +96,11 @@ function Manufacturing() {
             <div className="col-lg-2 col-sm-1 col-12" />
             <div className="col-lg-8 col-sm-10 col-12 text-center mt-40">
               <h2 className="text-heading-2 color-gray-900 mb-10">
-                Bringing Efficiency to Manufacturing
-                <br className="d-lg-block d-none" />- The Power of CRM!
+              It can help manufacturers optimize their processes, track product performance and customer satisfaction, and identify areas for improvement
               </h2>
             </div>
             <p className="text-body-lead-large color-gray-600 mt-20">
-              A manufacturing dashboard can provide valuable insights into
-              production processes and product sales. It can help manufacturers
-              optimize their processes, track product performance and customer
-              satisfaction, and identify areas for improvement.
+            Manufacturers can enhance their operations and effectively monitor product performance and customer satisfaction while identifying opportunities for improvement and quality enhancement of their<span><a href="/fixed-assets-management-erp-software"> Company's Assets</a></span> through the use of a<span><a href="/erp-document-management"> File Manager. </a></span>
             </p>
             <div className="col-lg-2 col-sm-1 col-12" />
           </div>

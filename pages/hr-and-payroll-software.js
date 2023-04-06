@@ -91,9 +91,7 @@ function Home() {
                   className="text-body-lead-large color-gray-500 mt-40 pr-40 "
                 >
                   <p>
-                    ➟ Keeping accurate and current records of employee
-                    information, including personal details, job titles, and
-                    bank account.
+                    ➟ Keeping accurate and current records of employee information, including personal details, job titles, and <span><a href="/Accounting-erp-software"> bank account</a></span>.
                   </p>
                   <br></br>
                   <p>
@@ -236,9 +234,7 @@ function Home() {
                     <br></br>
 
                     <p>
-                      ➟ You can receive a particular employee information by
-                      entering their name, department, and hire date in order to
-                      give bonuses.
+                      ➟ HR & payroll module allows businesses to access data from<span><a href="/Utilities-management-software"> Utilities</a></span> reports and use it for payrolls, employee tracking, and more, by uploading exported CSV files. 
                     </p>
                   </p>
                 </div>

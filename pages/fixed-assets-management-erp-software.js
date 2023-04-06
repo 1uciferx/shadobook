@@ -62,7 +62,7 @@ function Terms() {
                         receipt and ingestion process. <br />
                         <br />➟ Total asset, licences, accessories, consumables,
                         asset by state, asset categories, and actions done by in
-                        asset section comprise the asset dashboard.
+                        asset section comprise the asset dashboard.For a company's assets, the<span><a href="/point-of-sale-system"> POS</a></span> feature tracks sales and customer information. 
                       </p>
                       <br />
                     </div>
@@ -502,7 +502,7 @@ function Terms() {
                         alt="Fixed Assets Management ERP Software"
                       />
                       <p />
-
+Q
                       <p>
                         ➟ Assets include both tangible and intangible items like
                         as raw materials, inventory, machinery, and real estate.
@@ -511,8 +511,7 @@ function Terms() {
                         ➟ In Shadobooks CRM, go to Company asset-Asset-Add an
                         asset.
                         <br />
-                        <br />➟ Assets can be added, updated, and deleted. You
-                        may also add assets in bulk.
+                        <br />➟ With regard to<span><a href="/manufacturing-erp-software"> Manufacturing,</a></span> companies can keep track of the advancement of production and ensure the quality of their company's assets through monitoring. 
                       </p>
                       <br />
                     </div>

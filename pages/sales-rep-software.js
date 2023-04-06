@@ -58,8 +58,7 @@ function Salesagent() {
                   <div className="box-optimized">
                     <h3 className="text-heading-2">Dashboard</h3>
                     <p className="text-body-excerpt mt-30">
-                      The sales agent dashboard in ShadobooksERP would likely
-                      show key data, including,
+                    The dashboard for sales agents in Shadobooks ERP is expected to display key data<span><a href="/reports-module-in-erp"> reports</a></span> , which may include:
                       <br></br> <br></br>➟ The number of agents,
                       <br></br>➟ The number of active and inactive agents,
                       <br></br>➟ The total number of programs,
@@ -91,9 +90,7 @@ function Salesagent() {
                   <div className="box-optimized">
                     <h3 className="text-heading-2">Management</h3>
                     <p className="text-body-excerpt mt-30">
-                      ➟ In ShadobooksERP, a sales representative is a user with
-                      the ability to manage and track sales and customer
-                      interactions within the system.
+                      ➟ In ShadobooksERP, a sales representative is a user with the ability to view & manage<span><a href="/project-management-software"> projects</a></span> and track sales and customer interactions within the system.
                       <br></br>
                       <br></br>
                       In order to create a new sales agent in ShadobooksERP, you

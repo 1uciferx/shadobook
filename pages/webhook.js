@@ -158,8 +158,9 @@ function Index6() {
                   by our system, as well as information on the call's success or
                   failure.
                   <br />
-                  <br />➟ Webhooks can be enabled or disabled in the developer
-                  options.
+                  <br />➟ Companies can monitor the status of their<span><a href="/manufacturing-erp-software"> Manufacturing</a></span> Process and get alerts on the calibre of their products. 
+
+A company can track its sales operations and gather client information with the use of the<span><a href="/point-of-sale-system"> POS</a></span> function, which can then be linked to web hooks for improved tracking and analysis. 
                 </div>
               </div>
             </div>

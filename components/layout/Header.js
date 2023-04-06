@@ -83,7 +83,7 @@ const Header = ({ handleOpen, headerStyle }) => {
               <div className="header-nav">
                 <nav
                   className="nav-main-menu d-none d-xl-block"
-                  style={{ marginLeft: "240px", marginTop: "10px" }}
+                  style={{ marginLeft: "100px", marginTop: "10px" }}
                 >
                   <ul className="main-menu">
                     <li className="">
@@ -685,6 +685,11 @@ const Header = ({ handleOpen, headerStyle }) => {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className={styles.mobera}>
+            <Link href="/request-a-demo">
+            <button className={styles.button86} role="button">GET FREE DEMO</button>
+            </Link>
             </div>
 
             {/* <div className="header-right">

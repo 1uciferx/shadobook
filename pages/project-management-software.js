@@ -166,7 +166,7 @@ function Project() {
                         project outline that describes key elements about the
                         project. A project overview contains general information
                         such as the project name, customer information, and
-                        sponsors.
+                        sponsors. Projects can receive notifications from<span><a href="/webhook"> Web hooks</a></span>, which are automated messages triggered by specific events or updates. 
                       </p>
                     </div>
                   </div>
@@ -475,9 +475,7 @@ function Project() {
                       ➟ Some common synonyms of task are assignment, chore,
                       duty, job, and stint.
                       <br />
-                      <br /> ➟ While all these words mean "a piece of work to be
-                      done," task implies work imposed by a person in authority
-                      or an employer or by circumstance.
+                      <br /> ➟  While all these words mean "a piece of work to be done,"<span><a href="/task-management-software"> task</a></span> implies work imposed by a person in authority or an employer or by circumstance. 
                     </p>
                   </div>
                 </div>
@@ -719,6 +717,7 @@ function Project() {
                       <br />➟ When you launch a project from the top tabs, you
                       will see a Files tab. Click on the files tab to easily
                       drag and drop the file you need to upload for the project.
+                      The module responsible for storing uploaded files is the<span><a href="/erp-document-management"> file manager. </a></span>
                     </p>
                   </div>
                 </div>

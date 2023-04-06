@@ -118,12 +118,7 @@ function Home() {
                           </p>
                           <br></br>
                           <p>
-                            Budget: Reports like Budget Overview, Budget vs
-                            Actual, and Profit and Loss Budget Performance are
-                            used to track the amounts that were budgeted versus
-                            what was actually spent on various accounts. Sales
-                            tax contains reports like the Tax Detail Report, Tax
-                            Summary and that assist in keeping track of taxes.
+                            Budget: Reports like<span><a href="/project-management-software"> Project</a></span> Budget Overview, Budget vs Actual, and Profit and Loss Budget Performance are used to track the amounts that were budgeted versus what was actually spent on various accounts. Sales tax contains reports like the Tax Detail Report, Tax Summary and that assist in keeping track of taxes. 
                           </p>
                         </p>
                       </div>
@@ -486,8 +481,7 @@ function Home() {
 
                           <br></br>
                           <li>
-                            Payment Modes (Transactions) Report: shows the
-                            breakdown of payments made by different modes
+                          This platform enables<span><a href="/sales-rep-software"> Sales Agents</a></span> and companies to monitor and handle the invoices that have been issued to their clients. 
                           </li>
                         </p>
                       </div>

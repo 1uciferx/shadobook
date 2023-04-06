@@ -27,7 +27,7 @@ function BlogSingle() {
                 <div className="text-center">
                   <span className="tag-1 bg-6 color-green-900">BLOG</span>
                   <h1 className="text-heading-1 color-white mt-30">
-                    Best Professional Accounting Software for your busines
+                    Best Professional Accounting Software for your business
                   </h1>
                 </div>
               </div>

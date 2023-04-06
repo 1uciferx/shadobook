@@ -168,7 +168,20 @@ function Index2() {
           {/* section 6 */}
 
 
-          <section className="section-box">
+         
+
+          <div className={styles.cintoslider}>
+            <p> Trusted by the World's Leading Companies</p>
+          </div>
+
+          <div>
+            <Cintoslider />
+          </div>
+        </div>
+        <div className={styles.mobilehome}>
+          <Mobileindex />
+        </div>
+        <section className="section-box">
                         <div className="container mt-100">
                             <div className="row">
                                 <div className="col-lg-1 col-sm-1 col-12" />
@@ -190,7 +203,7 @@ function Index2() {
                                             <Link href="/blogs/professional-accounting-software"><a><img src="/assets/imgs/page/blog/aa1.jpg" alt="Agon" />
                                             </a></Link>
                                         </div>
-                                        <Link href="/blog-single"><a className="text-heading-4">Best Professional Accounting Software for your busines
+                                        <Link href="/blogs/professional-accounting-software"><a className="text-heading-4">Best Professional Accounting Software for your business
                                         </a></Link>
                                     </div>
                                 </div>
@@ -202,19 +215,7 @@ function Index2() {
                             </div> */}
                         </div>
                     </section>
-
-          <div className={styles.cintoslider}>
-            <p> Trusted by the World's Leading Companies</p>
-          </div>
-
-          <div>
-            <Cintoslider />
-          </div>
-        </div>
-
-        <div className={styles.mobilehome}>
-          <Mobileindex />
-        </div>
+       
       </Layout>
     </>
   );
