@@ -3,11 +3,27 @@ import Link from "next/link";
 
 import Layout from "../components/layout/Layout";
 import OfferSlider from "../components/slider/Offer";
+import { Helmet } from 'react-helmet';
 
 function Oilandgas() {
   return (
     <>
       <Layout>
+        
+ {/* facebook and twitter meta graphs starts here */}
+      <Helmet>
+        <meta property="og:title" content="Shadobooks ERP" />
+        <meta property="og:description" content="Shadobooks erp solutions." />
+        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Shadobooks ERP" />
+        <meta name="twitter:description" content="Shadobooks erp solutions." />
+        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+      </Helmet>
+
+      {/* facebook and twitter meta graphs ends here */}
+
         <section className="section-box">
           <div className="banner-hero bg-service-2">
             <div className="container">

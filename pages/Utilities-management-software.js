@@ -7,6 +7,7 @@ import Contactmanager from "../components/contactmanager";
 import PriceTable2 from "../components/elements/PriceTable2";
 import Layout from "../components/layout/Layout";
 import OfferSlider from "../components/slider/Offer";
+import { Helmet } from 'react-helmet';
 import TestimonialSlider from "../components/slider/Testimonial";
 import styles from "../styles/Index.module.css";
 import Indexslider from "../components/indexslider";
@@ -33,6 +34,21 @@ function Utilities() {
           content="Revolutionize utility management with our utility management software offering comprehensive tools such as bulk PDF/CSV export, calendar & goal setting."
         />
       </Head>
+      
+ {/* facebook and twitter meta graphs starts here */}
+ <Helmet>
+        <meta property="og:title" content="Shadobooks ERP" />
+        <meta property="og:description" content="Shadobooks erp solutions." />
+        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Shadobooks ERP" />
+        <meta name="twitter:description" content="Shadobooks erp solutions." />
+        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+      </Helmet>
+
+      {/* facebook and twitter meta graphs ends here */}
+
       {/* <Link href="/#">
                 <a>Link</a></Link>
             </Link> */}

@@ -8,6 +8,7 @@ import Layout from "../components/layout/Layout";
 import { ParallaxBanner, ParallaxBannerLayer } from "react-scroll-parallax";
 import Bounce from "react-reveal/Bounce";
 import Zoom from "react-reveal/Zoom";
+import { Helmet } from 'react-helmet';
 import styles from "../styles/Index.module.css";
 import Indexslider from "../components/indexslider";
 import Contactmanager from "../components/contactmanager";
@@ -29,6 +30,20 @@ function Task() {
           content="Task Management Software, automates task and operation management in industry, assigning tasks and generating confirmation on completion."
         />
       </Head>
+
+ {/* facebook and twitter meta graphs starts here */}
+ <Helmet>
+        <meta property="og:title" content="Shadobooks ERP" />
+        <meta property="og:description" content="Shadobooks erp solutions." />
+        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Shadobooks ERP" />
+        <meta name="twitter:description" content="Shadobooks erp solutions." />
+        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+      </Helmet>
+
+      {/* facebook and twitter meta graphs ends here */}
 
       <Layout>
         <section className="section-box">
