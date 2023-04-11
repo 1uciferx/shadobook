@@ -1,16 +1,18 @@
 .heading1{
     text-align:start;
-    font-size: 80px;
+    font-size: 70px;
     line-height: 84%;
-    font-family: Segoe UI;
-    font-weight: 700;
+    font-family: Acme;
+    font-weight: 400;
     font-style: normal;
     position: relative;
     top: 5%;
     color: rgb(30, 32, 32);
   
-  
+
   }
+
+ 
   
   .cardheading{
     text-align: center;
@@ -91,7 +93,11 @@
   
   
   
-  
+  .mypar{
+    background-image: url("/assets/imgs/page/homepage4/BG1.png");
+    background-repeat: no-repeat;
+    margin-left: 6%;
+  }
   
   
   

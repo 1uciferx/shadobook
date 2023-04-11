@@ -6,7 +6,7 @@ import Layout from "../components/layout/Layout";
 import Slider from "react-slick";
 import dynamic from "next/dynamic";
 import Indexslider from "../components/indexslider";
-import styles from "../styles/Index.module.css";
+import styles from "../styles/index.module.css";
 import Mobileindex from "./mobileindex";
 import { Helmet } from 'react-helmet';
 import Fadedcards from "../components/Fadedcards";
@@ -59,10 +59,7 @@ function Index2() {
 
           <div
             className="section-box"
-            style={{
-              background:
-                "linear-gradient(to bottom,#FFFFFF ,#c8edeb, #FFFFFF)",
-            }}
+            
           >
             <div className="mt-50 mb-40">
               <div className="container">
@@ -110,7 +107,7 @@ function Index2() {
                       <img
                         className="img-banner img-responsive"
                         alt="shadobooks"
-                        src="hero.png"
+                        src="assets/imgs/page/homepage4/erw.png"
                       />
                     </div>
                   </div>
@@ -123,28 +120,28 @@ function Index2() {
 
           <div
             className={styles.modslider}
-            style={{
-              background: "linear-gradient(to bottom, #FFFFFF , #c8edeb)",
-            }}
+           
           >
-            <div className="mt-30">
+            <div className="mt-30 mb-60">
               <Indexslider />
+
               <div className="text-center">
                 <Link href="/modules">
-                  <button className={styles.featuresbtn} role="button">
-                    <span class="text">Show More</span>
-                    <span style={{ fontFamily: "segoe ui" }}>Our Features</span>
-                  </button>
+                  <div className={styles.buttonstart1}>
+                    <button class={styles.button}>
+                      <span>SHOW MORE </span>
+                    </button>
+                  </div>
                 </Link>
               </div>
             </div>
           </div>
-
+          {/* sectionthree */}
           <div>
             <Fadedcards />
           </div>
+          {/* sectionFOUR */}
 
-          {/* sectionthree */}
           <div>
             <Sectiontwo />
           </div>

@@ -5,8 +5,9 @@ import Link from "next/link";
 function Cards3() {
   return (
     <>
-      <div class="container text-center mt-60">
-        <div class="row">
+    <div className={styles.mypar}>
+      <div class="container text-center mt-60"> 
+        <div class="row"> 
           <div class="col-6 mt-100">
             <h2 className={styles.heading1}>Our Features</h2>
             <p className={styles.para1}>
@@ -29,7 +30,8 @@ function Cards3() {
 
           </div>
           <div class="col mt-110">
-            <div class="card h-50 shadow-lg p-3 mb-5 bg-body-tertiary rounded border border-0">
+           
+          <div class="card h-50 shadow-lg p-3 mb-5 bg-body-tertiary rounded-5 border border-0" style={{borderRadius: "30px"}}>
               <div className={styles.profile}>
                 {" "}
                 <img src="assets/imgs/page/homepage1/AutomatedReports.png" />{" "}
@@ -40,9 +42,10 @@ function Cards3() {
                   Automate efficiently and manage accounts on one platform.
                 </p>
               </div>
-            </div>
+              </div>
+              
 
-            <div class="card h-50 mt-60 shadow-lg p-3 mb-5 bg-body-tertiary rounded border border-0">
+            <div class="card h-50 mt-60 shadow-lg p-3 mb-5 bg-body-tertiary rounded-5 border border-0" style={{borderRadius: "30px"}}>
               <div className={styles.profile}>
               <img src="assets/imgs/page/homepage1/Realtimeanalytics.png" />
               </div>
@@ -58,7 +61,7 @@ function Cards3() {
           </div>
 
           <div class="col mt-40">
-            <div class="card h-50 shadow-lg p-3 mb-5 bg-body-tertiary rounded border border-0">
+            <div class="card h-50 shadow-lg p-3 mb-5 bg-body-tertiary rounded-5 border border-0" style={{borderRadius: "30px"}}>
               <div className={styles.profile}>
                 {" "}
                 <img src="assets/imgs/page/homepage1/Funneloptimization.png" />{" "}
@@ -70,7 +73,7 @@ function Cards3() {
                 </p>
               </div>
             </div>
-            <div class="card h-50 mt-60 shadow-lg p-3 mb-5 bg-body-tertiary rounded border border-0">
+            <div class="card h-50 mt-60 shadow-lg p-3 mb-5 bg-body-tertiary rounded-5 border border-0" style={{borderRadius: "30px"}}>
               <div className={styles.profile}>
                 {" "}
                 <img src="assets/imgs/page/homepage1/Userjourney.png" />{" "}
@@ -84,7 +87,7 @@ function Cards3() {
             </div>
           </div>
         </div>
-      </div>
+        </div></div>
     </>
   );
 }
