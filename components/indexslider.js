@@ -124,7 +124,7 @@ const Featureslider = () => {
             {data.map((item, i) => (
               <SwiperSlide>
                 <div className="swiper-slide active">
-                  <Card hoverable style={{ width: 200 }}>
+                  <Card hoverable style={{ width: 150 }}>
                     <a href={item.link}>
                       <img
                         src={`assets/imgs/page/homepage1/${item.avatar}`}

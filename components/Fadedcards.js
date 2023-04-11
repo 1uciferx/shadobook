@@ -27,7 +27,7 @@ function Fadedcards() {
             <div className={styles.name}>Our Features</div>
 
             <p>
-            Our priority is helping<br/> customers succeed through<br/> timely assistance.
+            Our priority is helping customers succeed through timely assistance.
             </p>
           </div>
 
@@ -43,7 +43,7 @@ function Fadedcards() {
             <div className={styles.name}>IT & Support</div>
 
             <p>
-              Our CRM's analytics<br/> track sales cycles and<br/> create custom
+              Our CRM's analytics track sales cycles and create custom
               dashboards.
             </p>
           </div>
@@ -59,7 +59,7 @@ function Fadedcards() {
             <div className={styles.name}>Manufacturing</div>
 
             <p>
-              Improve efficiency and google <br/>exposure with our<br/> intelligent CRM.
+              Improve efficiency and google exposure with our intelligent CRM.
             </p>
           </div>
           <div
@@ -71,9 +71,9 @@ function Fadedcards() {
             <div className={styles.image}>
               <img src="assets/imgs/page/homepage1/RetailWholesalers.png" />
             </div>
-            <div className={styles.name}>Retail & Salers</div>
+            <div className={styles.name}>Retail & Wholesalers</div>
 
-            <p>A unified customer service system across multiple Countries around the World.</p>
+            <p>A unified customer service system across multiple channels.</p>
           </div>
         </div>
 
