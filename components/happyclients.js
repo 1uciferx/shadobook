@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "../styles/happyclients.module.css";
 
 function Happyclients() {
   return (
@@ -14,7 +13,7 @@ function Happyclients() {
           <div className="row">
             <div className="col-lg-5 mb-30">
               <h3
-                className="text-heading-1 mt-100"
+                className="text-heading-1 mt-30"
                 style={{ fontFamily: "segoe ui" }}
               >
                 Don&rsquo;t take our word for it. See what our clients say.
@@ -27,14 +26,12 @@ function Happyclients() {
               <div className="row" data-masonry='{"percentPosition": true }'>
                 <div className="col-lg-6 col-md-12 col-sm-12">
                   <div className="box-img-user mb-40">
-                    <div className={styles.omggg}>
+                    <div className="img-user img-user-round">
                       <img src="/assets/imgs/page/users/RoyalBlueCoast.png" alt="shadobooks" />
                     </div>
-                    <div className={styles.mee1}>
-                    <h4 className={styles.headee1}>
+                    <h4 className="text-body-lead color-gray-900 mb-5">
                       Royal Blue Coast
                     </h4>
-                    </div>
                   </div>
                   <div className="card-grid-style-1 card-square hover-up mb-20">
                     <p className="text-body-text color-gray-600 text-comment">
@@ -49,10 +46,10 @@ function Happyclients() {
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12">
                   <div className="box-img-user mb-40">
-                    <div className={styles.omggg2}>
+                    <div className="img-user img-user-round">
                       <img src="/assets/imgs/page/users/Rulexx.png" alt="shadobooks" />
                     </div>
-                    <h4 className={styles.headee2}>
+                    <h4 className="text-body-lead color-gray-900 mb-5">
                       Rulexx
                     </h4>
                   </div>
@@ -68,10 +65,10 @@ function Happyclients() {
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12">
                   <div className="box-img-user mb-40">
-                    <div className={styles.omggg2}>
+                    <div className="img-user img-user-round">
                       <img src="/assets/imgs/page/users/BMCLineShipping.png" alt="shadobooks" />
                     </div>
-                    <h4 className={styles.headee3}>
+                    <h4 className="text-body-lead color-gray-900 mb-5">
                       BMC Line Shipping
                     </h4>
                   </div>
@@ -86,10 +83,10 @@ function Happyclients() {
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12">
                   <div className="box-img-user mb-40">
-                    <div className={styles.omggg2}>
+                    <div className="img-user img-user-round">
                       <img src="/assets/imgs/page/users/MercuryFreight.png" alt="shadobooks" />
                     </div>
-                    <h4 className={styles.headee4}>
+                    <h4 className="text-body-lead color-gray-900 mb-5">
                       Mercury Freight
                     </h4>
                   </div>
