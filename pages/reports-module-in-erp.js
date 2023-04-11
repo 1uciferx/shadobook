@@ -6,6 +6,7 @@ import { useState } from "react";
 import PriceTable2 from "../components/elements/PriceTable2";
 import Layout from "../components/layout/Layout";
 import styles from "../styles/Index.module.css";
+import { Helmet } from 'react-helmet';
 import Indexslider from "../components/indexslider";
 import OfferSlider from "../components/slider/Offer";
 import Contactmanager from "../components/contactmanager";
@@ -31,6 +32,20 @@ function Home() {
         <title>Fully Integrated Reports Module in ERP | Shadobooks ERP </title>
         <meta name="description" content="The Reports Module in ERP Software provides users with comprehensive insights into their business operations for better decision-making." />
       </Head>
+
+ {/* facebook and twitter meta graphs starts here */}
+ <Helmet>
+        <meta property="og:title" content="Shadobooks ERP" />
+        <meta property="og:description" content="Shadobooks erp solutions." />
+        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Shadobooks ERP" />
+        <meta name="twitter:description" content="Shadobooks erp solutions." />
+        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+      </Helmet>
+
+      {/* facebook and twitter meta graphs ends here */}
 
       <Layout>
         <section className="section-box">
@@ -118,12 +133,7 @@ function Home() {
                           </p>
                           <br></br>
                           <p>
-                            Budget: Reports like Budget Overview, Budget vs
-                            Actual, and Profit and Loss Budget Performance are
-                            used to track the amounts that were budgeted versus
-                            what was actually spent on various accounts. Sales
-                            tax contains reports like the Tax Detail Report, Tax
-                            Summary and that assist in keeping track of taxes.
+                            Budget: Reports like<span><a href="/project-management-software"> Project</a></span> Budget Overview, Budget vs Actual, and Profit and Loss Budget Performance are used to track the amounts that were budgeted versus what was actually spent on various accounts. Sales tax contains reports like the Tax Detail Report, Tax Summary and that assist in keeping track of taxes. 
                           </p>
                         </p>
                       </div>
@@ -486,8 +496,7 @@ function Home() {
 
                           <br></br>
                           <li>
-                            Payment Modes (Transactions) Report: shows the
-                            breakdown of payments made by different modes
+                          This platform enables<span><a href="/sales-rep-software"> Sales Agents</a></span> and companies to monitor and handle the invoices that have been issued to their clients. 
                           </li>
                         </p>
                       </div>

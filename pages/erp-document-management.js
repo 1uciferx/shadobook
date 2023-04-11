@@ -11,7 +11,7 @@ import OfferSlider from "../components/slider/Offer";
 import Contactmanager from "../components/contactmanager";
 import TestimonialSlider from "../components/slider/Testimonial";
 import Head from 'next/head';
-
+import { Helmet } from 'react-helmet';
 
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
@@ -32,6 +32,20 @@ function Home() {
         <title>ERP Document Management | Shadobooks ERP</title>
         <meta name="description" content="Shadobooks ERP provides a comprehensive system for document management, ensuring secure storage, effective file management and streamlined document workflows." />
       </Head>
+
+ {/* facebook and twitter meta graphs starts here */}
+ <Helmet>
+        <meta property="og:title" content="Shadobooks ERP" />
+        <meta property="og:description" content="Shadobooks erp solutions." />
+        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Shadobooks ERP" />
+        <meta name="twitter:description" content="Shadobooks erp solutions." />
+        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+      </Helmet>
+
+      {/* facebook and twitter meta graphs ends here */}
 
 
       <Layout>
@@ -131,7 +145,7 @@ function Home() {
                         <br />
                         <br />➟ Using the information provided in the form, you
                         can view the specified downloaded files from the list of
-                        downloaded files in the manage download page.
+                        downloaded files in the manage download page.Get help with technical issues related to files through our <span><a href="/ticketing-system-in-erp"> support</a></span> service. 
                       </p>
                     </div>
                   </div>
@@ -194,8 +208,7 @@ function Home() {
                     <div className="box-optimized">
                       <h3 className="text-heading-2">File Manager</h3>
                       <p className="text-body-excerpt mt-30">
-                        ➟ You can organize files obtained from many sources with
-                        Shadobooks ERP's File Manager.
+                        ➟ <span><a href="/">Sales Agent</a></span> has the ability to upload and securely store important documents related to sales activities. 
                         <br />
                         <br />
                         ➟ You can also make your own folders and place files in

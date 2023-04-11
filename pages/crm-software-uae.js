@@ -7,6 +7,7 @@ import styles from "../styles/Index.module.css";
 import Indexslider from "../components/indexslider";
 import Contactmanager from "../components/contactmanager";
 import Head from 'next/head';
+import { Helmet } from 'react-helmet';
 
 function Sales() {
   return (
@@ -15,6 +16,20 @@ function Sales() {
         <title>Maximize Sales with best CRM software | Shadobooks ERP</title>
         <meta name="description" content="Elevate your sales with our CRM software. Optimize your process with lead management, customer tracking, and more for business growth and success." />
       </Head>
+
+      {/* facebook and twitter meta graphs starts here */}
+      <Helmet>
+        <meta property="og:title" content="Shadobooks ERP" />
+        <meta property="og:description" content="Shadobooks erp solutions." />
+        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Shadobooks ERP" />
+        <meta name="twitter:description" content="Shadobooks erp solutions." />
+        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+      </Helmet>
+
+      {/* facebook and twitter meta graphs ends here */}
 
       <Layout>
         <div className="section-box">
@@ -309,7 +324,7 @@ function Sales() {
                   </p>
                   <p className="text-body-text mt-30 icon-leaf">
                     The item overview page can be used to manage the items, and
-                    track progress and performance of your team.The item is linked with both the inventory and<span><a href="/vendor-management-software-uae"> purchase</a></span>  modules. 
+                    track progress and performance of your team.The item is linked with both the inventory and<span><a href="/vendor-management-software-uae"> purchase</a></span>  modules.
                   </p>
                 </div>
 

@@ -97,7 +97,7 @@ const Cintoslider = () => {
           height={200}
         />
       </div>
-      <div>
+      {/* <div>
         <Image
           className={styles.imgg1}
           src="/assets/imgs/page/homepage4/fre7.png"
@@ -105,7 +105,7 @@ const Cintoslider = () => {
           width={200}
           height={200}
         />
-      </div>
+      </div> */}
       <div>
         <Image
           className={styles.imgg1}
@@ -115,7 +115,7 @@ const Cintoslider = () => {
           height={200}
         />
       </div>
-      <div>
+      {/* <div>
         <Image
           className={styles.imgg1}
           src="/assets/imgs/page/homepage4/fre2.png"
@@ -123,7 +123,7 @@ const Cintoslider = () => {
           width={200}
           height={200}
         />
-      </div>
+      </div> */}
     </Slider>
   );
 };

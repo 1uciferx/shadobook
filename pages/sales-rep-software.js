@@ -6,6 +6,7 @@ import { Col, Row } from "antd";
 import { Breadcrumb } from "antd";
 import "react-modal-video/css/modal-video.css";
 import Indexslider from "../components/indexslider";
+import { Helmet } from 'react-helmet';
 import styles from "../styles/SalesAgent.module.css";
 import CounterUp from "../components/elements/CounterUp";
 import Layout from "../components/layout/Layout";
@@ -24,6 +25,20 @@ function Salesagent() {
           content="Sales Rep ERP Software is helps to automate business tasks, track performance, manage customer relationships, and generate invoices & Reports."
         />
       </Head>
+
+ {/* facebook and twitter meta graphs starts here */}
+ <Helmet>
+        <meta property="og:title" content="Shadobooks ERP" />
+        <meta property="og:description" content="Shadobooks erp solutions." />
+        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Shadobooks ERP" />
+        <meta name="twitter:description" content="Shadobooks erp solutions." />
+        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+      </Helmet>
+
+      {/* facebook and twitter meta graphs ends here */}
 
       <Layout>
         <section className="section-box">
@@ -58,8 +73,7 @@ function Salesagent() {
                   <div className="box-optimized">
                     <h3 className="text-heading-2">Dashboard</h3>
                     <p className="text-body-excerpt mt-30">
-                      The sales agent dashboard in ShadobooksERP would likely
-                      show key data, including,
+                    The dashboard for sales agents in Shadobooks ERP is expected to display key data<span><a href="/reports-module-in-erp"> reports</a></span> , which may include:
                       <br></br> <br></br>➟ The number of agents,
                       <br></br>➟ The number of active and inactive agents,
                       <br></br>➟ The total number of programs,
@@ -91,9 +105,7 @@ function Salesagent() {
                   <div className="box-optimized">
                     <h3 className="text-heading-2">Management</h3>
                     <p className="text-body-excerpt mt-30">
-                      ➟ In ShadobooksERP, a sales representative is a user with
-                      the ability to manage and track sales and customer
-                      interactions within the system.
+                      ➟ In ShadobooksERP, a sales representative is a user with the ability to view & manage<span><a href="/project-management-software"> projects</a></span> and track sales and customer interactions within the system.
                       <br></br>
                       <br></br>
                       In order to create a new sales agent in ShadobooksERP, you

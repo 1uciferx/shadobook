@@ -7,6 +7,8 @@ import styles from "../styles/Index.module.css";
 import Indexslider from "../components/indexslider";
 import Contactmanager from "../components/contactmanager";
 import Head from "next/head";
+import { Helmet } from 'react-helmet';
+
 
 function Contracts() {
   return (
@@ -20,6 +22,21 @@ function Contracts() {
           content="Boost productivity with our contract tracking software. Automate the process with real-time updates, configurable workflows, and automated reminders."
         />
       </Head>
+
+      {/* facebook and twitter meta graphs starts here */}
+      <Helmet>
+        <meta property="og:title" content="Shadobooks ERP" />
+        <meta property="og:description" content="Shadobooks erp solutions." />
+        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Shadobooks ERP" />
+        <meta name="twitter:description" content="Shadobooks erp solutions." />
+        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+      </Helmet>
+
+      {/* facebook and twitter meta graphs ends here */}
+
 
       <Layout>
         <section className="section-box">
@@ -92,7 +109,7 @@ function Contracts() {
 
             <p className="text-body-lead-medium color-gray-600 mt-20 text-center">
               CRM contracts are digital documents that formalise relationships
-              between businesses and their customers.This module enables businesses to store, manage and track their contracts, and also helps businesses to ensure compliance with contractual obligations. The<span><a href="/inventory-management-system"> Inventory module</a></span> is linked to the Contract module, allowing businesses to track inventory related to specific contracts. The <span><a href="/Knowledge-management-software"> Knowledge Base module</a></span> is linked to the Contract module, allowing businesses to store important information related to their contracts. 
+              between businesses and their customers.This module enables businesses to store, manage and track their contracts, and also helps businesses to ensure compliance with contractual obligations. The<span><a href="/inventory-management-system"> Inventory module</a></span> is linked to the Contract module, allowing businesses to track inventory related to specific contracts. The <span><a href="/Knowledge-management-software"> Knowledge Base module</a></span> is linked to the Contract module, allowing businesses to store important information related to their contracts.
             </p>
             <div className="col-lg-2 col-sm-1 col-12" />
           </div>

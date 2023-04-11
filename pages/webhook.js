@@ -9,6 +9,7 @@ import styles from "../styles/Index.module.css";
 import Indexslider from "../components/indexslider";
 import Intro2 from "../components/slider/Intro2";
 import Head from "next/head";
+import { Helmet } from 'react-helmet';
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -23,6 +24,20 @@ function Index6() {
           content="The Webhooks API allows you to subscribe to events happening in Shadobooks ERP and receive an HTTP request to an endpoint you configure whenever those events occur."
         />
       </Head>
+
+ {/* facebook and twitter meta graphs starts here */}
+ <Helmet>
+        <meta property="og:title" content="Shadobooks ERP" />
+        <meta property="og:description" content="Shadobooks erp solutions." />
+        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Shadobooks ERP" />
+        <meta name="twitter:description" content="Shadobooks erp solutions." />
+        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+      </Helmet>
+
+      {/* facebook and twitter meta graphs ends here */}
 
       <Layout>
         <div className="section-box">
@@ -158,8 +173,9 @@ function Index6() {
                   by our system, as well as information on the call's success or
                   failure.
                   <br />
-                  <br />➟ Webhooks can be enabled or disabled in the developer
-                  options.
+                  <br />➟ Companies can monitor the status of their<span><a href="/manufacturing-erp-software"> Manufacturing</a></span> Process and get alerts on the calibre of their products. 
+
+A company can track its sales operations and gather client information with the use of the<span><a href="/point-of-sale-system"> POS</a></span> function, which can then be linked to web hooks for improved tracking and analysis. 
                 </div>
               </div>
             </div>

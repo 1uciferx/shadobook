@@ -11,6 +11,8 @@ import OfferSlider from "../components/slider/Offer";
 import Contactmanager from "../components/contactmanager";
 import TestimonialSlider from "../components/slider/Testimonial";
 import Head from 'next/head';
+import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet';
 
 
 const ModalVideo = dynamic(import("react-modal-video"), {
@@ -34,6 +36,20 @@ function Home() {
         <title>Best HR and Payroll Software | Shadobooks ERP</title>
         <meta name="description" content="HR and Payroll Software helps organizations streamline processes, automate payroll calculations, track attendance, and stay compliant with labor laws." />
       </Head>
+
+ {/* facebook and twitter meta graphs starts here */}
+ <Helmet>
+        <meta property="og:title" content="Shadobooks ERP" />
+        <meta property="og:description" content="Shadobooks erp solutions." />
+        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Shadobooks ERP" />
+        <meta name="twitter:description" content="Shadobooks erp solutions." />
+        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+      </Helmet>
+
+      {/* facebook and twitter meta graphs ends here */}
 
       <Layout>
         <section className="section-box">
@@ -91,9 +107,7 @@ function Home() {
                   className="text-body-lead-large color-gray-500 mt-40 pr-40 "
                 >
                   <p>
-                    ➟ Keeping accurate and current records of employee
-                    information, including personal details, job titles, and
-                    bank account.
+                    ➟ Keeping accurate and current records of employee information, including personal details, job titles, and <span><a href="/Accounting-erp-software"> bank account</a></span>.
                   </p>
                   <br></br>
                   <p>
@@ -236,9 +250,7 @@ function Home() {
                     <br></br>
 
                     <p>
-                      ➟ You can receive a particular employee information by
-                      entering their name, department, and hire date in order to
-                      give bonuses.
+                      ➟ HR & payroll module allows businesses to access data from<span><a href="/Utilities-management-software"> Utilities</a></span> reports and use it for payrolls, employee tracking, and more, by uploading exported CSV files. 
                     </p>
                   </p>
                 </div>

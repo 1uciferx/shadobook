@@ -19,6 +19,8 @@ import { DownOutlined } from "@ant-design/icons";
 import Zoom from "react-reveal/Zoom";
 import Head from 'next/head';
 import Contactmanager from "../components/contactmanager";
+import { Helmet } from 'react-helmet';
+
 
 function Process() {
   return (
@@ -27,6 +29,20 @@ function Process() {
         <title>Boost Productivity With Advanced Inventory Management System</title>
         <meta name="description" content="Improve your inventory control and simplify management using our inventory management system." />
       </Head>
+
+ {/* facebook and twitter meta graphs starts here */}
+ <Helmet>
+        <meta property="og:title" content="Shadobooks ERP" />
+        <meta property="og:description" content="Shadobooks erp solutions." />
+        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Shadobooks ERP" />
+        <meta name="twitter:description" content="Shadobooks erp solutions." />
+        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+      </Helmet>
+
+      {/* facebook and twitter meta graphs ends here */}
 
       <Layout>
         <section className="section-box">

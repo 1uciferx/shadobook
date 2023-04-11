@@ -10,6 +10,7 @@ import Contactmanager from "../components/contactmanager";
 import Layout from "../components/layout/Layout";
 import Checkmeslider from "../components/slider/Checkmeslider";
 import Head from "next/head";
+import { Helmet } from 'react-helmet';
 
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
@@ -22,6 +23,20 @@ function Project() {
         <title>Online Project Management Software | Shadobooks ERP</title>
         <meta name="description" content="Shadobooks ERP Projects is a cloud-based project management software that helps teams to organize, monitor progress and achieve project goals." />
       </Head>
+
+ {/* facebook and twitter meta graphs starts here */}
+ <Helmet>
+        <meta property="og:title" content="Shadobooks ERP" />
+        <meta property="og:description" content="Shadobooks erp solutions." />
+        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Shadobooks ERP" />
+        <meta name="twitter:description" content="Shadobooks erp solutions." />
+        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+      </Helmet>
+
+      {/* facebook and twitter meta graphs ends here */}
 
       <Layout>
         <div className="page-homepage7-bg"></div>
@@ -166,7 +181,7 @@ function Project() {
                         project outline that describes key elements about the
                         project. A project overview contains general information
                         such as the project name, customer information, and
-                        sponsors.
+                        sponsors. Projects can receive notifications from<span><a href="/webhook"> Web hooks</a></span>, which are automated messages triggered by specific events or updates. 
                       </p>
                     </div>
                   </div>
@@ -475,9 +490,7 @@ function Project() {
                       ➟ Some common synonyms of task are assignment, chore,
                       duty, job, and stint.
                       <br />
-                      <br /> ➟ While all these words mean "a piece of work to be
-                      done," task implies work imposed by a person in authority
-                      or an employer or by circumstance.
+                      <br /> ➟  While all these words mean "a piece of work to be done,"<span><a href="/task-management-software"> task</a></span> implies work imposed by a person in authority or an employer or by circumstance. 
                     </p>
                   </div>
                 </div>
@@ -719,6 +732,7 @@ function Project() {
                       <br />➟ When you launch a project from the top tabs, you
                       will see a Files tab. Click on the files tab to easily
                       drag and drop the file you need to upload for the project.
+                      The module responsible for storing uploaded files is the<span><a href="/erp-document-management"> file manager. </a></span>
                     </p>
                   </div>
                 </div>

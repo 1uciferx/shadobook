@@ -2,11 +2,25 @@
 import Link from "next/link";
 import Layout from "/components/layout/Layout";
 import styles from "/styles/Blog.module.css";
+import { Helmet } from 'react-helmet';
 
- 
 function Streamlinefinancialoperations() {
   return (
     <>
+      {/* facebook and twitter meta graphs starts here */}
+      <Helmet>
+        <meta property="og:title" content="Shadobooks ERP" />
+        <meta property="og:description" content="Shadobooks erp solutions." />
+        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Shadobooks ERP" />
+        <meta name="twitter:description" content="Shadobooks erp solutions." />
+        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+      </Helmet>
+
+      {/* facebook and twitter meta graphs ends here */}
+
       <Layout>
         <div>
           <section className="section-box">
@@ -30,19 +44,18 @@ function Streamlinefinancialoperations() {
           </section>
           <section className="section-box mt-20 mb-50">
             <div className="container">
-            
+
 
               <div className="row">
                 <div className="col-lg-2" />
                 <div className="col-lg-8">
                   <div className="single-detail mt-50">
                     <p />
+                    <h2 className="text-heading-4">
+                      Overview of Shadobooks {" "}
+                    </h2>
                     <p>
-                      Shadobooks ERP can help business streamline financial
-                      operations and boost efficiency. Here are 5 ways this
-                      powerful software can help you save time, reduce costs,
-                      and increase profits. Learn how Shadobooks can help your
-                      business succeed today!{" "}
+                      Shadobooks is an up-to-date information and innovative solutions company that provides a range of software products and services to help businesses manage their operations more efficiently. Our offerings include enterprise resource planning (ERP), customer relationship management (CRM), asset management, project management, HR and payroll, finance and accounting, and customized software solutions. We are dedicated to helping businesses of all sizes improve their operational efficiency and profitability. Our software solutions are designed to streamline and automate key business processes, making it easier for businesses to manage their operations, improve productivity, and reduce costs.
                     </p>
                     <img
                       className="img-responsive bdr-16 mb-40"
@@ -67,7 +80,7 @@ function Streamlinefinancialoperations() {
                       financial operations.{" "}
                     </p>
                     <p />
-                
+
                     <p />
                     <h3 className="text-heading-4 mt-50">
                       How Shadobooks ERP Systems Streamline Financial Operations{" "}
@@ -93,16 +106,18 @@ function Streamlinefinancialoperations() {
                         <img
                           className="img-responsive bdr-10 mt-0"
                           src="/assets/imgs/page/blog/rr2.jpg"
-                          alt="Shadobooks ERP solutions"
+                          alt="streamline-financial-operations"
                         />
                       </div>
                     </div>
                     <p />
+
                     <img
                       className="img-responsive bdr-16 mb-40 mt-30"
-                      src="/assets/imgs/page/blog/info.jpg"
-                      alt="Shadobooks ERP solutions"
+                      src="/assets/imgs/page/blog/bg123.png"
+                      alt="streamline-financial-operations"
                     />
+
                     <h3 className="text-heading-4">
                       Automated Financial Reporting{" "}
                     </h3>
@@ -132,7 +147,7 @@ function Streamlinefinancialoperations() {
                           className="img-responsive bdr-10 mt-20"
                           src="/assets/imgs/page/blog/rr3.jpg"
                           alt="Shadobooks ERP solutions"
-                        /> 
+                        />
                       </div>
                       <div className="col-lg-8">
                         <p>
@@ -440,12 +455,31 @@ function Streamlinefinancialoperations() {
           </section>
         </div>
 
-        <div className="text-center">
-        <Link href="/request-a-demo">
-        <button className={styles.button89} role="button">BOOK A FREE DEMO</button>
-        </Link>
+        <div className="text-center mb-50">
+          <Link href="/request-a-demo">
+            <button className={styles.button89} role="button">BOOK A FREE DEMO</button>
+          </Link>
         </div>
+
        
+        <div className="col-lg-4 col-sm-12 pr-30 mb-50" style={{ marginLeft: '9%' }}>
+          <div className="card-list-style-1">
+            <Link href="/blog-single"><a className="text-heading-6">Best Professional Accounting Software for your business
+            </a></Link>
+
+            <div className="blog-img-user">
+              <div className="img-user img-user-round"><img src="/assets/imgs/page/homepage1/sb-logo.png" alt="shadobooks" /></div>
+              <h4 className="text-body-lead color-gray-500">Shadobooks</h4>
+              <p className="text-body-small color-gray-500">April 3 , 2023</p>
+            </div>
+            <div className="style-1-img color-bg-10">
+              <Link href="/blog-single"><a><img src="/assets/imgs/page/blog/aa1.jpg" alt="shadobooks" />
+              </a></Link>
+            </div>
+          </div>
+        </div>
+
+
       </Layout>
     </>
   );

@@ -6,8 +6,9 @@ import Layout from "../components/layout/Layout";
 import Slider from "react-slick";
 import dynamic from "next/dynamic";
 import Indexslider from "../components/indexslider";
-import styles from "../styles/Index.module.css";
+import styles from "../styles/index.module.css";
 import Mobileindex from "./mobileindex";
+import { Helmet } from 'react-helmet';
 import Fadedcards from "../components/Fadedcards";
 import Sectiontwo from "../components/sectiontwo";
 import Cards2 from "../components/cards2";
@@ -34,6 +35,23 @@ function Index2() {
     <>
       <Layout>
         {/* firstbox */}
+
+        {/* facebook and twitter meta graphs starts here */}
+        <Helmet>
+          <meta property="og:title" content="Shadobooks ERP" />
+          <meta property="og:description" content="Shadobooks erp solutions." />
+          <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+          <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Shadobooks ERP" />
+          <meta name="twitter:description" content="Shadobooks erp solutions." />
+          <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        </Helmet>
+
+        {/* facebook and twitter meta graphs ends here */}
+
+
+
         <div className={styles.desktophome}>
           <div className={styles.modulescontainer}></div>
 
@@ -41,10 +59,7 @@ function Index2() {
 
           <div
             className="section-box"
-            style={{
-              background:
-                "linear-gradient(to bottom,#FFFFFF ,#c8edeb, #FFFFFF)",
-            }}
+            
           >
             <div className="mt-50 mb-40">
               <div className="container">
@@ -92,7 +107,7 @@ function Index2() {
                       <img
                         className="img-banner img-responsive"
                         alt="shadobooks"
-                        src="hero.png"
+                        src="assets/imgs/page/homepage4/erw.png"
                       />
                     </div>
                   </div>
@@ -105,28 +120,28 @@ function Index2() {
 
           <div
             className={styles.modslider}
-            style={{
-              background: "linear-gradient(to bottom, #FFFFFF , #c8edeb)",
-            }}
+           
           >
-            <div className="mt-30">
+            <div className="mt-30 mb-60">
               <Indexslider />
+
               <div className="text-center">
                 <Link href="/modules">
-                  <button className={styles.featuresbtn} role="button">
-                    <span class="text">Show More</span>
-                    <span style={{ fontFamily: "segoe ui" }}>Our Features</span>
-                  </button>
+                  <div className={styles.buttonstart1}>
+                    <button class={styles.button}>
+                      <span>SHOW MORE </span>
+                    </button>
+                  </div>
                 </Link>
               </div>
             </div>
           </div>
-
+          {/* sectionthree */}
           <div>
             <Fadedcards />
           </div>
+          {/* sectionFOUR */}
 
-          {/* sectionthree */}
           <div>
             <Sectiontwo />
           </div>
@@ -168,40 +183,7 @@ function Index2() {
           {/* section 6 */}
 
 
-          <section className="section-box">
-                        <div className="container mt-100">
-                            <div className="row">
-                                <div className="col-lg-1 col-sm-1 col-12" />
-                                <div className="col-lg-10 col-sm-10 col-12 text-center">
-                                    {/* <h2 className="text-heading-1 color-gray-900 mb-10">Latest Blogs</h2> */}
-                                    <p className="text-body-lead-large color-gray-600 mt-20">Our Latest Blogs</p>
-                                </div>
-                                <div className="col-lg-1 col-sm-1 col-12" />
-                            </div>
-                        </div>
-                        <div className="container mt-40">
-                            <div className="row">
-                            
-                                <div className="col-lg-4 col-sm-12 pr-30 mb-50">
-                                    <div className="card-grid-style-4"><span className="tag-dot">Blog</span>
-                                       
 
-                                        <div className="grid-4-img color-bg-9">
-                                            <Link href="/blogs/professional-accounting-software"><a><img src="/assets/imgs/page/blog/aa1.jpg" alt="Agon" />
-                                            </a></Link>
-                                        </div>
-                                        <Link href="/blog-single"><a className="text-heading-4">Best Professional Accounting Software for your busines
-                                        </a></Link>
-                                    </div>
-                                </div>
-                                                 
-                            </div>
-                            {/* <div className="mt-20 mb-30 text-center">
-                                <Link href="/blog-1"><a className="btn btn-black icon-arrow-right-white">Load more posts
-                                </a></Link>
-                            </div> */}
-                        </div>
-                    </section>
 
           <div className={styles.cintoslider}>
             <p> Trusted by the World's Leading Companies</p>
@@ -211,10 +193,59 @@ function Index2() {
             <Cintoslider />
           </div>
         </div>
-
         <div className={styles.mobilehome}>
           <Mobileindex />
         </div>
+
+
+        <section className="section-box">
+          <div className="container mt-100">
+            <div className="row">
+              <div className="col-lg-1 col-sm-1 col-12" />
+              <div className="col-lg-10 col-sm-10 col-12 text-center">
+                {/* <h2 className="text-heading-1 color-gray-900 mb-10">Latest Blogs</h2> */}
+                <p className="text-body-lead-large color-gray-600 mt-20">Our Latest Blogs</p>
+              </div>
+              <div className="col-lg-1 col-sm-1 col-12" />
+            </div>
+          </div>
+
+
+          <div className="container mt-40">
+            <div className="row">
+              <div className="col-lg-4 col-sm-12 pr-30 mb-50">
+                <div className="card-grid-style-4"><span className="tag-dot">Blog 2</span>
+
+
+                  <div className="grid-4-img color-bg-9">
+                    <Link href="/blogs/streamline-financial-operations"><a><img src="/assets/imgs/page/blog/finan.jpg" alt="Agon" />
+                    </a></Link>
+                  </div>
+                  <Link href="/blogs/professional-accounting-software"><a className="text-heading-4">Ways Shadobooks ERP can Stramline Your Financial Operations
+                  </a></Link>
+                </div>
+              </div>
+              <div className="col-lg-4 col-sm-12 pr-30 mb-50">
+                <div className="card-grid-style-4"><span className="tag-dot">Blog 1</span>
+
+
+                  <div className="grid-4-img color-bg-9">
+                    <Link href="/blogs/professional-accounting-software"><a><img src="/assets/imgs/page/blog/aa1.jpg" alt="Agon" />
+                    </a></Link>
+                  </div>
+                  <Link href="/blogs/professional-accounting-software"><a className="text-heading-4">Best Professional Accounting Software for your business
+                  </a></Link>
+                </div>
+              </div>
+
+            </div>
+            {/* <div className="mt-20 mb-30 text-center">
+                                <Link href="/blog-1"><a className="btn btn-black icon-arrow-right-white">Load more posts
+                                </a></Link>
+                            </div> */}
+          </div>
+        </section>
+
       </Layout>
     </>
   );

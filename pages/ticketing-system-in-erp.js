@@ -4,6 +4,7 @@ import Link from "next/link";
 import Layout from "../components/layout/Layout";
 import styles from "../styles/Index.module.css";
 import Indexslider from "../components/indexslider";
+import { Helmet } from 'react-helmet';
 import Contactmanager from "../components/contactmanager";
 import Head from "next/head";
 
@@ -14,6 +15,20 @@ function Index8() {
         <title>Ticketing System in ERP | Shadobooks ERP</title>
         <meta name="description" content="Ticketing System in ERP module uses automated technology to help manage the ticketing process, registering, organizing, and ranking tickets into categories." />
       </Head>
+
+ {/* facebook and twitter meta graphs starts here */}
+ <Helmet>
+        <meta property="og:title" content="Shadobooks ERP" />
+        <meta property="og:description" content="Shadobooks erp solutions." />
+        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Shadobooks ERP" />
+        <meta name="twitter:description" content="Shadobooks erp solutions." />
+        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+      </Helmet>
+
+      {/* facebook and twitter meta graphs ends here */}
 
       <Layout>
         <div className="section-box">
@@ -55,14 +70,9 @@ function Index8() {
 
                     <div className="d-flex mt-20">
                       <p className="text-body-text color-gray-600 mt-5">
-                        The shadobooks CRM ticketing system includes a unique
-                        dashboard for organising and handling a huge number of
-                        support tickets. It also results in a more enjoyable
-                        client experience. A CRM ticketing system gives
-                        solutions to two specific features of the ticketing
-                        system: Customers generating inquiries through multiple
-                        means, as email or phone. Priority-based ticket
-                        resolution for bulk tickets.
+                      Tickets are used to track the use of<span><a href="/fixed-assets-management-erp-software"> Company Assets</a></span> and any tasks related to asset management. 
+
+Tickets are used to generate<span><a href="/reports-module-in-erp"> Reports</a></span> on the progress of customer service inquiries and project progress. 
                       </p>
                     </div>
                   </div>

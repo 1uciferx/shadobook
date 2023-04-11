@@ -10,6 +10,7 @@ import Contactmanager from "../components/contactmanager";
 import styles from "../styles/Index.module.css";
 import Indexslider from "../components/indexslider";
 import Head from "next/head";
+import { Helmet } from 'react-helmet';
 
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
@@ -26,6 +27,20 @@ function Manufacturing() {
           content="Elevate your production capabilities with cloud-based manufacturing ERP software, designed to help you streamline processes and maximize efficiency."
         />
       </Head>
+
+ {/* facebook and twitter meta graphs starts here */}
+ <Helmet>
+        <meta property="og:title" content="Shadobooks ERP" />
+        <meta property="og:description" content="Shadobooks erp solutions." />
+        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Shadobooks ERP" />
+        <meta name="twitter:description" content="Shadobooks erp solutions." />
+        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+      </Helmet>
+
+      {/* facebook and twitter meta graphs ends here */}
 
       <Layout>
         <section className="section-box">
@@ -96,15 +111,11 @@ function Manufacturing() {
             <div className="col-lg-2 col-sm-1 col-12" />
             <div className="col-lg-8 col-sm-10 col-12 text-center mt-40">
               <h2 className="text-heading-2 color-gray-900 mb-10">
-                Bringing Efficiency to Manufacturing
-                <br className="d-lg-block d-none" />- The Power of CRM!
+              It can help manufacturers optimize their processes, track product performance and customer satisfaction, and identify areas for improvement
               </h2>
             </div>
             <p className="text-body-lead-large color-gray-600 mt-20">
-              A manufacturing dashboard can provide valuable insights into
-              production processes and product sales. It can help manufacturers
-              optimize their processes, track product performance and customer
-              satisfaction, and identify areas for improvement.
+            Manufacturers can enhance their operations and effectively monitor product performance and customer satisfaction while identifying opportunities for improvement and quality enhancement of their<span><a href="/fixed-assets-management-erp-software"> Company's Assets</a></span> through the use of a<span><a href="/erp-document-management"> File Manager. </a></span>
             </p>
             <div className="col-lg-2 col-sm-1 col-12" />
           </div>
