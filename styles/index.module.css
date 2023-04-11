@@ -130,7 +130,7 @@
   width: 54%;
   font-family: Segoe UI;
   text-align: start;
- 
+  margin-left: 1%;
 }
 
 .para3{
@@ -397,6 +397,11 @@
 .buttonstart {
   margin: auto;
   text-align: start;
+}
+
+.buttonstart1 {
+  margin: auto;
+  text-align: center;
 }
 
 .button {

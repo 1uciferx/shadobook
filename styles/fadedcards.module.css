@@ -1,16 +1,16 @@
 .allcontent{
-    background: linear-gradient(to bottom, #c8edeb, #FFFFFF);
+  background: linear-gradient(to bottom,#FFFFFF,#FFFFFF,#FFFFFF, #a2e2de, #FFFFFF);
   
 }
 
 .heading1{
     text-align: center;
-    font-size: 34px;
+    font-size: 44px;
     line-height: 138%;
     font-family: Segoe UI;
     font-weight: 700;
     font-style: normal;
-    color: rgb(30, 32, 32);
+    color: #150D48;
     margin-top: 30px;
   
 
@@ -18,7 +18,7 @@
 }
 .smallheading{
   text-align: center;
-  font-size: 15px;
+  font-size: 27px;
   font-weight: bold;
   font-family: Segoe UI;
   
@@ -30,7 +30,7 @@
    
  
     font-family:Segoe UI;
-    font-size: 23px;
+    font-size: 25px;
     line-height: 26px;
     color:rgb(39, 38, 38);
     font-weight: 400;
@@ -75,7 +75,7 @@
 .box .image img{
   height: 100%;
   width: 100%;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   object-fit: cover;
 
 }

@@ -50,11 +50,12 @@ const Header = ({ handleOpen, headerStyle }) => {
 
   return (
     <>
-    
+    {/* this is the code to make the header to fix when scrollling */}
+    {/* ? `${headerStyle} header sticky-bar stick ` */}
       <header
         className={
           scroll
-            ? `${headerStyle} header sticky-bar stick `
+            ? `${headerStyle} header sticky-bar `   
             : `${headerStyle} header sticky-bar`
         }>
 

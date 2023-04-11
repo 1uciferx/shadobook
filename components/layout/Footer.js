@@ -46,21 +46,21 @@ const Footer = () => {
                             <h4 className="text-heading-5">About Us</h4>
                             <ul className="menu-footer mt-20">
                                 <li>
-                                    <Link href="/#">
-                                        <a>Mission &amp; Vision</a>
+                                    <Link href="/request-a-demo">
+                                        <a>Request a Demo</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/#">
-                                        <a>Our Team</a>
+                                    <Link href="/page-contact">
+                                        <a>Contact us</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/#">
-                                        <a>Careers</a>
+                                    <Link href="https://wa.me/00971528722900">
+                                        <a>Whats App Us</a>
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link href="/#">
                                         <a>Press &amp; Media</a>
                                     </Link>
@@ -74,28 +74,28 @@ const Footer = () => {
                                     <Link href="/#">
                                         <a>Testimonials</a>
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                         <div className="col-lg-3 width-20 mb-30">
-                            <h4 className="text-heading-5">Discover</h4>
+                            <h4 className="text-heading-5">Our Solutions</h4>
                             <ul className="menu-footer mt-20">
                                 <li>
-                                    <Link href="/#">
-                                        <a>Our Blog</a>
+                                    <Link href="/itsupport">
+                                        <a>IT Solutions</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/#">
-                                        <a>Plans &amp; Pricing</a>
+                                    <Link href="/manufacturing1">
+                                        <a>Manufacturing</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/#">
-                                        <a>Knowledge Base</a>
+                                    <Link href="/retailandwholesaler">
+                                        <a>Retail & Wholesalers</a>
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link href="/#">
                                         <a>Cookie Policy</a>
                                     </Link>
@@ -109,28 +109,28 @@ const Footer = () => {
                                     <Link href="/#">
                                         <a>News &amp; Events</a>
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                         <div className="col-lg-3 width-20 mb-30">
-                            <h4 className="text-heading-5">Support</h4>
+                            <h4 className="text-heading-5">Discover</h4>
                             <ul className="menu-footer mt-20">
                                 <li>
                                     <Link href="/#">
-                                        <a>FAQs</a>
+                                        <a>Our Blog</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/#">
-                                        <a>Editor Help</a>
+                                    <Link href="/privacy-policy">
+                                        <a>Privacy Policy</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/#">
-                                        <a>Community</a>
+                                    <Link href="/page-terms">
+                                        <a>Terms of Service</a>
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link href="/#">
                                         <a>Live Chatting</a>
                                     </Link>
@@ -144,37 +144,37 @@ const Footer = () => {
                                     <Link href="/#">
                                         <a>Support Center</a>
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                         <div className="col-lg-3 width-16">
                             <h4 className="text-heading-5">Useful links</h4>
                             <ul className="menu-footer mt-20">
                                 <li>
-                                    <Link href="/#">
-                                        <a>Request an offer</a>
+                                    <Link href="/best-hrms-software">
+                                        <a>Hr Records</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/#">
-                                        <a>How it works</a>
+                                    <Link href="/expense-management-system">
+                                        <a>Expenses</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/#">
-                                        <a>Pricing</a>
+                                    <Link href="/reports-module-in-erp">
+                                        <a>Reports</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/#">
-                                        <a>Reviews</a>
+                                    <Link href="/task-management-software">
+                                        <a>Tasks</a>
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link href="/#">
                                         <a>Stories</a>
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
@@ -185,9 +185,9 @@ const Footer = () => {
                                 <Link href="/privacy-policy">
                                     <a className="text-body-text color-gray-400 ml-50">Privacy policy</a>
                                 </Link>
-                                <Link href="/#">
+                                {/* <Link href="/#">
                                     <a className="text-body-text color-gray-400 ml-50">Cookies</a>
-                                </Link>
+                                </Link> */}
                                 <Link href="/page-terms">
                                     <a className="text-body-text color-gray-400 ml-50">Terms of service</a>
                                 </Link>
@@ -197,7 +197,7 @@ const Footer = () => {
                                     <Link href="https://www.facebook.com/shadobookscrm">
                                         <a className="icon-socials icon-facebook"></a>
                                     </Link>
-                                    <Link href="https://twitter.com/shado_books">
+                                    <Link href="https://twitter.com/shadobooks_erp">
                                         <a className="icon-socials icon-twitter"></a>
                                     </Link>
                                     <Link href="https://www.instagram.com/shadobooks_crm/">
