@@ -8,7 +8,7 @@ function Cards3() {
     <div className={styles.mypar}>
       <div class="container text-center mt-60"> 
         <div class="row"> 
-          <div class="col-6 mt-100">
+          <div class="col-4 mt-200">
             <h2 className={styles.heading1}>Our Features</h2>
             <p className={styles.para1}>
               From the big picture to every<br></br> tiny detail, we got you
@@ -29,7 +29,7 @@ function Cards3() {
                   </Link>
 
           </div>
-          <div class="col mt-110">
+          <div class="col-3 mt-110">
            
           <div class="card h-50 shadow-lg p-3 mb-5 bg-body-tertiary rounded-5 border border-0" style={{borderRadius: "30px"}}>
               <div className={styles.profile}>
@@ -60,7 +60,7 @@ function Cards3() {
            
           </div>
 
-          <div class="col mt-40">
+          <div class="col-3 mt-40">
             <div class="card h-50 shadow-lg p-3 mb-5 bg-body-tertiary rounded-5 border border-0" style={{borderRadius: "30px"}}>
               <div className={styles.profile}>
                 {" "}

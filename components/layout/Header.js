@@ -689,7 +689,7 @@ const Header = ({ handleOpen, headerStyle }) => {
             </div>
             <div className={styles.mobera}>
             <Link href="/request-a-demo">
-            <button className={styles.button86} role="button">GET FREE DEMO</button>
+            <button className={styles.button86} role="button">Get free  demo</button>
             </Link>
             </div>
 

@@ -25,7 +25,7 @@ function Cards2() {
 
      
         <div
-          className={styles.box}
+          className={styles.box11}
           style={{
             background: "#287914",
           }}

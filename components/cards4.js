@@ -21,12 +21,12 @@ function Cards4() {
               </div>
             </div>
 
-            <div class="card h-50 mt-60 shadow-lg p-3 mb-5 bg-body-tertiary rounded border border-0" style={{ background: "linear-gradient(to bottom, rgb(238 240 185), rgb(245 244 234)"}}>
+            <div class="card h-50 mt-30 shadow-lg p-3 mb-5 bg-body-tertiary rounded border border-0" style={{ background: "linear-gradient(to bottom, rgb(238 240 185), rgb(245 244 234)"}}>
               <div className={styles.profile}>
                 <img src="assets/imgs/page/homepage1/Retention123.png" />
               </div>
               <div class="card-body">
-                <h5 className={styles.cardheading}>Retention</h5>
+                <h5 className={styles.cardheading2}>Retention</h5>
                 <p className={styles.cardpara}>
                 You can update all their contact details, method of communicating and planned actions you have in mind for the leads.
                 </p>
@@ -36,12 +36,12 @@ function Cards4() {
 
           <div class="col align-self-center">
          
-              <div class="card h-50 shadow-lg p-3 mb-5 bg-body-tertiary rounded border border-0" style={{ background: "linear-gradient(to bottom, rgb(219 245 222), rgb(238 253 246)"}}>
+              <div class="card h-50 shadow-lg p-3 mb-5 bg-body-tertiary rounded border border-0" style={{ background: "linear-gradient(180deg, #D0FFC5 14.88%, rgba(242, 255, 239, 0) 100%"}}>
               <div className={styles.profile}>
               <img src="assets/imgs/page/homepage1/Acquisitiontwo.png" />
               </div>
               <div class="card-body">
-                <h5 className={styles.cardheading}>Activation</h5>
+                <h5 className={styles.cardheading3}>Activation</h5>
                 <p className={styles.cardpara}>
                 Be it your partners from past projects or potential leads, you can integrate all their data here for a single panel source of view.
                 </p>

@@ -1,61 +1,69 @@
-.headee1{
+.headee1 {
+  color: green;
+  font-family: Segoe UI;
+  margin-left: -39%;
+  margin-bottom: -7%;
+}
+
+.omggg {
+  width: 159px;
+  margin-left: -53%;
+}
+
+.headee2 {
+  color: #b750d0;
+  font-family: Segoe UI;
+  margin-left: -39%;
+  margin-bottom: -7%;
+}
+
+.omggg2 {
+  width: 159px;
+  margin-left: -53%;
+}
+
+.headee3 {
+  color: #417bee;
+  font-family: Segoe UI;
+  margin-left: -39%;
+}
+
+.headee4 {
+  color: #f7ac17;
+  font-family: Segoe UI;
+  margin-left: -39%;
+}
+
+@media screen and (max-width: 1200px) {
+  .headee1 {
     color: green;
     font-family: Segoe UI;
-    margin-left: -39%;
-}
-
-.omggg{
-    width: 159px;
-    margin-left: -53%;
-}
-
-.headee2{
-    color: #B750D0;
+    margin-left: -65%;
+  }
+  .headee2 {
+    color: #b750d0;
     font-family: Segoe UI;
-    margin-left: -39%;
-}
-
-.omggg2{
-    width: 159px;
-    margin-left: -53%;
-}
-
-.headee3{
-    color: #417BEE;
+    margin-left: -65%;
+  }
+  .headee3 {
+    color: #417bee;
     font-family: Segoe UI;
-    margin-left: -39%;
-}
-
-
-.headee4{
-    color: #F7AC17;
+    margin-left: -65%;
+  }
+  .headee4 {
+    color: #f7ac17;
     font-family: Segoe UI;
-    margin-left: -39%;
+    margin-left: -65%;
+  }
 }
 
-
-
-@media screen and (max-width:1200px) {
-
-    .headee1{
-        color: green;
-        font-family: Segoe UI;
-        margin-left: -65%;
-    } 
-    .headee2{
-        color: #B750D0;
-        font-family: Segoe UI;
-        margin-left: -65%;
-    }
-    .headee3{
-        color: #417BEE;
-        font-family: Segoe UI;
-        margin-left: -65%;
-    }
-    .headee4{
-        color: #F7AC17;
-        font-family: Segoe UI;
-        margin-left: -65%;
-    }
-}    
-
+.imgp4 {
+    font-family: Jost;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #494949;
+  width: 333px;
+height: 224px;
+  
+}

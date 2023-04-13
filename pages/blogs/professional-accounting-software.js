@@ -3,10 +3,9 @@ import Link from "next/link";
 import Layout from "/components/layout/Layout";
 import Head from "next/head";
 import styles from "/styles/Blog.module.css";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 
-
-function BlogSingle() {
+function Professionalaccountingsoftware() {
   return (
     <>
       <Head>
@@ -20,12 +19,21 @@ function BlogSingle() {
       <Helmet>
         <meta property="og:title" content="Shadobooks ERP" />
         <meta property="og:description" content="Shadobooks erp solutions." />
-        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
-        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta
+          property="og:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.facebook.com/shadobookscrm"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Shadobooks ERP" />
         <meta name="twitter:description" content="Shadobooks erp solutions." />
-        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta
+          name="twitter:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
       </Helmet>
 
       {/* facebook and twitter meta graphs ends here */}
@@ -224,7 +232,11 @@ function BlogSingle() {
                     <p />
                     <h3 className="text-heading-5">Automated Bookkeeping</h3>
                     <p>
-                      Accounting software is designed to automate many of the tedious bookkeeping processes, such as invoicing, bank reconciliation, and financial reporting. Automating bookkeeping can save your business time and money, and free up resources for more important tasks.
+                      Accounting software is designed to automate many of the
+                      tedious bookkeeping processes, such as invoicing, bank
+                      reconciliation, and financial reporting. Automating
+                      bookkeeping can save your business time and money, and
+                      free up resources for more important tasks.
                     </p>
                     <p />
                     {/* <div className="row mt-45 mb-30">
@@ -253,22 +265,35 @@ function BlogSingle() {
                     </div> */}
                     <p />
 
-
                     <h3 className="text-heading-5">Streamlined Invoicing</h3>
                     <p>
-                      You can quickly and easily create, send, and manage invoices. You can customize invoices to include all the necessary details, such as customer information, payment terms, and taxes. You can also send invoices directly to customers via email, and track payments in real-time.
+                      You can quickly and easily create, send, and manage
+                      invoices. You can customize invoices to include all the
+                      necessary details, such as customer information, payment
+                      terms, and taxes. You can also send invoices directly to
+                      customers via email, and track payments in real-time.
                     </p>
 
                     <div className="row">
                       <div className="col-lg-8">
-                        <h3 className="text-heading-5">Accurate Financial Reporting</h3>
+                        <h3 className="text-heading-5">
+                          Accurate Financial Reporting
+                        </h3>
                         <p>
-                          Shadobooks accounting software generates accurate financial reports, such as balance sheets and profit and loss statements. This makes it easy to monitor the financial health of your business and quickly identify areas that need improvement.
+                          Shadobooks accounting software generates accurate
+                          financial reports, such as balance sheets and profit
+                          and loss statements. This makes it easy to monitor the
+                          financial health of your business and quickly identify
+                          areas that need improvement.
                         </p>
 
                         <h3 className="text-heading-5">Improved Cash Flow</h3>
                         <p>
-                          It makes it easier to manage cash flow, allowing you to track what money is coming in and what money is going out. The software also helps you to make smarter decisions about how to allocate resources and make better use of available capital.
+                          It makes it easier to manage cash flow, allowing you
+                          to track what money is coming in and what money is
+                          going out. The software also helps you to make smarter
+                          decisions about how to allocate resources and make
+                          better use of available capital.
                         </p>
                       </div>
                       <div className="col-lg-4">
@@ -282,64 +307,72 @@ function BlogSingle() {
                     <p />
                     <h3 className="text-heading-5">Greater Efficiency</h3>
                     <p>
-                      Shadobooks ERP simplifies and streamlines the accounting process, so you can work more efficiently. The software also helps to reduce errors and increase accuracy, so you can be confident that your financial data is up-to-date and accurate.
+                      Shadobooks ERP simplifies and streamlines the accounting
+                      process, so you can work more efficiently. The software
+                      also helps to reduce errors and increase accuracy, so you
+                      can be confident that your financial data is up-to-date
+                      and accurate.
                     </p>
                     <h3 className="text-heading-5">Easier Tax Filing</h3>
                     <p>
-                      Tax filing can be made easier and more efficient by generating reports that show your taxable income, deductible expenses, and more. This makes the process simpler and more efficient, so you can spend less time worrying about taxes and more time growing your business.
+                      Tax filing can be made easier and more efficient by
+                      generating reports that show your taxable income,
+                      deductible expenses, and more. This makes the process
+                      simpler and more efficient, so you can spend less time
+                      worrying about taxes and more time growing your business.
                     </p>
-
-
-
-
-
-
-
 
                     <h3 className="text-heading-3">Conclusion</h3>
                     <p>
-                      In summary, professional accounting software is very essential for any business that wants to manage its finances effectively.
+                      In summary, professional accounting software is very
+                      essential for any business that wants to manage its
+                      finances effectively.
                     </p>
                   </div>
 
-
-
-
-
-
-
                   <div className="text-center">
                     <Link href="/request-a-demo">
-                      <button className={styles.button89} role="button">BOOK A FREE DEMO</button>
+                      <button className={styles.button89} role="button">
+                        BOOK A FREE DEMO
+                      </button>
                     </Link>
                   </div>
-
-
-
-
-
-
-
                 </div>
               </div>
             </div>
           </section>
         </div>
 
-        <div className="col-lg-4 col-sm-12 pr-30 mb-50" style={{ marginLeft: '9%' }}>
+        <div
+          className="col-lg-4 col-sm-12 pr-30 mb-50"
+          style={{ marginLeft: "9%" }}
+        >
           <div className="card-list-style-1">
-            <Link href="/blog-single"><a className="text-heading-6">Ways Shadobooks ERP can Streamline
-              Your Financial Operations
-            </a></Link>
+            <Link href="/blogs/professional-accounting-software">
+              <a className="text-heading-6">
+                Ways Shadobooks ERP can Streamline Your Financial Operations
+              </a>
+            </Link>
 
             <div className="blog-img-user">
-              <div className="img-user img-user-round"><img src="/assets/imgs/page/homepage1/sb-logo.png" alt="shadobooks" /></div>
+              <div className="img-user img-user-round">
+                <img
+                  src="/assets/imgs/page/homepage1/sb-logo.png"
+                  alt="shadobooks"
+                />
+              </div>
               <h4 className="text-body-lead color-gray-500">Shadobooks</h4>
               <p className="text-body-small color-gray-500">April 10 , 2023</p>
             </div>
             <div className="style-1-img color-bg-10">
-              <Link href="/blog-single"><a><img src="/assets/imgs/page/blog/thomas.jpg" alt="shadobooks" />
-              </a></Link>
+              <Link href="/blogs/professional-accounting-software">
+                <a>
+                  <img
+                    src="/assets/imgs/page/blog/thomas.jpg"
+                    alt="shadobooks"
+                  />
+                </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -348,4 +381,4 @@ function BlogSingle() {
   );
 }
 
-export default BlogSingle;
+export default Professionalaccountingsoftware;
