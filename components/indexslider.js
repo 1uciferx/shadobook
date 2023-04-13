@@ -17,7 +17,7 @@ const Featureslider = () => {
       quote:
         "Human resource training programmes are specialised courses that include the name of the training programme, the training type, the training item, the department, the training libraries, minimum point, and the training results.",
       bg: "bd-bg-6",
-      link: "/reports",
+      link: "/reports-module-in-erp",
     },
     {
       avatar: "Contracts3.png",
@@ -26,7 +26,7 @@ const Featureslider = () => {
       quote:
         "The process of operational contract management is carried out within an organisation using Shadobooks CRM. Human resource contract management includes the staff name.",
       bg: "bd-bg-6",
-      link: "/contracts",
+      link: "/contract-tracking-software",
     },
     {
       avatar: "Expenses4.png",
@@ -35,7 +35,7 @@ const Featureslider = () => {
       quote:
         "Dependant refers to a staff member's spouse or child who is fully dependent on the employee for support. To create a new dependant in Shadobooks CRM, enter the employee dependant's details in the dependant’s form.",
       bg: "bd-bg-6",
-      link: "/Expense",
+      link: "/expense-management-system",
     },
     {
       avatar: "Support3.png",
@@ -44,7 +44,7 @@ const Featureslider = () => {
       quote:
         "The purpose of the layoff checklist in shadobooks CRM is to provide a process for designating an employee for layoff. The layoff checklist includes the employee's name, email address, job position, department.",
       bg: "bd-bg-6",
-      link: "/support-page",
+      link: "/ticketing-system-in-erp",
     },
     {
       avatar: "Accountingvoucher2.png",
@@ -53,7 +53,7 @@ const Featureslider = () => {
       quote:
         "In Shadobooks CRM an organisational chart depicts the organisational structure by connecting distinct employees with their unit’s name, email, parent unit, IMAP Username, IMAP password, and the encryption details.",
       bg: "bd-bg-6",
-      link: "/accounting",
+      link: "/Accounting-erp-software",
     },
     {
       avatar: "Utilities4.png",
@@ -62,7 +62,7 @@ const Featureslider = () => {
       quote:
         "The job description components in shadobooks CRM outline the primary functions and responsibilities of a certain position. This component is also in charge of the job selection processes and the publication.",
       bg: "bd-bg-10",
-      link: "/Utilities",
+      link: "/Utilities-management-software",
     },
     {
       avatar: "KnowledgeBase3.png",
@@ -71,7 +71,7 @@ const Featureslider = () => {
       quote:
         "Onboarding in CRM streamlines the process of introducing new employees to an organisation. To provide an effective onboarding experience for new employees, it often involves electronic signatures.",
       bg: "bd-bg-6",
-      link: "/knowledgeBaseKB",
+      link: "/Knowledge-management-software",
     },
     {
       avatar: "Hiring3.png",
@@ -80,7 +80,7 @@ const Featureslider = () => {
       quote:
         "The HR records of shadobooks CRM contain the staff name, code, email, personnel qualifications by department, gender, job position, role, and contact information. You may also examine these details on a chart basis.",
       bg: "bd-bg-6",
-      link: "/hrrecord",
+      link: "/best-hrms-software",
     },
     {
       avatar: "EstimateRequest3.png",
@@ -89,7 +89,7 @@ const Featureslider = () => {
       quote:
         "Q&A management is a type of online documentation that provides guidance for resolving problems encountered by clients. This may be accomplished in Shadobooks CRM by providing subject.",
       bg: "bd-bg-6",
-      link: "/EstimateReq",
+      link: "/estimates-management-software",
     },
     {
       avatar: "sales3.png",
@@ -98,7 +98,7 @@ const Featureslider = () => {
       quote:
         "The HR reports include the following employee information: Layoffs of employees, Salary changes on the staff list, Staff changes by seniority, Staff changes by month.",
       bg: "bd-bg-6",
-      link: "/sales",
+      link: "/crm-software-uae",
     },
   ];
 

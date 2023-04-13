@@ -12,7 +12,6 @@ import Contactmanager from "../components/contactmanager";
 import TestimonialSlider from "../components/slider/Testimonial";
 import Head from 'next/head';
 import { Helmet } from 'react-helmet';
-import { Helmet } from 'react-helmet';
 
 
 const ModalVideo = dynamic(import("react-modal-video"), {

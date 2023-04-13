@@ -11,7 +11,7 @@ function Modules() {
           <div class="row">
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
               <div className={styles.ss2}>
-              <Link href="/accounting">
+              <Link href="/Accounting-erp-software">
                 <div class=" shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Accounting</i>
@@ -28,7 +28,7 @@ function Modules() {
               </div>
             </div>
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/support-page">
+              <Link href="/ticketing-system-in-erp">
                 <div class="shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Support</i>
@@ -45,7 +45,7 @@ function Modules() {
             </div>
 
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/companyasset">
+              <Link href="/fixed-assets-management-erp-software">
                 <div class=" shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Company Assets</i>
@@ -63,7 +63,7 @@ function Modules() {
 
 
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/filemanage">
+              <Link href="/erp-document-management">
                 <div class="shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">File Manager</i>
@@ -88,7 +88,7 @@ function Modules() {
         <div class="container mt-50">
           <div class="row">
           <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/project">
+              <Link href="/project-management-software">
                 <div class="shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Projects</i>
@@ -105,7 +105,7 @@ function Modules() {
             </div>
 
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/knowledgeBaseKB">
+              <Link href="/Knowledge-management-software">
                 <div class=" shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Knowledge Base</i>
@@ -140,7 +140,7 @@ function Modules() {
 
           
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/EstimateReq">
+              <Link href="/estimates-management-software">
                 <div class="shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Estimate Request</i>
@@ -163,7 +163,7 @@ function Modules() {
         <div class="container mt-50 ">
           <div class="row">
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/hrrecord">
+              <Link href="/best-hrms-software">
                 <div class="shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Hr Records</i>
@@ -180,7 +180,7 @@ function Modules() {
             </div>
 
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/Utilities">
+              <Link href="/Utilities-management-software">
                 <div class="shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Utilities</i>
@@ -196,7 +196,7 @@ function Modules() {
               </Link>
             </div>
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/inventory">
+              <Link href="/inventory-management-system">
                 <div class=" shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Inventory</i>
@@ -212,7 +212,7 @@ function Modules() {
               </Link>
             </div>
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/hiring">
+              <Link href="/recruitment-management-software">
                 <div class="shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Hiring</i>
@@ -235,7 +235,7 @@ function Modules() {
         <div class="container mt-50 ">
           <div class="row">
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/tasks">
+              <Link href="/task-management-software">
                 <div class=" shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Tasks</i>
@@ -251,7 +251,7 @@ function Modules() {
               </Link>
             </div>
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/manufacturing">
+              <Link href="/manufacturing-erp-software">
                 <div class="shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-5 ">Manufacturing</i>
@@ -267,7 +267,7 @@ function Modules() {
               </Link>
             </div>
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/leads">
+              <Link href="/lead-management-system">
                 <div class=" shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Leads</i>
@@ -283,7 +283,7 @@ function Modules() {
               </Link>
             </div>
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/sales">
+              <Link href="/sales-rep-software">
                 <div class="shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Sales</i>
@@ -306,7 +306,7 @@ function Modules() {
         <div class="container mt-50 ">
           <div class="row">
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/purchase">
+              <Link href="/vendor-management-software-uae">
                 <div class=" shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Purchase</i>
@@ -322,7 +322,7 @@ function Modules() {
               </Link>
             </div>
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/Expense">
+              <Link href="/expense-management-system">
                 <div class="shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Expenses</i>
@@ -338,7 +338,7 @@ function Modules() {
               </Link>
             </div>
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/contracts">
+              <Link href="/contract-tracking-software">
                 <div class=" shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Contracts</i>
@@ -354,7 +354,7 @@ function Modules() {
               </Link>
             </div>
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/hr-payroll">
+              <Link href="/hr-and-payroll-software">
                 <div class="shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Hr Payroll</i>
@@ -377,7 +377,7 @@ function Modules() {
         <div class="container mt-50 ">
           <div class="row">
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/sales-agent">
+              <Link href="/crm-software-uae">
                 <div class=" shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Sales Agent</i>
@@ -393,7 +393,7 @@ function Modules() {
               </Link>
             </div>
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/reports">
+              <Link href="/reports-module-in-erp">
                 <div class="shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Reports</i>
@@ -409,7 +409,7 @@ function Modules() {
               </Link>
             </div>
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/POS">
+              <Link href="/point-of-sale-system">
                 <div class=" shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Point Of Sales</i>
