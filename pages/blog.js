@@ -46,13 +46,13 @@ function Blog() {
                       <Link href="/blogs/accounting-software">
                         <a>
                           <img
-                            src="/assets/imgs/page/blog/2/img-1.png"
+                            src="/assets/imgs/page/blog/2/bb5.jpg"
                             alt="Agon"
                           />
                         </a>
                       </Link>
                     </div>
-                    <Link href="/blogs/accounting-erp">
+                    <Link href="/blogs/accounting-software">
                       <a className="text-heading-4">
                         {" "}
                         Shadobooks ERP: The Best Accounting Software
@@ -85,7 +85,7 @@ function Blog() {
                 <div className="col-lg-4 col-sm-6 pr-30 mb-50">
                   <div className="card-grid-style-4">
                     <div className="grid-4-img color-bg-2 mb-20">
-                      <Link href="/blogs/accounting-software">
+                      <Link href="/blogs/accounting-erp">
                         <a>
                           <img
                             src="/assets/imgs/page/blog/2/img-2.png"
@@ -151,7 +151,7 @@ function Blog() {
                       <Link href="/blog-single">
                         <a>
                           <img
-                            src="/assets/imgs/page/blog/2/img-news-1.png"
+                            src="/assets/imgs/page/blog/2/bb4.jpg"
                             alt="Agon"
                           />
                         </a>
@@ -185,7 +185,7 @@ function Blog() {
                       <Link href="/blog-single">
                         <a>
                           <img
-                            src="/assets/imgs/page/blog/2/img-news-1.png"
+                            src="/assets/imgs/page/blog/2/bb3.jpg"
                             alt="Agon"
                           />
                         </a>
@@ -218,7 +218,7 @@ function Blog() {
                       <Link href="/blog-single">
                         <a>
                           <img
-                            src="/assets/imgs/page/blog/2/img-news-1.png"
+                            src="/assets/imgs/page/blog/2/bb2.jpg"
                             alt="Agon"
                           />
                         </a>
@@ -229,7 +229,7 @@ function Blog() {
                     <Link href="/blogs/streamline-financial-operations">
                       <a className="text-heading-6">
                         {" "}
-                        Ways Shadobooks ERP can Streamline Your Financial
+                       5+ Ways Shadobooks ERP can Streamline Your Financial
                         Operations
                       </a>
                     </Link>
@@ -252,7 +252,7 @@ function Blog() {
                       <Link href="/blog-single">
                         <a>
                           <img
-                            src="/assets/imgs/page/blog/2/img-news-1.png"
+                            src="/assets/imgs/page/blog/2/bb1.jpg"
                             alt="Agon"
                           />
                         </a>

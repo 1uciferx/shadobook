@@ -29,10 +29,11 @@
 .para1 {
    
  
-    font-family:Segoe UI;
+    font-family:Inter;
+    margin-top: 3%;
     font-size: 25px;
-    line-height: 30px;
-    color:rgb(39, 38, 38);
+    line-height: 35px;
+    color:#000000;
     font-weight: 400;
     text-decoration: none solid rgb(0, 0, 0);
     width: 100%;
@@ -56,7 +57,7 @@
 }
 .container .box{
  
-  width: calc(23% - 10px);
+  width: calc(24% - 10px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -85,6 +86,8 @@
   text-align: center;
   margin-top: 57px;
   line-height: 155%;
+  color: #494949;
+  
   font-size: 20px;
   font-weight: 400;
   font-family: Inter;
@@ -99,7 +102,7 @@
   text-align: center;
 }
 
-@media (max-width:1278px){
+@media (max-width:1509px){
   .box .name{
     margin: 6px 0 -22px 0;
     color: #333333;
@@ -114,7 +117,29 @@
   text-align: center;
     margin-top: 57px;
     line-height: 136%;
-    font-size: 17px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Inter;
+}
+}
+
+
+@media (max-width:1269px){
+  .box .name{
+    margin: 6px 0 -22px 0;
+    color: #333333;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 700;
+    font-family: 'Inter';
+    text-align: center;
+  }
+
+  .box p{
+  text-align: center;
+    margin-top: 57px;
+    line-height: 136%;
+    font-size: 13px;
     font-weight: 400;
     font-family: Inter;
 }
@@ -122,9 +147,9 @@
 
 
 
-@media (max-width:1045px){
+@media (max-width:1065px){
   .container .box{
-    width: calc(38% - 10px);
+    width: calc(25% - 9px);
     margin-bottom: 20px;
   }
 }
@@ -135,7 +160,9 @@
 }
 
 @media (max-width:1200px){
-.allcontent{
-  background: linear-gradient(to bottom,#FFFFFF, #c8edeb,#FFFFFF );
+  .allcontent{
+    background: none;
+    
+  }
 }
-}
+

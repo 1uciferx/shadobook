@@ -8,7 +8,7 @@ function Happyclients() {
 
       <div
         className="section-box pt-100 pb-100 mt-100"
-        style={{ backgroundColor: "#FFF4F4" }}
+        style={{ backgroundColor: "#FFF9F9" }}
       >
         <div className="container">
           <div className="row">

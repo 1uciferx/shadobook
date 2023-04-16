@@ -130,9 +130,9 @@ function Companyfinancialmanagement() {
                           detailed predictive analytics, giving you a clear view
                           of where your finances stand and how you can leverage
                           them for future growth.Kindly refer to this article
-                          for further details about
-                          <a href="/blogs/financial-planning-and-budgeting">
-                            The Benefits of Choosing Shadobooks ERP for
+                          for further details about {' '}
+                           <a href="/blogs/financial-planning-and-budgeting"> 
+                             The Benefits of Choosing Shadobooks ERP for
                             Financial Planning and Budgeting.
                           </a>
                         </p>
@@ -163,7 +163,7 @@ function Companyfinancialmanagement() {
                       act quickly to stay ahead in today’s fast-paced business
                       environment.Please take a look at this article for more
                       information on{" "}
-                      <a href="/blogs/professional-accounting-software">
+                      <a href="/blogs/streamline-financial-operations">
                         {" "}
                         How Shadobooks ERP can enhance your financial operations
                         with over 5 effective ways.{" "}
@@ -184,7 +184,9 @@ function Companyfinancialmanagement() {
                           optimize operations to save time and money. With
                           features like automated financial processes, data
                           analysis, and reporting tools, Shadobooks ERP helps
-                          improve the efficiency of your business. As a result,
+                          improve the efficiency of your business. 
+                          </p><p>
+                          As a result,
                           you’ll be able to reduce the amount of time and money
                           you spend on manual tasks and operations, allowing you
                           to focus on the areas of the business that truly
@@ -207,7 +209,8 @@ function Companyfinancialmanagement() {
                           is designed to help businesses save money and reduce
                           costs, while providing a comprehensive platform that
                           allows users to easily manage their finances and make
-                          informed financial decisions. With Shadobooks ERP’s
+                          informed financial decisions.</p><p>
+                           With Shadobooks ERP’s
                           robust suite of tools, you can rest assured that your
                           financial management needs are in good hands. From
                           automated invoicing and expense tracking to real-time

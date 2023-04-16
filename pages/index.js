@@ -6,6 +6,9 @@ import Layout from "../components/layout/Layout";
 import Slider from "react-slick";
 import dynamic from "next/dynamic";
 import Indexslider from "../components/indexslider";
+import Indexslider2 from "../components/indexslider2";
+import Indexslider3 from "../components/indexslider3";
+import Featureslider from "../components/demosli";
 import styles from "../styles/index.module.css";
 import Mobileindex from "./mobileindex";
 import { Helmet } from "react-helmet";
@@ -15,7 +18,7 @@ import Cards2 from "../components/cards2";
 import Cards3 from "../components/cards3";
 import Happyclients from "../components/happyclients";
 import Cards4 from "../components/cards4";
-import Cintoslider from "../components/cintoslider";
+import Demoslider from "../components/cintoslider";
 
 function Index2() {
   const [isOpen, setOpen] = useState(false);
@@ -87,18 +90,20 @@ function Index2() {
                       Best CRM Platform
                     </h1>
                     <p
-                      className=" color-gray-500 mt-10 pr-40"
+                      className="mt-10 pr-4"
                       style={{
                         fontFamily: "Inter",
+                        color: "#4B4D6D",
                         fontWeight: "500",
                         fontSize: "21px",
                         lineHeight: "32px",
                       }}
                     >
-                      Accounting Headache? SAY{" "}GOODBYE
+                      Accounting Headache? SAY GOODBYE
                       {/* <span style={{ color: "#90331C" }}>GOODBYE</span> */}
                       <br />
-                      Driving enterprise operations towards better ease of<br/>
+                      Driving enterprise operations towards better ease of
+                      <br />
                       operations with an all-in-one accounting platform.
                     </p>
                     <Link href="/request-a-demo">
@@ -123,12 +128,14 @@ function Index2() {
             </div>
           </div>
 
+          {/* slidermenu which the features section */}
           {/* sectiontwo */}
 
-          <div className={styles.modslider}>
-            <div className="mt-30 mb-60">
-              <Indexslider />
+          {/* this slider is for the larger and too smaller screens */}
 
+          <div className={styles.lapscreen}>
+            <div className="mt-30 mb-60">
+              <Featureslider />
               <div className="text-center">
                 <Link href="/modules">
                   <div className={styles.buttonstart1}>
@@ -140,12 +147,32 @@ function Index2() {
               </div>
             </div>
           </div>
+
+          {/* this slider is for the normal respective screen */}
+
+          <div className={styles.midscreen}>
+            <div className="mt-30 mb-60">
+              <Indexslider />
+              <div className="text-center">
+                <Link href="/modules">
+                  <div className={styles.buttonstart100}>
+                    <button class={styles.button}>
+                      <span>Show more </span>
+                    </button>
+                  </div>
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* sectionthree */}
+          {/* adaptable software and the soln listed page */}
           <div>
             <Fadedcards />
           </div>
-          {/* sectionFOUR */}
 
+          {/* sectionFOUR */}
+          {/* simplyfy the process with sb section */}
           <div>
             <Sectiontwo />
           </div>
@@ -162,37 +189,42 @@ function Index2() {
           </div>
 
           {/* third section */}
+          {/* three 3d cards section */}
+
           <div>
             <Cards2 />
           </div>
 
           {/* fourth section */}
+          {/* our features section */}
 
           <div>
             <Cards3 />
           </div>
 
           {/* section 4 */}
-<div className={styles.hidethem}>
+          {/* clients testimonals area */}
+
           <div>
             <Happyclients />
           </div>
-          </div>
+
           {/* section 5  */}
+          {/* powerful features */}
 
           <div>
             <Cards4 />
           </div>
 
           {/* section 6 */}
-<div className={styles.iop}>
-          <div className={styles.cintoslider}>
-            <p> Trusted by the World's Leading Companies</p>
-          </div>
+          <div className={styles.iop}>
+            <div className={styles.cintoslider}>
+              <p> Trusted by the World's Leading Companies</p>
+            </div>
 
-          <div>
-            <Cintoslider />
-          </div>
+            <div>
+              <Demoslider />
+            </div>
           </div>
         </div>
         <div className={styles.mobilehome}>
@@ -289,7 +321,7 @@ function Index2() {
           <div className={styles.dai}>
             <div className="text-center">
               <Link href="/blog">
-                <div className={styles.buttonstart1}>
+                <div className={styles.buttonstart100}>
                   <button class={styles.button}>
                     <span>LOAD MORE</span>
                   </button>

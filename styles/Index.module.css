@@ -120,11 +120,23 @@
   margin-left: 1%;
 }
 
+@media screen and (max-width: 1065px) {
+  .heading3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #303030;
+    width: 54%;
+    font-family: Be Vietnam Pro;
+    text-align: start;
+    margin-left: 2%;
+  }
+}
+
 .para3 {
   font-size: 18px;
   font-weight: 500;
   line-height: 30px;
-  width: 784px;
+  width: 836px;
   color: #303030;
   font-family: Be Vietnam Pro;
   text-align: start;
@@ -346,22 +358,16 @@
 
 .iijj {
   position: relative;
-  width: 703px;
+  width: 652px;
   height: 535px;
   /* left: 928px; */
   top: -20px;
 }
 
-@media screen and (max-width: 1200px) {
-  .hidethem {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 1282px) {
   .iijj {
     position: relative;
-    width: 540px;
+    width: 496px;
     height: 535px;
     /* left: 928px; */
     top: -20px;
@@ -378,18 +384,41 @@
 .buttonstart1 {
   margin: auto;
   text-align: center;
+  margin-top: 4%;
 }
 
-
-
-@media screen and (max-width:1121px) {
-  
-
-.iop{
-  display: none;
-}
+.buttonstart100 {
+  margin: auto;
+  text-align: center;
+  margin-top: -1%;
 }
 
+@media screen and (min-width: 1400px) and (max-width: 1550px) {
+  .midscreen {
+    display: block !important;
+  }
+  .lapscreen {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 1551px) {
+  .midscreen {
+    display: none;
+  }
+  .lapscreen {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .midscreen {
+    display: none;
+  }
+  .lapscreen {
+    display: block;
+  }
+}
 
 .button {
   display: inline-block;
@@ -401,7 +430,7 @@
   color: #ffffff;
   text-align: center;
   font-size: 18px;
-  padding: 11px;
+  padding: 13px;
   width: 165px;
   transition: all 0.5s;
   cursor: pointer;
@@ -443,10 +472,10 @@
   .contain {
     margin: auto;
     width: 80%;
-    margin-top: 156px;
+    margin-top: 16px;
   }
   .heading3 {
-    font-size: 50px;
+    font-size: 32px;
     font-weight: 500;
     width: 54%;
     font-family: Segoe UI;

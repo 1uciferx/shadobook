@@ -14,7 +14,7 @@
 
 
   .container .box{
-    width: calc(24% - 10px);
+    width: calc(26% - 10px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,7 +35,7 @@
 
   
   .container .box11{
-    width: calc(24% - -42px);
+    width: calc(26% - -42px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,7 +58,7 @@
   .box11 p{
     text-align: center;
     margin-top: 8px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
     font-weight: 400;
     font-family: Be Vietnam Pro;
@@ -77,7 +77,7 @@
   .box p{
     text-align: center;
     margin-top: 8px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
     font-weight: 400;
     font-family: Be Vietnam Pro;
@@ -95,11 +95,32 @@
 
  
  
-  @media (max-width:1045px){
+  @media (max-width:1200px){
     .container .box{
-      width: calc(38% - 10px);
+      width: calc(34% - 10px);
       margin-bottom: 20px;
     }
+
+    .container .box11{
+      width: calc(29% - -45px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow:
+      rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+      rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+      rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+      rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
+      transform:
+      perspective(800px)
+      rotateY(-16deg);
+    transition: transform 1s ease 0s;
+    
+    }
+   
   }
   @media (max-width:710px){
     .container .box{

@@ -10,19 +10,15 @@ import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Preloader from '../components/elements/Preloader';
-import 'react-modal-video/css/modal-video.css';
-import 'antd/dist/reset.css';
-import FlagApp from '../components/FlagApp';
+import Preloader from "../components/elements/Preloader";
+import "react-modal-video/css/modal-video.css";
+import "antd/dist/reset.css";
+import FlagApp from "../components/FlagApp";
 import Script from "next/script";
 import { useRouter } from "next/router";
 import * as gtag from "../lib/gtag";
 
-
-
 function MyApp({ Component, pageProps }) {
-
-
   const [loading, setLoading] = useState(false);
 
   const router = useRouter();
@@ -57,11 +53,7 @@ function MyApp({ Component, pageProps }) {
   }, []);
   return (
     <>
-
-
       <Head>
-
-
         <title>Shadobooks</title>
         {/* <link href="https://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet"/> */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -72,25 +64,45 @@ function MyApp({ Component, pageProps }) {
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+          rel="stylesheet"
+        />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Jost&display=swap"
+          rel="stylesheet"
+        />
 
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Jost&display=swap" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Jost&display=swap"
+          rel="stylesheet"
+        />
 
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+          rel="stylesheet"
+        />
 
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap"
+          rel="stylesheet"
+        />
 
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap" rel="stylesheet"/>
-
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+          rel="stylesheet"
+        />
 
         <link
           rel="stylesheet"
@@ -115,14 +127,14 @@ function MyApp({ Component, pageProps }) {
           `,
         }}
       />
-      {!loading ?
+      {!loading ? (
         <>
           <ToastContainer position="bottom-left" />
           <Component {...pageProps} />
         </>
-        :
-        <Preloader />}
-
+      ) : (
+        <Preloader />
+      )}
     </>
   );
 }

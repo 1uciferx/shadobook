@@ -9,6 +9,8 @@ function Streamlinefinancialoperations() {
     <>
       {/* facebook and twitter meta graphs starts here */}
       <Helmet>
+        <meta title="5+ Ways Shadobooks ERP can Streamline
+Your Financial Operations"/>
         <meta property="og:title" content="Shadobooks ERP" />
         <meta property="og:description" content="Shadobooks erp solutions." />
         <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
@@ -34,7 +36,7 @@ function Streamlinefinancialoperations() {
                 <div className="text-center">
                   <span className="tag-1 bg-6 color-green-900">BLOG</span>
                   <h1 className="text-heading-1 color-white mt-30">
-                    Ways Shadobooks ERP can Streamline
+                   5+ Ways Shadobooks ERP can Streamline
                     <br className="d-lg-block d-none" />
                     Your Financial Operations
                   </h1>
@@ -119,7 +121,7 @@ function Streamlinefinancialoperations() {
                     />
 
                     <h3 className="text-heading-4">
-                      Automated Financial Reporting{" "}
+                     1) Automated Financial Reporting{" "}
                     </h3>
                     <p>
                       Businesses can generate a variety of financial statements
@@ -139,7 +141,7 @@ function Streamlinefinancialoperations() {
                     <p />
 
                     <h3 className="text-heading-4">
-                      Easy Integration with Bank Accounts{" "}
+                     2) Easy Integration with Bank Accounts{" "}
                     </h3>
                     <div className="row">
                       <div className="col-lg-4">
@@ -175,7 +177,7 @@ function Streamlinefinancialoperations() {
                     <p />
 
                     <h3 className="text-heading-4">
-                      Real-Time Financial Insights{" "}
+                     3) Real-Time Financial Insights{" "}
                     </h3>
                     <div className="row">
                       <div className="col-lg-8">
@@ -232,8 +234,8 @@ function Streamlinefinancialoperations() {
                     </div>
                     <p />
 
-                    <h3 className="text-heading-3">
-                      Streamlined Invoicing and Payments{" "}
+                    <h3 className="text-heading-4">
+                     4) Streamlined Invoicing and Payments{" "}
                     </h3>
                     <p>
                       Businesses can simplify their invoicing and payment
@@ -251,7 +253,7 @@ function Streamlinefinancialoperations() {
                     </p>
 
                     <h3 className="text-heading-4 mt-30">
-                      Enhanced Financial Security:{" "}
+                     5) Enhanced Financial Security{" "}
                     </h3>
                     <div className="row">
                       <div className="col-lg-8">
@@ -287,7 +289,7 @@ function Streamlinefinancialoperations() {
                     </div>
                     <p />
 
-                    <h3 className="text-heading-4">Improve Budgeting </h3>
+                    <h3 className="text-heading-4">6) Improve Budgeting </h3>
                     <div className="row">
                       <div className="col-lg-4">
                         <img
@@ -319,6 +321,12 @@ function Streamlinefinancialoperations() {
                       </div>
                     </div>
                     <p />
+                    <h3 className="text-heading-5 mt-50">Get Started Today</h3>
+                    <p>
+                    Book a free 90 days demo to find out how Shadobooks ERP can streamline your processes.  
+
+
+                    </p>
 
                     <div className="border-bottom mt-50 mb-50" />
                     {/* <div>
@@ -451,9 +459,14 @@ function Streamlinefinancialoperations() {
                   </div> */}
                 </div>
               </div>
+              
             </div>
           </section>
+
+          
         </div>
+
+       
 
         <div className="text-center mb-50">
           <Link href="/request-a-demo">

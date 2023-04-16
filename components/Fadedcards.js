@@ -59,7 +59,7 @@ function Fadedcards() {
             <div className={styles.name}>Manufacturing</div>
 
             <p>
-              Improve efficiency and google <br/>exposure with our<br/> intelligent CRM.
+              Improve efficiency and google exposure with our<br/> intelligent CRM.
             </p>
           </div>
           <div

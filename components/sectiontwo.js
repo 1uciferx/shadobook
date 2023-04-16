@@ -15,7 +15,7 @@ function Sectiontwo() {
         </div>
         <div className={styles.columnright}>
           <p className={styles.heading1}>
-            Simplify Your Process With
+            Simplify Your Process With<br/>
             <span className={styles.heading2}> Shadobooks ERP</span>
           </p>
           <p className={styles.para1}>
