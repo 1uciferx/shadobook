@@ -19,6 +19,8 @@ function knowledgeBaseKB() {
           name="description"
           content="Drive success with our Knowledge Management Software. Centralize information management, collaboration & maximize business potential."
         />
+         <meta name="keywords" content="Knowledge management software "/>
+
       </Head>
 
  {/* facebook and twitter meta graphs starts here */}
@@ -186,7 +188,7 @@ function knowledgeBaseKB() {
             <div className="mt-50">
               <Indexslider />
               <div className="text-center">
-                <Link href="/modules">
+                <Link href="/our-product">
                   <button
                     type="button"
                     class="btn btn-outline-dark"

@@ -24,6 +24,7 @@ function Salesagent() {
           name="description"
           content="Sales Rep ERP Software is helps to automate business tasks, track performance, manage customer relationships, and generate invoices & Reports."
         />
+        <meta name="keywords" content=" Sales Rep ERP Software"/>
       </Head>
 
  {/* facebook and twitter meta graphs starts here */}
@@ -807,7 +808,7 @@ xxl={{
           <div className="mt-50">
             <Indexslider />
             <div className="text-center">
-              <Link href="/modules">
+              <Link href="/our-product">
                 <button
                   type="button"
                   class="btn btn-outline-dark"

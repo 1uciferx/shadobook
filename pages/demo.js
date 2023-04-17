@@ -213,7 +213,7 @@ function Demo() {
             <div className="mt-50">
               <Indexslider />
               <div className="text-center">
-                <Link href="/modules">
+                <Link href="/our-product">
                   <button
                     type="button"
                     class="btn btn-outline-dark"

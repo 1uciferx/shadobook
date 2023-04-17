@@ -16,6 +16,7 @@ function BlogSingle() {
           name="description"
           content="Take control of expenses with our expense management system. Real-time tracking, spending caps, and centralized management save time, cut costs, and prevent mistakes."
         />
+        <meta name="keywords" content="Expense management system"/>
       </Head>
 
  {/* facebook and twitter meta graphs starts here */}
@@ -90,7 +91,7 @@ function BlogSingle() {
                       <br />
                       <br />➟ Greater compliance.
                       <br />
-                      <br />➟ Integrated with both the<span><a href="/crm-software-uae"> sales</a></span> and<span><a href="/vendor-management-software-uae"> purchase</a></span> modules
+                      <br />➟ Integrated with both the<span><a href="/crm-software"> sales</a></span> and<span><a href="/vendor-management-software"> purchase</a></span> modules
                     </p>
                     <p />
                     <br />
@@ -183,7 +184,7 @@ function BlogSingle() {
           <div className="mt-50">
             <Indexslider />
             <div className="text-center">
-              <Link href="/modules">
+              <Link href="/our-product">
                 <button
                   type="button"
                   class="btn btn-outline-dark"

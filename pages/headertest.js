@@ -274,7 +274,7 @@ function Headertest() {
                               </Link>
                             </li> */}
                     <li>
-                      <Link href="/vendor-management-software-uae">
+                      <Link href="/vendor-management-software">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Purchase</a>
                       </Link>
                     </li>
@@ -554,7 +554,7 @@ function Headertest() {
                     </li>
 
                     <li>
-                      <Link href="/Utilities-management-software">
+                      <Link href="/utility-management-software">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Utilities</a>
                       </Link>
                     </li>
@@ -572,13 +572,13 @@ function Headertest() {
                     </li>
 
                     <li>
-                      <Link href="/crm-software-uae">
+                      <Link href="/crm-software">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Sales</a>
                       </Link>
                     </li>
 
                     <li>
-                      <Link href="/sales-rep-software">
+                      <Link href="/sales-rep-erp-software">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Sales Agent</a>
                       </Link>
                     </li>
@@ -711,7 +711,7 @@ function Headertest() {
                   }
                 >
                   {/* <li>
-                          <Link href="/itsupport">
+                          <Link href="/it-erp-software">
                             <a className="closer">IT & Support</a>
                           </Link>
                         </li> */}
@@ -722,12 +722,12 @@ function Headertest() {
                         </li> */}
 
                   {/* <li>
-                          <Link href="/manufacturing1">
+                          <Link href="/manufacturing-software">
                             <a>Manufacturing</a>
                           </Link>
                         </li>
                         <li>
-                          <Link href="/retailandwholesaler">
+                          <Link href="/retail-erp-software">
                             <a>Retail & Wholesalers</a>
                           </Link>
                         </li> */}

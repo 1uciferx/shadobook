@@ -2,10 +2,20 @@ import React from "react";
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
 import styles from "../styles/Modules.module.css";
-
+import Head from "next/head";
 function Modules() {
   return (
     <>
+    <Head>
+        <title>
+        Shadobooks products- Software and Services for Businesses
+        </title>
+        <meta
+          name="description"
+          content=" We offer a range of products, from simple accounting and finance software to ERP solutions that can manage your entire business.  "
+        />
+        <meta name="keywords" content="products"/>
+      </Head>
       <Layout>
         <div class="container mt-100 " style={{ paddingTop: "50px" }}>
           <div class="row">
@@ -180,7 +190,7 @@ function Modules() {
             </div>
 
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/Utilities-management-software">
+              <Link href="/utility-management-software">
                 <div class="shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Utilities</i>
@@ -283,7 +293,7 @@ function Modules() {
               </Link>
             </div>
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/sales-rep-software">
+              <Link href="/sales-rep-erp-software">
                 <div class="shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Sales</i>
@@ -306,7 +316,7 @@ function Modules() {
         <div class="container mt-50 ">
           <div class="row">
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/vendor-management-software-uae">
+              <Link href="/vendor-management-software">
                 <div class=" shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Purchase</i>
@@ -377,7 +387,7 @@ function Modules() {
         <div class="container mt-50 ">
           <div class="row">
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/crm-software-uae">
+              <Link href="/crm-software">
                 <div class=" shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Sales Agent</i>

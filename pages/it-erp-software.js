@@ -5,13 +5,22 @@ import Layout from "../components/layout/Layout";
 import Accordion from "../components/elements/Accordion";
 import { Helmet } from 'react-helmet';
 
+
 function Service1() {
   return (
     <>
-      <Layout>
+     
         
  {/* facebook and twitter meta graphs starts here */}
       <Helmet>
+      <title>
+      Open Source IT ERP Software | Shadobooks
+         </title>
+         <meta
+           name="description"
+           content="Shadobooks IT ERP Software is a powerful tool to streamline operations and increase efficiency. It can manage finance, inventory, and customer relationships, helping businesses improve their productivity.  "
+         />
+          <meta name="keywords" content="IT ERP Software"/>
         <meta property="og:title" content="Shadobooks ERP" />
         <meta property="og:description" content="Shadobooks erp solutions." />
         <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
@@ -23,14 +32,14 @@ function Service1() {
       </Helmet>
 
       {/* facebook and twitter meta graphs ends here */}
-
+      <Layout>
         <section className="section-box">
           <div className="banner-hero bg-service-1">
             <div className="container">
               <div className="row">
                 <div className="col-lg-6 box-banner-left">
                   <h1 className="text-display-3 mt-95">
-                    Get the best CRM for IT and Support services from ShadoBook
+                    Get the best CRM for IT and Support services from ShadoBooks
                   </h1>
                   <p
                     className="text-body-lead-large color-gray-500 mt-40 pr-40"
@@ -120,7 +129,7 @@ function Service1() {
                         style={{ height: "50px" }}
                       />
                     </span>
-                    <h4 className="text-heading-6">HR Payroll</h4>
+                    <h4 className="text-heading-6">HR & Payroll</h4>
                     <p className="text-body-text color-gray-600 mt-15">
                       Our HR payroll is responsible for handling the financial
                       compensation of those employees and the method by which

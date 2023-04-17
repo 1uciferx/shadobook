@@ -20,6 +20,7 @@ function Purchase() {
       <Head>
         <title>Effortlessly Manage Vendors with vendor management Software</title>
         <meta name="description" content=" Efficiently manage your vendors with our vendor management software. Streamline communication, track performance, and ensure compliance with contract terms." />
+        <meta name="keywords" content="Vendor management software"/>
       </Head>
 
         <div className="section-box">
@@ -73,7 +74,7 @@ function Purchase() {
                     </p>
                    
                     <p className="text-body-text mt-30 icon-leaf">
-                    The item is linked with both the<span><a href="/inventory-management-system"> inventory</a></span> and<span><a href="/crm-software-uae"> Sales</a></span> modules.
+                    The item is linked with both the<span><a href="/inventory-management-system"> inventory</a></span> and<span><a href="/crm-software"> Sales</a></span> modules.
                     </p>
                   </div>
                 </div>
@@ -403,7 +404,7 @@ function Purchase() {
             <div className="mt-90">
               <Indexslider />
               <div className="text-center">
-                <Link href="/modules">
+                <Link href="/our-product">
                   <button
                     type="button"
                     class="btn btn-outline-dark"
@@ -424,7 +425,7 @@ function Purchase() {
             <div className="mt-50">
               <Indexslider />
               <div className="text-center">
-                <Link href="/modules">
+                <Link href="/our-product">
                   <button
                     type="button"
                     class="btn btn-outline-dark"

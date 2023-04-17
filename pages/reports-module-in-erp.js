@@ -31,6 +31,7 @@ function Home() {
      <Head>
         <title>Fully Integrated Reports Module in ERP | Shadobooks ERP </title>
         <meta name="description" content="The Reports Module in ERP Software provides users with comprehensive insights into their business operations for better decision-making." />
+        <meta name="keywords" content="Reports Module in ERP"/>
       </Head>
 
  {/* facebook and twitter meta graphs starts here */}
@@ -496,7 +497,7 @@ function Home() {
 
                           <br></br>
                           <li>
-                          This platform enables<span><a href="/sales-rep-software"> Sales Agents</a></span> and companies to monitor and handle the invoices that have been issued to their clients. 
+                          This platform enables<span><a href="/sales-rep-erp-software"> Sales Agents</a></span> and companies to monitor and handle the invoices that have been issued to their clients. 
                           </li>
                         </p>
                       </div>
@@ -519,7 +520,7 @@ function Home() {
           <div className="mt-50">
             <Indexslider />
             <div className="text-center">
-              <Link href="/modules">
+              <Link href="/our-product">
                 <button
                   type="button"
                   class="btn btn-outline-dark"

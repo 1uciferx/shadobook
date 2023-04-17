@@ -14,6 +14,7 @@ function Index8() {
       <Head>
         <title>Ticketing System in ERP | Shadobooks ERP</title>
         <meta name="description" content="Ticketing System in ERP module uses automated technology to help manage the ticketing process, registering, organizing, and ranking tickets into categories." />
+        <meta name="keywords" content="Ticketing System in ERP"/>
       </Head>
 
  {/* facebook and twitter meta graphs starts here */}
@@ -216,7 +217,7 @@ Tickets are used to generate<span><a href="/reports-module-in-erp"> Reports</a><
           <div className="mt-50">
             <Indexslider />
             <div className="text-center">
-              <Link href="/modules">
+              <Link href="/our-product">
                 <button
                   type="button"
                   class="btn btn-outline-dark"

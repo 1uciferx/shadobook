@@ -41,6 +41,16 @@ function Index2() {
 
         {/* facebook and twitter meta graphs starts here */}
         <Helmet>
+          <title>Top Accounting Software for Business | Shadobooks ERP</title>
+          <meta
+            name="description"
+            content=" Sign up today for Shadobooks, a top accounting software for businesses. It empowers you to perform essential financial tasks such as invoice creation and cash flow monitoring. Begin your free 90-day trial now! "
+          />
+          <meta
+            name="keywords"
+            content="Top Accounting Software for Business"
+          />
+
           <meta property="og:title" content="Shadobooks ERP" />
           <meta property="og:description" content="Shadobooks erp solutions." />
           <meta
@@ -68,16 +78,98 @@ function Index2() {
         <div className={styles.desktophome}>
           <div className={styles.modulescontainer}></div>
 
-          {/* slider for the modules */}
+          <section className="section-box">
+            <div className="banner-hero banner-2">
+              <div className="container">
+                <div className="row">
+                  <div className="col-lg-7 mt-50">
+                    <span className="tag-1 bg-green-900">
+                      ShadoBooks ERP Solutions
+                    </span>
+                    <h1 className="text-display-3 mt-30">
+                      Accounting Headache? SAY{" "}
+                      <span style={{ color: "#90331C" }}>GOODBYE</span>
+                      <br></br>
+                      <span className="text-heading-5">
+                        Get solutions under one roof
+                      </span>
+                    </h1>
+                    <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
+                      Driving enterprise operations towards better ease of
+                      operations with an all-in-on accounting platform.
+                    </p>
+                    <div className="mt-40">
+                      <Link href="/request-a-demo">
+                        <a className="btn btn-black shape-square icon-arrow-right-white">
+                          Get Start
+                        </a>
+                      </Link>
+                      {/* <Link href=" "><a className="btn btn-link icon-triangle color-gray-900 ml-40">How it works
+                                            </a></Link> */}
+                    </div>
+                    {/* <div className="mt-50">
+                                            <div className="row">
+                                                <div className="col-lg-3 col-sm-4 col-4">
+                                                    <h3 className="text-heading-4 color-gray-900 mb-15">
+                                                        +<span className="count">38</span>k
+                                                    </h3>
+                                                    <p className="text-body-text-md color-gray-500">
+                                                        Happy Clients
+                                                    </p>
+                                                </div>
+                                                <div className="col-lg-3 col-sm-4 col-4">
+                                                    <h3 className="text-heading-4 color-gray-900 mb-15">
+                                                        +<span className="count">45</span>k
+                                                    </h3>
+                                                    <p className="text-body-text-md color-gray-500">
+                                                        Project Done
+                                                    </p>
+                                                </div>
+                                                <div className="col-lg-3 col-sm-4 col-4">
+                                                    <h3 className="text-heading-4 color-gray-900 mb-15">
+                                                        <span className="count">100</span>%
+                                                    </h3>
+                                                    <p className="text-body-text-md color-gray-500">
+                                                        Client Satisfaction
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div> */}
+                  </div>
+                  <div className="col-lg-5 d-none d-lg-block">
+                    <div className="banner-imgs">
+                      <div className="block-1 shape-2">
+                        <img
+                          src="/assets/imgs/page/homepage2/sbin2-removebg-preview.png"
+                          alt="Shadobooks erp"
+                        />
+                      </div>
+                      <div className="block-2 shape-3">
+                        <img
+                          src="/assets/imgs/page/homepage2/sbin.jpg"
+                          alt="Shadobooks erp"
+                        />
+                      </div>
+                      <img
+                        className="img-responsive shape-1"
+                        alt="Shadobooks erp"
+                        src="assets/imgs/page/homepage2/sbindex.jpg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
-          <div className="section-box">
+          {/* slider for the modules old UI model hero page */}
+
+          {/* <div className="section-box">
             <div className="mt-50 mb-40">
               <div className="container">
                 <div className="row">
                   <div className="col-lg-6 mt-50 pb-120">
-                    {/* <span className="tag-1 bg-green-900">
-                      ShadoBooks - ERP Solutions
-                    </span> */}
+                  
                     <h1
                       className=" mt-50"
                       style={{
@@ -100,10 +192,10 @@ function Index2() {
                       }}
                     >
                       Accounting Headache? SAY GOODBYE
-                      {/* <span style={{ color: "#90331C" }}>GOODBYE</span> */}
+                     
                       <br />
                       Driving enterprise operations towards better ease of
-                      <br />
+                    
                       operations with an all-in-one accounting platform.
                     </p>
                     <Link href="/request-a-demo">
@@ -126,7 +218,7 @@ function Index2() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* slidermenu which the features section */}
           {/* sectiontwo */}
@@ -137,7 +229,7 @@ function Index2() {
             <div className="mt-30 mb-60">
               <Featureslider />
               <div className="text-center">
-                <Link href="/modules">
+                <Link href="/our-product">
                   <div className={styles.buttonstart1}>
                     <button class={styles.button}>
                       <span>Show more </span>
@@ -154,7 +246,7 @@ function Index2() {
             <div className="mt-30 mb-60">
               <Indexslider />
               <div className="text-center">
-                <Link href="/modules">
+                <Link href="/our-product">
                   <div className={styles.buttonstart100}>
                     <button class={styles.button}>
                       <span>Show more </span>
@@ -261,7 +353,7 @@ function Index2() {
                       </a>
                     </Link>
                   </div>
-                  <Link href="/blogs/professional-accounting-software">
+                  <Link href="/blogs/streamline-financial-operations">
                     <a className="text-heading-4">
                       Ways Shadobooks ERP can Streamline Your Financial
                       Operations

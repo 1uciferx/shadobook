@@ -25,6 +25,7 @@ function EstimateReq() {
       <Head>
         <title>Enhance Estimates Process with Our Estimates Management Software</title>
         <meta name="description" content="Our Estimates Management Software automates the entire process, saving you time & resources, while providing accurate and professional-looking estimates that will impress your clients." />
+        <meta name="keywords" content="Estimates management software"/>
       </Head>
 
  {/* facebook and twitter meta graphs starts here */}
@@ -195,7 +196,7 @@ function EstimateReq() {
           <div className="mt-50">
             <Indexslider />
             <div className="text-center">
-              <Link href="/modules">
+              <Link href="/our-product">
                 <button
                   type="button"
                   class="btn btn-outline-dark"

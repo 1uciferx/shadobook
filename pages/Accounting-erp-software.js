@@ -33,6 +33,7 @@ function Home() {
           name="description"
           content="Optimize financial management with accounting ERP software. Automate processes, gain insights, and streamline operations for efficient business performance."
         />
+         <meta name="keywords" content=" Accounting ERP software"/>
       </Head>
 
        {/* facebook and twitter meta graphs starts here */}
@@ -498,7 +499,7 @@ function Home() {
                         </p>
                         <br></br>
                         <p>
-                          ➟The<span><a href="/Utilities-management-software"> Utility module</a></span> can be used to generate and maintain records of payments and other transactions that are associated with the Accounting module. 
+                          ➟The<span><a href="/utility-management-software"> Utility module</a></span> can be used to generate and maintain records of payments and other transactions that are associated with the Accounting module. 
                         </p>
                       </p>
                     </div>
@@ -570,7 +571,7 @@ function Home() {
           <div className="mt-50">
             <Indexslider />
             <div className="text-center">
-              <Link href="/modules">
+              <Link href="/our-product">
                 <button
                   type="button"
                   class="btn btn-outline-dark"

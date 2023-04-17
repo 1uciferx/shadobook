@@ -45,16 +45,16 @@ function Mobilefooter() {
           <h4 className={styles.heading}>Solutions</h4>
           <ul class="list-unstyled">
             <li >
-              <a href="/itsupport" class={styles.para}>IT & Support</a>
+              <a href="/it-erp-software" class={styles.para}>IT & Support</a>
             </li>
             <li >
               <a href="/oilandgas" class={styles.para}>Oil & Gas</a>
             </li>
             <li >
-              <a href="/manufacturing1" class={styles.para}>Manufacturing</a>
+              <a href="/manufacturing-software" class={styles.para}>Manufacturing</a>
             </li>
             <li >
-              <a href="/retailandwholesaler" class={styles.para} >Retail & Wholesaler</a>
+              <a href="/retail-erp-software" class={styles.para} >Retail & Wholesaler</a>
             </li>
           </ul>
         </div>

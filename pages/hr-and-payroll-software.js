@@ -34,6 +34,7 @@ function Home() {
     <Head>
         <title>Best HR and Payroll Software | Shadobooks ERP</title>
         <meta name="description" content="HR and Payroll Software helps organizations streamline processes, automate payroll calculations, track attendance, and stay compliant with labor laws." />
+        <meta name="keywords" content=" HR and Payroll Software"/>
       </Head>
 
  {/* facebook and twitter meta graphs starts here */}
@@ -249,7 +250,7 @@ function Home() {
                     <br></br>
 
                     <p>
-                      ➟ HR & payroll module allows businesses to access data from<span><a href="/Utilities-management-software"> Utilities</a></span> reports and use it for payrolls, employee tracking, and more, by uploading exported CSV files. 
+                      ➟ HR & payroll module allows businesses to access data from<span><a href="/utility-management-software"> Utilities</a></span> reports and use it for payrolls, employee tracking, and more, by uploading exported CSV files. 
                     </p>
                   </p>
                 </div>
@@ -439,7 +440,7 @@ function Home() {
           <div className="mt-50">
             <Indexslider />
             <div className="text-center">
-              <Link href="/modules">
+              <Link href="/our-product">
                 <button
                   type="button"
                   class="btn btn-outline-dark"

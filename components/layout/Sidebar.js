@@ -163,7 +163,7 @@ const Sidebar = ({ openClass }) => {
                               </Link>
                             </li> */}
                             <li>
-                              <Link href="/vendor-management-software-uae">
+                              <Link href="/vendor-management-software">
                                 <a>
                                   
                                   Purchase
@@ -491,7 +491,7 @@ const Sidebar = ({ openClass }) => {
                             </li>
 
                             <li>
-                              <Link href="/Utilities-management-software">
+                              <Link href="/utility-management-software">
                                 <a>
                                  
                                   Utilities
@@ -518,7 +518,7 @@ const Sidebar = ({ openClass }) => {
                             </li>
 
                             <li>
-                              <Link href="/crm-software-uae">
+                              <Link href="/crm-software">
                                 <a>
                                  
                                   Sales
@@ -527,7 +527,7 @@ const Sidebar = ({ openClass }) => {
                             </li>
 
                             <li>
-                              <Link href="/sales-rep-software">
+                              <Link href="/sales-rep-erp-software">
                                 <a>
                                  
                                   Sales Agent
@@ -672,7 +672,7 @@ const Sidebar = ({ openClass }) => {
                         }
                       >
                         {/* <li>
-                          <Link href="/itsupport">
+                          <Link href="/it-erp-software">
                             <a className="closer">IT & Support</a>
                           </Link>
                         </li> */}
@@ -683,12 +683,12 @@ const Sidebar = ({ openClass }) => {
                         </li> */}
 
                         {/* <li>
-                          <Link href="/manufacturing1">
+                          <Link href="/manufacturing-software">
                             <a>Manufacturing</a>
                           </Link>
                         </li>
                         <li>
-                          <Link href="/retailandwholesaler">
+                          <Link href="/retail-erp-software">
                             <a>Retail & Wholesalers</a>
                           </Link>
                         </li> */}

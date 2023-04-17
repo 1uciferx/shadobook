@@ -62,7 +62,7 @@ const Featureslider = () => {
       quote:
         "The job description components in shadobooks CRM outline the primary functions and responsibilities of a certain position. This component is also in charge of the job selection processes and the publication.",
       bg: "bd-bg-10",
-      link: "/Utilities-management-software",
+      link: "/utility-management-software",
     },
     {
       avatar: "KnowledgeBase3.png",
@@ -98,7 +98,7 @@ const Featureslider = () => {
       quote:
         "The HR reports include the following employee information: Layoffs of employees, Salary changes on the staff list, Staff changes by seniority, Staff changes by month.",
       bg: "bd-bg-6",
-      link: "/crm-software-uae",
+      link: "/crm-software",
     },
     {
       avatar: "Reports3.png",
@@ -152,7 +152,7 @@ const Featureslider = () => {
       quote:
         "The job description components in shadobooks CRM outline the primary functions and responsibilities of a certain position. This component is also in charge of the job selection processes and the publication.",
       bg: "bd-bg-10",
-      link: "/Utilities-management-software",
+      link: "/utility-management-software",
     },
     {
       avatar: "KnowledgeBase3.png",
@@ -188,7 +188,7 @@ const Featureslider = () => {
       quote:
         "The HR reports include the following employee information: Layoffs of employees, Salary changes on the staff list, Staff changes by seniority, Staff changes by month.",
       bg: "bd-bg-6",
-      link: "/crm-software-uae",
+      link: "/crm-software",
     },
     {
       avatar: "Reports3.png",
@@ -242,7 +242,7 @@ const Featureslider = () => {
       quote:
         "The job description components in shadobooks CRM outline the primary functions and responsibilities of a certain position. This component is also in charge of the job selection processes and the publication.",
       bg: "bd-bg-10",
-      link: "/Utilities-management-software",
+      link: "/utility-management-software",
     },
     {
       avatar: "KnowledgeBase3.png",
@@ -278,7 +278,7 @@ const Featureslider = () => {
       quote:
         "The HR reports include the following employee information: Layoffs of employees, Salary changes on the staff list, Staff changes by seniority, Staff changes by month.",
       bg: "bd-bg-6",
-      link: "/crm-software-uae",
+      link: "/crm-software",
     },
     {
       avatar: "Reports3.png",
@@ -332,7 +332,7 @@ const Featureslider = () => {
       quote:
         "The job description components in shadobooks CRM outline the primary functions and responsibilities of a certain position. This component is also in charge of the job selection processes and the publication.",
       bg: "bd-bg-10",
-      link: "/Utilities-management-software",
+      link: "/utility-management-software",
     },
     {
       avatar: "KnowledgeBase3.png",
@@ -368,7 +368,7 @@ const Featureslider = () => {
       quote:
         "The HR reports include the following employee information: Layoffs of employees, Salary changes on the staff list, Staff changes by seniority, Staff changes by month.",
       bg: "bd-bg-6",
-      link: "/crm-software-uae",
+      link: "/crm-software",
     },
   ];
 

@@ -29,6 +29,7 @@ function Task() {
           name="description"
           content="Task Management Software, automates task and operation management in industry, assigning tasks and generating confirmation on completion."
         />
+         <meta name="keywords" content="Task Management Software"/>
       </Head>
 
  {/* facebook and twitter meta graphs starts here */}
@@ -271,7 +272,7 @@ function Task() {
           <div className="mt-50">
             <Indexslider />
             <div className="text-center">
-              <Link href="/modules">
+              <Link href="/our-product">
                 <button
                   type="button"
                   class="btn btn-outline-dark"

@@ -26,6 +26,7 @@ function Manufacturing() {
           name="description"
           content="Elevate your production capabilities with cloud-based manufacturing ERP software, designed to help you streamline processes and maximize efficiency."
         />
+          <meta name="keywords" content="Manufacturing ERP Software"/>
       </Head>
 
  {/* facebook and twitter meta graphs starts here */}
@@ -427,7 +428,7 @@ function Manufacturing() {
           <div className="mt-50">
             <Indexslider />
             <div className="text-center">
-              <Link href="/modules">
+              <Link href="/our-product">
                 <button
                   type="button"
                   class="btn btn-outline-dark"

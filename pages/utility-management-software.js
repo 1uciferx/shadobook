@@ -33,6 +33,8 @@ function Utilities() {
           name="description"
           content="Revolutionize utility management with our utility management software offering comprehensive tools such as bulk PDF/CSV export, calendar & goal setting."
         />
+         <meta name="keywords" content="Utility management software "/>
+
       </Head>
       
  {/* facebook and twitter meta graphs starts here */}
@@ -297,7 +299,7 @@ function Utilities() {
           <div className="mt-50">
             <Indexslider />
             <div className="text-center">
-              <Link href="/modules">
+              <Link href="/our-product">
                 <button
                   type="button"
                   class="btn btn-outline-dark"

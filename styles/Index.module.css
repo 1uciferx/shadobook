@@ -374,6 +374,26 @@
   }
 }
 
+/* .menu1{
+  font-family: "Inter";
+  font-weight: "700";
+  font-size: "80px";
+  line-height: "66px";
+  margin-top: "50px";
+}  */
+
+/* 
+@media screen and (min-width:1780px) {
+  .menu1{
+    font-family: "Inter";
+    font-weight: "700";
+    font-size: "35px" !important;
+    line-height: "66px";
+    margin-top: "50px";
+  } 
+  
+} */
+
 /* boxbutton */
 
 .buttonstart {

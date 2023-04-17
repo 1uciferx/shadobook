@@ -15,6 +15,8 @@ function Sales() {
       <Head>
         <title>Maximize Sales with best CRM software | Shadobooks ERP</title>
         <meta name="description" content="Elevate your sales with our CRM software. Optimize your process with lead management, customer tracking, and more for business growth and success." />
+        <meta name="keywords" content="CRM software "/>
+
       </Head>
 
       {/* facebook and twitter meta graphs starts here */}
@@ -324,7 +326,7 @@ function Sales() {
                   </p>
                   <p className="text-body-text mt-30 icon-leaf">
                     The item overview page can be used to manage the items, and
-                    track progress and performance of your team.The item is linked with both the inventory and<span><a href="/vendor-management-software-uae"> purchase</a></span>  modules.
+                    track progress and performance of your team.The item is linked with both the inventory and<span><a href="/vendor-management-software"> purchase</a></span>  modules.
                   </p>
                 </div>
 
@@ -343,7 +345,7 @@ function Sales() {
           <div className="mt-50">
             <Indexslider />
             <div className="text-center">
-              <Link href="/modules">
+              <Link href="/our-product">
                 <button
                   type="button"
                   class="btn btn-outline-dark"

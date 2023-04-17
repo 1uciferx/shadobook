@@ -24,6 +24,7 @@ function Index6() {
           name="description"
           content="Shadobooks ERP offers best HRMS software to help businesses manage their HR and achieve their objectives. Our HR software simplifies HR operations."
         />
+        <meta name="keywords" content="Best hrms Software"/>
       </Head>
       {/* facebook and twitter meta graphs starts here */}
       <Helmet>
@@ -156,7 +157,7 @@ function Index6() {
                   </div>
                   <div className="col-lg-12 col-sm-6 col-12 mt-20">
                     <h4 className="text-heading-6 icon-leaf">
-                      Allows governmental entities to get information on accidents, absenteeism, labour turnover, wages, and<span><a href="/sales-rep-software"> salary.</a></span> Employees can also access HR information on the<span><a href="/Knowledge-management-software"> Knowledge Base,</a></span> such as benefits, policies, and procedures.
+                      Allows governmental entities to get information on accidents, absenteeism, labour turnover, wages, and<span><a href="/sales-rep-erp-software"> salary.</a></span> Employees can also access HR information on the<span><a href="/Knowledge-management-software"> Knowledge Base,</a></span> such as benefits, policies, and procedures.
                     </h4>
                   </div>
                 </div>
@@ -617,7 +618,7 @@ function Index6() {
           <div className="mt-50">
             <Indexslider />
             <div className="text-center">
-              <Link href="/modules">
+              <Link href="/our-product">
                 <button
                   type="button"
                   class="btn btn-outline-dark"

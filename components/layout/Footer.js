@@ -81,17 +81,17 @@ const Footer = () => {
                             <h4 className="text-heading-5">Our Solutions</h4>
                             <ul className="menu-footer mt-20">
                                 <li>
-                                    <Link href="/itsupport">
+                                    <Link href="/it-erp-software">
                                         <a>IT Solutions</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/manufacturing1">
+                                    <Link href="/manufacturing-software">
                                         <a>Manufacturing</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/retailandwholesaler">
+                                    <Link href="/retail-erp-software">
                                         <a>Retail & Wholesalers</a>
                                     </Link>
                                 </li>

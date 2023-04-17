@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useState } from "react";
 import "react-modal-video/css/modal-video.css";
-
+import Head from "next/head";
 import Layout from "../components/layout/Layout";
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
@@ -14,6 +14,17 @@ function Manu() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
+    <Head>
+        <title>
+        Open Source Manufacturing ERP Software | Shadobooks
+        </title>
+        <meta
+          name="description"
+          content=" Shadobooks' manufacturing ERP software can help increase businesses profits and maintain customer satisfaction. Check out our ERP and MRP software now! "
+        />
+        <meta name="keywords" content="Manufacturing ERP Software"/>
+
+      </Head>
       <Layout>
         <section className="section-box">
           <div className="banner-hero banner-3 " style={{backgroundColor:"#F1F3F3"}}>
@@ -22,7 +33,7 @@ function Manu() {
                 <h1 className="text-display-2 color-gray-900 mt-40 ">
                   Get the best CRM for the manufacturing
                   <br className="d-lg-block d-none" />
-                  industry from ShadoBook
+                  industry from ShadoBooks
                 </h1>
                 <div className="text-body-lead-large color-gray-500 mt-40">
                   Get a website to be found on the first page of Google to
@@ -160,7 +171,7 @@ function Manu() {
               </div>
 
               <h2 className="text-heading-4 color-gray-900 mb-5">
-                HR Payroll
+                HR & Payroll
               </h2>
 
               <p className="text-body-lead-large color-gray-600 mt-10">

@@ -21,6 +21,7 @@ function Contracts() {
           name="description"
           content="Boost productivity with our contract tracking software. Automate the process with real-time updates, configurable workflows, and automated reminders."
         />
+        <meta name="keywords" content="Contract tracking software"/>
       </Head>
 
       {/* facebook and twitter meta graphs starts here */}
@@ -161,7 +162,7 @@ function Contracts() {
           <div className="mt-50">
             <Indexslider />
             <div className="text-center">
-              <Link href="/modules">
+              <Link href="/our-product">
                 <button
                   type="button"
                   class="btn btn-outline-dark"

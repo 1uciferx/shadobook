@@ -12,7 +12,7 @@
   margin-bottom: 85px;
 }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width: 1400px) {
   .heading1 {
     text-align: start;
     font-size: 56px;
@@ -26,22 +26,18 @@
     color: rgb(30, 32, 32);
     margin-bottom: 85px;
   }
-  
 }
 
-@media screen and (min-width:1200px) and (max-width:1500px) {
-  .seer{
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+  .seer {
     display: block;
   }
-  .seer1{
+  .seer1 {
     display: none;
   }
-  
 }
 
-
-@media screen and (min-width:990px) and (max-width:992px) {
-
+@media screen and (min-width: 990px) and (max-width: 992px) {
   .heading1 {
     text-align: start;
     font-size: 38px !important;
@@ -69,7 +65,6 @@
     position: relative;
     /* top: 14px; */
   }
-
 
   .para2 {
     font-family: "Inter";
@@ -100,10 +95,7 @@
     cursor: pointer;
     margin-top: 4%;
   }
-
-
 }
-
 
 .cardheading {
   text-align: center;
@@ -116,8 +108,7 @@
   top: -13%;
 }
 
-@media screen and (max-width:1399px) {
-
+@media screen and (max-width: 1399px) {
   .cardheading {
     text-align: center;
     font-size: 19px;
@@ -140,9 +131,6 @@
     width: 100%;
     text-align: center;
   }
-  
-
-  
 }
 
 .cardpara {
@@ -180,9 +168,7 @@
   /* top: 14px; */
 }
 
-
-@media screen and (max-width:1400px) {
-
+@media screen and (max-width: 1400px) {
   .para1 {
     font-family: "Inter";
     font-size: 20px;
@@ -196,30 +182,25 @@
     position: relative;
     /* top: 14px; */
   }
-  
 }
 
-
-
-@media screen and (min-width:1200px) {
-  .seer{
+@media screen and (min-width: 1200px) {
+  .seer {
     display: block;
   }
-  .seer1{
+  .seer1 {
     display: none;
   }
 }
 
-@media screen and (max-width:1199px) {
-  .seer1{
+@media screen and (max-width: 1199px) {
+  .seer1 {
     display: block;
   }
-  .seer{
+  .seer {
     display: none;
   }
-  
 }
-
 
 .para2 {
   font-family: "Inter";
@@ -234,9 +215,7 @@
   margin-top: 15%;
 }
 
-
-@media screen and (max-width:1400px) {
-
+@media screen and (max-width: 1400px) {
   .para2 {
     font-family: "Inter";
     font-size: 17px;
@@ -249,13 +228,9 @@
     text-align: start;
     margin-top: 15%;
   }
-  
 }
 
-
-
-@media screen and (max-width:1200px) {
-
+@media screen and (max-width: 1200px) {
   .para2 {
     font-family: "Inter";
     font-size: 15px;
@@ -268,9 +243,7 @@
     text-align: start;
     margin-top: 15%;
   }
-  
 }
-
 
 .mypar {
   background-image: url("/assets/imgs/page/homepage4/bg11.png");
@@ -278,49 +251,33 @@
   background-position: -28% 145px;
 }
 
-
-
-
-@media screen and (max-width:1300px) {
+@media screen and (max-width: 1300px) {
   .mypar {
     background-image: url("/assets/imgs/page/homepage4/bg11.png");
     background-repeat: no-repeat;
     background-position: -13% 145px;
   }
-  
 }
 
-
-@media screen and (max-width:1115px) {
+@media screen and (max-width: 1115px) {
   .mypar {
     background-image: none;
-    
   }
-  
 }
 
-
-@media screen and (min-width:1556px)  and (max-width:1776px) {
+@media screen and (min-width: 1556px) and (max-width: 1776px) {
   .mypar {
     background-image: none;
-    
   }
-  
 }
 
-@media screen and (min-width:1777px) {
+@media screen and (min-width: 1777px) {
   .mypar {
     background-image: url("/assets/imgs/page/homepage4/bg11.png");
     background-repeat: no-repeat;
     background-position: 3px 145px;
   }
-  
 }
-
-
-
-
-
 
 .buttonstart {
   margin: auto;

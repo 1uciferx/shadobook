@@ -16,6 +16,7 @@ function POS() {
           name="description"
           content="Our Point of Sale system simplifies electronic invoicing, sales tracking, and customer purchase tracking. It is device agnostic and works both online and offline."
         />
+         <meta name="keywords" content="Point of Sale System"/>
       </Head>
 
       <Layout>
@@ -349,7 +350,7 @@ function POS() {
           <div className="mt-50">
             <Indexslider />
             <div className="text-center">
-              <Link href="/modules">
+              <Link href="/our-product">
                 <button
                   type="button"
                   class="btn btn-outline-dark"

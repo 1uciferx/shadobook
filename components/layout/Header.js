@@ -93,7 +93,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                       </Link>
                     </li>
                     <li className="has-children">
-                      <Link href="#">
+                      <Link href="/our-product">
                         <a className="acuspad">Features</a>
                       </Link>
                       <ul className="sub-menu" style={{ width: "600px",marginLeft:"-250px"}}>
@@ -108,7 +108,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li>
                             <li>
-                              <Link href="/Utilities-management-software">
+                              <Link href="/utility-management-software">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Utilities
@@ -124,7 +124,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li>
                             <li>
-                              <Link href="/crm-software-uae">
+                              <Link href="/crm-software">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Sales
@@ -149,7 +149,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                               </Link>
                             </li> */}
                             <li>
-                              <Link href="/vendor-management-software-uae">
+                              <Link href="/vendor-management-software">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Purchase
@@ -324,7 +324,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </li> */}
 
                             <li>
-                              <Link href="/sales-rep-software">
+                              <Link href="/sales-rep-erp-software">
                                 <a>
                                   <i className="fi fi-rr-star" />
                                   Sales Agent
@@ -580,7 +580,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                       </a>
                       <ul className="sub-menu">
                         <li>
-                          <Link href="/itsupport">
+                          <Link href="/it-erp-software">
                             <a className="closer">
                               <i className="fi fi-rr-edit"></i>IT & Support
                             </a>
@@ -594,14 +594,14 @@ const Header = ({ handleOpen, headerStyle }) => {
                           </Link>
                         </li> */}
                         <li>
-                          <Link href="/manufacturing1">
+                          <Link href="/manufacturing-software">
                             <a className="closer">
                               <i className="fi fi-rr-edit"></i>Manufacturing
                             </a>
                           </Link>
                         </li>
                         <li>
-                          <Link href="/retailandwholesaler">
+                          <Link href="/retail-erp-software">
                             <a className="closer">
                               <i className="fi fi-rr-edit"></i>Retail &
                               Wholesalers

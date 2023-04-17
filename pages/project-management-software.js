@@ -22,6 +22,7 @@ function Project() {
       <Head>
         <title>Online Project Management Software | Shadobooks ERP</title>
         <meta name="description" content="Shadobooks ERP Projects is a cloud-based project management software that helps teams to organize, monitor progress and achieve project goals." />
+        <meta name="keywords" content="Project Management software"/>
       </Head>
 
  {/* facebook and twitter meta graphs starts here */}
@@ -923,7 +924,7 @@ function Project() {
           <div className="mt-50">
             <Indexslider />
             <div className="text-center">
-              <Link href="/modules">
+              <Link href="/our-product">
                 <button
                   type="button"
                   class="btn btn-outline-dark"

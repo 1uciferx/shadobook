@@ -4,16 +4,21 @@ import Layout from "../components/layout/Layout";
 import styles from "../styles/Index.module.css";
 import Indexslider from "../components/indexslider";
 import Contactmanager from "../components/contactmanager";
-import Head from 'next/head';
+import Head from "next/head";
 
 function Terms() {
   return (
     <>
-        <Head>
-        <title>Best Fixed Assets Management ERP Software | Shadobooks ERP</title>
-        <meta name="description" content="Fixed Asset Management ERP Software helps businesses track and manage their fixed assets. It also includes registration of these assets as part of this module." />
+      <Head>
+        <title>
+          Best Fixed Assets Management ERP Software | Shadobooks ERP
+        </title>
+        <meta
+          name="description"
+          content="Fixed Assets Management ERP Software helps businesses track and manage their fixed assets. It also includes registration of these assets as part of this module."
+        />
+          <meta name="keywords" content="Fixed Assets Management ERP Software"/>
       </Head>
-
 
       <Layout>
         <div
@@ -62,7 +67,12 @@ function Terms() {
                         receipt and ingestion process. <br />
                         <br />➟ Total asset, licences, accessories, consumables,
                         asset by state, asset categories, and actions done by in
-                        asset section comprise the asset dashboard.For a company's assets, the<span><a href="/point-of-sale-system"> POS</a></span> feature tracks sales and customer information. 
+                        asset section comprise the asset dashboard.For a
+                        company's assets, the
+                        <span>
+                          <a href="/point-of-sale-system"> POS</a>
+                        </span>{" "}
+                        feature tracks sales and customer information.
                       </p>
                       <br />
                     </div>
@@ -501,8 +511,7 @@ function Terms() {
                         src="assets/imgs/page/homepage1/ff2.png"
                         alt="Fixed Assets Management ERP Software"
                       />
-                      <p />
-Q
+                      <p />Q
                       <p>
                         ➟ Assets include both tangible and intangible items like
                         as raw materials, inventory, machinery, and real estate.
@@ -511,7 +520,16 @@ Q
                         ➟ In Shadobooks CRM, go to Company asset-Asset-Add an
                         asset.
                         <br />
-                        <br />➟ With regard to<span><a href="/manufacturing-erp-software"> Manufacturing,</a></span> companies can keep track of the advancement of production and ensure the quality of their company's assets through monitoring. 
+                        <br />➟ With regard to
+                        <span>
+                          <a href="/manufacturing-erp-software">
+                            {" "}
+                            Manufacturing,
+                          </a>
+                        </span>{" "}
+                        companies can keep track of the advancement of
+                        production and ensure the quality of their company's
+                        assets through monitoring.
                       </p>
                       <br />
                     </div>
@@ -526,7 +544,7 @@ Q
           <div className="mt-50">
             <Indexslider />
             <div className="text-center">
-              <Link href="/modules">
+              <Link href="/our-product">
                 <button
                   type="button"
                   class="btn btn-outline-dark"
@@ -542,9 +560,9 @@ Q
             </div>
           </div>
         </div>
-        
+
         <div>
-          <Contactmanager/>
+          <Contactmanager />
         </div>
       </Layout>
     </>

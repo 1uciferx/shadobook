@@ -31,6 +31,7 @@ function Home() {
    <Head>
         <title> Automate Your Sales Process with our Lead Management System</title>
         <meta name="description" content="Shadobooks ERP lead management system is designed to help you streamline your sales pipeline, from lead generation to close." />
+        <meta name="keywords" content="Lead management system"/>
       </Head>
 
  {/* facebook and twitter meta graphs starts here */}
@@ -98,7 +99,7 @@ function Home() {
                     In Shadobook ERP, the lead page is shown when you click the
                     lead module. Here we have the options to add a new lead,
                     import a lead, filter options, and also the list form of
-                    generated leads.It allows<span><a href="/Utilities-management-software"> utilities</a></span> providers to capture important customer information, such as email addresses and phone numbers, which can be used for future marketing and communication efforts. 
+                    generated leads.It allows<span><a href="/utility-management-software"> utilities</a></span> providers to capture important customer information, such as email addresses and phone numbers, which can be used for future marketing and communication efforts. 
                   </div>
                 </div>
               </div>
@@ -177,7 +178,7 @@ function Home() {
           <div className="mt-50">
             <Indexslider />
             <div className="text-center">
-              <Link href="/modules">
+              <Link href="/our-product">
                 <button
                   type="button"
                   class="btn btn-outline-dark"

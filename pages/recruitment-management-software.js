@@ -29,6 +29,7 @@ function Home() {
       <Head>
         <title>Find Right Talent Faster with Recruitment management Software</title>
         <meta name="description" content="Our recruitment management software makes it easy to discover the most qualified candidates." />
+        <meta name="keywords" content="Recruitment management software"/>
       </Head>
 
       <Layout>
@@ -411,7 +412,7 @@ function Home() {
           <div className="mt-50">
             <Indexslider />
             <div className="text-center">
-              <Link href="/modules">
+              <Link href="/our-product">
                 <button
                   type="button"
                   class="btn btn-outline-dark"

@@ -30,7 +30,8 @@ function Home() {
 
        <Head>
         <title>ERP Document Management | Shadobooks ERP</title>
-        <meta name="description" content="Shadobooks ERP provides a comprehensive system for document management, ensuring secure storage, effective file management and streamlined document workflows." />
+        <meta name="description" content="In order to provide secure storage, efficient file management, and optimised document processes, Shadobooks offers a complete system for ERP document management." />
+        <meta name="keywords" content="ERP Document Management"/>
       </Head>
 
  {/* facebook and twitter meta graphs starts here */}
@@ -229,7 +230,7 @@ function Home() {
           <div className="mt-50">
             <Indexslider />
             <div className="text-center">
-              <Link href="/modules">
+              <Link href="/our-product">
                 <button
                   type="button"
                   class="btn btn-outline-dark"
