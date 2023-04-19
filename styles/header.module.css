@@ -1,16 +1,32 @@
-.sidebar{
-    display: block;
+.sidebar {
+  display: block;
 }
 
-@media screen and (min-width: 1199px){
-    .sidebar{
-        display: none;
-    }
+@media screen and (min-width: 1199px) {
+  .sidebar {
+    display: none;
+  }
 }
 
 
 
 /* CSS */
+
+.head {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  max-width: 1272px;
+  position: fixed;
+  z-index: 10;
+  /* height: 88px; */
+  left: 50%;
+  transform: translateX(-50%);
+  top: 17px;
+  box-shadow: 4px 1px 21px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 60px;
+}
+
+
 .button86 {
   background: #0099FF;
   border: 1px solid #0099FF;
@@ -20,7 +36,7 @@
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
   font-size: 15px;
   font-weight: 600;
   line-height: 16px;
@@ -49,7 +65,7 @@
 }
 
 @media screen and (max-width: 1133px) {
-    .mobera{
-        display: none;
-    }
+  .mobera {
+    display: none;
+  }
 }
