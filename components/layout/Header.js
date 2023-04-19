@@ -3,8 +3,15 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import styles from "../../styles/header.module.css";
+import { useRouter } from 'next/router';
+
 
 const Header = ({ handleOpen, headerStyle }) => {
+
+  const router = useRouter();
+  const isHome = router.pathname === '/';
+
+
   const [scroll, setScroll] = useState(0);
 
   const [shodan, setShodan] = useState("");
@@ -52,11 +59,13 @@ const Header = ({ handleOpen, headerStyle }) => {
       {/* this is the code to make the header to fix when scrollling */}
       {/* ? `${headerStyle} header sticky-bar stick ` */}
       <header
-        className={       
-          scroll
-            ? `${headerStyle} header  ${styles.head}`
-            : `${headerStyle} header  ${styles.head}`           
-        }>
+       className={
+        !isHome
+          ? `${headerStyle} header sticky-bar `
+          : scroll
+            ? `${headerStyle} header ${styles.head}`
+            : `${headerStyle} header ${styles.head}`
+      }>
 
       <div className="container">
         <div className="main-header">

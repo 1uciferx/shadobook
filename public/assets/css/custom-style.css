@@ -220,3 +220,8 @@
 
   top: 0;
 }
+
+.header .main-menu li a {
+  font-weight: 700;
+  font-size: 20px;
+}
