@@ -53,7 +53,7 @@ const Featureslider = () => {
       quote:
         "In Shadobooks CRM an organisational chart depicts the organisational structure by connecting distinct employees with their unit’s name, email, parent unit, IMAP Username, IMAP password, and the encryption details.",
       bg: "bd-bg-6",
-      link: "/Accounting-erp-software",
+      link: "/accounting-erp-software",
     },
     {
       avatar: "Utilities4.png",
@@ -71,7 +71,7 @@ const Featureslider = () => {
       quote:
         "Onboarding in CRM streamlines the process of introducing new employees to an organisation. To provide an effective onboarding experience for new employees, it often involves electronic signatures.",
       bg: "bd-bg-6",
-      link: "/Knowledge-management-software",
+      link: "/sales-management-software",
     },
     {
       avatar: "Hiring3.png",
@@ -94,11 +94,10 @@ const Featureslider = () => {
     {
       avatar: "sales3.png",
       name: "Knowledge Base",
-      company: "Bank of America",
       quote:
         "The HR reports include the following employee information: Layoffs of employees, Salary changes on the staff list, Staff changes by seniority, Staff changes by month.",
       bg: "bd-bg-6",
-      link: "/crm-software",
+      link: "/knowledge-management-software",
     },
     {
       avatar: "Reports3.png",
@@ -143,7 +142,7 @@ const Featureslider = () => {
       quote:
         "In Shadobooks CRM an organisational chart depicts the organisational structure by connecting distinct employees with their unit’s name, email, parent unit, IMAP Username, IMAP password, and the encryption details.",
       bg: "bd-bg-6",
-      link: "/Accounting-erp-software",
+      link: "/accounting-erp-software",
     },
     {
       avatar: "Utilities4.png",
@@ -188,7 +187,7 @@ const Featureslider = () => {
       quote:
         "The HR reports include the following employee information: Layoffs of employees, Salary changes on the staff list, Staff changes by seniority, Staff changes by month.",
       bg: "bd-bg-6",
-      link: "/crm-software",
+      link: "/knowledge-management-software",
     },
     {
       avatar: "Reports3.png",
@@ -233,7 +232,7 @@ const Featureslider = () => {
       quote:
         "In Shadobooks CRM an organisational chart depicts the organisational structure by connecting distinct employees with their unit’s name, email, parent unit, IMAP Username, IMAP password, and the encryption details.",
       bg: "bd-bg-6",
-      link: "/Accounting-erp-software",
+      link: "/accounting-erp-software",
     },
     {
       avatar: "Utilities4.png",
@@ -251,7 +250,7 @@ const Featureslider = () => {
       quote:
         "Onboarding in CRM streamlines the process of introducing new employees to an organisation. To provide an effective onboarding experience for new employees, it often involves electronic signatures.",
       bg: "bd-bg-6",
-      link: "/Knowledge-management-software",
+      link: "/sales-management-software",
     },
     {
       avatar: "Hiring3.png",
@@ -278,7 +277,7 @@ const Featureslider = () => {
       quote:
         "The HR reports include the following employee information: Layoffs of employees, Salary changes on the staff list, Staff changes by seniority, Staff changes by month.",
       bg: "bd-bg-6",
-      link: "/crm-software",
+      link: "/knowledge-management-software",
     },
     {
       avatar: "Reports3.png",
@@ -323,7 +322,7 @@ const Featureslider = () => {
       quote:
         "In Shadobooks CRM an organisational chart depicts the organisational structure by connecting distinct employees with their unit’s name, email, parent unit, IMAP Username, IMAP password, and the encryption details.",
       bg: "bd-bg-6",
-      link: "/Accounting-erp-software",
+      link: "/accounting-erp-software",
     },
     {
       avatar: "Utilities4.png",
@@ -341,7 +340,7 @@ const Featureslider = () => {
       quote:
         "Onboarding in CRM streamlines the process of introducing new employees to an organisation. To provide an effective onboarding experience for new employees, it often involves electronic signatures.",
       bg: "bd-bg-6",
-      link: "/Knowledge-management-software",
+      link: "/sales-management-software",
     },
     {
       avatar: "Hiring3.png",
@@ -368,7 +367,7 @@ const Featureslider = () => {
       quote:
         "The HR reports include the following employee information: Layoffs of employees, Salary changes on the staff list, Staff changes by seniority, Staff changes by month.",
       bg: "bd-bg-6",
-      link: "/crm-software",
+      link: "/knowledge-management-software",
     },
   ];
 

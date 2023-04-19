@@ -121,7 +121,7 @@ const Sidebar = ({ openClass }) => {
                       >
                           <div>
                             <li>
-                              <Link href="/Accounting-erp-software">
+                              <Link href="/accounting-erp-software">
                                 <a>
                                   
                                   Accounting
@@ -163,7 +163,7 @@ const Sidebar = ({ openClass }) => {
                               </Link>
                             </li> */}
                             <li>
-                              <Link href="/vendor-management-software">
+                              <Link href="/purchase-management-software">
                                 <a>
                                   
                                   Purchase
@@ -401,7 +401,7 @@ const Sidebar = ({ openClass }) => {
                             </li>
 
                             <li>
-                              <Link href="/fixed-assets-management-erp-software">
+                              <Link href="/assets-management-erp-software">
                                 <a>
                                  
                                   Company Assets
@@ -500,7 +500,7 @@ const Sidebar = ({ openClass }) => {
                             </li>
 
                             <li>
-                              <Link href="/Knowledge-management-software">
+                              <Link href="/knowledge-management-software">
                                 <a>
                                  
                                   Knowledge Base
@@ -518,7 +518,7 @@ const Sidebar = ({ openClass }) => {
                             </li>
 
                             <li>
-                              <Link href="/crm-software">
+                              <Link href="/sales-management-software">
                                 <a>
                                  
                                   Sales

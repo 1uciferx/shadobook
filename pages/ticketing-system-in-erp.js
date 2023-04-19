@@ -42,7 +42,7 @@ function Index8() {
                 <div className="col-lg-2"></div>
                 <div className="col-lg-8">
                   <h1 className="text-display-4 font-bold color-white text-center mt-30">
-                    Support
+                  Ticketing System in ERP
                   </h1>
                   <p className="text-body-lead-large text-center color-white mt-40 ">
                     Get a website to be found on the first page of Google to

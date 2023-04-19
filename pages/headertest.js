@@ -241,7 +241,7 @@ function Headertest() {
                 >
                   <div style={{marginLeft:"20px"}}>
                     <li>
-                      <Link href="/Accounting-erp-software">
+                      <Link href="/accounting-erp-software">
                         <a style={{fontWeight:"400",fontSize:"15px"}} >Accounting</a>
                       </Link>
                     </li>
@@ -274,7 +274,7 @@ function Headertest() {
                               </Link>
                             </li> */}
                     <li>
-                      <Link href="/vendor-management-software">
+                      <Link href="/purchase-management-software">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Purchase</a>
                       </Link>
                     </li>
@@ -479,7 +479,7 @@ function Headertest() {
                     </li>
 
                     <li>
-                      <Link href="/fixed-assets-management-erp-software">
+                      <Link href="/assets-management-erp-software">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Company Assets</a>
                       </Link>
                     </li>
@@ -560,7 +560,7 @@ function Headertest() {
                     </li>
 
                     <li>
-                      <Link href="/Knowledge-management-software">
+                      <Link href="/knowledge-management-software">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Knowledge Base</a>
                       </Link>
                     </li>
@@ -572,7 +572,7 @@ function Headertest() {
                     </li>
 
                     <li>
-                      <Link href="/crm-software">
+                      <Link href="/sales-management-software">
                         <a style={{fontWeight:"400",fontSize:"15px"}}>Sales</a>
                       </Link>
                     </li>

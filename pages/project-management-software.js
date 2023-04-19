@@ -49,7 +49,7 @@ function Project() {
             <div className="container mt-40">
               <div className="row">
                 <div className="col-lg-6 mt-30">
-                  <h1 className="text-display-4 color-white">Projects</h1>
+                  <h1 className="text-display-4 color-white">Online Project Management<br></br> Software </h1>
                   <div className="list-social-banner">
                     <Link href="https://www.facebook.com/shadobookscrm">
                       <a className="social-banner facebook hover-up"></a>

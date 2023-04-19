@@ -36,6 +36,8 @@ function Index2() {
 
   return (
     <>
+
+    
       <Layout>
         {/* firstbox */}
 
@@ -44,7 +46,7 @@ function Index2() {
           <title>Top Accounting Software for Business | Shadobooks ERP</title>
           <meta
             name="description"
-            content=" Sign up today for Shadobooks, a top accounting software for businesses. It empowers you to perform essential financial tasks such as invoice creation and cash flow monitoring. Begin your free 90-day trial now! "
+            content=" Sign up today for Shadobooks, a top accounting software for businesses. It empowers you to perform essential financial tasks such as invoice creation and cash flow monitoring. Begin your free 90-day trial now!"
           />
           <meta
             name="keywords"

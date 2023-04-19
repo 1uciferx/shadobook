@@ -11,7 +11,7 @@ function BlogSingle() {
   return (
     <>
       <Head>
-        <title>Control Expenses with Our Expense Management System</title>
+        <title> Online Expense Management System | Shadobooks</title>
         <meta
           name="description"
           content="Take control of expenses with our expense management system. Real-time tracking, spending caps, and centralized management save time, cut costs, and prevent mistakes."
@@ -47,7 +47,7 @@ function BlogSingle() {
               <div className="row">
                 <div className="col-lg-12">
                   <h1 className="text-display-2 text-center color-white">
-                  Expenses
+                  Online Expense Management System 
                   </h1>
                   <p className="text-body-lead-large color-white mt-40  text-center">
                   The expense module in Shadobooks ERP is a feature that allows businesses to manage and track their expenses efficiently. It provides a centralized platform for recording all types of expenses, including employee reimbursements, vendor bills, and other miscellaneous expenses. This module helps businesses to streamline their expense management process by providing tools for creating expense reports, tracking expenses against budgets, and generating insights into spending patterns. 

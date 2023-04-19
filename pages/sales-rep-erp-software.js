@@ -24,7 +24,7 @@ function Salesagent() {
           name="description"
           content="Sales Rep ERP Software is helps to automate business tasks, track performance, manage customer relationships, and generate invoices & Reports."
         />
-        <meta name="keywords" content=" Sales Rep ERP Software"/>
+        <meta name="keywords" content="Sales Rep ERP Software"/>
       </Head>
 
  {/* facebook and twitter meta graphs starts here */}
@@ -52,7 +52,7 @@ function Salesagent() {
             <div className="container">
               <div className="text-center">
                 <h1 className="text-display-2 color-white mt-30">
-                  Sales Agent
+                Best Sales Rep ERP Software
                 </h1>
                 <p className="text-body-lead-large color-white mt-40 pr-40">
                   A person or corporation that represents an exporting firm (the

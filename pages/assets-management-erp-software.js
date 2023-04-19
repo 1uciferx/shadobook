@@ -11,13 +11,13 @@ function Terms() {
     <>
       <Head>
         <title>
-          Best Fixed Assets Management ERP Software | Shadobooks ERP
+        Best Assets Management ERP Software | Shadobooks ERP
         </title>
         <meta
           name="description"
           content="Fixed Assets Management ERP Software helps businesses track and manage their fixed assets. It also includes registration of these assets as part of this module."
         />
-          <meta name="keywords" content="Fixed Assets Management ERP Software"/>
+          <meta name="keywords" content="Assets Management ERP Software"/>
       </Head>
 
       <Layout>
@@ -28,7 +28,7 @@ function Terms() {
           <div className="container mt-50">
             <div className="row">
               <h1 className="text-display-4 font-bold text-center color-white mt-30">
-                Company Assets
+              Best Assets Management ERP Software
               </h1>
               <p className="text-body-lead-large color-white text-center mt-40 pr-40">
                 Get a website to be found on the first page of Google to avoid

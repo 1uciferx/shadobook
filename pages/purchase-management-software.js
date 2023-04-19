@@ -18,9 +18,9 @@ function Purchase() {
       <Layout>
 
       <Head>
-        <title>Effortlessly Manage Vendors with vendor management Software</title>
-        <meta name="description" content=" Efficiently manage your vendors with our vendor management software. Streamline communication, track performance, and ensure compliance with contract terms." />
-        <meta name="keywords" content="Vendor management software"/>
+        <title>Top Purchase Management Software | Shadobooks</title>
+        <meta name="description" content="  Efficiently manage your vendors with our vendor management software. Streamline communication, track performance, and ensure compliance with contract terms." />
+        <meta name="keywords" content="Purchase management software"/>
       </Head>
 
         <div className="section-box">
@@ -33,7 +33,7 @@ function Purchase() {
             <div className="container">
               <div className="row">
                 <div className="col-lg-7 mt-10 pb-120">
-                  <h1 className="text-display-2 color-white">Purchase</h1>
+                  <h1 className="text-display-2 color-white">Top Purchase Management Software</h1>
                   <p className="text-body-lead-large color-white mt-30 pr-40">
                     The Purchase feature in Shadobooks streamlines procurement
                     by simplifying the purchasing process, reducing the

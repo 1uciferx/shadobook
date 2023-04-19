@@ -13,9 +13,9 @@ function Sales() {
   return (
     <>
       <Head>
-        <title>Maximize Sales with best CRM software | Shadobooks ERP</title>
-        <meta name="description" content="Elevate your sales with our CRM software. Optimize your process with lead management, customer tracking, and more for business growth and success." />
-        <meta name="keywords" content="CRM software "/>
+        <title>Sales Management  Software with Shadobooks ERP</title>
+        <meta name="description" content="Elevate your sales with our sales management software. Optimize your process with lead management, customer tracking, and more for business growth and success." />
+        <meta name="keywords" content="Sales Management software"/>
 
       </Head>
 
@@ -44,7 +44,7 @@ function Sales() {
             <div className="container">
               <div className="row">
                 <div className="col-lg-7 mt-10 pb-120">
-                  <h1 className="text-display-2 color-white">Sales</h1>
+                  <h1 className="text-display-2 color-white">Sales Management  Software with Shadobooks ERP</h1>
                   <p className="text-body-lead-large color-white mt-30 pr-40">
                     The sales interface enables hyper management of all your
                     prospects, proposals, estimations, quotations, payments,

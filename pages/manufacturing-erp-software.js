@@ -54,7 +54,7 @@ function Manufacturing() {
             <div className="container">
               <div className="row">
                 <div className="col-lg-7">
-                  <h1 className="text-display-2 color-white">Manufacturing</h1>
+                  <h1 className="text-display-2 color-white">Open Source Manufacturing ERP software</h1>
                   <p className="text-body-lead-large color-white mt-30 pr-40">
                     The manufacturing section comes with a statistical dashboard
                     that offers a graphical representation of your manufacturing

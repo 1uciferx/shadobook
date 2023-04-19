@@ -29,7 +29,7 @@ function Home() {
   return (
     <>
      <Head>
-        <title>Fully Integrated Reports Module in ERP | Shadobooks ERP </title>
+        <title>Fully Integrated Reports Module in ERP | Shadobooks ERP  </title>
         <meta name="description" content="The Reports Module in ERP Software provides users with comprehensive insights into their business operations for better decision-making." />
         <meta name="keywords" content="Reports Module in ERP"/>
       </Head>
@@ -61,7 +61,7 @@ function Home() {
                     style={{ color: "white", marginTop: "-35px" }}
                     className="text-display-2"
                   >
-                    Reports
+                    Fully Integrated Reports Module in ERP
                   </h1>
                   <p
                     style={{ color: "white" }}

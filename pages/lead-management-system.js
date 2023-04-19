@@ -29,7 +29,7 @@ function Home() {
   return (
     <>
    <Head>
-        <title> Automate Your Sales Process with our Lead Management System</title>
+        <title>Lead Management System | Shadobooks ERP</title>
         <meta name="description" content="Shadobooks ERP lead management system is designed to help you streamline your sales pipeline, from lead generation to close." />
         <meta name="keywords" content="Lead management system"/>
       </Head>
@@ -59,7 +59,7 @@ function Home() {
               <div className="row">
                 <div className="col-lg-12">
                   <h1 className="text-display-2 text-center color-white">
-                    Leads
+                  Lead Management System 
                   </h1>
                   <p className="text-body-lead-large color-white mt-40  text-center">
                     Shadobooks offers an easy to use CRM interface and

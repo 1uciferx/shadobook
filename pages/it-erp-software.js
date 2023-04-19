@@ -14,11 +14,11 @@ function Service1() {
  {/* facebook and twitter meta graphs starts here */}
       <Helmet>
       <title>
-      Open Source IT ERP Software | Shadobooks
+      Get the Best IT ERP Software for Efficient IT & Support Services
          </title>
          <meta
            name="description"
-           content="Shadobooks IT ERP Software is a powerful tool to streamline operations and increase efficiency. It can manage finance, inventory, and customer relationships, helping businesses improve their productivity.  "
+           content="Shadobooks IT ERP Software is a powerful tool to streamline operations and increase efficiency. It can manage finance, inventory, and customer relationships, helping businesses improve their productivity."
          />
           <meta name="keywords" content="IT ERP Software"/>
         <meta property="og:title" content="Shadobooks ERP" />
