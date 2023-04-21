@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { Button, Drawer, Radio, Space } from "antd";
 import Sidebar from "../components/layout/Sidebar";
-
+import Head from 'next/head';
 
 
 function Headertest() {
@@ -66,8 +66,7 @@ function Headertest() {
 
   const shodanData = async () => {
     const { data } = await axios.get(
-      `https://api.shodan.io/shodan/host/${
-        (ip && ip) || "103.78.237.6"
+      `https://api.shodan.io/shodan/host/${(ip && ip) || "103.78.237.6"
       }?key=MuWfcU97yw8u9XP08ZsROsYTiny7Ibcx`
     );
 
@@ -83,6 +82,9 @@ function Headertest() {
   console.log("country", shodan.country_code);
   return (
     <>
+      <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
       {/* TOP */}
 
       <nav
@@ -95,15 +97,15 @@ function Headertest() {
         }}
       >
         <div class="container">
-          <Link  href="/">
-          <a class="navbar-brand" style={{ margin: "auto" }}>
-            {" "}
-            <img
-              width={150}
-              alt="ShadoBooks"
-              src="assets/imgs/page/homepage4/shadobookslogo.png "
-            />
-          </a>
+          <Link href="/">
+            <a class="navbar-brand" style={{ margin: "auto" }}>
+              {" "}
+              <img
+                width={150}
+                alt="ShadoBooks"
+                src="assets/imgs/page/homepage4/shadobookslogo.png "
+              />
+            </a>
           </Link>
 
           <div class="collapse navbar-collapse" id="navbarResponsive"></div>
@@ -128,45 +130,44 @@ function Headertest() {
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          
+
 
           <a
-          href="callto:+971 52 872 2900"
-          style={{
-            fontSize: "15px",
-           margin:"auto",
-            color: "black",
-          }}
-       
-        >
-          <img
-            src={`https://cdn.jsdelivr.net/npm/react-flagkit@1.0.2/img/SVG/${
-              shodan.country_code || "IN"
-            }.svg`}
+            href="callto:+971 52 872 2900"
             style={{
-              marginRight: "15px",
-              width: "25px",
-              objectFit: "cover",
-              marginBottom: "3px",
+              fontSize: "15px",
+              margin: "auto",
+              color: "black",
             }}
-          ></img>
-         
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={2}
-            stroke="currentColor"
-            style={{ height: "18px", width: "20px" }}
+
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
-            />
-          </svg>
-          <span style={{ diplay: "block" }}> +971 52 872 2900</span>
-        </a>
+            <img
+              src={`https://cdn.jsdelivr.net/npm/react-flagkit@1.0.2/img/SVG/${shodan.country_code || "IN"
+                }.svg`}
+              style={{
+                marginRight: "15px",
+                width: "25px",
+                objectFit: "cover",
+                marginBottom: "3px",
+              }}
+            ></img>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={2}
+              stroke="currentColor"
+              style={{ height: "18px", width: "20px" }}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+              />
+            </svg>
+            <span style={{ diplay: "block" }}> +971 52 872 2900</span>
+          </a>
 
           <Drawer
             title="Shadobooks"
@@ -179,22 +180,22 @@ function Headertest() {
           >
             <ul
               className="mobile-menu font-heading"
-              style={{ fontFamily: "Segoe UI", fontSize: "20px",lineHeight:"25px",marginBottom:"30px" }}
+              style={{ fontFamily: "Segoe UI", fontSize: "20px", lineHeight: "25px", marginBottom: "30px" }}
             >
               <li
                 className={
                   isActive.key == 1 ? "has-children active" : "has-children"
-                } style={{marginBottom:"10px"}}
+                } style={{ marginBottom: "10px" }}
               >
                 <span onClick={() => handleToggle(1)} className="menu-expand">
                   {/* <i className="fi-rr-angle-small-down"></i> */}
                 </span>
                 <Link href="/">
-                  <a className="active" style={{ fontSize: "20px",fontFamily: "Segoe UI",fontWeight:"500", }}>
+                  <a className="active" style={{ fontSize: "20px", fontFamily: "Segoe UI", fontWeight: "500", }}>
                     Home
                   </a>
                 </Link>
-           
+
                 {/* <ul
                         className={
                           isActive.key == 1
@@ -228,9 +229,9 @@ function Headertest() {
                   isActive.key == 2 ? "has-children active" : "has-children"
                 }
               >
-                
 
-                <a  style={{ fontSize: "20px", fontWeight:"500"}} onClick={() => handleToggle(2)}>Features</a>
+
+                <a style={{ fontSize: "20px", fontWeight: "500" }} onClick={() => handleToggle(2)}>Features</a>
                 <span onClick={() => handleToggle(2)} className="menu-expand" >
                   <i className="fi-rr-angle-small-down"  ></i>
                 </span>
@@ -239,10 +240,10 @@ function Headertest() {
                     isActive.key == 2 ? "sub-menu d-block" : "sub-menu d-none"
                   }
                 >
-                  <div style={{marginLeft:"20px"}}>
+                  <div style={{ marginLeft: "20px" }}>
                     <li>
                       <Link href="/Accounting-erp-software">
-                        <a style={{fontWeight:"400",fontSize:"15px"}} >Accounting</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }} >Accounting</a>
                       </Link>
                     </li>
                     {/* <li>
@@ -255,13 +256,13 @@ function Headertest() {
                             </li> */}
                     <li>
                       <Link href="/reports-module-in-erp">
-                        <a style={{fontWeight:"400",fontSize:"15px"}}>Reports</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }}>Reports</a>
                       </Link>
                     </li>
 
                     <li>
                       <Link href="estimates-management-software">
-                        <a style={{fontWeight:"400",fontSize:"15px"}}>Estimates Request</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }}>Estimates Request</a>
                       </Link>
                     </li>
 
@@ -275,7 +276,7 @@ function Headertest() {
                             </li> */}
                     <li>
                       <Link href="/vendor-management-software">
-                        <a style={{fontWeight:"400",fontSize:"15px"}}>Purchase</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }}>Purchase</a>
                       </Link>
                     </li>
                     {/* <li>
@@ -288,18 +289,18 @@ function Headertest() {
                             </li> */}
                     <li>
                       <Link href="/expense-management-system">
-                        <a style={{fontWeight:"400",fontSize:"15px"}}>Expenses</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }}>Expenses</a>
                       </Link>
                     </li>
 
                     <li>
                       <Link href="/contract-tracking-software">
-                        <a style={{fontWeight:"400",fontSize:"15px"}}>Contracts</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }}>Contracts</a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/project-management-software">
-                        <a style={{fontWeight:"400",fontSize:"15px"}}>Projects</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }}>Projects</a>
                       </Link>
                     </li>
                     {/* <li>
@@ -313,12 +314,12 @@ function Headertest() {
 
                     <li>
                       <Link href="/inventory-management-system">
-                        <a style={{fontWeight:"400",fontSize:"15px"}}>Inventory</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }}>Inventory</a>
                       </Link>
                     </li>
                   </div>
 
-                  <div  style={{marginLeft:"20px"}}>
+                  <div style={{ marginLeft: "20px" }}>
                     {/* <li>
                               <Link href="/fixed-asset">
                                 <a>
@@ -339,7 +340,7 @@ function Headertest() {
 
                     <li>
                       <Link href="/lead-management-system">
-                        <a style={{fontWeight:"400",fontSize:"15px"}}>Leads</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }}>Leads</a>
                       </Link>
                     </li>
                     {/* <li>
@@ -360,7 +361,7 @@ function Headertest() {
                             </li> */}
                     <li>
                       <Link href="/task-management-software">
-                        <a style={{fontWeight:"400",fontSize:"15px"}}>Tasks</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }}>Tasks</a>
                       </Link>
                     </li>
 
@@ -400,13 +401,13 @@ function Headertest() {
                             </li> */}
                     <li>
                       <Link href="/best-hrms-software">
-                        <a style={{fontWeight:"400",fontSize:"15px"}}>Hr Records</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }}>Hr Records</a>
                       </Link>
                     </li>
 
                     <li>
                       <Link href="/hr-and-payroll-software">
-                        <a style={{fontWeight:"400",fontSize:"15px"}}>HR Payroll</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }}>HR Payroll</a>
                       </Link>
                     </li>
 
@@ -474,19 +475,19 @@ function Headertest() {
 
                     <li>
                       <Link href="/erp-document-management">
-                        <a style={{fontWeight:"400",fontSize:"15px"}}>File Manager</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }}>File Manager</a>
                       </Link>
                     </li>
 
                     <li>
                       <Link href="/fixed-assets-management-erp-software">
-                        <a style={{fontWeight:"400",fontSize:"15px"}}>Company Assets</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }}>Company Assets</a>
                       </Link>
                     </li>
 
                     <li>
                       <Link href="/point-of-sale-system">
-                        <a style={{fontWeight:"400",fontSize:"15px"}}>Point of Sale</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }}>Point of Sale</a>
                       </Link>
                     </li>
 
@@ -517,13 +518,13 @@ function Headertest() {
 
                     <li>
                       <Link href="/webhook">
-                        <a style={{fontWeight:"400",fontSize:"15px"}}>Web Hooks</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }}>Web Hooks</a>
                       </Link>
                     </li>
 
                     <li>
                       <Link href="/manufacturing-erp-software">
-                        <a style={{fontWeight:"400",fontSize:"15px"}}>Manufacturing</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }}>Manufacturing</a>
                       </Link>
                     </li>
 
@@ -546,40 +547,40 @@ function Headertest() {
                             </li> */}
                   </div>
 
-                  <div  style={{marginLeft:"20px"}}>
+                  <div style={{ marginLeft: "20px" }}>
                     <li>
                       <Link href="/ticketing-system-in-erp">
-                        <a style={{fontWeight:"400",fontSize:"15px"}}>Support</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }}>Support</a>
                       </Link>
                     </li>
 
                     <li>
                       <Link href="/utility-management-software">
-                        <a style={{fontWeight:"400",fontSize:"15px"}}>Utilities</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }}>Utilities</a>
                       </Link>
                     </li>
 
                     <li>
                       <Link href="/Knowledge-management-software">
-                        <a style={{fontWeight:"400",fontSize:"15px"}}>Knowledge Base</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }}>Knowledge Base</a>
                       </Link>
                     </li>
 
                     <li>
                       <Link href="/recruitment-management-software">
-                        <a style={{fontWeight:"400",fontSize:"15px"}}>Hiring</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }}>Hiring</a>
                       </Link>
                     </li>
 
                     <li>
                       <Link href="/crm-software">
-                        <a style={{fontWeight:"400",fontSize:"15px"}}>Sales</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }}>Sales</a>
                       </Link>
                     </li>
 
                     <li>
                       <Link href="/sales-rep-erp-software">
-                        <a style={{fontWeight:"400",fontSize:"15px"}}>Sales Agent</a>
+                        <a style={{ fontWeight: "400", fontSize: "15px" }}>Sales Agent</a>
                       </Link>
                     </li>
                   </div>
@@ -754,7 +755,7 @@ function Headertest() {
             </ul>
           </Drawer>
         </div>
-        
+
       </nav>
     </>
   );

@@ -19,6 +19,8 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import "react-modal-video/css/modal-video.css";
 import Layout from "../components/layout/Layout";
+import Head from 'next/head';
+
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -30,6 +32,10 @@ function excelmanager() {
 
   return (
     <>
+      <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
+      
       <Layout>
 
         {/* hero background image container */}
@@ -131,33 +137,33 @@ function excelmanager() {
             <h2 className={styles.subhead}>How it Works ?</h2>
           </Col>
           <Row>
-          <Col xs={{
-            span: 20,
-            offset: 2,
-          }}
-            lg={{
+            <Col xs={{
               span: 20,
               offset: 2,
             }}
-            sm={{
-              span: 16,
-              offset: 0,
-            }}
-            md={{
-              span: 16,
-              offset: 0,
-            }}
-            xl={{
-              span: 20,
-              offset: 0,
-            }}
-            xxl={{
-              span: 20,
-              offset: 0,
-            }} >
-           <p className={styles.subhead32}>The Excel manager helps you to maintain so may acctivities and its very easy to analyse every task.The good news is if you don't need the full suite of Microsoft 365 tools, you can access a number of its apps online for free -- including Word, Excel, PowerPoint, OneDrive, Outlook, Calendar and Skype</p>
-          </Col>
-        </Row>
+              lg={{
+                span: 20,
+                offset: 2,
+              }}
+              sm={{
+                span: 16,
+                offset: 0,
+              }}
+              md={{
+                span: 16,
+                offset: 0,
+              }}
+              xl={{
+                span: 20,
+                offset: 0,
+              }}
+              xxl={{
+                span: 20,
+                offset: 0,
+              }} >
+              <p className={styles.subhead32}>The Excel manager helps you to maintain so may acctivities and its very easy to analyse every task.The good news is if you don't need the full suite of Microsoft 365 tools, you can access a number of its apps online for free -- including Word, Excel, PowerPoint, OneDrive, Outlook, Calendar and Skype</p>
+            </Col>
+          </Row>
         </Row>
 
 

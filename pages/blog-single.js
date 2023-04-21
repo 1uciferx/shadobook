@@ -1,11 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
+import Head from 'next/head';
 
 
 function BlogSingle() {
     return (
         <>
+            <Head>
+                <meta name="robots" content="noindex" />
+            </Head>
             <Layout>
                 <div>
                     <section className="section-box">

@@ -2,9 +2,14 @@
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
 import data from "../util/shopData";
+import Head from 'next/head';
+
 function ShopFrid1() {
   return (
     <>
+      <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
       <Layout>
         <section className="section-box">
           <div className="banner-hero banner-breadcrums bg-gray-100">
@@ -193,10 +198,10 @@ function ShopFrid1() {
                     <div className="product-item-2 hover-up">
                       <Link href={`/shop/${item.id}`}>
                         <a>
-                        <div className="product-image">
-                          <img className="img-fluid" src={`/assets/imgs/page/homepage5/${item.img}`} alt="" />
+                          <div className="product-image">
+                            <img className="img-fluid" src={`/assets/imgs/page/homepage5/${item.img}`} alt="" />
                           </div>
-                      </a></Link>
+                        </a></Link>
 
                       <div className="box-quick-view">
                         <div className="quick-view">

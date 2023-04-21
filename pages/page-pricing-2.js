@@ -1,11 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
+import Head from 'next/head';
 
 
 function Pricing2() {
     return (
         <>
+            <Head>
+                <meta name="robots" content="noindex" />
+            </Head>
             <Layout>
                 <div className="section-box mt-90" />
                 <div className="container">
@@ -239,16 +243,16 @@ function Pricing2() {
                                 <div className="col-lg-8">
                                     <div className="row">
                                         <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control"  placeholder="Enter your name" /></div>
+                                            <div className="form-group"><input className="form-control" placeholder="Enter your name" /></div>
                                         </div>
                                         <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control"  placeholder="Comapy (optioanl)" /></div>
+                                            <div className="form-group"><input className="form-control" placeholder="Comapy (optioanl)" /></div>
                                         </div>
                                         <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control"  placeholder="Your email" /></div>
+                                            <div className="form-group"><input className="form-control" placeholder="Your email" /></div>
                                         </div>
                                         <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control"  placeholder="Phone number" /></div>
+                                            <div className="form-group"><input className="form-control" placeholder="Phone number" /></div>
                                         </div>
                                         <div className="col-lg-12">
                                             <div className="form-group"><textarea className="form-control" placeholder="Tell us about yourself" /></div>
@@ -272,8 +276,8 @@ function Pricing2() {
                                             <Link href="/page-terms"><a>Term &amp; Conditions</a></Link>
 
                                             <div className="box-form-newsletter mt-30">
-                                                <form className="form-newsletter"><input className="input-newsletter"  placeholder="Enter you mail .." />
-                                                <button className="btn btn-send" />
+                                                <form className="form-newsletter"><input className="input-newsletter" placeholder="Enter you mail .." />
+                                                    <button className="btn btn-send" />
                                                 </form>
                                             </div>
                                         </div>

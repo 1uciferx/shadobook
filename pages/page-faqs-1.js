@@ -2,10 +2,15 @@
 import Link from "next/link";
 import Accordion from "../components/elements/Accordion";
 import Layout from "../components/layout/Layout";
+import Head from 'next/head';
+
 
 function Faq1() {
   return (
     <>
+      <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
       <Layout headerStyle={"header-style-5"}>
         <div>
           <section className="section-box">

@@ -6,6 +6,7 @@ import { useState } from "react";
 import PriceTable2 from "../components/elements/PriceTable2";
 import Layout from "../components/layout/Layout";
 import OfferSlider from "../components/slider/Offer";
+import Head from 'next/head';
 import TestimonialSlider from "../components/slider/Testimonial";
 const ModalVideo = dynamic(import("react-modal-video"), {
     ssr: false,
@@ -21,6 +22,9 @@ function Home() {
 
     return (
         <>
+            <Head>
+                <meta name="robots" content="noindex" />
+            </Head>
             {/* <Link href="/#">
                 <a>Link</a></Link>
             </Link> */}
@@ -514,7 +518,7 @@ function Home() {
                                 <div className="col-lg-2 col-sm-1 col-12" />
                             </div>
                             <div className="container mt-70">
-                                <OfferSlider/>
+                                <OfferSlider />
                             </div>
                         </div>
                     </div>
@@ -591,7 +595,7 @@ function Home() {
                             Choose The Best Plan<br className="d-lg-block d-none" />That’s For You
                         </h3>
                     </div>
-                    <PriceTable2/>
+                    <PriceTable2 />
                 </section>
                 <section className="section-box overflow-visible mb-100">
                     <div className="container mt-100">
@@ -611,7 +615,7 @@ function Home() {
                                             <Link href="/page-terms"><a>Term &amp; Conditions</a></Link>
                                             <div className="box-form-newsletter mt-30">
                                                 <form className="form-newsletter">
-                                                    <input className="input-newsletter"  placeholder="Enter you mail .." /><button className="btn btn-send" />
+                                                    <input className="input-newsletter" placeholder="Enter you mail .." /><button className="btn btn-send" />
                                                 </form>
                                             </div>
                                         </div>

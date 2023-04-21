@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import "react-modal-video/css/modal-video.css";
 import Layout from "../components/layout/Layout";
+import Head from 'next/head';
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -12,6 +13,9 @@ const ModalVideo = dynamic(import("react-modal-video"), {
 function Fixed() {
   return (
     <>
+      <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
       <Layout>
         <section className="section-box">
           <div
@@ -57,7 +61,7 @@ function Fixed() {
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/setup.png " 
+                      src="assets/imgs/page/homepage4/setup.png "
                     />
                   </div>
                 </div>

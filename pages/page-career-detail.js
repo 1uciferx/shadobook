@@ -3,6 +3,7 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useState } from "react";
 import 'react-modal-video/css/modal-video.css';
+import Head from 'next/head';
 import Layout from "../components/layout/Layout";
 const ModalVideo = dynamic(import("react-modal-video"), {
     ssr: false,
@@ -12,6 +13,9 @@ function CareerDetails() {
     const [isOpen, setOpen] = useState(false);
     return (
         <>
+            <Head>
+                <meta name="robots" content="noindex" />
+            </Head>
             <Layout>
                 <section className="section-box">
                     <div className="banner-hero banner-breadcrums">
@@ -111,7 +115,7 @@ function CareerDetails() {
                                             <Link href="/page-terms"><a>Term &amp; Conditions</a></Link>
 
                                             <div className="box-form-newsletter mt-30">
-                                                <form className="form-newsletter"><input className="input-newsletter"  placeholder="Enter you mail .." /><button className="btn btn-send" /></form>
+                                                <form className="form-newsletter"><input className="input-newsletter" placeholder="Enter you mail .." /><button className="btn btn-send" /></form>
                                             </div>
                                         </div>
                                         <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">

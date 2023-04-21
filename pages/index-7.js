@@ -2,10 +2,15 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
+import Head from 'next/head';
+
 
 function Index7() {
   return (
     <>
+      <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
       <Layout>
         <div className="page-homepage7-bg"></div>
         <div className="section-box">

@@ -1,10 +1,14 @@
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
+import Head from 'next/head';
 
 
 function Reset() {
   return (
     <>
+      <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
       <Layout>
         <section className="section-box">
           <div className="container box-reset">
@@ -22,9 +26,9 @@ function Reset() {
                     <div className="form-group"><button className="btn btn-green-full text-heading-6">Reset password</button></div>
                     <div className="form-group">
                       <Link href="/">
-                      <a className="text-body-text">Back to homepage</a>
+                        <a className="text-body-text">Back to homepage</a>
                       </Link>
-                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

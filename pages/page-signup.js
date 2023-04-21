@@ -1,12 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
+import Head from 'next/head';
 
 
 function Signup() {
     return (
         <>
-
+            <Head>
+                <meta name="robots" content="noindex" />
+            </Head>
             <Layout>
                 <section className="section-box">
                     <div className="bg-6-opacity-30 pt-90">

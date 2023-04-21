@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import "react-modal-video/css/modal-video.css";
 import Layout from "../components/layout/Layout";
+import Head from 'next/head';
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -13,6 +14,9 @@ function Fixed() {
 
   return (
     <>
+      <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
       <Layout>
 
 
@@ -46,7 +50,7 @@ function Fixed() {
                     <img
                       className="img-responsive shape-2"
                       alt="Agon"
-                      src="assets/imgs/page/homepage4/ideahub.jpg " style={{borderRadius:"30px",height:"600px",maxWidth:"150%"}}
+                      src="assets/imgs/page/homepage4/ideahub.jpg " style={{ borderRadius: "30px", height: "600px", maxWidth: "150%" }}
                     />
                   </div>
                 </div>

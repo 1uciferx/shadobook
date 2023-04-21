@@ -9,6 +9,8 @@ import CounterUp from "../components/elements/CounterUp";
 import Layout from "../components/layout/Layout";
 import TeamSlider from "../components/slider/Team";
 import TestimonialSlider from "../components/slider/Testimonial";
+import Head from 'next/head';
+
 const ModalVideo = dynamic(import("react-modal-video"), {
     ssr: false,
 });
@@ -17,6 +19,9 @@ function About1() {
     const [isOpen, setOpen] = useState(false);
     return (
         <>
+            <Head>
+                <meta name="robots" content="noindex" />
+            </Head>
             <Layout>
                 <section className="section-box">
                     <div className="banner-hero banner-2 bg-about-1">
@@ -76,8 +81,8 @@ function About1() {
                                 <div className="text-center mb-20"><span className="tag-1">Customer Segmentation</span></div>
                                 <h2 className="text-display-3 color-gray-900 mb-60">Divide and conquer with<br className="d-lg-block d-none" />targeted marketing</h2>
 
-                                 <p className="text-body-lead-large color-gray-600 mt-20">Every customer has different needs, so you'll need a unique approach when selling. ShadoBooks CRM lets you segment customers based on their region, requirements, lead source, and even their level of responsiveness towards you. With segmentation, you can send campaigns that are tailor-made to fit your audience and assign sales reps with the right specializations for the job.</p>                              
-                            </div>                       
+                                <p className="text-body-lead-large color-gray-600 mt-20">Every customer has different needs, so you'll need a unique approach when selling. ShadoBooks CRM lets you segment customers based on their region, requirements, lead source, and even their level of responsiveness towards you. With segmentation, you can send campaigns that are tailor-made to fit your audience and assign sales reps with the right specializations for the job.</p>
+                            </div>
                         </div>
                     </div>
                     <br></br><br></br>
@@ -102,9 +107,9 @@ function About1() {
                             <div className="col-lg-10 col-sm-10 col-12 text-center">
                                 <div className="text-center mb-20"><span className="tag-1">Lead Nurturing</span></div>
                                 <h2 className="text-display-3 color-gray-900 mb-60">Everything you need to<br className="d-lg-block d-none" />convert leads to deals</h2>
-                                
-                                 <p className="text-body-lead-large color-gray-600 mt-20">Your leads are almost never ready to buy immediately—it’s up to a sales rep to build a lead’s interest so that they can make a purchase. You have to stick with your lead at every stage of their journey and provide the right information to nurture them towards making an informed decision. ShadoBooks CRM makes sure you stay up-to-date with every lead interaction, and automates your sales process so you can build lasting relationships.</p>                              
-                            </div>                       
+
+                                <p className="text-body-lead-large color-gray-600 mt-20">Your leads are almost never ready to buy immediately—it’s up to a sales rep to build a lead’s interest so that they can make a purchase. You have to stick with your lead at every stage of their journey and provide the right information to nurture them towards making an informed decision. ShadoBooks CRM makes sure you stay up-to-date with every lead interaction, and automates your sales process so you can build lasting relationships.</p>
+                            </div>
                         </div>
                     </div>
                     <br></br><br></br>
@@ -117,9 +122,9 @@ function About1() {
                             <div className="col-lg-10 col-sm-10 col-12 text-center">
                                 <div className="text-center mb-20"><span className="tag-1">Webforms</span></div>
                                 <h2 className="text-display-3 color-gray-900 mb-60">Capture customer information<br className="d-lg-block d-none" />from website promotions</h2>
-                                
-                                 <p className="text-body-lead-large color-gray-600 mt-20">Build web-to-lead forms for your landing pages using a simple drag-and-drop interface. Capture information about your visitors and push the information directly into ShadoBooks CRM without writing a single line of code. </p>                              
-                            </div>                       
+
+                                <p className="text-body-lead-large color-gray-600 mt-20">Build web-to-lead forms for your landing pages using a simple drag-and-drop interface. Capture information about your visitors and push the information directly into ShadoBooks CRM without writing a single line of code. </p>
+                            </div>
                         </div>
                     </div>
                     <br></br><br></br>
@@ -147,15 +152,15 @@ function About1() {
                             <div className="col-lg-10 col-sm-10 col-12 text-center">
                                 <div className="text-center mb-20"><span className="tag-1">Marketing Attribution</span></div>
                                 <h2 className="text-display-3 color-gray-900 mb-60">Measure the real ROI<br className="d-lg-block d-none" />of your campaigns</h2>
-                                
-                                 <p className="text-body-lead-large color-gray-600 mt-20">As a business, you run different campaigns for your prospects at different points in their journey. When you invest a lot of time, money, and effort in these campaigns, it's important to know what works and what doesn't work with your prospects. ShadoBooks CRM's marketing attribution helps you measure ROI and understand which campaigns are most effective in pushing prospects towards making purchasing decisions. </p>                              
-                            </div>                       
+
+                                <p className="text-body-lead-large color-gray-600 mt-20">As a business, you run different campaigns for your prospects at different points in their journey. When you invest a lot of time, money, and effort in these campaigns, it's important to know what works and what doesn't work with your prospects. ShadoBooks CRM's marketing attribution helps you measure ROI and understand which campaigns are most effective in pushing prospects towards making purchasing decisions. </p>
+                            </div>
                         </div>
                     </div>
                     <br></br><br></br>
                 </section>
 
-               
+
 
 
                 {/* <section className="section-box mt-100">

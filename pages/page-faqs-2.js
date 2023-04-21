@@ -1,11 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
+import Head from 'next/head';
 
 
 function Faq2() {
     return (
         <>
+            <Head>
+                <meta name="robots" content="noindex" />
+            </Head>
             <Layout>
                 <div>
                     <div className="section-box" />
@@ -18,10 +22,10 @@ function Faq2() {
                                 </div>
                                 <div className="col-lg-7">
                                     <div className="form-square">
-                                        <form className="form-inline" action="#"><input className="form-control input-with-button"  placeholder="Your question..." /><input className="text-heading-6 btn btn-square-green" type="submit" /></form>
+                                        <form className="form-inline" action="#"><input className="form-control input-with-button" placeholder="Your question..." /><input className="text-heading-6 btn btn-square-green" type="submit" /></form>
                                         <div className="block-tags">
                                             <Link href="/page-pricing-1"><a className="text-body-text color-gray-900">Pricing plan <span className="icon-close" /></a></Link>
-                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

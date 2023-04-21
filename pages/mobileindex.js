@@ -8,6 +8,8 @@ import dynamic from "next/dynamic";
 import Indexslider from "../components/indexslider";
 import styles from "../styles/Mobileindex.module.css";
 import Intro2 from "../components/slider/homeslider1";
+import Head from 'next/head';
+
 
 function Mobileindex() {
   const [isOpen, setOpen] = useState(false);
@@ -25,6 +27,9 @@ function Mobileindex() {
 
   return (
     <>
+      <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
       {/* mainheading and mainpara */}
 
       {/* <section>
@@ -663,7 +668,7 @@ function Mobileindex() {
                     <div className="box-img-user">
                       <div className="img-user img-user-round">
                         <img
-                         src="/assets/imgs/page/users/user.png"
+                          src="/assets/imgs/page/users/user.png"
                           alt="Agon"
                         />
                       </div>
@@ -684,7 +689,7 @@ function Mobileindex() {
                     <div className="box-img-user">
                       <div className="img-user img-user-round">
                         <img
-                        src="/assets/imgs/page/users/user.png"
+                          src="/assets/imgs/page/users/user.png"
                           alt="Agon"
                         />
                       </div>

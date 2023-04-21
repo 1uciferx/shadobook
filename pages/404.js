@@ -1,11 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
+import Head from 'next/head';
 
 
 function Error() {
     return (
         <>
+            <Head>
+                <meta name="robots" content="noindex" />
+            </Head>
             <Layout>
                 <section className="section-box mt-100">
                     <div className="container">
@@ -20,8 +24,8 @@ function Error() {
                                 </p>
                                 <div className="text-center mb-50">
                                     <Link href="/">
-                                    <a className="btn btn-black icon-arrow-left">Back to Homepage</a>
-                                    
+                                        <a className="btn btn-black icon-arrow-left">Back to Homepage</a>
+
                                     </Link>
                                 </div>
                             </div>

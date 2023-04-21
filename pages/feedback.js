@@ -5,6 +5,8 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import "react-modal-video/css/modal-video.css";
 import Layout from "../components/layout/Layout";
+import Head from 'next/head';
+
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -12,6 +14,10 @@ const ModalVideo = dynamic(import("react-modal-video"), {
 function Feedback() {
   return (
     <>
+      <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
+
       <Layout>
         <section className="section-box">
           <div
@@ -53,7 +59,7 @@ function Feedback() {
                       src="assets/imgs/page/homepage4/feedback.jpg "
                       style={{
                         borderRadius: "30px",
-                        height: "610px",maxWidth:"120%"
+                        height: "610px", maxWidth: "120%"
                       }}
                     />
                   </div>

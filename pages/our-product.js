@@ -6,35 +6,37 @@ import Head from "next/head";
 function Modules() {
   return (
     <>
-    <Head>
+      <Head>
         <title>
-        Shadobooks products- Software and Services for Businesses
+          Shadobooks products- Software and Services for Businesses
         </title>
         <meta
           name="description"
           content=" We offer a range of products, from simple accounting and finance software to ERP solutions that can manage your entire business.  "
         />
-        <meta name="keywords" content="products"/>
+        <meta name="keywords" content="products" />
+        <meta name="robots" content="noindex" />
+
       </Head>
       <Layout>
         <div class="container mt-100 " style={{ paddingTop: "50px" }}>
           <div class="row">
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
               <div className={styles.ss2}>
-              <Link href="/Accounting-erp-software">
-                <div class=" shadow p-3 mb-5 bg-body rounded">
-                  <h4 class="card-title text-center">
-                    <i class="text-heading-6">Accounting</i>
-                  </h4>
-                  <div className={styles.cntr}>
-                    <img
-                      src="assets/imgs/page/homepage1/Accountingvoucher2.png"
-                      alt="Photo of sunset"
-                      width={"150px"}
-                    />
+                <Link href="/Accounting-erp-software">
+                  <div class=" shadow p-3 mb-5 bg-body rounded">
+                    <h4 class="card-title text-center">
+                      <i class="text-heading-6">Accounting</i>
+                    </h4>
+                    <div className={styles.cntr}>
+                      <img
+                        src="assets/imgs/page/homepage1/Accountingvoucher2.png"
+                        alt="Photo of sunset"
+                        width={"150px"}
+                      />
+                    </div>
                   </div>
-                </div>
-              </Link>
+                </Link>
               </div>
             </div>
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
@@ -89,7 +91,7 @@ function Modules() {
               </Link>
             </div>
 
-            
+
           </div>
         </div>
 
@@ -97,7 +99,7 @@ function Modules() {
 
         <div class="container mt-50">
           <div class="row">
-          <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
+            <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
               <Link href="/project-management-software">
                 <div class="shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
@@ -148,7 +150,7 @@ function Modules() {
               </Link>
             </div>
 
-          
+
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
               <Link href="/estimates-management-software">
                 <div class="shadow p-3 mb-5 bg-body rounded">

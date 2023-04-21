@@ -3,11 +3,15 @@
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
 import FeaturedSlider from "../components/slider/Featured";
+import Head from 'next/head';
 
 
 function Index5() {
   return (
     <>
+      <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
       <Layout>
         <div className="section-box">
           <div className="banner-hero banner-homepage5">
@@ -49,31 +53,31 @@ function Index5() {
               <div className="col-xl-4 col-lg-6 col-md-12 col-sm-12">
                 <div className="product-item-1 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
                   <Link href="#"><a>
-                  <div className="product-image"><img src="/assets/imgs/page/homepage5/sp1.png" /></div>
-                  <div className="product-info">
-                    <h3 className="title-product">Bass ultra x-203. Head phone</h3><span className="price-regular mr-15">$29.2</span><span className="price-regular price-line">$32.8</span>
-                  </div>
-                </a></Link>
+                    <div className="product-image"><img src="/assets/imgs/page/homepage5/sp1.png" /></div>
+                    <div className="product-info">
+                      <h3 className="title-product">Bass ultra x-203. Head phone</h3><span className="price-regular mr-15">$29.2</span><span className="price-regular price-line">$32.8</span>
+                    </div>
+                  </a></Link>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-6 col-md-12 col-sm-12">
                 <div className="product-item-1 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                   <Link href="#"><a>
-                  <div className="product-image"><img src="/assets/imgs/page/homepage5/sp2.png" /></div>
-                  <div className="product-info">
-                    <h3 className="title-product">Boxie by Dro C 3450. Active Noise</h3><span className="price-regular mr-15">$35.6</span><span className="price-regular price-line">$36.4</span>
-                  </div>
-                </a></Link>
+                    <div className="product-image"><img src="/assets/imgs/page/homepage5/sp2.png" /></div>
+                    <div className="product-info">
+                      <h3 className="title-product">Boxie by Dro C 3450. Active Noise</h3><span className="price-regular mr-15">$35.6</span><span className="price-regular price-line">$36.4</span>
+                    </div>
+                  </a></Link>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-6 col-md-12 col-sm-12">
                 <div className="product-item-1 wow animate__animated animate__fadeIn" data-wow-delay=".5s">
                   <Link href="#"><a>
-                  <div className="product-image"><img src="/assets/imgs/page/homepage5/sp3.png" /></div>
-                  <div className="product-info">
-                    <h3 className="title-product">Sony DSC H300 - 20.1 Megapixel</h3><span className="price-regular mr-15">$17.3</span><span className="price-regular price-line">$18.5</span>
-                  </div>
-                </a></Link>
+                    <div className="product-image"><img src="/assets/imgs/page/homepage5/sp3.png" /></div>
+                    <div className="product-info">
+                      <h3 className="title-product">Sony DSC H300 - 20.1 Megapixel</h3><span className="price-regular mr-15">$17.3</span><span className="price-regular price-line">$18.5</span>
+                    </div>
+                  </a></Link>
                 </div>
               </div>
             </div>
@@ -88,7 +92,7 @@ function Index5() {
             </div>
           </div>
           <div className="container mt-80">
-            <FeaturedSlider/>
+            <FeaturedSlider />
           </div>
         </div>
         <div className="section-box mt-40">
@@ -124,49 +128,49 @@ function Index5() {
                   <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                     <div className="grid-category hover-up">
                       <Link href="#"><a>
-                      <div className="grid-image-left-category">
-                        <div className="category-image"><span className="for-design"></span></div>
-                        <div className="category-info">
-                          <h3 className="text-heading-6">Computer for Designer, Art</h3>
+                        <div className="grid-image-left-category">
+                          <div className="category-image"><span className="for-design"></span></div>
+                          <div className="category-info">
+                            <h3 className="text-heading-6">Computer for Designer, Art</h3>
+                          </div>
                         </div>
-                      </div>
-                    </a></Link>
+                      </a></Link>
                     </div>
                   </div>
                   <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                     <div className="grid-category hover-up">
                       <Link href="#"><a>
-                      <div className="grid-image-left-category">
-                        <div className="category-image"><span className="for-sport"></span></div>
-                        <div className="category-info">
-                          <h3 className="text-heading-6">Sport, Home, Outdoor</h3>
+                        <div className="grid-image-left-category">
+                          <div className="category-image"><span className="for-sport"></span></div>
+                          <div className="category-info">
+                            <h3 className="text-heading-6">Sport, Home, Outdoor</h3>
+                          </div>
                         </div>
-                      </div>
-                    </a></Link>
+                      </a></Link>
                     </div>
                   </div>
                   <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                     <div className="grid-category hover-up">
                       <Link href="#"><a>
-                      <div className="grid-image-left-category">
-                        <div className="category-image"><span className="for-office"></span></div>
-                        <div className="category-info">
-                          <h3 className="text-heading-6">Laptop for office, students</h3>
+                        <div className="grid-image-left-category">
+                          <div className="category-image"><span className="for-office"></span></div>
+                          <div className="category-info">
+                            <h3 className="text-heading-6">Laptop for office, students</h3>
+                          </div>
                         </div>
-                      </div>
-                    </a></Link>
+                      </a></Link>
                     </div>
                   </div>
                   <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                     <div className="grid-category hover-up">
                       <Link href="#"><a>
-                      <div className="grid-image-left-category">
-                        <div className="category-image"><span className="for-software"></span></div>
-                        <div className="category-info">
-                          <h3 className="text-heading-6">Software, card, book</h3>
+                        <div className="grid-image-left-category">
+                          <div className="category-image"><span className="for-software"></span></div>
+                          <div className="category-info">
+                            <h3 className="text-heading-6">Software, card, book</h3>
+                          </div>
                         </div>
-                      </div>
-                    </a></Link>
+                      </a></Link>
                     </div>
                   </div>
                 </div>
@@ -175,14 +179,14 @@ function Index5() {
                   <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                     <div className="grid-category grid-category-small hover-up">
                       <Link href="#"><a>
-                      <div className="grid-image-left-category">
-                        <div className="category-image"><span className="for-leaf"></span></div>
-                        <div className="category-info">
-                          <h3 className="text-heading-6">See All Categories</h3>
+                        <div className="grid-image-left-category">
+                          <div className="category-image"><span className="for-leaf"></span></div>
+                          <div className="category-info">
+                            <h3 className="text-heading-6">See All Categories</h3>
+                          </div>
+                          <div className="arrow-down-green"></div>
                         </div>
-                        <div className="arrow-down-green"></div>
-                      </div>
-                    </a></Link>
+                      </a></Link>
                     </div>
                   </div>
                 </div>
@@ -255,7 +259,7 @@ function Index5() {
               <div className="mt-60">
                 <Link href="#"><a className="mr-20"><img src="/assets/imgs/page/homepage5/apple-button.svg" /></a></Link>
 
-              <Link href="#"><a><img src="/assets/imgs/page/homepage5/google-play.svg" /></a></Link>
+                <Link href="#"><a><img src="/assets/imgs/page/homepage5/google-play.svg" /></a></Link>
               </div>
               <div className="mt-30"><span className="cb-layout mr-30">Order direct from the app</span><span className="cb-layout">Save and searches</span></div>
             </div>
@@ -269,31 +273,31 @@ function Index5() {
                 <ul className="list-partners none-bd pb-0">
                   <li>
                     <Link href="#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/page/homepage5/agon.svg" /></a></Link>
-                    </li>
+                  </li>
                   <li>
                     <Link href="#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/page/homepage5/monst.svg" /></a></Link>
-                    </li>
+                  </li>
                   <li>
                     <Link href="#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/page/homepage5/figwire.svg" /></a></Link>
-                    </li>
+                  </li>
                   <li>
                     <Link href="#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/page/homepage5/evara.svg" /></a></Link>
-                    </li>
+                  </li>
                   <li>
                     <Link href="#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/page/homepage5/frox.svg" /></a></Link>
-                    </li>
+                  </li>
                   <li>
                     <Link href="#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/page/homepage5/alithemes.svg" /></a></Link>
-                    </li>
+                  </li>
                   <li>
                     <Link href="#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/page/homepage5/nestmask.svg" /></a></Link>
-                    </li>
+                  </li>
                   <li>
                     <Link href="#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/page/homepage5/theflow.svg" /></a></Link>
-                    </li>
+                  </li>
                   <li>
                     <Link href="#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/page/homepage5/stacker.svg" /></a></Link>
-                    </li>
+                  </li>
                 </ul>
               </div>
             </div>

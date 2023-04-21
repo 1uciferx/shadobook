@@ -2,9 +2,14 @@
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
 import data from "../util/shopData";
+import Head from 'next/head';
+
 function ShopGrid2() {
   return (
     <>
+      <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
       <Layout>
         <section className="section-box">
           <div className="banner-hero banner-breadcrums bg-gray-100">

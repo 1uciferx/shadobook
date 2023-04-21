@@ -10,6 +10,8 @@ const { Content } = L;
 import "react-modal-video/css/modal-video.css";
 import Layout from "../components/layout/Layout";
 import Contactmanager from "../components/contactmanager";
+import Head from 'next/head';
+
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -24,6 +26,9 @@ function Estimatesrequest() {
 
   return (
     <>
+      <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
       <Layout>
 
         <Row>

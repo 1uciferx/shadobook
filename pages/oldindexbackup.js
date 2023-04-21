@@ -9,10 +9,12 @@ import Indexslider from "../components/indexslider";
 import styles from "../styles/Index.module.css";
 import Intro2 from "../components/slider/homeslider1";
 import Mobileindex from "./mobileindex";
+import Head from 'next/head';
+
 
 function Index2() {
   const [isOpen, setOpen] = useState(false);
- 
+
   const settings = {
     dots: false,
     infinite: true,
@@ -23,9 +25,12 @@ function Index2() {
     autoplaySpeed: 2000,
     cssEase: "linear",
   };
- 
+
   return (
     <>
+      <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
       <Layout>
         {/* mainheading and mainpara */}
 
@@ -513,144 +518,144 @@ function Index2() {
 
           {/* our companies */}
 
-         <div className="section-box overflow-visible mt-80">
-          <div className="">
-            <h2 className={styles.boxheading22}>
-              Trusted by the world’s leading companies
-            </h2>
+          <div className="section-box overflow-visible mt-80">
+            <div className="">
+              <h2 className={styles.boxheading22}>
+                Trusted by the world’s leading companies
+              </h2>
 
-            <Slider {...settings}>
-              <div className="">
-                <Link href="/#">
-                  <a className="item-logo box-hover-shadow hover-up">
-                    <img
-                      width={"300px"}
-                      style={{ margin: "auto" }}
-                      alt="ShadoBooks"
-                      src="assets/imgs/slider/logo/AGS.png"
-                    />
-                  </a>
-                </Link>
-              </div>
-              <div className="">
-                <Link href="/#">
-                  <a className="item-logo box-hover-shadow hover-up">
-                    <img
-                      width={"300px"}
-                      style={{ margin: "auto" }}
-                      alt="ShadoBooks"
-                      src="assets/imgs/slider/logo/Bizzmaster.png"
-                    />
-                  </a>
-                </Link>
-              </div>
+              <Slider {...settings}>
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        style={{ margin: "auto" }}
+                        alt="ShadoBooks"
+                        src="assets/imgs/slider/logo/AGS.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        style={{ margin: "auto" }}
+                        alt="ShadoBooks"
+                        src="assets/imgs/slider/logo/Bizzmaster.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
 
-              <div className="">
-                <Link href="/#">
-                  <a className="item-logo box-hover-shadow hover-up">
-                    <img
-                      width={"300px"}
-                      alt="ShadoBooks"
-                      style={{ margin: "auto" }}
-                      src="assets/imgs/slider/logo/rulexx.png"
-                    />
-                  </a>
-                </Link>
-              </div>
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        alt="ShadoBooks"
+                        style={{ margin: "auto" }}
+                        src="assets/imgs/slider/logo/rulexx.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
 
-              <div className="">
-                <Link href="/#">
-                  <a className="item-logo box-hover-shadow hover-up">
-                    <img
-                      width={"300px"}
-                      style={{ margin: "auto" }}
-                      alt="ShadoBooks"
-                      src="assets/imgs/slider/logo/CBC.png"
-                    />
-                  </a>
-                </Link>
-              </div>
-              <div className="">
-                <Link href="/#">
-                  <a className="item-logo box-hover-shadow hover-up">
-                    <img
-                      width={"300px"}
-                      style={{ margin: "auto" }}
-                      alt="ShadoBooks"
-                      src="assets/imgs/slider/logo/BMC.png"
-                    />
-                  </a>
-                </Link>
-              </div>
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        style={{ margin: "auto" }}
+                        alt="ShadoBooks"
+                        src="assets/imgs/slider/logo/CBC.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        style={{ margin: "auto" }}
+                        alt="ShadoBooks"
+                        src="assets/imgs/slider/logo/BMC.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
 
-              <div className="">
-                <Link href="/#">
-                  <a className="item-logo box-hover-shadow hover-up">
-                    <img
-                      width={"300px"}
-                      style={{ margin: "auto" }}
-                      alt="ShadoBooks"
-                      src="assets/imgs/slider/logo/carlisle.png"
-                    />
-                  </a>
-                </Link>
-              </div>
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        style={{ margin: "auto" }}
+                        alt="ShadoBooks"
+                        src="assets/imgs/slider/logo/carlisle.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
 
-              <div className="">
-                <Link href="/#">
-                  <a className="item-logo box-hover-shadow hover-up">
-                    <img
-                      width={"300px"}
-                      alt="ShadoBooks"
-                      style={{ margin: "auto" }}
-                      src="assets/imgs/slider/logo/reign.png"
-                    />
-                  </a>
-                </Link>
-              </div>
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        alt="ShadoBooks"
+                        style={{ margin: "auto" }}
+                        src="assets/imgs/slider/logo/reign.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
 
-              <div className="">
-                <Link href="/#">
-                  <a className="item-logo box-hover-shadow hover-up">
-                    <img
-                      width={"300px"}
-                      alt="ShadoBooks"
-                      style={{ margin: "auto" }}
-                      src="assets/imgs/slider/logo/royalblue.png"
-                    />
-                  </a>
-                </Link>
-              </div>
+                <div className="">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        alt="ShadoBooks"
+                        style={{ margin: "auto" }}
+                        src="assets/imgs/slider/logo/royalblue.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
 
-              <div className="c">
-                <Link href="/#">
-                  <a className="item-logo box-hover-shadow hover-up">
-                    <img
-                      width={"300px"}
-                      alt="ShadoBooks"
-                      style={{ margin: "auto" }}
-                      src="assets/imgs/slider/logo/gold.png"
-                    />
-                  </a>
-                </Link>
-              </div>
+                <div className="c">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        alt="ShadoBooks"
+                        style={{ margin: "auto" }}
+                        src="assets/imgs/slider/logo/gold.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
 
-              <div className="c">
-                <Link href="/#">
-                  <a className="item-logo box-hover-shadow hover-up">
-                    <img
-                      width={"300px"}
-                      alt="ShadoBooks"
-                      style={{ margin: "auto" }}
-                      src="assets/imgs/slider/logo/Mercury.png"
-                    />
-                  </a>
-                </Link>
-              </div>
-            </Slider>
-          </div>{" "}
-         
-        </div>
+                <div className="c">
+                  <Link href="/#">
+                    <a className="item-logo box-hover-shadow hover-up">
+                      <img
+                        width={"300px"}
+                        alt="ShadoBooks"
+                        style={{ margin: "auto" }}
+                        src="assets/imgs/slider/logo/Mercury.png"
+                      />
+                    </a>
+                  </Link>
+                </div>
+              </Slider>
+            </div>{" "}
+
+          </div>
 
           {/* testimonals */}
 
@@ -766,7 +771,7 @@ function Index2() {
                           <h4 className="text-body-lead color-gray-900 mb-5">
                             Mercury Freight
                           </h4>
-                         
+
                         </div>
                       </div>
                     </div>
@@ -784,5 +789,5 @@ function Index2() {
     </>
   );
 }
- 
+
 export default Index2;

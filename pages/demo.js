@@ -9,6 +9,8 @@ import Indexslider from "../components/indexslider";
 import styles from "../styles/Index.module.css";
 import Intro2 from "../components/slider/homeslider1";
 import Mobileindex from "./mobileindex";
+import Head from 'next/head';
+
 
 function Demo() {
   const [isOpen, setOpen] = useState(false);
@@ -26,6 +28,9 @@ function Demo() {
  
   return (
     <>
+     <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
       <Layout>
         {/* mainheading and mainpara */}
 

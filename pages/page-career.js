@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useState } from "react";
 import 'react-modal-video/css/modal-video.css';
+import Head from 'next/head';
 import Layout from "../components/layout/Layout";
 const ModalVideo = dynamic(import("react-modal-video"), {
     ssr: false,
@@ -13,6 +14,9 @@ function Career() {
     const [isOpen, setOpen] = useState(false);
     return (
         <>
+            <Head>
+                <meta name="robots" content="noindex" />
+            </Head>
 
             <Layout>
                 <section className="section-box">
@@ -36,7 +40,7 @@ function Career() {
                             <div className="col-lg-1" />
                             <div className="col-lg-10">
                                 <div className="box-image">
-                                        <a className="popup-youtube btn-play-video btn-play-middle" onClick={() => setOpen(true)}></a>
+                                    <a className="popup-youtube btn-play-video btn-play-middle" onClick={() => setOpen(true)}></a>
                                     <img className="img-responsive bdrd-16" src="assets/imgs/page/career/img.png" alt="Agon" /></div>
                             </div>
                             <div className="col-lg-1" />
@@ -266,7 +270,7 @@ function Career() {
                                             <Link href="/page-terms"><a>Term &amp; Conditions</a></Link>
 
                                             <div className="box-form-newsletter mt-30">
-                                                <form className="form-newsletter"><input className="input-newsletter"  placeholder="Enter you mail .." /><button className="btn btn-send" /></form>
+                                                <form className="form-newsletter"><input className="input-newsletter" placeholder="Enter you mail .." /><button className="btn btn-send" /></form>
                                             </div>
                                         </div>
                                         <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">

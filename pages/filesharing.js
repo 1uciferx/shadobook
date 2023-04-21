@@ -4,7 +4,9 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import "react-modal-video/css/modal-video.css";
+import Head from 'next/head';
 import Layout from "../components/layout/Layout";
+
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -12,6 +14,9 @@ const ModalVideo = dynamic(import("react-modal-video"), {
 function Fixed() {
   return (
     <>
+      <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
       <Layout>
         <section className="section-box">
           <div
@@ -51,7 +56,7 @@ function Fixed() {
                       src="assets/imgs/page/homepage4/filesharing.jpg "
                       style={{
                         borderRadius: "30px",
-                        height: "610px",maxWidth:"130%"
+                        height: "610px", maxWidth: "130%"
                       }}
                     />
                   </div>

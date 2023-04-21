@@ -5,6 +5,7 @@ import Layout from "../components/layout/Layout";
 import { useState } from "react";
 import dynamic from "next/dynamic";
 import Intro2 from "../components/slider/Intro2";
+import Head from 'next/head';
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -12,6 +13,9 @@ function Index6() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
+      <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
       <Layout>
         <div className="section-box">
           <div className="banner-hero banner-homepage6">
@@ -63,7 +67,7 @@ function Index6() {
                       />
                     </div>
 
-                    
+
 
                   </div>
 
@@ -74,7 +78,7 @@ function Index6() {
           </div>
         </div>
 
-{/* 
+        {/* 
         <div className="section-box box-slider-3 d-none d-lg-flex">
           <div className="container">
             <div className="block-slider-bottom-banner">
@@ -96,7 +100,7 @@ function Index6() {
                     </h3>
                     <span className="text-body-quote">Our Office</span>
                     <p className="text-body-text">
-                    We ShadoBook make task management incredibly quick and straightforward. With this, all necessary tasks are kept in view and prompt notifications support task completion within the allotted time.
+                      We ShadoBook make task management incredibly quick and straightforward. With this, all necessary tasks are kept in view and prompt notifications support task completion within the allotted time.
                     </p>
                   </div>
                   <div className="col-lg-6 col-md-6 col-sm-6 col-12 pr-mb-70 mb-30">

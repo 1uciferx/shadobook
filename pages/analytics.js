@@ -2,10 +2,15 @@
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
 import TestimonialSlider from "../components/slider/Testimonial";
+import Head from 'next/head';
+
 
 function About2() {
   return (
     <>
+      <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
       <Layout>
         <section className="section-box">
           <div className="banner-hero bg-about-2">
@@ -476,16 +481,16 @@ function About2() {
                     ShadoBooks
                   </h4>
                   <p className="text-body-text color-gray-600">
-                  Office 903, 9th floor, Damas
-Building,<br></br> Al Maktoum Road, Dubai,
-UAE
+                    Office 903, 9th floor, Damas
+                    Building,<br></br> Al Maktoum Road, Dubai,
+                    UAE
                   </p>
                   <br></br>
                   <p className="text-body-text color-gray-600">
-                  +971 52 922 7590
+                    +971 52 922 7590
                   </p>
                   <p className="text-body-text color-gray-600">
-                  info@shadobooks.com
+                    info@shadobooks.com
                   </p>
                 </div>
                 <div className="col-lg-8">

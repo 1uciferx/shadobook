@@ -5,16 +5,20 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import "react-modal-video/css/modal-video.css";
 import Layout from "../components/layout/Layout";
+import Head from 'next/head';
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
 
 function Oxytaskfilters() {
-  
+
   return (
     <>
+      <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
       <Layout>
-       
+
 
         <section className="section-box">
           <div
@@ -25,17 +29,17 @@ function Oxytaskfilters() {
               <div className="row">
                 <div className="col-lg-7">
                   <h1 className="text-display-2 color-gray-900">
-                  OXY Task Filters
+                    OXY Task Filters
                   </h1>
                   <p className="text-body-lead-large color-gray-900 mt-30 pr-40">
-                  The custom OXY task filters help you extend the task functionality by helping you create and manage dynamic filter templates that you can fall back on for future use and easy access.<br></br><br></br>
-This can help you filter tasks related to invoices, projects, contracts, estimates, expenses, leads and even proposal documents. Everything from the deadlines, assignee, task status and grouping are all possible in this section of the Shadobooks CRM. The task filters also enable you to assign fixed hourly rates and get a grasp of the total hours logged in along with the billable amount at any time during the flow of your projects
+                    The custom OXY task filters help you extend the task functionality by helping you create and manage dynamic filter templates that you can fall back on for future use and easy access.<br></br><br></br>
+                    This can help you filter tasks related to invoices, projects, contracts, estimates, expenses, leads and even proposal documents. Everything from the deadlines, assignee, task status and grouping are all possible in this section of the Shadobooks CRM. The task filters also enable you to assign fixed hourly rates and get a grasp of the total hours logged in along with the billable amount at any time during the flow of your projects
 
 
 
 
                   </p>
-                 
+
                 </div>
                 <div className="col-lg-5 d-none d-lg-block">
                   <div className="banner-imgs">
