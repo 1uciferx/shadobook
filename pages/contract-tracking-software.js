@@ -22,6 +22,8 @@ function Contracts() {
           content="Boost productivity with our contract tracking software. Automate the process with real-time updates, configurable workflows, and automated reminders."
         />
         <meta name="keywords" content="Contract tracking software"/>
+        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/contract-tracking-software" />
+
       </Head>
 
       {/* facebook and twitter meta graphs starts here */}

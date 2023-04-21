@@ -27,6 +27,8 @@ function Manufacturing() {
           content="Elevate your production capabilities with cloud-based manufacturing ERP software, designed to help you streamline processes and maximize efficiency."
         />
           <meta name="keywords" content="Manufacturing ERP Software"/>
+          <meta http-equiv="refresh" content="0; url=https://shadobooks.com/manufacturing-erp-software" />
+
       </Head>
 
  {/* facebook and twitter meta graphs starts here */}

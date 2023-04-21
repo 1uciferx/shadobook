@@ -29,6 +29,8 @@ function Process() {
         <title>Boost Productivity With Advanced Inventory Management System</title>
         <meta name="description" content="Improve your inventory control and simplify management using our inventory management system." />
         <meta name="keywords" content="Inventory management system"/>
+        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/inventory-management-system" />
+
       </Head>
 
  {/* facebook and twitter meta graphs starts here */}

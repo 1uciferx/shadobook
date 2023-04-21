@@ -5,6 +5,8 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import "react-modal-video/css/modal-video.css";
 import Layout from "../components/layout/Layout";
+import Head from 'next/head';
+
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -12,6 +14,9 @@ const ModalVideo = dynamic(import("react-modal-video"), {
 function Fixed() {
   return (
     <>
+      <Head>
+        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/fixed-asset" />
+      </Head>
       <Layout>
         <section className="section-box">
           <div

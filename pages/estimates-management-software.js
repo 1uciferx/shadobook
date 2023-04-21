@@ -26,6 +26,8 @@ function EstimateReq() {
         <title>Enhance Estimates Process with Our Estimates Management Software</title>
         <meta name="description" content="Our Estimates Management Software automates the entire process, saving you time & resources, while providing accurate and professional-looking estimates that will impress your clients." />
         <meta name="keywords" content="Estimates management software"/>
+        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/estimates-management-software" />
+
       </Head>
 
  {/* facebook and twitter meta graphs starts here */}

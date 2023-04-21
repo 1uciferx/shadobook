@@ -32,6 +32,8 @@ function Home() {
         <title>Fully Integrated Reports Module in ERP | Shadobooks ERP </title>
         <meta name="description" content="The Reports Module in ERP Software provides users with comprehensive insights into their business operations for better decision-making." />
         <meta name="keywords" content="Reports Module in ERP"/>
+        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/reports-module-in-erp" />
+
       </Head>
 
  {/* facebook and twitter meta graphs starts here */}

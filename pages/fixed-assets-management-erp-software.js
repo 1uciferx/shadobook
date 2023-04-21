@@ -17,7 +17,9 @@ function Terms() {
           name="description"
           content="Fixed Assets Management ERP Software helps businesses track and manage their fixed assets. It also includes registration of these assets as part of this module."
         />
-          <meta name="keywords" content="Fixed Assets Management ERP Software"/>
+        <meta name="keywords" content="Fixed Assets Management ERP Software" />
+        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/fixed-assets-management-erp-software" />
+
       </Head>
 
       <Layout>

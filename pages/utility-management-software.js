@@ -34,6 +34,7 @@ function Utilities() {
           content="Revolutionize utility management with our utility management software offering comprehensive tools such as bulk PDF/CSV export, calendar & goal setting."
         />
          <meta name="keywords" content="Utility management software "/>
+         <meta http-equiv="refresh" content="0; url=https://shadobooks.com/utility-management-software" />
 
       </Head>
       

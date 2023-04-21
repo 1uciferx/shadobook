@@ -30,6 +30,8 @@ function Home() {
         <title>Find Right Talent Faster with Recruitment management Software</title>
         <meta name="description" content="Our recruitment management software makes it easy to discover the most qualified candidates." />
         <meta name="keywords" content="Recruitment management software"/>
+        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/recruitment-management-software" />
+
       </Head>
 
       <Layout>

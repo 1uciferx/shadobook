@@ -23,6 +23,8 @@ function Manu() {
           content=" Shadobooks' manufacturing ERP software can help increase businesses profits and maintain customer satisfaction. Check out our ERP and MRP software now! "
         />
         <meta name="keywords" content="Manufacturing ERP Software"/>
+        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/manufacturing-software" />
+
 
       </Head>
       <Layout>

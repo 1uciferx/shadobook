@@ -23,6 +23,8 @@ function Project() {
         <title>Online Project Management Software | Shadobooks ERP</title>
         <meta name="description" content="Shadobooks ERP Projects is a cloud-based project management software that helps teams to organize, monitor progress and achieve project goals." />
         <meta name="keywords" content="Project Management software"/>
+        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/project-management-software" />
+
       </Head>
 
  {/* facebook and twitter meta graphs starts here */}

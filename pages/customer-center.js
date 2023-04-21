@@ -8,6 +8,8 @@ import CounterUp from "../components/elements/CounterUp";
 import Layout from "../components/layout/Layout";
 import TeamSlider from "../components/slider/Team";
 import TestimonialSlider from "../components/slider/Testimonial";
+import Head from 'next/head';
+
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -16,9 +18,12 @@ function Customercenter() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
+      <Head>
+        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/customer-center" />
+      </Head>
       <Layout>
         <section className="section-box">
-          <div className="banner-hero banner-2 " style={{backgroundColor:"#d2deea"}}>
+          <div className="banner-hero banner-2 " style={{ backgroundColor: "#d2deea" }}>
             <div className="container">
               <div className="row">
                 <div className="col-lg-7">
@@ -44,7 +49,7 @@ function Customercenter() {
                       className="img-responsive shape-2"
                       alt="Agon"
                       src="assets/imgs/page/homepage4/cs.png"
-                      style={{ borderRadius: "30px" ,maxWidth:"100%"}}
+                      style={{ borderRadius: "30px", maxWidth: "100%" }}
                     />
 
                     {/* <img src="/assets/imgs/page/about/1/banner2.png" alt="Agon" /> */}

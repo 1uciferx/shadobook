@@ -21,6 +21,8 @@ function Purchase() {
         <title>Effortlessly Manage Vendors with vendor management Software</title>
         <meta name="description" content=" Efficiently manage your vendors with our vendor management software. Streamline communication, track performance, and ensure compliance with contract terms." />
         <meta name="keywords" content="Vendor management software"/>
+        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/vendor-management-software" />
+
       </Head>
 
         <div className="section-box">

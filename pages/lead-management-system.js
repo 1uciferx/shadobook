@@ -28,14 +28,16 @@ function Home() {
 
   return (
     <>
-   <Head>
+      <Head>
         <title> Automate Your Sales Process with our Lead Management System</title>
         <meta name="description" content="Shadobooks ERP lead management system is designed to help you streamline your sales pipeline, from lead generation to close." />
-        <meta name="keywords" content="Lead management system"/>
+        <meta name="keywords" content="Lead management system" />
+        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/lead-management-system" />
+
       </Head>
 
- {/* facebook and twitter meta graphs starts here */}
- <Helmet>
+      {/* facebook and twitter meta graphs starts here */}
+      <Helmet>
         <meta property="og:title" content="Shadobooks ERP" />
         <meta property="og:description" content="Shadobooks erp solutions." />
         <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
@@ -99,7 +101,7 @@ function Home() {
                     In Shadobook ERP, the lead page is shown when you click the
                     lead module. Here we have the options to add a new lead,
                     import a lead, filter options, and also the list form of
-                    generated leads.It allows<span><a href="/utility-management-software"> utilities</a></span> providers to capture important customer information, such as email addresses and phone numbers, which can be used for future marketing and communication efforts. 
+                    generated leads.It allows<span><a href="/utility-management-software"> utilities</a></span> providers to capture important customer information, such as email addresses and phone numbers, which can be used for future marketing and communication efforts.
                   </div>
                 </div>
               </div>
@@ -194,9 +196,9 @@ function Home() {
             </div>
           </div>
         </div>
-        
+
         <div>
-          <Contactmanager/>
+          <Contactmanager />
         </div>
       </Layout>
     </>

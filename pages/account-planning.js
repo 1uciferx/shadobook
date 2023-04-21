@@ -8,6 +8,8 @@ import CounterUp from "../components/elements/CounterUp";
 import Layout from "../components/layout/Layout";
 import TeamSlider from "../components/slider/Team";
 import TestimonialSlider from "../components/slider/Testimonial";
+import Head from 'next/head';
+
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -16,6 +18,9 @@ function Accountplanning() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
+      <Head>
+        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/account-planning" />
+      </Head>
       <Layout>
         <section className="section-box">
           <div className="banner-hero banner-4 bg-6">

@@ -27,6 +27,8 @@ function Index8() {
         <meta name="twitter:title" content="Shadobooks ERP" />
         <meta name="twitter:description" content="Shadobooks erp solutions." />
         <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/ticketing-system-in-erp" />
+
       </Helmet>
 
       {/* facebook and twitter meta graphs ends here */}
