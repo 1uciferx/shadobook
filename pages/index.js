@@ -20,6 +20,7 @@ import Happyclients from "../components/happyclients";
 import Cards4 from "../components/cards4";
 import Demoslider from "../components/cintoslider";
 
+
 function Index2() {
   const [isOpen, setOpen] = useState(false);
 
