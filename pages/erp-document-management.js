@@ -32,7 +32,7 @@ function Home() {
         <title>ERP Document Management | Shadobooks ERP</title>
         <meta name="description" content="In order to provide secure storage, efficient file management, and optimised document processes, Shadobooks offers a complete system for ERP document management." />
         <meta name="keywords" content="ERP Document Management"/>
-        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/erp-document-management" />
+        {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/erp-document-management" /> */}
 
       </Head>
 

@@ -20,7 +20,7 @@ function knowledgeBaseKB() {
           content="Drive success with our Knowledge Management Software. Centralize information management, collaboration & maximize business potential."
         />
          <meta name="keywords" content="Knowledge management software "/>
-         <meta http-equiv="refresh" content="0; url=https://shadobooks.com/knowledge-management-software" />
+         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/knowledge-management-software" /> */}
 
       </Head>
 

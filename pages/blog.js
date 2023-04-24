@@ -11,7 +11,7 @@ function Blog() {
         <title>Blogs | Shadobooks ERP </title>
      
         <meta name="keywords" content="shadobooks blogs" />
-        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/blog" />
+        {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/blog" /> */}
       </Head>
 
       <Layout>

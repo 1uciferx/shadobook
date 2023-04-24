@@ -13,10 +13,10 @@ function Modules() {
           content=" We offer a range of products, from simple accounting and finance software to ERP solutions that can manage your entire business.  "
         />
         <meta name="keywords" content="products" />
-        <meta
+        {/* <meta
           http-equiv="refresh"
           content="0; url=https://shadobooks.com/our-product"
-        />
+        /> */}
       </Head>
       <Layout>
         <div class="container mt-100 " style={{ paddingTop: "50px" }}>

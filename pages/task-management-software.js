@@ -30,7 +30,7 @@ function Task() {
           content="Task Management Software, automates task and operation management in industry, assigning tasks and generating confirmation on completion."
         />
          <meta name="keywords" content="Task Management Software"/>
-         <meta http-equiv="refresh" content="0; url=https://shadobooks.com/task-management-software" />
+         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/task-management-software" /> */}
 
       </Head>
 

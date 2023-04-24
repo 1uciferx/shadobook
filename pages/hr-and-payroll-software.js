@@ -35,7 +35,7 @@ function Home() {
         <title>Core HR and Payroll Software | Shadobooks ERP</title>
         <meta name="description" content="HR and Payroll Software helps organizations streamline processes, automate payroll calculations, track attendance, and stay compliant with labor laws." />
         <meta name="keywords" content=" HR and Payroll Software"/>
-        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/hr-and-payroll-software" />
+        {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/hr-and-payroll-software" /> */}
       </Head>
 
  {/* facebook and twitter meta graphs starts here */}

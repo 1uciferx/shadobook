@@ -25,7 +25,7 @@ function Index6() {
           content="Shadobooks ERP offers best HRMS software to help businesses manage their HR and achieve their objectives. Our HR software simplifies HR operations."
         />
         <meta name="keywords" content="Best hrms Software"/>
-        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/best-hrms-software" />
+        {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/best-hrms-software" /> */}
       </Head>
       {/* facebook and twitter meta graphs starts here */}
       <Helmet>

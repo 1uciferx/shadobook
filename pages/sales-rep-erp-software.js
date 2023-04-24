@@ -25,7 +25,7 @@ function Salesagent() {
           content="Sales Rep ERP Software is helps to automate business tasks, track performance, manage customer relationships, and generate invoices & Reports."
         />
         <meta name="keywords" content="Sales Rep ERP Software" />
-        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/sales-rep-erp-software" />
+        {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/sales-rep-erp-software" /> */}
 
       </Head>
 

@@ -32,7 +32,7 @@ function Home() {
         <title> Automate Your Sales Process with our Lead Management System</title>
         <meta name="description" content="Shadobooks ERP lead management system is designed to help you streamline your sales pipeline, from lead generation to close." />
         <meta name="keywords" content="Lead management system" />
-        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/lead-management-system" />
+        {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/lead-management-system" /> */}
 
       </Head>
 

@@ -19,7 +19,7 @@ function Purchase() {
 
       <Head>
         <meta name="description" content=" Efficiently manage your vendors with our vendor management software. Streamline communication, track performance, and ensure compliance with contract terms." />
-        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/purchase-management-software" />
+        {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/purchase-management-software" /> */}
 
         <title>Top Purchase Management Software | Shadobooks</title>
         <meta name="description" content="  Efficiently manage your vendors with our vendor management software. Streamline communication, track performance, and ensure compliance with contract terms." />

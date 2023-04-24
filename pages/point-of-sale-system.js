@@ -17,7 +17,7 @@ function POS() {
           content="Our Point of Sale system simplifies electronic invoicing, sales tracking, and customer purchase tracking. It is device agnostic and works both online and offline."
         />
         <meta name="keywords" content="Point of Sale System" />
-        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/point-of-sale-system" />
+        {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/point-of-sale-system" /> */}
 
       </Head>
 

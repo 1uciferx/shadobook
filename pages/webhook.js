@@ -24,7 +24,7 @@ function Index6() {
           content="The Webhook API allows you to subscribe to events happening in Shadobooks ERP and receive an HTTP request to an endpoint you configure whenever those events occur."
         />
          <meta name="keywords" content="Webhook"/>
-         <meta http-equiv="refresh" content="0; url=https://shadobooks.com/webhook" />
+         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/webhook" /> */}
 
       </Head>
 
