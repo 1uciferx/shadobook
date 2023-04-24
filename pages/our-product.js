@@ -35,6 +35,7 @@ function Modules() {
                       width={"150px"}
                     />
                   </div>
+                  </div>
                 </Link>
               </div>
             </div>

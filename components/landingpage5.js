@@ -22,7 +22,7 @@ function Landingpage5() {
                 src="assets/imgs/page/homepage6/img-3.png"
               />
             </div> */}
-            <Link href="/">
+            <Link href="/request-a-demo">
               <button class={styles.button3}>90 days Free Trial</button>
             </Link>
           </div>

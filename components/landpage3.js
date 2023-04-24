@@ -57,7 +57,7 @@ function Landingpage3() {
           }}
           sm={{
             span: 6,
-            offset: 1,
+            offset: 2,
           }}
           md={{
             span: 10,
@@ -95,7 +95,7 @@ function Landingpage3() {
           }}
           sm={{
             span: 6,
-            offset: 3,
+            offset: 2,
           }}
           md={{
             span: 10,
@@ -123,7 +123,7 @@ function Landingpage3() {
           }}
           sm={{
             span: 12,
-            offset: 1,
+            offset: 2,
           }}
           md={{
             span: 10,
@@ -197,7 +197,7 @@ function Landingpage3() {
           }}
           sm={{
             span: 6,
-            offset: 1,
+            offset: 2,
           }}
           md={{
             span: 10,
@@ -230,7 +230,7 @@ function Landingpage3() {
           }}
           sm={{
             span: 6,
-            offset: 3,
+            offset: 2,
           }}
           md={{
             span: 10,
@@ -259,7 +259,7 @@ function Landingpage3() {
           }}
           sm={{
             span: 12,
-            offset: 1,
+            offset: 2,
           }}
           md={{
             span: 10,
@@ -297,7 +297,7 @@ function Landingpage3() {
             offset: 0,
           }}
           sm={{
-            span: 10,
+            span: 12,
             offset: 2,
           }}
           md={{
@@ -332,7 +332,7 @@ function Landingpage3() {
           }}
           sm={{
             span: 6,
-            offset: 1,
+            offset: 2,
           }}
           md={{
             span: 10,
