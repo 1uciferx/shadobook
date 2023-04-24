@@ -15,7 +15,7 @@ function Modules() {
           content=" We offer a range of products, from simple accounting and finance software to ERP solutions that can manage your entire business.  "
         />
         <meta name="keywords" content="products" />
-        <meta name="robots" content="noindex" />
+        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/our-product" />
 
       </Head>
       <Layout>

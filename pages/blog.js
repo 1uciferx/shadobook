@@ -1,10 +1,19 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
+import Head from "next/head";
 
 function Blog() {
   return (
     <>
+
+      <Head>
+        <title>Blogs | Shadobooks ERP </title>
+     
+        <meta name="keywords" content="shadobooks blogs" />
+        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/blog" />
+      </Head>
+
       <Layout>
         <div>
           <section className="section-box">
@@ -141,7 +150,7 @@ function Blog() {
                         />
                       </div>
                       <h4 className="text-body-lead color-gray-500">
-                      ShadoBooks
+                        ShadoBooks
                       </h4>
                       <p className="text-body-small color-gray-500">
                         April 12, 2022
@@ -175,7 +184,7 @@ function Blog() {
                         />
                       </div>
                       <h4 className="text-body-lead color-gray-500">
-                      ShadoBooks
+                        ShadoBooks
                       </h4>
                       <p className="text-body-small color-gray-500">
                         April 14, 2022
@@ -208,7 +217,7 @@ function Blog() {
                         />
                       </div>
                       <h4 className="text-body-lead color-gray-500">
-                      ShadoBooks
+                        ShadoBooks
                       </h4>
                       <p className="text-body-small color-gray-500">
                         April 03, 2022
@@ -229,7 +238,7 @@ function Blog() {
                     <Link href="/blogs/streamline-financial-operations">
                       <a className="text-heading-6">
                         {" "}
-                       5+ Ways Shadobooks ERP can Streamline Your Financial
+                        5+ Ways Shadobooks ERP can Streamline Your Financial
                         Operations
                       </a>
                     </Link>

@@ -16,7 +16,9 @@ function POS() {
           name="description"
           content="Our Point of Sale system simplifies electronic invoicing, sales tracking, and customer purchase tracking. It is device agnostic and works both online and offline."
         />
-         <meta name="keywords" content="Point of Sale System"/>
+        <meta name="keywords" content="Point of Sale System" />
+        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/point-of-sale-system" />
+
       </Head>
 
       <Layout>
@@ -94,7 +96,7 @@ function POS() {
                   phone number, order date, customer, etc.
                   <br />
                   <br />➟ Click the save button, The order list will now be
-                  visible in list view.  After the sale is complete, if a consumer has a query about a product, they may quickly create a<span><a href="/estimates-management-software"> Ticket</a></span> from the POS. 
+                  visible in list view.  After the sale is complete, if a consumer has a query about a product, they may quickly create a<span><a href="/estimates-management-software"> Ticket</a></span> from the POS.
                 </p>
               </div>
             </div>
@@ -220,7 +222,7 @@ function POS() {
                   <div className="col-lg-6 col-sm-6 col-12 mt-10">
                     <p className="text-body-excerpt color-gray-600 icon-leaf">
                       Click on each tab to access the relevant information, All
-                      information is displayed in list format.Product (from store information + image), Description, Price, Orders and<span><a href="/inventory-management-system"> Inventory</a></span> management. 
+                      information is displayed in list format.Product (from store information + image), Description, Price, Orders and<span><a href="/inventory-management-system"> Inventory</a></span> management.
                     </p>
                   </div>
                 </div>
@@ -299,7 +301,7 @@ function POS() {
                   <div className="col-lg-6 col-sm-6 col-12 mt-10">
                     <p className="text-body-excerpt color-gray-600 icon-leaf">
                       This will open the online store login window to conduct
-                      business. Companies can monitor and gather information on sales and customer data that is associated with the use of<span><a href="/webhook"> Web hooks.</a></span> 
+                      business. Companies can monitor and gather information on sales and customer data that is associated with the use of<span><a href="/webhook"> Web hooks.</a></span>
                     </p>
                   </div>
                 </div>
