@@ -67,7 +67,7 @@ const Header = ({ handleOpen, headerStyle }) => {
             : `${headerStyle} header ${styles.head}`
       }>
 
-      <div className="container">
+      <div className="" style={{marginLeft:"40px"}}>
         <div className="main-header">
           <div className="header-left">
             <div className="header-logo ">
@@ -636,11 +636,11 @@ const Header = ({ handleOpen, headerStyle }) => {
                     </ul>
                   </li>
 
-                  {/* <li className="">
-                      <Link href="/pricing">
-                        <a className="acuspad">Pricing</a>
+                  <li className="">
+                      <Link href="/blog">
+                        <a className="acuspad">blog</a>
                       </Link>
-                    </li> */}
+                    </li>
 
                   <a
                     href="#"
