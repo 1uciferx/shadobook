@@ -14,7 +14,7 @@ function knowledgeBaseKB() {
     <>
 
 <Head>
-        <title>Revamp Business with Advanced Knowledge Management Software</title>
+        <title> Knowledge Management Software | Shadobooks </title>
         <meta
           name="description"
           content="Drive success with our Knowledge Management Software. Centralize information management, collaboration & maximize business potential."
@@ -48,7 +48,7 @@ function knowledgeBaseKB() {
               <div className="row">
                 <div className="col-lg-6 mt-30">
                   <h1 className="text-display-4 color-white">
-                    Knowledge Base
+                  Knowledge Management <br></br>Software
                   </h1>
                   <div className="list-social-banner">
                     <Link href="https://www.facebook.com/shadobookscrm">

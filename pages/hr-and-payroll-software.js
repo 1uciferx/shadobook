@@ -32,11 +32,10 @@ function Home() {
   return (
     <>
     <Head>
-        <title>Best HR and Payroll Software | Shadobooks ERP</title>
+        <title>Core HR and Payroll Software | Shadobooks ERP</title>
         <meta name="description" content="HR and Payroll Software helps organizations streamline processes, automate payroll calculations, track attendance, and stay compliant with labor laws." />
         <meta name="keywords" content=" HR and Payroll Software"/>
         <meta http-equiv="refresh" content="0; url=https://shadobooks.com/hr-and-payroll-software" />
-
       </Head>
 
  {/* facebook and twitter meta graphs starts here */}
@@ -63,7 +62,7 @@ function Home() {
               <div className="row">
                 <div className="col-lg-7">
                   <h1 style={{ color: "white" }} className="text-display-2">
-                    HR & Payroll
+                  Core HR and Payroll Software
                   </h1>
                   <p
                     style={{ color: "white" }}

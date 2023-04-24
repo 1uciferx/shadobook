@@ -19,7 +19,7 @@ function Index6() {
     <>
 
       <Head>
-        <title>Best hrms Software | Shadobooks ERP </title>
+        <title>Best HRMS Software | Shadobooks ERP </title>
         <meta
           name="description"
           content="Shadobooks ERP offers best HRMS software to help businesses manage their HR and achieve their objectives. Our HR software simplifies HR operations."
@@ -47,7 +47,7 @@ function Index6() {
             <div className="container">
               <div className="row">
                 <div className="col-lg-7 mt-50 pb-120">
-                  <h1 className="text-display-2 mt-20">HR Records</h1>
+                  <h1 className="text-display-2 mt-20">Best HRMS Software</h1>
                   <p className="text-body-lead-large color-gray-500 mt-30 pr-40">
                     Manage all your human resources and other related documents
                     in a centralized database with the HR Records section of the

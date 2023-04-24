@@ -23,7 +23,7 @@ function EstimateReq() {
   return (
     <>
       <Head>
-        <title>Enhance Estimates Process with Our Estimates Management Software</title>
+        <title> Estimates Management Software | Shadobooks</title>
         <meta name="description" content="Our Estimates Management Software automates the entire process, saving you time & resources, while providing accurate and professional-looking estimates that will impress your clients." />
         <meta name="keywords" content="Estimates management software"/>
         <meta http-equiv="refresh" content="0; url=https://shadobooks.com/estimates-management-software" />
@@ -50,7 +50,7 @@ function EstimateReq() {
             <div className="container">
               <div className="row">
                 <div className="col-lg-6">
-                  <h1 className="text-display-3 mt-90">Estimates Request</h1>
+                  <h1 className="text-display-3 mt-90">Estimates Management Software</h1>
                   <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
                     The estimate request function in Shadobooks CRM allows you
                     to develop forms that your customers can use to get a

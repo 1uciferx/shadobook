@@ -65,7 +65,7 @@ function Utilities() {
           >
             <div className="container">
               <div className="text-center">
-                <h1 className="text-display-2 color-white mt-30">Utilities</h1>
+                <h1 className="text-display-2 color-white mt-30">Optimize Utility Management Software with ShadobooksERP</h1>
                 <p className="text-body-lead-large color-white mt-40 pr-40">
                   Utilities in CRM refer to the various tools and functions that
                   help to make the customer relationship management process more

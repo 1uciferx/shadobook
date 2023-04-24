@@ -19,16 +19,16 @@ function Raw() {
         
  {/* facebook and twitter meta graphs starts here */}
       <Helmet>
-      <Head>
+  
         <title>
-        Open Source Retail ERP Software | Shadobooks
+        Retail ERP Software for Businesses | Shadobooks
         </title>
         <meta
           name="description"
           content=" Boost your sales speed with our powerful yet easy-to-use open source retail ERP software. "
         />
              <meta name="keywords" content="Retail ERP Software"/>
-      </Head>
+    
         <meta property="og:title" content="Shadobooks ERP" />
         <meta property="og:description" content="Shadobooks erp solutions." />
         <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />

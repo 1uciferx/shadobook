@@ -16,11 +16,11 @@ function Manu() {
     <>
     <Head>
         <title>
-        Open Source Manufacturing ERP Software | Shadobooks
+        Elevate Your Business with Shadobooks Manufacturing ERP Software
         </title>
         <meta
           name="description"
-          content=" Shadobooks' manufacturing ERP software can help increase businesses profits and maintain customer satisfaction. Check out our ERP and MRP software now! "
+          content="Shadobooks' manufacturing ERP software can help increase businesses profits and maintain customer satisfaction. Check out our ERP and MRP software now!"
         />
         <meta name="keywords" content="Manufacturing ERP Software"/>
         <meta http-equiv="refresh" content="0; url=https://shadobooks.com/manufacturing-software" />

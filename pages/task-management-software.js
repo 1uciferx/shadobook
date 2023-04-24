@@ -24,7 +24,7 @@ function Task() {
   return (
     <>
       <Head>
-        <title>Best ERP Task Management Software | Shadobooks ERP</title>
+        <title>Task Management Software for Effective Teams | Shadobooks ERP</title>
         <meta
           name="description"
           content="Task Management Software, automates task and operation management in industry, assigning tasks and generating confirmation on completion."
@@ -58,7 +58,7 @@ function Task() {
           >
             <div className="container">
               <div className="text-center">
-                <h1 className="text-display-2 color-white mt-30">Tasks</h1>
+                <h1 className="text-display-2 color-white mt-30">Task Management Software for Effective Teams </h1>
                 <p className="text-body-lead-large color-white mt-40 pr-40">
                   In ShadoBooks ERP, tasks are a feature that enables users to
                   organize and track follow-up activities by creating and

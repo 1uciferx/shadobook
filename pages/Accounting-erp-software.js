@@ -28,7 +28,7 @@ function Home() {
   return (
     <>
       <Head>
-        <title>Accounting ERP Software for Streamlined Financial Management</title>
+        <title>Accounting ERP Software for Streamlined Financial Management | Shadobooks</title>
         <meta
           name="description"
           content="Optimize financial management with accounting ERP software. Automate processes, gain insights, and streamline operations for efficient business performance."
@@ -70,7 +70,7 @@ function Home() {
                     style={{ color: "white", marginTop: "-40px" }}
                     className="text-display-2"
                   >
-                    Accounting
+                    Accounting ERP Software for Streamlined Financial Management
                   </h1>
                   <p
                     style={{ color: "white", textAlign: "start" }}

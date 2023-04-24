@@ -27,14 +27,14 @@ function Home() {
   return (
     <>
       <Head>
-        <title>Find Right Talent Faster with Recruitment management Software</title>
+        <title>Recruitment Management Software | Shadobooks</title>
         <meta name="description" content="Our recruitment management software makes it easy to discover the most qualified candidates." />
         <meta name="keywords" content="Recruitment management software"/>
         <meta http-equiv="refresh" content="0; url=https://shadobooks.com/recruitment-management-software" />
 
       </Head>
 
-      <Layout>
+      <Layout> 
         <section className="section-box">
           <div
             className="banner-hero banner-head-image"
@@ -49,7 +49,7 @@ function Home() {
                   style={{ textAlign: "center", color: "white" }}
                   className="text-display-2"
                 >
-                  Hiring
+                  Recruitment Management Software
                 </h1>
                 <p
                   style={{ textAlign: "center", color: "white" }}

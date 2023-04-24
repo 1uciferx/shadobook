@@ -26,7 +26,7 @@ function Process() {
   return (
     <>
       <Head>
-        <title>Boost Productivity With Advanced Inventory Management System</title>
+        <title> Advanced Inventory Management System | Shadobooks</title>
         <meta name="description" content="Improve your inventory control and simplify management using our inventory management system." />
         <meta name="keywords" content="Inventory management system"/>
         <meta http-equiv="refresh" content="0; url=https://shadobooks.com/inventory-management-system" />
@@ -59,7 +59,7 @@ function Process() {
               <div className="row">
                 <div className="col-lg-12">
                   <h1 className="text-display-2 text-center color-white">
-                    Inventory
+                  Advanced Inventory Management System
                   </h1>
                   <p className="text-body-lead-large color-white mt-40  text-center">
                     Shadobooks ERP offers comprehensive inventory management,

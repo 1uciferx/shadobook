@@ -61,7 +61,7 @@ function Home() {
               <div className="row">
                 <div className="col-lg-12">
                   <h1 className="text-display-2 text-center color-white">
-                    File Manager
+                  ERP Document Management
                   </h1>
                   <p className="text-body-lead-large color-white mt-40  text-center">
                     The File Manager in ShadobooksERP provides an efficient and

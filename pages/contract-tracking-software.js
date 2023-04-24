@@ -15,7 +15,7 @@ function Contracts() {
     <>
       <Head>
         <title>
-          Optimize Contract Workflow with Our Contract Tracking Software
+        Contract Tracking Software | Shadobooks
         </title>
         <meta
           name="description"
@@ -54,7 +54,7 @@ function Contracts() {
               <div className="row">
                 <div className="col-lg-12">
                   <h1 className="text-display-2 text-center color-white">
-                    Contracts
+                  Contract Tracking Software
                   </h1>
                   <p className="text-body-lead-large color-white mt-40  text-center">
                     Shadobooks CRM offers a curated section that is dedicated to

@@ -63,7 +63,7 @@ function Index6() {
               <div className="row">
                 <div className="col-lg-7 mt-50 pb-120">
                   <h1 className="text-display-2 mt-20 color-white">
-                    Web Hooks
+                  ERP Webhook Module
                   </h1>
                   <p className="text-body-lead-large color-white mt-30 pr-40">
                     Shadobooks CRM offers webhooks services that will allow HTTP

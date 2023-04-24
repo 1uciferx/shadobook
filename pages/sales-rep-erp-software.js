@@ -17,20 +17,20 @@ import Head from "next/head";
 
 function Salesagent() {
   return (
-  <>
+    <>
       <Head>
         <title>Best Sales Rep ERP Software | Shadobooks ERP</title>
         <meta
           name="description"
           content="Sales Rep ERP Software is helps to automate business tasks, track performance, manage customer relationships, and generate invoices & Reports."
         />
-        <meta name="keywords" content=" Sales Rep ERP Software"/>
+        <meta name="keywords" content="Sales Rep ERP Software" />
         <meta http-equiv="refresh" content="0; url=https://shadobooks.com/sales-rep-erp-software" />
 
       </Head>
 
- {/* facebook and twitter meta graphs starts here */}
- <Helmet>
+      {/* facebook and twitter meta graphs starts here */}
+      <Helmet>
         <meta property="og:title" content="Shadobooks ERP" />
         <meta property="og:description" content="Shadobooks erp solutions." />
         <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
@@ -54,7 +54,7 @@ function Salesagent() {
             <div className="container">
               <div className="text-center">
                 <h1 className="text-display-2 color-white mt-30">
-                  Sales Agent
+                  Best Sales Rep ERP Software
                 </h1>
                 <p className="text-body-lead-large color-white mt-40 pr-40">
                   A person or corporation that represents an exporting firm (the
@@ -76,7 +76,7 @@ function Salesagent() {
                   <div className="box-optimized">
                     <h3 className="text-heading-2">Dashboard</h3>
                     <p className="text-body-excerpt mt-30">
-                    The dashboard for sales agents in Shadobooks ERP is expected to display key data<span><a href="/reports-module-in-erp"> reports</a></span> , which may include:
+                      The dashboard for sales agents in Shadobooks ERP is expected to display key data<span><a href="/reports-module-in-erp"> reports</a></span> , which may include:
                       <br></br> <br></br>➟ The number of agents,
                       <br></br>➟ The number of active and inactive agents,
                       <br></br>➟ The total number of programs,

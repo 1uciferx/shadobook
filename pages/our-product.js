@@ -23,18 +23,17 @@ function Modules() {
           <div class="row">
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
               <div className={styles.ss2}>
-                <Link href="/Accounting-erp-software">
-                  <div class=" shadow p-3 mb-5 bg-body rounded">
-                    <h4 class="card-title text-center">
-                      <i class="text-heading-6">Accounting</i>
-                    </h4>
-                    <div className={styles.cntr}>
-                      <img
-                        src="assets/imgs/page/homepage1/Accountingvoucher2.png"
-                        alt="Photo of sunset"
-                        width={"150px"}
-                      />
-                    </div>
+              <Link href="/accounting-erp-software">
+                <div class=" shadow p-3 mb-5 bg-body rounded">
+                  <h4 class="card-title text-center">
+                    <i class="text-heading-6">Accounting</i>
+                  </h4>
+                  <div className={styles.cntr}>
+                    <img
+                      src="assets/imgs/page/homepage1/Accountingvoucher2.png"
+                      alt="Photo of sunset"
+                      width={"150px"}
+                    />
                   </div>
                 </Link>
               </div>
@@ -57,7 +56,7 @@ function Modules() {
             </div>
 
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/fixed-assets-management-erp-software">
+              <Link href="/assets-management-erp-software">
                 <div class=" shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Company Assets</i>
@@ -117,7 +116,7 @@ function Modules() {
             </div>
 
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/Knowledge-management-software">
+              <Link href="/knowledge-management-software">
                 <div class=" shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Knowledge Base</i>
@@ -295,7 +294,7 @@ function Modules() {
               </Link>
             </div>
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/sales-rep-erp-software">
+              <Link href="/sales-management-software">
                 <div class="shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Sales</i>
@@ -318,7 +317,7 @@ function Modules() {
         <div class="container mt-50 ">
           <div class="row">
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/vendor-management-software">
+              <Link href="/purchase-management-software">
                 <div class=" shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Purchase</i>
@@ -389,7 +388,7 @@ function Modules() {
         <div class="container mt-50 ">
           <div class="row">
             <div class="col-md-3 col-sm-6" style={{ cursor: "pointer" }}>
-              <Link href="/crm-software">
+              <Link href="/sales-rep-erp-software">
                 <div class=" shadow p-3 mb-5 bg-body rounded">
                   <h4 class="card-title text-center">
                     <i class="text-heading-6">Sales Agent</i>
