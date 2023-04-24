@@ -1,0 +1,753 @@
+.whatBenefitsWe {
+  /* width: 95%; */
+  color: white;
+  font-size: 45px;
+  line-height: 56px;
+  font-family: Inter;
+  text-align: center;
+  font-weight: 600;
+  /* margin-top: 16%; */
+  left: 50%;
+  /* translate: -50%; */
+  transform: translateX(-50%);
+  position: absolute;
+  top: 3%;
+}
+
+.compChild {
+  position: absolute;
+  top: 413px;
+  left: 12%;
+  border-radius: 9px;
+  background-color: white;
+  width: 77%;
+  height: 626px;
+}
+
+@media screen and (max-width: 749px) {
+  .compChild {
+    position: absolute;
+    top: 413px;
+    left: 12%;
+    border-radius: 9px;
+    background-color: white;
+    width: 77%;
+    height: 626px;
+  }
+}
+
+.efficientWorkflowManagement,
+.realTimeDashboardAnd,
+.seamlessIntegrationWith {
+  position: absolute;
+  top: 26%;
+  left: 6%;
+  font-size: 20px;
+  font-family: Arial;
+  width: 211px;
+}
+.realTimeDashboardAnd,
+.seamlessIntegrationWith {
+  left: 38%;
+  width: 238px;
+}
+.seamlessIntegrationWith {
+  left: 73%;
+  width: 216px;
+}
+.comprehensiveAndAccurate,
+.multiCurrencyTransactionsI {
+  position: absolute;
+  top: 71%;
+  left: 7%;
+  display: inline-block;
+  width: 197px;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.multiCurrencyTransactionsI {
+  left: 40%;
+  font-size: 20px;
+  width: 234px;
+  font-family: Arial;
+}
+.industrySpecificCustomizatio {
+  position: absolute;
+  top: 71%;
+  left: 75%;
+  font-size: 20px;
+  font-family: Arial;
+  display: inline-block;
+  width: 216px;
+}
+.upgradeToShadobooks {
+  top: -31%;
+  left: 13%;
+  font-size: 29px;
+  line-height: 31px;
+  font-family: Kurala;
+  color: white;
+  position: absolute;
+  width: 79%;
+}
+
+@media screen and (max-width: 1261px) {
+  .upgradeToShadobooks {
+    top: -31%;
+    left: 13%;
+    font-size: 25px;
+    line-height: 31px;
+    font-family: Kurala;
+    color: white;
+    position: absolute;
+    width: 79%;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .upgradeToShadobooks {
+    top: -31%;
+    left: 13%;
+    font-size: 21px;
+    line-height: 31px;
+    font-family: Kurala;
+    color: white;
+    position: absolute;
+    width: 66%;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .whatBenefitsWe {
+    color: white;
+    font-size: 40px;
+    line-height: 56px;
+    font-family: Inter;
+    text-align: center;
+    font-weight: 600;
+    /* margin-top: 16%; */
+    left: 50%;
+    /* translate: -50%; */
+    transform: translateX(-50%);
+    position: absolute;
+    top: 3%;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .whatBenefitsWe {
+    color: white;
+    font-size: 38px;
+    line-height: 56px;
+    font-family: Inter;
+    text-align: center;
+    font-weight: 600;
+    /* margin-top: 16%; */
+    left: 50%;
+    /* translate: -50%; */
+    transform: translateX(-50%);
+    position: absolute;
+    top: 3%;
+  }
+}
+
+@media screen and (max-width: 893px) {
+  .compChild7 {
+    top: 10%;
+    left: 6%;
+    width: 16%;
+    height: 16%;
+  }
+
+  .efficientWorkflowManagement,
+  .realTimeDashboardAnd,
+  .seamlessIntegrationWith {
+    position: absolute;
+    top: 26%;
+    left: 6%;
+    font-size: 16px;
+    font-family: Arial;
+    width: 211px;
+  }
+
+  .compChild8 {
+    position: absolute;
+    top: 13%;
+    left: 38%;
+    width: 23%;
+    height: 9%;
+  }
+
+  .realTimeDashboardAnd,
+  .seamlessIntegrationWith {
+    left: 38%;
+    width: 192px;
+  }
+
+  .groupIcon {
+    position: absolute;
+    top: 9%;
+    left: 75%;
+    width: 18%;
+    height: 16%;
+  }
+
+  .seamlessIntegrationWith {
+    left: 73%;
+    width: 180px;
+  }
+
+  .vectorIcon {
+    position: absolute;
+    top: 55%;
+    left: 6%;
+    width: 21%;
+    height: 14%;
+  }
+
+  .comprehensiveAndAccurate,
+  .multiCurrencyTransactionsI {
+    position: absolute;
+    top: 71%;
+    left: 7%;
+    display: inline-block;
+    width: 193px;
+    font-family: Arial;
+    font-size: 16px;
+  }
+
+  .compChild1 {
+    position: absolute;
+    top: 54%;
+    left: 40%;
+    width: 22%;
+    height: 15%;
+  }
+
+  .multiCurrencyTransactionsI {
+    left: 40%;
+    font-size: 16px;
+    width: 193px;
+    font-family: Arial;
+  }
+
+  .compItem {
+    position: absolute;
+    top: 55%;
+    left: 74%;
+    width: 18%;
+    height: 14%;
+  }
+
+  .industrySpecificCustomizatio {
+    position: absolute;
+    top: 73%;
+    left: 75%;
+    font-size: 16px;
+    font-family: Arial;
+    display: inline-block;
+    width: 123px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .compChild7 {
+    top: 10%;
+    left: 6%;
+    width: 16%;
+    height: 16%;
+  }
+
+  .efficientWorkflowManagement,
+  .realTimeDashboardAnd,
+  .seamlessIntegrationWith {
+    position: absolute;
+    top: 26%;
+    left: 6%;
+    font-size: 16px;
+    font-family: Arial;
+    width: 211px;
+  }
+
+  .compChild8 {
+    position: absolute;
+    top: 13%;
+    left: 38%;
+    width: 23%;
+    height: 9%;
+  }
+
+  .realTimeDashboardAnd,
+  .seamlessIntegrationWith {
+    left: 38%;
+    width: 192px;
+  }
+
+  .groupIcon {
+    position: absolute;
+    top: 9%;
+    left: 75%;
+    width: 18%;
+    height: 16%;
+  }
+
+  .seamlessIntegrationWith {
+    left: 73%;
+    width: 151px;
+  }
+
+  .vectorIcon {
+    position: absolute;
+    top: 55%;
+    left: 6%;
+    width: 21%;
+    height: 14%;
+  }
+
+  .comprehensiveAndAccurate,
+  .multiCurrencyTransactionsI {
+    position: absolute;
+    top: 71%;
+    left: 7%;
+    display: inline-block;
+    width: 148px;
+    font-family: Arial;
+    font-size: 16px;
+  }
+
+  .compChild1 {
+    position: absolute;
+    top: 54%;
+    left: 40%;
+    width: 22%;
+    height: 15%;
+  }
+
+  .multiCurrencyTransactionsI {
+    left: 40%;
+    font-size: 16px;
+    width: 176px;
+    font-family: Arial;
+  }
+
+  .compItem {
+    position: absolute;
+    top: 55%;
+    left: 74%;
+    width: 18%;
+    height: 14%;
+  }
+
+  .industrySpecificCustomizatio {
+    position: absolute;
+    top: 71%;
+    left: 75%;
+    font-size: 16px;
+    font-family: Arial;
+    display: inline-block;
+    width: 123px;
+  }
+}
+
+.compInner {
+  position: absolute;
+  top: 809px;
+  left: 1103px;
+  width: 23px;
+  height: 38.5px;
+}
+.compItem {
+  position: absolute;
+  top: 55%;
+  left: 74%;
+  width: 14%;
+  height: 14%;
+}
+.compInner {
+  top: 806px;
+  left: 319px;
+  width: 24px;
+  height: 40px;
+}
+.compChild1 {
+  position: absolute;
+  top: 54%;
+  left: 40%;
+  width: 14%;
+  height: 15%;
+}
+
+.groupIcon {
+  position: absolute;
+  top: 9%;
+  left: 74%;
+  width: 10%;
+  height: 13%;
+}
+
+.compChild2,
+.ellipseIcon {
+  position: absolute;
+  top: 825px;
+  left: 331px;
+  width: 0.1%;
+  height: 2px;
+}
+.compChild2 {
+  top: 827px;
+  left: 330px;
+  width: 0.23%;
+}
+.vectorProgressbar {
+  width: 5.5px;
+  position: absolute;
+  top: 826.5px;
+  left: 302px;
+}
+.compChild3,
+.compChild4 {
+  position: absolute;
+  top: 813px;
+  left: 1107px;
+  width: 13px;
+  height: 13px;
+}
+.compChild4 {
+  top: 836px;
+  left: 1107px;
+}
+.compChild5,
+.compChild6,
+.compChild7 {
+  position: absolute;
+  top: 841px;
+  left: 1105px;
+  width: 17px;
+  height: 12px;
+}
+.compChild6 {
+  top: 818px;
+  left: 1105px;
+}
+.compChild7 {
+  top: 10%;
+  left: 6%;
+  width: 13%;
+  height: 12%;
+}
+.compChild8 {
+  position: absolute;
+  top: 13%;
+  left: 40%;
+  width: 11%;
+  height: 6%;
+}
+.compChild9 {
+  position: absolute;
+  top: 535px;
+  left: 701px;
+  width: 5%;
+  height: 44px;
+}
+.compChild9 {
+  top: 536px;
+  left: 1116px;
+  width: 1.5%;
+  height: 14px;
+}
+.compChild10 {
+  position: absolute;
+  top: 806px;
+  left: 303px;
+  width: 3%;
+  height: 48px;
+}
+.vectorIcon {
+  position: absolute;
+  top: 56%;
+  left: 7%;
+  width: 11%;
+  height: 13%;
+}
+
+.compChild10 {
+  top: 804px;
+  left: 1095px;
+  border-radius: 1px;
+  width: 46.68px;
+  height: 54.98px;
+}
+.compChild11 {
+  position: absolute;
+  top: 806px;
+  left: 335px;
+  width: 1.5%;
+  height: 48px;
+}
+.comp {
+  position: relative;
+  background-color: #90311b;
+  width: 100%;
+  height: 1134px;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: black;
+  font-family: var(--font-markazi-text);
+}
+
+@media screen and (max-width: 768px) {
+  .whatBenefitsWe {
+    color: white;
+    font-size: 27px;
+    line-height: 56px;
+    font-family: Inter;
+    text-align: center;
+    font-weight: 600;
+    /* margin-top: 16%; */
+    left: 50%;
+    /* translate: -50%; */
+    transform: translateX(-50%);
+    position: absolute;
+    top: 3%;
+  }
+
+  .upgradeToShadobooks {
+    top: -31%;
+    left: 16%;
+    font-size: 15px;
+    line-height: 31px;
+    font-family: Kurala;
+    color: white;
+    position: absolute;
+    width: 66%;
+  }
+
+
+  .seamlessIntegrationWith {
+    left: 73%;
+    width: 111px;
+    font-size: 14px;
+  }
+
+
+  .realTimeDashboardAnd {
+    left: 38%;
+    width: 148px;
+    font-size: 14px;
+  }
+
+  .comprehensiveAndAccurate{
+    position: absolute;
+    top: 71%;
+    left: 7%;
+    display: inline-block;
+    width: 128px;
+    font-family: Arial;
+    font-size: 14px;
+  }
+
+  .efficientWorkflowManagement{
+    position: absolute;
+    top: 26%;
+    left: 6%;
+    font-size: 14px;
+    font-family: Arial;
+    width: 151px;
+  }
+
+  .multiCurrencyTransactionsI {
+    left: 40%;
+    font-size: 14px;
+    width: 156px;
+    font-family: Arial;
+  }
+
+  .industrySpecificCustomizatio {
+    position: absolute;
+    top: 71%;
+    left: 75%;
+    font-size: 14px;
+    font-family: Arial;
+    display: inline-block;
+    width: 113px;
+  }
+
+
+  .compChild7 {
+    top: 10%;
+    left: 6%;
+    width: 17%;
+    height: 12%;
+  }
+
+  .compChild8 {
+    position: absolute;
+    top: 13%;
+    left: 40%;
+    width: 17%;
+    height: 6%;
+  }
+
+  .groupIcon {
+    position: absolute;
+    top: 9%;
+    left: 74%;
+    width: 15%;
+    height: 13%;
+  }
+
+  .vectorIcon {
+    position: absolute;
+    top: 56%;
+    left: 7%;
+    width: 22%;
+    height: 13%;
+  }
+
+  .compChild1 {
+    position: absolute;
+    top: 54%;
+    left: 40%;
+    width: 22%;
+    height: 15%;
+  }
+
+  .compItem {
+    position: absolute;
+    top: 55%;
+    left: 72%;
+    width: 24%;
+    height: 14%;
+  }
+
+}
+
+
+@media screen and (max-width: 598px) {
+    .whatBenefitsWe {
+      color: white;
+      font-size: 27px;
+      line-height: 46px;
+      font-family: Inter;
+      text-align: center;
+      font-weight: 600;
+      /* margin-top: 16%; */
+      left: 50%;
+      /* translate: -50%; */
+      transform: translateX(-50%);
+      position: absolute;
+      top: 3%;
+    }
+  
+    .upgradeToShadobooks {
+      top: -31%;
+      left: 16%;
+      font-size: 15px;
+      line-height: 26px;
+      font-family: Kurala;
+      color: white;
+      position: absolute;
+      width: 66%;
+    }
+  
+  
+    .seamlessIntegrationWith {
+      left: 73%;
+      width: 111px;
+      font-size: 12px;
+    }
+  
+  
+    .realTimeDashboardAnd {
+      left: 38%;
+      width: 108px;
+      font-size: 12px;
+    }
+  
+    .comprehensiveAndAccurate{
+      position: absolute;
+      top: 71%;
+      left: 7%;
+      display: inline-block;
+      width: 108px;
+      font-family: Arial;
+      font-size: 12px;
+    }
+  
+    .efficientWorkflowManagement{
+      position: absolute;
+      top: 26%;
+      left: 6%;
+      font-size: 12px;
+      font-family: Arial;
+      width: 151px;
+    }
+  
+    .multiCurrencyTransactionsI {
+      left: 40%;
+      font-size: 12px;
+      width: 106px;
+      font-family: Arial;
+    }
+  
+    .industrySpecificCustomizatio {
+      position: absolute;
+      top: 71%;
+      left: 75%;
+      font-size: 12px;
+      font-family: Arial;
+      display: inline-block;
+      width: 83px;
+    }
+  
+  
+    .compChild7 {
+      top: 10%;
+      left: 6%;
+      width: 19%;
+      height: 12%;
+    }
+  
+    .compChild8 {
+      position: absolute;
+      top: 13%;
+      left: 40%;
+      width: 19%;
+      height: 6%;
+    }
+  
+    .groupIcon {
+      position: absolute;
+      top: 9%;
+      left: 72%;
+      width: 19%;
+      height: 13%;
+    }
+  
+    .vectorIcon {
+      position: absolute;
+      top: 56%;
+      left: 5%;
+      width: 26%;
+      height: 13%;
+    }
+  
+    .compChild1 {
+      position: absolute;
+      top: 54%;
+      left: 37%;
+      width: 29%;
+      height: 15%;
+    }
+  
+    .compItem {
+      position: absolute;
+      top: 55%;
+      left: 70%;
+      width: 24%;
+      height: 14%;
+    }
+  
+  }
+  

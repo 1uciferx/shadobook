@@ -47,7 +47,7 @@ function About2() {
                     </Link>
                   </div>
                 </div>
-                {/* <div className="col-lg-6 d-none d-lg-block">
+                <div className="col-lg-6 d-none d-lg-block">
                                     <div className="banner-imgs">
                                         <div className="block-1 shape-2"><img src="/assets/imgs/page/about/2/banner.png" alt="Agon" /></div>
                                         <div className="float-end col-lg-6 mt-90">
@@ -67,7 +67,7 @@ function About2() {
                                             </div>
                                         </div>
                                     </div>
-                                </div> */}
+                                </div>
               </div>
             </div>
           </div>

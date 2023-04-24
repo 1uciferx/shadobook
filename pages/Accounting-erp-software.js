@@ -7,7 +7,7 @@ import PriceTable2 from "../components/elements/PriceTable2";
 import Layout from "../components/layout/Layout";
 import Imagepopup from "../components/layout/Imagepopup";
 import styles from "../styles/Index.module.css";
-import Indexslider from "../components/indexslider";
+import Newslider from "../components/newslider";
 import Contactmanager from "../components/contactmanager";
 import { Helmet } from 'react-helmet';
 import OfferSlider from "../components/slider/Offer";
@@ -571,7 +571,7 @@ function Home() {
 
         <div className={styles.modslider}>
           <div className="mt-50">
-            <Indexslider />
+            <Newslider />
             <div className="text-center">
               <Link href="/our-product">
                 <button

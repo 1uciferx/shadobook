@@ -16,32 +16,34 @@ function Raw() {
   return (
     <>
       <Layout>
-        
- {/* facebook and twitter meta graphs starts here */}
-      <Helmet>
-  
-        <title>
-        Retail ERP Software for Businesses | Shadobooks
-        </title>
-        <meta
-          name="description"
-          content=" Boost your sales speed with our powerful yet easy-to-use open source retail ERP software. "
-        />
-             <meta name="keywords" content="Retail ERP Software"/>
-    
-        <meta property="og:title" content="Shadobooks ERP" />
-        <meta property="og:description" content="Shadobooks erp solutions." />
-        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
-        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Shadobooks ERP" />
-        <meta name="twitter:description" content="Shadobooks erp solutions." />
-        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
-        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/retail-erp-software" />
 
-      </Helmet>
+        {/* facebook and twitter meta graphs starts here */}
+        <Helmet>
 
-      {/* facebook and twitter meta graphs ends here */}
+
+          <title>
+            Retail ERP Software for Businesses | Shadobooks
+          </title>
+          <meta
+            name="description"
+            content=" Boost your sales speed with our powerful yet easy-to-use open source retail ERP software. "
+          />
+          <meta name="keywords" content="Retail ERP Software" />
+
+
+          <meta property="og:title" content="Shadobooks ERP" />
+          <meta property="og:description" content="Shadobooks erp solutions." />
+          <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+          <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Shadobooks ERP" />
+          <meta name="twitter:description" content="Shadobooks erp solutions." />
+          <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+          <meta http-equiv="refresh" content="0; url=https://shadobooks.com/retail-erp-software" />
+
+        </Helmet>
+
+        {/* facebook and twitter meta graphs ends here */}
 
         <section className="section-box">
           <div className="banner-hero banner-4  bg-10">

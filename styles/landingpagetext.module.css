@@ -1,0 +1,21 @@
+@media screen and (min-width:492px) {
+    .normalsx{
+        display: block;
+    }
+
+    .midxs{
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width:491px) {
+
+    .normalsx{
+        display: none;
+    }
+    .midxs{
+        display: block;
+    }
+}

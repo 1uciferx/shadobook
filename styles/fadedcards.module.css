@@ -166,3 +166,58 @@
   }
 }
 
+@media screen and (max-width:660px) {
+  
+.para1 {
+   
+ 
+  font-family:Inter;
+  margin-top: 3%;
+  font-size: 19px;
+  line-height: 35px;
+  color:#000000;
+  font-weight: 400;
+  text-decoration: none solid rgb(0, 0, 0);
+  width: 100%;
+  text-align: center;
+  position:relative;
+  top: 8%;
+
+}
+
+.heading1{
+  text-align: center;
+  font-size: 29px;
+  line-height: 138%;
+  font-family: Segoe UI;
+  font-weight: 700;
+  font-style: normal;
+  color: #150D48;
+  margin-top: 54px;
+
+
+
+}
+
+  
+}
+@media screen and (max-width:499px) {
+  
+  .para1 {
+     
+   
+    font-family:Inter;
+    margin-top: 3%;
+    font-size: 19px;
+    line-height: 35px;
+    color:#000000;
+    font-weight: 400;
+    text-decoration: none solid rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    position:relative;
+    top: 8%;
+  
+  }
+}  
+

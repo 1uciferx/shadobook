@@ -4,7 +4,7 @@ import Link from "next/link";
 import Layout from "../components/layout/Layout";
 import FeaturedSlider from "../components/slider/Featured";
 import styles from "../styles/Index.module.css";
-import Indexslider from "../components/indexslider";
+import Newslider from "../components/newslider";
 import Contactmanager from "../components/contactmanager";
 import Head from 'next/head';
 import { Helmet } from 'react-helmet';
@@ -345,7 +345,7 @@ function Sales() {
         </section>
         <div className={styles.modslider}>
           <div className="mt-50">
-            <Indexslider />
+            <Newslider />
             <div className="text-center">
               <Link href="/our-product">
                 <button
@@ -353,7 +353,7 @@ function Sales() {
                   class="btn btn-outline-dark"
                   style={{
                     padding: "10px",
-                    marginTop: "-15px",
+                    marginTop: "15px",
                     marginBottom: "30px",
                   }}
                 >

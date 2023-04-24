@@ -1,24 +1,26 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import PriceTable from "../components/elements/PriceTable";
 import { useState } from "react";
 import Layout from "../components/layout/Layout";
 import Slider from "react-slick";
 import dynamic from "next/dynamic";
-import Indexslider from "../components/indexslider";
-import Indexslider2 from "../components/indexslider2";
-import Indexslider3 from "../components/indexslider3";
-import Featureslider from "../components/demosli";
+import Newslider from "../components/newslider";
 import styles from "../styles/index.module.css";
-import Mobileindex from "./mobileindex";
 import { Helmet } from "react-helmet";
 import Fadedcards from "../components/Fadedcards";
+import Fadedcardsmid from "../components/Fadedcardsmidscreen";
+import Fadedcardssmallscreen from "../components/Fadedcardssmallscreen";
 import Sectiontwo from "../components/sectiontwo";
+import Sectiontwosmall from "../components/sectiontwosmall";
 import Cards2 from "../components/cards2";
+import Card2small from "../components/card2small";
 import Cards3 from "../components/cards3";
+import Cards3midscreen from "../components/cards3midscreen";
+import Cards3smallscreen from "../components/card3smallscreen";
 import Happyclients from "../components/happyclients";
 import Cards4 from "../components/cards4";
-import Demoslider from "../components/cintoslider";
+import Cards4midscreen from "../components/cards4midscreen";
+import Cintoslider from "../components/cintoslider";
 
 
 function Index2() {
@@ -37,137 +39,100 @@ function Index2() {
 
   return (
     <>
+      {/* firstbox */}
+      {/* facebook and twitter meta graphs starts here */}
+      <Helmet>
+        <title>Top Accounting Software for Business | Shadobooks ERP</title>
+        <meta
+          name="description"
+          content=" Sign up today for Shadobooks, a top accounting software for businesses. It empowers you to perform essential financial tasks such as invoice creation and cash flow monitoring. Begin your free 90-day trial now! "
+        />
+        <meta name="keywords" content="Top Accounting Software for Business" />
 
-    
+        <meta property="og:title" content="Shadobooks ERP" />
+        <meta property="og:description" content="Shadobooks erp solutions." />
+        <meta
+          property="og:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.facebook.com/shadobookscrm"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Shadobooks ERP" />
+        <meta name="twitter:description" content="Shadobooks erp solutions." />
+        <meta
+          name="twitter:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
+      </Helmet>
+
+      {/* facebook and twitter meta graphs ends here */}
       <Layout>
-        {/* firstbox */}
+        <div className={styles.modulescontainer}></div>
 
-        {/* facebook and twitter meta graphs starts here */}
-        <Helmet>
-          <title>Top Accounting Software for Business | Shadobooks ERP</title>
-          <meta
-            name="description"
-            content=" Sign up today for Shadobooks, a top accounting software for businesses. It empowers you to perform essential financial tasks such as invoice creation and cash flow monitoring. Begin your free 90-day trial now!"
-          />
-          <meta
-            name="keywords"
-            content="Top Accounting Software for Business"
-          />
-
-          <meta property="og:title" content="Shadobooks ERP" />
-          <meta property="og:description" content="Shadobooks erp solutions." />
-          <meta
-            property="og:image"
-            content="/assets/imgs/page/homepage1/sb-logo.png"
-          />
-          <meta
-            property="og:url"
-            content="https://www.facebook.com/shadobookscrm"
-          />
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Shadobooks ERP" />
-          <meta
-            name="twitter:description"
-            content="Shadobooks erp solutions."
-          />
-          <meta
-            name="twitter:image"
-            content="/assets/imgs/page/homepage1/sb-logo.png"
-          />
-        </Helmet>
-
-        {/* facebook and twitter meta graphs ends here */}
-
-        <div className={styles.desktophome}>
-          <div className={styles.modulescontainer}></div>
-
-          <section className="section-box">
-            <div className="banner-hero banner-2">
-              <div className="container">
-                <div className="row">
-                  <div className="col-lg-7 mt-50">
-                    <span className="tag-1 bg-green-900">
-                      ShadoBooks ERP Solutions
+        <section className="section-box">
+          <div className="banner-hero banner-2">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-7 mt-50">
+                  <span className="tag-1 bg-green-900">
+                    ShadoBooks ERP Solutions
+                  </span>
+                  <h1 className="text-display-3 mt-30">
+                    Accounting Headache? SAY{" "}
+                    <span style={{ color: "#90331C" }}>GOODBYE</span>
+                    <br></br>
+                    <span className="text-heading-5">
+                      Get solutions under one roof
                     </span>
-                    <h1 className="text-display-3 mt-30">
-                      Accounting Headache? SAY{" "}
-                      <span style={{ color: "#90331C" }}>GOODBYE</span>
-                      <br></br>
-                      <span className="text-heading-5">
-                        Get solutions under one roof
-                      </span>
-                    </h1>
-                    <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
-                      Driving enterprise operations towards better ease of
-                      operations with an all-in-on accounting platform.
-                    </p>
-                    <div className="mt-40">
-                      <Link href="/request-a-demo">
-                        <a className="btn btn-black shape-square icon-arrow-right-white">
-                          Get Start
-                        </a>
-                      </Link>
-                      {/* <Link href=" "><a className="btn btn-link icon-triangle color-gray-900 ml-40">How it works
+                  </h1>
+                  <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
+                    Driving enterprise operations towards better ease of
+                    operations with an all-in-on accounting platform.
+                  </p>
+                  <div className="mt-40">
+                    <Link href="/request-a-demo">
+                      <a className="btn btn-black shape-square icon-arrow-right-white">
+                        Get Start
+                      </a>
+                    </Link>
+                    {/* <Link href=" "><a className="btn btn-link icon-triangle color-gray-900 ml-40">How it works
                                             </a></Link> */}
-                    </div>
-                    {/* <div className="mt-50">
-                                            <div className="row">
-                                                <div className="col-lg-3 col-sm-4 col-4">
-                                                    <h3 className="text-heading-4 color-gray-900 mb-15">
-                                                        +<span className="count">38</span>k
-                                                    </h3>
-                                                    <p className="text-body-text-md color-gray-500">
-                                                        Happy Clients
-                                                    </p>
-                                                </div>
-                                                <div className="col-lg-3 col-sm-4 col-4">
-                                                    <h3 className="text-heading-4 color-gray-900 mb-15">
-                                                        +<span className="count">45</span>k
-                                                    </h3>
-                                                    <p className="text-body-text-md color-gray-500">
-                                                        Project Done
-                                                    </p>
-                                                </div>
-                                                <div className="col-lg-3 col-sm-4 col-4">
-                                                    <h3 className="text-heading-4 color-gray-900 mb-15">
-                                                        <span className="count">100</span>%
-                                                    </h3>
-                                                    <p className="text-body-text-md color-gray-500">
-                                                        Client Satisfaction
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div> */}
                   </div>
-                  <div className="col-lg-5 d-none d-lg-block">
-                    <div className="banner-imgs">
-                      <div className="block-1 shape-2">
-                        <img
-                          src="/assets/imgs/page/homepage2/sbin2-removebg-preview.png"
-                          alt="Shadobooks erp"
-                        />
-                      </div>
-                      <div className="block-2 shape-3">
+                </div>
+                <div className="col-lg-5 d-none d-lg-block">
+                  <div className="banner-imgs">
+                    {/* <div className="block-1 shape-2">
                         <img
                           src="/assets/imgs/page/homepage2/sbin.jpg"
                           alt="Shadobooks erp"
                         />
-                      </div>
-                      <img
-                        className="img-responsive shape-1"
-                        alt="Shadobooks erp"
-                        src="assets/imgs/page/homepage2/sbindex.jpg"
-                      />
+                      </div> */}
+                    <div className={styles.heroside}>
+                      {/* <div className="block-2 shape-3">
+                        <img
+                          src="/assets/imgs/page/homepage2/sbindex.jpg"
+                          alt="Shadobooks erp"
+                        />
+                      </div> */}
                     </div>
+                    <img
+                      className="img-responsive shape-1"
+                      alt="Shadobooks erp"
+                      src="assets/imgs/page/homepage2/dddf.jpg"
+                    />
                   </div>
                 </div>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* slider for the modules old UI model hero page */}
+        {/*old UI model hero page */}
 
-          {/* <div className="section-box">
+        {/* <div className="section-box">
             <div className="mt-50 mb-40">
               <div className="container">
                 <div className="row">
@@ -223,107 +188,107 @@ function Index2() {
             </div>
           </div> */}
 
-          {/* slidermenu which the features section */}
-          {/* sectiontwo */}
+        {/* slidermenu which the features section */}
 
-          {/* this slider is for the larger and too smaller screens */}
-
-          <div className={styles.lapscreen}>
-            <div className="mt-30 mb-60">
-              <Featureslider />
-              <div className="text-center">
-                <Link href="/our-product">
-                  <div className={styles.buttonstart1}>
-                    <button class={styles.button}>
-                      <span>Show more </span>
-                    </button>
-                  </div>
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          {/* this slider is for the normal respective screen */}
-
-          <div className={styles.midscreen}>
-            <div className="mt-30 mb-60">
-              <Indexslider />
-              <div className="text-center">
-                <Link href="/our-product">
-                  <div className={styles.buttonstart100}>
-                    <button class={styles.button}>
-                      <span>Show more </span>
-                    </button>
-                  </div>
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          {/* sectionthree */}
-          {/* adaptable software and the soln listed page */}
-          <div>
-            <Fadedcards />
-          </div>
-
-          {/* sectionFOUR */}
-          {/* simplyfy the process with sb section */}
-          <div>
-            <Sectiontwo />
-          </div>
-
-          <div className={styles.contain}>
-            <h3 className={styles.heading3}>What We Do, What You Get</h3>
-            <p className={styles.para3}>
-              Shadobooks presents businesses with the Dashboard which presents
-              all the financial data in a dynamically interactive format while
-              also opening new doors to a wealth of insights that can help you
-              with informed decision-making and improve your customer-facing
-              strategies.
-            </p>
-          </div>
-
-          {/* third section */}
-          {/* three 3d cards section */}
-
-          <div>
-            <Cards2 />
-          </div>
-
-          {/* fourth section */}
-          {/* our features section */}
-
-          <div>
-            <Cards3 />
-          </div>
-
-          {/* section 4 */}
-          {/* clients testimonals area */}
-
-          <div>
-            <Happyclients />
-          </div>
-
-          {/* section 5  */}
-          {/* powerful features */}
-
-          <div>
-            <Cards4 />
-          </div>
-
-          {/* section 6 */}
-          <div className={styles.iop}>
-            <div className={styles.cintoslider}>
-              <p> Trusted by the World's Leading Companies</p>
-            </div>
-
-            <div>
-              <Demoslider />
+        <div className={styles.midscreen}>
+          <div className="mt-30 mb-60">
+            <Newslider />
+            <div className="text-center">
+              <Link href="/our-product">
+                <div className={styles.buttonstart1}>
+                  <button class={styles.button}>
+                    <span>Show more </span>
+                  </button>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
-        <div className={styles.mobilehome}>
-          <Mobileindex />
+
+        {/* adaptable crm software and the soln listed page */}
+
+        <div className={styles.fadedcard}>
+          <Fadedcards />
+        </div>
+
+        <div className={styles.fadedcardsmid}>
+          <Fadedcardsmid />
+        </div>
+
+        <div className={styles.fadedcardssmall}>
+          <Fadedcardssmallscreen />
+        </div>
+
+        {/* simplyfy the process with sb section */}
+
+        <div className={styles.sectiontwofor}>
+          <Sectiontwo />
+        </div>
+
+        <div className={styles.sectiontwoforsml}>
+          <Sectiontwosmall />
+        </div>
+
+        <div className={styles.contain}>
+          <h3 className={styles.heading3}>What We Do, What You Get</h3>
+          <p className={styles.para3}>
+            Shadobooks presents businesses with the Dashboard which presents all
+            the financial data in a dynamically interactive format while also
+            opening new doors to a wealth of insights that can help you with
+            informed decision-making and improve your customer-facing
+            strategies.
+          </p>
+        </div>
+
+        {/* three 3d cards section */}
+
+        <div className={styles.card2bigscreen}>
+          <Cards2 />
+        </div>
+
+        <div className={styles.card2midscreen}>
+          <Card2small />
+        </div>
+
+        {/* our features section */}
+
+        <div className={styles.card3bigscreen}>
+          <Cards3 />
+        </div>
+
+        <div className={styles.card3midscreen}>
+          <Cards3midscreen />
+        </div>
+
+        <div className={styles.card3smallscreen}>
+          <Cards3smallscreen />
+        </div>
+
+        {/* clients testimonals area */}
+
+        {/* <div>
+          <Happyclients />
+        </div> */}
+
+        {/* powerful features */}
+
+        <div className={styles.cards4screen}>
+          <Cards4 />
+        </div>
+
+        <div className={styles.cards4midscreen}>
+          <Cards4midscreen />
+        </div>
+
+        {/* trusted companies world wide */}
+        <div className={styles.companyslider}>
+          <div className={styles.cintoslider}>
+            <p> Trusted by the World's Leading Companies</p>
+          </div>
+
+          <div>
+            <Cintoslider />
+          </div>
         </div>
 
         <section className="section-box">

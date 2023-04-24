@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
 import styles from "../styles/Index.module.css";
-import Indexslider from "../components/indexslider";
+import Newslider from "../components/newslider";
 import { Helmet } from 'react-helmet';
 import Contactmanager from "../components/contactmanager";
 import Head from "next/head";
@@ -217,7 +217,7 @@ Tickets are used to generate<span><a href="/reports-module-in-erp"> Reports</a><
         </section>
         <div className={styles.modslider}>
           <div className="mt-50">
-            <Indexslider />
+            <Newslider />
             <div className="text-center">
               <Link href="/our-product">
                 <button
@@ -225,7 +225,7 @@ Tickets are used to generate<span><a href="/reports-module-in-erp"> Reports</a><
                   class="btn btn-outline-dark"
                   style={{
                     padding: "10px",
-                    marginTop: "-15px",
+                    marginTop: "15px",
                     marginBottom: "30px",
                   }}
                 >

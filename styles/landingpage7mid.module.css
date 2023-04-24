@@ -1,0 +1,33 @@
+.compimg {
+  margin: auto;
+  text-align: center;
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 500;
+  width: 50%;
+}
+
+.compItem{
+    margin: auto;
+    text-align: center;
+    
+}
+
+
+
+.heder{
+    font-size: 24px;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+
+
+.sgm{
+    font-size: 14px;
+    width: 80%;
+    margin-left: 10%;
+    font-family: Arial;
+    margin-top: 5%;
+}
