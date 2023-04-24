@@ -5,10 +5,11 @@ import SwiperCore, { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Card } from "antd";
 const { Meta } = Card;
+import Image from "next/image";
 import Link from "next/link";
 
 SwiperCore.use([Autoplay, Navigation]);
-const Featureslider = () => {
+const Indexslider = () => {
   const data = [
     {
       avatar: "Reports3.png",
@@ -374,50 +375,62 @@ const Featureslider = () => {
 
   return (
     <>
-    <div className="mt-20  ">
-      <div className="box-swiper">
-      <div class="swiper-container swiper-group-4  " >
-          <Swiper
-            slidesPerView={7}
-            spaceBetween={10}
-            loop={true}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
-            navigation={{
-              prevEl: ".swiper-button-prev-4",
-              nextEl: ".swiper-button-next-4",
-            }}
-            className="swiper-wrapper pb-70 pt-5 " style={{height:'254px'}}
-          >
-            {data.map((item, i) => (
-              <SwiperSlide style={{minHeight:'20%'}}>
-                <div className="swiper-slide active shadow p-0 mb-0 bg-white rounded">
-                  <Card hoverable style={{ width: 200, height: '254px' }}>
-                    <a href={item.link}>
-                      <img
-                        src={`assets/imgs/page/homepage1/${item.avatar}`}
-                        alt="shadobooks"
-                      />
+      <div className="mt-20  ">
+        <div className="box-swiper">
+          <div class="swiper-container swiper-group-4  ">
+            <Swiper
+              slidesPerView={6}
+              spaceBetween={40}
+              loop={true}
+              autoplay={{
+                delay: 3500,
+                disableOnInteraction: false,
+              }}
+              
+              navigation={{
+                prevEl: ".swiper-button-prev-4",
+                nextEl: ".swiper-button-next-4",
+              }}
+              className="swiper-wrapper pb-70 pt-5 "
+              style={{ height: "254px" }}
+            >
+              {data.map((item, i) => (
+                <SwiperSlide style={{ minHeight: "20%" }}>
+                  <div className="swiper-slide active shadow p-0 mb-0 bg-white rounded">
+                    <Card hoverable style={{ width: "200px", height: "254px" }}>
+                      <a href={item.link}>
+                        <Image
+                          src={`/assets/imgs/page/homepage1/${item.avatar}`}
+                          alt="shadobooks"
+                          width={200}
+                          height={190}
+                          padding={17}
+                        />
 
-                      <h5 style={{ textAlign: "center", fontSize: "22px", fontFamily: 'Poppins', lineHeight:'33px'}}>
-                        <b>{item.name}</b>
-                      </h5>
-                    </a>
-                    {/* <p>{item.quote}</p> */}
-                  </Card>
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </div>
-        {/* <div className="swiper-button-next swiper-button-next-4" />
+                        <h5
+                          style={{
+                            textAlign: "center",
+                            fontSize: "22px",
+                            fontFamily: "Poppins",
+                            lineHeight: "33px",
+                          }}
+                        >
+                          <b>{item.name}</b>
+                        </h5>
+                      </a>
+                      {/* <p>{item.quote}</p> */}
+                    </Card>
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
+          {/* <div className="swiper-button-next swiper-button-next-4" />
         <div className="swiper-button-prev swiper-button-prev-4" /> */}
-      </div>
+        </div>
       </div>
     </>
   );
 };
 
-export default Featureslider;
+export default Indexslider;

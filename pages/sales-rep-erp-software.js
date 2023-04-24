@@ -5,7 +5,7 @@ import { Button, Space } from "antd";
 import { Col, Row } from "antd";
 import { Breadcrumb } from "antd";
 import "react-modal-video/css/modal-video.css";
-import Indexslider from "../components/indexslider";
+import Newslider from "../components/newslider";
 import { Helmet } from 'react-helmet';
 import styles from "../styles/SalesAgent.module.css";
 import CounterUp from "../components/elements/CounterUp";
@@ -806,7 +806,7 @@ xxl={{
 
         <div className={styles.modslider}>
           <div className="mt-50">
-            <Indexslider />
+            <Newslider />
             <div className="text-center">
               <Link href="/our-product">
                 <button
@@ -814,7 +814,7 @@ xxl={{
                   class="btn btn-outline-dark"
                   style={{
                     padding: "10px",
-                    marginTop: "-15px",
+                    marginTop: "15px",
                     marginBottom: "30px",
                   }}
                 >

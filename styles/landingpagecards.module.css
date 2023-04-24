@@ -1,0 +1,111 @@
+.headone {
+    font-size: 19px;
+    font-weight: 600;
+    font-family: poppins;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .hovereffectt {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 12%;
+    width: 82% !important;
+    line-height: 333%;
+    display: table !important;
+  }
+  
+  .hovereffectt:hover img {
+    transform: scale(1.1);
+  }
+  
+  .hovereffectt1 {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 12%;
+    width: 82% !important;
+    display: table !important;
+    line-height: 200%;
+  }
+  
+  .hovereffectt1:hover img {
+    transform: scale(1.1);
+  }
+  
+  
+  @media screen and (max-width:390px) {
+    .headone {
+      font-size: 15px;
+      font-weight: 600;
+      font-family: poppins;
+      text-align: center;
+      margin: auto;
+    }
+    
+  }
+
+  @media screen and (max-width:1060px) {
+    .headone {
+        font-size: 16px;
+        font-weight: 600;
+        font-family: poppins;
+        text-align: center;
+        margin: auto;
+      }
+  }
+
+  @media screen and (max-width:712px) {
+    .headone {
+        font-size: 14px;
+        font-weight: 600;
+        font-family: poppins;
+        text-align: center;
+        margin: auto;
+      }
+  }
+
+  @media screen and (max-width:333px) {
+    .headone {
+        font-size: 12px;
+        font-weight: 600;
+        font-family: poppins;
+        text-align: center;
+        margin: auto;
+      }
+  }
+
+
+
+  @media screen and (max-width:660px) {
+    .hovereffectt1 {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 13%;
+        width: 82% !important;
+        display: table !important;
+        line-height: 200%;
+      }
+    
+  }
+
+  
+  @media screen and (max-width:570px) {
+    .hovereffectt1 {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 12%;
+        width: 82% !important;
+        display: table !important;
+        line-height: 331%;
+      }
+    
+  }
+
+
+    
+  @media screen and (max-width:434px) {
+    .hovereffectt1 {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 13%;
+        width: 82% !important;
+        display: table !important;
+        line-height: 200%;
+      }
+    
+  }

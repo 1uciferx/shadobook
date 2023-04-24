@@ -4,7 +4,7 @@ import { useState } from "react";
 import dynamic from "next/dynamic";
 import Hr2 from "../components/slider/Hr2";
 import styles from "../styles/Hrrecords.module.css";
-import Indexslider from "../components/indexslider";
+import Newslider from "../components/newslider";
 import Contactmanager from "../components/contactmanager";
 import Hrrecordsslider from "../components/slider/hrrecordsslider";
 import Head from "next/head";
@@ -616,7 +616,7 @@ function Index6() {
 
         <div className={styles.modslider}>
           <div className="mt-50">
-            <Indexslider />
+            <Newslider />
             <div className="text-center">
               <Link href="/our-product">
                 <button
@@ -624,8 +624,8 @@ function Index6() {
                   class="btn btn-outline-dark"
                   style={{
                     padding: "10px",
-                    marginTop: "-15px",
-                    marginBottom: "30px",
+                    marginTop: "15px",
+                    marginBottom: "40px",
                   }}
                 >
                   Show More

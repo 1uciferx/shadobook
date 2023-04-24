@@ -1,15 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-key */
 import React from "react";
-import SwiperCore, { Autoplay, Navigation } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
 import { Card } from "antd";
 import Slider from "react-slick";
 const { Meta } = Card;
+import Image from "next/image";
 import Link from "next/link";
 
-SwiperCore.use([Autoplay, Navigation]);
-const Featureslider = () => {
+
+const Demosli = () => {
     const settings = {
         dots: false,
         infinite: true,
@@ -154,9 +153,11 @@ const Featureslider = () => {
                 <div className="swiper-slide active shadow p-0 mb-0 bg-white rounded">
                   <Card hoverable style={{ width: 200, height: '245px' }}>
                     <a href={item.link}>
-                      <img
-                        src={`assets/imgs/page/homepage1/${item.avatar}`}
+                    <Image
+                        src={`/assets/imgs/page/homepage1/${item.avatar}`}
                         alt="shadobooks"
+                        width={200}
+                        height={190}
                       />
 
                       <h5 style={{ textAlign: "center", fontSize: "22px", fontFamily: 'Poppins', lineHeight:'33px'}}>
@@ -178,4 +179,4 @@ const Featureslider = () => {
   );
 };
 
-export default Featureslider;
+export default Demosli;

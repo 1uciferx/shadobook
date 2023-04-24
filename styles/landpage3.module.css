@@ -1,0 +1,290 @@
+.subhead5 {
+  font-family: "Lexend";
+  font-style: normal;
+  margin-top: 20%;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 44px;
+  /* identical to box height */
+  color: #282828;
+}
+
+.subhead7 {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 20%;
+  font-size: 35px;
+  line-height: 44px;
+  /* identical to box height */
+  color: #282828;
+}
+
+.subhead4 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+  margin-left: 5%;
+}
+
+.subhead6 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #000000;
+}
+
+@media screen and (max-width: 1112px) {
+  .subhead5 {
+    font-family: "Lexend";
+    font-style: normal;
+    margin-top: 20%;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #282828;
+  }
+
+  .subhead7 {
+    font-family: "Lexend";
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20%;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #282828;
+  }
+
+  .subhead4 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 5%;
+  }
+
+  .subhead6 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+  }
+}
+
+@media screen and (max-width: 908px) {
+  .subhead5 {
+    font-family: "Lexend";
+    font-style: normal;
+    margin-top: 20%;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #282828;
+  }
+
+  .subhead7 {
+    font-family: "Lexend";
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20%;
+    font-size: 27px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #282828;
+  }
+
+  .subhead4 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    margin-left: 5%;
+  }
+
+  .subhead6 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #000000;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .subhead5 {
+    font-family: "Lexend";
+    font-style: normal;
+    margin-top: 20%;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #282828;
+  }
+
+  .subhead7 {
+    font-family: "Lexend";
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20%;
+    font-size: 25px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #282828;
+  }
+
+  .subhead4 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    margin-left: 5%;
+  }
+
+  .subhead6 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+
+    color: #000000;
+  }
+}
+
+@media screen and (max-width: 908px) {
+  .subhead5 {
+    font-family: "Lexend";
+    font-style: normal;
+    margin-top: 20%;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #282828;
+  }
+
+  .subhead7 {
+    font-family: "Lexend";
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20%;
+    font-size: 21px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #282828;
+  }
+
+  .subhead4 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin-left: 5%;
+  }
+
+  .subhead6 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #000000;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .subhead5 {
+    font-family: "Lexend";
+    font-style: normal;
+    margin-top: 20%;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #282828;
+  }
+
+  .subhead7 {
+    font-family: "Lexend";
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20%;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #282828;
+  }
+
+  .subhead4 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    color: #000000;
+    margin-left: 5%;
+  }
+
+  .subhead6 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+
+    color: #000000;
+  }
+}
+
+@media screen and (max-width: 349px) {
+  .subhead5 {
+    font-family: "Lexend";
+    font-style: normal;
+    margin-top: 19%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #282828;
+  }
+
+  .subhead7 {
+    font-family: "Lexend";
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20%;
+    font-size: 14px;
+    line-height: 18px;
+    color: #282828;
+  }
+}
+
+@media screen and (max-width:767px) {
+  
+.imgplacer{
+  margin-top:50%;
+}
+}
