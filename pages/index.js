@@ -66,7 +66,7 @@ function Index2() {
           name="twitter:image"
           content="/assets/imgs/page/homepage1/sb-logo.png"
         />
-        <meta http-equiv="refresh" content="0; url=https://shadobooks.com/" />
+        {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/" /> */}
 
       </Helmet>
 
@@ -78,7 +78,7 @@ function Index2() {
           <div className="banner-hero banner-2">
             <div className="container">
               <div className="row">
-                <div className="col-lg-7 mt-50">
+                <div className="col-lg-7 mt-80">
                   <span className="tag-1 bg-green-900">
                     ShadoBooks ERP Solutions
                   </span>
@@ -106,24 +106,25 @@ function Index2() {
                 </div>
                 <div className="col-lg-5 d-none d-lg-block">
                   <div className="banner-imgs">
-                    {/* <div className="block-1 shape-2">
+                    <div className="block-1">
                         <img
-                          src="/assets/imgs/page/homepage2/sbin.jpg"
+                          src="/assets/imgs/page/homepage1/ind23.jpg"
                           alt="Shadobooks erp"
                         />
-                      </div> */}
+                      </div>
                     <div className={styles.heroside}>
-                      {/* <div className="block-2 shape-3">
+                      <div className="block-2 ">
                         <img
-                          src="/assets/imgs/page/homepage2/sbindex.jpg"
+                          src="/assets/imgs/page/homepage1/ind22.jpg"
                           alt="Shadobooks erp"
                         />
-                      </div> */}
+                      </div>
                     </div>
                     <img
-                      className="img-responsive shape-1"
+                      className="img-responsive"
                       alt="Shadobooks erp"
-                      src="assets/imgs/page/homepage2/dddf.jpg"
+                      style={{borderRadius:"20px"}}
+                      src="assets/imgs/page/homepage2/ind244.jpg"
                     />
                   </div>
                 </div>

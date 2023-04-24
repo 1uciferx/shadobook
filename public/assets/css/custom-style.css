@@ -23,7 +23,7 @@
   }
 
   a:hover{
-    color: #90331c;
+    color: #90331c !important;
   }
 
   span.acuspad{

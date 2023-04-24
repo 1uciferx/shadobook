@@ -27,13 +27,13 @@ function Landingpage() {
                   for informed decision-making.
                 </p>
                 <div className="mt-40">
-                  <Link href="#">
+                  <Link href="/request-a-demo">
                     <button class={styles.button18} role="button">
                       Start 90 days Free Trial ➜
                     </button>
                   </Link>
 
-                  <Link href="#">
+                  <Link href="/request-a-demo">
                     <button class={styles.button19} role="button">
                       Schedule a Demo ➜
                     </button>
@@ -41,7 +41,7 @@ function Landingpage() {
                 </div>
                 <div className={styles.flwer}>
                   <div className="row">
-                    <div className="col-lg-2 col-md-4 col-sm-6 col-12 pr-mb-70 mb-30">
+                    <div className="col-lg-2 col-md-4 col-sm-4 col-4 pr-mb-70 mb-30">
                       <h3 className={styles.minitext}>
                         <span className="count">500</span>+
                       </h3>
@@ -49,7 +49,7 @@ function Landingpage() {
                         <span>Happy Clients</span>
                       </h6>
                     </div>
-                    <div className="col-lg-2 col-md-4 col-sm-6 col-12 pr-mb-70 mb-30">
+                    <div className="col-lg-2 col-md-4 col-sm-4 col-4 pr-mb-70 mb-30">
                       <h3 className={styles.minitext}>
                         <span className="count">756</span>+
                       </h3>
@@ -57,9 +57,9 @@ function Landingpage() {
                         <span>Project Done</span>
                       </h6>
                     </div>
-                    <div className="col-lg-2 col-md-4 col-sm-6 col-12 pr-mb-70 mb-30">
+                    <div className="col-lg-2 col-md-4 col-sm-4 col-4 pr-mb-70 mb-30">
                       <h3 className={styles.minitext}>
-                        <span className="count">500</span>%
+                        <span className="count">100</span>%
                       </h3>
                       <h6 className={styles.minitext1}>
                         <span>Client Satisfaction</span>

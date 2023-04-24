@@ -16,7 +16,7 @@ function Testimonialcards() {
         {
             breakpoint: 2560,
             settings: {
-              slidesToShow: 5,
+              slidesToShow: 4,
               slidesToScroll: 1,
               infinite: true,
             },
@@ -31,14 +31,14 @@ function Testimonialcards() {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 743,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 580,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -50,6 +50,8 @@ function Testimonialcards() {
  
   return (
     <>
+
+    
       <Slider {...settings}>
         <div className={styles.sizes}>
           <div className={styles.mycard}>
