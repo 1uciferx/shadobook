@@ -72,12 +72,12 @@ function Newcomponent() {
 
     </div>
     <div>
-    <h3 className={styles.subhead5}>IT Support Industry</h3>
+    <h3 className={styles.subhead7}>Distribution Industry</h3>
           <br />
-          <p className={styles.subhead4}>
-            We offer a variety of products for companies in the IT support
-            sector to automate their service desk, manage IT assets, and enhance
-            service delivery.
+          <p className={styles.subhead6}>
+            In the distribution industry, our ERP helps businesses streamline
+            their warehouse operations, optimize their delivery routes, and
+            track their sales and purchases.
           </p>
 
     </div>

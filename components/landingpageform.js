@@ -49,9 +49,9 @@ function Landingpageform() {
       );
     e.target.reset();
 
-    toast.success("Free Demo Request has been submitted successfully");
+    toast.success("Request has been submitted successfully");
 
-    router.push("/#");
+    router.push("/thankyou");
   };
 
   const onFinish = (values) => {
