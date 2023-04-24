@@ -106,7 +106,7 @@ function Landingpage3() {
             offset: 0,
           }}
           xxl={{
-            span: 10,
+            span: 9,
             offset: 0,
           }}
         >     <div className={styles.imgplacer}>
@@ -134,8 +134,8 @@ function Landingpage3() {
             offset: 1,
           }}
           xxl={{
-            span: 10,
-            offset: 0,
+            span: 12,
+            offset: 1,
           }}
         >
           <h3 className={styles.subhead7}>Manufacturing Industry</h3>
@@ -209,7 +209,7 @@ function Landingpage3() {
           }}
           xxl={{
             span: 10,
-            offset: 0,
+            offset: 2,
           }}
         >     <div className={styles.imgplacer}>
           <img src="assets/imgs/page/homepage1/tel3.png" alt="past meetings" /></div>
@@ -242,7 +242,7 @@ function Landingpage3() {
           }}
           xxl={{
             span: 10,
-            offset: 1,
+            offset: 2,
           }}
         >     <div className={styles.imgplacer}>
           <img src="assets/imgs/page/homepage1/tel4.png" alt="shado books" /></div>
@@ -344,7 +344,7 @@ function Landingpage3() {
           }}
           xxl={{
             span: 10,
-            offset: 0,
+            offset: 3,
           }}
         >     <div className={styles.imgplacer}>
           <img src="assets/imgs/page/homepage1/tel5.png" alt="past meetings" /></div>
