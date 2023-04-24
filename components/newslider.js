@@ -127,7 +127,7 @@ const Newslider = () => {
           <div className={`${styles.normalbg}`}>
             {" "}
             <div className={`${styles.hovereffectt1}`}>
-              <a href="/Accounting-erp-software">
+              <a href="/accounting-erp-software">
                 <Image
                   src="/assets/imgs/page/homepage1/Accountingvoucher2.png"
                   alt="Client 5"

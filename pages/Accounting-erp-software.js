@@ -34,7 +34,7 @@ function Home() {
           content="Optimize financial management with accounting ERP software. Automate processes, gain insights, and streamline operations for efficient business performance."
         />
          <meta name="keywords" content=" Accounting ERP software"/>
-         <meta http-equiv="refresh" content="0; url=https://shadobooks.com/Accounting-erp-software" />
+         <meta http-equiv="refresh" content="0; url=https://shadobooks.com/accounting-erp-software" />
 
       </Head>
 
