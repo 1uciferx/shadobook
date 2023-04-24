@@ -16,7 +16,7 @@ function Landingpage() {
             <div className="row">
               <div className="col-lg-7 mt-50 pb-120">
                 <h1 className={styles.headingone}>
-                  Top-Notch Accounting ERP Software- Shadobooks
+                  Top-Notch Accounting ERP Software - Shadobooks
                 </h1>
                 <p className={styles.paraone}>
                   Shadobooks ERP, a leading Accounting ERP software, offers

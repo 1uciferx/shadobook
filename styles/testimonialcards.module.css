@@ -63,14 +63,11 @@
   }
 }
 
-
 @media only screen and (min-width: 601px) and (max-width: 762px) {
   .mycard {
     height: auto;
     width: 80%;
   }
-
-
 }
 
 @media only screen and (min-width: 768px) and (max-width: 979px) {
@@ -108,14 +105,14 @@
 .name {
   text-align: start;
   margin-bottom: 8px;
-  font-family: "Lora";
+  font-family: Arial;
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
 }
 
 .position {
-  font-family: "Lora";
+  font-family: Arial;
   font-style: normal;
   font-weight: 700;
   font-size: 23px;
@@ -124,7 +121,7 @@
 }
 
 .para {
-  font-family: "Segoe UI";
+  font-family: Arial;
   font-style: normal;
   font-weight: 700;
   font-size: 23px;
@@ -140,7 +137,7 @@
 }
 
 .heading {
-  font-family: "Leelawadee UI";
+  font-family: Arial;
   font-style: normal;
   font-weight: 700;
   font-size: 52px;
@@ -149,7 +146,7 @@
 }
 
 .heading2 {
-  font-family: 'Markazi Text';
+  font-family: Arial;
   font-style: normal;
   font-weight: 500;
   font-size: 38px;
@@ -157,20 +154,18 @@
   text-align: center;
 }
 
-.line{
-  background: #90311B;
-  color: #90311B;
+.line {
+  background: #90311b;
+  color: #90311b;
   border: 0;
-  border-bottom: 9px solid #90311B;
+  border-bottom: 9px solid #90311b;
   text-align: center;
   position: relative;
   bottom: 18px;
   opacity: 100%;
-
-
 }
 
-.linepar{
+.linepar {
   margin: auto;
   text-align: center;
   width: 9%;

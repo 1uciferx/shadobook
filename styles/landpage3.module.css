@@ -1,5 +1,5 @@
 .subhead5 {
-  font-family: "Lexend";
+    font-family: Arial;
   font-style: normal;
   margin-top: 20%;
   font-weight: 700;
@@ -10,7 +10,7 @@
 }
 
 .subhead7 {
-  font-family: "Lexend";
+    font-family: Arial;
   font-style: normal;
   font-weight: 700;
   margin-top: 20%;
@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 1112px) {
   .subhead5 {
-    font-family: "Lexend";
+      font-family: Arial;
     font-style: normal;
     margin-top: 20%;
     font-weight: 700;
@@ -53,7 +53,7 @@
   }
 
   .subhead7 {
-    font-family: "Lexend";
+      font-family: Arial;
     font-style: normal;
     font-weight: 700;
     margin-top: 20%;
@@ -86,7 +86,7 @@
 
 @media screen and (max-width: 908px) {
   .subhead5 {
-    font-family: "Lexend";
+      font-family: Arial;
     font-style: normal;
     margin-top: 20%;
     font-weight: 700;
@@ -97,7 +97,7 @@
   }
 
   .subhead7 {
-    font-family: "Lexend";
+      font-family: Arial;
     font-style: normal;
     font-weight: 700;
     margin-top: 20%;
@@ -130,7 +130,7 @@
 
 @media screen and (max-width: 767px) {
   .subhead5 {
-    font-family: "Lexend";
+      font-family: Arial;
     font-style: normal;
     margin-top: 20%;
     font-weight: 700;
@@ -141,7 +141,7 @@
   }
 
   .subhead7 {
-    font-family: "Lexend";
+      font-family: Arial;
     font-style: normal;
     font-weight: 700;
     margin-top: 20%;
@@ -174,7 +174,7 @@
 
 @media screen and (max-width: 908px) {
   .subhead5 {
-    font-family: "Lexend";
+      font-family: Arial;
     font-style: normal;
     margin-top: 20%;
     font-weight: 700;
@@ -185,7 +185,7 @@
   }
 
   .subhead7 {
-    font-family: "Lexend";
+      font-family: Arial;
     font-style: normal;
     font-weight: 700;
     margin-top: 20%;
@@ -218,7 +218,7 @@
 
 @media screen and (max-width: 576px) {
   .subhead5 {
-    font-family: "Lexend";
+      font-family: Arial;
     font-style: normal;
     margin-top: 20%;
     font-weight: 700;
@@ -229,7 +229,7 @@
   }
 
   .subhead7 {
-    font-family: "Lexend";
+      font-family: Arial;
     font-style: normal;
     font-weight: 700;
     margin-top: 20%;
@@ -262,7 +262,7 @@
 
 @media screen and (max-width: 349px) {
   .subhead5 {
-    font-family: "Lexend";
+      font-family: Arial;
     font-style: normal;
     margin-top: 19%;
     font-weight: 700;
@@ -272,7 +272,7 @@
   }
 
   .subhead7 {
-    font-family: "Lexend";
+      font-family: Arial;
     font-style: normal;
     font-weight: 700;
     margin-top: 20%;
@@ -292,7 +292,7 @@
 
 @media screen and (max-width:400px) {
   .subhead5 {
-    font-family: "Lexend";
+      font-family: Arial;
     font-style: normal;
     margin-top: 20%;
     font-weight: 700;
@@ -303,7 +303,7 @@
   }
 
   .subhead7 {
-    font-family: "Lexend";
+      font-family: Arial;
     font-style: normal;
     font-weight: 700;
     margin-top: 20%;
