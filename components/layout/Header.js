@@ -10,6 +10,8 @@ const Header = ({ handleOpen, headerStyle }) => {
 
   const router = useRouter();
   const isHome = router.pathname === '/';
+  const isLanding = router.pathname === '/accounting-erpsoftware';
+
 
 
   const [scroll, setScroll] = useState(0);
@@ -60,7 +62,7 @@ const Header = ({ handleOpen, headerStyle }) => {
       {/* ? `${headerStyle} header sticky-bar stick ` */}
       <header
        className={
-        !isHome
+        !isHome && !isLanding
           ? `${headerStyle} header sticky-bar `
           : scroll
             ? `${headerStyle} header ${styles.head}`

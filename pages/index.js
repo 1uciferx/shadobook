@@ -123,7 +123,7 @@ function Index2() {
                     <img
                       className="img-responsive"
                       alt="Shadobooks erp"
-                      style={{borderRadius:"20px"}}
+                      style={{borderRadius:"20px",marginTop:"40px"}}
                       src="assets/imgs/page/homepage2/ind244.jpg"
                     />
                   </div>

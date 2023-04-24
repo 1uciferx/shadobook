@@ -10,7 +10,7 @@ function Landingpage() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
-      <div className="section-box">
+      <div className="section-box" style={{marginTop:"80px"}}>
         <div className="banner-hero banner-homepage6">
           <div className="container">
             <div className="row">
