@@ -3,7 +3,7 @@
   color: white;
   font-size: 45px;
   line-height: 56px;
-  font-family: Inter;
+   font-family: Arial;
   text-align: center;
   font-weight: 600;
   /* margin-top: 16%; */
@@ -86,7 +86,7 @@
   left: 13%;
   font-size: 29px;
   line-height: 31px;
-  font-family: Kurala;
+   font-family: Arial;
   color: white;
   position: absolute;
   width: 79%;
@@ -98,7 +98,7 @@
     left: 13%;
     font-size: 25px;
     line-height: 31px;
-    font-family: Kurala;
+     font-family: Arial;
     color: white;
     position: absolute;
     width: 79%;
@@ -111,7 +111,7 @@
     left: 13%;
     font-size: 21px;
     line-height: 31px;
-    font-family: Kurala;
+     font-family: Arial;
     color: white;
     position: absolute;
     width: 66%;
@@ -123,7 +123,7 @@
     color: white;
     font-size: 40px;
     line-height: 56px;
-    font-family: Inter;
+     font-family: Arial;
     text-align: center;
     font-weight: 600;
     /* margin-top: 16%; */
@@ -140,7 +140,7 @@
     color: white;
     font-size: 38px;
     line-height: 56px;
-    font-family: Inter;
+     font-family: Arial;
     text-align: center;
     font-weight: 600;
     /* margin-top: 16%; */
@@ -494,7 +494,7 @@
   text-align: left;
   font-size: var(--font-size-9xl);
   color: black;
-  font-family: var(--font-markazi-text);
+  font-family: Arial;
 }
 
 @media screen and (max-width: 768px) {
@@ -502,7 +502,7 @@
     color: white;
     font-size: 27px;
     line-height: 56px;
-    font-family: Inter;
+     font-family: Arial;
     text-align: center;
     font-weight: 600;
     /* margin-top: 16%; */
@@ -518,7 +518,7 @@
     left: 16%;
     font-size: 15px;
     line-height: 31px;
-    font-family: Kurala;
+     font-family: Arial;
     color: white;
     position: absolute;
     width: 66%;
@@ -630,7 +630,7 @@
       color: white;
       font-size: 27px;
       line-height: 46px;
-      font-family: Inter;
+       font-family: Arial;
       text-align: center;
       font-weight: 600;
       /* margin-top: 16%; */
@@ -646,7 +646,7 @@
       left: 16%;
       font-size: 15px;
       line-height: 26px;
-      font-family: Kurala;
+       font-family: Arial;
       color: white;
       position: absolute;
       width: 66%;

@@ -11,6 +11,7 @@ import Fadedcards from "../components/Fadedcards";
 import Fadedcardsmid from "../components/Fadedcardsmidscreen";
 import Fadedcardssmallscreen from "../components/Fadedcardssmallscreen";
 import Sectiontwo from "../components/sectiontwo";
+import Testimonalindex from "../components/testimonialindex";
 import Sectiontwosmall from "../components/sectiontwosmall";
 import Cards2 from "../components/cards2";
 import Card2small from "../components/card2small";
@@ -74,7 +75,7 @@ function Index2() {
       <Layout>
         <div className={styles.modulescontainer}></div>
 
-        <section className="section-box">
+        <section className="section-box" >
           <div className="banner-hero banner-2">
             <div className="container">
               <div className="row">
@@ -108,14 +109,14 @@ function Index2() {
                   <div className="banner-imgs">
                     <div className="block-1">
                         <img
-                          src="/assets/imgs/page/homepage1/ind23.jpg"
+                          src="/assets/imgs/page/homepage2/balancenew.png"
                           alt="Shadobooks erp"
                         />
                       </div>
                     <div className={styles.heroside}>
                       <div className="block-2 ">
                         <img
-                          src="/assets/imgs/page/homepage1/ind22.jpg"
+                          src="/assets/imgs/page/homepage2/paymentnew.png"
                           alt="Shadobooks erp"
                         />
                       </div>
@@ -123,8 +124,8 @@ function Index2() {
                     <img
                       className="img-responsive"
                       alt="Shadobooks erp"
-                      style={{borderRadius:"20px",marginTop:"40px"}}
-                      src="assets/imgs/page/homepage2/ind244.jpg"
+                      style={{borderRadius:"20px", marginTop:"40px"}}
+                      src="assets/imgs/page/homepage2/bannernew.png"
                     />
                   </div>
                 </div>
@@ -207,6 +208,17 @@ function Index2() {
             </div>
           </div>
         </div>
+
+
+        {/* testimonals starts from here */}
+
+
+
+
+
+        {/* testimonals ends here */}
+
+        
 
         {/* adaptable crm software and the soln listed page */}
 
