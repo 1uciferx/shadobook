@@ -22,6 +22,7 @@ import Happyclients from "../components/happyclients";
 import Cards4 from "../components/cards4";
 import Cards4midscreen from "../components/cards4midscreen";
 import Cintoslider from "../components/cintoslider";
+import Testimonialindex from "../components/testimonialindex";
 
 
 function Index2() {
@@ -210,14 +211,6 @@ function Index2() {
         </div>
 
 
-        {/* testimonals starts from here */}
-
-
-
-
-
-        {/* testimonals ends here */}
-
         
 
         {/* adaptable crm software and the soln listed page */}
@@ -281,9 +274,16 @@ function Index2() {
 
         {/* clients testimonals area */}
 
-        {/* <div>
-          <Happyclients />
-        </div> */}
+        {/* testimonals starts from here */}
+
+
+        <div>
+  <Testimonialindex/>
+</div>
+
+
+        {/* testimonals ends here */}
+
 
         {/* powerful features */}
 

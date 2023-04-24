@@ -7,6 +7,7 @@ import Landingpage7 from "../components/landingpage7";
 import Landingpage7mid from "../components/landingpage7mid";
 import Landingpageform from "../components/landingpageform";
 import Testimonalcards from "../components/testimonialcards";
+import Newcomponent from "../components/newcomponent";
 import Layout from "../components/layout/Layout";
 import styles from "../styles/landingpagetext.module.css";
 function Landingpage1() {
@@ -22,7 +23,7 @@ function Landingpage1() {
         </div>
 
         <div>
-          <Landingpage3 />
+          <Newcomponent />
         </div>
 
         <div style={{ marginTop: "5%" }}>
