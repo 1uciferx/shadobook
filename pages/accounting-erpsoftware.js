@@ -7,12 +7,42 @@ import Landingpage7 from "../components/landingpage7";
 import Landingpage7mid from "../components/landingpage7mid";
 import Landingpageform from "../components/landingpageform";
 import Testimonalcards from "../components/testimonialcards";
+import Head from "next/head";
 import Newcomponent from "../components/newcomponent";
+import Script from "next/script";
+import * as gtag from "../lib/gtag";
+import React, { useEffect, useState } from "react";
 import Layout from "../components/layout/Layout";
+import { initializeTagManager } from "../lib/gtm";
 import styles from "../styles/landingpagetext.module.css";
 function Landingpage1() {
+
+
+  useEffect(() => {
+    initializeTagManager();
+  }, []);
+
   return (
     <>
+    <Head>
+    <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
+      />
+      <Script
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${gtag.GA_TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }}
+      />
+    </Head>
       <Layout>
         <div>
           <Landingpage />

@@ -57,7 +57,7 @@ function Requestademo() {
 
     toast.success("Free Demo Request has been submitted successfully");
 
-    router.push("/#");
+    router.push("/thankyou");
   };
 
   const onFinish = (values) => {
