@@ -36,6 +36,7 @@ function Home() {
          <meta name="keywords" content=" Accounting ERP software"/>
          <meta http-equiv="refresh" content="0; url=https://shadobooks.com/accounting-erp-software" />
 
+     
       </Head>
 
        {/* facebook and twitter meta graphs starts here */}
