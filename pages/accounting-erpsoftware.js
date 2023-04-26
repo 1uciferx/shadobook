@@ -67,13 +67,14 @@ function Landingpage1() {
         <div>
           <Testimonalcards />
         </div>
-
+        </div>
        
 
         <div className={styles.normalsx}>
         <Brownbox/>
         </div>
 
+        <div className="container">
         <div className={styles.midxs}>
           <Landingpage7mid />
         </div>
