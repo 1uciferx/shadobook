@@ -11,17 +11,26 @@
   color: #000000;
 }
 
+.phead{
+  margin: auto;
+  text-align: center;
+  width: 60%;
+}
+
+.qhead{
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
 .smallheading {
   text-align: start;
-  width: 70%;
   font-family: Arial;
   font-style: normal;
   font-weight: 400;
   font-size: 23px;
   line-height: 29px;
-  margin-left: 16%;
   margin-top: 3%;
-
   color: #000000;
 }
 
@@ -41,13 +50,13 @@
   }
   .smallheading {
     text-align: start;
-    width: 70%;
+ 
     font-family: Arial;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 29px;
-    margin-left: 16%;
+
     margin-top: 3%;
 
     color: #000000;
@@ -56,7 +65,7 @@
 
 @media screen and (max-width: 725px) {
   .mainhead {
-    margin: auto;
+
     text-align: center;
     margin-top: 4%;
      font-family: Arial;
@@ -70,13 +79,13 @@
   }
   .smallheading {
     text-align: start;
-    width: 70%;
+
     font-family: Arial;
     font-style: normal;
     font-weight: 400;
     font-size: 19px;
     line-height: 29px;
-    margin-left: 16%;
+ 
     margin-top: 3%;
 
     color: #000000;
@@ -85,7 +94,7 @@
 
 @media screen and (max-width: 591px) {
   .mainhead {
-    margin: auto;
+
     text-align: center;
      font-family: Arial;
     margin-top: 4%;
@@ -99,13 +108,13 @@
   }
   .smallheading {
     text-align: start;
-    width: 70%;
+ 
     font-family: Arial;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
-    margin-left: 16%;
+ 
     margin-top: 3%;
 
     color: #000000;
@@ -114,7 +123,7 @@
 
 @media screen and (max-width: 459px) {
   .mainhead {
-    margin: auto;
+   
     text-align: center;
      font-family: Arial;
     font-style: normal;
@@ -128,13 +137,13 @@
   }
   .smallheading {
     text-align: start;
-    width: 70%;
+
     font-family: Arial;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 29px;
-    margin-left: 16%;
+
     margin-top: 3%;
 
     color: #000000;
@@ -143,7 +152,7 @@
 
 @media screen and (max-width: 359px) {
   .mainhead {
-    margin: auto;
+
     text-align: center;
      font-family: Arial;
     font-style: normal;
@@ -156,13 +165,13 @@
   }
   .smallheading {
     text-align: start;
-    width: 70%;
+
     font-family: Arial;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 29px;
-    margin-left: 16%;
+    font-size: 16px;
+    line-height: 25px;
+ 
     margin-top: 3%;
 
     color: #000000;
@@ -171,7 +180,7 @@
 
 @media screen and (max-width: 291px) {
   .mainhead {
-    margin: auto;
+ 
     text-align: center;
      font-family: Arial;
     font-style: normal;
@@ -184,13 +193,13 @@
   }
   .smallheading {
     text-align: start;
-    width: 70%;
+  
     font-family: Arial;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 24px;
-    margin-left: 16%;
+ 
     margin-top: 3%;
 
     color: #000000;

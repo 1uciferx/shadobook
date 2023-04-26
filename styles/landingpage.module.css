@@ -178,7 +178,23 @@
     margin-top: -65%;
     position: relative;
     z-index: -999;
-    width: 72%;
+    width: 76%;
+    /* margin: auto; */
+    margin-left: 13%;
+  }
+
+  .heroimg {
+    margin-left: -70%;
+    margin-top: 30%;
+  }
+}
+
+@media screen and (max-width:562px) {
+  .heroimg1 {
+    margin-top: -65%;
+    position: relative;
+    z-index: -999;
+    width: 85%;
     /* margin: auto; */
     margin-left: 13%;
   }
