@@ -6,9 +6,9 @@
 .subhead5 {
   font-family: Arial;
   font-style: normal;
-  margin-top: 7%;
+  margin-top: 13%;
   font-weight: 700;
-  margin-left: 4%;
+  margin-left: 9%;
   font-size: 35px;
   line-height: 44px;
   color: #282828;
@@ -18,10 +18,10 @@
   font-family: Arial;
   font-style: normal;
   font-weight: 700;
-  margin-top: 8%;
+  margin-top: 15%;
   font-size: 35px;
   line-height: 44px;
-  /* identical to box height */
+  margin-left: 48%;
   color: #282828;
 }
 
@@ -31,30 +31,40 @@
   font-weight: 400;
   font-size: 25px;
   line-height: 30px;
-  width: 81%;
+  width: 44%;
   color: #000000;
-  margin-left: 7%;
+  margin-left: 14%;
 }
 
 .subhead6 {
   font-family: Arial;
   font-style: normal;
+  margin-left: 48%;
   font-weight: 400;
   font-size: 25px;
+  width: 46%;
   line-height: 30px;
-
   color: #000000;
 }
 
 .imgplacer {
-  width: 80%;
+  width: 130%;
   margin-top: 10%;
+  margin-left: -61%;
 }
 
 .imgplacer1 {
-  width: 80%;
+  width: 150%;
   margin-top: 10%;
-  margin-left: 10%;
+  margin-left: 28%;
+}
+
+@media screen and (min-width: 1776px) {
+.imgplacer1 {
+  width: 150%;
+  margin-top: 28%;
+  margin-left: 28%;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -63,26 +73,44 @@
   }
 
   .imgplacer {
-    width: 80%;
+    width: 45%;
     margin: auto;
     text-align: center;
   }
 
   .imgplacer1 {
-    width: 80%;
+    width: 45%;
     margin: auto;
     text-align: center;
   }
 }
 
-@media screen and (max-width: 844px) {
+
+@media screen and (max-width: 616px) {
+  .flexcontainer {
+    flex-direction: column;
+  }
+
+  .imgplacer {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .imgplacer1 {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 875px) {
   .subhead5 {
     font-family: Arial;
     font-style: normal;
     margin-top: 7%;
     font-weight: 700;
-    text-align: center;
-
+    text-align: start;
     font-size: 30px;
     line-height: 44px;
     color: #282828;
@@ -92,11 +120,11 @@
     font-family: Arial;
     font-style: normal;
     font-weight: 700;
-    text-align: center;
+    text-align: start;
     margin-top: 8%;
+    margin-left: 34%;
     font-size: 30px;
     line-height: 44px;
-    /* identical to box height */
     color: #282828;
   }
 
@@ -104,11 +132,10 @@
     font-family: Arial;
     font-style: normal;
     font-weight: 400;
-    text-align: center;
+    text-align: start;
     font-size: 20px;
     line-height: 30px;
-    width: 80%;
-
+    width: 52%;
     color: #000000;
   }
 
@@ -117,23 +144,23 @@
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    text-align: center;
-    width: 100%;
+    text-align: start;
+    margin-left: 34%;
+    width: 42%;
     line-height: 30px;
-
     color: #000000;
   }
 }
 
-@media screen and (max-width: 448px) {
+@media screen and (max-width: 707px) {
   .subhead5 {
     font-family: Arial;
     font-style: normal;
     margin-top: 7%;
+    margin-left: 1%;
     font-weight: 700;
     text-align: center;
-
-    font-size: 28px;
+    font-size: 30px;
     line-height: 44px;
     color: #282828;
   }
@@ -144,9 +171,9 @@
     font-weight: 700;
     text-align: center;
     margin-top: 8%;
-    font-size: 28px;
+    margin-left: 3%;
+    font-size: 30px;
     line-height: 44px;
-    /* identical to box height */
     color: #282828;
   }
 
@@ -155,10 +182,9 @@
     font-style: normal;
     font-weight: 400;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 30px;
-    width: 88%;
-
+    width: 75%;
     color: #000000;
   }
 
@@ -166,11 +192,111 @@
     font-family: Arial;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
-    width: 100%;
+    margin-left: 21%;
+    width: 58%;
     line-height: 30px;
+    color: #000000;
+  }
+}
 
+@media screen and (max-width: 488px) {
+  .subhead5 {
+    font-family: Arial;
+    font-style: normal;
+    margin-top: 7%;
+    margin-left: 1%;
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    line-height: 44px;
+    color: #282828;
+  }
+
+  .subhead7 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 8%;
+    margin-left: 3%;
+    font-size: 30px;
+    line-height: 44px;
+    color: #282828;
+  }
+
+  .subhead4 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 17px;
+    line-height: 24px;
+    width: 75%;
+    color: #000000;
+  }
+
+  .subhead6 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 21%;
+    width: 58%;
+    color: #000000;
+  }
+}
+
+
+
+@media screen and (max-width: 433px) {
+  .subhead5 {
+    font-family: Arial;
+    font-style: normal;
+    margin-top: 7%;
+    margin-left: 1%;
+    font-weight: 700;
+    text-align: center;
+    font-size: 27px;
+    line-height: 44px;
+    color: #282828;
+  }
+
+  .subhead7 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 8%;
+    margin-left: 3%;
+    font-size: 27px;
+    line-height: 44px;
+    color: #282828;
+  }
+
+  .subhead4 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    width: 75%;
+    color: #000000;
+  }
+
+  .subhead6 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 21%;
+    width: 58%;
     color: #000000;
   }
 }

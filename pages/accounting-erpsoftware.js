@@ -16,29 +16,21 @@ import Layout from "../components/layout/Layout";
 import { initializeTagManager } from "../lib/gtm";
 import styles from "../styles/landingpagetext.module.css";
 function Landingpage1() {
-
-
   useEffect(() => {
     initializeTagManager();
   }, []);
 
   return (
     <>
-    <Head>
-
-
-
-
-      
-  
-    <Script
-        strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
-      />
-      <Script
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
+      <Head>
+        <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
+        />
+        <Script
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
@@ -46,9 +38,9 @@ function Landingpage1() {
               page_path: window.location.pathname,
             });
           `,
-        }}
-      />
-    </Head>
+          }}
+        />
+      </Head>
       <Layout>
         <div>
           <Landingpage />

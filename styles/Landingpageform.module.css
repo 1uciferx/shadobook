@@ -7,6 +7,27 @@
   margin-top: 2%;
 }
 
+
+@media screen and (max-width:563px) {
+  .heading1{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    font-family: Arial;
+    margin-top: 10%;
+  }
+
+  .para1 {
+    text-align: center;
+      font-weight: 400;
+      font-size: 20px !important;
+      line-height: 35px;
+      font-family: Arial;
+      margin-top: 5%;
+    }
+}
+
 .para1 {
   text-align: start;
   font-weight: 400;
@@ -14,6 +35,30 @@
   line-height: 44px;
   font-family: Arial;
   margin-top: 5%;
+}
+
+@media screen and (max-width:668px) {
+
+  .para1 {
+  text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    font-family: Arial;
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width:345px) {
+  .para1 {
+    text-align: center;
+      font-weight: 400;
+      font-size: 17px !important;
+      line-height: 30px;
+      font-family: Arial;
+      margin-top: 5%;
+    }
+
 }
 
 .paraparent {
