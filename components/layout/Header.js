@@ -60,10 +60,11 @@ const Header = ({ handleOpen, headerStyle }) => {
     <>
       {/* this is the code to make the header to fix when scrollling */}
       {/* ? `${headerStyle} header sticky-bar stick ` */}
+      {/* ${headerStyle} header ${styles.head} */}
       <header
         className={
           !isHome && !isLanding
-            ? `${headerStyle} header sticky-bar `
+            ? `${headerStyle} header ${styles.head}`
             : scroll
               ? `${headerStyle} header ${styles.head}`
               : `${headerStyle} header ${styles.head}`
@@ -648,11 +649,11 @@ const Header = ({ handleOpen, headerStyle }) => {
                       href="#"
                       style={{
                         fontSize: "18px",
-                        padding: "0px 80px",
+                        marginLeft: "30px",
 
                         color: "black",
                       }}
-                      className="header-right"
+                      className=""
                     >
                       <img
                         src={`https://cdn.jsdelivr.net/npm/react-flagkit@1.0.2/img/SVG/${shodan.country_code || "IN"

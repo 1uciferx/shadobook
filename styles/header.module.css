@@ -64,7 +64,7 @@
   opacity: .5;
 }
 
-@media screen and (max-width: 1133px) {
+@media screen and (max-width: 1198px) {
   .mobera {
     display: none;
   }
