@@ -3,13 +3,12 @@
   font-size: 43px;
   font-weight: 700;
   line-height: 56px;
-   font-family: Arial;
+  font-family: Arial;
   margin-top: 2%;
 }
 
-
-@media screen and (max-width:563px) {
-  .heading1{
+@media screen and (max-width: 563px) {
+  .heading1 {
     text-align: center;
     font-size: 26px;
     font-weight: 700;
@@ -20,12 +19,12 @@
 
   .para1 {
     text-align: center;
-      font-weight: 400;
-      font-size: 20px !important;
-      line-height: 35px;
-      font-family: Arial;
-      margin-top: 5%;
-    }
+    font-weight: 400;
+    font-size: 20px !important;
+    line-height: 35px;
+    font-family: Arial;
+    margin-top: 5%;
+  }
 }
 
 .para1 {
@@ -37,10 +36,9 @@
   margin-top: 5%;
 }
 
-@media screen and (max-width:668px) {
-
+@media screen and (max-width: 668px) {
   .para1 {
-  text-align: center;
+    text-align: center;
     font-weight: 400;
     font-size: 25px;
     line-height: 35px;
@@ -49,16 +47,15 @@
   }
 }
 
-@media screen and (max-width:345px) {
+@media screen and (max-width: 345px) {
   .para1 {
     text-align: center;
-      font-weight: 400;
-      font-size: 17px !important;
-      line-height: 30px;
-      font-family: Arial;
-      margin-top: 5%;
-    }
-
+    font-weight: 400;
+    font-size: 17px !important;
+    line-height: 30px;
+    font-family: Arial;
+    margin-top: 5%;
+  }
 }
 
 .paraparent {
@@ -83,7 +80,6 @@
   position: relative;
   left: 23%;
 }
-
 
 /* form */
 .form {
@@ -206,9 +202,9 @@
     box-sizing: border-box;
     height: 82%;
     padding: 20px;
-    width: 84%;
+    width: 115%;
     position: relative;
-    left: 28%;
+    left: 13%;
     top: 10%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
@@ -219,9 +215,9 @@
     box-sizing: border-box;
     color: #eee;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 15px;
     height: 50px;
-    margin-top: 6%;
+    margin-top: 0%;
     outline: 0;
     text-align: center;
     position: relative;
@@ -234,12 +230,29 @@
     text-align: center;
     margin-top: 30px;
   }
+
+  .placeholder{
+    font-size: 20px;
+  }
+
+  .title{
+    font-size: 38px;
+  }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px)and (max-width: 767px) {
   .paraparent {
     width: 100%;
     margin: auto;
+  }
+
+  .placeholder {
+    font-size: 21px;
+  }
+
+
+  .title{
+    font-size: 35px;
   }
 
   .container {
@@ -251,17 +264,17 @@
     margin-top: 11%;
     height: auto;
     position: relative;
-    left: 1%;
+    left: 4%;
   }
   .form {
     background-color: #90311b;
     border-radius: 20px;
     box-sizing: border-box;
-    height: 86%;
+    height: 80%;
     padding: 20px;
-    width: 101%;
+    width: 98%;
     position: relative;
-    left: 1%;
+    left: 2.5%;
     top: 10%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
@@ -272,7 +285,7 @@
     box-sizing: border-box;
     color: #eee;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 14px;
     height: 50px;
     margin-top: 15%;
     outline: 0;
@@ -288,6 +301,7 @@
     margin-top: 30px;
   }
 }
+
 
 
 @media only screen and (min-width: 576px) and (max-width: 599px) {
@@ -311,7 +325,7 @@
     background-color: #90311b;
     border-radius: 20px;
     box-sizing: border-box;
-    height: 86%;
+    height: 79%;
     padding: 20px;
     width: 101%;
     position: relative;
@@ -328,7 +342,7 @@
     cursor: pointer;
     font-size: 18px;
     height: 50px;
-    margin-top: 15%;
+    margin-top: 0%;
     outline: 0;
     text-align: center;
     position: relative;
@@ -343,27 +357,32 @@
   }
 }
 
-
-
-
 @media only screen and (min-width: 768px) {
   .contactimage {
     margin-top: 61%;
     height: auto;
     position: relative;
-    left: 2%;
+    left: -9%;
   }
   .form {
     background-color: #90311b;
     border-radius: 20px;
     box-sizing: border-box;
-    height: 89%;
+    height: 77%;
     padding: 20px;
-    width: 99%;
+    width: 106%;
     position: relative;
     left: -1%;
     top: 10%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .title{
+    font-size: 41px;
+  }
+  
+  .placeholder{
+    font-size: 26px;
   }
 
   .submit {
@@ -372,9 +391,9 @@
     box-sizing: border-box;
     color: #eee;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 15px;
     height: 50px;
-    margin-top: 23%;
+    margin-top: 4%;
     outline: 0;
     text-align: center;
     position: relative;
@@ -447,9 +466,9 @@
     background-color: #90311b;
     border-radius: 20px;
     box-sizing: border-box;
-    height: 88%;
+    height: 81%;
     padding: 20px;
-    width: 69%;
+    width: 92%;
     position: relative;
     left: 3%;
     top: 10%;
@@ -464,7 +483,7 @@
     cursor: pointer;
     font-size: 18px;
     height: 50px;
-    margin-top: 20%;
+    margin-top: 9%;
     outline: 0;
     text-align: center;
     position: relative;
