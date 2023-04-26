@@ -7,6 +7,7 @@ import Landingpage7 from "../components/landingpage7";
 import Landingpage7mid from "../components/landingpage7mid";
 import Landingpageform from "../components/landingpageform";
 import Testimonalcards from "../components/testimonialcards";
+import Brownbox from "../components/brownbox";
 import Head from "next/head";
 import Newcomponent from "../components/newcomponent";
 import Script from "next/script";
@@ -15,6 +16,7 @@ import React, { useEffect, useState } from "react";
 import Layout from "../components/layout/Layout";
 import { initializeTagManager } from "../lib/gtm";
 import styles from "../styles/landingpagetext.module.css";
+
 function Landingpage1() {
   useEffect(() => {
     initializeTagManager();
@@ -65,8 +67,10 @@ function Landingpage1() {
           <Testimonalcards />
         </div>
 
+       
+
         <div className={styles.normalsx}>
-          <Landingpage7 />
+        <Brownbox/>
         </div>
 
         <div className={styles.midxs}>

@@ -24,7 +24,6 @@ import Cards4midscreen from "../components/cards4midscreen";
 import Cintoslider from "../components/cintoslider";
 import Testimonialindex from "../components/testimonialindex";
 
-
 function Index2() {
   const [isOpen, setOpen] = useState(false);
 
@@ -69,14 +68,13 @@ function Index2() {
           content="/assets/imgs/page/homepage1/sb-logo.png"
         />
         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/" /> */}
-
       </Helmet>
 
       {/* facebook and twitter meta graphs ends here */}
       <Layout>
         <div className={styles.modulescontainer}></div>
 
-        <section className="section-box" >
+        <section className="section-box">
           <div className="banner-hero banner-2">
             <div className="container">
               <div className="row">
@@ -109,11 +107,11 @@ function Index2() {
                 <div className="col-lg-5 d-none d-lg-block">
                   <div className="banner-imgs">
                     <div className="block-1">
-                        <img
-                          src="/assets/imgs/page/homepage2/balancenew.png"
-                          alt="Shadobooks erp"
-                        />
-                      </div>
+                      <img
+                        src="/assets/imgs/page/homepage2/balancenew.png"
+                        alt="Shadobooks erp"
+                      />
+                    </div>
                     <div className={styles.heroside}>
                       <div className="block-2 ">
                         <img
@@ -125,7 +123,7 @@ function Index2() {
                     <img
                       className="img-responsive"
                       alt="Shadobooks erp"
-                      style={{borderRadius:"20px", marginTop:"40px"}}
+                      style={{ borderRadius: "20px", marginTop: "40px" }}
                       src="assets/imgs/page/homepage2/bannernew.png"
                     />
                   </div>
@@ -210,9 +208,6 @@ function Index2() {
           </div>
         </div>
 
-
-        
-
         {/* adaptable crm software and the soln listed page */}
 
         <div className={styles.fadedcard}>
@@ -276,14 +271,11 @@ function Index2() {
 
         {/* testimonals starts from here */}
 
-
         <div>
-  <Testimonialindex/>
-</div>
-
+          <Testimonialindex />
+        </div>
 
         {/* testimonals ends here */}
-
 
         {/* powerful features */}
 
