@@ -7,7 +7,6 @@
   font-size: 47px;
   line-height: 59px;
   /* identical to box height */
-
   color: #000000;
 }
 
@@ -28,7 +27,7 @@
   font-family: Arial;
   font-style: normal;
   font-weight: 400;
-  font-size: 23px;
+  font-size: 25px;
   line-height: 29px;
   margin-top: 3%;
   color: #000000;
@@ -165,15 +164,12 @@
   }
   .smallheading {
     text-align: start;
-
     font-family: Arial;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 25px;
- 
     margin-top: 3%;
-
     color: #000000;
   }
 }

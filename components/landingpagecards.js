@@ -135,7 +135,7 @@ const Landingpagecards = () => {
                   height={140}
                 />
               </a>
-              <p className={styles.headone}>Chart of Accounts </p>
+              <p className={styles.headone11}>Chart of Accounts </p>
             </div>{" "}
           </div>
         </div>
