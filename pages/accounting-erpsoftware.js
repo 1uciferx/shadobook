@@ -42,6 +42,7 @@ function Landingpage1() {
         />
       </Head>
       <Layout>
+        <div className="container">
         <div>
           <Landingpage />
         </div>
@@ -75,6 +76,7 @@ function Landingpage1() {
 
         <div>
           <Landingpageform />
+        </div>
         </div>
       </Layout>
     </>

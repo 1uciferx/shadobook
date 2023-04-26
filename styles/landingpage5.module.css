@@ -2,6 +2,10 @@
     width: 60%;
     margin-left: 21%;
 }
+.btnparent{
+  margin: auto;
+  text-align: center;
+}
 
 
 
@@ -32,7 +36,6 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   margin-bottom: 10%;
-  margin-left: 40%;
   vertical-align: middle;
   white-space: nowrap;
 }
@@ -86,7 +89,6 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  margin-left: 38%;
   vertical-align: middle;
   white-space: nowrap;
 }
@@ -116,7 +118,6 @@ text-decoration: none;
 user-select: none;
 -webkit-user-select: none;
 touch-action: manipulation;
-margin-left: 38%;
 margin-top: 15%;
 vertical-align: middle;
 white-space: nowrap;
@@ -146,7 +147,6 @@ white-space: nowrap;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  margin-left: 35%;
   vertical-align: middle;
   white-space: nowrap;
 }
@@ -175,7 +175,6 @@ white-space: nowrap;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  margin-left: 27%;
   vertical-align: middle;
   white-space: nowrap;
 }
@@ -204,8 +203,6 @@ white-space: nowrap;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  margin-left: 20%;
-  vertical-align: middle;
   white-space: nowrap;
 }
 }
