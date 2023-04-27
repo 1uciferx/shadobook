@@ -43,40 +43,42 @@ function Landingpage1() {
       </Head>
       <Layout>
         <div className="container">
-        <div>
-          <Landingpage />
-        </div>
+          <div>
+            <Landingpage />
+          </div>
 
-        <div>
-          <Landingpage2 />
-        </div>
+          <div>
+            <Landingpage2 />
+          </div>
 
-        <div>
-          <Newcomponent />
-        </div>
+          <div>
+            <Newcomponent />
+          </div>
 
-        <div style={{ marginTop: "5%" }}>
-          <Landingpagecards />
-        </div>
+          <div style={{ marginTop: "5%" }}>
+            <Landingpagecards />
+          </div>
 
-        <div style={{ marginTop: "5%" }}>
-          <Landingpage5 />
-        </div>
-        <div>
-          <Testimonalcards />
-        </div>
+          <div style={{ marginTop: "5%" }}>
+            <Landingpage5 />
+          </div>
 
-        <div className={styles.normalsx}>
-          <Landingpage7 />
-        </div>
+          <div>
+            <Testimonalcards />
+          </div>
 
-        <div className={styles.midxs}>
-          <Landingpage7mid />
-        </div>
+          <div className={styles.normalsx}>
+            <Landingpage7 />
+          </div>
 
-        <div>
-          <Landingpageform />
-        </div>
+          <div className={styles.midxs}>
+            <Landingpage7mid />
+          </div>
+
+          <div>
+            <Landingpageform />
+          </div>
+          
         </div>
       </Layout>
     </>

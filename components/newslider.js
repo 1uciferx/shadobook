@@ -13,6 +13,7 @@ const Newslider = () => {
     slidesToShow: 7,
     slidesToScroll: 1,
     autoplay: true,
+    arrows: false,
     responsive: [
       {
         breakpoint: 1300,

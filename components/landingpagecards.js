@@ -13,6 +13,8 @@ const Landingpagecards = () => {
     slidesToShow: 6,
     slidesToScroll: 1,
     autoplay: true,
+    dots: false,
+    arrows: false,
     responsive: [
       {
         breakpoint: 1300,
