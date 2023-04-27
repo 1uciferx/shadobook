@@ -98,7 +98,7 @@ function Requestademo() {
 
   return (
     <Layout>
-      <section className="section-box">
+      <section className="section-box mt-100">
         <div className="bg-6-opacity-30 pt-40">
           <div className="container">
             <div className="box-signup">
