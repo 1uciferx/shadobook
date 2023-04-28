@@ -5,7 +5,7 @@ import Header from "./Header";
 import Sidebar from "./Sidebar";
 import styles from "../../styles/layoutstyle.module.css";
 import Mobilefooter from "../mobilefooter";
-import Headertest from "../../pages/headertest";
+import Headertest from "../headertest";
 import ResponsiveContainer from "../../util/responsivecontainer";
 
 const Layout = ({ children, headerStyle }) => {
