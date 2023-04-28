@@ -1,12 +1,11 @@
 import React from 'react'
-import Landingpageform from "../components/landingpageform";
-import Testimonialcards from '../components/testimonialcards';
+import Sidebarmobile from '../components/sidebarmobile';
 
 function testing() {
   return (
    <>
-   {/* <Landingpageform/> */}
-   <Testimonialcards/>
+ 
+   <Sidebarmobile/>
    </>
   )
 }
