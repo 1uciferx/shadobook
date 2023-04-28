@@ -48,13 +48,16 @@ const Header = ({ handleOpen, headerStyle }) => {
     setShodan(data);
   };
 
+
   useEffect(() => {
-    shodanData();
-  }, [getIP]);
+    // if (ip) {
+      shodanData();
+    // }
+  }, [ip]);
 
   console.log("data", ip);
 
-  console.log("country", shodan.country_code);
+  // console.log("country", shodan.country_code);
 
   return (
     <>
@@ -683,9 +686,9 @@ const Header = ({ handleOpen, headerStyle }) => {
                       </svg>
 
                       {shodan.country_code === "IN" ?
-                        <a href="tel:+971528722900"  style={{ diplay: "block",textDecoration:"none",color:"black" }}> +91 999 491 0667</a>
+                        <a href="tel:+971528722900" style={{ diplay: "block", textDecoration: "none", color: "black" }}> +91 999 491 0667</a>
                         :
-                        <a href="tel:+971528722900" style={{ diplay: "block",textDecoration:"none",color:"black"}}> +971 52 872 2900</a>
+                        <a href="tel:+971528722900" style={{ diplay: "block", textDecoration: "none", color: "black" }}> +971 52 872 2900</a>
                       }
 
 

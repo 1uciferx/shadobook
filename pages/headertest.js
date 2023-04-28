@@ -74,12 +74,15 @@ function Headertest() {
   };
 
   useEffect(() => {
-    shodanData();
-  }, [getIP]);
+    // if (ip) {
+      shodanData();
+    // }
+  }, [ip]);
 
-  console.log("data", ip);
 
-  console.log("country", shodan.country_code);
+  // console.log("data", ip);
+
+  // console.log("country", shodan.country_code);
   return (
     <>
       <Head>
