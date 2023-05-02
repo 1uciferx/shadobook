@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import styles from "../../styles/header.module.css";
 import { useRouter } from 'next/router';
+import { useShodanData } from "../../services/shaodanService";
+
 
 
 const Header = ({ handleOpen, headerStyle }) => {
@@ -16,19 +18,9 @@ const Header = ({ handleOpen, headerStyle }) => {
 
   const [scroll, setScroll] = useState(0);
 
-  const [shodan, setShodan] = useState("");
-  const [ip, setIP] = useState("");
+  const { shodanData, isLoading, error } = useShodanData();
 
-  async function getIP() {
-    const { data } = await axios.get(
-      "https://what-is-my-ip.functionapi.workers.dev"
-    );
-    setIP(data);
-  }
 
-  useEffect(() => {
-    getIP();
-  }, []);
 
   useEffect(() => {
     document.addEventListener("scroll", () => {
@@ -39,25 +31,20 @@ const Header = ({ handleOpen, headerStyle }) => {
     });
   });
 
-  const shodanData = async () => {
-    const { data } = await axios.get(
-      `https://api.shodan.io/shodan/host/${(ip && ip) || "103.78.237.6"
-      }?key=MuWfcU97yw8u9XP08ZsROsYTiny7Ibcx`
-    );
+ 
 
-    setShodan(data);
-  };
+  console.log("data", shodanData);
 
 
-  useEffect(() => {
-    // if (ip) {
-      shodanData();
-    // }
-  }, [ip]);
 
-  console.log("data", ip);
+  if (isLoading) {
+    return <div>Loading...</div>;
+  }
 
-  // console.log("country", shodan.country_code);
+  // if (error) {
+  //   return <div>Error: {error.message}</div>;
+  // }
+
 
   return (
     <>
@@ -659,7 +646,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                       className=""
                     >
                       <img
-                        src={`https://cdn.jsdelivr.net/npm/react-flagkit@1.0.2/img/SVG/${shodan.country_code || "IN"
+                        src={`https://cdn.jsdelivr.net/npm/react-flagkit@1.0.2/img/SVG/${shodanData && shodanData.country_code || "IN"
                           }.svg`}
                         style={{
                           marginRight: "15px",
@@ -685,8 +672,8 @@ const Header = ({ handleOpen, headerStyle }) => {
                         />
                       </svg>
 
-                      {shodan.country_code === "IN" ?
-                        <a href="tel:+971528722900" style={{ diplay: "block", textDecoration: "none", color: "black" }}> +91 999 491 0667</a>
+                      {shodanData && shodanData.country_code === "IN" ?
+                        <a href="tel:+04651217062" style={{ diplay: "block", textDecoration: "none", color: "black" }}> +04651 217062</a>
                         :
                         <a href="tel:+971528722900" style={{ diplay: "block", textDecoration: "none", color: "black" }}> +971 52 872 2900</a>
                       }

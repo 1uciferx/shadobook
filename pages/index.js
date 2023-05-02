@@ -23,6 +23,8 @@ import Cards4 from "../components/cards4";
 import Cards4midscreen from "../components/cards4midscreen";
 import Cintoslider from "../components/cintoslider";
 import Testimonialindex from "../components/testimonialindex";
+import Image from 'next/image'
+
 
 function Index2() {
   const [isOpen, setOpen] = useState(false);
@@ -107,25 +109,40 @@ function Index2() {
                 <div className="col-lg-5 d-none d-lg-block">
                   <div className="banner-imgs">
                     <div className="block-1">
-                      <img
+
+                      <Image
                         src="/assets/imgs/page/homepage2/balancenew.png"
                         alt="Shadobooks erp"
+                        width={400}
+                        height={470}
                       />
+
                     </div>
                     <div className={styles.heroside}>
                       <div className="block-2 ">
-                        <img
+
+                        <Image
                           src="/assets/imgs/page/homepage2/paymentnew.png"
                           alt="Shadobooks erp"
+                          width={600}
+                          height={660}
+
                         />
+
                       </div>
                     </div>
-                    <img
-                      className="img-responsive"
-                      alt="Shadobooks erp"
-                      style={{ borderRadius: "20px", marginTop: "40px" }}
-                      src="assets/imgs/page/homepage2/bannernew.png"
-                    />
+
+                    <div style={{ borderRadius: "20px", marginTop: "40px" }}
+                      className="img-responsive">
+                      <Image
+                        src="/assets/imgs/page/homepage2/bannernew.png"
+                        alt="Shadobooks erp"
+                        width={520}
+                        height={620}
+
+                      />
+                    </div>
+
                   </div>
                 </div>
               </div>
@@ -321,9 +338,12 @@ function Index2() {
                   <div className="grid-4-img color-bg-9">
                     <Link href="/blogs/streamline-financial-operations">
                       <a>
-                        <img
+                        <Image
                           src="/assets/imgs/page/blog/finan.jpg"
-                          alt="shadobooks"
+                          alt="Shadobooks"
+                          width={400}
+                          height={270}
+
                         />
                       </a>
                     </Link>
@@ -343,10 +363,15 @@ function Index2() {
                   <div className="grid-4-img color-bg-9">
                     <Link href="/blogs/professional-accounting-software">
                       <a>
-                        <img
+
+                        <Image
                           src="/assets/imgs/page/blog/aa1.jpg"
-                          alt="shadobooks"
+                          alt="Shadobooks"
+                          width={400}
+                          height={270}
+
                         />
+
                       </a>
                     </Link>
                   </div>
@@ -365,10 +390,15 @@ function Index2() {
                   <div className="grid-4-img color-bg-9">
                     <Link href="/blogs/accounting-erp">
                       <a>
-                        <img
+
+                        <Image
                           src="/assets/imgs/page/homepage4/blog3header.jpg"
-                          alt="shadobooks"
+                          alt="Shadobooks"
+                          width={400}
+                          height={270}
+
                         />
+
                       </a>
                     </Link>
                   </div>
