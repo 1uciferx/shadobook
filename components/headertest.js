@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { Button, Drawer, Radio, Space } from "antd";
-// import Sidebarmobile from "./sidebarmobile";
+import { Spin } from 'antd';
 import dynamic from 'next/dynamic'
 
 import { useShodanData } from "../services/shaodanService";
@@ -64,11 +64,6 @@ function Headertest(props) {
   });
 
 
-  if (isLoading) {
-    return <div>Loading...</div>;
-  }
-
-
 
 
   // console.log("data", ip);
@@ -123,48 +118,58 @@ function Headertest(props) {
           </button>
 
 
+          {isLoading ?
+            <>
+
+              <Spin style={{ marginLeft: "85px" }} />
 
 
-          <a
-            href="callto:+971 52 872 2900"
-            style={{
-              fontSize: "15px",
-              margin: "auto",
-              color: "black",
-            }}
+            </> :
+            <>
+              <a
+                href="callto:+971 52 872 2900"
+                style={{
+                  fontSize: "15px",
+                  margin: "auto",
+                  color: "black",
+                }}
 
-          >
-            <img
-              src={`https://cdn.jsdelivr.net/npm/react-flagkit@1.0.2/img/SVG/${shodanData && shodanData.country_code || "IN"
-                }.svg`}
-              style={{
-                marginRight: "15px",
-                width: "25px",
-                objectFit: "cover",
-                marginBottom: "3px",
-              }}
-            ></img>
+              >
+                <img
+                  src={`https://cdn.jsdelivr.net/npm/react-flagkit@1.0.2/img/SVG/${shodanData && shodanData.country_code || "IN"
+                    }.svg`}
+                  style={{
+                    marginRight: "15px",
+                    width: "25px",
+                    objectFit: "cover",
+                    marginBottom: "3px",
+                  }}
+                ></img>
 
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={2}
-              stroke="currentColor"
-              style={{ height: "18px", width: "20px" }}
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
-              />
-            </svg>
-            {shodanData && shodanData.country_code === "IN" ?
-              <a href="tel:+04651217062" style={{ diplay: "block", textDecoration: "none", color: "black" }}> +04651 217062</a>
-              :
-              <a href="tel:+971528722900" style={{ diplay: "block", textDecoration: "none", color: "black" }}> +971 52 872 2900</a>
-            }
-          </a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={2}
+                  stroke="currentColor"
+                  style={{ height: "18px", width: "20px" }}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                  />
+                </svg>
+                {shodanData && shodanData.country_code === "IN" ?
+                  <a href="tel:+04651217062" style={{ diplay: "block", textDecoration: "none", color: "black" }}> +04651 217062</a>
+                  :
+                  <a href="tel:+971528722900" style={{ diplay: "block", textDecoration: "none", color: "black" }}> +971 52 872 2900</a>
+                }
+              </a>
+            </>
+          }
+
+
 
           <Drawer
             title="Shadobooks"
