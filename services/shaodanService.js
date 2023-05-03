@@ -8,7 +8,7 @@ export const useShodanData = () => {
         const { data } = await axios.get(
             "https://what-is-my-ip.functionapi.workers.dev"
         );
-       return data;
+        return data;
     }
 
     const shodanData = async (ip) => {
@@ -21,11 +21,19 @@ export const useShodanData = () => {
 
 
     const { data: ip } = useQuery(
-     ["ip"], () => getIP
+        ["ip"], () => getIP(),
+        {
+            staleTime: Infinity, 
+        }
     );
 
     const { data: shodan, isLoading, error } = useQuery(
-       ["shodanData", ip], ()=> shodanData(ip)
+        ["shodanData", ip], () => shodanData(ip),
+        {
+            enabled: !!ip,
+            staleTime: Infinity,
+            refetchOnWindowFocus: false,
+        }
     );
 
     return {
