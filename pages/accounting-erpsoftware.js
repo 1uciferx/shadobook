@@ -60,19 +60,23 @@ function Landingpage1() {
           <div style={{ marginTop: "5%" }}>
             <Landingpagecards />
           </div>
+     
 
-          <div style={{ marginTop: "5%" }}>
-            <Landingpage5 />
-          </div>
+        <div style={{ marginTop: "5%" }}>
+          <Landingpage5 />
+        </div>
 
+   
           <div>
             <Testimonalcards />
+          </div>
           </div>
 
           <div className={styles.normalsx}>
             <Landingpage7 />
           </div>
 
+          <div className="container">
           <div className={styles.midxs}>
             <Landingpage7mid />
           </div>
@@ -80,7 +84,6 @@ function Landingpage1() {
           <div>
             <Landingpageform />
           </div>
-          
         </div>
       </Layout>
     </>
