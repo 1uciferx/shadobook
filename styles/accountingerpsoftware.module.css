@@ -18,7 +18,38 @@
     text-align: center;
 }
 
+.jkimg{
+    height: 30%;
+    position: relative;
+    text-align:center;
+}
+/* all paragraph styles */
 
+.mmpara{
+    font-size: 20px !important;
+    color: black !important;
+    font-family: Arial;
+    line-height: 150%;
+}
+
+/* all center headings */
+
+.imgg3{
+    font-size: 35px !important;
+    font-family: Arial;
+    font-weight: 600;
+
+}
+
+
+/* all sub headings */
+
+.aphead{
+    font-size: 25px !important;
+    font-family: Arial;
+    font-weight: 600;
+    line-height: 130%;
+}
 
 .parafour{
     color: black;
