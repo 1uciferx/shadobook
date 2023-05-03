@@ -29,7 +29,7 @@ function About1() {
                             <div className="row">
                                 <div className="col-lg-7"><span className="tag-1 color-orange-900">What We Do, What You Get</span>
                                     <h1 className="text-display-3 mt-30">Sales and Marketing work better together</h1>
-                                    <p className="text-body-lead-large color-gray-500 mt-40 pr-40">Shado Book CRM helps your marketing teams efficiently run campaigns and pass on quality leads to Sales. Get the best ROI from every campaign you create using ShadoBooks CRM's marketing automation tools.</p>
+                                    <p className={"text-body-lead-large color-gray-500 mt-40 pr-40"}>Shado Book CRM helps your marketing teams efficiently run campaigns and pass on quality leads to Sales. Get the best ROI from every campaign you create using ShadoBooks CRM's marketing automation tools.</p>
                                     <div className="mt-40">
                                         <Link href="/page-service-1"><a className="btn btn-black shape-square icon-arrow-right-white">Join Our Team
                                         </a></Link>
@@ -87,7 +87,7 @@ function About1() {
                     </div>
                     <br></br><br></br>
 
-                    {/* <div className="container">
+                    <div className="container">
                         <div className="row">
                             <div className="col-lg-1" />
                             <div className="col-lg-10">
@@ -97,7 +97,7 @@ function About1() {
                             </div>
                                 <div className="col-lg-1" />
                             </div>
-                    </div> */}
+                    </div>
                 </section>
 
                 <section className="section-box mt-70">

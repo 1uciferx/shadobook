@@ -23,7 +23,7 @@ function Cards3smallscreen() {
                   subscriptions, and orders.
                 </p>
 
-                <Link href="/page-contact">
+                <Link href="/request-a-demo">
                   <div className={styles.buttonstart}>
                     <button class={styles.button}>
                       <span>Contact Us </span>
