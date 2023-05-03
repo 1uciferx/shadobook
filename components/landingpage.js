@@ -26,18 +26,23 @@ function Landingpage() {
                   in the Middle East, empowering them with up-to-date insights
                   for informed decision-making.
                 </p>
+
+          
                 <div className="mt-40">
+                <div className={styles.btncenter}>
                   <Link href="/request-a-demo">
                     <button class={styles.button18} role="button">
                       Start 90 days Free Trial ➜
                     </button>
                   </Link>
+                 
 
                   <Link href="/request-a-demo">
                     <button class={styles.button19} role="button">
                       Schedule a Demo ➜
                     </button>
                   </Link>
+                  </div>
                 </div>
                 <div className={styles.flwer}>
                   <div className="row">
