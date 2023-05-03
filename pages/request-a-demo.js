@@ -4,6 +4,7 @@ import Layout from "../components/layout/Layout";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import { useRouter } from "next/router";
+import styles from "../styles/request-a-demo.module.css";
 
 import {
   Button,
@@ -182,42 +183,44 @@ function Requestademo() {
             </div>
           </div>
 
-          <div className="images-lists">
-            <div className="row">
-              <div className="col-lg-2 col-md-2 col-sm-6 pl-0">
-                <img
-                  className="img-responsive img-full img-1"
-                  src="assets/imgs/page/signup/img-1.png"
-                  alt="Agon"
-                />
-              </div>
-              <div className="col-lg-2 col-md-2 col-sm-6">
-                <img
-                  className="img-responsive img-full img-2"
-                  src="assets/imgs/page/signup/img-2.png"
-                  alt="Agon"
-                />
-              </div>
-              <div className="col-lg-4 col-md-4 col-sm-12">
-                <img
-                  className="img-responsive img-full img-3"
-                  src="assets/imgs/page/signup/img-3.png"
-                  alt="Agon"
-                />
-              </div>
-              <div className="col-lg-2 col-md-2 col-sm-6">
-                <img
-                  className="img-responsive img-full img-4"
-                  src="assets/imgs/page/signup/img-4.png"
-                  alt="Agon"
-                />
-              </div>
-              <div className="col-lg-2 col-md-2 col-sm-6 pr-0">
-                <img
-                  className="img-responsive img-full img-5"
-                  src="assets/imgs/page/signup/img-5.png"
-                  alt="Agon"
-                />
+          <div className={styles.img}>
+            <div className="images-lists">
+              <div className="row">
+                <div className="col-lg-2 col-md-2 col-sm-6 pl-0">
+                  <img
+                    className="img-responsive img-full img-1"
+                    src="assets/imgs/page/signup/img-1.png"
+                    alt="Agon"
+                  />
+                </div>
+                <div className="col-lg-2 col-md-2 col-sm-6">
+                  <img
+                    className="img-responsive img-full img-2"
+                    src="assets/imgs/page/signup/img-2.png"
+                    alt="Agon"
+                  />
+                </div>
+                <div className="col-lg-4 col-md-4 col-sm-12">
+                  <img
+                    className="img-responsive img-full img-3"
+                    src="assets/imgs/page/signup/img-3.png"
+                    alt="Agon"
+                  />
+                </div>
+                <div className="col-lg-2 col-md-2 col-sm-6">
+                  <img
+                    className="img-responsive img-full img-4"
+                    src="assets/imgs/page/signup/img-4.png"
+                    alt="Agon"
+                  />
+                </div>
+                <div className="col-lg-2 col-md-2 col-sm-6 pr-0">
+                  <img
+                    className="img-responsive img-full img-5"
+                    src="assets/imgs/page/signup/img-5.png"
+                    alt="Agon"
+                  />
+                </div>
               </div>
             </div>
           </div>
