@@ -5,8 +5,12 @@ import Layout from "../components/layout/Layout";
 import styles from "../styles/landingpage.module.css";
 import { useState } from "react";
 import dynamic from "next/dynamic";
+import { useShodanData } from "../services/shaodanService";
 
 function Landingpage() {
+
+  const { shodanData, isLoading, error } = useShodanData();
+
   const [isOpen, setOpen] = useState(false);
   return (
     <>
@@ -74,7 +78,7 @@ function Landingpage() {
                   <div className="block-1 ">
                     <div className={styles.heroimg22}>
                       <div className={styles.heroimg}>
-                        <Link href="tel:+971528722900">
+                        <Link href={shodanData && shodanData.country_code === "IN" ? "tel:+04651217062" : "tel:+971528722900"}>
                           <img
                             src="/assets/imgs/page/homepage2/phone1.png"
                             alt="Shadobooks erp"
