@@ -82,6 +82,7 @@ function Landingpage() {
                           <img
                             src="/assets/imgs/page/homepage2/phone1.png"
                             alt="Shadobooks erp"
+                            style={{cursor:"pointer"}}
                           />
                         </Link>
                       </div>
