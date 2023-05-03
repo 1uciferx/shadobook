@@ -1,0 +1,138 @@
+.paraone{
+    font-size: 21px;
+    font-family: Arial;
+}
+
+.paratwo{
+    color: black;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+
+.parathree{
+    color: black;
+    font-weight: bold;
+    font-size: 47px;
+    text-align: center;
+}
+
+
+
+.parafour{
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 120%;
+    text-align: center;
+    position: relative;
+    top: 2%;
+}
+
+
+@media screen and (max-width:1399px) {
+    
+.imgone{
+    display: none;
+}
+}
+
+
+
+@media screen and (max-width:991px) {
+    .make2center{
+        text-align: center;
+        width: 90%;
+        position: relative;
+        left: 5%;
+    }
+
+    .imgg2{
+        display: none;
+    }
+
+    .paratwo{
+        color: black;
+        font-family: Arial;
+        font-size: 20px;
+        line-height: 130%;
+        text-align: center;
+        width: 90%;
+        position: relative;
+        left:5%;
+    }
+
+    .parathree{
+        color: black;
+        font-weight: bold;
+        font-size: 37px;
+        text-align: center;
+    }
+    
+    
+    
+    .parafour{
+        color: black;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 120%;
+        text-align: center;
+        position: relative;
+        top: 2%;
+    }
+}
+
+@media screen and (max-width:658px) {
+    .imgg3{
+        font-size: 29px !important;
+        line-height: 125%;
+    }
+    .oneone{
+        font-size:29px ;
+    }
+
+    .parathree{
+        color: black;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    
+    
+    .parafour{
+        color: black;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 120%;
+        text-align: center;
+        position: relative;
+        top: 2%;
+    }
+}
+
+
+
+@media screen and (max-width:434px) {
+    .parathree{
+        color: black;
+        font-weight: bold;
+        font-size: 27px;
+        text-align: center;
+    }
+    
+    
+    
+    .parafour{
+        color: black;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 120%;
+        text-align: center;
+        position: relative;
+        top: 2%;
+        left: 2%;
+    }
+    
+}

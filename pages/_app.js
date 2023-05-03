@@ -19,6 +19,7 @@ import { useRouter } from "next/router";
 import * as gtag from "../lib/gtag";
 import { initializeTagManager } from "../lib/gtm";
 
+
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);
 
@@ -56,6 +57,7 @@ function MyApp({ Component, pageProps }) {
     }
     new WOW.WOW().init();
   }, []);
+  
   return (
     <>
       <Head>
