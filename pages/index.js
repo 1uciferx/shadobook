@@ -319,7 +319,7 @@ function Index2() {
                   {/* <span className="tag-dot">Blog 1</span> */}
 
                   <div className="grid-4-img color-bg-9">
-                    <Link href="/blogs/streamline-financial-operations">
+                    <Link href="/blogs/accounting-erp-software">
                       <a>
                         <img
                           src="/assets/imgs/page/blog/finan.jpg"
@@ -328,10 +328,9 @@ function Index2() {
                       </a>
                     </Link>
                   </div>
-                  <Link href="/blogs/streamline-financial-operations">
+                  <Link href="/blogs/accounting-erp-software">
                     <a className="text-heading-4">
-                      Ways Shadobooks ERP can Streamline Your Financial
-                      Operations
+                    Complete Overview on Shadobooks ERP
                     </a>
                   </Link>
                 </div>

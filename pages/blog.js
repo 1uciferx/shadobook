@@ -50,6 +50,26 @@ function Blog() {
               <div className="row">
                 <div className="col-lg-4 col-sm-6 pr-30 mb-50">
                   <div className="card-grid-style-4">
+                    <div className="grid-4-img color-bg-2 mb-20">
+                      <Link href="/blogs/accounting-erp-software">
+                        <a>
+                          <img
+                            src="/assets/imgs/page/blog/2/img-2.png"
+                            alt="Agon"
+                          />
+                        </a>
+                      </Link>
+                    </div>
+                    <Link href="/blogs/accounting-erp-software">
+                      <a className="text-heading-4">
+                        {" "}
+                        Complete Overview on Shadobooks ERP
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-sm-6 pr-30 mb-50">
+                  <div className="card-grid-style-4">
                     <div className="grid-4-img mb-20">
                       <Link href="/blogs/Cloud-based-accounting-software">
                         <a>
@@ -135,28 +155,41 @@ function Blog() {
                   </div>
                 </div>
 
-                <div className="col-lg-4 col-sm-6 pr-30 mb-50">
-                  <div className="card-grid-style-4">
-                    <div className="grid-4-img color-bg-2 mb-20">
+                <div className="col-lg-4 col-sm-12 pr-30 mb-50">
+                  <div className="card-list-style-1">
+                    <Link href="/blogs/accounting-erp">
+                      <a className="text-heading-6">
+                        {" "}
+                        Top 5 Reasons to Choose Shadobooks ERP for Accounting
+                      </a>
+                    </Link>
+
+                    <div className="blog-img-user">
+                      <div className="img-user img-user-round">
+                        <img
+                          src="/assets/imgs/page/homepage1/sb-logo.png"
+                          alt="Agon"
+                        />
+                      </div>
+                      <h4 className="text-body-lead color-gray-500">
+                        ShadoBooks
+                      </h4>
+                      <p className="text-body-small color-gray-500">
+                        April 01, 2022
+                      </p>
+                    </div>
+                    <div className="style-1-img color-bg-5">
                       <Link href="/blogs/accounting-erp">
                         <a>
                           <img
-                            src="/assets/imgs/page/blog/2/img-2.png"
+                            src="/assets/imgs/page/blog/2/bb321.jpg"
                             alt="Agon"
                           />
                         </a>
                       </Link>
                     </div>
-                    <Link href="/blogs/accounting-erp">
-                      <a className="text-heading-4">
-                        {" "}
-                        Top 5 Reasons to Choose Shadobooks ERP for Accounting
-                      </a>
-                    </Link>
                   </div>
-                </div>
 
-                <div className="col-lg-4 col-sm-12 pr-30 mb-50">
                   <div className="card-list-style-1">
                     <Link href="/blogs/professional-accounting-software">
                       <a className="text-heading-6">
@@ -180,7 +213,7 @@ function Blog() {
                       </p>
                     </div>
                     <div className="style-1-img color-bg-5">
-                      <Link href="/blog-single">
+                      <Link href="/blogs/professional-accounting-software">
                         <a>
                           <img
                             src="/assets/imgs/page/blog/2/bb2.jpg"
@@ -190,6 +223,7 @@ function Blog() {
                       </Link>
                     </div>
                   </div>
+
                   <div className="card-list-style-1">
                     <Link href="/blogs/streamline-financial-operations">
                       <a className="text-heading-6">
@@ -213,8 +247,9 @@ function Blog() {
                         April 05, 2022
                       </p>
                     </div>
+
                     <div className="style-1-img color-bg-9">
-                      <Link href="/blog-single">
+                      <Link href="/blogs/streamline-financial-operations">
                         <a>
                           <img
                             src="/assets/imgs/page/blog/2/bb1.jpg"
