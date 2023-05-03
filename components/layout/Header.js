@@ -675,7 +675,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             />
                           </svg>
 
-                          {shodanData && shodanData.country_code === "IN" ?
+                          {shodanData && shodanData.country_code === "IN" || " "?
                             <a href="tel:+04651217062" style={{ diplay: "block", textDecoration: "none", color: "black" }}> +04651 217062</a>
                             :
                             <a href="tel:+971528722900" style={{ diplay: "block", textDecoration: "none", color: "black" }}> +971 52 872 2900</a>
@@ -700,7 +700,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                 </div>
               </div>
             </div>
-            <div className={styles.mobera} style={{ marginRight: "50px" }}>
+            <div className={styles.mobera} style={{ marginRight: "70px" }}>
               <Link href="/request-a-demo">
                 <button className={styles.button86} role="button">Get free  demo</button>
               </Link>
