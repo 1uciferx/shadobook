@@ -632,7 +632,8 @@ const Header = ({ handleOpen, headerStyle }) => {
                     {isLoading ?
                       <>
 
-                        <Spin style={{ marginLeft: "85px" }} />
+                        {/* <Spin style={{ marginLeft: "85px" }} /> */}
+                        <span>Loading...</span>
 
 
                       </> :

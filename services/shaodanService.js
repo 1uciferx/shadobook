@@ -38,7 +38,7 @@ export const useShodanData = () => {
         keepPreviousData: false,
     });
 
-    const { data: shodan, error, isFetching } = useQuery(
+    const { data: shodan,  error, isFetching } = useQuery(
         ["shodanData", ip],
         () => shodanData(ip),
         {
