@@ -1,40 +1,55 @@
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 
+const IP_STORAGE_KEY = "ip";
+
+
 export const useShodanData = () => {
 
 
-    async function getIP() {
-        const { data } = await axios.get(
-            "https://what-is-my-ip.functionapi.workers.dev"
-        );
-        return data;
-    }
+    const getIP = async () => {
+        let ip = localStorage.getItem(IP_STORAGE_KEY);
+        if (!ip) {
+            const { data } = await axios.get(
+                "https://what-is-my-ip.functionapi.workers.dev"
+            );
+            ip = data;
+            localStorage.setItem(IP_STORAGE_KEY, ip);
+        }
+        return ip;
+    };
 
     const shodanData = async (ip) => {
-        const { data } = await axios.get(
-            `https://api.shodan.io/shodan/host/${(ip && ip) || "103.78.237.6"}?key=MuWfcU97yw8u9XP08ZsROsYTiny7Ibcx`
-        );
+
+        const { data } = await axios.get(`https://api.shodan.io/shodan/host/${(ip && ip) || "103.78.237.6"}?key=MuWfcU97yw8u9XP08ZsROsYTiny7Ibcx`);
+
         return data;
-    }
+    };
+
+    setTimeout(() => {
+        localStorage.removeItem(IP_STORAGE_KEY);
+    }, 30 * 60 * 1000);
 
 
+    const { data: ip, isLoading } = useQuery(["ip"], () => getIP(), {
+        staleTime: Infinity,
+        refetchOnWindowFocus: false,
+        refetchOnMount: false,
+        keepPreviousData: false,
+    });
 
-    const { data: ip } = useQuery(
-        ["ip"], () => getIP(),
-        {
-            staleTime: Infinity, 
-        }
-    );
-
-    const { data: shodan, isLoading, error } = useQuery(
-        ["shodanData", ip], () => shodanData(ip),
+    const { data: shodan, error, isFetching } = useQuery(
+        ["shodanData", ip],
+        () => shodanData(ip),
         {
             enabled: !!ip,
             staleTime: Infinity,
             refetchOnWindowFocus: false,
+            refetchOnMount: false,
+            keepPreviousData: false,
         }
     );
+
 
     return {
         shodanData: shodan,
@@ -42,3 +57,4 @@ export const useShodanData = () => {
         error,
     };
 };
+
