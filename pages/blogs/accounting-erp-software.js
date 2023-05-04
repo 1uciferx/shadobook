@@ -66,7 +66,7 @@ function Accountingerpsoftware() {
                   <div className="mt-40">
                     <Link href="/request-a-demo">
                       <a className="btn btn-black shape-square icon-arrow-right-white">
-                        Contact Us
+                       Request Free Demo
                       </a>
                     </Link>
                   </div>
@@ -185,6 +185,13 @@ function Accountingerpsoftware() {
               </div>
             </div>
           </div>
+          <div className={styles.jkimg}>
+                <img
+                  className="img-responsive bdr-10 mt-10 mb-50"
+                  src="/assets/imgs/page/homepage4/qwq.png"
+                  alt="shadobooks"
+                />
+              </div>
           <br></br>
           <br></br>
         </section>
@@ -303,13 +310,7 @@ function Accountingerpsoftware() {
                   solution for businesses seeking a reliable ERP software.
                 </p>
               </div>
-              <div className={styles.jkimg}>
-                <img
-                  className="img-responsive bdr-10 mt-10 mb-50"
-                  src="/assets/imgs/page/homepage4/qwq.png"
-                  alt="shadobooks"
-                />
-              </div>
+             
             </div>
           </div>
           <br></br>
@@ -620,7 +621,7 @@ function Accountingerpsoftware() {
             <div className="single-detail mt-0">
               <p />
               <div className={styles.paratwo}>
-                <h1 className="text-heading-3">Purchase</h1>
+                <h1 className={styles.aphead}>Purchase</h1>
 
                 <p className={styles.mmpara}>
                   The well elaborated purchase modules of Shadobooks ERP
@@ -669,7 +670,7 @@ function Accountingerpsoftware() {
             <div className="single-detail mt-0">
               <p />
               <div className={styles.paratwo}>
-                <h1 className="text-heading-3">Customers</h1>
+                <h1 className={styles.aphead}>Customers</h1>
 
                 <p className={styles.mmpara}>
                   Create multiple contacts for our customers and set proper
@@ -739,7 +740,7 @@ function Accountingerpsoftware() {
             <div className="single-detail mt-0">
               <p />
               <div className={styles.paratwo}>
-                <h1 className="text-heading-3">Company assets</h1>
+                <h1 className={styles.aphead}>Company Assets</h1>
 
                 <p className={styles.mmpara}>
                   Maintain and manage details of assets, Check-ins and
@@ -787,7 +788,7 @@ function Accountingerpsoftware() {
             <div className="single-detail mt-0">
               <p />
               <div className={styles.paratwo}>
-                <h1 className="text-heading-3">HR Records</h1>
+                <h1 className={styles.aphead}>HR Records</h1>
 
                 <p className={styles.mmpara}>
                   Manage your employees successfully by centralizing all HR
@@ -860,7 +861,7 @@ function Accountingerpsoftware() {
             <div className="single-detail mt-0">
               <p />
               <div className={styles.paratwo}>
-                <h1 className="text-heading-3">File Manager</h1>
+                <h1 className={styles.aphead}>File Manager</h1>
 
                 <p className={styles.mmpara}>
                   Provides an efficient and effective way to manage files and
@@ -1007,7 +1008,7 @@ function Accountingerpsoftware() {
                   other HR-related processes.
                 </p>
                 <p />
-                <h3 className={styles.aphead}>All sales Channels</h3>
+                <h3 className={styles.aphead}>All Sales Channels</h3>
 
                 <p className={styles.mmpara}>
                   Bring together all of your sales outlets, such as online
@@ -1039,7 +1040,14 @@ function Accountingerpsoftware() {
                 </p>
               </div>
             </div>
+            <div className={styles.clasd}>
+              <Link href="/request-a-demo">
+            <button className={styles.button23}  >Free 90days Trial</button>
+            </Link>
+            </div>
           </div>
+
+
           <br></br>
           <br></br>
         </section>
