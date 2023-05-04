@@ -66,7 +66,7 @@ function Accountingerpsoftware() {
                   <div className="mt-40">
                     <Link href="/request-a-demo">
                       <a className="btn btn-black shape-square icon-arrow-right-white">
-                       Request Free Demo
+                      Try 90 Days Free Demo
                       </a>
                     </Link>
                   </div>
@@ -188,7 +188,7 @@ function Accountingerpsoftware() {
           <div className={styles.jkimg}>
                 <img
                   className="img-responsive bdr-10 mt-10 mb-50"
-                  src="/assets/imgs/page/homepage4/qwq.png"
+                  src="/assets/imgs/page/homepage4/gh2.png"
                   alt="shadobooks"
                 />
               </div>
@@ -203,7 +203,7 @@ function Accountingerpsoftware() {
               <div className="single-detail mt-0">
                 <p />
 
-                <h1 className={styles.aphead}>IT Support Industry</h1>
+                <h1 className={styles.aphead}>1) IT & Support Industry</h1>
 
                 <p className={styles.mmpara}>
                   Our ERP software provides a range of tools to automate their
@@ -222,7 +222,7 @@ function Accountingerpsoftware() {
 
                 <div className="row">
                   <div className="col-lg-6 mt-50">
-                    <h3 className={styles.aphead}>Manufacturing Industry</h3>
+                    <h3 className={styles.aphead}>2) Manufacturing Industry</h3>
                     <p className={styles.mmpara}>
                       Helps businesses streamline their production processes,
                       track raw materials, and manage the entire supply chain.
@@ -242,7 +242,7 @@ function Accountingerpsoftware() {
                   </div>
                 </div>
                 <p />
-                <h3 className={styles.aphead}>Retail Industry</h3>
+                <h3 className={styles.aphead}>3) Retail Industry</h3>
 
                 <p className={styles.mmpara}>
                   Shadobooks ERP helps the retail industry by improving various
@@ -255,7 +255,7 @@ function Accountingerpsoftware() {
                   decisions.
                 </p>
                 <p />
-                <h3 className={styles.aphead}>Wholesale Industry</h3>
+                <h3 className={styles.aphead}>4) Wholesale Industry</h3>
 
                 <p className={styles.mmpara}>
                   Our ERP supports multi-currency transactions, enabling
@@ -266,7 +266,7 @@ function Accountingerpsoftware() {
                   roles, and responsibilities within the organization.
                 </p>
                 <p />
-                <h3 className={styles.aphead}>Construction Industry</h3>
+                <h3 className={styles.aphead}>5) Construction Industry</h3>
 
                 <p className={styles.mmpara}>
                   Our ERP supports multi-currency transactions, enabling
@@ -277,7 +277,7 @@ function Accountingerpsoftware() {
                   roles, and responsibilities within the organization.
                 </p>
                 <p />
-                <h3 className={styles.aphead}>Service Providers</h3>
+                <h3 className={styles.aphead}>6) Service Providers</h3>
 
                 <p className={styles.mmpara}>
                   Our ERP supports multi-currency transactions, enabling
@@ -402,37 +402,37 @@ function Accountingerpsoftware() {
                 </p>
 
                 <p />
-                <h3 className={styles.imgg3}>Values We Bring to Our Users</h3>
+                <h3 className={styles.imgg33}>Values We Bring to Our Users</h3>
 
                 <p className={styles.mmpara}>
                   The following are some values that accounting ERP software
                   offers its users:
                 </p>
 
-                <h4 className={styles.aphead}>Efficiency</h4>
+                <h4 className={styles.aphead}>1) Efficiency</h4>
                 <p className={styles.mmpara}>
                   Businesses may work more productively and efficiently by
                   streamlining their operations and automating repetitive
                   procedures with our software.
                 </p>
-                <h4 className={styles.aphead}>Customization</h4>
+                <h4 className={styles.aphead}>2) Customization</h4>
                 <p className={styles.mmpara}>
                   To ensure that each organisation gets the most out of the
                   software, we offer customized solutions that can be modified
                   to match their unique demands.
                 </p>
-                <h4 className={styles.aphead}>Insight</h4>
+                <h4 className={styles.aphead}>3) Insight</h4>
                 <p className={styles.mmpara}>
                   The rich reporting and dashboard tools offered by us give
                   firms information about their performance and enable them to
                   make data-driven decisions.
                 </p>
-                <h4 className={styles.aphead}>User-Friendly</h4>
+                <h4 className={styles.aphead}>4) User-Friendly</h4>
                 <p className={styles.mmpara}>
                   Users of all technological backgrounds can utilise Shadobooks
                   ERP since it is simple to use and navigate.
                 </p>
-                <h4 className={styles.aphead}>Support</h4>
+                <h4 className={styles.aphead}>5) Support</h4>
                 <p className={styles.mmpara}>
                   Provides timely support to businesses, ensuring they get the
                   assistance they need, when they need it. A dedicated support
@@ -489,7 +489,7 @@ function Accountingerpsoftware() {
           </div>
         </section>
 
-        <section className="section-box mt-70">
+        <section className="section-box mt-0">
           <div className="container">
             <div className="row">
               <div className="col-lg-1 col-sm-1 col-12" />
@@ -601,7 +601,7 @@ function Accountingerpsoftware() {
           </div>{" "}
         </div>
 
-        <section className="section-box mt-20">
+        <section className="section-box mt-50">
           <div className="container">
             <div className="row">
               <div className="col-lg-1 col-sm-1 col-12" />
@@ -650,7 +650,7 @@ function Accountingerpsoftware() {
           </div>{" "}
         </div>
 
-        <section className="section-box mt-20">
+        <section className="section-box mt-50">
           <div className="container">
             <div className="row">
               <div className="col-lg-1 col-sm-1 col-12" />
@@ -720,7 +720,7 @@ function Accountingerpsoftware() {
           </div>{" "}
         </div>
 
-        <section className="section-box mt-10">
+        <section className="section-box mt-50">
           <div className="container">
             <div className="row">
               <div className="col-lg-1 col-sm-1 col-12" />
@@ -768,7 +768,7 @@ function Accountingerpsoftware() {
           </div>{" "}
         </div>
 
-        <section className="section-box mt-10">
+        <section className="section-box mt-50">
           <div className="container">
             <div className="row">
               <div className="col-lg-1 col-sm-1 col-12" />
@@ -841,7 +841,7 @@ function Accountingerpsoftware() {
           </div>{" "}
         </div>
 
-        <section className="section-box mt-10">
+        <section className="section-box mt-50">
           <div className="container">
             <div className="row">
               <div className="col-lg-1 col-sm-1 col-12" />
@@ -950,7 +950,7 @@ function Accountingerpsoftware() {
           </div>{" "}
         </div>
 
-        <section className="section-box mt-10">
+        <section className="section-box mt-50">
           <div className="container">
             <div className="row">
               <div className="col-lg-1 col-sm-1 col-12" />
@@ -1020,7 +1020,7 @@ function Accountingerpsoftware() {
           </div>
         </div>
 
-        <section className="section-box mt-0">
+        <section className="section-box mt-50">
           <div className="container">
             <div className="row">
               <div className="col-lg-1 col-sm-1 col-12" />
@@ -1040,9 +1040,10 @@ function Accountingerpsoftware() {
                 </p>
               </div>
             </div>
+
             <div className={styles.clasd}>
               <Link href="/request-a-demo">
-            <button className={styles.button23}  >Free 90days Trial</button>
+            <button className={styles.button23}  >Free 90 days Trial</button>
             </Link>
             </div>
           </div>
