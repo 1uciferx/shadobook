@@ -83,7 +83,7 @@ function Landingpage() {
                   <div className="block-1 ">
                     <div className={styles.heroimg22}>
                       <div className={styles.heroimg}>
-                        <Link href={shodanData && shodanData.country_code === "IN" ? "tel:+04651217062" : "tel:+971528722900"}>
+                        <Link href={shodanData && shodanData.country_code === "IN" ? "tel:04651217062" : "tel:971528722900"}>
                           <img
                             src="/assets/imgs/page/homepage2/phone1.png"
                             alt="Shadobooks erp"
