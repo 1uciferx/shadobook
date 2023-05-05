@@ -175,7 +175,7 @@ function Blog() {
                         ShadoBooks
                       </h4>
                       <p className="text-body-small color-gray-500">
-                        April 01, 2022
+                        April 01, 2023
                       </p>
                     </div>
                     <div className="style-1-img color-bg-5">
@@ -209,7 +209,7 @@ function Blog() {
                         ShadoBooks
                       </h4>
                       <p className="text-body-small color-gray-500">
-                        April 03, 2022
+                        April 03, 2023
                       </p>
                     </div>
                     <div className="style-1-img color-bg-5">
@@ -244,12 +244,48 @@ function Blog() {
                         ShadoBooks
                       </h4>
                       <p className="text-body-small color-gray-500">
-                        April 05, 2022
+                        April 05, 2023
                       </p>
                     </div>
 
                     <div className="style-1-img color-bg-9">
                       <Link href="/blogs/streamline-financial-operations">
+                        <a>
+                          <img
+                            src="/assets/imgs/page/blog/2/bb1.jpg"
+                            alt="Agon"
+                          />
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+
+
+                  <div className="card-list-style-1">
+                    <Link href="/blogs/erp-in-business">
+                      <a className="text-heading-6">
+                        {" "}
+                        The Role of ERP in Business Productivity and Profitability
+                      </a>
+                    </Link>
+
+                    <div className="blog-img-user">
+                      <div className="img-user img-user-round">
+                        <img
+                          src="/assets/imgs/page/homepage1/sb-logo.png"
+                          alt="Agon"
+                        />
+                      </div>
+                      <h4 className="text-body-lead color-gray-500">
+                        ShadoBooks
+                      </h4>
+                      <p className="text-body-small color-gray-500">
+                        May 1, 2023
+                      </p>
+                    </div>
+
+                    <div className="style-1-img color-bg-9">
+                      <Link href="/blogs/erp-in-business">
                         <a>
                           <img
                             src="/assets/imgs/page/blog/2/bb1.jpg"
