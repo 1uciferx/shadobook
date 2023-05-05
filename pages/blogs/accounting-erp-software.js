@@ -119,6 +119,7 @@ function Accountingerpsoftware() {
                         </div>
                     </div>
                 </div> */}
+                
         <section className="section-box mt-70">
           <div className="container">
             <div className="row">
@@ -157,7 +158,7 @@ function Accountingerpsoftware() {
                   ></a>
                   <img
                     className="img-responsive bdrd-16"
-                    src="/assets/imgs/page/about/1/img-1.png"
+                    src="/assets/imgs/page/homepage4/pp212.jpg"
                     alt="ShadoBooks"
                   />
                 </div>
@@ -517,10 +518,10 @@ function Accountingerpsoftware() {
           channel="youtube"
           autoplay
           isOpen={isOpen}
-          videoId="V3UPK06Vw5I"
+          videoId="TKt7MI1HL2k"
           onClose={() => setOpen(false)}
         />
-
+        
         <section className="section-box mt-0">
           <div className="container">
             <div className="row">

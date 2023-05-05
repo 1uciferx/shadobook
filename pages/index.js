@@ -350,7 +350,7 @@ function Index2() {
                   </div>
                   <Link href="/blogs/accounting-erp-software">
                     <a className="text-heading-4">
-                    Complete Overview on Shadobooks ERP
+                    A Complete Overview on Shadobooks ERP
                     </a>
                   </Link>
                 </div>
