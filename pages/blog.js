@@ -218,6 +218,44 @@ function Blog() {
                 </div>
 
                 <div className="col-lg-4 col-sm-12 pr-30 mb-50">
+
+
+                <div className="card-list-style-1">
+                    <Link href="/blog/automated-financial-processes">
+                      <a className="text-heading-6">
+                      Increasing Efficiency for Automated Financial Processes with Shadobooks ERP
+                      </a>
+                    </Link>
+
+                    <div className="blog-img-user">
+                      <div className="img-user img-user-round">
+                        <img
+                          src="/assets/imgs/page/homepage1/sb-logo.png"
+                          alt="Agon"
+                        />
+                      </div>
+                      <h4 className="text-body-lead color-gray-500">
+                        ShadoBooks
+                      </h4>
+                      <p className="text-body-small color-gray-500">
+                        May 10, 2023
+                      </p>
+                    </div>
+
+                    <div className="style-1-img color-bg-9">
+                      <Link href="/blog/automated-financial-processes">
+                        <a>
+                          <img
+                            src="/assets/imgs/page/blog/2/uu4.jpg"
+                            alt="Agon"
+                          />
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+
+
+
                   <div className="card-list-style-1">
                     <Link href="/blog/data-privacy-in-accounting-software">
                       <a className="text-heading-6">
