@@ -1,0 +1,13 @@
+.head1{
+    font-family: 'Leelawadee UI';
+font-style: normal;
+font-weight: 700;
+font-size: 43px;
+line-height: 56px;
+/* identical to box height, or 130% */
+
+text-align: center;
+color: #000000;
+margin-top: 5%;
+margin-bottom: 5%;
+}

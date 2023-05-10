@@ -9,7 +9,7 @@ import dynamic from "next/dynamic";
 function Landingpage() {
   const [isOpen, setOpen] = useState(false);
   return (
-    <>
+    <>   
       <div className="section-box" style={{marginTop:"80px"}}>
         <div className="banner-hero banner-homepage6">
           <div className="container">
@@ -72,7 +72,7 @@ function Landingpage() {
               <div className="col-lg-5 d-lg-block">
                 <div className={styles.mainmedia}>
                   <div className="block-1 ">
-                    <div className={styles.heroimg22}>
+                    <div className={styles.heroimg22}> 
                       <div className={styles.heroimg}>
                         <Link href="tel:+971528722900">
                           <img

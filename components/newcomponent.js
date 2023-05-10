@@ -7,7 +7,7 @@ function Newcomponent() {
       <div className={styles.flexcontainer}>
         <div>
           <h3 className={styles.subhead5}>IT Support Industry</h3>
-          <br />
+          <br/>
           <div className={styles.makemecenter}>
             <p className={styles.subhead4}>
               We offer a variety of products for companies in the IT support

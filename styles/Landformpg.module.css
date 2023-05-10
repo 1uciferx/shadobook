@@ -1,0 +1,29 @@
+.head1{
+    display: flex;
+    
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 43px;
+line-height: 56px;
+text-align: center;
+padding-left: 114px;
+margin-top: 10%;
+color: #000000;
+}
+.parahead{
+    
+font-family:  Arial;
+font-style: normal;
+font-weight: 400;
+font-size: 29px;
+line-height: 44px;
+color: #000000;
+
+}
+
+.profile{
+    margin: auto;
+  max-width:80%;
+  margin-top: 10%;
+}

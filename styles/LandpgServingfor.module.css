@@ -1,0 +1,23 @@
+
+.head1{
+    margin: auto;
+    text-align: center;
+    font-style: normal;
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 59px;
+  font-family: Libre Baskerville;
+  margin-top: 1%;
+  } 
+  .para1{
+    text-align: start;
+    font-family:Arial ;
+    font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 29px;
+  width: 70%;
+  margin-left: 15%;
+  margin-top:2%;
+  
+  }

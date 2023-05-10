@@ -374,37 +374,30 @@ const Indexslider = () => {
 
   return (
     <>
-      <div className="mt-20  ">
-        <div className="box-swiper">
-          <div class="swiper-container swiper-group-4  ">
-            <Swiper
-              slidesPerView={6}
-              spaceBetween={40}
-              loop={true}
-              autoplay={{
-                delay: 3500,
-                disableOnInteraction: false,
-              }}
-              
-              navigation={{
-                prevEl: ".swiper-button-prev-4",
-                nextEl: ".swiper-button-next-4",
-              }}
-              className="swiper-wrapper pb-70 pt-5 "
-              style={{ height: "254px" }}
-            >
-              {data.map((item, i) => (
-                <SwiperSlide style={{ minHeight: "20%" }}>
-                  <div className="swiper-slide active shadow p-0 mb-0 bg-white rounded">
-                    <Card hoverable style={{ width: "200px", height: "254px" }}>
-                      <a href={item.link}>
-                        <Image
-                          src={`/assets/imgs/page/homepage1/${item.avatar}`}
-                          alt="shadobooks"
-                          width={200}
-                          height={190}
-                          padding={17}
-                        />
+    <div className="mt-20 ">
+      <div className="box-swiper">
+        <div className="swiper-container swiper-group-4">
+          <Swiper
+            slidesPerView={7}
+            spaceBetween={10}
+            loop={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+          
+            
+            className="swiper-wrapper pb-70 pt-5"
+          >
+            {data.map((item, i) => (
+              <SwiperSlide>
+                <div className="swiper-slide active">
+                  <Card hoverable style={{ width: 200 }}>
+                    <a href={item.link}>
+                      <img
+                        src={`assets/imgs/page/homepage1/${item.avatar}`}
+                        alt="shadobooks"
+                      />
 
                         <h5
                           style={{
