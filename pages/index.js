@@ -336,7 +336,7 @@ function Index2() {
                   {/* <span className="tag-dot">Blog 1</span> */}
 
                   <div className="grid-4-img color-bg-9">
-                    <Link href="/blogs/accounting-erp-software">
+                    <Link href="/blog/accounting-erp-software">
                       <a>
                         <Image
                           src="/assets/imgs/page/blog/finan.jpg"
@@ -348,7 +348,7 @@ function Index2() {
                       </a>
                     </Link>
                   </div>
-                  <Link href="/blogs/accounting-erp-software">
+                  <Link href="/blog/accounting-erp-software">
                     <a className="text-heading-4">
                     A Complete Overview on Shadobooks ERP
                     </a>
@@ -360,7 +360,7 @@ function Index2() {
                   {/* <span className="tag-dot">Blog 2</span> */}
 
                   <div className="grid-4-img color-bg-9">
-                    <Link href="/blogs/professional-accounting-software">
+                    <Link href="/blog/professional-accounting-software">
                       <a>
 
                         <Image
@@ -374,7 +374,7 @@ function Index2() {
                       </a>
                     </Link>
                   </div>
-                  <Link href="/blogs/professional-accounting-software">
+                  <Link href="/blog/professional-accounting-software">
                     <a className="text-heading-4">
                       Best Professional Accounting Software for your business
                     </a>
@@ -387,7 +387,7 @@ function Index2() {
                   {/* <span className="tag-dot">Blog 3</span> */}
 
                   <div className="grid-4-img color-bg-9">
-                    <Link href="/blogs/accounting-erp">
+                    <Link href="/blog/accounting-erp">
                       <a>
 
                         <Image
@@ -401,7 +401,7 @@ function Index2() {
                       </a>
                     </Link>
                   </div>
-                  <Link href="/blogs/accounting-erp">
+                  <Link href="/blog/accounting-erp">
                     <a className="text-heading-4">
                       Shadobooks ERP: The Best Accounting Software
                     </a>

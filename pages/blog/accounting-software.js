@@ -378,7 +378,7 @@ function Accountingsoftware() {
         </div>
 
         <div
-          className="col-lg-4 col-sm-12 pr-30 mb-50"
+          className="col-lg-4 col-sm-6 pr-30 mb-50"
           style={{ marginLeft: "9%" }}
         >
           <div className="card-list-style-1">

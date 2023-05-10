@@ -219,11 +219,10 @@ function Blog() {
 
                 <div className="col-lg-4 col-sm-12 pr-30 mb-50">
                   <div className="card-list-style-1">
-                    <Link href="/blog/streamline-financial-operations">
+                    <Link href="/blog/data-privacy-in-accounting-software">
                       <a className="text-heading-6">
-                        {" "}
-                        5+ Ways Shadobooks ERP can Streamline Your Financial
-                        Operations
+                        The Function of Accounting Software in Protecting Data
+                        Security and Privacy
                       </a>
                     </Link>
 
@@ -238,12 +237,12 @@ function Blog() {
                         ShadoBooks
                       </h4>
                       <p className="text-body-small color-gray-500">
-                        April 05, 2023
+                        May 5, 2023
                       </p>
                     </div>
 
                     <div className="style-1-img color-bg-9">
-                      <Link href="/blog/streamline-financial-operations">
+                      <Link href="/blog/data-privacy-in-accounting-software">
                         <a>
                           <img
                             src="/assets/imgs/page/blog/2/bb1.jpg"
@@ -282,7 +281,43 @@ function Blog() {
                       <Link href="/blog/erp-in-business">
                         <a>
                           <img
-                            src="/assets/imgs/page/blog/2/bb1.jpg"
+                            src="/assets/imgs/page/blog/2/mm1.jpg"
+                            alt="Agon"
+                          />
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+
+                  <div className="card-list-style-1">
+                    <Link href="/blog/streamline-financial-operations">
+                      <a className="text-heading-6">
+                        {" "}
+                        5+ Ways Shadobooks ERP can Streamline Your Financial
+                        Operations
+                      </a>
+                    </Link>
+
+                    <div className="blog-img-user">
+                      <div className="img-user img-user-round">
+                        <img
+                          src="/assets/imgs/page/homepage1/sb-logo.png"
+                          alt="Agon"
+                        />
+                      </div>
+                      <h4 className="text-body-lead color-gray-500">
+                        ShadoBooks
+                      </h4>
+                      <p className="text-body-small color-gray-500">
+                        April 05, 2023
+                      </p>
+                    </div>
+
+                    <div className="style-1-img color-bg-9">
+                      <Link href="/blog/streamline-financial-operations">
+                        <a>
+                          <img
+                            src="/assets/imgs/page/blog/2/mm2.jpg"
                             alt="Agon"
                           />
                         </a>
