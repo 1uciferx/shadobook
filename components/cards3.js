@@ -20,7 +20,7 @@ function Cards3() {
                 notes, reminders, <br></br>subscriptions, and orders.
               </p>
 
-              <Link href="/page-contact">
+              <Link href="/request-a-demo">
                 <div className={styles.buttonstart}>
                   <button class={styles.button}>
                     <span>Contact Us </span>

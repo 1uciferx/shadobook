@@ -1,0 +1,256 @@
+.paraone{
+    font-size: 21px;
+    font-family: Arial;
+}
+
+
+.clasd{
+    position: relative;
+    text-align: center;
+}
+
+
+.button23 {
+  appearance: none;
+  background-color: #90331c;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 14px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button23:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button23:hover {
+  background-color: #6b2513;
+}
+
+.button23:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button23:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button23:active {
+  background-color: #90331c;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.paratwo{
+    color: black;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+
+.parathree{
+    color: black;
+    font-weight: bold;
+    font-size: 47px;
+    text-align: center;
+}
+
+.jkimg{
+    height: 30%;
+    position: relative;
+    text-align:center;
+}
+/* all paragraph styles */
+
+.mmpara{
+    font-size: 20px !important;
+    color: black !important;
+    font-family: Arial;
+    line-height: 150%;
+}
+
+/* all center headings */
+
+.imgg3{
+    font-size: 35px !important;
+    font-family: Arial;
+    font-weight: 600;
+
+}
+.imgg33{
+    font-size: 35px !important;
+    font-family: Arial;
+    font-weight: 600;
+    margin-top: 7% !important;
+
+}
+
+
+/* all sub headings */
+
+.aphead{
+    font-size: 25px !important;
+    font-family: Arial;
+    font-weight: 600;
+    line-height: 130%;
+    margin-top: 5% !important;
+}
+
+/* .aphead1{
+    font-size: 25px !important;
+    font-family: Arial;
+    font-weight: 600;
+    line-height: 130%;
+    position: relative;
+    margin-top: -7% !important;
+}
+.aphead2{
+    font-size: 25px !important;
+    font-family: Arial;
+    font-weight: 600;
+    line-height: 130%;
+    position: relative;
+    margin-top: -9% !important;
+} */
+
+.parafour{
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 120%;
+    text-align: center;
+    position: relative;
+    top: 2%;
+}
+
+
+@media screen and (max-width:1399px) {
+    
+.imgone{
+    display: none;
+}
+}
+
+
+
+@media screen and (max-width:991px) {
+    .make2center{
+        text-align: center;
+        width: 90%;
+        position: relative;
+        left: 5%;
+    }
+
+    .imgg2{
+        display: none;
+    }
+
+    .paratwo{
+        color: black;
+        font-family: Arial;
+        font-size: 20px;
+        line-height: 130%;
+        text-align: center;
+        width: 90%;
+        position: relative;
+        left:5%;
+    }
+
+    .parathree{
+        color: black;
+        font-weight: bold;
+        font-size: 37px;
+        text-align: center;
+    }
+    
+    
+    
+    .parafour{
+        color: black;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 120%;
+        text-align: center;
+        position: relative;
+        top: 2%;
+    }
+}
+
+@media screen and (max-width:658px) {
+    .imgg3{
+        font-size: 29px !important;
+        line-height: 125%;
+    }
+    .imgg33{
+        font-size: 29px !important;
+        line-height: 125%;
+    }
+    .oneone{
+        font-size:29px ;
+    }
+
+    .parathree{
+        color: black;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    
+    
+    .parafour{
+        color: black;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 120%;
+        text-align: center;
+        position: relative;
+        top: 2%;
+    }
+}
+
+
+
+@media screen and (max-width:434px) {
+    .parathree{
+        color: black;
+        font-weight: bold;
+        font-size: 27px;
+        text-align: center;
+    }
+    
+    
+    
+    .parafour{
+        color: black;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 120%;
+        text-align: center;
+        position: relative;
+        top: 2%;
+        left: 2%;
+    }
+    
+}

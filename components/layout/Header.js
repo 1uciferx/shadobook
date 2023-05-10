@@ -4,6 +4,9 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import styles from "../../styles/header.module.css";
 import { useRouter } from 'next/router';
+import { useShodanData } from "../../services/shaodanService";
+import { Spin } from 'antd';
+
 
 
 const Header = ({ handleOpen, headerStyle }) => {
@@ -16,19 +19,9 @@ const Header = ({ handleOpen, headerStyle }) => {
 
   const [scroll, setScroll] = useState(0);
 
-  const [shodan, setShodan] = useState("");
-  const [ip, setIP] = useState("");
+  const { shodanData, isLoading, error } = useShodanData();
 
-  async function getIP() {
-    const { data } = await axios.get(
-      "https://what-is-my-ip.functionapi.workers.dev"
-    );
-    setIP(data);
-  }
 
-  useEffect(() => {
-    getIP();
-  }, []);
 
   useEffect(() => {
     document.addEventListener("scroll", () => {
@@ -39,25 +32,11 @@ const Header = ({ handleOpen, headerStyle }) => {
     });
   });
 
-  const shodanData = async () => {
-    const { data } = await axios.get(
-      `https://api.shodan.io/shodan/host/${(ip && ip) || "103.78.237.6"
-      }?key=MuWfcU97yw8u9XP08ZsROsYTiny7Ibcx`
-    );
-
-    setShodan(data);
-  };
 
 
-  useEffect(() => {
-    // if (ip) {
-      shodanData();
-    // }
-  }, [ip]);
+  console.log("data", shodanData);
 
-  console.log("data", ip);
 
-  // console.log("country", shodan.country_code);
 
   return (
     <>
@@ -648,51 +627,64 @@ const Header = ({ handleOpen, headerStyle }) => {
                       </Link>
                     </li>
 
-                    <a
-                      href="#"
-                      style={{
-                        fontSize: "18px",
-                        marginLeft: "30px",
-
-                        color: "black",
-                      }}
-                      className=""
-                    >
-                      <img
-                        src={`https://cdn.jsdelivr.net/npm/react-flagkit@1.0.2/img/SVG/${shodan.country_code || "IN"
-                          }.svg`}
-                        style={{
-                          marginRight: "15px",
-                          width: "30px",
-                          objectFit: "cover",
-                          marginBottom: "3px",
-                        }}
-                      ></img>
-                      {/* 📞 */}
-
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={2}
-                        stroke="currentColor"
-                        style={{ height: "20px", width: "20px" }}
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
-                        />
-                      </svg>
-
-                      {shodan.country_code === "IN" ?
-                        <a href="tel:+971528722900" style={{ diplay: "block", textDecoration: "none", color: "black" }}> +91 999 491 0667</a>
-                        :
-                        <a href="tel:+971528722900" style={{ diplay: "block", textDecoration: "none", color: "black" }}> +971 52 872 2900</a>
-                      }
 
 
-                    </a>
+                    {isLoading ?
+                      <>
+
+                        {/* <Spin style={{ marginLeft: "85px" }} /> */}
+                        <span>Loading...</span>
+
+
+                      </> :
+                      <>
+                        <a
+                          href="#"
+                          style={{
+                            fontSize: "18px",
+                            marginLeft: "30px",
+
+                            color: "black",
+                          }}
+                          className=""
+                        >
+                          <img
+                            src={`https://cdn.jsdelivr.net/npm/react-flagkit@1.0.2/img/SVG/${shodanData && shodanData.country_code || "IN"
+                              }.svg`}
+                            style={{
+                              marginRight: "15px",
+                              width: "30px",
+                              objectFit: "cover",
+                              marginBottom: "3px",
+                            }}
+                          ></img>
+                          {/* 📞 */}
+
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            strokeWidth={2}
+                            stroke="currentColor"
+                            style={{ height: "20px", width: "20px" }}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                            />
+                          </svg>
+
+                          {shodanData && shodanData.country_code === "IN" || " "?
+                            <a href="tel:04651217062" style={{ diplay: "block", textDecoration: "none", color: "black" }}> +04651 217062</a>
+                            :
+                            <a href="tel:971528722900" style={{ diplay: "block", textDecoration: "none", color: "black" }}> +971 52 872 2900</a>
+                          }
+
+
+                        </a>
+                      </>}
+
                   </ul>
                 </nav>
 
@@ -708,7 +700,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                 </div>
               </div>
             </div>
-            <div className={styles.mobera} style={{ marginRight: "50px" }}>
+            <div className={styles.mobera} style={{ marginRight: "70px" }}>
               <Link href="/request-a-demo">
                 <button className={styles.button86} role="button">Get free  demo</button>
               </Link>

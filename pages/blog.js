@@ -6,10 +6,9 @@ import Head from "next/head";
 function Blog() {
   return (
     <>
-
       <Head>
         <title>Blogs | Shadobooks ERP </title>
-     
+
         <meta name="keywords" content="shadobooks blogs" />
         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/blog" /> */}
       </Head>
@@ -51,11 +50,53 @@ function Blog() {
               <div className="row">
                 <div className="col-lg-4 col-sm-6 pr-30 mb-50">
                   <div className="card-grid-style-4">
+                    <div className="grid-4-img color-bg-2 mb-20">
+                      <Link href="/blogs/accounting-erp-software">
+                        <a>
+                          <img
+                            src="/assets/imgs/page/blog/2/img-2.png"
+                            alt="Agon"
+                          />
+                        </a>
+                      </Link>
+                    </div>
+                    <Link href="/blogs/accounting-erp-software">
+                      <a className="text-heading-4">
+                        {" "}
+                        Complete Overview on Shadobooks ERP
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-sm-6 pr-30 mb-50">
+                  <div className="card-grid-style-4">
+                    <div className="grid-4-img mb-20">
+                      <Link href="/blogs/Cloud-based-accounting-software">
+                        <a>
+                          <img
+                            src="/assets/imgs/page/blog/2/c21.jpg"
+                            alt="Agon"
+                          />
+                        </a>
+                      </Link>
+                    </div>
+                    <Link href="/blogs/Cloud-based-accounting-software">
+                      <a className="text-heading-4">
+                        {" "}
+                        Which Accounting Software Is Best for Your Business:
+                        Cloud-based or On-Premise?
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+
+                <div className="col-lg-4 col-sm-6 pr-30 mb-50">
+                  <div className="card-grid-style-4">
                     <div className="grid-4-img mb-20">
                       <Link href="/blogs/accounting-software">
                         <a>
                           <img
-                            src="/assets/imgs/page/blog/2/bb5.jpg"
+                            src="/assets/imgs/page/blog/2/c22.jpg"
                             alt="Agon"
                           />
                         </a>
@@ -67,112 +108,59 @@ function Blog() {
                         Shadobooks ERP: The Best Accounting Software
                       </a>
                     </Link>
-
-                    {/* <p className="text-body-text color-gray-500">
-                      Lorem ipsum dolor sit amet consectetur adipiscing elit
-                      interdum ullamcorper sed pharetra senectus donec nunc.
-                      Consequat semper viverra nam libero justo laoreet
-                      facilisis magna etiam.
-                    </p> */}
-                    {/* <div className="blog-img-user">
-                      <div className="img-user img-user-round">
-                        <img
-                          src="/assets/imgs/page/blog/2/user-1.png"
-                          alt="Agon"
-                        />
-                      </div>
-                      <h4 className="text-heading-6 color-gray-900">
-                        Jenny Wilson
-                      </h4>
-                      <p className="text-body-small color-gray-500">
-                        August 25, 2022
-                      </p>
-                    </div> */}
                   </div>
                 </div>
 
                 <div className="col-lg-4 col-sm-6 pr-30 mb-50">
                   <div className="card-grid-style-4">
-                    <div className="grid-4-img color-bg-2 mb-20">
-                      <Link href="/blogs/accounting-erp">
+                    <div className="grid-4-img mb-20">
+                      <Link href="/blogs/financial-planning-and-budgeting">
                         <a>
                           <img
-                            src="/assets/imgs/page/blog/2/img-2.png"
+                            src="/assets/imgs/page/blog/2/c23.jpg"
                             alt="Agon"
                           />
                         </a>
                       </Link>
                     </div>
-                    <Link href="/blogs/accounting-erp">
-                      <a className="text-heading-4">
-                        {" "}
-                        Top 5 Reasons to Choose Shadobooks ERP for Accounting
-                      </a>
-                    </Link>
-
-                    {/* <p className="text-body-text color-gray-500">
-                      Lorem ipsum dolor sit amet consectetur adipiscing elit
-                      interdum ullamcorper sed pharetra senectus donec nunc.
-                      Consequat semper viverra nam libero justo laoreet
-                      facilisis magna etiam.
-                    </p> */}
-                    {/* <div className="blog-img-user">
-                      <div className="img-user img-user-round">
-                        <img
-                          src="/assets/imgs/page/blog/2/user-2.png"
-                          alt="Agon"
-                        />
-                      </div>
-                      <h4 className="text-heading-6 color-gray-900">
-                        Jenny Wilson
-                      </h4>
-                      <p className="text-body-small color-gray-500">
-                        August 25, 2022
-                      </p>
-                    </div> */}
-                  </div>
-                </div>
-                <div className="col-lg-4 col-sm-12 pr-30 mb-50">
-                  <div className="card-list-style-1">
                     <Link href="/blogs/financial-planning-and-budgeting">
-                      <a className="text-heading-6">
+                      <a className="text-heading-4">
                         {" "}
                         The Benefits of Choosing Shadobooks ERP for Financial
                         Planning and Budgeting
                       </a>
                     </Link>
+                  </div>
+                </div>
 
-                    <div className="blog-img-user">
-                      <div className="img-user img-user-round">
-                        <img
-                          src="/assets/imgs/page/homepage1/sb-logo.png"
-                          alt="Agon"
-                        />
-                      </div>
-                      <h4 className="text-body-lead color-gray-500">
-                        ShadoBooks
-                      </h4>
-                      <p className="text-body-small color-gray-500">
-                        April 12, 2022
-                      </p>
-                    </div>
-                    <div className="style-1-img color-bg-10">
-                      <Link href="/blog-single">
+                <div className="col-lg-4 col-sm-6 pr-30 mb-50">
+                  <div className="card-grid-style-4">
+                    <div className="grid-4-img mb-20">
+                      <Link href="/blogs/company-financial-management">
                         <a>
                           <img
-                            src="/assets/imgs/page/blog/2/bb4.jpg"
+                            src="/assets/imgs/page/blog/2/bb5.jpg"
                             alt="Agon"
                           />
                         </a>
                       </Link>
                     </div>
-                  </div>
-                  <div className="card-list-style-1">
                     <Link href="/blogs/company-financial-management">
-                      <a className="text-heading-6">
+                      <a className="text-heading-4">
                         {" "}
                         Why Shadobooks ERP is the Ultimate Solution for
                         Company's Financial Management Needs
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+
+                <div className="col-lg-4 col-sm-12 pr-30 mb-50">
+                  <div className="card-list-style-1">
+                    <Link href="/blogs/accounting-erp">
+                      <a className="text-heading-6">
+                        {" "}
+                        Top 5 Reasons to Choose Shadobooks ERP for Accounting
                       </a>
                     </Link>
 
@@ -187,20 +175,21 @@ function Blog() {
                         ShadoBooks
                       </h4>
                       <p className="text-body-small color-gray-500">
-                        April 14, 2022
+                        April 01, 2023
                       </p>
                     </div>
-                    <div className="style-1-img color-bg-2">
-                      <Link href="/blog-single">
+                    <div className="style-1-img color-bg-5">
+                      <Link href="/blogs/accounting-erp">
                         <a>
                           <img
-                            src="/assets/imgs/page/blog/2/bb3.jpg"
+                            src="/assets/imgs/page/blog/2/bb321.jpg"
                             alt="Agon"
                           />
                         </a>
                       </Link>
                     </div>
                   </div>
+
                   <div className="card-list-style-1">
                     <Link href="/blogs/professional-accounting-software">
                       <a className="text-heading-6">
@@ -220,11 +209,11 @@ function Blog() {
                         ShadoBooks
                       </h4>
                       <p className="text-body-small color-gray-500">
-                        April 03, 2022
+                        April 03, 2023
                       </p>
                     </div>
                     <div className="style-1-img color-bg-5">
-                      <Link href="/blog-single">
+                      <Link href="/blogs/professional-accounting-software">
                         <a>
                           <img
                             src="/assets/imgs/page/blog/2/bb2.jpg"
@@ -234,6 +223,7 @@ function Blog() {
                       </Link>
                     </div>
                   </div>
+
                   <div className="card-list-style-1">
                     <Link href="/blogs/streamline-financial-operations">
                       <a className="text-heading-6">
@@ -254,11 +244,48 @@ function Blog() {
                         ShadoBooks
                       </h4>
                       <p className="text-body-small color-gray-500">
-                        April 05, 2022
+                        April 05, 2023
                       </p>
                     </div>
+
                     <div className="style-1-img color-bg-9">
-                      <Link href="/blog-single">
+                      <Link href="/blogs/streamline-financial-operations">
+                        <a>
+                          <img
+                            src="/assets/imgs/page/blog/2/bb1.jpg"
+                            alt="Agon"
+                          />
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+
+
+                  <div className="card-list-style-1">
+                    <Link href="/blogs/erp-in-business">
+                      <a className="text-heading-6">
+                        {" "}
+                        The Role of ERP in Business Productivity and Profitability
+                      </a>
+                    </Link>
+
+                    <div className="blog-img-user">
+                      <div className="img-user img-user-round">
+                        <img
+                          src="/assets/imgs/page/homepage1/sb-logo.png"
+                          alt="Agon"
+                        />
+                      </div>
+                      <h4 className="text-body-lead color-gray-500">
+                        ShadoBooks
+                      </h4>
+                      <p className="text-body-small color-gray-500">
+                        May 1, 2023
+                      </p>
+                    </div>
+
+                    <div className="style-1-img color-bg-9">
+                      <Link href="/blogs/erp-in-business">
                         <a>
                           <img
                             src="/assets/imgs/page/blog/2/bb1.jpg"

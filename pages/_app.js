@@ -18,8 +18,16 @@ import Script from "next/script";
 import { useRouter } from "next/router";
 import * as gtag from "../lib/gtag";
 import { initializeTagManager } from "../lib/gtm";
+import { QueryClient, QueryClientProvider, Hydrate } from '@tanstack/react-query'
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
+
+
 
 function MyApp({ Component, pageProps }) {
+
+  const queryClient = new QueryClient()
+
+
   const [loading, setLoading] = useState(false);
 
   const router = useRouter();
@@ -56,6 +64,7 @@ function MyApp({ Component, pageProps }) {
     }
     new WOW.WOW().init();
   }, []);
+  
   return (
     <>
       <Head>
@@ -122,8 +131,17 @@ function MyApp({ Component, pageProps }) {
       />
       {!loading ? (
         <>
-          <ToastContainer position="bottom-left" />
-          <Component {...pageProps} />
+          <QueryClientProvider client={queryClient}>
+
+            <ToastContainer position="bottom-left" />
+
+            <Hydrate state={pageProps.dehydratedState}>
+              <Component {...pageProps} />
+            </Hydrate>
+
+            {/* <ReactQueryDevtools /> */}
+          </QueryClientProvider>
+
         </>
       ) : (
         <Preloader />
