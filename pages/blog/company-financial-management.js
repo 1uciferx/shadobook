@@ -129,7 +129,7 @@ function Companyfinancialmanagement() {
                           quickly and efficiently. Shadobooks ERP also features
                           detailed predictive analytics, giving you a clear view
                           of where your finances stand and how you can leverage
-                          them for future growth.Kindly refer to this article
+                          them for future growth. Kindly refer to this article
                           for further details about {' '}
                            <a href="/blog/financial-planning-and-budgeting"> 
                              The Benefits of Choosing Shadobooks ERP for
@@ -161,7 +161,7 @@ function Companyfinancialmanagement() {
                       locations. Shadobooks ERP provides a comprehensive,
                       integrated solution that enables you to make decisions and
                       act quickly to stay ahead in today’s fast-paced business
-                      environment.Please take a look at this article for more
+                      environment. Please take a look at this article for more
                       information on{" "}
                       <a href="/blog/streamline-financial-operations">
                         {" "}
