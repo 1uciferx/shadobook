@@ -9,8 +9,8 @@ function Blog() {
       <Head>
         <title>Blogs | Shadobooks ERP </title>
 
-        <meta name="keywords" content="shadobooks blogs" />
-        {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/blog" /> */}
+        <meta name="keywords" content="Shadobooks blogs" />
+        {/* <meta http-equiv="refresh" content="0; url=https://Shadobooks.com/blog" /> */}
       </Head>
 
       <Layout>
@@ -235,7 +235,7 @@ function Blog() {
                         />
                       </div>
                       <h4 className="text-body-lead color-gray-500">
-                        ShadoBooks
+                        Shadobooks
                       </h4>
                       <p className="text-body-small color-gray-500">
                         May 10, 2023
@@ -272,7 +272,7 @@ function Blog() {
                         />
                       </div>
                       <h4 className="text-body-lead color-gray-500">
-                        ShadoBooks
+                        Shadobooks
                       </h4>
                       <p className="text-body-small color-gray-500">
                         May 5, 2023
@@ -308,7 +308,7 @@ function Blog() {
                         />
                       </div>
                       <h4 className="text-body-lead color-gray-500">
-                        ShadoBooks
+                        Shadobooks
                       </h4>
                       <p className="text-body-small color-gray-500">
                         May 1, 2023
@@ -344,7 +344,7 @@ function Blog() {
                         />
                       </div>
                       <h4 className="text-body-lead color-gray-500">
-                        ShadoBooks
+                        Shadobooks
                       </h4>
                       <p className="text-body-small color-gray-500">
                         April 05, 2023
@@ -360,8 +360,9 @@ function Blog() {
                           />
                         </a>
                       </Link>
-                    </div>
+                    </div>                    
                   </div>
+                  
                 </div>
               </div>
             </div>

@@ -197,7 +197,7 @@ function Automatedfinancialprocess() {
                     ERP software automates reporting and offers benefits to organizations of all sizes, including reduced report generation time and improved accuracy. The software compiles data from various modules into a single report, eliminating the need for manual data collection. Ongoing report generation is also made easier as the software can be programmed to generate reports automatically on a daily, weekly, or monthly basis.  
                         </p>
 
-                    <h3 className="text-heading-5">Automating Reporting with Shadobooks ERP Finance  </h3>
+                    <h3 className="text-heading-5">Automating Report with Shadobooks ERP Finance  </h3>
                     <p>
                     Shadobooks ERP finance, which enables organisations to produce reports quickly and accurately, is used to help firms improve their financial reporting processes. The system's powerful features automate reporting and enable monitoring of financial trends and key performance indicators over time, providing businesses with valuable insights for improvement. Our software also simplifies the sharing of information through various formats, enhancing collaboration between teams and enabling more efficient communication with customers, vendors, banks, and investors.  
                     </p>

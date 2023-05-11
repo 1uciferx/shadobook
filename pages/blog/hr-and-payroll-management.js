@@ -99,7 +99,7 @@ function Hrpayrollmanagement() {
                   <div className="single-detail mt-0">
                     <p />
                     <h1 className="text-heading-3">
-                      What is accounting software on the cloud?
+                    Shadobooks ERP HR and Payroll Management Software 
                     </h1>
                     <p>
                     An organization's success is directly linked to the efficiency of its human resources, making the integration of ERP software with HR and Payroll administration module an important component. Combining these modules simplifies salary processing, personnel management and regular HR operations. Shadobooks ERP software provides a comprehensive HR and Payroll administration system that ensures secure storage and easy access to employee data, providing insights into employee performance and expectations for better workforce management. 
@@ -232,7 +232,7 @@ function Hrpayrollmanagement() {
                   <div className="single-detail mt-0">
                     <p />
                     <h1 className="text-heading-3">
-                    Benefits of Shadobooks ERP Software for HR & Payroll Management 
+                    Benefits of Shadobooks ERP Software for HR and Payroll Management 
                     </h1>
                     <p>
                     The significance of Shadobooks ERP in managing HR can be observed in how it efficiently handles the entire HR department. The automated system eliminates the need for duplicate data entry and saves valuable time that is otherwise spent on manual handling of routine administrative duties. Some of the advantages of the Shadobooks ERP HR & Payroll module are described below. 
@@ -262,7 +262,7 @@ function Hrpayrollmanagement() {
                     </div> */}
                     <p />
                     <h3 className="text-heading-4">
-                     1) Collaboration and information sharing Faster 
+                     1) Collaboration and Information Sharing Faster 
                     </h3>
                     <div className="row">
                       <div className="col-lg-4">
@@ -280,7 +280,7 @@ function Hrpayrollmanagement() {
                     </div>
                     <p />
                     <h3 className="text-heading-4">
-                    2) Employee records up to date 
+                    2) Employee Records up to Date 
                     </h3>
 
                     <p>
@@ -322,13 +322,13 @@ function Hrpayrollmanagement() {
                     The payroll system maintains an updated computerized record of employee information, including confidential details and financial data. Therefore, it's important to implement a payroll compliance system to avoid any information leaks that could result in financial losses for both the employees and the company. 
                         </p>
 
-                    <h3 className="text-heading-4">6) Reporting by the government  </h3>
+                    <h3 className="text-heading-4">6) Reporting by the Government  </h3>
                     <p>
                     The Government relations feature in Shadobooks ERP assists with managing various employee-related government procedures, including but not limited to the application and renewal of residential permits, work permits, sponsorship transfers, exit and exit-re-entry visas, business visas, and labor visas. 
                     </p>
 
                     <h4 className="text-heading-4">
-                    Attendance and Leave Tracking 
+                    7) Attendance and Leave Tracking 
                     </h4>
                     <p>
                     Our ERP software offers detailed records of employees' leave entitlements, balances, and any outstanding or advanced leave. It can also be integrated with attendance systems to calculate an employee's productivity based on factors such as hours worked, punctuality, overtime, and more. 
