@@ -362,7 +362,7 @@ function Blog() {
                       </Link>
                     </div>                    
                   </div>
-                  
+
                 </div>
               </div>
             </div>
