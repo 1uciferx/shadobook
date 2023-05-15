@@ -9,6 +9,12 @@
     text-align: center;
 }
 
+.btnstyl{
+    color: #6b2513;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: start;
+}
 
 .button23 {
   appearance: none;
@@ -253,4 +259,37 @@
         left: 2%;
     }
     
+}
+
+
+@media screen and (max-width:720px) {
+
+    .btnstyl{
+        color: #6b2513;
+        font-family: Arial;
+        font-size: 16px;
+        text-align: start;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+
+    .btnstyl{
+        color: #6b2513;
+        font-family: Arial;
+        font-size: 14px;
+        text-align: start;
+    }
+}
+
+
+@media screen and (max-width:300px) {
+
+    .btnstyl{
+        color: #6b2513;
+        font-family: Arial;
+        font-size: 12px;
+        text-align: start;
+    }
 }
