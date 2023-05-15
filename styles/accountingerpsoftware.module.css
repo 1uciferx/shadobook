@@ -72,6 +72,8 @@
     font-family: Arial;
     font-size: 20px;
     line-height: 130%;
+    position: relative;
+    left: 2%;
 }
 
 
@@ -151,6 +153,16 @@
 }
 
 
+
+@media screen and (max-width:400px) {
+.mmpara{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    
+}
+}
+
 @media screen and (max-width:1399px) {
     
 .imgone{
@@ -178,9 +190,9 @@
         font-size: 20px;
         line-height: 130%;
         text-align: center;
-        width: 90%;
+        width: 100%;
         position: relative;
-        left:5%;
+        left:2%;
     }
 
     .parathree{
@@ -207,6 +219,8 @@
     .imgg3{
         font-size: 29px !important;
         line-height: 125%;
+        position: relative;
+        left: 2%;
     }
     .imgg33{
         font-size: 29px !important;
@@ -279,7 +293,7 @@
         color: #6b2513;
         font-family: Arial;
         font-size: 14px;
-        text-align: start;
+        text-align: center;
     }
 }
 
@@ -290,6 +304,6 @@
         color: #6b2513;
         font-family: Arial;
         font-size: 12px;
-        text-align: start;
+        text-align: center;
     }
 }
