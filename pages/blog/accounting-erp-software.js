@@ -1286,7 +1286,7 @@ function Accountingerpsoftware() {
           <br></br>
         </section>
 
-        <section className="section-box mt-100 pt-90 pb-90">
+        <section className="section-box mt-10 pt-10 pb-90">
           <div className="container">
             <div className="row">
               <div className="col-lg-5 col-sm-12 col-12 block-gallery-1">
