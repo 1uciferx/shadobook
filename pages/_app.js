@@ -14,13 +14,12 @@ import "react-modal-video/css/modal-video.css";
 import "antd/dist/reset.css";
 // import 'antd/dist/antd.css';
 import FlagApp from "../components/FlagApp";
+import App from 'next/app';
 import Script from "next/script";
 import { useRouter } from "next/router";
-import * as gtag from "../lib/gtag";
 import { initializeTagManager } from "../lib/gtm";
 import { QueryClient, QueryClientProvider, Hydrate } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
-
 
 
 function MyApp({ Component, pageProps }) {
@@ -31,15 +30,31 @@ function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);
 
   const router = useRouter();
+
   useEffect(() => {
+    // Add the gtag initialization code here
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'AW-11183033842');
+
+    // Trigger pageview event on route change
     const handleRouteChange = (url) => {
-      gtag.pageview(url);
+      gtag('config', 'AW-11183033842', { page_path: url });
     };
-    router.events.on("routeChangeComplete", handleRouteChange);
+    router.events.on('routeChangeComplete', handleRouteChange);
+
+    // Cleanup event listener on component unmount
     return () => {
-      router.events.off("routeChangeComplete", handleRouteChange);
+      router.events.off('routeChangeComplete', handleRouteChange);
     };
-  }, [router.events]);
+
+    
+  }, []);
+
+
 
   useEffect(() => {
     var tawk = new TawkTo("6360f2c8b0d6371309cca7c1", "1ggpb8oj2");
@@ -158,23 +173,8 @@ function MyApp({ Component, pageProps }) {
         />
       </Head>
 
-      <Script
-        strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
-      />
-      <Script
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${gtag.GA_TRACKING_ID}', {
-              page_path: window.location.pathname,
-            });
-          `,
-        }}
-      />
+    
+
       {!loading ? (
         <>
           <QueryClientProvider client={queryClient}>
