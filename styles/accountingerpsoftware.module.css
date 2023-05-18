@@ -9,6 +9,12 @@
     text-align: center;
 }
 
+.btnstyl{
+    color: #6b2513;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: start;
+}
 
 .button23 {
   appearance: none;
@@ -66,6 +72,8 @@
     font-family: Arial;
     font-size: 20px;
     line-height: 130%;
+    position: relative;
+    left: 2%;
 }
 
 
@@ -145,6 +153,16 @@
 }
 
 
+
+@media screen and (max-width:400px) {
+.mmpara{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    
+}
+}
+
 @media screen and (max-width:1399px) {
     
 .imgone{
@@ -172,9 +190,9 @@
         font-size: 20px;
         line-height: 130%;
         text-align: center;
-        width: 90%;
+        width: 100%;
         position: relative;
-        left:5%;
+        left:2%;
     }
 
     .parathree{
@@ -201,6 +219,8 @@
     .imgg3{
         font-size: 29px !important;
         line-height: 125%;
+        position: relative;
+        left: 2%;
     }
     .imgg33{
         font-size: 29px !important;
@@ -250,7 +270,94 @@
         text-align: center;
         position: relative;
         top: 2%;
-        left: 2%;
+        left: 3%;
     }
     
+}
+
+
+@media screen and (max-width:720px) {
+
+    .btnstyl{
+        color: #6b2513;
+        font-family: Arial;
+        font-size: 16px;
+        text-align: start;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+
+    .btnstyl{
+        color: #6b2513;
+        font-family: Arial;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    
+    .button23 {
+        appearance: none;
+        background-color: #90331c;
+        border: 1px solid rgba(27, 31, 35, .15);
+        border-radius: 6px;
+        box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Arial;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 18px;
+        padding: 7px 10px;
+        position: relative;
+        margin-top: 5%;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: middle;
+        white-space: nowrap;
+      }
+}
+
+
+@media screen and (max-width:300px) {
+
+    .btnstyl{
+        color: #6b2513;
+        font-family: Arial;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .button23 {
+        appearance: none;
+        background-color: #90331c;
+        border: 1px solid rgba(27, 31, 35, .15);
+        border-radius: 6px;
+        box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Arial;
+        font-size: 12px;
+        margin-top: 5%;
+        font-weight: 600;
+        line-height: 18px;
+        padding: 7px 10px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: middle;
+        white-space: nowrap;
+      }
+      
 }

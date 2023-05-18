@@ -6,12 +6,17 @@ import styles from "/styles/accountingerpsoftware.module.css";
 import dynamic from "next/dynamic";
 import { useState } from "react";
 import "react-modal-video/css/modal-video.css";
+import { Button, Space } from "antd";
 
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
+
+
 function Accountingerpsoftware() {
+
   const [isOpen, setOpen] = useState(false);
+  
   return (
     <>
       <Head>
@@ -66,7 +71,7 @@ function Accountingerpsoftware() {
                   <div className="mt-40">
                     <Link href="/request-a-demo">
                       <a className="btn btn-black shape-square icon-arrow-right-white">
-                      Try 90 Days Free Demo
+                        Try 90 Days Free Demo
                       </a>
                     </Link>
                   </div>
@@ -119,7 +124,7 @@ function Accountingerpsoftware() {
                         </div>
                     </div>
                 </div> */}
-                
+
         <section className="section-box mt-70">
           <div className="container">
             <div className="row">
@@ -187,12 +192,12 @@ function Accountingerpsoftware() {
             </div>
           </div>
           <div className={styles.jkimg}>
-                <img
-                  className="img-responsive bdr-10 mt-10 mb-50"
-                  src="/assets/imgs/page/homepage4/gh2.png"
-                  alt="shadobooks"
-                />
-              </div>
+            <img
+              className="img-responsive bdr-10 mt-10 mb-50"
+              src="/assets/imgs/page/homepage4/gh2.png"
+              alt="shadobooks"
+            />
+          </div>
           <br></br>
           <br></br>
         </section>
@@ -217,6 +222,16 @@ function Accountingerpsoftware() {
                   gaining insights into deals, activity data, and email
                   performance.
                 </p>
+
+                <Space wrap>
+                  <Button
+                    type="link"
+                    href="https://shadobooks.com/it-erp-software"
+                    className={styles.btnstyl}
+                  >
+                    Learn more about IT & Support industry ➜
+                  </Button>
+                </Space>
                 <p />
 
                 <p />
@@ -233,6 +248,15 @@ function Accountingerpsoftware() {
                       inventory levels, monitor vendor performance, and manage
                       purchasing.
                     </p>
+                    <Space wrap>
+                      <Button
+                        type="link"
+                        href="https://shadobooks.com/manufacturing-software"
+                        className={styles.btnstyl}
+                      >
+                        Learn more about Manufacturing industry ➜
+                      </Button>
+                    </Space>
                   </div>
                   <div className="col-lg-6">
                     <img
@@ -255,6 +279,15 @@ function Accountingerpsoftware() {
                   insights into their business operations and make data-driven
                   decisions.
                 </p>
+                <Space wrap>
+                  <Button
+                    type="link"
+                    href="https://shadobooks.com/retail-erp-software"
+                    className={styles.btnstyl}
+                  >
+                    Learn more about Retail industry ➜
+                  </Button>
+                </Space>
                 <p />
                 <h3 className={styles.aphead}>4) Wholesale Industry</h3>
 
@@ -266,6 +299,15 @@ function Accountingerpsoftware() {
                   capital management features for managing employees, their
                   roles, and responsibilities within the organization.
                 </p>
+                <Space wrap>
+                  <Button
+                    type="link"
+                    href="https://shadobooks.com/retail-erp-software"
+                    className={styles.btnstyl}
+                  >
+                    Learn more about Wholesale industry ➜
+                  </Button>
+                </Space>
                 <p />
                 <h3 className={styles.aphead}>5) Construction Industry</h3>
 
@@ -311,7 +353,6 @@ function Accountingerpsoftware() {
                   solution for businesses seeking a reliable ERP software.
                 </p>
               </div>
-             
             </div>
           </div>
           <br></br>
@@ -521,7 +562,7 @@ function Accountingerpsoftware() {
           videoId="TKt7MI1HL2k"
           onClose={() => setOpen(false)}
         />
-        
+
         <section className="section-box mt-0">
           <div className="container">
             <div className="row">
@@ -568,6 +609,16 @@ function Accountingerpsoftware() {
                       automation streamlines processes, ensuring accuracy in
                       reports during tax season.
                     </p>
+
+                    <Space wrap>
+                      <Button
+                        type="link"
+                        href="https://shadobooks.com/accounting-erp-software"
+                        className={styles.btnstyl}
+                      >
+                        Learn more about Accounting industry ➜
+                      </Button>
+                    </Space>
                   </div>
                   <div className="col-lg-6">
                     <img
@@ -585,6 +636,15 @@ function Accountingerpsoftware() {
                     metrics such as sales trends, marketing campaigns, activity
                     reports, and team performance. .
                   </p>
+                  <Space wrap>
+                    <Button
+                      type="link"
+                      href="https://shadobooks.com/reports-module-in-erp"
+                      className={styles.btnstyl}
+                    >
+                      Learn more about Reports industry ➜
+                    </Button>
+                  </Space>
                   <p />
 
                   <h1 className={styles.aphead}>Projects</h1>
@@ -595,6 +655,15 @@ function Accountingerpsoftware() {
                     milestone of the entire project life cycle at any given
                     point of time.
                   </p>
+                  <Space wrap>
+                    <Button
+                      type="link"
+                      href="https://shadobooks.com/project-management-software"
+                      className={styles.btnstyl}
+                    >
+                      Learn more about Projects industry ➜
+                    </Button>
+                  </Space>
                   <p />
                 </div>
               </div>
@@ -629,6 +698,15 @@ function Accountingerpsoftware() {
                   provides a clear insight to the purchase managers to handle
                   any scenario much easier.
                 </p>
+                <Space wrap>
+                  <Button
+                    type="link"
+                    href="https://shadobooks.com/purchase-management-software"
+                    className={styles.btnstyl}
+                  >
+                    Learn more about Purchase industry ➜
+                  </Button>
+                </Space>
                 <p />
 
                 <p />
@@ -644,6 +722,15 @@ function Accountingerpsoftware() {
                       the inventory balances, to handle inventory transfers amid
                       warehouses.
                     </p>
+                    <Space wrap>
+                      <Button
+                        type="link"
+                        href="https://shadobooks.com/inventory-management-system"
+                        className={styles.btnstyl}
+                      >
+                        Learn more about Inventory industry ➜
+                      </Button>
+                    </Space>
                   </div>
                 </div>
               </div>
@@ -692,6 +779,15 @@ function Accountingerpsoftware() {
                       information. It also allows emailing of quotes, invoices,
                       orders and SMS to multiple contacts.
                     </p>
+                    <Space wrap>
+                      <Button
+                        type="link"
+                        href="https://shadobooks.com/sales-management-software"
+                        className={styles.btnstyl}
+                      >
+                        Learn more about Sales industry ➜
+                      </Button>
+                    </Space>
                   </div>
                 </div>
 
@@ -703,6 +799,15 @@ function Accountingerpsoftware() {
                       increases your chances of making a sale by meeting
                       potential buyers on their terms.
                     </p>
+                    <Space wrap>
+                      <Button
+                        type="link"
+                        href="https://shadobooks.com/point-of-sale-system"
+                        className={styles.btnstyl}
+                      >
+                        Learn more about Point of Sales industry ➜
+                      </Button>
+                    </Space>
                   </div>
                 </div>
 
@@ -714,6 +819,15 @@ function Accountingerpsoftware() {
                       sales commissions automatically, and track their customers
                       and data using Sales Agent Management.
                     </p>
+                    <Space wrap>
+                      <Button
+                        type="link"
+                        href="https://shadobooks.com/sales-rep-erp-software"
+                        className={styles.btnstyl}
+                      >
+                        Learn more about Sales Agent industry ➜
+                      </Button>
+                    </Space>
                   </div>
                 </div>
               </div>
@@ -748,6 +862,16 @@ function Accountingerpsoftware() {
                   check-outs, location, depreciation, audit, maintenance
                   schedule, date of asset return, etc...
                 </p>
+
+                <Space wrap>
+                  <Button
+                    type="link"
+                    href="https://shadobooks.com/assets-management-erp-software"
+                    className={styles.btnstyl}
+                  >
+                    Learn more about Company Assets industry ➜
+                  </Button>
+                </Space>
                 <p />
 
                 <p />
@@ -762,6 +886,16 @@ function Accountingerpsoftware() {
                       of measure, taxes, vendor taxes, operations, logistics,
                       OEE, lost, load, performance.
                     </p>
+
+                    <Space wrap>
+                      <Button
+                        type="link"
+                        href="https://shadobooks.com/manufacturing-erp-software"
+                        className={styles.btnstyl}
+                      >
+                        Learn more about Manufacturing industry ➜
+                      </Button>
+                    </Space>
                   </div>
                 </div>
               </div>
@@ -797,6 +931,16 @@ function Accountingerpsoftware() {
                   Staff ratio by age group, Changes in staff status by
                   seniority, Staff status by month, Birthdays of the month, etc.
                 </p>
+
+                <Space wrap>
+                  <Button
+                    type="link"
+                    href="https://shadobooks.com/best-hrms-software"
+                    className={styles.btnstyl}
+                  >
+                    Learn more about HR Records industry ➜
+                  </Button>
+                </Space>
                 <p />
 
                 <p />
@@ -821,6 +965,16 @@ function Accountingerpsoftware() {
                       calculations, all within a single platform without any
                       complications.
                     </p>
+
+                    <Space wrap>
+                      <Button
+                        type="link"
+                        href="https://shadobooks.com/hr-and-payroll-software"
+                        className={styles.btnstyl}
+                      >
+                        Learn more about HR & Payroll industry ➜
+                      </Button>
+                    </Space>
                   </div>
                 </div>
 
@@ -835,6 +989,16 @@ function Accountingerpsoftware() {
                       process from posting jobs to keeping candidates engaged
                       throughout.
                     </p>
+
+                    <Space wrap>
+                      <Button
+                        type="link"
+                        href="https://shadobooks.com/recruitment-management-software"
+                        className={styles.btnstyl}
+                      >
+                        Learn more about Hiring industry ➜
+                      </Button>
+                    </Space>
                   </div>
                 </div>
               </div>
@@ -870,6 +1034,16 @@ function Accountingerpsoftware() {
                   organizations to improve collaboration, streamline workflows,
                   and increase productivity.
                 </p>
+
+                <Space wrap>
+                  <Button
+                    type="link"
+                    href="https://shadobooks.com/erp-document-management"
+                    className={styles.btnstyl}
+                  >
+                    Learn more about File manager industry ➜
+                  </Button>
+                </Space>
                 <p />
 
                 <p />
@@ -881,6 +1055,16 @@ function Accountingerpsoftware() {
                       all types of expenses, including employee reimbursements,
                       vendor bills, and other miscellaneous expenses.
                     </p>
+
+                    <Space wrap>
+                      <Button
+                        type="link"
+                        href="https://shadobooks.com/expense-management-system"
+                        className={styles.btnstyl}
+                      >
+                        Learn more about Expenses industry ➜
+                      </Button>
+                    </Space>
                   </div>
                 </div>
 
@@ -894,6 +1078,16 @@ function Accountingerpsoftware() {
                       completion. It covers all aspects of the processes, and
                       guides the user through a quality process.
                     </p>
+
+                    <Space wrap>
+                      <Button
+                        type="link"
+                        href="https://shadobooks.com/contract-tracking-software"
+                        className={styles.btnstyl}
+                      >
+                        Learn more about Contracts industry ➜
+                      </Button>
+                    </Space>
                   </div>
                 </div>
 
@@ -908,6 +1102,15 @@ function Accountingerpsoftware() {
                       monitored for progress with reminders and completion
                       status tracking.
                     </p>
+                    <Space wrap>
+                      <Button
+                        type="link"
+                        href="https://shadobooks.com/task-management-software"
+                        className={styles.btnstyl}
+                      >
+                        Learn more about Tasks industry ➜
+                      </Button>
+                    </Space>
                   </div>
                 </div>
 
@@ -920,6 +1123,16 @@ function Accountingerpsoftware() {
                       leads, automate lead scoring, identify leads that will
                       convert, and follow up with detailed contact information.
                     </p>
+
+                    <Space wrap>
+                      <Button
+                        type="link"
+                        href="https://shadobooks.com/lead-management-system "
+                        className={styles.btnstyl}
+                      >
+                        Learn more about Leads industry ➜
+                      </Button>
+                    </Space>
                   </div>
                 </div>
 
@@ -931,6 +1144,16 @@ function Accountingerpsoftware() {
                       get a pricing estimate for services or items from your
                       business.
                     </p>
+
+                    <Space wrap>
+                      <Button
+                        type="link"
+                        href="https://shadobooks.com/estimates-management-software"
+                        className={styles.btnstyl}
+                      >
+                        Learn more about Estimate Request industry ➜
+                      </Button>
+                    </Space>
                   </div>
                 </div>
 
@@ -944,6 +1167,16 @@ function Accountingerpsoftware() {
                       customers to find solutions without having to wait for an
                       agent.
                     </p>
+
+                    <Space wrap>
+                      <Button
+                        type="link"
+                        href="https://shadobooks.com/knowledge-management-software"
+                        className={styles.btnstyl}
+                      >
+                        Learn more about Knowledge base industry ➜
+                      </Button>
+                    </Space>
                   </div>
                 </div>
               </div>
@@ -1044,17 +1277,16 @@ function Accountingerpsoftware() {
 
             <div className={styles.clasd}>
               <Link href="/request-a-demo">
-            <button className={styles.button23}  >Free 90 days Trial</button>
-            </Link>
+                <button className={styles.button23}>Free 90 days Trial</button>
+              </Link>
             </div>
           </div>
-
 
           <br></br>
           <br></br>
         </section>
 
-        <section className="section-box mt-100 pt-90 pb-90">
+        <section className="section-box mt-10 pt-10 pb-90">
           <div className="container">
             <div className="row">
               <div className="col-lg-5 col-sm-12 col-12 block-gallery-1">

@@ -96,7 +96,7 @@ function Headertest(props) {
               <img
                 width={150}
                 alt="ShadoBooks"
-                src="assets/imgs/page/homepage4/shadobookslogo.png "
+                src="/assets/imgs/page/homepage4/shadobookslogo.png "
               />
             </a>
           </Link>
