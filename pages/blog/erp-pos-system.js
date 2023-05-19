@@ -10,7 +10,7 @@ function Erppossystem() {
     <>
       <Head>
         <title>
-        From Inventory Management to Sales Tracking: How Shadobooks ERP POS System Help You to Stay top of the business.  
+        From Inventory Management to Sales Tracking: How Shadobooks ERP POS System Help You to Stay top of the business  
         </title>
         <meta
           name="description"
@@ -53,7 +53,7 @@ function Erppossystem() {
                 <div className="text-center">
                   <span className="tag-1 bg-6 color-green-900">BLOG</span>
                   <h1 className="text-heading-1 color-white mt-30">
-                  From Inventory Management to Sales Tracking: How Shadobooks ERP POS System Help You to Stay top of the business.  
+                  From Inventory Management to Sales Tracking: How Shadobooks ERP POS System Help You to Stay Top of The Business
                   </h1>
                 </div>
               </div>

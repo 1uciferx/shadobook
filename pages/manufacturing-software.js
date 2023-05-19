@@ -418,7 +418,7 @@ function Manu() {
                   </div>
                 </div>
                 <div className="mt-60">
-                  <Link href="/page-contact">
+                  <Link href="/request-a-demo">
                     <a className="btn btn-black icon-arrow-right-white">
                       Contact Us
                     </a>
