@@ -63,7 +63,7 @@ function Blog() {
                     <Link href="/blog/accounting-erp-software">
                       <a className="text-heading-4">
                         {" "}
-                        Complete Overview on Shadobooks ERP
+                        A Complete Overview on Shadobooks ERP
                       </a>
                     </Link>
                   </div>
@@ -110,6 +110,76 @@ function Blog() {
                     </Link>
                   </div>
                 </div>
+
+
+
+
+
+
+                <div className="col-lg-4 col-sm-6 pr-30 mb-50">
+                  <div className="card-grid-style-4">
+                    <div className="grid-4-img color-bg-2 mb-20">
+                      <Link href="/blog/reasons-to-upgrade-accounting-software">
+                        <a>
+                          <img
+                            src="/assets/imgs/page/blog/2/kk101.jpg"
+                            alt="Agon"
+                          />
+                        </a>
+                      </Link>
+                    </div>
+                    <Link href="/blog/reasons-to-upgrade-accounting-software">
+                      <a className="text-heading-4">
+                        {" "}
+                        7 MORE CAUSES TO UPDATE YOUR ACCOUNTING SOFTWARE
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-sm-6 pr-30 mb-50">
+                  <div className="card-grid-style-4">
+                    <div className="grid-4-img mb-20">
+                      <Link href="/blog/best-financial-tool">
+                        <a>
+                          <img
+                            src="/assets/imgs/page/blog/2/kk102.jpg"
+                            alt="Agon"
+                          />
+                        </a>
+                      </Link>
+                    </div>
+                    <Link href="/blog/best-financial-tool">
+                      <a className="text-heading-4">
+                        {" "}
+                       The Best Financial Tool for Simplifying Complex Financial Transactions
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+
+                <div className="col-lg-4 col-sm-6 pr-30 mb-50">
+                  <div className="card-grid-style-4">
+                    <div className="grid-4-img mb-20">
+                      <Link href="/blog/erp-pos-system">
+                        <a>
+                          <img
+                            src="/assets/imgs/page/blog/2/kk104.jpg"
+                            alt="Agon"
+                          />
+                        </a>
+                      </Link>
+                    </div>
+                    <Link href="/blog/erp-pos-system">
+                      <a className="text-heading-4">
+                        {" "}
+                        How Shadobooks ERP POS System Help You to Stay Top of The Business
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+
+
+
 
                 <div className="col-lg-4 col-sm-6 pr-30 mb-50">
                   <div className="card-grid-style-4">
