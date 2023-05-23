@@ -229,7 +229,7 @@ function Accountingerpsoftware() {
                     href="https://shadobooks.com/it-erp-software"
                     className={styles.btnstyl}
                   >
-                    Learn more about IT & Support industry ➜
+                    Learn more about IT & Support ➜
                   </Button>
                 </Space>
                 <p />
@@ -254,7 +254,7 @@ function Accountingerpsoftware() {
                         href="https://shadobooks.com/manufacturing-software"
                         className={styles.btnstyl}
                       >
-                        Learn more about Manufacturing industry ➜
+                        Learn more about Manufacturing ➜
                       </Button>
                     </Space>
                   </div>
@@ -285,19 +285,14 @@ function Accountingerpsoftware() {
                     href="https://shadobooks.com/retail-erp-software"
                     className={styles.btnstyl}
                   >
-                    Learn more about Retail industry ➜
+                    Learn more about Retail ➜
                   </Button>
                 </Space>
                 <p />
                 <h3 className={styles.aphead}>4) Wholesale Industry</h3>
 
                 <p className={styles.mmpara}>
-                  Our ERP supports multi-currency transactions, enabling
-                  businesses to transact in different currencies and expand
-                  their global operations. It also offers inventory control
-                  features for effective management of stock levels and human
-                  capital management features for managing employees, their
-                  roles, and responsibilities within the organization.
+                With Shadobooks ERP, wholesalers can manage their inventory and stock levels, create and manage purchase orders, sales orders, and track stock levels across multiple locations. With its integrated accounting and financial management features, wholesalers can easily manage their accounts receivable and payable, track expenses, and generate financial reports. Overall, Shadobooks ERP can help wholesale businesses improve their operations, reduce costs, and increase profitability. 
                 </p>
                 <Space wrap>
                   <Button
@@ -305,30 +300,20 @@ function Accountingerpsoftware() {
                     href="https://shadobooks.com/retail-erp-software"
                     className={styles.btnstyl}
                   >
-                    Learn more about Wholesale industry ➜
+                    Learn more about Wholesale ➜
                   </Button>
                 </Space>
                 <p />
                 <h3 className={styles.aphead}>5) Construction Industry</h3>
 
                 <p className={styles.mmpara}>
-                  Our ERP supports multi-currency transactions, enabling
-                  businesses to transact in different currencies and expand
-                  their global operations. It also offers inventory control
-                  features for effective management of stock levels and human
-                  capital management features for managing employees, their
-                  roles, and responsibilities within the organization.
+                Allows businesses to manage their projects, finances, and operations in a streamlined and efficient manner. Shadobooks project management module enables businesses to manage their projects, including timelines, and budgets. One of the key advantages is the manage project cost centers and create sub-projects within them, which allows businesses to track expenses and revenue for each project and sub-project separately. This all leads to greater efficiency, cost savings, and improved project outcomes in the construction industry. 
                 </p>
                 <p />
                 <h3 className={styles.aphead}>6) Service Providers</h3>
 
                 <p className={styles.mmpara}>
-                  Our ERP supports multi-currency transactions, enabling
-                  businesses to transact in different currencies and expand
-                  their global operations. It also offers inventory control
-                  features for effective management of stock levels and human
-                  capital management features for managing employees, their
-                  roles, and responsibilities within the organization.
+                Shadobooks ERP offers tailored solutions for service providers. It can be customized to meet the needs of service providers across different industries. It also helps various business operations by providing modules for managing projects, tasks, timesheets, and customer relations. These modules provide features such as appointment scheduling, service tracking, and customer management, allowing businesses to manage their services efficiently. Shadobooks ERP helps service providers to optimize their workflows, increase customer satisfaction, and achieve better business outcomes. 
                 </p>
               </div>
             </div>
@@ -616,7 +601,7 @@ function Accountingerpsoftware() {
                         href="https://shadobooks.com/accounting-erp-software"
                         className={styles.btnstyl}
                       >
-                        Learn more about Accounting industry ➜
+                        Learn more about Accounting ➜
                       </Button>
                     </Space>
                   </div>
@@ -642,7 +627,7 @@ function Accountingerpsoftware() {
                       href="https://shadobooks.com/reports-module-in-erp"
                       className={styles.btnstyl}
                     >
-                      Learn more about Reports industry ➜
+                      Learn more about Reports ➜
                     </Button>
                   </Space>
                   <p />
@@ -661,7 +646,7 @@ function Accountingerpsoftware() {
                       href="https://shadobooks.com/project-management-software"
                       className={styles.btnstyl}
                     >
-                      Learn more about Projects industry ➜
+                      Learn more about Projects ➜
                     </Button>
                   </Space>
                   <p />
@@ -704,7 +689,7 @@ function Accountingerpsoftware() {
                     href="https://shadobooks.com/purchase-management-software"
                     className={styles.btnstyl}
                   >
-                    Learn more about Purchase industry ➜
+                    Learn more about Purchase ➜
                   </Button>
                 </Space>
                 <p />
@@ -728,7 +713,7 @@ function Accountingerpsoftware() {
                         href="https://shadobooks.com/inventory-management-system"
                         className={styles.btnstyl}
                       >
-                        Learn more about Inventory industry ➜
+                        Learn more about Inventory ➜
                       </Button>
                     </Space>
                   </div>
@@ -785,7 +770,7 @@ function Accountingerpsoftware() {
                         href="https://shadobooks.com/sales-management-software"
                         className={styles.btnstyl}
                       >
-                        Learn more about Sales industry ➜
+                        Learn more about Sales ➜
                       </Button>
                     </Space>
                   </div>
@@ -805,7 +790,7 @@ function Accountingerpsoftware() {
                         href="https://shadobooks.com/point-of-sale-system"
                         className={styles.btnstyl}
                       >
-                        Learn more about Point of Sales industry ➜
+                        Learn more about Point of Sales ➜
                       </Button>
                     </Space>
                   </div>
@@ -825,7 +810,7 @@ function Accountingerpsoftware() {
                         href="https://shadobooks.com/sales-rep-erp-software"
                         className={styles.btnstyl}
                       >
-                        Learn more about Sales Agent industry ➜
+                        Learn more about Sales Agent ➜
                       </Button>
                     </Space>
                   </div>
@@ -869,7 +854,7 @@ function Accountingerpsoftware() {
                     href="https://shadobooks.com/assets-management-erp-software"
                     className={styles.btnstyl}
                   >
-                    Learn more about Company Assets industry ➜
+                    Learn more about Company Assets ➜
                   </Button>
                 </Space>
                 <p />
@@ -893,7 +878,7 @@ function Accountingerpsoftware() {
                         href="https://shadobooks.com/manufacturing-erp-software"
                         className={styles.btnstyl}
                       >
-                        Learn more about Manufacturing industry ➜
+                        Learn more about Manufacturing ➜
                       </Button>
                     </Space>
                   </div>
@@ -938,7 +923,7 @@ function Accountingerpsoftware() {
                     href="https://shadobooks.com/best-hrms-software"
                     className={styles.btnstyl}
                   >
-                    Learn more about HR Records industry ➜
+                    Learn more about HR Records ➜
                   </Button>
                 </Space>
                 <p />
@@ -972,7 +957,7 @@ function Accountingerpsoftware() {
                         href="https://shadobooks.com/hr-and-payroll-software"
                         className={styles.btnstyl}
                       >
-                        Learn more about HR & Payroll industry ➜
+                        Learn more about HR & Payroll ➜
                       </Button>
                     </Space>
                   </div>
@@ -996,7 +981,7 @@ function Accountingerpsoftware() {
                         href="https://shadobooks.com/recruitment-management-software"
                         className={styles.btnstyl}
                       >
-                        Learn more about Hiring industry ➜
+                        Learn more about Hiring ➜
                       </Button>
                     </Space>
                   </div>
@@ -1041,7 +1026,7 @@ function Accountingerpsoftware() {
                     href="https://shadobooks.com/erp-document-management"
                     className={styles.btnstyl}
                   >
-                    Learn more about File manager industry ➜
+                    Learn more about File manager ➜
                   </Button>
                 </Space>
                 <p />
@@ -1062,7 +1047,7 @@ function Accountingerpsoftware() {
                         href="https://shadobooks.com/expense-management-system"
                         className={styles.btnstyl}
                       >
-                        Learn more about Expenses industry ➜
+                        Learn more about Expenses ➜
                       </Button>
                     </Space>
                   </div>
@@ -1085,7 +1070,7 @@ function Accountingerpsoftware() {
                         href="https://shadobooks.com/contract-tracking-software"
                         className={styles.btnstyl}
                       >
-                        Learn more about Contracts industry ➜
+                        Learn more about Contracts ➜
                       </Button>
                     </Space>
                   </div>
@@ -1108,7 +1093,7 @@ function Accountingerpsoftware() {
                         href="https://shadobooks.com/task-management-software"
                         className={styles.btnstyl}
                       >
-                        Learn more about Tasks industry ➜
+                        Learn more about Tasks ➜
                       </Button>
                     </Space>
                   </div>
@@ -1130,7 +1115,7 @@ function Accountingerpsoftware() {
                         href="https://shadobooks.com/lead-management-system "
                         className={styles.btnstyl}
                       >
-                        Learn more about Leads industry ➜
+                        Learn more about Leads ➜
                       </Button>
                     </Space>
                   </div>
@@ -1151,7 +1136,7 @@ function Accountingerpsoftware() {
                         href="https://shadobooks.com/estimates-management-software"
                         className={styles.btnstyl}
                       >
-                        Learn more about Estimate Request industry ➜
+                        Learn more about Estimate Request ➜
                       </Button>
                     </Space>
                   </div>
@@ -1174,7 +1159,7 @@ function Accountingerpsoftware() {
                         href="https://shadobooks.com/knowledge-management-software"
                         className={styles.btnstyl}
                       >
-                        Learn more about Knowledge base industry ➜
+                        Learn more about Knowledge base ➜
                       </Button>
                     </Space>
                   </div>
