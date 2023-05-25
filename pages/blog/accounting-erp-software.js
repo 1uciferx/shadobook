@@ -229,7 +229,7 @@ function Accountingerpsoftware() {
                     href="https://shadobooks.com/it-erp-software"
                     className={styles.btnstyl}
                   >
-                    Learn more about IT & Support ➜
+                    Learn more about IT & Support Industry ➜
                   </Button>
                 </Space>
                 <p />
@@ -254,7 +254,7 @@ function Accountingerpsoftware() {
                         href="https://shadobooks.com/manufacturing-software"
                         className={styles.btnstyl}
                       >
-                        Learn more about Manufacturing ➜
+                        Learn more about Manufacturing Industry ➜
                       </Button>
                     </Space>
                   </div>
@@ -285,7 +285,7 @@ function Accountingerpsoftware() {
                     href="https://shadobooks.com/retail-erp-software"
                     className={styles.btnstyl}
                   >
-                    Learn more about Retail ➜
+                    Learn more about Retail Industry ➜
                   </Button>
                 </Space>
                 <p />
@@ -300,7 +300,7 @@ function Accountingerpsoftware() {
                     href="https://shadobooks.com/retail-erp-software"
                     className={styles.btnstyl}
                   >
-                    Learn more about Wholesale ➜
+                    Learn more about Wholesale Industry ➜
                   </Button>
                 </Space>
                 <p />

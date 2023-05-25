@@ -287,32 +287,53 @@ function Blog() {
                   </div>
                 </div>
 
-                <div className="col-lg-4 col-sm-12 pr-30 mb-50">
 
 
-                <div className="card-list-style-1">
-                    <Link href="/blog/automated-financial-processes">
-                      <a className="text-heading-6">
-                      Increasing Efficiency for Automated Financial Processes with Shadobooks ERP
+                <div className="col-lg-4 col-sm-6 pr-30 mb-50">
+                  <div className="card-grid-style-4">
+                    <div className="grid-4-img mb-20">
+                      <Link href="/blog/accounting-software-with-multi-currency-support">
+                        <a>
+                          <img
+                            src="/assets/imgs/page/blog/2/sdf1.jpg"
+                            alt="Agon"
+                          />
+                        </a>
+                      </Link>
+                    </div>
+                    <Link href="/blog/accounting-software-with-multi-currency-support">
+                      <a className="text-heading-4">
+                      The Advantages of Accounting Software with Multi-Currency Support
                       </a>
                     </Link>
+                  </div>
+                </div>
 
-                    <div className="blog-img-user">
-                      <div className="img-user img-user-round">
-                        <img
-                          src="/assets/imgs/page/homepage1/sb-logo.png"
-                          alt="Agon"
-                        />
-                      </div>
-                      <h4 className="text-body-lead color-gray-500">
-                        Shadobooks
-                      </h4>
-                      <p className="text-body-small color-gray-500">
-                        May 10, 2023
-                      </p>
+
+                <div className="col-lg-4 col-sm-6 pr-30 mb-50">
+                  <div className="card-grid-style-4">
+                    <div className="grid-4-img mb-20">
+                      <Link href="/blog/shadobooks-erp-in-construction-industry">
+                        <a>
+                          <img
+                            src="/assets/imgs/page/blog/2/sdf2.jpg"
+                            alt="Agon"
+                          />
+                        </a>
+                      </Link>
                     </div>
+                    <Link href="/blog/shadobooks-erp-in-construction-industry">
+                      <a className="text-heading-4">
+                      Enhancing Project Efficiency and Cost Management with Shadobooks ERP in Construction Industry
+                      </a>
+                    </Link>
+                  </div>
+                </div>
 
-                    <div className="style-1-img color-bg-9">
+
+                <div className="col-lg-4 col-sm-6 pr-30 mb-50">
+                  <div className="card-grid-style-4">
+                    <div className="grid-4-img mb-20">
                       <Link href="/blog/automated-financial-processes">
                         <a>
                           <img
@@ -322,9 +343,17 @@ function Blog() {
                         </a>
                       </Link>
                     </div>
+                    <Link href="/blog/automated-financial-processes">
+                      <a className="text-heading-4">
+                      Increasing Efficiency for Automated Financial Processes with Shadobooks ERP
+                      </a>
+                    </Link>
                   </div>
+                </div>
 
 
+
+                <div className="col-lg-4 col-sm-12 pr-30 mb-50">
 
                   <div className="card-list-style-1">
                     <Link href="/blog/data-privacy-in-accounting-software">
