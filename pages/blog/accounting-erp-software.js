@@ -194,7 +194,7 @@ function Accountingerpsoftware() {
           <div className={styles.jkimg}>
             <img
               className="img-responsive bdr-10 mt-10 mb-50"
-              src="/assets/imgs/page/homepage4/gh2.png"
+              src="/assets/imgs/page/homepage4/werqq.jpg"
               alt="shadobooks"
             />
           </div>
