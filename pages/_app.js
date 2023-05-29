@@ -117,6 +117,7 @@ function MyApp({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Jost&display=swap"
           rel="stylesheet"
         />
+        <meta name="google-site-verification" content="LA50pOuQYWNZ9asuojdXTThjeAfNj0Q5qbNIXmSsd44" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

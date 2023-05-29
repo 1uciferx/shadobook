@@ -69,6 +69,7 @@ function Index2() {
           name="twitter:image"
           content="/assets/imgs/page/homepage1/sb-logo.png"
         />
+        <meta name="google-site-verification" content="LA50pOuQYWNZ9asuojdXTThjeAfNj0Q5qbNIXmSsd44" />
         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/" /> */}
       </Helmet>
 
