@@ -36,7 +36,7 @@ function MyApp({ Component, pageProps }) {
     window.dataLayer = window.dataLayer || [];
     function gtag() {
       dataLayer.push(arguments);
-    }
+    };
     gtag('js', new Date());
     gtag('config', 'AW-11183033842');
 
