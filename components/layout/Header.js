@@ -84,7 +84,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                   <ul className="main-menu">
                     <li className="">
                       <Link href="/">
-                        <a className="active acuspad">Home</a>
+                        <a  className="active acuspad">iHome</a>
                       </Link>
                     </li>
                     <li className="has-children">

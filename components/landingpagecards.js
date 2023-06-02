@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from "../styles/landingpagecards.module.css";
 
-const Landingpagecards = () => {
+const  Landingpagecards = () => {
   const settings = {
     dots: false,
     infinite: true,

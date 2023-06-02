@@ -36,7 +36,7 @@ function Fadedcards() {
               </p>
             </div> 
              
-            <div
+            <div  
               className={styles.box}
               style={{
                 background: "linear-gradient(to bottom, #C2FFB8, #FFFFFF)",
@@ -92,7 +92,7 @@ function Fadedcards() {
         </div>
     
 
-      {/*  */}
+      {/*  */} 
     </>
   );
 }
