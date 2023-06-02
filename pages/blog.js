@@ -331,6 +331,53 @@ function Blog() {
                 </div>
 
 
+
+
+                
+                <div className="col-lg-4 col-sm-6 pr-30 mb-50">
+                  <div className="card-grid-style-4">
+                    <div className="grid-4-img mb-20">
+                      <Link href="/blog/ai-software-for-accounting">
+                        <a>
+                          <img
+                            src="/assets/imgs/page/blog/2/businessmen-working-strategic-planning.jpg"
+                            alt="Agon"
+                          />
+                        </a>
+                      </Link>
+                    </div>
+                    <Link href="/blog/ai-software-for-accounting">
+                      <a className="text-heading-4">
+                      How Artificial Intelligence is Revolutionizing Accounting Software
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+
+
+
+                <div className="col-lg-4 col-sm-6 pr-30 mb-50">
+                  <div className="card-grid-style-4">
+                    <div className="grid-4-img mb-20">
+                      <Link href="/blog/retail-erp-software">
+                        <a>
+                          <img
+                            src="/assets/imgs/page/blog/2/hands-writing-business-documents-desk-concept.jpg"
+                            alt="Agon"
+                          />
+                        </a>
+                      </Link>
+                    </div>
+                    <Link href="/blog/retail-erp-software">
+                      <a className="text-heading-4">
+                      Make the Future of Retail Industry Brighter with Shadobooks ERP
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+
+
+
                 <div className="col-lg-4 col-sm-6 pr-30 mb-50">
                   <div className="card-grid-style-4">
                     <div className="grid-4-img mb-20">
