@@ -3,6 +3,8 @@ import Layout from "../components/layout/Layout";
 import styles from "../styles/contactmanager.module.css";
 import { Breadcrumb, Layout as L } from "antd";
 const { Content } = L;
+import { useRouter } from "next/router";
+
 
 import React, { useState } from "react";
 import {
@@ -25,6 +27,8 @@ import { toast } from "react-toastify";
 
 
 function Contactmanager() {
+
+  const router = useRouter();
 
 
   const [value, setValue] = React.useState("");
@@ -52,6 +56,7 @@ function Contactmanager() {
     e.target.reset()
 
     toast.success("Message send");
+    router.push("/thankyou");
 
   };
 
@@ -98,9 +103,7 @@ function Contactmanager() {
                   </p>
                 </div>
 
-                {/* <div>
-                    <iframe   className={styles.msggif} src="https://embed.lottiefiles.com/animation/74453"></iframe>
-                    </div> */}
+               
               </Col>
 
 

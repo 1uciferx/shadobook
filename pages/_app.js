@@ -14,13 +14,12 @@ import "react-modal-video/css/modal-video.css";
 import "antd/dist/reset.css";
 // import 'antd/dist/antd.css';
 import FlagApp from "../components/FlagApp";
+import App from 'next/app';
 import Script from "next/script";
 import { useRouter } from "next/router";
-import * as gtag from "../lib/gtag";
 import { initializeTagManager } from "../lib/gtm";
 import { QueryClient, QueryClientProvider, Hydrate } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
-
 
 
 function MyApp({ Component, pageProps }) {
@@ -31,15 +30,31 @@ function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);
 
   const router = useRouter();
+
   useEffect(() => {
+    // Add the gtag initialization code here
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    };
+    gtag('js', new Date());
+    gtag('config', 'AW-11183033842');
+
+    // Trigger pageview event on route change
     const handleRouteChange = (url) => {
-      gtag.pageview(url);
+      gtag('config', 'AW-11183033842', { page_path: url });
     };
-    router.events.on("routeChangeComplete", handleRouteChange);
+    router.events.on('routeChangeComplete', handleRouteChange);
+
+    // Cleanup event listener on component unmount
     return () => {
-      router.events.off("routeChangeComplete", handleRouteChange);
+      router.events.off('routeChangeComplete', handleRouteChange);
     };
-  }, [router.events]);
+
+    
+  }, []);
+
+
 
   useEffect(() => {
     var tawk = new TawkTo("6360f2c8b0d6371309cca7c1", "1ggpb8oj2");
@@ -99,6 +114,13 @@ function MyApp({ Component, pageProps }) {
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Jost&display=swap"
+          rel="stylesheet"
+        />
+        <meta name="google-site-verification" content="LA50pOuQYWNZ9asuojdXTThjeAfNj0Q5qbNIXmSsd44" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -112,23 +134,8 @@ function MyApp({ Component, pageProps }) {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
       </Head>
 
-      <Script
-        strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
-      />
-      <Script
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${gtag.GA_TRACKING_ID}', {
-              page_path: window.location.pathname,
-            });
-          `,
-        }}
-      />
+    
+
       {!loading ? (
         <>
           <QueryClientProvider client={queryClient}>

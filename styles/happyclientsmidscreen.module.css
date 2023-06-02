@@ -1,0 +1,131 @@
+.headee1 {
+  color: green;
+  font-family: Segoe UI;
+ 
+  margin-bottom: -7%;
+}
+
+@media screen and (max-width: 1399px) {
+  .headee1 {
+    color: green;
+    font-family: Segoe UI;
+  
+    font-size: 26px !important;
+    margin-bottom: -7%;
+  }
+  .headee2 {
+    color: #b750d0;
+    font-family: Segoe UI;
+   
+    font-size: 26px !important;
+    margin-bottom: -7%;
+  }
+  .headee3 {
+    color: #417bee;
+    font-family: Segoe UI;
+   
+    font-size: 26px !important;
+  }
+  .headee4 {
+    color: #f7ac17;
+    font-family: Segoe UI;
+   
+    font-size: 26px !important;
+  }
+  .omggg2 {
+    width: 159px;
+    
+  }
+  .omggg {
+    width: 159px;
+   
+  }
+}
+
+.omggg {
+  width: 159px;
+ 
+}
+
+.headee2 {
+  color: #b750d0;
+  font-family: Segoe UI;
+  
+  margin-bottom: -7%;
+}
+
+.omggg2 {
+  width: 159px;
+ 
+}
+
+.headee3 {
+  color: #417bee;
+  font-family: Segoe UI;
+ 
+}
+
+.headee4 {
+  color: #f7ac17;
+  font-family: Segoe UI;
+ 
+}
+
+@media screen and (max-width: 1200px) {
+  .headee1 {
+    color: green;
+    font-family: Segoe UI;
+   
+  }
+  .headee2 {
+    color: #b750d0;
+    font-family: Segoe UI;
+   
+  }
+  .headee3 {
+    color: #417bee;
+    font-family: Segoe UI;
+   
+  }
+  .headee4 {
+    color: #f7ac17;
+    font-family: Segoe UI;
+   
+  }
+  .omggg {
+    width: 159px;
+   
+  }
+
+  .omggg2 {
+    width: 159px;
+   
+  }
+  .imgp4 {
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 32px;
+    color: #494949;
+    width: 93%;
+    height: 224px;
+  }
+}
+
+.imgp4 {
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #494949;
+  width: 93%;
+  height: 224px;
+}
+
+.head1{
+    font-family: Koh Santepheap;
+}
+
+.head2{
+    margin-top: 2%;
+}

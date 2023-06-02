@@ -12,7 +12,7 @@ function Mobilefooter() {
         <img
        className={styles.logo}
               alt=""
-              src="assets/imgs/page/homepage4/shadobookslogo.png "
+              src="/assets/imgs/page/homepage4/shadobookslogo.png "
             />
           {/* <p class="mb-30 footer-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad soluta facilis
             eos quia optio iusto odit atque eum tempore, quisquam officiis vero veniam hic,</p> */}

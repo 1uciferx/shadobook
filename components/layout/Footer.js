@@ -50,14 +50,15 @@ const Footer = () => {
                                         <a>Request a Demo</a>
                                     </Link>
                                 </li>
-                                <li>
-                                    <Link href="/page-contact">
-                                        <a>Contact us</a>
-                                    </Link>
-                                </li>
+                               
                                 <li>
                                     <Link href="https://wa.me/00971528722900">
                                         <a>Whats App Us</a>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="/request-a-demo">
+                                        <a>Contact us</a>
                                     </Link>
                                 </li>
                                 {/* <li>
