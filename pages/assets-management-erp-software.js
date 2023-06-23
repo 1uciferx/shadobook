@@ -10,16 +10,13 @@ function Terms() {
   return (
     <>
       <Head>
-        <title>
-          Best Assets Management ERP Software | Shadobooks ERP
-        </title>
+        <title>Best Assets Management ERP Software | Shadobooks ERP</title>
         <meta
           name="description"
           content="Fixed Assets Management ERP Software helps businesses track and manage their fixed assets. It also includes registration of these assets as part of this module."
         />
         <meta name="keywords" content="Assets Management ERP Software" />
         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/assets-management-erp-software" /> */}
-
       </Head>
 
       <Layout>

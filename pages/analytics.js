@@ -2,8 +2,7 @@
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
 import TestimonialSlider from "../components/slider/Testimonial";
-import Head from 'next/head';
-
+import Head from "next/head";
 
 function About2() {
   return (
@@ -18,8 +17,6 @@ function About2() {
               <div className="row">
                 <div className="col-lg-1"></div>
                 <div className="col-lg-11 box-banner-left">
-                  {/* <span className="tag-1 bg-6 color-green-900">What We Do, What You Get
-                                </span> */}
                   <h1 className="text-display-3 mt-30">
                     In-depth CRM analytics to<br></br> help you make smarter
                     business decisions
@@ -48,26 +45,67 @@ function About2() {
                   </div>
                 </div>
                 <div className="col-lg-6 d-none d-lg-block">
-                                    <div className="banner-imgs">
-                                        <div className="block-1 shape-2"><img src="/assets/imgs/page/about/2/banner.png" alt="Agon" /></div>
-                                        <div className="float-end col-lg-6 mt-90">
-                                            <div className="list-icons mt-50">
-                                                <div className="item-icon none-bd"><span className="icon-left"><img src="/assets/imgs/page/about/2/icon-project-done.svg" alt="Agon" /></span>
-                                                    <h4 className="text-heading-4"><span className="text-heading-3 color-green-900">+<span className="count">12</span>k</span></h4>
-                                                    <p className="text-body-text color-gray-500">Projects done</p>
-                                                </div>
-                                                <div className="item-icon none-bd"><span className="icon-left"><img src="/assets/imgs/page/about/2/icon-officer.svg" alt="Agon" /></span>
-                                                    <h4 className="text-heading-4"><span className="text-heading-3 color-green-900">+<span className="count">28</span>k</span></h4>
-                                                    <p className="text-body-text color-gray-500">Offices / Factories</p>
-                                                </div>
-                                                <div className="item-icon none-bd"><span className="icon-left"><img src="/assets/imgs/page/about/2/icon-constant.svg" alt="Agon" /></span>
-                                                    <h4 className="text-heading-4"><span className="text-heading-3 color-green-900">+<span className="count">15</span>k</span></h4>
-                                                    <p className="text-body-text color-gray-500">Constant clients</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                  <div className="banner-imgs">
+                    <div className="block-1 shape-2">
+                      <img
+                        src="/assets/imgs/page/about/2/banner.png"
+                        alt="Agon"
+                      />
+                    </div>
+                    <div className="float-end col-lg-6 mt-90">
+                      <div className="list-icons mt-50">
+                        <div className="item-icon none-bd">
+                          <span className="icon-left">
+                            <img
+                              src="/assets/imgs/page/about/2/icon-project-done.svg"
+                              alt="Agon"
+                            />
+                          </span>
+                          <h4 className="text-heading-4">
+                            <span className="text-heading-3 color-green-900">
+                              +<span className="count">12</span>k
+                            </span>
+                          </h4>
+                          <p className="text-body-text color-gray-500">
+                            Projects done
+                          </p>
+                        </div>
+                        <div className="item-icon none-bd">
+                          <span className="icon-left">
+                            <img
+                              src="/assets/imgs/page/about/2/icon-officer.svg"
+                              alt="Agon"
+                            />
+                          </span>
+                          <h4 className="text-heading-4">
+                            <span className="text-heading-3 color-green-900">
+                              +<span className="count">28</span>k
+                            </span>
+                          </h4>
+                          <p className="text-body-text color-gray-500">
+                            Offices / Factories
+                          </p>
+                        </div>
+                        <div className="item-icon none-bd">
+                          <span className="icon-left">
+                            <img
+                              src="/assets/imgs/page/about/2/icon-constant.svg"
+                              alt="Agon"
+                            />
+                          </span>
+                          <h4 className="text-heading-4">
+                            <span className="text-heading-3 color-green-900">
+                              +<span className="count">15</span>k
+                            </span>
+                          </h4>
+                          <p className="text-body-text color-gray-500">
+                            Constant clients
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -397,68 +435,7 @@ function About2() {
             </div>
           </div>
         </section>
-        {/* <section className="section-box mt-100">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-2 col-sm-1 col-12" />
-              <div className="col-lg-8 col-sm-10 col-12 text-center">
-                <h2 className="text-heading-1 color-gray-900">
-                  Frequently asked questions
-                </h2>
-                <p className="text-body-lead-large color-gray-600 mt-20">
-                  Feeling inquisitive? Have a read through some of our FAQs or
-                  contact our supporters for help
-                </p>
-              </div>
-              <div className="col-lg-2 col-sm-1 col-12" />
-            </div>
-          </div>
-          <div className="container mt-70">
-            <div className="row">
-              <div className="col-lg-1" />
-              <div className="col-lg-10">
-                <div className="row">
-                  <div className="col-lg-4 mb-50">
-                    <h4 className="text-heading-6 icon-leaf">People first</h4>
-                    <p className="text-body-excerpt color-gray-600 mt-15">
-                      The latest design trends meet hand-crafted templates.
-                    </p>
-                  </div>
-                  <div className="col-lg-4 mb-50">
-                    <h4 className="text-heading-6 icon-leaf">Agile approach</h4>
-                    <p className="text-body-excerpt color-gray-600 mt-15">
-                      The latest design trends meet hand-crafted templates.
-                    </p>
-                  </div>
-                  <div className="col-lg-4 mb-50">
-                    <h4 className="text-heading-6 icon-leaf">New mindset</h4>
-                    <p className="text-body-excerpt color-gray-600 mt-15">
-                      The latest design trends meet hand-crafted templates.
-                    </p>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-lg-12 mt-50">
-                    <div className="mt-100 text-center">
-                      <Link href="/#">
-                        <a className="btn btn-green-900 icon-arrow-right-white text-heading-6 color-white">
-                          Contact Us
-                        </a>
-                      </Link>
-
-                      <Link href="/#">
-                        <a className="btn btn-link text-heading-6">
-                          Support Center
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-1" />
-            </div>
-          </div>
-        </section> */}
+        
         <section className="section-box box-gray-100 mt-120 mb-20">
           <div className="container">
             <div className="icon-wave">
@@ -481,9 +458,8 @@ function About2() {
                     ShadoBooks
                   </h4>
                   <p className="text-body-text color-gray-600">
-                    Office 903, 9th floor, Damas
-                    Building,<br></br> Al Maktoum Road, Dubai,
-                    UAE
+                    Office 903, 9th floor, Damas Building,<br></br> Al Maktoum
+                    Road, Dubai, UAE
                   </p>
                   <br></br>
                   <p className="text-body-text color-gray-600">

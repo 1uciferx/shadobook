@@ -5,7 +5,7 @@ import styles from "../styles/Index.module.css";
 import Indexslider from "../components/indexslider";
 import Contactmanager from "../components/contactmanager";
 import Head from "next/head";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 
 function BlogSingle() {
   return (
@@ -16,50 +16,66 @@ function BlogSingle() {
           name="description"
           content="Take control of expenses with our expense management system. Real-time tracking, spending caps, and centralized management save time, cut costs, and prevent mistakes."
         />
-        <meta name="keywords" content="Expense management system"/>
+        <meta name="keywords" content="Expense management system" />
       </Head>
 
- {/* facebook and twitter meta graphs starts here */}
- <Helmet>
+      {/* facebook and twitter meta graphs starts here */}
+      <Helmet>
         <meta property="og:title" content="Shadobooks ERP" />
         <meta property="og:description" content="Shadobooks erp solutions." />
-        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
-        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta
+          property="og:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.facebook.com/shadobookscrm"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Shadobooks ERP" />
         <meta name="twitter:description" content="Shadobooks erp solutions." />
-        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta
+          name="twitter:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/expense-management-system" /> */}
-
       </Helmet>
 
       {/* facebook and twitter meta graphs ends here */}
 
       <Layout>
         <div>
-        <section className="section-box">
-          <div
-            className="banner-hero banner-head-image"
-            style={{
-              background: "url(assets/imgs/page/blog/ee1.jpg)",
-              objectFit: "cover",
-            }}
-          >
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-12">
-                  <h1 className="text-display-2 text-center color-white">
-                  Online Expense Management System 
-                  </h1>
-                  <p className="text-body-lead-large color-white mt-40  text-center">
-                  The expense module in Shadobooks ERP is a feature that allows businesses to manage and track their expenses efficiently. It provides a centralized platform for recording all types of expenses, including employee reimbursements, vendor bills, and other miscellaneous expenses. This module helps businesses to streamline their expense management process by providing tools for creating expense reports, tracking expenses against budgets, and generating insights into spending patterns. 
-                  </p>
+          <section className="section-box">
+            <div
+              className="banner-hero banner-head-image"
+              style={{
+                background: "url(assets/imgs/page/blog/ee1.jpg)",
+                objectFit: "cover",
+              }}
+            >
+              <div className="container">
+                <div className="row">
+                  <div className="col-lg-12">
+                    <h1 className="text-display-2 text-center color-white">
+                      Online Expense Management System
+                    </h1>
+                    <p className="text-body-lead-large color-white mt-40  text-center">
+                      The expense module in Shadobooks ERP is a feature that
+                      allows businesses to manage and track their expenses
+                      efficiently. It provides a centralized platform for
+                      recording all types of expenses, including employee
+                      reimbursements, vendor bills, and other miscellaneous
+                      expenses. This module helps businesses to streamline their
+                      expense management process by providing tools for creating
+                      expense reports, tracking expenses against budgets, and
+                      generating insights into spending patterns.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-         
+          </section>
+
           <section className="section-box mt-50 mb-50">
             <div className="container">
               <div className="row">
@@ -93,7 +109,15 @@ function BlogSingle() {
                       <br />
                       <br />➟ Greater compliance.
                       <br />
-                      <br />➟ Integrated with both the<span><a href="/crm-software"> sales</a></span> and<span><a href="/vendor-management-software"> purchase</a></span> modules
+                      <br />➟ Integrated with both the
+                      <span>
+                        <a href="/crm-software"> sales</a>
+                      </span>{" "}
+                      and
+                      <span>
+                        <a href="/vendor-management-software"> purchase</a>
+                      </span>{" "}
+                      modules
                     </p>
                     <p />
                     <br />

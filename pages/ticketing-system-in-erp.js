@@ -4,7 +4,7 @@ import Link from "next/link";
 import Layout from "../components/layout/Layout";
 import styles from "../styles/Index.module.css";
 import Newslider from "../components/newslider";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 import Contactmanager from "../components/contactmanager";
 import Head from "next/head";
 
@@ -13,22 +13,33 @@ function Index8() {
     <>
       <Head>
         <title>Ticketing System in ERP | Shadobooks ERP</title>
-        <meta name="description" content="Ticketing System in ERP module uses automated technology to help manage the ticketing process, registering, organizing, and ranking tickets into categories." />
-        <meta name="keywords" content="Ticketing System in ERP"/>
+        <meta
+          name="description"
+          content="Ticketing System in ERP module uses automated technology to help manage the ticketing process, registering, organizing, and ranking tickets into categories."
+        />
+        <meta name="keywords" content="Ticketing System in ERP" />
       </Head>
 
- {/* facebook and twitter meta graphs starts here */}
- <Helmet>
+      {/* facebook and twitter meta graphs starts here */}
+      <Helmet>
         <meta property="og:title" content="Shadobooks ERP" />
         <meta property="og:description" content="Shadobooks erp solutions." />
-        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
-        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta
+          property="og:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.facebook.com/shadobookscrm"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Shadobooks ERP" />
         <meta name="twitter:description" content="Shadobooks erp solutions." />
-        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta
+          name="twitter:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/ticketing-system-in-erp" /> */}
-
       </Helmet>
 
       {/* facebook and twitter meta graphs ends here */}
@@ -44,7 +55,7 @@ function Index8() {
                 <div className="col-lg-2"></div>
                 <div className="col-lg-8">
                   <h1 className="text-display-4 font-bold color-white text-center mt-30">
-                  Ticketing System in ERP
+                    Ticketing System in ERP
                   </h1>
                   <p className="text-body-lead-large text-center color-white mt-40 ">
                     Get a website to be found on the first page of Google to
@@ -65,7 +76,10 @@ function Index8() {
                   data-wow-delay=".1s"
                 >
                   <div className="product-image">
-                    <img src="assets/imgs/page/homepage1/asf.png" alt="Ticketing System in ERP" />
+                    <img
+                      src="assets/imgs/page/homepage1/asf.png"
+                      alt="Ticketing System in ERP"
+                    />
                   </div>
 
                   <div className="product-info">
@@ -73,9 +87,20 @@ function Index8() {
 
                     <div className="d-flex mt-20">
                       <p className="text-body-text color-gray-600 mt-5">
-                      Tickets are used to track the use of<span><a href="/fixed-assets-management-erp-software"> Company Assets</a></span> and any tasks related to asset management. 
-
-Tickets are used to generate<span><a href="/reports-module-in-erp"> Reports</a></span> on the progress of customer service inquiries and project progress. 
+                        Tickets are used to track the use of
+                        <span>
+                          <a href="/fixed-assets-management-erp-software">
+                            {" "}
+                            Company Assets
+                          </a>
+                        </span>{" "}
+                        and any tasks related to asset management. Tickets are
+                        used to generate
+                        <span>
+                          <a href="/reports-module-in-erp"> Reports</a>
+                        </span>{" "}
+                        on the progress of customer service inquiries and
+                        project progress.
                       </p>
                     </div>
                   </div>
@@ -131,7 +156,10 @@ Tickets are used to generate<span><a href="/reports-module-in-erp"> Reports</a><
                   data-wow-delay=".1s"
                 >
                   <div className="product-image">
-                    <img src="/assets/imgs/page/homepage1/as3.png" alt="Ticketing System in ERP" />
+                    <img
+                      src="/assets/imgs/page/homepage1/as3.png"
+                      alt="Ticketing System in ERP"
+                    />
                   </div>
 
                   <div className="product-info">

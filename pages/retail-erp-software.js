@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useState } from "react";
 import "react-modal-video/css/modal-video.css";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 import PriceTable from "../components/elements/PriceTable";
 import Layout from "../components/layout/Layout";
 const ModalVideo = dynamic(import("react-modal-video"), {
@@ -16,31 +16,36 @@ function Raw() {
   return (
     <>
       <Layout>
-
         {/* facebook and twitter meta graphs starts here */}
         <Helmet>
-
-
-          <title>
-            Retail ERP Software for Businesses | Shadobooks
-          </title>
+          <title>Retail ERP Software for Businesses | Shadobooks</title>
           <meta
             name="description"
             content=" Boost your sales speed with our powerful yet easy-to-use open source retail ERP software. "
           />
           <meta name="keywords" content="Retail ERP Software" />
 
-
           <meta property="og:title" content="Shadobooks ERP" />
           <meta property="og:description" content="Shadobooks erp solutions." />
-          <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
-          <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+          <meta
+            property="og:image"
+            content="/assets/imgs/page/homepage1/sb-logo.png"
+          />
+          <meta
+            property="og:url"
+            content="https://www.facebook.com/shadobookscrm"
+          />
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content="Shadobooks ERP" />
-          <meta name="twitter:description" content="Shadobooks erp solutions." />
-          <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+          <meta
+            name="twitter:description"
+            content="Shadobooks erp solutions."
+          />
+          <meta
+            name="twitter:image"
+            content="/assets/imgs/page/homepage1/sb-logo.png"
+          />
           {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/retail-erp-software" /> */}
-
         </Helmet>
 
         {/* facebook and twitter meta graphs ends here */}
@@ -51,7 +56,8 @@ function Raw() {
               <div className="row">
                 <div className="col-lg-7">
                   <h1 className="text-display-2 color-gray">
-                    Avail the best CRM for Retail and Wholesalers from ShadoBooks
+                    Avail the best CRM for Retail and Wholesalers from
+                    ShadoBooks
                   </h1>
                   <p
                     className="text-body-lead-large color-gray mt-30 pr-40"
@@ -67,54 +73,9 @@ function Raw() {
                     understanding of all customer actions, including sales,
                     purchases, finances, and the delivery of items.
                   </p>
-                  {/* <div className="mt-40">
-                    <Link href="/page-about-1">
-                      <a className="btn btn-pink icon-arrow-right-white text-heading-6">
-                        Get Start
-                      </a>
-                    </Link>
-                    <Link href="/page-contact">
-                      <a className="btn btn-link color-white text-heading-6 btn-link-inter">
-                        Learn More
-                      </a>
-                    </Link>
-                  </div> */}
-                  {/* <div className="mt-60">
-                    <div className="row">
-                      <div className="col-lg-3 col-sm-4 col-4">
-                        <h3 className="text-heading-2 color-white mb-15">
-                          5000+
-                        </h3>
-                        <p className="text-body-normal color-gray-300">
-                          Happy Clients
-                        </p>
-                      </div>
-                      <div className="col-lg-3 col-sm-4 col-4">
-                        <h3 className="text-heading-2 color-white mb-15">
-                          756+
-                        </h3>
-                        <p className="text-body-normal color-gray-300">
-                          Project Done
-                        </p>
-                      </div>
-                      <div className="col-lg-3 col-sm-4 col-4">
-                        <h3 className="text-heading-2 color-white mb-15">
-                          100%
-                        </h3>
-                        <p className="text-body-normal color-gray-300">
-                          Client Satisfaction
-                        </p>
-                      </div>
-                    </div> 
-                  </div>*/}
                 </div>
                 <div className="col-lg-5 d-none d-lg-block">
                   <div className="banner-imgs">
-                    {/* <a
-                      className="popup-youtube btn-play-video-2"
-                      onClick={() => setOpen(true)}
-                    ></a> */}
-
                     <img
                       className="img-responsive shape-2"
                       alt="ShadoBooks"
@@ -157,12 +118,6 @@ function Raw() {
                     forecasting, allowing you to access all your data and
                     determine stock levels.
                   </p>
-                  {/* <div className="box-image-inner bg-color-1">
-                    <img
-                      src="/assets/imgs/page/homepage2/temp-1.png"
-                      alt="ShadoBooks"
-                    />
-                  </div> */}
                 </div>
               </div>
 
@@ -179,12 +134,6 @@ function Raw() {
                     our CRM tool to achieve precise forecasting and pipeline
                     management.
                   </p>
-                  {/* <div className="box-image-inner bg-color-2">
-                    <img
-                      src="/assets/imgs/page/homepage2/temp-2.png"
-                      alt="ShadoBooks"
-                    />
-                  </div> */}
                 </div>
               </div>
             </div>
@@ -204,12 +153,6 @@ function Raw() {
                     then deciding which customers need and spending some on
                     their requirements.
                   </p>
-                  {/* <div className="box-image-inner bg-color-1">
-                    <img
-                      src="/assets/imgs/page/homepage2/temp-1.png"
-                      alt="ShadoBooks"
-                    />
-                  </div> */}
                 </div>
               </div>
               <div className="col-lg-6 col-sm-12">
@@ -225,12 +168,6 @@ function Raw() {
                     clients and instantly improve customer service. We offer
                     access to complete purchase history and customer actions.
                   </p>
-                  {/* <div className="box-image-inner bg-color-2">
-                    <img
-                      src="/assets/imgs/page/homepage2/temp-2.png"
-                      alt="ShadoBooks"
-                    />
-                  </div> */}
                 </div>
               </div>
             </div>
@@ -249,12 +186,6 @@ function Raw() {
                     illuminates rather than perplexes. We provide practical,
                     insightful, and meaningful sales metrics.
                   </p>
-                  {/* <div className="box-image-inner bg-color-1">
-                    <img
-                      src="/assets/imgs/page/homepage2/temp-1.png"
-                      alt="ShadoBooks"
-                    />
-                  </div> */}
                 </div>
               </div>
               <div className="col-lg-6 col-sm-12">
@@ -272,12 +203,6 @@ function Raw() {
                     specific performance data of each store and shopping
                     channel.
                   </p>
-                  {/* <div className="box-image-inner bg-color-2">
-                    <img
-                      src="/assets/imgs/page/homepage2/temp-2.png"
-                      alt="ShadoBooks"
-                    />
-                  </div> */}
                 </div>
               </div>
             </div>
@@ -299,12 +224,6 @@ function Raw() {
                     stores, online sales platforms, offices, and warehouses to
                     maximize sales prospects.
                   </p>
-                  {/* <div className="box-image-inner bg-color-1">
-                    <img
-                      src="/assets/imgs/page/homepage2/temp-1.png"
-                      alt="ShadoBooks"
-                    />
-                  </div> */}
                 </div>
               </div>
             </div>
@@ -330,18 +249,6 @@ function Raw() {
                     />
                   </div>
                 </div>
-
-                {/* <p className="text-body-lead-large color-gray-600 mt-30">
-                  Aliquam a augue suscipit, luctus neque purus ipsum neque at
-                  dolor primis libero tempus, blandit
-                </p>
-                <div className="mt-40">
-                  <Link href="/page-about-1">
-                    <a className="btn btn-default btn-white icon-arrow-right">
-                      Learn More
-                    </a>
-                  </Link>
-                </div> */}
               </div>
               <div className="col-lg-7">
                 <div className="row" data-masonry='{"percentPosition": true }'>
@@ -362,19 +269,6 @@ function Raw() {
                           grow with your company by being adaptable.
                         </p>
                       </div>
-
-                      {/* <div className="box-img-user">
-                        <div className="img-user img-user-round">
-                          <img
-                            src="/assets/imgs/page/homepage2/user-1.png"
-                            alt="ShadoBooks"
-                          />
-                        </div>
-                      
-                        <p className="text-body-text-md">
-                          Biffco Enterprises Ltd.
-                        </p>
-                      </div> */}
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12">
@@ -394,19 +288,6 @@ function Raw() {
                           connection with your business.
                         </p>
                       </div>
-
-                      {/* <div className="box-img-user">
-                        <div className="img-user img-user-round">
-                          <img
-                            src="/assets/imgs/page/homepage2/user-1.png"
-                            alt="ShadoBooks"
-                          />
-                        </div>
-                      
-                        <p className="text-body-text-md">
-                          Biffco Enterprises Ltd.
-                        </p>
-                      </div> */}
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12">
@@ -427,19 +308,6 @@ function Raw() {
                           for your consumers.
                         </p>
                       </div>
-
-                      {/* <div className="box-img-user">
-                        <div className="img-user img-user-round">
-                          <img
-                            src="/assets/imgs/page/homepage2/user-1.png"
-                            alt="ShadoBooks"
-                          />
-                        </div>
-                      
-                        <p className="text-body-text-md">
-                          Biffco Enterprises Ltd.
-                        </p>
-                      </div> */}
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12">

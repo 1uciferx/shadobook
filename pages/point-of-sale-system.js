@@ -18,7 +18,6 @@ function POS() {
         />
         <meta name="keywords" content="Point of Sale System" />
         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/point-of-sale-system" /> */}
-
       </Head>
 
       <Layout>
@@ -31,7 +30,9 @@ function POS() {
             <div className="container mt-40">
               <div className="row">
                 <div className="col-lg-6 mt-30">
-                  <h1 className="text-display-4 color-white">Best Point of Sale System</h1>
+                  <h1 className="text-display-4 color-white">
+                    Best Point of Sale System
+                  </h1>
                   <div className="list-social-banner">
                     <Link href="https://www.facebook.com/shadobookscrm">
                       <a className="social-banner facebook hover-up"></a>
@@ -72,7 +73,10 @@ function POS() {
                 <div className="grid-4-img">
                   {/* <Link href="#"> */}
                   <a>
-                    <img src="assets/imgs/page/about/8/POSOL.png" alt="Point of Sale System" />
+                    <img
+                      src="assets/imgs/page/about/8/POSOL.png"
+                      alt="Point of Sale System"
+                    />
                   </a>
 
                   {/* </Link> */}
@@ -96,7 +100,13 @@ function POS() {
                   phone number, order date, customer, etc.
                   <br />
                   <br />➟ Click the save button, The order list will now be
-                  visible in list view.  After the sale is complete, if a consumer has a query about a product, they may quickly create a<span><a href="/estimates-management-software"> Ticket</a></span> from the POS.
+                  visible in list view. After the sale is complete, if a
+                  consumer has a query about a product, they may quickly create
+                  a
+                  <span>
+                    <a href="/estimates-management-software"> Ticket</a>
+                  </span>{" "}
+                  from the POS.
                 </p>
               </div>
             </div>
@@ -151,7 +161,10 @@ function POS() {
           <div className="container mt-120">
             <div className="row">
               <div className="col-lg-6 col-md-12 col-sm-12 block-img-we-do text-center">
-                <img src="assets/imgs/page/about/8/POSTD.png" alt="Point of Sale System" />
+                <img
+                  src="assets/imgs/page/about/8/POSTD.png"
+                  alt="Point of Sale System"
+                />
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 block-we-do">
                 <h3 className="text-heading-2 ">Trade Discount</h3>
@@ -193,7 +206,10 @@ function POS() {
           <div className="container mt-120">
             <div className="row">
               <div className="col-lg-6 col-md-12 col-sm-12 block-img-we-do text-center">
-                <img src="assets/imgs/page/about/8/POSDS.png" alt="Point of Sale System" />
+                <img
+                  src="assets/imgs/page/about/8/POSDS.png"
+                  alt="Point of Sale System"
+                />
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 block-we-do">
                 <h3 className="text-heading-2 ">Diary sync</h3>
@@ -222,7 +238,12 @@ function POS() {
                   <div className="col-lg-6 col-sm-6 col-12 mt-10">
                     <p className="text-body-excerpt color-gray-600 icon-leaf">
                       Click on each tab to access the relevant information, All
-                      information is displayed in list format.Product (from store information + image), Description, Price, Orders and<span><a href="/inventory-management-system"> Inventory</a></span> management.
+                      information is displayed in list format.Product (from
+                      store information + image), Description, Price, Orders and
+                      <span>
+                        <a href="/inventory-management-system"> Inventory</a>
+                      </span>{" "}
+                      management.
                     </p>
                   </div>
                 </div>
@@ -235,7 +256,10 @@ function POS() {
           <div className="container mt-120">
             <div className="row">
               <div className="col-lg-6 col-md-12 col-sm-12 block-img-we-do text-center">
-                <img src="assets/imgs/page/about/8/POSMOD.png" alt="Point of Sale System" />
+                <img
+                  src="assets/imgs/page/about/8/POSMOD.png"
+                  alt="Point of Sale System"
+                />
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 block-we-do">
                 <h3 className="text-heading-2 ">Shift Management</h3>
@@ -274,7 +298,10 @@ function POS() {
           <div className="container mt-120">
             <div className="row">
               <div className="col-lg-6 col-md-12 col-sm-12 block-img-we-do text-center">
-                <img src="assets/imgs/page/about/8/POSECOM.png" alt="Point of Sale System" />
+                <img
+                  src="assets/imgs/page/about/8/POSECOM.png"
+                  alt="Point of Sale System"
+                />
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 block-we-do">
                 <h3 className="text-heading-2 ">E-Commerce</h3>
@@ -301,7 +328,11 @@ function POS() {
                   <div className="col-lg-6 col-sm-6 col-12 mt-10">
                     <p className="text-body-excerpt color-gray-600 icon-leaf">
                       This will open the online store login window to conduct
-                      business. Companies can monitor and gather information on sales and customer data that is associated with the use of<span><a href="/webhook"> Web hooks.</a></span>
+                      business. Companies can monitor and gather information on
+                      sales and customer data that is associated with the use of
+                      <span>
+                        <a href="/webhook"> Web hooks.</a>
+                      </span>
                     </p>
                   </div>
                 </div>
@@ -314,7 +345,10 @@ function POS() {
           <div className="container mt-120">
             <div className="row">
               <div className="col-lg-6 col-md-12 col-sm-12 block-img-we-do text-center">
-                <img src="assets/imgs/page/about/8/POSSET.png" alt="Point of Sale System" />
+                <img
+                  src="assets/imgs/page/about/8/POSSET.png"
+                  alt="Point of Sale System"
+                />
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 block-we-do">
                 <h3 className="text-heading-2 ">Settings</h3>

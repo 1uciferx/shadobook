@@ -14,22 +14,23 @@ function Manu() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
-    <Head>
+      <Head>
         <title>
-        Elevate Your Business with Shadobooks Manufacturing ERP Software
+          Elevate Your Business with Shadobooks Manufacturing ERP Software
         </title>
         <meta
           name="description"
           content="Shadobooks' manufacturing ERP software can help increase businesses profits and maintain customer satisfaction. Check out our ERP and MRP software now!"
         />
-        <meta name="keywords" content="Manufacturing ERP Software"/>
+        <meta name="keywords" content="Manufacturing ERP Software" />
         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/manufacturing-software" /> */}
-
-
       </Head>
       <Layout>
         <section className="section-box">
-          <div className="banner-hero banner-3 " style={{backgroundColor:"#F1F3F3"}}>
+          <div
+            className="banner-hero banner-3 "
+            style={{ backgroundColor: "#F1F3F3" }}
+          >
             <div className="container">
               <div className="text-center">
                 <h1 className="text-display-2 color-gray-900 mt-40 ">
@@ -60,13 +61,10 @@ function Manu() {
               <div className="col-lg-1" />
               <div className="col-lg-10">
                 <div className="box-image">
-                  {/* <a
-                    className="popup-youtube btn-play-video btn-play-middle"
-                    onClick={() => setOpen(true)}
-                  ></a> */}
                   <img
                     className="img-responsive shape-2 square border border-primary"
-                    src="assets/imgs/page/homepage4/manu.jpg " style={{borderRadius:"30px",width:"100%"}}
+                    src="assets/imgs/page/homepage4/manu.jpg "
+                    style={{ borderRadius: "30px", width: "100%" }}
                     alt="ShadoBooks"
                   />
                 </div>
@@ -75,7 +73,10 @@ function Manu() {
             </div>
           </div>
         </div>
-        <div className="banner-hero banner-1 mt-20 " style={{backgroundColor:"#F1F3F3"}}>
+        <div
+          className="banner-hero banner-1 mt-20 "
+          style={{ backgroundColor: "#F1F3F3" }}
+        >
           <div className="container">
             <div className="row">
               <div className="col-lg-1 col-sm-1 col-12" />
@@ -153,9 +154,7 @@ function Manu() {
                 <h2 className="text-heading-1 color-gray-900 mb-50"></h2>
               </div>
 
-              <h2 className="text-heading-4 color-gray-900 mb-5">
-                HR Records
-              </h2>
+              <h2 className="text-heading-4 color-gray-900 mb-5">HR Records</h2>
 
               <p className="text-body-lead-large color-gray-600 mt-10">
                 Using our records and CRM tool, you may quickly generate all the
@@ -223,21 +222,38 @@ function Manu() {
           <div className="col-lg-1 col-sm-1 col-12" />
         </div>
 
-        <div className="banner-hero banner-4 mt-100"  style={{backgroundColor:"#F1F3F3"}}>
+        <div
+          className="banner-hero banner-4 mt-100"
+          style={{ backgroundColor: "#F1F3F3" }}
+        >
           <div className="container mt-50">
             <div className="row">
               <div className="col-lg-10 col-sm-10 col-12 text-center">
-                <h2 className="text-heading-1 color-gray-900 mb-50 " style={{marginLeft:"150px"}}>
+                <h2
+                  className="text-heading-1 color-gray-900 mb-50 "
+                  style={{ marginLeft: "150px" }}
+                >
                   Why choose our ShadoBook?
                 </h2>
               </div>
-              <div className="col-lg-4 col-md-12 col-sm-12 hover-up mt-3 square border border-primary" style={{backgroundColor:"#AEBBBA", borderRadius:"30px",marginLeft:"120px"}}>
+              <div
+                className="col-lg-4 col-md-12 col-sm-12 hover-up mt-3 square border border-primary"
+                style={{
+                  backgroundColor: "#AEBBBA",
+                  borderRadius: "30px",
+                  marginLeft: "120px",
+                }}
+              >
                 <div className=" mt-50">
-                  <div className="item-icon" style={{textAlign:"center", marginBottom:"50px"}}>
+                  <div
+                    className="item-icon"
+                    style={{ textAlign: "center", marginBottom: "50px" }}
+                  >
                     <span className="icon-left ">
                       <img
                         src="/assets/imgs/page/homepage2/term.png"
-                        alt="ShadoBooks" style={{height:"75px"}}
+                        alt="ShadoBooks"
+                        style={{ height: "75px" }}
                       />
                     </span>
                     <h4 className="text-heading-4">
@@ -245,7 +261,7 @@ function Manu() {
                     </h4>
                     <p
                       className="text-body-text color-gray-600 mt-20"
-                      style={{ fontSize: "20px", textAlign:"center" }}
+                      style={{ fontSize: "20px", textAlign: "center" }}
                     >
                       Business owners or managers need to emphasize the value of
                       collaboration. We speak most passionately about the
@@ -257,13 +273,24 @@ function Manu() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-12 col-sm-12  hover-up mt-3 square border border-primary" style={{backgroundColor:"#AEBBBA", borderRadius:"30px", marginLeft:"200px"}}>
+              <div
+                className="col-lg-4 col-md-12 col-sm-12  hover-up mt-3 square border border-primary"
+                style={{
+                  backgroundColor: "#AEBBBA",
+                  borderRadius: "30px",
+                  marginLeft: "200px",
+                }}
+              >
                 <div className=" mt-50">
-                  <div className="item-icon" style={{textAlign:"center", marginBottom:"50px"}}>
+                  <div
+                    className="item-icon"
+                    style={{ textAlign: "center", marginBottom: "50px" }}
+                  >
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/homepage2/decission.png"
-                        alt="ShadoBooks" style={{height:"75px"}}
+                        alt="ShadoBooks"
+                        style={{ height: "75px" }}
                       />
                     </span>
                     <h4 className="text-heading-4">
@@ -271,7 +298,7 @@ function Manu() {
                     </h4>
                     <p
                       className="text-body-text color-gray-600 mt-20"
-                      style={{ fontSize: "20px" , textAlign:"center"}}
+                      style={{ fontSize: "20px", textAlign: "center" }}
                     >
                       In the real world, we frequently need to make quick,
                       crucial judgments while fully aware that our information
@@ -281,21 +308,33 @@ function Manu() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-12 col-sm-12  hover-up square border border-primary " style={{backgroundColor:"#AEBBBA", borderRadius:"30px",marginTop:"60px",marginLeft:"120px" }}>
+              <div
+                className="col-lg-4 col-md-12 col-sm-12  hover-up square border border-primary "
+                style={{
+                  backgroundColor: "#AEBBBA",
+                  borderRadius: "30px",
+                  marginTop: "60px",
+                  marginLeft: "120px",
+                }}
+              >
                 <div className=" mt-50">
-                <div className="item-icon" style={{textAlign:"center", marginBottom:"50px"}}>
-                    <span className="icon-left" >
+                  <div
+                    className="item-icon"
+                    style={{ textAlign: "center", marginBottom: "50px" }}
+                  >
+                    <span className="icon-left">
                       <img
                         src="/assets/imgs/page/homepage2/boost.png"
-                        alt="ShadoBooks"  style={{height:"75px"}}
+                        alt="ShadoBooks"
+                        style={{ height: "75px" }}
                       />
                     </span>
-                    <h4 className="text-heading-4" >
+                    <h4 className="text-heading-4">
                       Boosting the value of your company
                     </h4>
                     <p
                       className="text-body-text color-gray-600 mt-20"
-                      style={{ fontSize: "20px", textAlign:"center" }}
+                      style={{ fontSize: "20px", textAlign: "center" }}
                     >
                       We deal with companies that are gaining traction in their
                       particular industry or market and have an exit strategy in
@@ -308,13 +347,25 @@ function Manu() {
                 </div>
               </div>
 
-              <div className="col-lg-4 col-md-12 col-sm-12  hover-up square border border-primary " style={{backgroundColor:"#AEBBBA", borderRadius:"30px",marginLeft:"200px",marginTop:"60px"}}>
+              <div
+                className="col-lg-4 col-md-12 col-sm-12  hover-up square border border-primary "
+                style={{
+                  backgroundColor: "#AEBBBA",
+                  borderRadius: "30px",
+                  marginLeft: "200px",
+                  marginTop: "60px",
+                }}
+              >
                 <div className="mt-50">
-                <div className="item-icon" style={{textAlign:"center", marginBottom:"50px"}}>
+                  <div
+                    className="item-icon"
+                    style={{ textAlign: "center", marginBottom: "50px" }}
+                  >
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/homepage2/profit.png"
-                        alt="ShadoBooks" style={{height:"75px"}}
+                        alt="ShadoBooks"
+                        style={{ height: "75px" }}
                       />
                     </span>
                     <h4 className="text-heading-4">Increase Profits</h4>
@@ -335,7 +386,10 @@ function Manu() {
           </div>
         </div>
 
-        <section className="section-box mt-100 banner-hero banner-4  "  style={{backgroundColor:"#F1F3F3"}}>
+        <section
+          className="section-box mt-100 banner-hero banner-4  "
+          style={{ backgroundColor: "#F1F3F3" }}
+        >
           <div className="container">
             <div className="row">
               <div className="col-lg-12 col-sm-12 col-12 text-center">

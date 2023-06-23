@@ -7,39 +7,43 @@ import styles from "../styles/Index.module.css";
 import Newslider from "../components/newslider";
 import Contactmanager from "../components/contactmanager";
 import Head from "next/head";
-import { Helmet } from 'react-helmet';
-
+import { Helmet } from "react-helmet";
 
 function Contracts() {
   return (
     <>
       <Head>
-        <title>
-        Contract Tracking Software | Shadobooks
-        </title>
+        <title>Contract Tracking Software | Shadobooks</title>
         <meta
           name="description"
           content="Boost productivity with our contract tracking software. Automate the process with real-time updates, configurable workflows, and automated reminders."
         />
-        <meta name="keywords" content="Contract tracking software"/>
+        <meta name="keywords" content="Contract tracking software" />
         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/contract-tracking-software" /> */}
-
       </Head>
 
       {/* facebook and twitter meta graphs starts here */}
       <Helmet>
         <meta property="og:title" content="Shadobooks ERP" />
         <meta property="og:description" content="Shadobooks erp solutions." />
-        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
-        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta
+          property="og:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.facebook.com/shadobookscrm"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Shadobooks ERP" />
         <meta name="twitter:description" content="Shadobooks erp solutions." />
-        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta
+          name="twitter:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
       </Helmet>
 
       {/* facebook and twitter meta graphs ends here */}
-
 
       <Layout>
         <section className="section-box">
@@ -54,7 +58,7 @@ function Contracts() {
               <div className="row">
                 <div className="col-lg-12">
                   <h1 className="text-display-2 text-center color-white">
-                  Contract Tracking Software
+                    Contract Tracking Software
                   </h1>
                   <p className="text-body-lead-large color-white mt-40  text-center">
                     Shadobooks CRM offers a curated section that is dedicated to
@@ -107,12 +111,31 @@ function Contracts() {
           <div className="row">
             <div className="col-lg-2 col-sm-1 col-12" />
             <div className="col-lg-8 col-sm-10 col-12 text-center mt-10">
-              <img alt="Contract tracking software" src="assets/imgs/page/homepage4/convec.jpg " />
+              <img
+                alt="Contract tracking software"
+                src="assets/imgs/page/homepage4/convec.jpg "
+              />
             </div>
 
             <p className="text-body-lead-medium color-gray-600 mt-20 text-center">
               CRM contracts are digital documents that formalise relationships
-              between businesses and their customers.This module enables businesses to store, manage and track their contracts, and also helps businesses to ensure compliance with contractual obligations. The<span><a href="/inventory-management-system"> Inventory module</a></span> is linked to the Contract module, allowing businesses to track inventory related to specific contracts. The <span><a href="/Knowledge-management-software"> Knowledge Base module</a></span> is linked to the Contract module, allowing businesses to store important information related to their contracts.
+              between businesses and their customers.This module enables
+              businesses to store, manage and track their contracts, and also
+              helps businesses to ensure compliance with contractual
+              obligations. The
+              <span>
+                <a href="/inventory-management-system"> Inventory module</a>
+              </span>{" "}
+              is linked to the Contract module, allowing businesses to track
+              inventory related to specific contracts. The{" "}
+              <span>
+                <a href="/Knowledge-management-software">
+                  {" "}
+                  Knowledge Base module
+                </a>
+              </span>{" "}
+              is linked to the Contract module, allowing businesses to store
+              important information related to their contracts.
             </p>
             <div className="col-lg-2 col-sm-1 col-12" />
           </div>
@@ -149,7 +172,10 @@ function Contracts() {
           <div className="row">
             <div className="col-lg-2 col-sm-1 col-12" />
             <div className="col-lg-8 col-sm-10 col-12 text-center mt-10">
-              <img alt="Contract tracking software" src="assets/imgs/page/homepage4/convec2.jpg " />
+              <img
+                alt="Contract tracking software"
+                src="assets/imgs/page/homepage4/convec2.jpg "
+              />
             </div>
             <p className="text-body-lead-large color-gray-600 text-center mt-20">
               All your vendor list is updated here along with all the associated

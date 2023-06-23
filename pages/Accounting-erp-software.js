@@ -9,10 +9,10 @@ import Imagepopup from "../components/layout/Imagepopup";
 import styles from "../styles/Index.module.css";
 import Newslider from "../components/newslider";
 import Contactmanager from "../components/contactmanager";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 import OfferSlider from "../components/slider/Offer";
 import TestimonialSlider from "../components/slider/Testimonial";
-import Head from 'next/head';
+import Head from "next/head";
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
@@ -28,42 +28,48 @@ function Home() {
   return (
     <>
       <Head>
-        <title>Accounting ERP Software for Streamlined Financial Management | Shadobooks</title>
+        <title>
+          Accounting ERP Software for Streamlined Financial Management |
+          Shadobooks
+        </title>
         <meta
           name="description"
           content="Optimize financial management with accounting ERP software. Automate processes, gain insights, and streamline operations for efficient business performance."
         />
-         <meta name="keywords" content=" Accounting ERP software"/>
-         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/accounting-erp-software" /> */}
-
-     
+        <meta name="keywords" content=" Accounting ERP software" />
       </Head>
 
-       {/* facebook and twitter meta graphs starts here */}
-       <Helmet>
-          <meta property="og:title" content="Shadobooks ERP" />
-          <meta property="og:description" content="Shadobooks erp solutions." />
-          <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
-          <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Shadobooks ERP" />
-          <meta name="twitter:description" content="Shadobooks erp solutions." />
-          <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
-        </Helmet>
+      {/* facebook and twitter meta graphs starts here */}
+      <Helmet>
+        <meta property="og:title" content="Shadobooks ERP" />
+        <meta property="og:description" content="Shadobooks erp solutions." />
+        <meta
+          property="og:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.facebook.com/shadobookscrm"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Shadobooks ERP" />
+        <meta name="twitter:description" content="Shadobooks erp solutions." />
+        <meta
+          name="twitter:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
+      </Helmet>
 
-        {/* facebook and twitter meta graphs ends here */}
+      {/* facebook and twitter meta graphs ends here */}
 
-      
       <Layout>
         <section className="section-box">
-          <div role="img" aria-label="Accounting ERP software"
+          <div
+            role="img"
+            aria-label="Accounting ERP software"
             className="banner-hero banner-head-image"
-            style={{ background: "url('assets/background27.jpg')"}}
-            
+            style={{ background: "url('assets/background27.jpg')" }}
           >
-            
-
-     
             <div className="container">
               <div className="row">
                 <div className="col-lg-10">
@@ -136,9 +142,12 @@ function Home() {
                           <br></br>
                           <p>
                             ➟ It typically includes a variety of widgets and
-                            charts that display information such as income and 
-                            <span><a href="/Accounting-erp-software"> expenses</a></span>, profit and loss, and balances for
-                            different accounts.
+                            charts that display information such as income and
+                            <span>
+                              <a href="/Accounting-erp-software"> expenses</a>
+                            </span>
+                            , profit and loss, and balances for different
+                            accounts.
                           </p>
                           <br></br>
                           <p>
@@ -502,7 +511,16 @@ function Home() {
                         </p>
                         <br></br>
                         <p>
-                          ➟The<span><a href="/utility-management-software"> Utility module</a></span> can be used to generate and maintain records of payments and other transactions that are associated with the Accounting module. 
+                          ➟The
+                          <span>
+                            <a href="/utility-management-software">
+                              {" "}
+                              Utility module
+                            </a>
+                          </span>{" "}
+                          can be used to generate and maintain records of
+                          payments and other transactions that are associated
+                          with the Accounting module.
                         </p>
                       </p>
                     </div>

@@ -3,7 +3,6 @@ import Link from "next/link";
 import Layout from "../components/layout/Layout";
 import styles from "../styles/Blog.module.css";
 
- 
 function Streamlinefinancialoperations() {
   return (
     <>
@@ -30,8 +29,6 @@ function Streamlinefinancialoperations() {
           </section>
           <section className="section-box mt-20 mb-50">
             <div className="container">
-            
-
               <div className="row">
                 <div className="col-lg-2" />
                 <div className="col-lg-8">
@@ -67,7 +64,7 @@ function Streamlinefinancialoperations() {
                       financial operations.{" "}
                     </p>
                     <p />
-                
+
                     <p />
                     <h3 className="text-heading-4 mt-50">
                       How Shadobooks ERP Systems Streamline Financial Operations{" "}
@@ -132,7 +129,7 @@ function Streamlinefinancialoperations() {
                           className="img-responsive bdr-10 mt-20"
                           src="assets/imgs/page/blog/rr3.jpg"
                           alt="Shadobooks ERP solutions"
-                        /> 
+                        />
                       </div>
                       <div className="col-lg-8">
                         <p>
@@ -306,134 +303,7 @@ function Streamlinefinancialoperations() {
                     <p />
 
                     <div className="border-bottom mt-50 mb-50" />
-                    {/* <div>
-                      <Link href="/blog-1">
-                        <a className="btn btn-tag mr-10">Nature</a>
-                      </Link>
-                      <Link href="/blog-2">
-                        <a className="btn btn-tag mr-10">Beauty</a>
-                      </Link>
-                      <Link href="/blog-1">
-                        <a className="btn btn-tag mr-10">Travel tips</a>
-                      </Link>
-                      <Link href="/blog-2">
-                        <a className="btn btn-tag">Houes</a>
-                      </Link>
-                    </div> */}
                   </div>
-
-                  {/* <div className="mt-60">
-                    <h4 className="text-heading-2">Comments</h4>
-                    <div className="box-comments">
-                      <ul>
-                        <li>
-                          <div className="item-comment">
-                            <div className="blog-img-user">
-                              <div className="img-user img-user-round">
-                                <img
-                                  src="/assets/imgs/page/blog/single/user-1.png"
-                                  alt="Shadobooks ERP solutions"
-                                />
-                              </div>
-                              <h4 className="text-heading-6 color-gray-900">
-                                Robert Fox
-                              </h4>
-                              <p className="text-body-small color-gray-500">
-                                August 25, 2022
-                              </p>
-                            </div>
-                            <div className="text-comment">
-                              White white dreamy drama tically place everything
-                              although. Place out apartment afternoon whimsical
-                              kinder, little romantic joy we flowers handmade.
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="item-comment">
-                            <div className="blog-img-user">
-                              <div className="img-user img-user-round">
-                                <img
-                                  src="/assets/imgs/page/blog/single/user-2.png"
-                                  alt="Shadobooks ERP solutions"
-                                />
-                              </div>
-                              <h4 className="text-heading-6 color-gray-900">
-                                Robert Fox
-                              </h4>
-                              <p className="text-body-small color-gray-500">
-                                August 25, 2022
-                              </p>
-                            </div>
-                            <div className="text-comment">
-                              White white dreamy drama tically place everything
-                              although. Place out apartment afternoon whimsical
-                              kinder, little romantic joy we flowers handmade.
-                            </div>
-                          </div>
-                          <ul>
-                            <li>
-                              <div className="item-comment">
-                                <div className="blog-img-user">
-                                  <div className="img-user img-user-round">
-                                    <img
-                                      src="/assets/imgs/page/blog/single/user-3.png"
-                                      alt="Shadobooks ERP solutions"
-                                    />
-                                  </div>
-                                  <h4 className="text-heading-6 color-gray-900">
-                                    Robert Fox
-                                  </h4>
-                                  <p className="text-body-small color-gray-500">
-                                    August 25, 2022
-                                  </p>
-                                </div>
-                                <div className="text-comment">
-                                  White white dreamy drama tically place
-                                  everything although. Place out apartment
-                                  afternoon whimsical kinder, little romantic
-                                  joy we flowers handmade.
-                                </div>
-                              </div>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="border-bottom mt-50 mb-50" />
-                    <h4 className="text-heading-4 color-gray-900 mb-40">
-                      Leave a comment
-                    </h4>
-                    <div className="form-comment">
-                      <form action="#">
-                        <div className="form-group">
-                          <textarea
-                            className="input-comment"
-                            placeholder="Write a comment"
-                          />
-                        </div>
-                        <div className="row">
-                          <div className="col-lg-5 col-md-6 col-sm-7 mb-30">
-                            <label className="box-agree">
-                              <input
-                                className="chkbox-aggree"
-                                type="checkbox"
-                              />
-                              <span className="text-body-text-md color-gray-1200">
-                                Save my name, email, and website in this browser
-                                for the next time I comment.
-                              </span>
-                            </label>
-                          </div>
-                          <div className="col-lg-7 col-md-6 col-sm-5 text-end">
-                            <button className="btn btn-black shape-square btn-md text-body-text">
-                              Post comment
-                            </button>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div> */}
                 </div>
               </div>
             </div>
@@ -441,11 +311,12 @@ function Streamlinefinancialoperations() {
         </div>
 
         <div className="text-center">
-        <Link href="/request-a-demo">
-        <button className={styles.button89} role="button">BOOK A FREE DEMO</button>
-        </Link>
+          <Link href="/request-a-demo">
+            <button className={styles.button89} role="button">
+              BOOK A FREE DEMO
+            </button>
+          </Link>
         </div>
-       
       </Layout>
     </>
   );

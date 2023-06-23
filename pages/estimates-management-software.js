@@ -11,8 +11,8 @@ import Indexslider from "../components/indexslider";
 import Contactmanager from "../components/contactmanager";
 import TeamSlider from "../components/slider/Team";
 import TestimonialSlider from "../components/slider/Testimonial";
-import Head from 'next/head';
-import { Helmet } from 'react-helmet';
+import Head from "next/head";
+import { Helmet } from "react-helmet";
 
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
@@ -24,22 +24,33 @@ function EstimateReq() {
     <>
       <Head>
         <title> Estimates Management Software | Shadobooks</title>
-        <meta name="description" content="Our Estimates Management Software automates the entire process, saving you time & resources, while providing accurate and professional-looking estimates that will impress your clients." />
-        <meta name="keywords" content="Estimates management software"/>
+        <meta
+          name="description"
+          content="Our Estimates Management Software automates the entire process, saving you time & resources, while providing accurate and professional-looking estimates that will impress your clients."
+        />
+        <meta name="keywords" content="Estimates management software" />
         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/estimates-management-software" /> */}
-
       </Head>
 
- {/* facebook and twitter meta graphs starts here */}
- <Helmet>
+      {/* facebook and twitter meta graphs starts here */}
+      <Helmet>
         <meta property="og:title" content="Shadobooks ERP" />
         <meta property="og:description" content="Shadobooks erp solutions." />
-        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
-        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta
+          property="og:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.facebook.com/shadobookscrm"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Shadobooks ERP" />
         <meta name="twitter:description" content="Shadobooks erp solutions." />
-        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta
+          name="twitter:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
       </Helmet>
 
       {/* facebook and twitter meta graphs ends here */}
@@ -50,7 +61,9 @@ function EstimateReq() {
             <div className="container">
               <div className="row">
                 <div className="col-lg-6">
-                  <h1 className="text-display-3 mt-90">Estimates Management Software</h1>
+                  <h1 className="text-display-3 mt-90">
+                    Estimates Management Software
+                  </h1>
                   <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
                     The estimate request function in Shadobooks CRM allows you
                     to develop forms that your customers can use to get a
@@ -59,9 +72,6 @@ function EstimateReq() {
                     types of fields that may be adapted to your company's needs.
                   </p>
                   <div className="mt-40">
-                    {/* <Link href="/page-service-1"><a className="btn btn-black shape-square icon-arrow-right-white">SIGNUP NOW
-                                        </a></Link> */}
-
                     <Link href="/page-contact">
                       <a className="btn btn-link color-gray-900 icon-arrow-right text-heading-6">
                         Get Started
@@ -71,8 +81,6 @@ function EstimateReq() {
                 </div>
                 <div className="col-lg-6 d-none d-lg-block">
                   <div className="banner-imgs">
-                    {/* <div className="block-1 shape-1"><img src="/assets/imgs/page/about/1/banner2.png" alt="Agon" />
-                                        </div> */}
                     <img
                       className="img-responsive shape-2"
                       style={{ borderRadius: "30px", height: "70vh" }}
@@ -169,7 +177,11 @@ function EstimateReq() {
                   <br />➟ On the estimate request page, you may find a list of
                   forms.
                   <br />
-                  <br />➟  It offers an array of reports related to project progress, contracts, budgets, variances, forecasting, and <span><a href="/expense-management-system"> expenses. </a></span>
+                  <br />➟ It offers an array of reports related to project
+                  progress, contracts, budgets, variances, forecasting, and{" "}
+                  <span>
+                    <a href="/expense-management-system"> expenses. </a>
+                  </span>
                 </p>
               </div>
             </div>

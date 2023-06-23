@@ -23,8 +23,7 @@ import Cards4 from "../components/cards4";
 import Cards4midscreen from "../components/cards4midscreen";
 import Cintoslider from "../components/cintoslider";
 import Testimonialindex from "../components/testimonialindex";
-import Image from 'next/image'
-
+import Image from "next/image";
 
 function Index2() {
   const [isOpen, setOpen] = useState(false);
@@ -69,7 +68,10 @@ function Index2() {
           name="twitter:image"
           content="/assets/imgs/page/homepage1/sb-logo.png"
         />
-        <meta name="google-site-verification" content="LA50pOuQYWNZ9asuojdXTThjeAfNj0Q5qbNIXmSsd44" />
+        <meta
+          name="google-site-verification"
+          content="LA50pOuQYWNZ9asuojdXTThjeAfNj0Q5qbNIXmSsd44"
+        />
         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/" /> */}
       </Helmet>
 
@@ -110,104 +112,41 @@ function Index2() {
                 <div className="col-lg-5 d-none d-lg-block">
                   <div className="banner-imgs">
                     <div className="block-1">
-
                       <Image
                         src="/assets/imgs/page/homepage2/balancenew.png"
                         alt="Shadobooks erp"
                         width={400}
                         height={470}
                       />
-
                     </div>
                     <div className={styles.heroside}>
                       <div className="block-2 ">
-
                         <Image
                           src="/assets/imgs/page/homepage2/paymentnew.png"
                           alt="Shadobooks erp"
                           width={600}
                           height={660}
-
                         />
-
                       </div>
                     </div>
 
-                    <div style={{ borderRadius: "20px", marginTop: "40px" }}
-                      className="img-responsive">
+                    <div
+                      style={{ borderRadius: "20px", marginTop: "40px" }}
+                      className="img-responsive"
+                    >
                       <Image
                         src="/assets/imgs/page/homepage2/bannernew.png"
                         alt="Shadobooks erp"
                         width={520}
                         height={620}
-
                       />
                     </div>
-
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-
-        {/*old UI model hero page */}
-
-        {/* <div className="section-box">
-            <div className="mt-50 mb-40">
-              <div className="container">
-                <div className="row">
-                  <div className="col-lg-6 mt-50 pb-120">
-                  
-                    <h1
-                      className=" mt-50"
-                      style={{
-                        fontFamily: "Inter",
-                        fontWeight: "700",
-                        fontSize: "39px",
-                        lineHeight: "66px",
-                      }}
-                    >
-                      Best CRM Platform
-                    </h1>
-                    <p
-                      className="mt-10 pr-4"
-                      style={{
-                        fontFamily: "Inter",
-                        color: "#4B4D6D",
-                        fontWeight: "500",
-                        fontSize: "21px",
-                        lineHeight: "32px",
-                      }}
-                    >
-                      Accounting Headache? SAY GOODBYE
-                     
-                      <br />
-                      Driving enterprise operations towards better ease of
-                    
-                      operations with an all-in-one accounting platform.
-                    </p>
-                    <Link href="/request-a-demo">
-                      <div className={styles.buttonstart}>
-                        <button class={styles.button}>
-                          <span>Get Started </span>
-                        </button>
-                      </div>
-                    </Link>
-                  </div>
-                  <div className="col-lg-6 d-none d-lg-block">
-                    <div className={styles.iijj}>
-                      <img
-                        className="img-banner img-responsive"
-                        alt="shadobooks"
-                        src="assets/imgs/page/homepage4/erw.png"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
 
         {/* slidermenu which the features section */}
 
@@ -285,8 +224,6 @@ function Index2() {
           <Cards3smallscreen />
         </div>
 
-        {/* clients testimonals area */}
-
         {/* testimonals starts from here */}
 
         <div>
@@ -321,7 +258,6 @@ function Index2() {
             <div className="row">
               <div className="col-lg-1 col-sm-1 col-12" />
               <div className="col-lg-10 col-sm-10 col-12 text-center">
-                {/* <h2 className="text-heading-1 color-gray-900 mb-10">Latest Blogs</h2> */}
                 <p className="text-body-lead-large color-gray-600 mt-20">
                   Our Latest Blogs
                 </p>
@@ -334,8 +270,6 @@ function Index2() {
             <div className="row">
               <div className="col-lg-4 col-sm-12 pr-30 mb-50">
                 <div className="card-grid-style-4">
-                  {/* <span className="tag-dot">Blog 1</span> */}
-
                   <div className="grid-4-img color-bg-9">
                     <Link href="/blog/accounting-erp-software">
                       <a>
@@ -344,14 +278,13 @@ function Index2() {
                           alt="Shadobooks"
                           width={400}
                           height={270}
-
                         />
                       </a>
                     </Link>
                   </div>
                   <Link href="/blog/accounting-erp-software">
                     <a className="text-heading-4">
-                    A Complete Overview on Shadobooks ERP
+                      A Complete Overview on Shadobooks ERP
                     </a>
                   </Link>
                 </div>
@@ -363,15 +296,12 @@ function Index2() {
                   <div className="grid-4-img color-bg-9">
                     <Link href="/blog/professional-accounting-software">
                       <a>
-
                         <Image
                           src="/assets/imgs/page/blog/aa1.jpg"
                           alt="Shadobooks"
                           width={400}
                           height={270}
-
                         />
-
                       </a>
                     </Link>
                   </div>
@@ -385,20 +315,15 @@ function Index2() {
 
               <div className="col-lg-4 col-sm-12 pr-30 mb-50">
                 <div className="card-grid-style-4">
-                  {/* <span className="tag-dot">Blog 3</span> */}
-
                   <div className="grid-4-img color-bg-9">
                     <Link href="/blog/accounting-erp">
                       <a>
-
                         <Image
                           src="/assets/imgs/page/homepage4/blog3header.jpg"
                           alt="Shadobooks"
                           width={400}
                           height={270}
-
                         />
-
                       </a>
                     </Link>
                   </div>
@@ -410,10 +335,6 @@ function Index2() {
                 </div>
               </div>
             </div>
-            {/* <div className="mt-20 mb-30 text-center">
-                                <Link href="/blog-1"><a className="btn btn-black icon-arrow-right-white">Load more posts
-                                </a></Link>
-                            </div> */}
           </div>
           <div className={styles.dai}>
             <div className="text-center">

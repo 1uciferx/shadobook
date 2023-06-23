@@ -1,8 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
-import Head from 'next/head';
-
+import Head from "next/head";
 
 function Terms() {
   return (
@@ -310,9 +309,10 @@ function Terms() {
                         By the terms of the agreement stated hereof, both the
                         parties involved agree not to share any confidential
                         information involved to any parties without the consent
-                        of the other. Both the parties should ensure that all their employees, representatives, or
-                        any associated personnel complies with this
-                        confidentiality obligation under all conditions.
+                        of the other. Both the parties should ensure that all
+                        their employees, representatives, or any associated
+                        personnel complies with this confidentiality obligation
+                        under all conditions.
                         <br></br>
                         <br></br>
                         In any event, where either of the parties is to disclose
@@ -339,9 +339,9 @@ function Terms() {
                         <br></br>
                         The customer also understands that any data they enter
                         into our applications or any customization they make
-                        will only be available to them for free trial period, post which
-                        they would have to pay to retrieve or continue using any
-                        of what we offer. <br></br>
+                        will only be available to them for free trial period,
+                        post which they would have to pay to retrieve or
+                        continue using any of what we offer. <br></br>
                         <br></br>
                         We also hereby vouch that the customer's usage with our
                         application will not be interrupted at any point in time

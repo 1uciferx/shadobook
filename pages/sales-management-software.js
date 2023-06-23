@@ -6,31 +6,41 @@ import FeaturedSlider from "../components/slider/Featured";
 import styles from "../styles/Index.module.css";
 import Newslider from "../components/newslider";
 import Contactmanager from "../components/contactmanager";
-import Head from 'next/head';
-import { Helmet } from 'react-helmet';
+import Head from "next/head";
+import { Helmet } from "react-helmet";
 
 function Sales() {
   return (
     <>
       <Head>
-        <title>Sales Management  Software with Shadobooks ERP</title>
-        <meta name="description" content="Elevate your sales with our sales management software. Optimize your process with lead management, customer tracking, and more for business growth and success." />
-        <meta name="keywords" content="Sales Management software"/>
-
+        <title>Sales Management Software with Shadobooks ERP</title>
+        <meta
+          name="description"
+          content="Elevate your sales with our sales management software. Optimize your process with lead management, customer tracking, and more for business growth and success."
+        />
+        <meta name="keywords" content="Sales Management software" />
       </Head>
 
       {/* facebook and twitter meta graphs starts here */}
       <Helmet>
         <meta property="og:title" content="Shadobooks ERP" />
         <meta property="og:description" content="Shadobooks erp solutions." />
-        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
-        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta
+          property="og:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.facebook.com/shadobookscrm"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Shadobooks ERP" />
         <meta name="twitter:description" content="Shadobooks erp solutions." />
-        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta
+          name="twitter:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/sales-management-software" /> */}
-
       </Helmet>
 
       {/* facebook and twitter meta graphs ends here */}
@@ -46,7 +56,9 @@ function Sales() {
             <div className="container">
               <div className="row">
                 <div className="col-lg-7 mt-10 pb-120">
-                  <h1 className="text-display-2 color-white">Sales Management  Software with Shadobooks ERP</h1>
+                  <h1 className="text-display-2 color-white">
+                    Sales Management Software with Shadobooks ERP
+                  </h1>
                   <p className="text-body-lead-large color-white mt-30 pr-40">
                     The sales interface enables hyper management of all your
                     prospects, proposals, estimations, quotations, payments,
@@ -118,13 +130,26 @@ function Sales() {
                 <div className="col-lg-7 col-md-12">
                   <h3 className="text-heading-3">Estimate</h3>
                   <p className="text-body-text mt-20 icon-leaf">
-                    In Shadobook ERP, navigate to the sales module and select "estimate”. Click the "New Estimate" tab to create a new <span><a href="/estimates-management-software"> Estimate Request.</a></span>
+                    In Shadobook ERP, navigate to the sales module and select
+                    "estimate”. Click the "New Estimate" tab to create a new{" "}
+                    <span>
+                      <a href="/estimates-management-software">
+                        {" "}
+                        Estimate Request.
+                      </a>
+                    </span>
                   </p>
                   <p className="text-body-text mt-20 icon-leaf">
                     Once the proposal is saved, it will appear in the form of a
                     list in the proposal overview page. Enter all the necessary
-                    details such as customer, <span><a href="/estimates-management-software"> estimate number</a></span>, amount, project,
-                    date, etc.
+                    details such as customer,{" "}
+                    <span>
+                      <a href="/estimates-management-software">
+                        {" "}
+                        estimate number
+                      </a>
+                    </span>
+                    , amount, project, date, etc.
                   </p>
                   <p className="text-body-text mt-20 icon-leaf">
                     Once the estimate is saved, it will appear in the form of a
@@ -328,7 +353,12 @@ function Sales() {
                   </p>
                   <p className="text-body-text mt-30 icon-leaf">
                     The item overview page can be used to manage the items, and
-                    track progress and performance of your team.The item is linked with both the inventory and<span><a href="/vendor-management-software"> purchase</a></span>  modules.
+                    track progress and performance of your team.The item is
+                    linked with both the inventory and
+                    <span>
+                      <a href="/vendor-management-software"> purchase</a>
+                    </span>{" "}
+                    modules.
                   </p>
                 </div>
 

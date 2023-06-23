@@ -2,8 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
-import Head from 'next/head';
-
+import Head from "next/head";
 
 function Index7() {
   return (
@@ -86,7 +85,9 @@ function Index7() {
                       {/* <span className="text-display-3 color-green-900">
                         <span className="count">38</span>k+
                       </span> */}
-                      <div className="text-body-quote">Managing tasks effectively</div>
+                      <div className="text-body-quote">
+                        Managing tasks effectively
+                      </div>
                       <p className="text-body-text color-gray-500 mt-10">
                         We always provide people a complete solution upon
                         focused of any business

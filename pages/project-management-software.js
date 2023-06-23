@@ -10,7 +10,7 @@ import Contactmanager from "../components/contactmanager";
 import Layout from "../components/layout/Layout";
 import Checkmeslider from "../components/slider/Checkmeslider";
 import Head from "next/head";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
@@ -21,22 +21,33 @@ function Project() {
     <>
       <Head>
         <title>Online Project Management Software | Shadobooks ERP</title>
-        <meta name="description" content="Shadobooks ERP Projects is a cloud-based project management software that helps teams to organize, monitor progress and achieve project goals." />
-        <meta name="keywords" content="Project Management software"/>
+        <meta
+          name="description"
+          content="Shadobooks ERP Projects is a cloud-based project management software that helps teams to organize, monitor progress and achieve project goals."
+        />
+        <meta name="keywords" content="Project Management software" />
         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/project-management-software" /> */}
-
       </Head>
 
- {/* facebook and twitter meta graphs starts here */}
- <Helmet>
+      {/* facebook and twitter meta graphs starts here */}
+      <Helmet>
         <meta property="og:title" content="Shadobooks ERP" />
         <meta property="og:description" content="Shadobooks erp solutions." />
-        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
-        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta
+          property="og:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.facebook.com/shadobookscrm"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Shadobooks ERP" />
         <meta name="twitter:description" content="Shadobooks erp solutions." />
-        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta
+          name="twitter:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
       </Helmet>
 
       {/* facebook and twitter meta graphs ends here */}
@@ -51,7 +62,9 @@ function Project() {
             <div className="container mt-40">
               <div className="row">
                 <div className="col-lg-6 mt-30">
-                  <h1 className="text-display-4 color-white">Online Project Management<br></br> Software </h1>
+                  <h1 className="text-display-4 color-white">
+                    Online Project Management<br></br> Software{" "}
+                  </h1>
                   <div className="list-social-banner">
                     <Link href="https://www.facebook.com/shadobookscrm">
                       <a className="social-banner facebook hover-up"></a>
@@ -133,7 +146,10 @@ function Project() {
                   data-wow-delay=".1s"
                 >
                   <div className="product-image">
-                    <img src="assets/imgs/page/homepage1/rrr1.png" alt="Project Management software"/>
+                    <img
+                      src="assets/imgs/page/homepage1/rrr1.png"
+                      alt="Project Management software"
+                    />
                   </div>
 
                   <div className="product-info">
@@ -167,7 +183,10 @@ function Project() {
                   data-wow-delay=".1s"
                 >
                   <div className="product-image">
-                    <img src="assets/imgs/page/homepage1/rrr2.png" alt="Project Management software"/>
+                    <img
+                      src="assets/imgs/page/homepage1/rrr2.png"
+                      alt="Project Management software"
+                    />
                   </div>
 
                   <div className="product-info">
@@ -184,7 +203,12 @@ function Project() {
                         project outline that describes key elements about the
                         project. A project overview contains general information
                         such as the project name, customer information, and
-                        sponsors. Projects can receive notifications from<span><a href="/webhook"> Web hooks</a></span>, which are automated messages triggered by specific events or updates. 
+                        sponsors. Projects can receive notifications from
+                        <span>
+                          <a href="/webhook"> Web hooks</a>
+                        </span>
+                        , which are automated messages triggered by specific
+                        events or updates.
                       </p>
                     </div>
                   </div>
@@ -193,21 +217,6 @@ function Project() {
             </div>
           </div>
         </div>
-
-        {/* <div className={styles.mmc}>
-          <section className="section-box">
-            <div className="container mt-10">
-              <div className="row">
-                <div className="col-lg-9 col-sm-8">
-                  <p className="text-heading-4 ">Our modules on Purchase</p>
-                </div>
-              </div>
-            </div>
-            <div className="container mt-80">
-              <Sliderforprojects />
-            </div>
-          </section>
-        </div> */}
 
         {/* code for the mobile screen and ipad views, which is disabled for laptop */}
 
@@ -493,7 +502,13 @@ function Project() {
                       ➟ Some common synonyms of task are assignment, chore,
                       duty, job, and stint.
                       <br />
-                      <br /> ➟  While all these words mean "a piece of work to be done,"<span><a href="/task-management-software"> task</a></span> implies work imposed by a person in authority or an employer or by circumstance. 
+                      <br /> ➟ While all these words mean "a piece of work to be
+                      done,"
+                      <span>
+                        <a href="/task-management-software"> task</a>
+                      </span>{" "}
+                      implies work imposed by a person in authority or an
+                      employer or by circumstance.
                     </p>
                   </div>
                 </div>
@@ -735,7 +750,10 @@ function Project() {
                       <br />➟ When you launch a project from the top tabs, you
                       will see a Files tab. Click on the files tab to easily
                       drag and drop the file you need to upload for the project.
-                      The module responsible for storing uploaded files is the<span><a href="/erp-document-management"> file manager. </a></span>
+                      The module responsible for storing uploaded files is the
+                      <span>
+                        <a href="/erp-document-management"> file manager. </a>
+                      </span>
                     </p>
                   </div>
                 </div>
@@ -877,50 +895,6 @@ function Project() {
             </div>
           </div>
         </div>
-
-        {/* <div className="section-box mt-40">
-          <div className="container text-center">
-            <h2 className="text-heading-3 color-gray-900">
-              Our modules on Sales
-            </h2>
-          </div>
-        </div> */}
-
-        {/* <div className="section-box">
-          <div className="container mt-30">
-            <div className="row">
-              <div className="col-xl-5 col-lg-6 col-sm-12 mb-30">
-                <img
-                  className="bdrd-16 img-responsive"
-                  src="assets/imgs/page/homepage6/img-1.png"
-                  alt="Agon"
-                />
-              </div>
-              <div className="col-xl-7 col-lg-6 col-sm-12 block-we-do mt-20">
-                <div className="row mt-20">
-                  <div className="col-lg-6 col-sm-6 col-12 mt-20">
-                    <h4 className="text-heading-6 icon-leaf">Proposals</h4>
-                  </div>
-                  <div className="col-lg-6 col-sm-6 col-12 mt-20">
-                    <h4 className="text-heading-6 icon-leaf">Estimates</h4>
-                  </div>
-                  <div className="col-lg-6 col-sm-6 col-12 mt-20">
-                    <h4 className="text-heading-6 icon-leaf">Invoices</h4>
-                  </div>
-                  <div className="col-lg-6 col-sm-6 col-12 mt-20">
-                    <h4 className="text-heading-6 icon-leaf">Subscriptions</h4>
-                  </div>
-                  <div className="col-lg-6 col-sm-6 col-12 mt-20">
-                    <h4 className="text-heading-6 icon-leaf">Expenses</h4>
-                  </div>
-                  <div className="col-lg-6 col-sm-6 col-12 mt-20">
-                    <h4 className="text-heading-6 icon-leaf">Credit Notes</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
 
         <div className={styles.modslider}>
           <div className="mt-50">

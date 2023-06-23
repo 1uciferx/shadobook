@@ -13,6 +13,7 @@ import { Helmet } from "react-helmet";
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
 });
+
 function Index6() {
   const [isOpen, setOpen] = useState(false);
   return (
@@ -23,9 +24,8 @@ function Index6() {
           name="description"
           content="The Webhook API allows you to subscribe to events happening in Shadobooks ERP and receive an HTTP request to an endpoint you configure whenever those events occur."
         />
-         <meta name="keywords" content="Webhook"/>
-         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/webhook" /> */}
-
+        <meta name="keywords" content="Webhook" />
+        {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/webhook" /> */}
       </Head>
 
       {/* facebook and twitter meta graphs starts here */}
@@ -63,7 +63,7 @@ function Index6() {
               <div className="row">
                 <div className="col-lg-7 mt-50 pb-120">
                   <h1 className="text-display-2 mt-20 color-white">
-                  ERP Webhook Module
+                    ERP Webhook Module
                   </h1>
                   <p className="text-body-lead-large color-white mt-30 pr-40">
                     Shadobooks CRM offers webhooks services that will allow HTTP
@@ -174,14 +174,12 @@ function Index6() {
                 <span className="tag-dot">Log History</span>
                 <div className="text-heading-4">What is Log History ?</div>
                 <div className="grid-4-img">
-                  {/* <Link href="#"> */}
                   <a>
                     <img
                       src="assets/imgs/page/homepage1/az3.png"
                       alt=" Webhook"
                     />
                   </a>
-
                   {/* </Link> */}
                 </div>
                 <div className="text-body-text">

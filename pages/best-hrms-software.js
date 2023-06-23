@@ -8,7 +8,7 @@ import Newslider from "../components/newslider";
 import Contactmanager from "../components/contactmanager";
 import Hrrecordsslider from "../components/slider/hrrecordsslider";
 import Head from "next/head";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 import { Col, Row } from "antd";
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
@@ -17,30 +17,37 @@ function Index6() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
-
       <Head>
         <title>Best HRMS Software | Shadobooks ERP </title>
         <meta
           name="description"
           content="Shadobooks ERP offers best HRMS software to help businesses manage their HR and achieve their objectives. Our HR software simplifies HR operations."
         />
-        <meta name="keywords" content="Best hrms Software"/>
+        <meta name="keywords" content="Best hrms Software" />
         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/best-hrms-software" /> */}
       </Head>
       {/* facebook and twitter meta graphs starts here */}
       <Helmet>
         <meta property="og:title" content="Shadobooks ERP" />
         <meta property="og:description" content="Shadobooks erp solutions." />
-        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
-        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta
+          property="og:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.facebook.com/shadobookscrm"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Shadobooks ERP" />
         <meta name="twitter:description" content="Shadobooks erp solutions." />
-        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta
+          name="twitter:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
       </Helmet>
 
       {/* facebook and twitter meta graphs ends here */}
-
 
       <Layout>
         <div className="section-box">
@@ -158,7 +165,19 @@ function Index6() {
                   </div>
                   <div className="col-lg-12 col-sm-6 col-12 mt-20">
                     <h4 className="text-heading-6 icon-leaf">
-                      Allows governmental entities to get information on accidents, absenteeism, labour turnover, wages, and<span><a href="/sales-rep-erp-software"> salary.</a></span> Employees can also access HR information on the<span><a href="/Knowledge-management-software"> Knowledge Base,</a></span> such as benefits, policies, and procedures.
+                      Allows governmental entities to get information on
+                      accidents, absenteeism, labour turnover, wages, and
+                      <span>
+                        <a href="/sales-rep-erp-software"> salary.</a>
+                      </span>{" "}
+                      Employees can also access HR information on the
+                      <span>
+                        <a href="/Knowledge-management-software">
+                          {" "}
+                          Knowledge Base,
+                        </a>
+                      </span>{" "}
+                      such as benefits, policies, and procedures.
                     </h4>
                   </div>
                 </div>

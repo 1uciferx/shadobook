@@ -8,23 +8,27 @@ import Intro2 from "../components/slider/Intro2";
 import styles from "../styles/Purchase.module.css";
 import Newslider from "../components/newslider";
 import Contactmanager from "../components/contactmanager";
-import Head from 'next/head';
-
+import Head from "next/head";
 
 function Purchase() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
       <Layout>
+        <Head>
+          <meta
+            name="description"
+            content=" Efficiently manage your vendors with our vendor management software. Streamline communication, track performance, and ensure compliance with contract terms."
+          />
+          {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/purchase-management-software" /> */}
 
-      <Head>
-        <meta name="description" content=" Efficiently manage your vendors with our vendor management software. Streamline communication, track performance, and ensure compliance with contract terms." />
-        {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/purchase-management-software" /> */}
-
-        <title>Top Purchase Management Software | Shadobooks</title>
-        <meta name="description" content="  Efficiently manage your vendors with our vendor management software. Streamline communication, track performance, and ensure compliance with contract terms." />
-        <meta name="keywords" content="Purchase management software"/>
-      </Head>
+          <title>Top Purchase Management Software | Shadobooks</title>
+          <meta
+            name="description"
+            content="  Efficiently manage your vendors with our vendor management software. Streamline communication, track performance, and ensure compliance with contract terms."
+          />
+          <meta name="keywords" content="Purchase management software" />
+        </Head>
 
         <div className="section-box">
           <div
@@ -36,7 +40,9 @@ function Purchase() {
             <div className="container">
               <div className="row">
                 <div className="col-lg-7 mt-10 pb-120">
-                  <h1 className="text-display-2 color-white">Top Purchase Management Software</h1>
+                  <h1 className="text-display-2 color-white">
+                    Top Purchase Management Software
+                  </h1>
                   <p className="text-body-lead-large color-white mt-30 pr-40">
                     The Purchase feature in Shadobooks streamlines procurement
                     by simplifying the purchasing process, reducing the
@@ -75,9 +81,17 @@ function Purchase() {
                       Enter details such as the commodity code, name, warehouse
                       name, unit name, etc.
                     </p>
-                   
+
                     <p className="text-body-text mt-30 icon-leaf">
-                    The item is linked with both the<span><a href="/inventory-management-system"> inventory</a></span> and<span><a href="/crm-software"> Sales</a></span> modules.
+                      The item is linked with both the
+                      <span>
+                        <a href="/inventory-management-system"> inventory</a>
+                      </span>{" "}
+                      and
+                      <span>
+                        <a href="/crm-software"> Sales</a>
+                      </span>{" "}
+                      modules.
                     </p>
                   </div>
                 </div>
@@ -285,9 +299,12 @@ function Purchase() {
                   <div className="box-optimized">
                     <h3 className="text-heading-3">Contracts</h3>
                     <p className="text-body-text mt-30 icon-leaf">
-                      To view <span><a href="/contract-tracking-software"> contracts</a></span> in Shadobook ERP: Go to the purchase
-                      module, Click "contracts", The list of contracts will
-                      appear
+                      To view{" "}
+                      <span>
+                        <a href="/contract-tracking-software"> contracts</a>
+                      </span>{" "}
+                      in Shadobook ERP: Go to the purchase module, Click
+                      "contracts", The list of contracts will appear
                     </p>
 
                     <p className="text-body-text mt-30 icon-leaf">
@@ -402,47 +419,34 @@ function Purchase() {
                     </p>
                   </div>
                 </div>
-
-                {/* <div className={styles.modslider}>
-            <div className="mt-90">
-              <Indexslider />
-              <div className="text-center">
-                <Link href="/our-product">
-                  <button
-                    type="button"
-                    class="btn btn-outline-dark"
-                    style={{ padding: "10px 20px" , marginBottom:"40px" }}
-                  >
-                    Show More
-                  </button>
-                </Link>
-              </div>
-            </div>
-          </div> */}
               </div>
             </div>
           </div>
         </section>
 
         <div className={styles.modslider}>
-            <div className="mt-50">
-              <Newslider />
-              <div className="text-center">
-                <Link href="/our-product">
-                  <button
-                    type="button"
-                    class="btn btn-outline-dark"
-                    style={{ padding: "10px", marginTop:"15px" , marginBottom:"30px" }}
-                  >
-                    Show More
-                  </button>
-                </Link>
-              </div>
+          <div className="mt-50">
+            <Newslider />
+            <div className="text-center">
+              <Link href="/our-product">
+                <button
+                  type="button"
+                  class="btn btn-outline-dark"
+                  style={{
+                    padding: "10px",
+                    marginTop: "15px",
+                    marginBottom: "30px",
+                  }}
+                >
+                  Show More
+                </button>
+              </Link>
             </div>
           </div>
+        </div>
 
-          <div>
-          <Contactmanager/>
+        <div>
+          <Contactmanager />
         </div>
       </Layout>
     </>

@@ -2,8 +2,7 @@
 import Link from "next/link";
 import Accordion from "../components/elements/Accordion";
 import Layout from "../components/layout/Layout";
-import Head from 'next/head';
-
+import Head from "next/head";
 
 function Faq1() {
   return (

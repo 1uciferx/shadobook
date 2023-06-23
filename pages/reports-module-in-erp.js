@@ -6,13 +6,12 @@ import { useState } from "react";
 import PriceTable2 from "../components/elements/PriceTable2";
 import Layout from "../components/layout/Layout";
 import styles from "../styles/Index.module.css";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 import Newslider from "../components/newslider";
 import OfferSlider from "../components/slider/Offer";
 import Contactmanager from "../components/contactmanager";
 import TestimonialSlider from "../components/slider/Testimonial";
-import Head from 'next/head';
-
+import Head from "next/head";
 
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
@@ -28,24 +27,35 @@ function Home() {
 
   return (
     <>
-     <Head>
-        <title>Fully Integrated Reports Module in ERP | Shadobooks ERP  </title>
-        <meta name="description" content="The Reports Module in ERP Software provides users with comprehensive insights into their business operations for better decision-making." />
-        <meta name="keywords" content="Reports Module in ERP"/>
+      <Head>
+        <title>Fully Integrated Reports Module in ERP | Shadobooks ERP </title>
+        <meta
+          name="description"
+          content="The Reports Module in ERP Software provides users with comprehensive insights into their business operations for better decision-making."
+        />
+        <meta name="keywords" content="Reports Module in ERP" />
         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/reports-module-in-erp" /> */}
-
       </Head>
 
- {/* facebook and twitter meta graphs starts here */}
- <Helmet>
+      {/* facebook and twitter meta graphs starts here */}
+      <Helmet>
         <meta property="og:title" content="Shadobooks ERP" />
         <meta property="og:description" content="Shadobooks erp solutions." />
-        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
-        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta
+          property="og:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.facebook.com/shadobookscrm"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Shadobooks ERP" />
         <meta name="twitter:description" content="Shadobooks erp solutions." />
-        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta
+          name="twitter:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
       </Helmet>
 
       {/* facebook and twitter meta graphs ends here */}
@@ -136,7 +146,19 @@ function Home() {
                           </p>
                           <br></br>
                           <p>
-                            Budget: Reports like<span><a href="/project-management-software"> Project</a></span> Budget Overview, Budget vs Actual, and Profit and Loss Budget Performance are used to track the amounts that were budgeted versus what was actually spent on various accounts. Sales tax contains reports like the Tax Detail Report, Tax Summary and that assist in keeping track of taxes. 
+                            Budget: Reports like
+                            <span>
+                              <a href="/project-management-software">
+                                {" "}
+                                Project
+                              </a>
+                            </span>{" "}
+                            Budget Overview, Budget vs Actual, and Profit and
+                            Loss Budget Performance are used to track the
+                            amounts that were budgeted versus what was actually
+                            spent on various accounts. Sales tax contains
+                            reports like the Tax Detail Report, Tax Summary and
+                            that assist in keeping track of taxes.
                           </p>
                         </p>
                       </div>
@@ -499,7 +521,15 @@ function Home() {
 
                           <br></br>
                           <li>
-                          This platform enables<span><a href="/sales-rep-erp-software"> Sales Agents</a></span> and companies to monitor and handle the invoices that have been issued to their clients. 
+                            This platform enables
+                            <span>
+                              <a href="/sales-rep-erp-software">
+                                {" "}
+                                Sales Agents
+                              </a>
+                            </span>{" "}
+                            and companies to monitor and handle the invoices
+                            that have been issued to their clients.
                           </li>
                         </p>
                       </div>
@@ -538,9 +568,9 @@ function Home() {
             </div>
           </div>
         </div>
-        
+
         <div>
-          <Contactmanager/>
+          <Contactmanager />
         </div>
       </Layout>
     </>

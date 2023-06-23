@@ -10,7 +10,7 @@ import Contactmanager from "../components/contactmanager";
 import styles from "../styles/Index.module.css";
 import Newslider from "../components/newslider";
 import Head from "next/head";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 
 const ModalVideo = dynamic(import("react-modal-video"), {
   ssr: false,
@@ -26,21 +26,29 @@ function Manufacturing() {
           name="description"
           content="Elevate your production capabilities with cloud-based manufacturing ERP software, designed to help you streamline processes and maximize efficiency."
         />
-          <meta name="keywords" content="Manufacturing ERP Software"/>
-          {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/manufacturing-erp-software" /> */}
-
+        <meta name="keywords" content="Manufacturing ERP Software" />
+        {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/manufacturing-erp-software" /> */}
       </Head>
 
- {/* facebook and twitter meta graphs starts here */}
- <Helmet>
+      {/* facebook and twitter meta graphs starts here */}
+      <Helmet>
         <meta property="og:title" content="Shadobooks ERP" />
         <meta property="og:description" content="Shadobooks erp solutions." />
-        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
-        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta
+          property="og:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.facebook.com/shadobookscrm"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Shadobooks ERP" />
         <meta name="twitter:description" content="Shadobooks erp solutions." />
-        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta
+          name="twitter:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
       </Helmet>
 
       {/* facebook and twitter meta graphs ends here */}
@@ -56,7 +64,9 @@ function Manufacturing() {
             <div className="container">
               <div className="row">
                 <div className="col-lg-7">
-                  <h1 className="text-display-2 color-white">Open Source Manufacturing ERP software</h1>
+                  <h1 className="text-display-2 color-white">
+                    Open Source Manufacturing ERP software
+                  </h1>
                   <p className="text-body-lead-large color-white mt-30 pr-40">
                     The manufacturing section comes with a statistical dashboard
                     that offers a graphical representation of your manufacturing
@@ -101,7 +111,10 @@ function Manufacturing() {
                     centers can be viewed.
                   </p>
                   <div className="box-image-inner bg-color-2">
-                    <img src="assets/imgs/page/about/6/ManuDB.png" alt="Manufacturing ERP Software" />
+                    <img
+                      src="assets/imgs/page/about/6/ManuDB.png"
+                      alt="Manufacturing ERP Software"
+                    />
                   </div>
                 </div>
               </div>
@@ -114,11 +127,25 @@ function Manufacturing() {
             <div className="col-lg-2 col-sm-1 col-12" />
             <div className="col-lg-8 col-sm-10 col-12 text-center mt-40">
               <h2 className="text-heading-2 color-gray-900 mb-10">
-              It can help manufacturers optimize their processes, track product performance and customer satisfaction, and identify areas for improvement
+                It can help manufacturers optimize their processes, track
+                product performance and customer satisfaction, and identify
+                areas for improvement
               </h2>
             </div>
             <p className="text-body-lead-large color-gray-600 mt-20">
-            Manufacturers can enhance their operations and effectively monitor product performance and customer satisfaction while identifying opportunities for improvement and quality enhancement of their<span><a href="/fixed-assets-management-erp-software"> Company's Assets</a></span> through the use of a<span><a href="/erp-document-management"> File Manager. </a></span>
+              Manufacturers can enhance their operations and effectively monitor
+              product performance and customer satisfaction while identifying
+              opportunities for improvement and quality enhancement of their
+              <span>
+                <a href="/fixed-assets-management-erp-software">
+                  {" "}
+                  Company's Assets
+                </a>
+              </span>{" "}
+              through the use of a
+              <span>
+                <a href="/erp-document-management"> File Manager. </a>
+              </span>
             </p>
             <div className="col-lg-2 col-sm-1 col-12" />
           </div>

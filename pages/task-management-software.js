@@ -8,7 +8,7 @@ import Layout from "../components/layout/Layout";
 import { ParallaxBanner, ParallaxBannerLayer } from "react-scroll-parallax";
 import Bounce from "react-reveal/Bounce";
 import Zoom from "react-reveal/Zoom";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 import styles from "../styles/Index.module.css";
 import Newslider from "../components/newslider";
 import Contactmanager from "../components/contactmanager";
@@ -24,26 +24,36 @@ function Task() {
   return (
     <>
       <Head>
-        <title>Task Management Software for Effective Teams | Shadobooks ERP</title>
+        <title>
+          Task Management Software for Effective Teams | Shadobooks ERP
+        </title>
         <meta
           name="description"
           content="Task Management Software, automates task and operation management in industry, assigning tasks and generating confirmation on completion."
         />
-         <meta name="keywords" content="Task Management Software"/>
-         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/task-management-software" /> */}
-
+        <meta name="keywords" content="Task Management Software" />
+        {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/task-management-software" /> */}
       </Head>
 
- {/* facebook and twitter meta graphs starts here */}
- <Helmet>
+      {/* facebook and twitter meta graphs starts here */}
+      <Helmet>
         <meta property="og:title" content="Shadobooks ERP" />
         <meta property="og:description" content="Shadobooks erp solutions." />
-        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
-        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta
+          property="og:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.facebook.com/shadobookscrm"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Shadobooks ERP" />
         <meta name="twitter:description" content="Shadobooks erp solutions." />
-        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta
+          name="twitter:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
       </Helmet>
 
       {/* facebook and twitter meta graphs ends here */}
@@ -58,7 +68,9 @@ function Task() {
           >
             <div className="container">
               <div className="text-center">
-                <h1 className="text-display-2 color-white mt-30">Task Management Software for Effective Teams </h1>
+                <h1 className="text-display-2 color-white mt-30">
+                  Task Management Software for Effective Teams{" "}
+                </h1>
                 <p className="text-body-lead-large color-white mt-40 pr-40">
                   In ShadoBooks ERP, tasks are a feature that enables users to
                   organize and track follow-up activities by creating and
@@ -81,7 +93,10 @@ function Task() {
                 <div className="grid-4-img">
                   {/* <Link href="#"> 
                   <a>  */}
-                  <img src="assets/imgs/page/about/10/TS.png" alt="Task Management Software" />
+                  <img
+                    src="assets/imgs/page/about/10/TS.png"
+                    alt="Task Management Software"
+                  />
                   {/* </a>
 
                  </Link> */}
@@ -99,8 +114,12 @@ function Task() {
                 ➟ Task name, Status (Not Started, In Progress, Completed, etc),
                 Start date, Due date, Assignee(s), Priority level tab.
                 <br />
-                <br />
-                ➟ The task summary page allows you to view and manage all the tasks in one place including<span><a href="/best-hrms-software"> HR management</a></span> task. 
+                <br />➟ The task summary page allows you to view and manage all
+                the tasks in one place including
+                <span>
+                  <a href="/best-hrms-software"> HR management</a>
+                </span>{" "}
+                task.
                 <br />
                 <br />➟ You can filter and sort the task list by task name,
                 status, start date, due date, assignee and priority level.
@@ -169,7 +188,10 @@ function Task() {
             <div className="row">
               <div className="col-lg-6 col-md-12 col-sm-12 block-img-we-do text-center">
                 <div className="card-grid-style-3">
-                  <img src="assets/imgs/page/about/10/STK.png" alt="Task Management Software" />
+                  <img
+                    src="assets/imgs/page/about/10/STK.png"
+                    alt="Task Management Software"
+                  />
                 </div>
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 block-we-do">
@@ -238,8 +260,10 @@ function Task() {
                     <br />
                     The task overview page allows you to filter task lists by:
                     <br />
-                    <br />
-                    ➟ Staff members, Month, Year and<span><a href="/hr-and-payroll-software"> Payroll </a></span>
+                    <br />➟ Staff members, Month, Year and
+                    <span>
+                      <a href="/hr-and-payroll-software"> Payroll </a>
+                    </span>
                     <br />
                     <br />
                     ➟ This makes it easy to view and manage tasks assigned to

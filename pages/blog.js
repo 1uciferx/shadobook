@@ -23,7 +23,6 @@ function Blog() {
                     <h1 className="text-display-3 color-gray-900 mb-20">
                       Our Blogs
                     </h1>
-                    {/* <p className="text-heading-6 color-gray-600 mb-20">From year to year we strive to invent the most innovative technology<br className="d-lg-block d-none" />that is used by both small enterprises and space enterprises.</p> */}
                   </div>
                 </div>
               </div>
@@ -111,11 +110,6 @@ function Blog() {
                   </div>
                 </div>
 
-
-
-
-
-
                 <div className="col-lg-4 col-sm-6 pr-30 mb-50">
                   <div className="card-grid-style-4">
                     <div className="grid-4-img color-bg-2 mb-20">
@@ -151,7 +145,8 @@ function Blog() {
                     <Link href="/blog/best-financial-tool">
                       <a className="text-heading-4">
                         {" "}
-                       The Best Financial Tool for Simplifying Complex Financial Transactions
+                        The Best Financial Tool for Simplifying Complex
+                        Financial Transactions
                       </a>
                     </Link>
                   </div>
@@ -172,14 +167,12 @@ function Blog() {
                     <Link href="/blog/erp-pos-system">
                       <a className="text-heading-4">
                         {" "}
-                        How Shadobooks ERP POS System Help You to Stay Top of The Business
+                        How Shadobooks ERP POS System Help You to Stay Top of
+                        The Business
                       </a>
                     </Link>
                   </div>
                 </div>
-
-
-
 
                 <div className="col-lg-4 col-sm-6 pr-30 mb-50">
                   <div className="card-grid-style-4">
@@ -287,8 +280,6 @@ function Blog() {
                   </div>
                 </div>
 
-
-
                 <div className="col-lg-4 col-sm-6 pr-30 mb-50">
                   <div className="card-grid-style-4">
                     <div className="grid-4-img mb-20">
@@ -303,12 +294,12 @@ function Blog() {
                     </div>
                     <Link href="/blog/accounting-software-with-multi-currency-support">
                       <a className="text-heading-4">
-                      The Advantages of Accounting Software with Multi-Currency Support
+                        The Advantages of Accounting Software with
+                        Multi-Currency Support
                       </a>
                     </Link>
                   </div>
                 </div>
-
 
                 <div className="col-lg-4 col-sm-6 pr-30 mb-50">
                   <div className="card-grid-style-4">
@@ -324,16 +315,13 @@ function Blog() {
                     </div>
                     <Link href="/blog/shadobooks-erp-in-construction-industry">
                       <a className="text-heading-4">
-                      Enhancing Project Efficiency and Cost Management with Shadobooks ERP in Construction Industry
+                        Enhancing Project Efficiency and Cost Management with
+                        Shadobooks ERP in Construction Industry
                       </a>
                     </Link>
                   </div>
                 </div>
 
-
-
-
-                
                 <div className="col-lg-4 col-sm-6 pr-30 mb-50">
                   <div className="card-grid-style-4">
                     <div className="grid-4-img mb-20">
@@ -348,13 +336,12 @@ function Blog() {
                     </div>
                     <Link href="/blog/ai-software-for-accounting">
                       <a className="text-heading-4">
-                      How Artificial Intelligence is Revolutionizing Accounting Software
+                        How Artificial Intelligence is Revolutionizing
+                        Accounting Software
                       </a>
                     </Link>
                   </div>
                 </div>
-
-
 
                 <div className="col-lg-4 col-sm-6 pr-30 mb-50">
                   <div className="card-grid-style-4">
@@ -370,13 +357,12 @@ function Blog() {
                     </div>
                     <Link href="/blog/retail-erp-software">
                       <a className="text-heading-4">
-                      Make the Future of Retail Industry Brighter with Shadobooks ERP
+                        Make the Future of Retail Industry Brighter with
+                        Shadobooks ERP
                       </a>
                     </Link>
                   </div>
                 </div>
-
-
 
                 <div className="col-lg-4 col-sm-6 pr-30 mb-50">
                   <div className="card-grid-style-4">
@@ -392,16 +378,14 @@ function Blog() {
                     </div>
                     <Link href="/blog/automated-financial-processes">
                       <a className="text-heading-4">
-                      Increasing Efficiency for Automated Financial Processes with Shadobooks ERP
+                        Increasing Efficiency for Automated Financial Processes
+                        with Shadobooks ERP
                       </a>
                     </Link>
                   </div>
                 </div>
 
-
-
                 <div className="col-lg-4 col-sm-12 pr-30 mb-50">
-
                   <div className="card-list-style-1">
                     <Link href="/blog/data-privacy-in-accounting-software">
                       <a className="text-heading-6">
@@ -506,9 +490,8 @@ function Blog() {
                           />
                         </a>
                       </Link>
-                    </div>                    
+                    </div>
                   </div>
-
                 </div>
               </div>
             </div>

@@ -7,7 +7,7 @@ import Contactmanager from "../components/contactmanager";
 import PriceTable2 from "../components/elements/PriceTable2";
 import Layout from "../components/layout/Layout";
 import OfferSlider from "../components/slider/Offer";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 import TestimonialSlider from "../components/slider/Testimonial";
 import styles from "../styles/Index.module.css";
 import Newslider from "../components/newslider";
@@ -33,21 +33,29 @@ function Utilities() {
           name="description"
           content="Revolutionize utility management with our utility management software offering comprehensive tools such as bulk PDF/CSV export, calendar & goal setting."
         />
-         <meta name="keywords" content="Utility management software "/>
-         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/utility-management-software" /> */}
-
+        <meta name="keywords" content="Utility management software " />
+        {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/utility-management-software" /> */}
       </Head>
-      
- {/* facebook and twitter meta graphs starts here */}
- <Helmet>
+
+      {/* facebook and twitter meta graphs starts here */}
+      <Helmet>
         <meta property="og:title" content="Shadobooks ERP" />
         <meta property="og:description" content="Shadobooks erp solutions." />
-        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
-        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta
+          property="og:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.facebook.com/shadobookscrm"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Shadobooks ERP" />
         <meta name="twitter:description" content="Shadobooks erp solutions." />
-        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta
+          name="twitter:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
       </Helmet>
 
       {/* facebook and twitter meta graphs ends here */}
@@ -65,7 +73,9 @@ function Utilities() {
           >
             <div className="container">
               <div className="text-center">
-                <h1 className="text-display-2 color-white mt-30">Optimize Utility Management Software with ShadobooksERP</h1>
+                <h1 className="text-display-2 color-white mt-30">
+                  Optimize Utility Management Software with ShadobooksERP
+                </h1>
                 <p className="text-body-lead-large color-white mt-40 pr-40">
                   Utilities in CRM refer to the various tools and functions that
                   help to make the customer relationship management process more
@@ -144,8 +154,11 @@ function Utilities() {
                       clicking on CSV export button.
                       <br></br>
                       <br></br>➟ In that window, you can select export types
-                      such as customers, contacts, <span><a href="/lead-management-system"> leads</a></span>, expenses, receipts,
-                      and periods.
+                      such as customers, contacts,{" "}
+                      <span>
+                        <a href="/lead-management-system"> leads</a>
+                      </span>
+                      , expenses, receipts, and periods.
                       <br></br>
                       <br></br>➟ After selecting the options, click the export
                       button, it will download the CSV file of exported .
@@ -182,7 +195,14 @@ function Utilities() {
                       <br></br>➟ To access this window, go to Utilities and
                       click on the calendar option.
                       <br></br>
-                      <br></br>➟ Now you can see tasks,<span><a href="/recruitment-management-software"> Job posting</a></span> and events in Shadobook ERP
+                      <br></br>➟ Now you can see tasks,
+                      <span>
+                        <a href="/recruitment-management-software">
+                          {" "}
+                          Job posting
+                        </a>
+                      </span>{" "}
+                      and events in Shadobook ERP
                     </p>
                   </div>
                 </div>

@@ -3,34 +3,39 @@
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
 import Accordion from "../components/elements/Accordion";
-import { Helmet } from 'react-helmet';
-
+import { Helmet } from "react-helmet";
 
 function Service1() {
   return (
     <>
-     
-        
- {/* facebook and twitter meta graphs starts here */}
+      {/* facebook and twitter meta graphs starts here */}
       <Helmet>
-      <title>
-      Get the Best IT ERP Software for Efficient IT & Support Services
-         </title>
-         <meta
-           name="description"
-           content="Shadobooks IT ERP Software is a powerful tool to streamline operations and increase efficiency. It can manage finance, inventory, and customer relationships, helping businesses improve their productivity."
-         />
-          <meta name="keywords" content="IT ERP Software"/>
+        <title>
+          Get the Best IT ERP Software for Efficient IT & Support Services
+        </title>
+        <meta
+          name="description"
+          content="Shadobooks IT ERP Software is a powerful tool to streamline operations and increase efficiency. It can manage finance, inventory, and customer relationships, helping businesses improve their productivity."
+        />
+        <meta name="keywords" content="IT ERP Software" />
         <meta property="og:title" content="Shadobooks ERP" />
         <meta property="og:description" content="Shadobooks erp solutions." />
-        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
-        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
+        <meta
+          property="og:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.facebook.com/shadobookscrm"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Shadobooks ERP" />
         <meta name="twitter:description" content="Shadobooks erp solutions." />
-        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
+        <meta
+          name="twitter:image"
+          content="/assets/imgs/page/homepage1/sb-logo.png"
+        />
         {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/it-erp-software" /> */}
-
       </Helmet>
 
       {/* facebook and twitter meta graphs ends here */}
@@ -54,19 +59,6 @@ function Service1() {
                     analytical widgets for sales, such as charts, goal meters,
                     KPIs, and funnels.
                   </p>
-                  {/* <div className="mt-40">
-                    <Link href="/page-about-1">
-                      <a className="btn btn-black shape-square icon-arrow-right-white">
-                        Get Started
-                      </a>
-                    </Link>
-
-                    <Link href="/page-pricing-1">
-                      <a className="btn btn-link icon-triangle color-gray-900 ml-40">
-                        How it works
-                      </a>
-                    </Link>
-                  </div> */}
                 </div>
                 <div className="col-lg-6 d-none d-lg-block">
                   <div className="banner-imgs">
@@ -90,9 +82,6 @@ function Service1() {
           <div className="container">
             <div className="row">
               <div className="col-lg-12 col-sm-12 col-12">
-                {/* <div className="text-start mb-25">
-                  <span className="tag-1 bg-6 color-green-900">What We Do</span>
-                </div> */}
                 <h2 className="text-heading-2 color-gray-900 mb-50">
                   Our features
                 </h2>
@@ -446,16 +435,7 @@ function Service1() {
           <div className="container mt-70">
             <div className="row">
               <div className="col-lg-6 col-sm-12 mb-30">
-                {/* <span className="tag-1 bg-6 color-green-900">
-                  Built Exclusively For You
-                </span> */}
                 <h3 className="text-heading-1 mt-30">Why choose us ?</h3>
-                {/* <p className="text-body-lead-large color-gray-600 mt-30">
-                  Necessary to deliver white glove, fully managed campaigns that
-                  surpass industry benchmarks.Take your career to next level.
-                  Apply to our team and see what we can do together. You’re good
-                  enough.
-                </p> */}
 
                 <div className="line-bd-green mt-50" />
                 <div className="row">
@@ -540,187 +520,7 @@ function Service1() {
             </div>
           </div>
         </section>
-        {/* <section className="section-box mt-70">
-          <div className="container mt-50">
-            <h3 className="text-heading-1 text-center mb-10">
-              Choose The Best Plan
-              <br className="d-lg-block d-none" />
-              That’s For You
-            </h3>
-          </div>
-          <div className="container mt-20">
-            <div className="text-center block-bill-2 mt-10">
-              <span className="text-lg text-billed">Billed Monthly</span>
-              <label className="switch ml-20 mr-20">
-                <input id="cb_billed_type" type="checkbox" name="billed_type" />
-                <span className="slider round" />
-              </label>
-              <span className="text-lg text-billed">Bill Annually</span>
-            </div>
-            <div className="block-pricing block-pricing-2 mt-70">
-              <div className="row">
-                <div className="col-xl-12 col-lg-12">
-                  <div className="row">
-                    <div
-                      className="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn"
-                      data-wow-delay=".1s"
-                    >
-                      <div className="box-pricing-item hover-up">
-                        <div className="box-info-price">
-                          <span className="text-heading-3 for-month display-month">
-                            $35
-                          </span>
-                          <span className="text-heading-3 for-year">$420</span>
-                          <span className="text-month for-month text-body-small color-gray-400">
-                            /month
-                          </span>
-                          <span className="text-month for-year text-body-small color-gray-400">
-                            /year
-                          </span>
-                        </div>
-                        <div className="line-bd-bottom">
-                          <h4 className="text-heading-5 mb-15">Standard</h4>
-                          <p className="text-body-small color-gray-400">
-                            All the basics for businesses that are just getting
-                            started.
-                          </p>
-                        </div>
-                        <ul className="list-package-feature">
-                          <li>Unlimited updates</li>
-                          <li>Custom permissions</li>
-                          <li>Custom designs &amp; features</li>
-                        </ul>
-                        <div>
-                          <Link href="/#">
-                            <a className="btn btn-black text-body-lead icon-arrow-right-white">
-                              Get Started
-                            </a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn"
-                      data-wow-delay=".2s"
-                    >
-                      <div className="box-pricing-item active hover-up">
-                        <div className="box-info-price">
-                          <span className="text-heading-3 for-month display-month">
-                            $89
-                          </span>
-                          <span className="text-heading-3 for-year">$1068</span>
-                          <span className="text-month for-month text-body-small color-gray-400">
-                            /month
-                          </span>
-                          <span className="text-month for-year text-body-small color-gray-400">
-                            /year
-                          </span>
-                        </div>
-                        <div className="line-bd-bottom">
-                          <h4 className="text-heading-5 mb-15">Essentials</h4>
-                          <p className="text-body-small color-gray-400">
-                            All the basics for businesses that are just getting
-                            started.
-                          </p>
-                        </div>
-                        <ul className="list-package-feature">
-                          <li>Unlimited updates</li>
-                          <li>Custom permissions</li>
-                          <li>Custom instructors</li>
-                        </ul>
-                        <div>
-                          <Link href="/#">
-                            <a className="btn btn-black text-body-lead icon-arrow-right-white">
-                              Get Started
-                            </a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn"
-                      data-wow-delay=".3s"
-                    >
-                      <div className="box-pricing-item hover-up">
-                        <div className="box-info-price">
-                          <span className="text-heading-3 for-month display-month">
-                            $125
-                          </span>
-                          <span className="text-heading-3 for-year">$1500</span>
-                          <span className="text-month for-month text-body-small color-gray-400">
-                            /month
-                          </span>
-                          <span className="text-month for-year text-body-small color-gray-400">
-                            /year
-                          </span>
-                        </div>
-                        <div className="line-bd-bottom">
-                          <h4 className="text-heading-5 mb-15">Premium</h4>
-                          <p className="text-body-small color-gray-400">
-                            Avvanced features for pros who need more
-                            customization.
-                          </p>
-                        </div>
-                        <ul className="list-package-feature">
-                          <li>Unlimited updates</li>
-                          <li>Custom designs &amp; features</li>
-                          <li>Custom permissions</li>
-                          <li>Custom instructors</li>
-                        </ul>
-                        <div>
-                          <Link href="/#">
-                            <a className="btn btn-black text-body-lead icon-arrow-right-white">
-                              Get Started
-                            </a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn"
-                      data-wow-delay=".4s"
-                    >
-                      <div className="box-pricing-item hover-up">
-                        <div className="box-info-price">
-                          <span className="text-heading-3 for-month display-month">
-                            $199
-                          </span>
-                          <span className="text-heading-3 for-year">$2388</span>
-                          <span className="text-month for-month text-body-small color-gray-400">
-                            /month
-                          </span>
-                          <span className="text-month for-year text-body-small color-gray-400">
-                            /year
-                          </span>
-                        </div>
-                        <div className="line-bd-bottom">
-                          <h4 className="text-heading-5 mb-15">Unlimited</h4>
-                          <p className="text-body-small color-gray-400">
-                            Avvanced features for pros who need more
-                            customization.
-                          </p>
-                        </div>
-                        <ul className="list-package-feature">
-                          <li>Unlimited updates &amp; Support</li>
-                          <li>Custom designs &amp; features</li>
-                          <li>Custom permissions</li>
-                          <li>Custom instructors</li>
-                        </ul>
-                        <div>
-                          <Link href="/#">
-                            <a className="btn btn-black text-body-lead icon-arrow-right-white">
-                              Get Started
-                            </a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> */}
+
         <section className="section-box overflow-visible mb-100">
           <div className="container mt-100">
             <div className="row">

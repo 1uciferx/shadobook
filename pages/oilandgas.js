@@ -3,28 +3,38 @@ import Link from "next/link";
 
 import Layout from "../components/layout/Layout";
 import OfferSlider from "../components/slider/Offer";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 
 function Oilandgas() {
   return (
     <>
       <Layout>
-        
- {/* facebook and twitter meta graphs starts here */}
-      <Helmet>
-        <meta property="og:title" content="Shadobooks ERP" />
-        <meta property="og:description" content="Shadobooks erp solutions." />
-        <meta property="og:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
-        <meta property="og:url" content="https://www.facebook.com/shadobookscrm" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Shadobooks ERP" />
-        <meta name="twitter:description" content="Shadobooks erp solutions." />
-        <meta name="twitter:image" content="/assets/imgs/page/homepage1/sb-logo.png" />
-        {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/oilandgas" /> */}
+        {/* facebook and twitter meta graphs starts here */}
+        <Helmet>
+          <meta property="og:title" content="Shadobooks ERP" />
+          <meta property="og:description" content="Shadobooks erp solutions." />
+          <meta
+            property="og:image"
+            content="/assets/imgs/page/homepage1/sb-logo.png"
+          />
+          <meta
+            property="og:url"
+            content="https://www.facebook.com/shadobookscrm"
+          />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Shadobooks ERP" />
+          <meta
+            name="twitter:description"
+            content="Shadobooks erp solutions."
+          />
+          <meta
+            name="twitter:image"
+            content="/assets/imgs/page/homepage1/sb-logo.png"
+          />
+          {/* <meta http-equiv="refresh" content="0; url=https://shadobooks.com/oilandgas" /> */}
+        </Helmet>
 
-      </Helmet>
-
-      {/* facebook and twitter meta graphs ends here */}
+        {/* facebook and twitter meta graphs ends here */}
 
         <section className="section-box">
           <div className="banner-hero bg-service-2">
@@ -50,19 +60,6 @@ function Oilandgas() {
                     works efficiently, and the sales team needs access to
                     reliable real-time data.
                   </p>
-                  {/* <div className="mt-40 text-center">
-                    <Link href="/page-about-1">
-                      <a className="btn btn-black icon-arrow-right-white">
-                        Get Started
-                      </a>
-                    </Link>
-
-                    <Link href="/page-faqs-2">
-                      <a className="btn btn-link icon-triangle color-gray-900 ml-40">
-                        How it works
-                      </a>
-                    </Link>
-                  </div> */}
                 </div>
                 <div className="col-lg-12 d-none d-lg-block">
                   <div className="row">
@@ -88,7 +85,7 @@ function Oilandgas() {
                           />
                         </div>
                         <img
-                           src="assets/imgs/page/homepage4/oilandgas.jpg " 
+                          src="assets/imgs/page/homepage4/oilandgas.jpg "
                           alt="ShadoBooks"
                         />
                       </div>
@@ -100,7 +97,7 @@ function Oilandgas() {
             </div>
           </div>
         </section>
-       
+
         <section className="section-box mt-90">
           <div className="container">
             <div className="row">
@@ -182,9 +179,9 @@ function Oilandgas() {
 
               <div className="col-lg-2 col-sm-1 col-12" />
             </div>
-          </div>  
+          </div>
         </section>
-        
+
         <section className="section-box">
           <div className="container mt-120">
             <div className="bg-2 bdrd-58 pattern-white none-pattern pb-60">
@@ -206,25 +203,21 @@ function Oilandgas() {
         <section className="section-box pt-140 pb-50">
           <div className="container">
             <div className="row">
-             
               {/* faq */}
-             
-                <div>
-                  <div className="section-box" />
-                  <div className="banner-hero banner-breadcrums">
-                    <div className="container">
-                      <div className="row">
-                        <div className="col-lg-5">
-                          <h1 className="text-heading-3 color-gray-900 mb-20">
+
+              <div>
+                <div className="section-box" />
+                <div className="banner-hero banner-breadcrums">
+                  <div className="container">
+                    <div className="row">
+                      <div className="col-lg-5">
+                        <h1 className="text-heading-3 color-gray-900 mb-20">
                           FAQ'S
-                          </h1>
-                          
-                        </div>
-                      
+                        </h1>
                       </div>
                     </div>
-                 
-                
+                  </div>
+
                   <div className="section-box mt-100" />
                   <div className="container">
                     <div className="row">
@@ -232,44 +225,63 @@ function Oilandgas() {
                         <ul className="list-icons-2">
                           <li>
                             <h3 className="text-heading-5 mb-10">
-                            What is CRM in the oil and gas industry?
+                              What is CRM in the oil and gas industry?
                             </h3>
                             <p className="text-body-text color-gray-500">
-                            Customer relationship management aids vital decision-makers working with big operators by connecting and maintaining several significant connections that impact the sales channel. Your business and sales personnel can understand where they affect the environment by building an overall picture of critical worker movement.
+                              Customer relationship management aids vital
+                              decision-makers working with big operators by
+                              connecting and maintaining several significant
+                              connections that impact the sales channel. Your
+                              business and sales personnel can understand where
+                              they affect the environment by building an overall
+                              picture of critical worker movement.
                             </p>
                           </li>
                           <li>
                             <h3 className="text-heading-5 mb-10">
-                          	Is it challenging to learn CRM?
+                              Is it challenging to learn CRM?
                             </h3>
                             <p className="text-body-text color-gray-500">
-                            CRM is simple to learn because it is made to make managing your connections with clients easier. In order to make modifications along the road, it also enables you to track your sales and marketing activities. This makes it simpler to understand what has to be done to manage your connections with consumers.
+                              CRM is simple to learn because it is made to make
+                              managing your connections with clients easier. In
+                              order to make modifications along the road, it
+                              also enables you to track your sales and marketing
+                              activities. This makes it simpler to understand
+                              what has to be done to manage your connections
+                              with consumers.
                             </p>
                           </li>
-                          
+
                           <li>
                             <h3 className="text-heading-5 mb-10">
-                          	How can a CRM system be used to <br></br>communicate supply chain problems?
+                              How can a CRM system be used to <br></br>
+                              communicate supply chain problems?
                             </h3>
                             <p className="text-body-text color-gray-500">
-                            When CRM and supply chain systems work together, the two may take immediate action in response to consumer wants and expectations with the help of transparent data.
+                              When CRM and supply chain systems work together,
+                              the two may take immediate action in response to
+                              consumer wants and expectations with the help of
+                              transparent data.
                             </p>
                           </li>
                           <li>
                             <h3 className="text-heading-5 mb-10">
-                            	Why is CRM important for supply chain management?
+                              Why is CRM important for supply chain management?
                             </h3>
                             <p className="text-body-text color-gray-500">
-                            Customer relationship management is crucial to supply chain management because it adds value to the entire system. Increased profit margins are achieved by enhancing client retention, satisfaction, and loyalty. By streamlining the supply chain, CRM aids businesses in increasing sales and income.
+                              Customer relationship management is crucial to
+                              supply chain management because it adds value to
+                              the entire system. Increased profit margins are
+                              achieved by enhancing client retention,
+                              satisfaction, and loyalty. By streamlining the
+                              supply chain, CRM aids businesses in increasing
+                              sales and income.
                             </p>
                           </li>
-                         
                         </ul>
                       </div>
                     </div>
                   </div>
-                  
-                  
                 </div>
               </div>
             </div>
@@ -307,7 +319,10 @@ function Oilandgas() {
                     </div>
                     <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
                       <div className="block-chart shape-1">
-                        <img src="/assets/imgs/template/chart.png" alt="ShadoBooks" />
+                        <img
+                          src="/assets/imgs/template/chart.png"
+                          alt="ShadoBooks"
+                        />
                       </div>
                       <img
                         className="img-responsive img-newsletter"
